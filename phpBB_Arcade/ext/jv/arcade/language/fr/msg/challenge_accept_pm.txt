@@ -1,8 +1,0 @@
-{SUBJECT}Défi arcade accepté!
-
-
-
-[opponent_user_link] a accepté le défi pour le(s) jeu(x) : [games_name].
-{ARCADE_POINT_SYSTEM_MSG}
-
-[view_challenge]

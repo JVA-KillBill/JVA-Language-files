@@ -1,6 +1,0 @@
-{SUBJECT}Herausforderung gelöscht!
-
-Benutzer [opponent_user_link] meldete das Spiel [game_name] als fehlerhaft, deshalb wurde das Duell gelöscht.
-{ARCADE_POINT_SYSTEM_MSG}
-
-[view_challenge]
