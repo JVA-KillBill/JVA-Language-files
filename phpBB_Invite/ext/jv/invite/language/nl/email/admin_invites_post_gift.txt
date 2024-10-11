@@ -1,0 +1,10 @@
+Subject: Uitnodigingsgeschenken
+
+Je hebt de bericht mijlpaal bereikt, dus je hebt {NUMBER_INVITE} geschenk uitnodigingen ontvangen.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Webpagina link: {U_BOARD}
+Contact: {BOARD_CONTACT}
+
+{EMAIL_SIG}

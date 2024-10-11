@@ -1,0 +1,13 @@
+Subject: Invitation gift
+
+The “{SITENAME}” website would like to thank you for inviting another new member to our website using the invitation system.
+We want you to continue using the invitation system, so we've credited you with {NUMBER_INVITE} invitation as a gift.
+
+We wish you a pleasant stay.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Webpage link: {U_BOARD}
+Contact: {BOARD_CONTACT}
+
+{EMAIL_SIG}

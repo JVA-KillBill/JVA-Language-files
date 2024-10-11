@@ -1,0 +1,11 @@
+Subject: Ajándék meghívó
+
+Születésnapod alkalmából {NUMBER_INVITE} ajándék meghívót kaptál.
+Boldog szülinapot kívánunk.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Weboldal címe: {U_BOARD}
+Kapcsolat: {BOARD_CONTACT}
+
+{EMAIL_SIG}

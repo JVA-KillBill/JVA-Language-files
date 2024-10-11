@@ -1,0 +1,13 @@
+Subject: Einladungsgeschenk
+
+Die Webseite „{SITENAME}“ möchte sich bei dir bedanken für die Einladung eines anderen Mitglieds auf unsere Webseite mittels unseres Einladungssystems.
+Wir möchten gern, dass du das Einladungssystem auch weiterhin verwendest, darum belohnen wir dich mit einem Geschenk von {NUMBER_INVITE} neuen Einladungen.
+
+Wir wünschen auch weiterhin einen angenehmen Aufenthalt.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Webseitenlink: {U_BOARD}
+Kontakt: {BOARD_CONTACT}
+
+{EMAIL_SIG}

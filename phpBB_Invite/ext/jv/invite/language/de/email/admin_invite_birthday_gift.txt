@@ -1,0 +1,11 @@
+Subject: Einladungsgeschenk
+
+Du hast {NUMBER_INVITE} Einladungen als Geburtstagsgeschenk erhalten.
+Wir wünschen dir alles Gute zum Geburtstag.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Webseitenlink: {U_BOARD}
+Kontakt: {BOARD_CONTACT}
+
+{EMAIL_SIG}

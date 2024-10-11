@@ -1,0 +1,8 @@
+Subject: Uitnodigingsverzoek
+
+Er is een uitnodigingsverzoek ontvangen van {USERNAME}.
+Gevraagde uitnodiging van {NUMBER_INVITE}.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Webpagina link: {U_BOARD}

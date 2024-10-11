@@ -1,0 +1,11 @@
+Subject: Meghívó kérelem
+
+A meghívók iránti kérelmed elfogadásra került.
+Jóváírtunk számodra {NUMBER_INVITE} meghívót.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Weboldal címe: {U_BOARD}
+Kapcsolat: {BOARD_CONTACT}
+
+{EMAIL_SIG}

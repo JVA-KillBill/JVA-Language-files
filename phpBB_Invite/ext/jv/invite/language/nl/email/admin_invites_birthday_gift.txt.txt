@@ -1,0 +1,11 @@
+Subject: Geschenkuitnodigingen
+
+Je hebt {NUMBER_INVITE} geschenk uitnodigingen voor je verjaardag ontvangen.
+We wensen je een fijne verjaardag
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Webpagina link: {U_BOARD}
+Contact: {BOARD_CONTACT}
+
+{EMAIL_SIG}

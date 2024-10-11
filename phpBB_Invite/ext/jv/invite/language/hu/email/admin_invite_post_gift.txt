@@ -1,0 +1,10 @@
+Subject: Ajándék meghívó
+
+Sikeresen elérted a hozzászólások mérföldkövét ezért {NUMBER_INVITE} ajándék meghívót kaptál.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Weboldal címe: {U_BOARD}
+Kapcsolat: {BOARD_CONTACT}
+
+{EMAIL_SIG}

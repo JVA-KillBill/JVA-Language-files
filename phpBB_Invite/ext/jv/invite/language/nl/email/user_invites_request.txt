@@ -1,0 +1,8 @@
+Subject: Uitnodigingsverzoek
+
+Je hebt een verzoek voor extra uitnodigingen ontvangen van de gebruiker {USERNAME}.
+Het aantal gevraagde uitnodigingen is {NUMBER_INVITE}.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Webpagina link: {U_BOARD}

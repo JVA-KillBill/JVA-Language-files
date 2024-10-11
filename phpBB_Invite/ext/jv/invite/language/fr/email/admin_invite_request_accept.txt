@@ -1,0 +1,11 @@
+Subject: Demande d’invitation
+
+Votre demande d’invitation a été acceptée.
+Nous vous avons {NUMBER_INVITE} envoyé d’invitation.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Lien vers la page Web : {U_BOARD}
+Contact : {BOARD_CONTACT}
+
+{EMAIL_SIG}

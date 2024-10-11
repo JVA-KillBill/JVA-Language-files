@@ -1,0 +1,11 @@
+Subject: Einladungsanfrage
+
+Deine Einladungsanfragen wurde akzeptiert.
+Wir haben dir {NUMBER_INVITE} Einladungen gutgeschrieben.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Webseitenlink: {U_BOARD}
+Kontakt: {BOARD_CONTACT}
+
+{EMAIL_SIG}
