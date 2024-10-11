@@ -1,0 +1,6 @@
+{SUBJECT}Játéktermi kihívás törlése!
+
+[opponent_user_link] felhasználó hibajelentést küldött a [game_name] játékról, ezért a kihívás törlésre került.
+{ARCADE_POINT_SYSTEM_MSG}
+
+[view_challenge]

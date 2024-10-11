@@ -1,0 +1,11 @@
+{SUBJECT}Re: [Turnierinformation] - [tour_name]
+
+[b]Das Turnier ist beendet.[/b]
+
+Spiele und Gewinner des Turniers: [tour_games_link]
+
+[b]Den ersten Platz erreichte:[/b] [1_username_link] {1_ARCADE_POINT_SYSTEM_MSG}
+[b]Den zweiten Platz erreichte:[/b] [2_username_link] {2_ARCADE_POINT_SYSTEM_MSG}
+[b]Den dritten Platz erreichte:[/b] [3_username_link] {3_ARCADE_POINT_SYSTEM_MSG}
+
+Wenn du mehr Informationen wünschst, kannst du dir das Turnier hier ansehen: [tour_end_link].

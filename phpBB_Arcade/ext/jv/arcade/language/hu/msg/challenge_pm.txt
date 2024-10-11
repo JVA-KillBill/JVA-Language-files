@@ -1,0 +1,14 @@
+{SUBJECT}Játéktermi kihívás érkezett számodra!
+
+[game_image_link]
+[game_stats_link]
+[game_popup_link]
+
+[challenger_user_link] felhasználó szeretne kihívni téged egy jó kis versenyre a [game_link] játékban.
+{ARCADE_POINT_SYSTEM_MSG}
+
+[view_challenge]
+
+[b]Figyelem![/b]
+Ahhoz, hogy a kihívás életbe lépjen, neked előbb a kihívás oldalon el kell, hogy fogadd és a verseny csak ezután kezdődik el.
+Amennyiben nem szeretnéd ezt a kihívás lejátszani, abban az esetben lehetőséged van elutasítani.

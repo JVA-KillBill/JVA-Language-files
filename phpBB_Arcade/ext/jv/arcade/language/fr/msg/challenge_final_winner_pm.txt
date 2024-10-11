@@ -1,0 +1,11 @@
+{SUBJECT}Résultat final du défi Arcade!
+
+[game_image_link]
+[game_stats_link]
+[game_popup_link]
+
+Félicitations pour votre victoire dans le défi à [game_link].
+[loser_user_link] a fait [loser_score] et votre score est de [winner_score].
+{ARCADE_POINT_SYSTEM_MSG}
+
+[view_challenge]

@@ -1,0 +1,6 @@
+{SUBJECT}Défi arcade supprimé!
+
+[opponent_user_link] a envoyé un rapport de bug pour le jeu [game_name]et le défi a été supprimé.
+{ARCADE_POINT_SYSTEM_MSG}
+
+[view_challenge]
