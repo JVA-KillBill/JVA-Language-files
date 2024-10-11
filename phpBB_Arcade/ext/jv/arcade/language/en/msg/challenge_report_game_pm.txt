@@ -1,0 +1,6 @@
+{SUBJECT}Arcade challenge deleted!
+
+User [opponent_user_link] sent bug reports for the game [game_name], so the challenge has been deleted.
+{ARCADE_POINT_SYSTEM_MSG}
+
+[view_challenge]

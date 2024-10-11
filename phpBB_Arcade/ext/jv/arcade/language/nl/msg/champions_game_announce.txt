@@ -1,0 +1,7 @@
+{SUBJECT}[Arcade Top {TOP_NUMBER}] - [YY].[MM],[DD]
+
+[b]De toplijst is aangemaakt door de arcade.[/b]
+
+In de laatste spelperiode waren de volgende spelers de beste:
+
+[users_list_link]

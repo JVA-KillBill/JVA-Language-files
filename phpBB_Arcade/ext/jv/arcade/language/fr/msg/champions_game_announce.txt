@@ -1,0 +1,7 @@
+{SUBJECT}[Salle de jeu top {TOP_NUMBER}] - [MM].[DD].[YYYY]
+
+[b]La liste des gagnants est générée par l’arcade.[/b]
+
+Dans la dernière période du match, les joueurs suivants ont été les meilleurs:
+
+[users_list_link]

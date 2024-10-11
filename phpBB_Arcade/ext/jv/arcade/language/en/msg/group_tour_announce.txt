@@ -1,0 +1,11 @@
+{SUBJECT}[Group tournament announcement] - [tour_name]
+
+[b]A new group tournament has been created.[/b]
+
+Game in tournament: [tour_game_link]
+Number of tournament participants: [tour_places]
+{ARCADE_POINT_SYSTEM_MSG}
+
+If you wish to gain more information you can look at the group tournament: [tour_link].
+
+[b]Good luck![/b]

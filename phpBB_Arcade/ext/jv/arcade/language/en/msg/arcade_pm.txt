@@ -1,0 +1,10 @@
+{SUBJECT}You lost your trophy in [game_name] to [new_username]!
+
+[game_image_link]
+[game_stats_link]
+[game_popup_link]
+
+You lost your score in [game_link].
+[new_user_link] received a score of [b][new_score][/b] which defeated your old score of [b][old_score][/b].
+
+You can view your arcade statistics by clicking [old_user_link].

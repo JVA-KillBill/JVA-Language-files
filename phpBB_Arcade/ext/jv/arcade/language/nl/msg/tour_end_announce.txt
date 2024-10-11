@@ -1,0 +1,11 @@
+{SUBJECT}Re: [Toernooi aangemaakt] - [tour_name]
+
+[b]Het toernooi is geëindigd[/b]
+
+Spellen en winnaars in dit toernooi: [tour_games_link]
+
+[b]Eerste plaats geëindigd:[/b] [1_username_link] {1_ARCADE_POINT_SYSTEM_MSG}
+[b]Tweede plaats geëindigd:[/b] [2_username_link] {2_ARCADE_POINT_SYSTEM_MSG}
+[b]Derde plaats geëindigd:[/b] [3_username_link] {3_ARCADE_POINT_SYSTEM_MSG}
+
+Als je meer informatie wilt, kijk dan bij het toernooi: [tour_end_link].

@@ -1,0 +1,7 @@
+{SUBJECT}[Top {TOP_NUMBER} der Spielhallen-Champions] - [DD].[MM].[YYYY]
+
+[b]Diese Top-Liste wurde von der Spielhalle erstellt.[/b]
+
+In der letzten Spielperiode waren die folgenden Spieler die Besten:
+
+[users_list_link]

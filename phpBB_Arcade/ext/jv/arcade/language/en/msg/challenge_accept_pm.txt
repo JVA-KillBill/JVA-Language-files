@@ -1,0 +1,6 @@
+{SUBJECT}Arcade challenge accepted!
+
+User [opponent_user_link] accepted the challenge in the following game(s): [games_name].
+{ARCADE_POINT_SYSTEM_MSG}
+
+[view_challenge]

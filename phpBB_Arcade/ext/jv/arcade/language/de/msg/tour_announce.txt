@@ -1,0 +1,13 @@
+{SUBJECT}[Turnier erstellt] - [tour_name]
+
+[b]Ein neues Turnier wurde erstellt.[/b]
+
+Spiele im Turnier: [tour_games_link]
+Spielberechtigte Gruppen dieses Turniers: [tour_groups_link]
+
+Maximale Anzahl Versuche je Spiel: [b][tour_plays_max][/b]
+{ARCADE_POINT_SYSTEM_MSG}
+
+Wenn du mehr Informationen wünschst, kannst du dir das Turnier hier ansehen: [tour_link].
+
+[b]Viel Glück![/b]

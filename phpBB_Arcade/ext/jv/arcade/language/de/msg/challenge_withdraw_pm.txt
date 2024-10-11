@@ -1,0 +1,6 @@
+{SUBJECT}Herausforderung zurückgezogen!
+
+Benutzer [challenger_user_link] hat die Herausforderung zu folgenden Spiel(en) zurückgezogen: [games_name].
+{ARCADE_POINT_SYSTEM_MSG}
+
+[view_challenge]

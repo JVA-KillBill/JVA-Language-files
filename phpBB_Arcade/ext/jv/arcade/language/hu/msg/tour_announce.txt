@@ -1,0 +1,13 @@
+{SUBJECT}[Verseny közlemény] - [tour_name]
+
+[b]Egy új verseny jött létre.[/b]
+
+Versenyben szereplő játékok: [tour_games_link]
+Versenyben résztvevő csoportok: [tour_groups_link]
+
+Játszások száma/játék: [b][tour_plays_max][/b]
+{ARCADE_POINT_SYSTEM_MSG}
+
+Ha további információra szeretnél szert tenni, akkor nézz be a versenybe: [tour_link].
+
+[b]Sok szerencsét![/b]
