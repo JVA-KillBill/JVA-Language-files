@@ -1,0 +1,13 @@
+Subject: Ajándék meghívó
+
+A „{SITENAME}” weboldal szeretné megköszöni neked, hogy a meghívó rendszer segítségével további új tagot invitáltál weboldalunkra.
+Szeretnénk, ha továbbra is igénybe vennéd a meghívó rendszert, ezért ajándékba jóváírtunk számodra {NUMBER_INVITE} meghívót.
+
+További kellemes időtöltést kívánunk.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Weboldal címe: {U_BOARD}
+Kapcsolat: {BOARD_CONTACT}
+
+{EMAIL_SIG}

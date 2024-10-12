@@ -1,0 +1,13 @@
+Subject: Uitnodigingsgeschenk
+
+De “{SITENAME}” website bedankt je voor het uitnodigen van extra nieuwe leden op onze website via het uitnodigingssysteem.
+We willen dat je het uitnodigingssysteem blijft gebruiken, dus we hebben je {NUMBER_INVITE} uitnodigingen als geschenk gegeven.
+
+Wij wensen je alvast een aangenaam verblijf.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Webpagina link: {U_BOARD}
+Contact: {BOARD_CONTACT}
+
+{EMAIL_SIG}

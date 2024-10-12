@@ -1,0 +1,8 @@
+Subject: Demande d'invitation
+
+Une demande d'invitation a été reçue de {USERNAME}.
+Invitation demandée à {NUMBER_INVITE}.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Lien vers la page Web: {U_BOARD}

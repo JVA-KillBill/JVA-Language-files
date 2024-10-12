@@ -1,0 +1,11 @@
+Subject: Invitations request
+
+Your invitations request has been accepted.
+We've credited you with {NUMBER_INVITE} invitations.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Webpage link: {U_BOARD}
+Contact: {BOARD_CONTACT}
+
+{EMAIL_SIG}

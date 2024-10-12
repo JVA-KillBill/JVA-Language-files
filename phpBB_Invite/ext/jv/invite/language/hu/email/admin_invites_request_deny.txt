@@ -1,0 +1,10 @@
+Subject: Meghívó kérelem
+
+A meghívók iránti kérelmed elutasításra került.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Weboldal címe: {U_BOARD}
+Kapcsolat: {BOARD_CONTACT}
+
+{EMAIL_SIG}

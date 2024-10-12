@@ -1,0 +1,10 @@
+Subject: Einladungsgeschenk
+
+Für die Einladung von {INVITE_USERNAME} belohnen wir dich mit einem Geschenk von {GIFT_POINTS}.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Webseitenlink: {U_BOARD}
+Kontakt: {BOARD_CONTACT}
+
+{EMAIL_SIG}

@@ -1,0 +1,10 @@
+Subject: Demande d'invitation
+
+Votre demande d'invitation a été rejetée.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Lien vers la page Web : {U_BOARD}
+Contact : {BOARD_CONTACT}
+
+{EMAIL_SIG}

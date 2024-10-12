@@ -1,0 +1,8 @@
+Subject: Einladungsanfrage
+
+Du hast eine Anforderung für weitere Einladungen von Benutzer {USERNAME} erhalten.
+Es wird {NUMBER_INVITE} weitere Einladung erbeten.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Webseitenlink: {U_BOARD}
