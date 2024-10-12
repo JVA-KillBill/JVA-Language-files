@@ -5,7 +5,7 @@
 * @version $Id: info_ucp_arcade.php 173 2024-01-14 12:28:15Z KillBill $
 * @author 2011-2024 KillBill
 * @copyright (c) 2014-2024 https://jv-arcade.com/ - https://jv-arcade.com/contact
-* @license https://jv-arcade.com/License.html JVA License v1
+* @license https://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
 *
 */
 
@@ -113,6 +113,7 @@ $lang = array_merge($lang, [
 	'UCP_ARCADE_LOCAL_STORAGE_PRIVATE'			=> 'Le navigateur est en mode « Privé », donc le stockage local n’est pas disponible !',
 	'UCP_ARCADE_MAX_FAV'						=> 'Vous avez atteint le nombre maximum de %s jeux préférés parmi lesquels choisir.',
 	'UCP_ARCADE_MIDDLE'							=> 'Milieu',
+	'UCP_ARCADE_NOTIFICATION_TYPE_GROUP_TOUR'	=> 'Tournois de groupe d’arcade',
 	'UCP_ARCADE_NO_PERM_PM_LOSS_HIGHSCORE'		=> 'Vous n’êtes pas autorisé à recevoir des messages privés si vous perdez votre trophée.',
 	'UCP_ARCADE_ONLY_POPUP_FULLSCREEN'			=> 'Seulement pop-up/plein écran',
 	'UCP_ARCADE_PLAY_INFO_BOX'					=> 'Emplacement de la boîte d’information',

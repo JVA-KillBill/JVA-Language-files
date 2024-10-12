@@ -5,7 +5,7 @@
 * @version $Id: info_acp_arcade.php 88 2023-04-19 10:17:23Z KillBill $
 * @author 2011-2024 KillBill
 * @copyright (c) 2014-2024 https://jv-arcade.com/ - https://jv-arcade.com/contact
-* @license https://jv-arcade.com/License.html JVA License v1
+* @license https://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
 *
 */
 
@@ -77,6 +77,7 @@ $lang = array_merge($lang, [
 		1												=> 'A kiválasztott adat sikeresen törölve.',
 		2												=> 'A kiválasztott adatok sikeresen törölve.',
 	],
+	'ACP_ARCADE_DISPLAY_AGGREGATED_DATA'				=> 'Összesített adatok megjelenítése',
 	'ACP_ARCADE_DISPLAY_ARCADE_RANK'					=> 'Játéktermi rang kijelzése',
 	'ACP_ARCADE_DISPLAY_ARCADE_RANK_EXPLAIN'			=> 'A felhasználói információnál kijelzésre kerül a felhasználó játéktermi rangja.',
 	'ACP_ARCADE_DISPLAY_FORUM_RANK'						=> 'Fórum rang kijelzése',
@@ -463,9 +464,9 @@ $lang = array_merge($lang, [
 	'ARCADE_DISPLAY_POST_PROFILE_EXPLAIN'				=> 'Meghatározza, hogy a játéktermi statisztikák megjelenjen-e a felhasználó poszt profiljában.',
 	'ARCADE_DISPLAY_RECOMMENDATION_BOX'					=> 'Játék ajánló box kijelzése',
 	'ARCADE_DISPLAY_SEARCH_BOX'							=> 'Részletes kereső box kijelzése',
-	'ARCADE_DISPLAY_SUPER_CHAMPION'						=> 'Szuper bajnokok kijelzése',
-	'ARCADE_DISPLAY_SUPER_CHAMPION_AVATAR'				=> 'Szuper bajnokok avatar kijelzése',
-	'ARCADE_DISPLAY_SUPER_CHAMPION_AVATAR_EXPLAIN'		=> 'A szuper bajnok avatarja kijelzésre fog kerülni.<br><em>Vedd figyelembe, hogy ezt a beállítást felülbírálja a „Felhasználó avatar kijelzése” amennyiben ki van kapcsolva.</em>',
+	'ARCADE_DISPLAY_SUPER_CHAMPION'						=> 'Szuperbajnokok kijelzése',
+	'ARCADE_DISPLAY_SUPER_CHAMPION_AVATAR'				=> 'Szuperbajnokok avatar kijelzése',
+	'ARCADE_DISPLAY_SUPER_CHAMPION_AVATAR_EXPLAIN'		=> 'A szuperbajnok avatarja kijelzésre fog kerülni.<br><em>Vedd figyelembe, hogy ezt a beállítást felülbírálja a „Felhasználó avatar kijelzése” amennyiben ki van kapcsolva.</em>',
 	'ARCADE_DISPLAY_SUPER_RECORD'						=> 'Szuper rekord kijelzése',
 	'ARCADE_DISPLAY_USER_AVATAR'						=> 'Felhasználó avatar kijelzése',
 	'ARCADE_DISPLAY_USER_AVATAR_EXPLAIN'				=> 'A felhasználói avatarok kihelyezésre kerülnek minden egyes helyre ahol a játékterem használja.',
@@ -748,8 +749,8 @@ $lang = array_merge($lang, [
 	'ARCADE_MAIN_MENU_ICON_ERROR'						=> 'A főmenühöz kötelező ikont társítani.',
 	'ARCADE_MANAGE_ARCADE_PM'							=> 'Játéktermi privát üzenet kezelése',
 	'ARCADE_MANAGE_ARCADE_PM_EXPLAIN'					=> 'Itt lehetőséged van beállítani és szerkeszteni a játéktermi privát üzenet közleményt.',
-	'ARCADE_MANAGE_ARCADE_SUPER_CHAMPION_PM'			=> 'Szuper bajnoki cím elvesztése privát üzenet kezelése',
-	'ARCADE_MANAGE_ARCADE_SUPER_CHAMPION_PM_EXPLAIN'	=> 'Itt lehetőséged van szerkeszteni a „Szuper bajnoki cím elvesztése” privát üzenetet.',
+	'ARCADE_MANAGE_ARCADE_SUPER_CHAMPION_PM'			=> 'Szuperbajnoki cím elvesztése privát üzenet kezelése',
+	'ARCADE_MANAGE_ARCADE_SUPER_CHAMPION_PM_EXPLAIN'	=> 'Itt lehetőséged van szerkeszteni a „Szuperbajnoki cím elvesztése” privát üzenetet.',
 	'ARCADE_MANAGE_CHALLENGE_ACCEPT_PM'					=> 'Kihívás elfogadása privát üzenet kezelése',
 	'ARCADE_MANAGE_CHALLENGE_ACCEPT_PM_EXPLAIN'			=> 'Itt lehetőséged van szerkeszteni a „Kihívás elfogadása” privát üzenetet.',
 	'ARCADE_MANAGE_CHALLENGE_FINAL_LOSER_PM'			=> 'Kihívás vége/vesztes privát üzenet kezelése',
@@ -972,10 +973,10 @@ $lang = array_merge($lang, [
 	'ARCADE_RESET_SCORES_ALL_DONE'						=> 'Összes felhasználók eredményei sikeresen törölve.',
 	'ARCADE_RESET_SCORES_ALL_EXPLAIN'					=> 'Az összes felhasználó eredménye és kommentje törlésre kerülnek.',
 	'ARCADE_RESET_SCORES_MARKED'						=> 'Kijelöltek eredményeinek újraindítása',
-	'ARCADE_RESET_SUPER_CHAMPION'						=> 'Szuper bajnokok újraindítása',
-	'ARCADE_RESET_SUPER_CHAMPION_CONFIRM'				=> 'Biztos vagy benne, hogy újraindítod a szuper bajnokokat?',
+	'ARCADE_RESET_SUPER_CHAMPION'						=> 'Szuperbajnokok újraindítása',
+	'ARCADE_RESET_SUPER_CHAMPION_CONFIRM'				=> 'Biztos vagy benne, hogy újraindítod a szuperbajnokokat?',
 	'ARCADE_RESET_SUPER_CHAMPION_DONE'					=> 'Szuperbajnokok sikeresen újraindítva.',
-	'ARCADE_RESET_SUPER_CHAMPION_EXPLAIN'				=> 'A jobb eredménnyel rendelkező szuper bajnokok törlésre vagy visszaállításra fognak kerülni.',
+	'ARCADE_RESET_SUPER_CHAMPION_EXPLAIN'				=> 'A jobb eredménnyel rendelkező szuperbajnokok törlésre vagy visszaállításra fognak kerülni.',
 	'ARCADE_RESET_SUPER_RECORD'							=> 'Szuper rekordok törlése',
 	'ARCADE_RESET_TOURNAMENT'							=> 'Verseny újraindítása',
 	'ARCADE_RESET_TOURNAMENT_CONFIRM'					=> 'Biztos vagy benne, hogy újraindítod a játéktermi versenyt?',
@@ -1006,8 +1007,8 @@ $lang = array_merge($lang, [
 	'ARCADE_RESYNC_USERS_TOTAL_DATA_EXPLAIN'			=> 'A felhasználók adatai újraszámolásra kerülnek, ebbe beletartoznak a következők: játszott játékok, játszások száma, játszással töltött idő, rekordok száma, szuper rekordok száma és a letöltött játékok száma.',
 	'ARCADE_RETAIN_PLAYS'								=> 'Játszások számának megtartása',
 	'ARCADE_RETAIN_PLAYS_EXPLAIN'						=> 'Ha kijelölöd akkor a játszások száma nem fog törlésre kerülni.',
-	'ARCADE_RETAIN_SUPER_CHAMPION'						=> 'Szuper bajnokok megtartása',
-	'ARCADE_RETAIN_SUPER_CHAMPION_EXPLAIN'				=> 'Ha kijelölöd akkor a szuper bajnokok nem kerülnek törlésre.',
+	'ARCADE_RETAIN_SUPER_CHAMPION'						=> 'Szuperbajnokok megtartása',
+	'ARCADE_RETAIN_SUPER_CHAMPION_EXPLAIN'				=> 'Ha kijelölöd akkor a szuperbajnokok nem kerülnek törlésre.',
 	'ARCADE_RETAIN_WEBLINKS'							=> 'Webcímek megtartása',
 	'ARCADE_RE_SYNC_ALL_GAMES'							=> 'Összes játék újraszinkronizálása',
 	'ARCADE_RE_SYNC_ALL_TOURS'							=> 'Összes verseny újraszinkronizálása',
@@ -1084,13 +1085,13 @@ $lang = array_merge($lang, [
 	'ARCADE_STAT_ITEMS_PER_PAGE'						=> 'Statisztikák oldalanként',
 	'ARCADE_STAT_ITEMS_PER_PAGE_EXPLAIN'				=> 'A beállított érték szerint kerülnek felsorolásra az adatok oldalanként.',
 	'ARCADE_SUB_MENU'									=> 'Al menü',
-	'ARCADE_SUPER_CHAMPIONS_EXPLAIN'					=> 'Szuper bajnokok megjelenítésének mennyisége.',
-	'ARCADE_SUPER_CHAMPION_PM'							=> 'Szuper bajnoki cím elvesztése',
+	'ARCADE_SUPER_CHAMPIONS_EXPLAIN'					=> 'Szuperbajnokok megjelenítésének mennyisége.',
+	'ARCADE_SUPER_CHAMPION_PM'							=> 'Szuperbajnoki cím elvesztése',
 	'ARCADE_SUPER_CHAMPION_PM_EXPLAIN'					=> 'Szuperbajnoki cím elvesztése esetén az adott felhasználót privát üzenet fogja értesíteni.
 	<br><br>Privát üzenetben használható kódok:
 	<br><strong>&bull; [game_id]<br>&bull; [game_name]<br>&bull; [game_width]<br>&bull; [game_height]<br>&bull; [game_image]<br>&bull; [game_link]<br>&bull; [game_image_link]<br>&bull; [game_popup_link]<br>&bull; [old_user_id]<br>&bull; [old_username]<br>&bull; [old_user_link]<br>&bull; [old_score]<br>&bull; [new_user_id]<br>&bull; [new_username]<br>&bull; [new_user_link]<br>&bull; [new_score]<br>&bull; [game_stats_link]</strong>',
 	'ARCADE_SUPER_CHAMPION_REWARD_EXPLAIN'				=> 'Aki megdönti a szuper rekordot, az megkapja ezt a jutalmat. Ha „0” akkor nincs jutalom.',
-	'ARCADE_SUPER_CHAMPION_SCORE_DELETED'				=> '%s szuper bajnok eredménye a %s játékban, sikeresen törlésre került.',
+	'ARCADE_SUPER_CHAMPION_SCORE_DELETED'				=> '%s szuperbajnok eredménye a %s játékban, sikeresen törlésre került.',
 	'ARCADE_SUPPORT'									=> '%s support',
 	'ARCADE_SYNC_LIMIT'									=> 'Szinkronizálási folyamat határa',
 	'ARCADE_SYNC_LIMIT_EXPLAIN'							=> 'A megadott érték szerint kerülnek a játékok feldolgozásra egy folyamat alatt. Min/Max. megadható érték: 5-től 300-ig.<br><em class="arcade_attent">Figyelem! A szinkronizálás alatt törlésre kerülnek azok a témák amelyekhez már nem található telepített játék! A fórumba kizárólag létező telepített játékok témái szerepelhetnek.</em>',
@@ -1308,8 +1309,8 @@ $lang = array_merge($lang, [
 	'DELETE_SELECTED_INH_GAMES_CONFIRM'					=> 'Biztos vagy benne, hogy törlöd a kiválasztott öröklési típus összes játékát?',
 	'DELETE_SELECTED_SCORE'								=> 'Kiválasztott eredmény törlése',
 	'DELETE_SELECTED_SCORE_CONFIRM'						=> 'Biztos vagy benne, hogy törlöd ezt az eredményt?',
-	'DELETE_SELECTED_SUPER_CHAMPION_SCORE'				=> 'Szuper bajnok törlése',
-	'DELETE_SELECTED_SUPER_CHAMPION_SCORE_CONFIRM'		=> 'Biztos vagy benne, hogy törlöd a szuper bajnokot?',
+	'DELETE_SELECTED_SUPER_CHAMPION_SCORE'				=> 'Szuperbajnok törlése',
+	'DELETE_SELECTED_SUPER_CHAMPION_SCORE_CONFIRM'		=> 'Biztos vagy benne, hogy törlöd a szuperbajnokot?',
 	'DELETE_SUBCATS'									=> 'Alkategóriák és játékok törlése',
 	'DISABLE_ARCADE'									=> 'Kikapcsolod a játéktermet',
 	'DISABLE_ARCADE_EXPLAIN'							=> 'A felhasználók számára elérhetetlené fogja tenni a játéktermet, de az adminisztrátorok továbbra is beléphetnek, a felhasználóknak kilehet írni egy rövid szöveges üzenetet, hogy miért is van zárva a játékterem, maximum (255 karakter).',
@@ -1530,8 +1531,8 @@ Továbbá mentésre kerülnek a játszások száma és az első és utolsó ját
 		2												=> 'Kiválasztott játékok telepítési dátumainak alaphelyzetbe állítása',
 	],
 	'RESET_INSTALL_DATE_SELECTED_GAME_CONFIRM'			=> [
-		1												=> 'A kiválasztott játék összes eddigi adata visszaállításra fog kerülni beleértve a szuper bajnok is. Biztos vagy benne, hogy alaphelyzetbe állítod a telepítési dátumot?',
-		2												=> 'A kiválasztott játékok összes eddigi adata visszaállításra fog kerülni beleértve a szuper bajnokok is. Biztos vagy benne, hogy alaphelyzetbe állítod a telepítési dátumot?',
+		1												=> 'A kiválasztott játék összes eddigi adata visszaállításra fog kerülni beleértve a szuperbajnok is. Biztos vagy benne, hogy alaphelyzetbe állítod a telepítési dátumot?',
+		2												=> 'A kiválasztott játékok összes eddigi adata visszaállításra fog kerülni beleértve a szuperbajnokok is. Biztos vagy benne, hogy alaphelyzetbe állítod a telepítési dátumot?',
 	],
 	'RESET_SELECTED_GAME'								=> [
 		1												=> 'Kiválasztott játék újraindítása',

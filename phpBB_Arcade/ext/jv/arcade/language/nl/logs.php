@@ -5,7 +5,7 @@
 * @version $Id: logs.php 176 2024-01-14 14:23:01Z Alexia1964 $
 * @author 2011-2024 KillBill
 * @copyright (c) 2014-2024 https://jv-arcade.com/ - https://jv-arcade.com/contact
-* @license https://jv-arcade.com/License.html JVA License v1
+* @license https://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
 *
 */
 
@@ -66,7 +66,10 @@ $lang = array_merge($lang, [
 	'LOG_ARCADE_ANNOUNCE_RESET'						=> '<strong>Aankondigingsforum resetten</strong><br>» %s',
 	'LOG_ARCADE_ARCADE_PM'							=> '<strong>Arcade privébericht gewijzigd</strong><br>» Taal: %s',
 	'LOG_ARCADE_ARCADE_SUPER_CHAMPION_PM'			=> '<strong>Privébericht “superkampioen titel verloren” gewijzigd</strong><br>» Taal: %s',
-	'LOG_ARCADE_AUTO_RESET_SCORE'					=> '<strong>Scores automatisch gereset</strong>',
+	'LOG_ARCADE_AUTO_RESET_SCORE'					=> '<strong>Reset automatisch scores</strong>',
+	'LOG_ARCADE_AUTO_RESET_SCORE_RP'				=> '<strong>Reset automatisch scores door het aantal keren spelen te behouden</strong>',
+	'LOG_ARCADE_AUTO_RESET_SCORE_SS'				=> '<strong>Reset automatisch scores en superkampioenen</strong>',
+	'LOG_ARCADE_AUTO_RESET_SCORE_SS_RP'				=> '<strong>Reset automatisch scores en superkampioenen door het aantal keren spelen te behouden</strong>',
 	'LOG_ARCADE_AUTO_RESET_SCORE_SETTINGS'			=> '<strong>Wijzigde de automatische scorereset instellingen</strong>',
 	'LOG_ARCADE_BACKUP_CAT'							=> [
 		1											=> '<strong>Geback-upte categorie</strong><br>» %s',

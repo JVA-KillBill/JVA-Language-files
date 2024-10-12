@@ -5,7 +5,7 @@
 * @version $Id: info_ucp_arcade.php 2480 2022-02-02 15:07:28Z Scanialady $
 * @author 2011-2024 KillBill
 * @copyright (c) 2014-2024 https://jv-arcade.com/ - https://jv-arcade.com/contact
-* @license https://jv-arcade.com/License.html JVA License v1
+* @license https://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
 *
 */
 
@@ -113,6 +113,7 @@ $lang = array_merge($lang, [
 	'UCP_ARCADE_LOCAL_STORAGE_PRIVATE'			=> 'Der Browser ist im Modus „Privat“, deshalb ist die Lokale Speicherung nicht aktiviert!',
 	'UCP_ARCADE_MAX_FAV'						=> 'Du hast die maximale Anzahl von %s Spielefavoriten erreicht, aus denen du wählen kannst.',
 	'UCP_ARCADE_MIDDLE'							=> 'Mitte',
+	'UCP_ARCADE_NOTIFICATION_TYPE_GROUP_TOUR'	=> 'Arcade-Gruppenturnier',
 	'UCP_ARCADE_NO_PERM_PM_LOSS_HIGHSCORE'		=> 'Du hast keine Berechtigung, Nachrichten über den Verlust deiner Meisterschaften zu empfangen.',
 	'UCP_ARCADE_ONLY_POPUP_FULLSCREEN'			=> 'Nur Popup/Vollbild',
 	'UCP_ARCADE_PLAY_INFO_BOX'					=> 'Infokastenposition',

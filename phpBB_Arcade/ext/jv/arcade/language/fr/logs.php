@@ -5,7 +5,7 @@
 * @version $Id: logs.php 173 2024-01-14 12:28:15Z KillBill $
 * @author 2011-2024 KillBill
 * @copyright (c) 2014-2024 https://jv-arcade.com/ - https://jv-arcade.com/contact
-* @license https://jv-arcade.com/License.html JVA License v1
+* @license https://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
 *
 */
 
@@ -66,7 +66,10 @@ $lang = array_merge($lang, [
 	'LOG_ARCADE_ANNOUNCE_RESET'						=> '<strong>Réinitialiser le forum d’annonce</strong><br>» %s',
 	'LOG_ARCADE_ARCADE_PM'							=> '<strong>Message privé d’arcade modifié</strong><br>» Langue : %s',
 	'LOG_ARCADE_ARCADE_SUPER_CHAMPION_PM'			=> '<strong>Message privé modifié « titre de super champion perdu »</strong><br>» Langue : %s',
-	'LOG_ARCADE_AUTO_RESET_SCORE'					=> '<strong>Réinitialiser automatiquement les scores</strong>',
+	'LOG_ARCADE_AUTO_RESET_SCORE'					=> '<strong>Réinitialise automatiquement les scores</strong>',
+	'LOG_ARCADE_AUTO_RESET_SCORE_RP'				=> '<strong>Réinitialise automatiquement les scores en conservant le nombre de fois joué</strong>',
+	'LOG_ARCADE_AUTO_RESET_SCORE_SS'				=> '<strong>Réinitialise automatiquement les scores et les super champions</strong>',
+	'LOG_ARCADE_AUTO_RESET_SCORE_SS_RP'				=> '<strong>Réinitialise automatiquement les scores et les super champions en conservant le nombre de fois joué</strong>',
 	'LOG_ARCADE_AUTO_RESET_SCORE_SETTINGS'			=> '<strong>Modification automatique des paramètres de scores</strong>',
 	'LOG_ARCADE_BACKUP_CAT'							=> [
 		1											=> '<strong>Catégorie sauvegardée</strong><br>» %s',

@@ -5,7 +5,7 @@
 * @version $Id: arcade.php 2463 2022-01-20 22:20:25Z Scanialady $
 * @author 2011-2024 KillBill
 * @copyright (c) 2014-2024 https://jv-arcade.com/ - https://jv-arcade.com/contact
-* @license https://jv-arcade.com/License.html JVA License v1
+* @license https://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
 *
 */
 
@@ -339,6 +339,8 @@ $lang = array_merge($lang, [
 	'ARCADE_NEW_GAMES'								=> 'Neue Spiele',
 	'ARCADE_NONE'									=> 'Nein',
 	'ARCADE_NOSCORE_GAME'							=> 'Dieses Spiel unterstützt keine Rekorde.',
+	'ARCADE_NOTIFICATION_TYPE_GROUP_TOUR_START'		=> 'Das Arcade-Gruppenturnier hat begonnen.',
+	'ARCADE_NOTIFICATION_TYPE_GROUP_TOUR_END'		=> 'Das Arcade-Gruppenturnier ist beendet.',
 	'ARCADE_NOT_BEEN_PLAYED'						=> 'Nicht gespielt.',
 	'ARCADE_NOT_PLAYED_GAMES'						=> 'Nicht gespielte Spiele',
 	'ARCADE_NO_CONTROLS_DESC'						=> 'Keine Steuerungsbeschreibung vorhanden.',

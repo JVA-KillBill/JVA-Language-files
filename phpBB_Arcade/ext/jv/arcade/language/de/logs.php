@@ -5,7 +5,7 @@
 * @version $Id: logs.php 2457 2022-01-14 17:04:20Z Scanialady $
 * @author 2011-2024 KillBill
 * @copyright (c) 2014-2024 https://jv-arcade.com/ - https://jv-arcade.com/contact
-* @license https://jv-arcade.com/License.html JVA License v1
+* @license https://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
 *
 */
 
@@ -67,6 +67,9 @@ $lang = array_merge($lang, [
 	'LOG_ARCADE_ARCADE_PM'							=> '<strong>Private Nachricht der Spielhalle geändert</strong><br>» Sprache: %s',
 	'LOG_ARCADE_ARCADE_SUPER_CHAMPION_PM'			=> '<strong>Private Nachricht „Superchampiontitel verloren“ geändert </strong><br>» Sprache: %s',
 	'LOG_ARCADE_AUTO_RESET_SCORE'					=> '<strong>Spielhalle, Rekorde automatisch zurückgesetzt</strong>',
+	'LOG_ARCADE_AUTO_RESET_SCORE_RP'				=> '<strong>Automatisches Zurücksetzen der Punktzahl unter Beibehaltung der Anzahl der Spiele</strong>',
+	'LOG_ARCADE_AUTO_RESET_SCORE_SS'				=> '<strong>Punkte und Super-Champions automatisch zurücksetzen</strong>',
+	'LOG_ARCADE_AUTO_RESET_SCORE_SS_RP'				=> '<strong>Automatisches Zurücksetzen von Punktzahlen und Super-Champions unter Beibehaltung der Anzahl der Spiele</strong>',
 	'LOG_ARCADE_AUTO_RESET_SCORE_SETTINGS'			=> '<strong>Einstellungen für automatisches Zurücksetzen von Rekorden geändert</strong>',
 	'LOG_ARCADE_BACKUP_CAT'							=> [
 		1											=> '<strong>Spielhallenkategorie gesichert</strong><br>» %s',

@@ -5,7 +5,7 @@
 * @version $Id: help_user.php 2473 2022-02-01 12:48:39Z KillBill $
 * @author 2011-2024 KillBill
 * @copyright (c) 2014-2024 https://jv-arcade.com/ - https://jv-arcade.com/contact
-* @license https://jv-arcade.com/License.html JVA License v1
+* @license https://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
 *
 */
 
@@ -116,8 +116,8 @@ $lang = array_merge($lang, [
 	'ARCADE_HELP_FAQ_GENERAL_GAME_USER_STAT_QUESTION'	=> 'Hogyan tekinthetem meg egy adott játék, felhasználó statisztikai adatait?',
 	'ARCADE_HELP_FAQ_GENERAL_RANG_LIST_ANSWER'			=> 'A ranglista a megszerzett trófeák mennyiségét veszi figyelembe, minél több trófeával rendelkezik egy felhasználó annál jobb rangsorolásba kerül. A rang kép meghatározását az adminisztrátor adja meg, mégpedig úgy, hogy adott mennyiségű trófeához köti az egyes rang képeket.',
 	'ARCADE_HELP_FAQ_GENERAL_RANG_LIST_QUESTION'		=> 'Mi az a ranglista?',
-	'ARCADE_HELP_FAQ_GENERAL_SUPER_CHAMP_ANSWER'		=> 'A szuper bajnok az a felhasználó aki tartja a legmagasabb elért eredményt az adott játékban. A szuper bajnok nem rendelkezik trófeával, kivéve, ha ő áll az első helyen is. Ha az adminisztrátor újraindítja a játéktermet akkor lehetősége van megtartani a szuper bajnokokat, így lehetőség van látni, hogy mi is volt az eddig legmagasabb elért eredmény egy játékban.',
-	'ARCADE_HELP_FAQ_GENERAL_SUPER_CHAMP_QUESTION'		=> 'Mi az a szuper bajnok?',
+	'ARCADE_HELP_FAQ_GENERAL_SUPER_CHAMP_ANSWER'		=> 'A szuperbajnok az a felhasználó aki tartja a legmagasabb elért eredményt az adott játékban. A szuperbajnok nem rendelkezik trófeával, kivéve, ha ő áll az első helyen is. Ha az adminisztrátor újraindítja a játéktermet akkor lehetősége van megtartani a szuperbajnokokat, így lehetőség van látni, hogy mi is volt az eddig legmagasabb elért eredmény egy játékban.',
+	'ARCADE_HELP_FAQ_GENERAL_SUPER_CHAMP_QUESTION'		=> 'Mi az a szuperbajnok?',
 	'ARCADE_HELP_FAQ_GENERAL_USER_RECORD_ANSWER'		=> 'Igen, a felhasználó statisztikai adatainál az avatar alatt kattints az „Összes rekord megtekintése” linkre.',
 	'ARCADE_HELP_FAQ_GENERAL_USER_RECORD_QUESTION'		=> 'Megtudom-e nézni egy felhasználónak, csak a rekordjait?',
 	'ARCADE_HELP_FAQ_GROUP_TOUR_EXPT_ANSWER'			=> 'Igen, a verseny indulása után kijelzésre kerül.',
@@ -258,7 +258,7 @@ Böngésző helyi tároló adatok törlése:
 	'ARCADE_HELP_FAQ_POINTS_DOWNLOAD_COST_QUESTION'		=> 'Mit takar a játék letöltési költség?',
 	'ARCADE_HELP_FAQ_POINTS_JACKPOT_ANSWER'				=> 'A főnyeremény a játék költségéből származik. Minden játék indításánál a játék költsége hozzáadásra kerül a főnyereményhez, így a főnyeremény mindaddig növekszik míg azt valaki meg nem szerzi. A főnyeremény min/max. összegét az adminisztrátor meghatározhatja.',
 	'ARCADE_HELP_FAQ_POINTS_JACKPOT_QUESTION'			=> 'Mit takar a főnyeremény?',
-	'ARCADE_HELP_FAQ_POINTS_REWARD_ANSWER'				=> 'A jutalom alapesetben két esetben kapható meg: Szuper bajnoki, bajnoki cím megszerzése esetén. A jutalom összegét az adminisztrátor határozza meg.',
+	'ARCADE_HELP_FAQ_POINTS_REWARD_ANSWER'				=> 'A jutalom alapesetben két esetben kapható meg: Szuperbajnoki, bajnoki cím megszerzése esetén. A jutalom összegét az adminisztrátor határozza meg.',
 	'ARCADE_HELP_FAQ_POINTS_REWARD_QUESTION'			=> 'Mit takar a jutalom?',
 	'ARCADE_HELP_FAQ_POINTS_SYSTEM_ANSWER'				=> 'A pontrendszer egy összetett kiegészítő amit az adminisztrátor adhat hozzá a fórumhoz illetve a játékterem használatához. A pontrendszer használatakor a játékterem használhat különféle jutalmakat és költségeket, ezeket is az adminisztrátor határozza meg.',
 	'ARCADE_HELP_FAQ_POINTS_SYSTEM_QUESTION'			=> 'Mi az a pontrendszer?',

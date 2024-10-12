@@ -5,7 +5,7 @@
 * @version $Id: arcade.php 176 2024-01-14 14:23:01Z Alexia1964 $
 * @author 2011-2024 KillBill
 * @copyright (c) 2014-2024 https://jv-arcade.com/ - https://jv-arcade.com/contact
-* @license https://jv-arcade.com/License.html JVA License v1
+* @license https://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
 *
 */
 
@@ -340,6 +340,8 @@ Schakel ad-blokkering op deze website uit.',
 	'ARCADE_NEW_GAMES'								=> 'Nieuwe spellen onlangs toegevoegd',
 	'ARCADE_NONE'									=> 'Geen',
 	'ARCADE_NOSCORE_GAME'							=> 'Dit spel ondersteunt geen hoogste scores.',
+	'ARCADE_NOTIFICATION_TYPE_GROUP_TOUR_START'		=> 'Het arcade groep toernooi is begonnen.',
+	'ARCADE_NOTIFICATION_TYPE_GROUP_TOUR_END'		=> 'Het arcade groep toernooi is voorbij.',
 	'ARCADE_NOT_BEEN_PLAYED'						=> 'Niet gespeeld.',
 	'ARCADE_NOT_PLAYED_GAMES'						=> 'Niet gespeelde spellen',
 	'ARCADE_NO_CONTROLS_DESC'						=> 'Geen omschrijving voor spelbesturing.',

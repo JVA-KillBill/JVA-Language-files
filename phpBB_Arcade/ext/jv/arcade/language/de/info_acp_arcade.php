@@ -5,7 +5,7 @@
 * @version $Id: info_acp_arcade.php 2469 2022-01-24 14:40:07Z Scanialady $
 * @author 2011-2024 KillBill
 * @copyright (c) 2014-2024 https://jv-arcade.com/ - https://jv-arcade.com/contact
-* @license https://jv-arcade.com/License.html JVA License v1
+* @license https://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
 *
 */
 
@@ -77,6 +77,7 @@ $lang = array_merge($lang, [
 		1												=> 'Die ausgewählten Daten wurden erfolgreich gelöscht.',
 		2												=> 'Die ausgewählten Daten wurden erfolgreich gelöscht.',
 	],
+	'ACP_ARCADE_DISPLAY_AGGREGATED_DATA'				=> 'Aggregierte Daten anzeigen',
 	'ACP_ARCADE_DISPLAY_ARCADE_RANK'					=> 'Zeige Spielhallenrang an',
 	'ACP_ARCADE_DISPLAY_ARCADE_RANK_EXPLAIN'			=> 'Der Spielhallenrang wird in der Benutzerinformation der Spielhalle angezeigt.',
 	'ACP_ARCADE_DISPLAY_FORUM_RANK'						=> 'Zeige Forumrang an',

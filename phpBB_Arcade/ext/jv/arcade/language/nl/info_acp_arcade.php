@@ -5,7 +5,7 @@
 * @version $Id: info_acp_arcade.php 176 2024-01-14 14:23:01Z Alexia1964 $
 * @author 2011-2024 KillBill
 * @copyright (c) 2014-2024 https://jv-arcade.com/ - https://jv-arcade.com/contact
-* @license https://jv-arcade.com/License.html JVA License v1
+* @license https://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
 *
 */
 
@@ -77,6 +77,7 @@ $lang = array_merge($lang, [
 		1												=> 'Geselecteerde gegeven is verwijderd.',
 		2												=> 'Geselecteerde gegevens zijn verwijderd.',
 	],
+	'ACP_ARCADE_DISPLAY_AGGREGATED_DATA'				=> 'Samengevoegde gegevens weergeven',
 	'ACP_ARCADE_DISPLAY_ARCADE_RANK'					=> 'Laat arcade rang zien',
 	'ACP_ARCADE_DISPLAY_ARCADE_RANK_EXPLAIN'			=> 'De gebruikers arcade rang is te zien bij de gebruikersinfo op de arcade pagina’s.',
 	'ACP_ARCADE_DISPLAY_FORUM_RANK'						=> 'Laat forumrang zien',

@@ -5,7 +5,7 @@
 * @version $Id: arcade.php 173 2024-01-14 12:28:15Z KillBill $
 * @author 2011-2024 KillBill
 * @copyright (c) 2014-2024 https://jv-arcade.com/ - https://jv-arcade.com/contact
-* @license https://jv-arcade.com/License.html JVA License v1
+* @license https://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
 *
 */
 
@@ -340,6 +340,8 @@ Veuillez désactiver le blocage des publicités sur ce site web.',
 	'ARCADE_NEW_GAMES'								=> 'Nouveaux jeux récemment ajoutés',
 	'ARCADE_NONE'									=> 'Aucun',
 	'ARCADE_NOSCORE_GAME'							=> 'Ce jeu ne prend pas en charge les meilleurs scores.',
+	'ARCADE_NOTIFICATION_TYPE_GROUP_TOUR_START'		=> 'Le tournoi de groupe d’arcade a commencé.',
+	'ARCADE_NOTIFICATION_TYPE_GROUP_TOUR_END'		=> 'Le tournoi de groupe d’arcade est terminé.',
 	'ARCADE_NOT_BEEN_PLAYED'						=> 'N’a pas été joué.',
 	'ARCADE_NOT_PLAYED_GAMES'						=> 'Jeux non joués',
 	'ARCADE_NO_CONTROLS_DESC'						=> 'Aucune description de contrôle spécifiée.',

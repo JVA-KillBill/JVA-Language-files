@@ -5,7 +5,7 @@
 * @version $Id: logs.php 2450 2021-12-13 20:24:43Z KillBill $
 * @author 2011-2024 KillBill
 * @copyright (c) 2014-2024 https://jv-arcade.com/ - https://jv-arcade.com/contact
-* @license https://jv-arcade.com/License.html JVA License v1
+* @license https://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
 *
 */
 
@@ -65,8 +65,11 @@ $lang = array_merge($lang, [
 	'LOG_ARCADE_ANNOUNCE_GENERAL_SETTINGS'			=> '<strong>Közlemény elsődleges beállítások szerkesztése</strong>',
 	'LOG_ARCADE_ANNOUNCE_RESET'						=> '<strong>Közlemény fórum kiürítése</strong><br>» %s',
 	'LOG_ARCADE_ARCADE_PM'							=> '<strong>Játéktermi privát üzenet szerkesztése</strong><br>» Nyelv: %s',
-	'LOG_ARCADE_ARCADE_SUPER_CHAMPION_PM'			=> '<strong>„Szuper bajnoki cím elvesztése” privát üzenet szerkesztése</strong><br>» Nyelv: %s',
+	'LOG_ARCADE_ARCADE_SUPER_CHAMPION_PM'			=> '<strong>„Szuperbajnoki cím elvesztése” privát üzenet szerkesztése</strong><br>» Nyelv: %s',
 	'LOG_ARCADE_AUTO_RESET_SCORE'					=> '<strong>Eredmények automatikus visszaállítása</strong>',
+	'LOG_ARCADE_AUTO_RESET_SCORE_RP'				=> '<strong>Eredmények automatikus visszaállítása a játszások számának megtartásával</strong>',
+	'LOG_ARCADE_AUTO_RESET_SCORE_SS'				=> '<strong>Eredmények és a szuperbajnokok automatikus visszaállítása</strong>',
+	'LOG_ARCADE_AUTO_RESET_SCORE_SS_RP'				=> '<strong>Eredmények és a szuperbajnokok automatikus visszaállítása a játszások számának megtartásával</strong>',
 	'LOG_ARCADE_AUTO_RESET_SCORE_SETTINGS'			=> '<strong>Eredmények automatikus visszaállítás beállítások szerkesztése</strong>',
 	'LOG_ARCADE_BACKUP_CAT'							=> [
 		1											=> '<strong>Biztonsági mentés</strong><br>» Kategória: %s',
@@ -103,7 +106,7 @@ $lang = array_merge($lang, [
 		2											=> '<strong>Fájlok törlése a következő játékoknak</strong><br>» %s',
 	],
 	'LOG_ARCADE_DELETE_SCORE'						=> '<strong>Játékpont törlése, felhasználó: (%3$s)%1$s%2$s</strong><br>» (%4$s)',
-	'LOG_ARCADE_DELETE_SUPER_CHAMPION_SCORE'		=> '<strong>%s felhasználó szuper bajnok eredmény törlése</strong><br>» Játék: %s',
+	'LOG_ARCADE_DELETE_SUPER_CHAMPION_SCORE'		=> '<strong>%s felhasználó szuperbajnok eredmény törlése</strong><br>» Játék: %s',
 	'LOG_ARCADE_DEL_CAT'							=> '<strong>Kategória törlése</strong><br>» %s',
 	'LOG_ARCADE_DEL_CATS'							=> '<strong>Kategória törlése az alkategóriákkal együtt</strong><br>» %s',
 	'LOG_ARCADE_DEL_DELETED_GAMES'					=> '<strong>Törölt játékok listájának törlése.</strong>',
@@ -192,7 +195,7 @@ $lang = array_merge($lang, [
 	'LOG_ARCADE_RESET_PLAYING_RECORD'				=> '<strong>Valaha játszott felhasználó számának lenullázása</strong>',
 	'LOG_ARCADE_RESET_POINTS'						=> '<strong>Összes pont újraindítása</strong>',
 	'LOG_ARCADE_RESET_SCORES_ALL'					=> '<strong>Összes felhasználó eredményének törlése</strong>',
-	'LOG_ARCADE_RESET_SUPER_CHAMPION'				=> '<strong>Szuper bajnokok újraindítása</strong>',
+	'LOG_ARCADE_RESET_SUPER_CHAMPION'				=> '<strong>Szuperbajnokok újraindítása</strong>',
 	'LOG_ARCADE_RESET_TOURNAMENT'					=> '<strong>Versenyek újraindítása</strong>',
 	'LOG_ARCADE_RESET_USERS_DATA'					=> '<strong>Összes felhasználó adatainak törlése</strong>',
 	'LOG_ARCADE_RESET_USERS_SCORE'					=> '<strong>Összes felhasználó elért eredményeinek törlése</strong>',

@@ -5,7 +5,7 @@
 * @version $Id: logs.php 2450 2021-12-13 20:24:43Z KillBill $
 * @author 2011-2024 KillBill
 * @copyright (c) 2014-2024 https://jv-arcade.com/ - https://jv-arcade.com/contact
-* @license https://jv-arcade.com/License.html JVA License v1
+* @license https://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
 *
 */
 
@@ -67,6 +67,9 @@ $lang = array_merge($lang, [
 	'LOG_ARCADE_ARCADE_PM'							=> '<strong>Altered arcade private message</strong><br>» Language: %s',
 	'LOG_ARCADE_ARCADE_SUPER_CHAMPION_PM'			=> '<strong>Altered private message “super champion title losing”</strong><br>» Language: %s',
 	'LOG_ARCADE_AUTO_RESET_SCORE'					=> '<strong>Automatically reset scores</strong>',
+	'LOG_ARCADE_AUTO_RESET_SCORE_RP'				=> '<strong>Automatically reset scores by keeping the number of plays</strong>',
+	'LOG_ARCADE_AUTO_RESET_SCORE_SS'				=> '<strong>Automatically reset scores and super champions</strong>',
+	'LOG_ARCADE_AUTO_RESET_SCORE_SS_RP'				=> '<strong>Automatically reset scores and super champions by keeping the number of plays</strong>',
 	'LOG_ARCADE_AUTO_RESET_SCORE_SETTINGS'			=> '<strong>Altered automatically reset scores settings</strong>',
 	'LOG_ARCADE_BACKUP_CAT'							=> [
 		1											=> '<strong>Backed up category</strong><br>» %s',

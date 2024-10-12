@@ -3,9 +3,9 @@
 *
 * @package phpBB Arcade
 * @version $Id: arcade.php 87 2023-04-19 10:01:48Z KillBill $
-* @author 2022-2023 Utopia2022
-* @copyright (c) 2022-2023 https://phpbbarcade.euroscadeaux.com/ - https://phpbbarcade.euroscadeaux.com/contact
-* @license https://phpbbarcade.euroscadeaux.com/license.html GHVL-1.0
+* @author 2011-2024 KillBill
+* @copyright (c) 2014-2024 https://jv-arcade.com/ - https://jv-arcade.com/contact
+* @license https://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
 *
 */
 
@@ -340,6 +340,8 @@ Please disable the blocking of advertisements on this website.',
 	'ARCADE_NEW_GAMES'								=> 'New games recently added',
 	'ARCADE_NONE'									=> 'None',
 	'ARCADE_NOSCORE_GAME'							=> 'This game doesn’t support highscores.',
+	'ARCADE_NOTIFICATION_TYPE_GROUP_TOUR_START'		=> 'The arcade group tournament has started.',
+	'ARCADE_NOTIFICATION_TYPE_GROUP_TOUR_END'		=> 'The arcade group tournament is over.',
 	'ARCADE_NOT_BEEN_PLAYED'						=> 'Not been played.',
 	'ARCADE_NOT_PLAYED_GAMES'						=> 'Not played games',
 	'ARCADE_NO_CONTROLS_DESC'						=> 'No control description specified.',

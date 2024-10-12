@@ -5,7 +5,7 @@
 * @version $Id: info_acp_arcade.php 173 2024-01-14 12:28:15Z KillBill $
 * @author 2011-2024 KillBill
 * @copyright (c) 2014-2024 https://jv-arcade.com/ - https://jv-arcade.com/contact
-* @license https://jv-arcade.com/License.html JVA License v1
+* @license https://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
 *
 */
 
@@ -77,6 +77,7 @@ $lang = array_merge($lang, [
 		1												=> 'La donnée sélectionnée a été supprimée avec succès.',
 		2												=> 'Les données sélectionnées ont été supprimées avec succès.',
 	],
+	'ACP_ARCADE_DISPLAY_AGGREGATED_DATA'				=> 'Afficher les données agrégées',
 	'ACP_ARCADE_DISPLAY_ARCADE_RANK'					=> 'Afficher le rang arcade',
 	'ACP_ARCADE_DISPLAY_ARCADE_RANK_EXPLAIN'			=> 'Le rang arcade de l’utilisateur est affiché dans sa box info des pages arcade.',
 	'ACP_ARCADE_DISPLAY_FORUM_RANK'						=> 'Afficher le classement du forum',

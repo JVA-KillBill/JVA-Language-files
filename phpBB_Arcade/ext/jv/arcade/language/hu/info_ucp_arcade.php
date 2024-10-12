@@ -5,7 +5,7 @@
 * @version $Id: info_ucp_arcade.php 2478 2022-02-02 10:39:29Z KillBill $
 * @author 2011-2024 KillBill
 * @copyright (c) 2014-2024 https://jv-arcade.com/ - https://jv-arcade.com/contact
-* @license https://jv-arcade.com/License.html JVA License v1
+* @license https://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
 *
 */
 
@@ -113,6 +113,7 @@ $lang = array_merge($lang, [
 	'UCP_ARCADE_LOCAL_STORAGE_PRIVATE'			=> 'A böngésző „Privát” módban van, így a helyi tároló nem érhető el!',
 	'UCP_ARCADE_MAX_FAV'						=> 'Elérted a maximum %s választható kedvenc játékok számát.',
 	'UCP_ARCADE_MIDDLE'							=> 'Középen',
+	'UCP_ARCADE_NOTIFICATION_TYPE_GROUP_TOUR'	=> 'Játéktermi csoport verseny',
 	'UCP_ARCADE_NO_PERM_PM_LOSS_HIGHSCORE'		=> 'Nincs jogosultságod a privát üzenetek fogadására, trófea elvesztése esetén.',
 	'UCP_ARCADE_ONLY_POPUP_FULLSCREEN'			=> 'Csak felugró/teljes képernyön.',
 	'UCP_ARCADE_PLAY_INFO_BOX'					=> 'Információ box pozíció',

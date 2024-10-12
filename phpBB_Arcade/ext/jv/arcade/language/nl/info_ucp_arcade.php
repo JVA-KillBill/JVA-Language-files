@@ -5,7 +5,7 @@
 * @version $Id: info_ucp_arcade.php 173 2024-01-14 12:28:15Z KillBill $
 * @author 2011-2024 KillBill
 * @copyright (c) 2014-2024 https://jv-arcade.com/ - https://jv-arcade.com/contact
-* @license https://jv-arcade.com/License.html JVA License v1
+* @license https://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
 *
 */
 
@@ -113,6 +113,7 @@ $lang = array_merge($lang, [
 	'UCP_ARCADE_LOCAL_STORAGE_PRIVATE'			=> 'De browser staat in de “Privé” modus, dus lokale opslag is niet beschikbaar!',
 	'UCP_ARCADE_MAX_FAV'						=> 'Je hebt het maximale aantal %s favoriete spellen bereikt om uit te kiezen.',
 	'UCP_ARCADE_MIDDLE'							=> 'Midden',
+	'UCP_ARCADE_NOTIFICATION_TYPE_GROUP_TOUR'	=> 'Arcade groep toernooi',
 	'UCP_ARCADE_NO_PERM_PM_LOSS_HIGHSCORE'		=> 'Je hebt geen toestemming om privéberichten te ontvangen als je je trofee verliest.',
 	'UCP_ARCADE_ONLY_POPUP_FULLSCREEN'			=> 'Alleen pop-up/volledig scherm',
 	'UCP_ARCADE_PLAY_INFO_BOX'					=> 'Positie informatievak',

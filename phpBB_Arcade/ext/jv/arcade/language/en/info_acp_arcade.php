@@ -5,7 +5,7 @@
 * @version $Id: info_acp_arcade.php 2468 2022-01-24 12:01:47Z KillBill $
 * @author 2011-2024 KillBill
 * @copyright (c) 2014-2024 https://jv-arcade.com/ - https://jv-arcade.com/contact
-* @license https://jv-arcade.com/License.html JVA License v1
+* @license https://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
 *
 */
 
@@ -77,6 +77,7 @@ $lang = array_merge($lang, [
 		1												=> 'The selected data has been successfully deleted.',
 		2												=> 'The selected datas has been successfully deleted.',
 	],
+	'ACP_ARCADE_DISPLAY_AGGREGATED_DATA'				=> 'Display aggregated data',
 	'ACP_ARCADE_DISPLAY_ARCADE_RANK'					=> 'Display arcade rank',
 	'ACP_ARCADE_DISPLAY_ARCADE_RANK_EXPLAIN'			=> 'The user’s arcade rank is displayed in the user info on arcade sites.',
 	'ACP_ARCADE_DISPLAY_FORUM_RANK'						=> 'Display forum rank',
