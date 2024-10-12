@@ -68,7 +68,7 @@ Bovendien kunnen we aan de hand van de verstrekte activeringssleutel achterhalen
 <div>Gebruik van gegevens:</div>
 <ul>
 	<li>Het phpBB Arcade ID helpt je om je website veilig te identificeren.</li>
-	<li>Met het websiteadres kan je controleren of de website op de “%2$s” website is geregistreerd.</li>
+	<li>Met het website adres kan je controleren of de website op de “%2$s” website is geregistreerd.</li>
 	<li>Dankzij de phpBB en phpBB Arcade versienummers kunnen we bepalen of de betreffende website overeenstemmend is of niet.</li>
 	<li>De activeringssleutel bepaalt waar de betrokken website recht op heeft.</li>
 	<li>Tijd voor het overslaan van advertenties is het tijdstip waarop een gebruiker in aanmerking komt om een advertentie over te slaan.</li>
