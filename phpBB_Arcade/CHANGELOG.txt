@@ -1,0 +1,1485 @@
+# Changelog
+
+## 7.7.5 - 2024-10-14
+
+- [Fixed] Group tournament - The evaluation of the winner is incorrect if the 2 players achieve the same score and save their score at the same time.
+
+- [Modified] Additional PHP 8 development.
+- [Modified] Requirement JVA - Core 1.0.15 or later.
+- [Modified] Requirement phpBB 3.3.13 or later.
+- [Modified] The license of the language files has been changed to GPL-2.0.
+
+- [Added] ACP/Arcade/Manage users/Automatically reset scores - Retain super champions.
+- [Added] ACP/Arcade/Configuration/Pages settings/Main pages settings - Display aggregated data.
+- [Added] Arcade notification for the start and end of a group tournament.
+
+- [Updated] Ruffle emulator (2024-10-14) for release.
+
+## 7.7.4 - 2024-06-14
+
+- [Updated] Ruffle emulator (2024-06-14) for release.
+
+- [Deleted] Translate game description using google - Because google no longer supports this function.
+
+## 7.7.3 - 2024-06-13
+
+- [Fixed] Avoiding duplication of Javascript task loops.
+
+- [Modified] Requirement JVA - Core 1.0.14 or later.
+- [Modified] Requirement phpBB 3.3.12 or later.
+- [Modified] License GHVL-1.0 to JVAL-1.0 "https://jv-arcade.com/License.html".
+- [Modified] Copyright.
+
+- [Added] We provide the possibility for other extensions to intervene to pause the canvas animations, if this is necessary.
+- [Added] Hungarian and German languages.
+
+- [Updated] Default game installation file updated from 7.7.2 to 7.7.3
+
+- [Deleted] Connect website "https://connect.euroscadeaux.com/".
+
+## 7.7.2 - 2024-01-17
+
+- [Fixed] The arcade path should not be visible in the source code of browsers to those who do not have permission to access it.
+- [Fixed] ACP/Arcade/Arcade logs and ACP/Arcade/Utilities/View reports - If the entry does not have an IP, we do not allow the Whois link to appear.
+- [Fixed] ACP/Arcade/Manage Announcements/Manage game announcement/ - In case of an error, the back link will send you to the wrong page.
+- [Fixed] In the case of deleting a user, if the extension "JVA - Core" is not active, PHP will generate an error and garbage will remain in the database.
+			Thus, if the "JVA - Core" extension is not active, the user deletion function will be deactivated and information about this will be displayed.
+- [Fixed] Centering the "Pause" text for Flash games.
+- [Fixed] The "max_chars" function works in an infinite loop if the number of characters is too small for a hit, thus causing a timeout.
+- [Fixed] The tournaments cannot display the reward field if it is not included in any of the displayed tournaments.
+- [Fixed] HTML5 - ACP/Arcade/Members default settings.
+				- ACP/Arcade/General settings/Games download for users from this group per day.
+				- ACP/Arcade/Manage users/Select a reset date.
+				- ACP/Arcade/Manage categories/category.
+				- ACP/Arcade/Manage categories/Edit category/Age limit.
+				- ACP/Arcade/Manage categories/Edit category/Games per page.
+				- ACP/Arcade/Manage games/Edit category/Search game.
+				- ACP/Arcade/Manage tournaments/Create a new tournament/Select group(s).
+				- ACP/Arcade/Manage Announcements/Manage global announcement/Scroll speed.
+				- ACP/Arcade/Utilities/Deleted games.
+				- ACP/Arcade/Utilities/Download statistics.
+				- ACP/Arcade/Permission roles/Category roles.
+				- ACP/Arcade/Category based permissions/Category permissions.
+				- ACP/Arcade/Permission masks/View category-based permissions.
+				- UCP/Arcade/Game settings.
+				- Game download form.
+				- Tournament.
+				- Group tournament.
+
+- [Modified] If we use a protected path instead of arcade.php, we will not replace the default path with the protected path for those who are not entitled to it in the posts, they will always see the default arcade.php.
+				Also, if a user writes the protected path in the post, it will be replaced with the default arcade.php file name.
+- [Modified] Modernization and optimization of Javascript codes.
+- [Modified] ACP/Arcade/General settings/Shoutbox settings - Validate configurations.
+- [Modified] ACP/Arcade/Manage Announcements/Manage Top player announcements/ - Announce subject.
+- [Modified] ACP/Arcade/Manage Announcements/Manage tournament end announcement/ - Announce subject.
+- [Modified] ACP/Arcade/Manage Announcements/Manage group tournament end announcement/ - Announce subject.
+- [Modified] ACP/Arcade/Manage Announcements/Manage game report announcement/Announce message - (Report by user, Error type and Error description) support for multiple languages.
+- [Modified] If we close a tournament for which a game no longer exists or no one has played the tournament, it will be automatically deleted.
+- [Modified] Report game - If a topic was created about a reported bug game and the game is reported again later, we should not open a new topic if it already exists, but give the opportunity to continue the topic.
+- [Modified] Game recommendations always use the time zone of the forum.
+- [Modified] Finished tournaments also display rewards if they exists.
+- [Modified] Arcade search enable key name. Because that name is already used by phpBB and we don't want a conflict.
+- [Modified] Requirement - phpBB >= 3.3.11.
+- [Modified] Requirement JVA - Core 1.0.12 or later.
+
+- [Added] ACP/Arcade/Manage Announcements/Manage game announcement/Ignored categories - If you exceed the allowed character length of ID numbers, we will receive an error message.
+- [Added] ACP/Arcade/General settings/Games download for users from this group per day - If you exceed the allowed character length of ID numbers, we will receive an error message.
+- [Added] ACP/Arcade/General settings/Shoutbox ignored categories - If you exceed the allowed character length of ID numbers, we will receive an error message.
+- [Added] ACP/Arcade/Game settings/Game recommendation ignored categories - If you exceed the allowed character length of ID numbers, we will receive an error message.
+- [Added] ACP/Arcade/Feature settings/Security settings/Hide announcement posts - If you enable it, the posts in the announcement will be hidden for users who do not have permission to view the arcade.
+- [Added] ACP/Arcade/Feature settings/Security settings/Hide all posts - If you enable it, all posts with the path "arcade.php" will be hidden for users who do not have permission to see the arcade.
+- [Added] ACP/Arcade/Feature settings/Security settings/Protected post - If you enable it, users who don't have arcade permission cannot write arcade links in their posts.
+- [Added] ACP/Arcade/Manage users/Automatically reset scores - Time zone used, We record the desired time zone so that the next due time stamp is always correct.
+- [Added] If Hide announcement posts is enabled, the post search cannot show the content either.
+- [Added] If Hide announcement posts is enabled and if we quote a hidden post, the text field should be empty.
+- [Added] ACP/Arcade/Manage Announcements/Manage tournament announcement - Re-sync all tournaments.
+- [Added] ACP/Arcade/Manage Announcements/Manage tournament announcement - Reset announcements.
+- [Added] ACP/Arcade/Manage Announcements/Manage group tournament announcement - Re-sync all tournaments.
+- [Added] ACP/Arcade/Manage Announcements/Manage group tournament announcement - Reset announcements.
+- [Added] ACP/Arcade/Manage Announcements/Manage game report announcement - Reset announcements.
+- [Added] ACP/Arcade/Manage Announcements/Manage Top X player announcements - Reset announcements.
+
+- [Updated] Default game installation file updated from 7.6.3 to 7.7.2
+- [Updated] Ruffle emulator (2024-01-14) for release.
+
+## 7.7.1 - 2023-06-24
+
+- [Fixed] Play game - If you use "Challenge champion" in the game menu option, you get an error: (The “JvaMenuVScrollVal” JavaScript key unknown).
+- [Fixed] Generate automatically the next date than the current time, if a smaller value is returned. It affects the following: (Automatically reset scores, games recommendation).
+- [Fixed] ACP/Arcade Manage ranks - An old javascript name was referenced, so a javascript error occurred.
+- [Fixed] ACP/Arcade Create a new tournament - If you click on the "All games" link, the select field can be longer than all the games.
+- [Fixed] In several places, the singular/plural number "Tournament/Tournaments" was displayed incorrectly.
+- [Fixed] ACP/Arcade Log - search function.
+- [Fixed] URLs generated by Ajax are relative paths.
+- [Fixed] The main links of the challenge and the tournament are not displayed in the navigation link on the detailed statistics pages.
+- [Fixed] Tournament game statistics page - pagination.
+- [Fixed] The list of favorite games does not turn off if we delete our last favorite game.
+- [Fixed] prosilver Special Edition style - Typo and missed update.
+- [Fixed] Menu permissions check, used the same name as the name of the forum permissions function.
+
+- [Modified] Disable ACP, MCP and UCP modules when JVA - Core extension is disabled.
+- [Modified] Create a challenge, arrived challenge (accept, reject) and sent challenge (withdraw) - Using Ajax.
+- [Modified] Challenge - We also filter out games reported as faulty from the list of favorite games.
+- [Modified] Tournament/Rank - When you click on the link, it jumps to the position of the given box.
+- [Modified] For guests, when restarting the game, do not indicate that the session has expired.
+- [Modified] Play game - Displaying a warning text together when the game participate in both a challenge and a tournament.
+- [Modified] In the list of tournament games, if infinite replay is possible, the number of times the user replayed the game should also be displayed.
+- [Modified] ACP/Arcade announcements - Accurate detection of different prefixes.
+- [Modified] Optimizing the query of categories of users and games - (Arcade, challenge and tournament).
+- [Modified] ACP/Permissions/Moderator roles - Standard Moderator and Full Moderator.
+- [Modified] We have replaced the old, obsolete administrative root path.
+- [Modified] Requirement - phpBB >= 3.3.10.
+- [Modified] Requirement JVA - Core 1.0.10 or later.
+
+- [Added] (ACP and MCP)/Manage tournaments/Create a new tournament - add a new option "Favorite games select".
+- [Added] ACP/Arcade/Challenge settings - Disable the games list Yes/No. (If you disable the games list, users can only choose a game from their favorite games on the challenge page.)
+- [Added] Ongoing challenge - Check if the game bug reporting system is enabled.
+- [Added] ACP/Arcade System settings - Group tournament system Enable/Disable.
+- [Added] New ACP Module - Group tournament settings.
+- [Added] New ACP and MCP Modules - Manage group tournaments.
+- [Added] ACP/Arcade - Group tournament statistics.
+- [Added] ACP/Arcade - Reset group tournaments.
+- [Added] ACP/Arcade/Manage tournaments - In case of an incorrect ID, we will receive an error message.
+- [Added] ACP/Arcade/Manage tournaments - If we do not have permission to delete the tournament, we will receive an error message.
+- [Added] ACP/Arcade/Manage game announcement/Re-sync all games - Before synchronizing, taking into account the changed settings and save them.
+- [Added] ACP/Arcade/Manage game announcement/Re-sync all games - If we ignore all categories, then all topics in the forum must be deleted.
+- [Added] ACP/Arcade/Manage game announcement/Re-sync all games - Warning text for deleting non-existent game topics.
+- [Added] ACP/Arcade/Manage Announcements - announcement group tournament and group tournament end.
+- [Added] Arcade menu items:
+			Group tournament - (finished tournaments, my statistics and statistics).
+			Detailed statistics/Group tournament - (played games, played users and winners).
+			Settings - Manage local storage
+- [Added] Finished tournaments - Rank field.
+- [Added] Arcade group tournament - Users can join a group tournament of 4, 8 and 16 people themselves.
+- [Added] Arcade group tournament - Subscribe and unsubscribe using Ajax.
+- [Added] On the User/Game statistics pages, the title has been expanded to include the name of the tournament, category and game.
+- [Added] Sorting of game, challenge game and tournament game statistics data.
+- [Added] FAQ - Questions about group tournaments.
+- [Added] Forum profile and post  - Won arcade group tournaments.
+- [Added] ACP/Arcade/User administration - Group tournament won.
+- [Added] View online - Group tournaments all pages.
+- [Added] New MCP/Arcade Module - Moderator logs.
+- [Added] New MCP permissions - Can view logs and Can clear logs.
+
+- [Updated] Ruffle emulator (2023-06-23) for release.
+
+## 7.7.0 - 2023-02-02
+
+- [Fixed] Play game - Game Intro in portrait and landscape mode, scrolling through the game description resulted in a conflict.
+- [Fixed] Play game - Game restart for embedded games.
+
+- [Modified] Modernization and optimization of Javascript codes.
+- [Modified] Arcade javascript uses the Points.NumberFormat function of the new "JVA - Core" extension.
+- [Modified] ACP/Arcade/Edit game module description.
+- [Modified] Requirement JVA - Core 1.0.9 or later.
+
+- [Added] ACP/Arcade/Edit game - Game description new confirmation field. Edited the game description will ignore changes to inherited games descriptions.
+- [Added] Touch screen double click detection.
+
+- [Updated] Ruffle emulator (2023-02-02) for release.
+
+## 7.6.9 - 2022-10-05
+
+- [Modified] Requirement JVA - Core 1.0.8 or later.
+
+- [Added] ACP/Arcade/Game settings - Games use a uniform size Yes/No.
+- [Added] ACP/Arcade/Game settings - Landscape game uniform width.
+- [Added] ACP/Arcade/Game settings - Portrait game uniform height.
+- [Added] Play game - Confirm game restart.
+
+- [Updated] Ruffle emulator (2022-10-05) for release.
+
+## 7.6.8 - 2022-09-15
+
+- [Fixed] Play game - In Flash games, if you use the menu, clicking on the value field closes the field, which it shouldn't.
+
+- [Modified] Play game - On mobile devices, the basic width of the menu has been changed from 8 to 10 pixels.
+- [Modified] Play game - Member or champion challenge new window location we use Ajax so that the displayed points data can also be updated.
+- [Modified] Verification of requirements.
+- [Modified] Requirement JVA - Core 1.0.7 or later.
+
+- [Added] ACP/Arcade/Installation verify - JVA - Core required minimum version verification.
+- [Added] New UCP module - Manage local storage.
+- [Added] UCP/Arcade/Game setting - Custom game width and height.
+- [Added] Play game - The opening of the popup window should also take into account the smallest value limit of 180 pixels.
+
+- [Updated] FAQ.
+- [Updated] Ruffle emulator (2022-09-14) for release.
+
+## 7.6.7 - 2022-07-19
+
+- [Fixed] Play game - The menu does not appear when Game Intro and game loading display are turned off.
+- [Fixed] ACP and MCP/Arcade/Game settings/Change scoring type - User total data was not synchronized after the edit.
+
+- [Modified] Play game - Instead of the Game Intro loading gif image, css code is used to display the preloader.
+- [Modified] Play game - Updated security features.
+- [Modified] ACP/Arcade/Game settings/Super champion avatar size - This configuration has already been named "Champion", so specifying the size already affects the champion and super champion avatars size.
+- [Modified] Announcements - (Game, Top 10 player, game report and tournament).
+	Until now, the "submit_post" basic function of  phpBB was used for announcements (Game, tournament, top 10 and game report),
+	but from this release on, we start with no longer support it, as it does a lot of unnecessary database and PHP work,  that we do not need.
+	In this way, we can save a lot of memory and queries, and of course the work time is significantly reduced.
+
+	The following has been removed from the imported "submit_post" feature:
+		1. Notification tasks and related events.
+		2. Track tasks.
+		3. Approval tasks.
+		4. Voting tasks.
+		5. Attachment tasks.
+- [Modified] Requirement - phpBB >= 3.3.8.
+
+- [Added] The "Enable search indexing" value of the forum settings is used as basis when managing announcements.
+- [Added] Play game Options - Display of game orientation.
+- [Added] Play game - A loading indicator also appears before Html5 games.
+- [Added] Play game - If the game score variable is missing, it is added to the error message in the error log.
+- [Added] Play game - Analysis of a game cannot start until the frame is ready.
+- [Added] Play game - Verifying that a game has finished loading.
+- [Added] Play game - Security function if the browser cache is disabled or the browser developer is used.
+- [Added] Play game - Clicking on the Game Over field also uses the jump to the top/middle position.
+- [Added] Play game - We also support the more advanced orientation event.
+- [Added] Play game - On rotatable devices, if the device is in the wrong orientation, we display an image that the device needs to be rotated. If a game supports both landscape and portrait orientation, this feature will not be activated.
+- [Added] ACP/Arcade/Game settings - Device rotation warning Yes/No.
+- [Added] UCP/Arcade/Game setting - Disable preloaders Yes/No.
+- [Added] ACP/Arcade/Edit game - If an edited game has additional inherited games, those games should also be updated if the following data is changed:
+	1. Game description.
+	2. Game controller.
+	3. Save type.
+	4. Width, height.
+	5. Scoring type.
+	6. Privacy Policy, link.
+	7. Rotatable game.
+- [Added] MCP/Arcade/Edit game - If an edited game has additional inherited games, those games should also be updated if the following data is changed:
+	1. Game description.
+	2. Game controller.
+	3. Scoring type.
+	4. Privacy Policy, link.
+
+	Updates of inherited games are also updated the same way, just like updates of the same game descriptions, in order to stay below the server limits.
+	We didn't put the two update processes under one update process because the descriptions of the inherited games may be different from each other.
+	Identical controller update has been removed as it was included under inherited game data auto-update.
+
+	When updating a game, the tasks are executed in the following order:
+	1. Update an edited game.
+	2. Update inherited games, if the edited game includes inherited games.
+	3. Update of the same game descriptions, if it has been confirmed and there are still games waiting to be updated.
+
+- [Updated] Ruffle emulator (2022-07-19) for release.
+
+Deleted file:
+[ROOT]/arcade/assets/images/preload.gif
+
+## 7.6.6 - 2022-07-01
+
+- [Fixed] Game Intro rotation in light style landscape mode will lose its background.
+- [Fixed] UCP Game setting (Enable scroll bar in mobile view) - The disabled scroll bar does not update automatically in a normal viewport.
+- [Fixed] Play game - Reduce/Increase game size (The game scale has shifted).
+- [Fixed] Category games style "Forum" - Incorrect display of game names and descriptions when searching for games.
+- [Fixed] Category games style "Forum" - In a responsive look, the game image is in the wrong position.
+
+- [Modified] We move on to the modern resizing feature.
+	Advantages:
+		 1. The height and width of the games are no longer modified by the new resize feature,
+		   so all games that have a resize feature remain inactive, thus avoiding duplicate resizing runs and conflicts.
+		 2. Eliminates any pixel slip problems.
+		 3. If a game uses multiple canvases within a game, we avoid flickering when resizing different layers at different times.
+		 4. Reduced memory usage on users devices.
+		 5. No need to explore canvas and viewport anymore.
+		 6. There is no need to further review the games.
+		 7. There is no need to further resize ads.
+		 8. There is no need to further resize Game Over.
+		 9. There is no longer a delay when rotating on rotatable devices.
+		10. There is no more delay when switching to full screen.
+		11. Each game can be adjusted to the size of the window.
+		12. Some Html5 and Flash games do not support resizing. With the new program, these games can also be resized.
+		13. Instant lightning-fast resizing.
+		14. Framework analysis in less time.
+		15. Faster game launch.
+		16. Perfect display.
+	Since there is no longer a game where resizing should be disabled, some variables that can be used during game adaptation have been deleted:
+		Ignore_resize
+		Ignore_resize_canvas
+		GameNoUseCanvas
+- [Modified] Retains the original width and height size of games.
+- [Modified] Retains the original width and height size of the Ruffle flash player.
+- [Modified] ACP Upload games - For many file uploads, if the list reaches the bottom of the page, start scrolling and stay in the bottom position.
+- [Modified] Play game - The size of the game can no longer deviate from its own scale, thus preventing the appearance of games from being distorted.
+- [Modified] Play game - Maximum menu size.
+- [Modified] Play game - The order of the elements.
+- [Modified] Play game - Appearance of Privacy Policy.
+- [Modified] When adapting a game, we already support specifying the original size of the game in the installation file.
+
+- [Added] UCP new General setting - Popup vertical position Top/Middle. (If the height of the screen is greater than the height of the pop-up window, the new window will be adjusted to the position set here).
+- [Added] UCP new Game setting - Game vertical position Top/Middle. (If the height of the screen is higher than the height of the game, the game will be adjusted to the position set here).
+- [Added] UCP new Game setting - Game vertical position is active. (This setting only takes effect when the middle position is set.).
+
+- [Updated] UCP settings - User settings will be restored during the upgrade to 7.6.6.
+- [Updated] ACP settings - Members and guests default settings will be restored during the upgrade to 7.6.6.
+- [Updated] Ruffle emulator (2022-06-30) for release.
+
+## 7.6.5 - 2022-06-12
+
+- [Fixed] Dutch and French languages.
+- [Fixed] Ruffle Flash player destroy - The Game Over interface did not accept the destroy statement, so Flash games continued to run in the background.
+- [Fixed] ACP Unpack games - If we want to unpack a game that has already been deleted, we get a PHP error.
+- [Fixed] Tasks involving random games give a PHP error - Undefined array key "game_control".
+- [Fixed] Tournament - English tournament end announcement text.
+- [Fixed] Tournament - Restart game add +1 plays.
+- [Fixed] Tournament - If the number of plays is limited, the last play will no longer save the score.
+- [Fixed] ACP Manage tournaments - The "Finished tournaments" button will be displayed incorrectly if there is no new tournament.
+- [Fixed] Play game new window -  Always center the game window.
+
+- [Modified] When enabling an extension, use the basic phpBB check function for additional extension dependencies.
+- [Modified] Play game new window - Adjust the size of the window to match the size of Game Over.
+- [Modified] Play game new window - When playing in full screen, do not exit the full screen when the Game Over interface appears.
+- [Modified] Play game new window - After determining the size of the window, check the dimensions of the required elements. (Game and menu items cannot be left without size).
+- [Modified] ACP Upload games - Used the Plupload (multi-runtime File Uploader) javascript, which allows you to upload files in smaller chunks, so even limited servers can upload larger files.
+- [Modified] ACP Upload games - Multiple games can be uploaded at once.
+- [Modified] ACP Upload games - Uploading no longer supports immediate unpacking after uploading.
+- [Modified] ACP Upload games - Automatically filter out unsupported file extensions from the upload list.
+- [Modified] Tournament - Only games for which the user has received information that the game is participating in a tournament may save data in the tournament, only in-game restarts are an exception.
+- [Modified] Tournament - Once the user has reached the maximum number of plays, he will no longer be able to receive information about the tournament at the start of the game.
+
+- [Added] Flash play game - If you open the menu, the Flash game is paused.
+- [Added] ACP Upload games - Start uploading games dragged into the input box automatically.
+- [Added] ACP new Load setting - Games upload limit.
+
+- [Updated] Ruffle emulator (2022-06-12) for release.
+
+## 7.6.4 - 2022-05-29
+
+- [Fixed] The phpBB Alert feature was inactive in previous releases due to a character spelling error.
+- [Fixed] If the game menu is disabled, then the Game Intro music will not turn off when starting a game.
+- [Fixed] Resize flash games.
+
+- [Added] UCP new Game setting - Full screen device (All devices/only touchscreen devices).
+- [Added] UCP new Game setting - Filter out keyboard games (Yes/No).
+- [Added] UCP new Game setting - Game introductory style (Light/Dark). (Available only on a system activated with a private key).
+- [Added] UCP new Game setting - Allow submit score (If you do not enable it, the game will not submit our score either automatically or after pressing the “Submit” button. Instead of submitting the score, a “Game Over” interface will open, allowing you to play the game again immediately or to submit your score).
+- [Added] Game Intro also supports a portrait look.
+- [Added] ACP new Game setting - Restart time (After restarting the game, how long the button / link should be inactive before users can use it again).
+
+- [Modified] Use of gray game images for games for which we do not have permission to play.
+- [Modified] The minimum length of a category name is 3 to 2.
+- [Modified] The Game Intro version has been removed and will now show the current version number of phpBB Arcade.
+- [Modified] Game Intro size 960x640 to 1920x1080 Full HD.
+- [Modified] Game Intro high scores display maximum increased from 8 to 10.
+- [Modified] Game Intro and menu scroll bar normal and touch screen function.
+- [Modified] Game Intro advertisement preloader animation.
+- [Modified] Game Intro Image logo size from 620x70 to 1550x176.
+- [Modified] The game menu in the Game Intro can no longer contain the following buttons: (Rating, Favorite and Restart).
+- [Modified] For Ajax errors, use the basic function of phpBB.
+- [Modified] The restart button cannot be used by bots.
+- [Modified] The restarted game does not reload the entire website and use only AJAX calls.
+	The following fields are also updated during an Ajax call:
+	1. The balance of the points system in the navigation menu.
+	2. The balance of the points system in the Game Options menu.
+	3. Playing time.
+	4. Forum session time.
+	5. Game session time.
+
+- [Updated] UCP settings - User settings will be restored during the upgrade to 7.6.4.
+- [Updated] ACP settings - Members and guests default settings will be restored during the upgrade to 7.6.4.
+- [Updated] Ruffle emulator (2022-05-28) for release.
+
+## 7.6.3 - 2022-04-27
+
+- [Modified] License JVAL-1.0 to GHVL-1.0 "https://phpbbarcade.euroscadeaux.com/license.html".
+- [Modified] Copyright.
+
+- [Added] New Connect website "https://connect.euroscadeaux.com/".
+- [Added] Dutch and French languages.
+
+- [Updated] Default game installation file updated from 7.6.0 to 7.6.3
+
+- [Deleted] Hungarian and German languages.
+
+## 7.6.2 - 2022-04-16
+
+- [Fixed] The game download generates a php error for a non-existent game ID.
+- [Fixed] If a game does not support score, it will generate a php error when starting the game.
+- [Fixed] ACP/Arcade/phpBB Arcade activate/View personal data - Remove personal data.
+
+- [Modified] Compatibility: phpBB >= 3.3.7
+
+- [Updated] ACP/Arcade download module minimum connection version from 7.6.0 to 7.6.2.
+- [Updated] Ruffle emulator (2022-04-16) for release.
+- [Updated] JVA Game Intro 7.6.1 to 7.6.2
+
+## 7.6.1 - 2022-03-17
+
+- [Fixed] Play game - The "SupportLocalStorage" ID is unknown if cookies are disabled.
+- [Fixed] JVA Game Intro - My image logo path.
+
+- [Modified] JS, detect whether the game is using the browser's local storage.
+- [Modified] ACP, accelerate refill time for processings - page/3 seconds to page/2 seconds.
+- [Modified] Compatibility: phpBB >= 3.3.6
+
+- [Added] Support for SVG and Webp in ranks.
+
+- [Updated] Ruffle emulator (2022-03-15) for release.
+- [Updated] JVA Game Intro 7.6.0 to 7.6.1
+
+## 7.6.0 - 2022-02-04
+
+- [Fixed] UTF-8 character encoding when trimming game and user names.
+- [Fixed] JVA Game Intro - Duplicate initialization when an event request is received.
+- [Fixed] JVA Game Intro - Resize for moving a window.
+- [Fixed] JVA Game Intro - If we do not have permission for statistics, we will disable the "highscores" button.
+- [Fixed] JVA Game Intro - Game description scroll bar:
+	1. If move the mouse to the scrollbar button, replace the mouse pointer.
+	2. When you hold the scrollbar button, the button should always be in the middle of the mouse pointer.
+- [Fixed] JVA Game Intro - If the game controls description activates the scrollbar, the text cannot go below the scrollbar.
+- [Fixed] Play game - If "Automatically zoom in on a game" is enabled for the user, this will be applied even when exiting full screen mode.
+- [Fixed] Play game - If the backlight is turned off and after the game is restarted and after the backlight is turned back on, the game slides on the information block when the window size is narrow.
+- [Fixed] Play game - If the game contains a GDPR description and link, the approval field can only be read after that. (Approval position).
+- [Fixed] Play game - Missing closing "div" element when formatting GDPR text.
+- [Fixed] Play game - In a new window, the load percentage is not visible due to poor color usage.
+- [Fixed] Play game - As you move and resize a window, the game vibrates.
+- [Fixed] Play game - Landscape game as a misdiagnosed portrait game.
+- [Fixed] Play game - Can't type on a mobile phone because resizing the game keeps closing the mobile keyboard.
+- [Fixed] Play game - It is not possible to scroll the website on a mobile phone because the game is constantly jumping to the game top position.
+- [Fixed] Play game information block / Game options - If the user does not allow the challenge, remove the challenge options from the option table.
+- [Fixed] Play game information block / Game options - If the user does not have permission to view statistics, the basic configurations of the challenge points will not be loaded.
+- [Fixed] UCP Game, post settings - Error message display.
+- [Fixed] Game search - Game names containing UTF-8 characters.
+- [Fixed] Game report - Invoke an old non-existent javascript function.
+- [Fixed] Reject Challenge - Incorrect use of the language identifier results in a PHP error.
+- [Fixed] Live Search html code fix - remove double quotes.
+- [Fixed] ACP/Arcade/Edit game - If both checkboxes for delete game and delete game files are selected, deleting the game will take precedence and check the confirmation box for deleting the files by default on the confirmation page.
+- [Fixed] ACP/Arcade/Create game install file/Download current game install file - Missing "game_filename" value.
+- [Fixed] Game installer file convert, if game type is not phpBB Arcade - Incorrect image format define.
+
+- [Modified] Use the "lang_js" designation added in phpBB 3.3.5 to add language values to javascript.
+- [Modified] Merge multiple audio files.
+- [Modified] Manage all audio with the JVA - Core extension.
+- [Modified] JVA Game Intro - Modernization of Javascript codes.
+- [Modified] JVA Game Intro - Google advertising can use the full interface.
+- [Modified] JVA Game Intro - Links http to https.
+- [Modified] JVA Game Intro - Sound, Music buttons.
+- [Modified] JVA Game Intro - If the browser is not started properly, the browser will block music from playing. In this case, the browser will only allow audio sounds to be played if the user clicks on the web page and activates it. If the user activates the website, we will try to restart the music.
+- [Modified] JVA Game Intro - Minimum number of scores 3 to 0,
+- [Modified] Play game - If the border around the game is disabled, rounding the corners should also be disabled.
+- [Modified] Play game - During gameplay, if you turn off the light, turn off the border as well.
+- [Modified] Play game - Backlight on/off note when "Automatically zoom in on a game" is turned on.
+- [Modified] Play game - Ruffle setting. Do not use a background color.
+- [Modified] Play game - It is not possible to resize the game to less than 180px.
+- [Modified] Play game - The score cannot be saved if the security form is missing.
+- [Modified] Play game - Focusing on the game is only possible after authentication.
+- [Modified] Play game - Attach arrows and space keys only possible after authentication.
+- [Modified] Play game - For tablet and mobile devices, delay resizing for full screen and rotation.
+- [Modified] Play game page - Game description google translation.
+	Google Translate API Intervention:
+		1. Convert the translator link to a button.
+		2. Move the button over the text you want to translate.
+		3. Display "Contribute a better translation" is not allowed.
+		4. We do not allow translated text to be highlighted by the Google translation API.
+	Note: In our current testing, the "Google Translate API" does not create cookies on our device during use.
+- [Modified] Play game page - In the normal window, the information block is disabled by default.
+- [Modified] Play game page - Open all links in a new window.
+- [Modified] Play game page - Username links, if you point to statistics, use the top positioning for the affected box.
+- [Modified] Play game page - The size of the game should not leave the line of sight.
+- [Modified] Play game page - In full screen, only rotatable games can be stretched to the height and width of the window. Other games can only adapt to their own size ratio.
+- [Modified] ACP Backup games - Convert category names to Latin characters, (Support for additional UTF-8 characters when converting).
+- [Modified] The appearance of copyright uses the new classes in phpBB.
+- [Modified] ACP/Arcade/Game edit settings - The "game_own_ratio" has been removed and will be replaced by the new "game_rotatable" setting.
+- [Modified] Most of the phpBB Arcade javascript function has been anonymized. The functions that can be used are also limited. We have provided the main configurations that can be writable and readable. Thus, all APIs in use have become protected.
+- [Modified] Category/Games - If the game does not support getting the score, this text can only appear in one place in the block.
+- [Modified] Category/Games - The width of the blocks must always be the same.
+- [Modified] Category/Games - The tooltip should be in the block and not above it.
+- [Modified] Compatibility: phpBB >= 3.3.5
+
+- [Added] Play game - If click on a game, always jump to the top position in the game.
+- [Added] Play game - Protect the jump to the game top position API overload while continuously resizing the game window.
+- [Added] Play game information block / Game options - Game resize buttons, game ratings and favorites. (These options are only visible when the menu is off).
+- [Added] Play game information block / Game options - Game restart.
+- [Added] Play game - Fixed menu for the intro and the game. (The menu is available in both normal, full screen and new window).
+	The menu also allows you to view a variety of information and additional settings during playing:
+		 1. View champion and result list.
+		 2. View playing time.
+		 3. View more options.
+		 4. View more information - Game description, game controllers, champion comment and who is playing.
+		 5. Switch to Full Screen/Normal screen.
+		 6. Switch the backlight on/off.
+		 7. Restart the game. (The button is deactivated immediately after use).
+		 8. Mark or delete a game as a favorite. (After use, the button is deactivated until the ajax script is completed).
+		 9. Game rating. (After use, the button is deactivated until the ajax script is completed).
+		10. Rotate game, if supported by game. (On a rotatable devices, this button is not active, it is always based on the rotation of the rotatable device).
+		11. Delete game data from the browser - If the game allows authentication.
+		12. Info block open/close - If enabled in the user settings.
+
+- [Added] Play game menu - Delay menu opening after 0.5 seconds after holding down. This has been added for security reasons so that even when you accidentally click on the game, the menu will not open.
+- [Added] Play game menu data field - If the field is too large, a custom scrollbar will be added that supports the keyboard, mouse and touch screen.
+- [Added] Play game menu data field - On a touch screen, you can also scroll by tapping the content.
+- [Added] Play game menu - Supports landscape and portrait layout.
+- [Added] Play game menu - Automatic resizing.
+- [Added] ACP/Arcade/Manage games/Search game - Add results page search box.
+- [Added] UCP new Game setting - Game orientation Landscape/Portrait
+- [Added] UCP new Game setting - Resize buttons Enable/Disable.
+- [Added] UCP new Game setting - Menu Enable/Disable.
+- [Added] UCP new Game setting - Menu position Left/Right.
+- [Added] UCP new Game setting - Menu button style Button with text/Button without text
+- [Added] UCP new Game setting - Info box Enable/Disable.
+- [Added] UCP new Game setting - Scroll bar in mobile view Enable/Disable.
+- [Added] UCP new Game setting - Start game in full screen.
+- [Added] UCP new Game setting - Clicking on a game will automatically let the focus jump to the top position.
+- [Added] Game size validate function - Check that the game height does not exceed the screen; if so, the game size will be reduced automatically.
+- [Added] Game resize function - (Support multiple canvas). If a game consists of several canvas, we support the discovery of all canvas at the same time and their resizing from each canvas element's own ratio calculation.
+- [Added] Game resize function - (Support viewport). Find out if the game uses the "viewport" frame and if so, change the frame size of the game there as well. (Experimental feature).
+- [Added] Game resize function - For games that use the "viewport" frame, resizing to full screen will be delayed by 0.8 seconds, as you will have to wait for the game to your resize before the phpBB Arcade can intervene to correct the size. (Experimental feature, currently only available for games using multiple canvas).
+- [Added] Game resize function - When resizing, we also consider resizing the following "styles parameters" in the canvas (left, right, top, bottom, width, height, margin-left, margin-right, margin-top, margin-bottom).
+- [Added] ACP/Arcade/Game edit - If change the game inheritance path, all identical games will be updated along with the installation file.
+- [Added] Challenge a user in a game - In the event of an error, the affected game must be in the list of loaded limited games, but no further games will be allowed to be loaded.
+- [Added] The "ScoreVariable" variable can be used during game adaptation, so you can specify the authentication key within the game to save the score.
+- [Added] ACP/Arcade Game settings - "Check game size" The set size of the installed game is checked before starting the game. If it differs from the base size, the base dimensions of the game will be modified according to the scale of the installed game. If the programming of the game disabled resizing, of course, this feature will not affect these games.
+- [Added] ACP/Arcade Game settings - "Landscape game basis width" and "Portrait game basis height". (Configurations that cannot be changed)!
+- [Added] JVA Game Intro/Game description - Scrollbar touch screen and mouse scrolling support.
+- [Added] JVA Game Intro/Game description - If we grab the scrollbar button, we won’t let go if we leave the canvas area.
+- [Added] JVA Game Intro/Game description - On a touch screen, you can also scroll by tapping the description.
+- [Added] ACP/Arcade Edit game - New confirmation - Updating the same game descriptions can only apply to the game category.
+			In addition, checking the interdependencies of the already 3 confirmation fields and automatic intervention if necessary.
+- [Added] ACP/Arcade/Update game data - Display and log a missing game file.
+- [Added] ACP/Arcade/Installation verify - Check the existence of old folders and files that are no longer used.
+			At this checkpoint, in the case of an error, the scan can continue because there may be a web page that also uses its own folders or files.
+- [Added] ACP/Arcade/Download games - Optional game types (All, HTML5 games, Embedded games, Ruffle (Flash) Games);
+- [Added] Support game container focus.
+
+- [Updated] ACP/Arcade download module minimum connection version from 7.3.0 to 7.6.0.
+- [Updated] Default game installation file updated from 7.5.0 to 7.6.0
+- [Updated] UCP settings - User settings will be restored during the upgrade to 7.6.0.
+- [Updated] ACP/Arcade settings - Members and guests default settings will be restored during the upgrade to 7.6.0.
+- [Updated] JVA Game Intro 7.3.0 to 7.6.0
+- [Updated] Ruffle emulator (2022-02-03) for release.
+
+- [Deleted] Play game page - Normal and new window game header menu.
+- [Deleted] Play game in a new window - We have removed the copyright so as not to disturb users during play.
+- [Deleted] ACP/Arcade settings - Allow changing resolution. (The development team will no longer allow this restriction because of the visually impaired!)
+- [Deleted] UCP permission - Can change resolution of game. (The development team will no longer allow this restriction because of the visually impaired!)
+- [Deleted] All obsolete Html4 codes.
+- [Deleted] All old obsolete or no longer used javascript codes.
+- [Deleted] Invocation of all "phpBBArcade" javascript functions has been removed from the Html code.
+
+Deleted folders and files:
+[ROOT]/arcade/assets/animations
+[ROOT]/arcade/assets/javascript/createjs.js
+[ROOT]/ext/jv/arcade/styles/all/template/arcade/game_over_animation.html
+
+## 7.5.0 - 2021-09-16
+
+- [Modified] Modernization and optimization of Javascript codes.
+- [Modified] Game Installation File - Recognize the "Keyboard and Mouse Icon".
+- [Modified] Local storage configuration:
+	1. Not allowed
+	2. Allowed, but only protected data
+	3. Allowed all except scores
+	4. All allowed
+
+- [Updated] Default game installation file updated from 7.1.0 to 7.5.0
+- [Updated] Ruffle emulator (2021-09-14) for release.
+
+## 7.4.2 - 2021-07-25
+
+- [Fixed] Security protocol - We detect when a user attempts to manipulate the source code of our website or game.
+- [Fixed] Live search - Correct results of special characters.
+
+- [Modified] ACP/Arcade download module minimum connection version from 7.0.0 to 7.3.0.
+
+- [Added] New security protocol - Protection 'Tap' function.
+- [Added] On the game play page, the right mouse button can only perform a click task.
+
+- [Updated] Ruffle emulator (2021-07-25) for release.
+
+- [Deleted] Override PHP set_time_limit.
+
+Security protocol increased from 19 to 20.
+
+## 7.4.1 - 2021-06-21
+
+- [Modified] Pair of language lines.
+
+- [Added] ACP/Arcade/Manage categories/Delete marked game files.
+- [Added] ACP/Arcade/Manage games/Edit game/Delete game files.
+- [Added] ACP/Arcade/Manage categories/Synchronization - The synchronization should also check the game files size, if there has been a change, we will also update this data in the database.
+
+- [Updated] Ruffle emulator (2021-06-21) for release.
+
+## 7.4.0 - 2021-05-21
+
+- [Fixed] Automatic arcade Enable/Disable.
+- [Fixed] While checking and adjusting the iframe of the games, a fatal loop was created in some games, which overloaded our device.
+- [Fixed] Manage tournaments - Display Finished tournaments button.
+
+- [Modified] The correct time stamp creation, use the phpBB "user->create_datetime" feature.
+			 The following are used:
+				1. Automatic arcade Enable/Disable time.
+				2. Game Recommendation (Day, week, month) time.
+				3. Users automatically scores reset time.
+				4. Create and edit a tournament.
+- [Modified] Each set time is displayed according to the time zone of that user.
+- [Modified] Mobile view.
+- [Modified] Requirement - JVA - Core 1.0.4.
+
+- [Added] ACP Automatic arcade Enable/Disable - Also support time shifts to the next day, such as: (Disable 23:00 - Enable 06:00).
+
+- [Updated] Ruffle emulator (2021-05-20) for release.
+
+- [Removed] Top X player announcements - The [create_date] is no longer supported in the post.
+- [Removed] Tournament announcement - The [tour_starttime] and [tour_endtime] is no longer supported in the post.
+
+## 7.3.1 - 2021-05-02
+
+- [Fixed] Before adding a user time zone, set a default time zone for tournament times.
+- [Fixed] Tournament news date.
+- [Fixed] Arcade category style - Display subcategory text.
+- [Fixed] Highlighted search games name UTF-8 character error.
+
+- [Modified] PHP 8.1 compatibility.
+
+- [Updated] Ruffle emulator (2021-05-02) for release.
+
+- [Removed] Search for games - the game name you are looking for cannot be highlighted in the game description.
+
+## 7.3.0 - 2021-04-18
+
+- [Fixed] JVA Game Intro - Delivery of the correct data.
+
+- [Modified] Ruffle - Eliminate forcible incorporation.
+- [Modified] JVA Game Intro - Sound button.
+- [Modified] JVA Game Intro - If not found advertisings or advertising error occurs and there is no waiting time for the user, it is skipped automatically.
+- [Modified] JVA Game Intro - Image quality improved from 8Bit to 32Bit.
+- [Modified] JVA Game Over Animation - Image quality improved from 8Bit to 32Bit.
+
+- [Added] JVA Game Intro - Music button.
+
+- [Updated] CreateJS 0.7.0 to 1.0.0
+- [Updated] JVA Game Intro 7.0.0 to 7.3.0
+- [Updated] JVA Game Over Animation 0.1.0 to 1.0.0
+- [Updated] Ruffle emulator (2021-04-18) for release.
+
+## 7.2.1 - 2021-04-12
+
+- [Fixed] Flash game size when playing in a new stretched window.
+
+- [Modified] Search function - Automatic insertion of the wildcard character "*" is added automatically only after the entered text.
+- [Modified] Live Search - Ignore Lowercase / Uppercase.
+- [Modified] Live search - If a category is selected in the search engine, this will be taken into account in the live search.
+- [Modified] Language files are singular / plural.
+- [Modified] Arcade Log function support plural array language rows.
+- [Modified] UCP Manage favorites logging.
+
+- [Added] Search function - Only output the exact result by entering the "@" character in front of the text.
+
+- [Updated] Ruffle emulator (2021-04-12) for release.
+
+## 7.2.0 - 2021-03-28
+
+- [Fixed] Search for games, "Other" button.
+
+- [Modified] Games moved to alphabet and numeric folder.
+
+- [Updated] Ruffle emulator (2021-03-28) for release.
+
+## 7.1.4 - 2021-03-13
+
+- [Fixed] Play Page - If the information block is closed, after a restart the game interface will not respond to your new try to open/close.
+- [Fixed] Play Page - If the backlight is off, the game was not positioned when exiting full screen.
+- [Fixed] User profile and topic mini profile - display arcade data.
+
+- [Modified] Instead of the phpBB base "user->format_date" function, we use the PHP "date" function on tournament pages because the phpBB base function returns incorrect values for some timestamps.
+				Addition: There is no error in the "user-> format_date" function. The error was produced by timestamps for the winter and summer periods.
+					This has been fixed in release phpBB Arcade 7.4.0.
+- [Modified] PHP8 compatibility (Admin auth).
+
+- [Updated] Ruffle emulator (2021-03-13) for release.
+
+Compatibility: PHP >= 7.1, phpBB >= 3.3.3
+
+## 7.1.3 - 2021-02-24
+
+- [Fixed] Random challenge - use the new class name.
+- [Fixed] In languages files, the missing % sign.
+
+- [Modified] WELCOME box (Latest highscores, winners) - If set to 0, the display can be turned off.
+- [Modified] PHP8 compatibility.
+
+- [Added] Support old game installation files.
+
+- [Updated] Ruffle emulator (2021-02-21) for release.
+
+## 7.1.2 - 2021-02-09
+
+- [Fixed] ACP/Add games - If the games you want to install have a matching game name, add them to the checklist to change the game name to +1 during installation.
+- [Fixed] ACP/Add games - Install a game multiple times. (If you go back or refresh in the browser).
+
+- [Added] Play Game - Display "Convert your Flash game, please wait…" text for the Ruffle Flash conversion time
+			so that you do not have to look at a blank black screen for a long time.
+- [Added] ACP/Manage games/Delete games - Delete games by inheritance type.
+
+- [Updated] Ruffle emulator (2021-02-09) for release.
+
+## 7.1.1 - 2021-02-07
+
+- [Added] Flash - Blocked replace local url.
+
+## 7.1.0 - 2021-02-06
+
+- [Fixed] Display of the correct order recommending daily, weekly and monthly games.
+- [Fixed] If a game is in competition, the play number should only be saved if the user has already confirmed the start of the game.
+- [Fixed] Category/Games - Show champion comments.
+- [Fixed] Game statistics query - database group.
+- [Fixed] Create a tournament start and end date using correct user time zone.
+- [Fixed] In case of incorrect result submission of score - Check report system.
+- [Fixed] 7.0.0 migration file.
+
+- [Modified] For game statistics, if the rating system is turned off, the rating text should not be displayed either.
+- [Modified] Category / Games - If the rating system is off, do not appear in the sort list.
+- [Modified] Arcade menu items:
+				If "Favorite games system" is switched off, the "Favorite games" menu item should not be displayed.
+				If "Games rating system" is off, the "Rated games" menu item should not be displayed.
+- [Modified] Statistical items:
+				If "Statistical system" is switched off, statistics should not be displayed in the user profile.
+				If "Statistical system" is switched off, statistics should not be displayed in the attribution mini profile.
+				If "Statistical system" is switched off, statistics should not be displayed in the categories and category/games.
+- [Modified] For guest users, the display of the number of installed games has been removed from the game start and score save warning message.
+- [Modified] ACP/Arcade/Manage categories/Games - Search games if no results are found.
+- [Modified] Links inserted into forum announcements do not include the domain name, only also the local url.
+- [Modified] Default game installation file updated from 7.0.0 to 7.1.0.
+- [Modified] Game installation limit is 150 to 500.
+- [Modified] If a system is turned off, all associated ACP settings must be inactive. (Except for "Extension settings").
+
+- [Added] Detailed statistics - Downloaded games.
+- [Added] ACP/Arcade/Download statistics/User - Title username and search games.
+- [Added] Arcade installation and update function - Add a new menu item and position it.
+- [Added] Games recommendation permission check - The block only display if you have permission to view or play at least 1 game.
+			The other game images will display a crossed-out image and the text "hidden" will appear in place of the game name.
+- [Added] Game installation file new configuration - Game own ratio.
+- [Added] Ruffle emulator integration.
+	The Ruffle emulator was further developed by the phpBB Arcade team:
+	1. We blocked all url calls that do not contain the local url.
+	2. Blocked redirects.
+	3. Blocked all links that point to another site.
+	4. Blocked the use of local storage.
+	5. Detect game save code and replace it with the latest phpBB Arcade save code.
+	6. Even if cookie security is turned on, all games can save the results achieved.
+	7. Use the resize features of phpBB Arcade.
+
+## 7.0.3 - 2021-01-03
+
+- [Fixed] Points system - Update our actual user total points when a point changes.
+- [Fixed] Play in full screen or in a new window. Do not interrupt the focus while the game is loading.
+
+- [Modified] JVA Core ext. requirement from 1.0.2 to 1.0.3.
+
+- [Added] Support local storage data compress/decompress and filter score data.
+
+## 7.0.2 - 2020-12-26
+
+- [Fixed] After turning off the backlight around the game, restart the game - hide the board scroll bar.
+- [Fixed] Live search permission verify.
+- [Fixed] My favorite games - Delete a favorite when search is enable.
+
+## 7.0.1 - 2020-12-11
+
+- [Fixed] Start Random Game - No results found, if there are less than 10 categories available to the user.
+- [Fixed] Games recommendation - Checking ignored categories will generate an sql error if the value is empty.
+- [Fixed] If the user does not have a favorite game yet, the hearts will not appear.
+- [Fixed] ACP/Arcade Edit game - Update the same game descriptions - Replace an old already invalid limit constant with a new configuration variable.
+- [Fixed] ACP/Arcade Edit game - Update the same game descriptions - If "Announce game" is enabled, there is no valid category name variable.
+- [Fixed] ACP/Arcade Upload/unpack games - Disable secondary PHP PharData function base error display.
+- [Fixed] ACP/Arcade/Manage Announcements/Announce game Re-sync all games - Checking ignored categories will generate an sql error if the value is empty.
+- [Fixed] ACP/Arcade/Backup games - Total data for selected categories.
+- [Fixed] Challenge a selected user on the game playing page.
+
+- [Modified] JVA Core ext. requirement from 1.0.1 to 1.0.2.
+- [Modified] Browser console log - phpBB Arcade signature contains the installed version number.
+- [Modified] Emptying all data on the local storage is no longer supported, so this feature has been removed.
+			 Games are allowed to store all data.
+			 However, if a game wants to load data from local storage, the scores are overwritten to 0 before the game receives the data.
+			 So we still don’t allow games to manipulate scores.
+			 Please note that this only applies to local installed games.
+			 So "Embedded" games are NOT protected, because they are located on an external server and this intervention is not allowed by the browser's policy.
+			 This way, games used from the external server can be manipulated by anyone by modifying the data on the local repository.
+
+- [Added] ACP/Arcade Edit game - New confirmation/Game controller In case of updating the same game description, update this field as well.
+- [Added] Normal game play page/Fullscreen mode/New option times - Playing time and (Board and game session time).
+
+## 7.0.0 - 2020-11-20
+
+- [Fixed] Delete main category - Move to another main category.
+- [Fixed] Google chrome translate extension.
+- [Fixed] Who is online - if we use our own Arcade root file path.
+- [Fixed] Disable the favorites feature for users in locked categories.
+- [Fixed] Two identical function names - root_key.
+- [Fixed] In the event of an incorrect challenge, the ID of the radio button is incorrect.
+- [Fixed] MCP/Arcade - Manage games submit a form.
+- [Fixed] Show user statistics for 1 game.
+- [Fixed] Tournament User Stats - If look at the high scores, the categories should stay in the sort drop menu.
+- [Fixed] Tournament Statistics - The name of the tournament that appears twice in the navigation menu.
+- [Fixed] Create a forum announcement for empty data.
+- [Fixed] When submitting a score, when the score variable is incorrect, an incorrect message is displayed.
+
+- [Modified] Significant reduction in server memory usage.
+- [Modified] Optimization of PHP tasks.
+- [Modified] Categories jump box.
+- [Modified] Categories menu (List of subcategories).
+- [Modified] Category style - Simple text.
+- [Modified] Game report announcement - Report by user name (report_username), remove user colour.
+- [Modified] Tournaments random games locked categories to be ignored.
+- [Modified] Random games function.
+- [Modified] ACP/Arcade download module minimum connection version from 6.0.0 to 7.0.0.
+- [Modified] All games/users lists are only allowed using ajax to avoid server overload. The list can be limited to a maximum of 1000-10000 data at a time.
+- [Modified] Who is playing in the arcade.
+- [Modified] Category test mode - Compatibility with phpBB 3.3 debug system.
+- [Modified] If a category is in test mode, users should also be notified.
+- [Modified] MCP/Arcade modules permissions.
+- [Modified] Random challenge function.
+- [Modified] From the Challenge game list, we filter out games that are in the test category and those that do not have a score function.
+- [Modified] Start the random game never display the restart confirmation.
+- [Modified] ACP/Arcade/Create game install file - Download current game install file (Only 5 samples games).
+- [Modified] Game statistics super champion username link point to arcade statistics.
+- [Modified] Challenge User Stats - "View all won challenge" link no display, if user has no wins.
+- [Modified] Tournament User Stats - "View all highscores" link no display, if user has no highscores.
+- [Modified] Arcade, challenge, tournament statistics page and game search - in case of an error message we do not always lose the platform.
+- [Modified] Active and ended tournaments - style and responsives.
+- [Modified] All paginations and limited queries - start number validation.
+- [Modified] License GPL-2.0 to JVAL-1.0.
+
+- [Added] Use of JVA - Core extension. (Requirement 1.0.1 or higher version)
+- [Added] Category style simple text - cat rules icon.
+- [Added] ACP/Arcade/Load settings - Data loading limit (Games/Users list).
+- [Added] ACP/Arcade new module - System settings.
+- [Added] Game Over animation ogg sounds files.
+- [Added] UCP/Arcade/Restore default settings - Confirmation.
+- [Added] New UCP module - game settings.
+			new options - (Automatically zoom in on a game, Display board session time, Display game session time).
+- [Added] Normal game play page - Playing time table (Board and game session time).
+- [Added] Popup game play page - New option times - Playing time and (Board and game session time).
+- [Added] If one of the systems is switched off, the corresponding modules must also be inactive.
+- [Added] ACP/Arcade - Reset menu.
+- [Added] Game search function - Can also search for games in a specific category.
+- [Added] ACP/Arcade Edit game - New confirmation - The modified game description will also update the descriptions of all the same games as the old ones.
+- [Added] ACP/Arcade/Add games - Display the number of games to install.
+- [Added] There is a 3 second wait time between the game list and the user list for an additional ajax load request.
+- [Added] The games list can be turned off in the search block.
+- [Added] Live games searches.
+- [Added] New ACP/Arcade config (Update game data limit and Convert game installation files limit).
+- [Added] New ACP/Arcade config Maximum user favorite games.
+- [Added] Tournament main page - active tournaments pagination.
+
+- [Integrated] JVA Start System and JVA Game Intro extension.
+
+- [Removed] ACP/Arcade/General settings - Game image + watermark settings.
+- [Removed] ACP/Arcade/Load settings - Loading games, users list (Always/On click).
+- [Removed] All games data cache.
+- [Removed] Flash support.
+- [Removed] The following save score types: (Activity mod, V3Arcade, Arcadelib, Arcade room)
+
+Deleted folders and files:
+[ROOT]/arcade/arcadelib
+[ROOT]/arcade/gamedata
+[ROOT]/arcade/sounds
+[ROOT]/arcade/start_system
+[ROOT]/arcade/swf
+[ROOT]/ext/jv/arcade/acp/.htaccess
+[ROOT]/ext/jv/arcade/acp/adm/style/arcade/version_check.html
+[ROOT]/ext/jv/arcade/animation
+[ROOT]/ext/jv/arcade/config/.htaccess
+[ROOT]/ext/jv/arcade/controller/.htaccess
+[ROOT]/ext/jv/arcade/cron/.htaccess
+[ROOT]/ext/jv/arcade/event/.htaccess
+[ROOT]/ext/jv/arcade/inc/.htaccess
+[ROOT]/ext/jv/arcade/inc/version_check.php
+[ROOT]/ext/jv/arcade/mcp/.htaccess
+[ROOT]/ext/jv/arcade/migrations/.htaccess
+[ROOT]/ext/jv/arcade/styles/all/template/arcade/display_options.html
+[ROOT]/ext/jv/arcade/styles/all/template/arcade/pagination.html
+[ROOT]/ext/jv/arcade/styles/all/template/swfobject.js
+[ROOT]/ext/jv/arcade/styles/all/theme/images/flash_icon.png
+[ROOT]/ext/jv/arcade/styles/all/theme/images/get_flash_player.png
+[ROOT]/ext/jv/arcade/styles/all/theme/images/html5_icon.png
+[ROOT]/ext/jv/arcade/styles/all/theme/images/keyboard_mouse.png
+[ROOT]/ext/jv/arcade/styles/all/theme/images/mouse.png
+[ROOT]/ext/jv/arcade/ucp/.htaccess
+[ROOT]/ext/jv/arcade_startsystem
+[ROOT]/games
+
+Compatibility: PHP >= 7.1, phpBB >= 3.3.2
+
+## 6.0.2 - 2020-09-02
+
+- [Fixed] Track permission settings for categories.
+- [Fixed] Remove last game play information in category if you do not have permission to view games in that category.
+- [Fixed] ACP/download module pagination.
+
+- [Modified] ACP/download module - Sort games by installation date.
+
+- [Added] ACP/Download module - If a website is password protected “htpasswd”, we provide the possibility to enter the required login data.
+
+## 6.0.1 - 2020-08-13
+
+- [Fixed] Mcp form action url.
+- [Fixed] When deleting a game, the exact location of all game files.
+- [Fixed] SQL bug: Categories list sort by game order.
+
+- [Modified] ACP/Arcade/Main - statistics style.
+
+- [Added] Install embedded games.
+
+## 6.0.0 - 2020-04-09
+
+- [Modified] Html5 preloader can load the main javascript files used by the 'require' framework script.
+- [Modified] Recognition of a new variable 'html5' in the Olympus Arcade installation file.
+- [Modified] Olympus Arcade type has multiple game image support, just like IPB games.
+
+- [Added] Unpacking a game note that if an Olympus Arcade Html5 game wants to use the [ROOT]/games/ folder, the game files will be automatically move to the supported [ROOT]/arcade/games/ folder.
+
+## 5.0.8 - 2020-03-28
+
+- [Fixed] ACP/Arcade/General settings - direct delete config value.
+
+- [Modified] ACP/Arcade/General settings/ACP. download module password - One-way phpBB hash coding.
+
+## 5.0.7 - 2020-03-27
+
+- [Fixed] ACP/Arcade/Category/Games search pagination.
+- [Fixed] Who is playing in the arcade - page verify.
+- [Fixed] ACP/Arcade/General settings - ACP. download module password.
+- [Fixed] ACP. download module - Verify version requirements.
+
+- [Modified] Default game installation file updated from 5.4.1 to 5.4.2.
+
+- [Added] 2 New game control options - Keyboard & Touch and Mouse & Touch.
+- [Added] Game recommendation - Daily, Weekly and Monthly.
+- [Added] ACP/Arcade - Reset games recommendation.
+- [Added] ACP/Arcade/Game settings - Game recommendation - ignored categories.
+- [Added] ACP/Arcade/Pages settings - Main, Ranking, Search, Download, Statistics, Detailed statistics, Category games and Category games statistics page settings :: Display game recommendation box.
+- [Added] We also support accented characters in category passwords.
+
+## 5.0.6 - 2020-03-15
+
+- [Fixed] Links in post if the forum is installed in the sub folder.
+
+- [Modified] Sort new games - secondary sorting 'Fixed'.
+- [Modified] ACP/Arcade/Upload/unpack games - Sorting of game names, note the correct number order.
+- [Modified] ACP/Arcade/Upload/Add games - Priority is featured games and secondary sorting of game names, note the correct number order.
+
+- [Added] ACP/Arcade/Add games - You can delete games that are marked as defective from the server.
+
+## 5.0.5 - 2020-03-08
+
+- [Modified] Compatibility: JVA - phpBB Shoutbox 3.1.0.
+
+## 5.0.4 - 2020-03-06
+
+- [Modified] When deleting a user, show the original phpBB logo and not the arcade.
+- [Modified] To sort all statistics, a secondary sorting rule by game name or user name has been added.
+- [Modified] Returned auto and original resize option.
+- [Modified] Html5 games additional path support (for fixed gamedata and configured games folders).
+
+- [Added] Newly installed Html5 games will no longer use the gamedata folder.
+- [Added] New ACP configuration for the ability to change the root filename of /arcade.php.
+- [Added] ACP. download module path protection.
+- [Added] ACP. download module password protection.
+
+## 5.0.3 - 2020-02-08
+
+- [Fixed] Admin panel shows the watermark image correctly.
+- [Fixed] Sorting by Category/Games - For the same data, a game will appear multiple times on different pages.
+
+- [Modified] Detect author of private messages generated by a arcade - (System Bot, actual user).
+
+## 5.0.2 - 2019-12-30
+
+- [Fixed] Fixes several minor bugs.
+- [Fixed] Finished tournaments display pagination.
+- [Fixed] Detailed statistics - Sort by noting which page we are on.
+- [Fixed] Ranking page - Sort by noting which page we are on.
+- [Fixed] MCP Manage tournaments - Display pagination.
+- [Fixed] Tournament and challenge statistics page display sort block. - If there is only one value in the statistics, the sorting block should still appear so that we can select a new category.
+- [Fixed] Missing tournaments and challenge navigation link on the statistics pages.
+- [Fixed] Search for new games missing a navigation link.
+- [Fixed] Purge cache hidden scores in case of a reset challenge.
+
+- [Modified] Disable unused values in the script file.
+- [Modified] Sorting blocks style.
+
+- [Added] ACP/Arcade - Reset tournaments.
+- [Added] ACP/Arcade/Manage games/Search game - Search results - game category name added.
+
+## 5.0.1 - 2019-11-27
+
+- [Fixed] Reset user super records - Remove incorrectly displayed confirmation box.
+- [Fixed] Reset user super records - Confirm ID.
+- [Fixed] If the game uses a non-phpBB Arcade save type then Undefined variable: jvah5_scorevar.
+- [Fixed] Administrators warning two weeks earlier than the JVA Start System private key expires.
+- [Fixed] Install verify that core files exist.
+
+- [Modified] Define the timestamp of the current user.
+- [Modified] popup_body.html loads jQuery file, if cdn is allowed.
+- [Modified] ACP/Arcade Main page - Statistics block compatible with phpBB 3.3.
+- [Modified] ACP/Arcade/Members default settings - All members configurations have been added.
+- [Modified] Arcade/Latest highscores block - Achieved highscores now use a tooltip in the basic style.
+- [Modified] Challenge/Latest winners block - The opponent name is moved to the tooltip section.
+- [Modified] ACP/Manage categories - Move categories or games up/down using Ajax.
+- [Modified] Updated default game install file. (New version 5.4.1).
+
+- [Added] ACP/Arcade manage users - Action control.
+- [Added] UCP/Arcade/Manage settings/ New Configuration - Display border around game.
+- [Added] UCP/Arcade/Manage settings/ New Configuration - Info box position (right or left).
+- [Added] UCP/Arcade/Manage settings/ New Configuration - Display User information or Most played games block (exchange option).
+- [Added] ACP/Arcade/Guest default settings
+
+- [Removed] ACP/Arcade/Game settings/ Info box position.
+
+## 5.0.0 - 2019-10-09
+
+- [Fixed] ACP/Arcade/Manage users - Display error msg.
+- [Fixed] Arcade category/games - Highlighted display of your favorite games.
+- [Fixed] Arcade categories / games table - Automatically abort of determine the boxes size if the web page loads too slow.
+
+- [Modified] Symbol images removed (popup, small, big, original, automatic, fill screen, full_screen, normal screen, open close, lightbulb on/off), use FA icons now.
+- [Modified] ACP/Arcade/Activity rank settings - Display rank images, your ranking.
+
+- [Added] New Configuration - Change the automatic score save type. (Place: ACP/Arcade/Game settings/Security settings control for submitting score).
+- [Added] Full screen mode selection menu. Options: by game size, by game size + menu, by screen size, by screen size + menu.
+- [Added] Full screen mode by screen size - Automatic rotation for mobile rotation.
+
+- [Compatibility] The use of 'phpbb_hash' old function has been replaced by the use of the new 'passwords_manager->hash' function.
+- [Compatibility] The use of 'phpbb_check_hash' old function has been replaced by the use of the new 'passwords_manager->check' function.
+- [Compatibility] The use of 'phpbb_chmod' old function has been replaced by the use of the new 'phpbb_filesystem->phpbb_chmod' function.
+- [Compatibility] The use of 'phpbb_is_writable' old function has been replaced by the use of the new 'phpbb_filesystem->is_writable' function.
+- [Compatibility] The use of 'user->lang' old function has been replaced by the use of the new 'language->lang' function.
+- [Compatibility] Use button class.
+- [Compatibility] Colour palette.
+
+- [NO-Compatibility] Html and css code: Online image, table class, bbcode tip, ACP/Arcade stats blocks.
+
+## 4.5.1 - 2019-09-09
+
+- [Fixed] Add Missing Log Entry - (Incorrect security session received).
+
+- [Modified] ACP/Arcade/Security settings control for submitting score - Security level from 3 to 5.
+- [Modified] New games order by.
+- [Modified] Game play page/Game report - open new window.
+
+- [Added] Game play page/Game options - game category name.
+
+Game score save types - protection levels: https://jv-arcade.com/viewtopic.php?p=8699#p8699
+
+## 4.5.0 - 2019-07-21
+
+- [Fixed] Installing a game - if the game name is a number.
+- [Fixed] phpBB Arcade save type Html5 game - Decimal value for game score code.
+
+- [Modified] Games backup - Max. limit 300 to 150.
+- [Modified] Game default installation file - version 5.3.0 to 5.4.0. (New variable - 'game_inherit').
+- [Modified] ACP download games module require min. phpBB Arcade 4.5.0 version.
+
+- [Added] Error Log 'Incorrect submit score form' - Playing Time.
+- [Added] Error Log 'Incorrect data: Ibpro v32 type' - Playing Time.
+- [Added] Error Log 'Game hack' - hack error code.
+- [Added] Administrators warning two weeks earlier than the JVA Start System private key expires.
+
+## 4.4.5 - 2019-06-04
+
+- [Fixed] Use decimal values.
+
+- [Modified] Removed global announce <marquee> Html4 tag and instead use css3 code.
+
+- [Added] [NL] Dutch language.
+
+## 4.4.4 - 2019-06-03
+
+- [Fixed] If the main menu is disabled, the submenus will not be displayed.
+- [Fixed] More html5 code.
+- [Fixed] Play game page / user challenge - use duplicate ID value.
+
+- [Modified] All Cron task.
+
+## 4.4.3 - 2019-05-04
+
+- [Fixed] Arcade leaders block - If display more than 3 users.
+
+- [Modified] Newest games block - Removing the tooltip if the user does not have permission to play.
+- [Modified] Advanced game searching block  - Verify permissions to view or play.
+- [Modified] Advanced game searching / Favorite games list - Verify permission to play games.
+- [Modified] Arcade menu / Ranglist - Verify permission to statistics.
+- [Modified] Arcade menu / My favorite games - Verify permission to view or play games.
+- [Modified] Category last play - Verify permission to statistics.
+- [Modified] Category / games highscore - Verify permission to statistics.
+- [Modified] Arcade game play / Super champion, champion, game intro and top scores - Verify permission to statistics.
+
+## 4.4.2 - 2019-03-30
+
+- [Fixed] Daily game download limit.
+- [Fixed] Acp utilities module - delete invalid old constan ARCADE_BANNED_TIME_HACK.
+- [Fixed] Points system set, subtract function.
+- [Fixed] Move game order.
+
+- [Modified] Verify user page function optimized.
+
+## 4.4.1 - 2019-02-07
+
+- [Fixed] Load html5 game core js. files if contain special chars.
+
+- [Added] game resize - fill screen. (Some games overwrite this feature).
+
+- [Removed] Security settings Flash playtime.
+- [Removed] 2 swf files (FlashPlayerUpdate.swf, JVA_Time_Hack_Detect.swf).
+- [Removed] Automatically detect game size, global Game width and height settings.
+
+## 4.4.0 - 2019-01-07
+
+- [Fixed] Game play - Error message, if the game save type is unknown.
+- [Fixed] ACP - Upload/unpack games - Display already installed games - IBPRO type.
+
+- [Added] Game install file 2 new config (privacy_desc, privacy_link). This allows us to use the games that work from external websites with compliance to the privacy policy.
+- [Added] ACP/Arcade/Game settings - Use the games Privacy Policy.
+
+- [Modified] Game installation file convert.
+- [Modified] Game data security in the database.
+- [Modified] Remove Html tag support - Game description and game control description.
+- [Modified] ACP download system is compatible with phpBB Arcade 4.4.0 version or higher.
+- [Modified] Compatibility: JVA Start System 2.2.0.
+
+- [Removed] Game install file - game_swf config.
+
+## 4.3.2 - 2018-12-23
+
+- [Modified] Compatibility: JVA Start System 2.1.6.
+
+## 4.3.1 - 2018-12-16
+
+- [Fixed] Detailed statistics - Sort by allowed category list.
+
+- [Modified] Compatibility: JVA Start System 2.1.5.
+
+## 4.3.0 - 2018-11-30
+
+- [Fixed] ACP/Arcade/ Convert game installation files - button text.
+- [Fixed] Arcade cat/games style - personal best date width.
+- [Fixed] Jumpbox button position.
+- [Fixed] Category games statistics display welcome block.
+- [Fixed] Arcade style - Display sub categories list, if no category description or rules.
+- [Fixed] Category arcade style - Enable verify list subcategories in legend.
+- [Fixed] Category arcade style - Category menu icon responsive.
+- [Fixed] Category Basic Arcade style - Category name and icons do not slip on each other.
+- [Fixed] Update phpBB user data (avatar) - The user color does not exist in this case.
+- [Fixed] Game report announcement - Forum post 'Error type' use board default language.
+- [Fixed] Process of checking score.
+
+- [Added] Game play / game options - plays number.
+- [Added] Statistics / Longest held highscores - game image.
+- [Added] Game search block - game name first chars.
+- [Added] ACP/arcade/ General settings - popup icon size.
+- [Added] After game rating, clear the cache.
+- [Added] Category new games style (forum, arcade).
+- [Added] Verify sub-categories links view games.
+- [Added] Basic Arcade category style - Link or locked fa-icon to game image.
+- [Added] New Category style - Simple text.
+- [Added] Arcade category style - Subcategories list - category name + total games.
+- [Added] Automatically reset scores - number of top players.
+- [Added] Automatically reset scores - reset auto time (Month, quarter year, half year, year).
+- [Added] Control the Html5 game start file on 4 supported paths.
+- [Added] Game save score - Creating a log file if not the configured save type was used.
+
+- [Modified] Compatibility: Min. phpBB 3.2.4.
+- [Modified] ACP/Arcade/Pages settings - Main pages, Ranking page, Search page, Download page, Statistics page, Detailed statistics page, Category page and Category statistics page settings.
+- [Modified] ACP/Arcade/ View reports options field size.
+- [Modified] ACP/Arcade/User guide - The description is compatible with Html5 games.
+- [Modified] After the Game Over, if the Super record is overthrown, it should not be duplicated text (high score and SuperScore). Use only super record text.
+- [Modified] When saving a score: if there is a game save type error, it will be automatically repaired. From now on, automatic repair uses phpBB Arcade save type, it only can be manually configured by an administrator.
+
+- [Removed] ACP/Arcade/modules - Challenge and Tournament page settings.
+
+## 4.2.7 - 2018-07-31
+
+- [Fixed] Category and Category/games auto height.
+
+## 4.2.6 - 2018-07-26
+
+- [Fixed] Report game announce - Report by user / author username.
+- [Fixed] Challenge and tournament verify play page if game save type No scoring.
+- [Fixed] User data empty.
+- [Fixed] ACP modules (Report games, banned users) sorting days.
+- [Fixed] MCP Manage games :: edit game name. (game name clean column).
+
+- [Added] Game play - verify existing data (game type and game save type).
+- [Added] Game install file - verify if game name empty.
+- [Added] New ACP Module - Deleted games.
+- [Added] Acp Download statistics sorting.
+- [Added] Acp Category/games game filesize and filesize sorting.
+- [Added] Acp cookie secure information - close button. (close time 31 days).
+- [Added] Category/games - basic/arcade style.
+- [Added] UCP new setting category/games style.
+
+- [Modified] Do not save a 0 score in a game in tournament.
+- [Modified] Highlight - Unpack existing games.
+- [Modified] Game download statistics disbaled cutting a game name.
+- [Modified] ACP download list per page (50, 100, 200, 400, 500) to (10, 20, 50, 100, 250).
+
+## 4.2.5 - 2018-06-24
+
+- [Fixed] Play page/Game desc image position.
+
+- [Added] Support Olympus Arcade: unpacking game tar file and auto convert game install file.
+- [Added] Support new score save type Olympus Arcade.
+
+- [Removed] No longer supported :: V3 Arcade: unpacking game tar file and auto convert game install file.
+
+## 4.2.4 - 2018-06-04
+
+- [Fixed] Ended tournament news max display days.
+- [Fixed] Main box new game record - category permission check - can see game. (pages: challenge and tournament).
+- [Fixed] Tournament display (Played / Can play) num.
+- [Fixed] challenge statistics undefined $uid.
+- [Fixed] arcade statistics guest user.
+- [Fixed] Statistics page align left.
+- [Fixed] Top 10 player announcement before auto reset arcade.
+
+- [Added] tour. all pages filtered, no view permission games.
+- [Added] tour. news filtered, no view permission games.
+- [Added] ACP/Arcade/Manage users - Auto reset users scores - new config hour.
+- [Added] ACP/Arcade/Game settings - Game description language.
+
+## 4.2.3 - 2018-05-30
+
+- [Fixed] ACP - Arcade index page title.
+- [Fixed] Detailed statistics: AVG sort.
+- [Fixed] ACP - Add games module - display color text.
+- [Fixed] Guest user game session delivery if cookies are not enabled.
+- [Fixed] Registered users save score, if do not use a cookie. (phpBB Arcade save type).
+- [Fixed] JS. Arcade url when using an extra parameters.
+- [Fixed] ACP arcade category - user permissions.
+- [Fixed] ACP log search if array lang.
+
+- [Modified] Detect localhost.
+- [Modified] Game over: 2 game images, responsive.
+
+- [Added] Main box new game record cat. permission check - can see game. (pages: arcade, challenge and tournament).
+- [Added] Main box champions global permission check - can see statistics. (pages: arcade, challenge and tournament).
+- [Added] Main box total info. global permission check - can see statistics. (pages: arcade, challenge and tournament).
+- [Added] All games statistics verify permission user view game.
+- [Added] Support Relax Arcade: unpacking game tar file and auto convert game install file.
+- [Added] Support new score save type Relax Arcade.
+- [Added] ACP - Upload/unpack games - Display already installed games. (For example, if a game was fixed.)
+- [Added] If phpBB is unable to unpack the game then use secondary use PHP PharData class if it exists.
+- [Added] Integrate game over animation.
+- [Added] Arcade category style (small, medium, large).
+- [Added] New category - basic style.
+- [Added] Game image use (flash/html5) watermark.
+- [Added] Game report announcement.
+- [Added] Top 10 player announcement before auto reset arcade.
+- [Added] Translation of game description into the language used in the forum.
+- [Added] UCP / Arcade new setting - user disable / enable game over random games.
+- [Added] UCP / Arcade new setting - user disable / enable game over sound.
+- [Added] UCP / Arcade new setting - user disable / enable game over animation.
+- [Added] UCP / Arcade new setting - user disable / enable game over animation sound.
+- [Added] Ended tournament news max display days.
+- [Added] Game play new info block - Playing time.
+- [Added] Game play / game options - Challenge user.
+
+- [Removed] NL Dutch language.
+
+## 4.2.2 - 2018-03-08
+
+- [Fixed] Cron functions expired_games_sessions - undefined $time
+- [Fixed] ACP/Arcade/ext. If use false configuration
+
+- [Modified] Arcade style same layout as forum style.
+- [Modified] Arcade style (Rules, description icon).
+- [Modified] Arcade style responsive.
+- [Modified] Separate arcade.css file (arcade_colours).
+
+- [Added] Arcade style (Subcategory icon).
+
+## 4.2.1 - 2018-03-03
+
+- [Fixed] Statistic page, select category.
+- [Fixed] Acp delete game - delete reason.
+- [Fixed] phpBB Arcade save type - detect if bad save type is associated with it.
+- [Fixed] Display arcade activity rank.
+
+- [Modified] User faq.
+
+- [Added] [NL] Dutch language.
+- [Added] Arcade menu responsive.
+- [Added] ACP/Arcade/Manage users - Auto reset users scores.
+- [Added] Cron functions (expired_challenge, expired_games_sessions, reset_scores).
+- [Added] Install games limit.
+- [Added] Sort install games list.
+- [Added] Category / games - Champion game comment.
+- [Added] Play game before info if this game contain tournament.
+
+## 4.2.0 - 2018-02-18
+
+- [Fixed] Acp manage category - sync game (sort games).
+- [Fixed] Javascript links (if cookie secure is enabled).
+- [Fixed] Confirm restart game (if cookie secure is enabled).
+- [Fixed] Game convert (Arcadelib, IBProV32).
+- [Fixed] Game convert check game image extension.
+- [Fixed] Game over screen, responsive.
+- [Fixed] Popup game, html code.
+- [Fixed] Acp manage category/games - Game name block size.
+- [Fixed] phpBB Arcade game save type send score duplicate 'swf' parameter.
+- [Fixed] Arcade main box responsive.
+- [Fixed] Arcade category new games icon size.
+- [Fixed] Acp Manage category  - edit category db.
+- [Fixed] More html5 code.
+
+- [Modified] Reading Javascript after the source code.
+- [Modified] Game over sound - remove swf and add html5 sound.
+- [Modified] 'game type' move to 'game save type', and game type use (Html5/Flash).
+- [Modified] Verify game install file, if server use cache.
+- [Modified] If run arcade update then remove activation key, so it is required to reactivate arcade after update.
+- [Modified] Protected: (game image, all game type default disabled).
+- [Modified] Game restart function.
+- [Modified] Game popup icon 11px to 15px.
+- [Modified] Game window backlight and fullscreen, scroll bar hidden.
+- [Modified] Min. use Flash player version 28.0.0.0.
+- [Modified] Manage game announcement / Re-sync all games - delete non-existent games topics.
+- [Modified] ACP/Download games module.
+- [Modified] Private message is created only at the recipient.
+- [Modified] Game image protection disabled.
+- [Modified] Arcade BBCode.
+
+- [Added] HTML5 Game support.
+- [Added] New game type: HTML5 and new variable game save type.
+- [Added] ACP/Manage category/games order (game type, save type).
+- [Added] ACP/Manage category/search games mark option.
+- [Added] ACP/Manage games (delete games - select game type).
+- [Added] ACP/Download games (sort game type).
+- [Added] ACP/Manage games/edit (game type).
+- [Added] Arcade play page - Display game type.
+- [Added] Save score - check session time end.
+- [Added] Popup game (game fullscreen).
+- [Added] Create error log if detect hack game score.
+- [Added] Support for Ultimate Points Extension - https://www.dmzx-web.net/viewtopic.php?p=14285#p14285
+- [Added] New Acp module - Extensions settings.
+- [Added] Category/games display game type and save type.
+- [Added] Category/games order (game type, save type).
+- [Added] ACP/Mcp Create random tournament - new option not played games.
+- [Added] ACP/Report game (game type, save type).
+- [Added] ACP/Arcade/General settings/Game download settings - Download system disable/enable.
+- [Added] New constant min/max game size.
+- [Added] Games announce sync. delete post if not found game.
+- [Added] New ajax function.
+
+- [Removed] Old ajax function.
+
+## 4.1.0 - 2017-08-06
+
+- [Updated] Compatible with phpBB 3.2.x
+
+## 4.1.RC2 - 2017-01-28
+
+- [Fixed] Generate forum post.
+- [Fixed] admin css.
+
+## 4.1.RC1 - 2017-01-23
+
+- [Fixed] Migration file v_4_0_RC3.
+- [Fixed] Delete whole categories - Undefined variable: delete_reason.
+- [Fixed] mChat detection.
+- [Fixed] ACP menu double query closed.
+- [Fixed] Submit score detect game type.
+
+- [Added] New config - Game image path protection disable / enable.
+
+- [Updated] Compatible with phpBB 3.2.x
+
+- [Removed] NL Dutch language.
+
+## 4.0.RC6 - 2016-07-19
+
+- [Fixed] Linux flash player version.
+- [Fixed] My playing display game online list.
+- [Fixed] Display on viewtopic 'Disable'.
+- [Fixed] ACP Shoutbox settings - Ignored categories.
+- [Fixed] ACP arcade activation information (Normal admin).
+- [Fixed] Game image generate function - remove old code.
+- [Fixed] Game installation - Calculating the size of game files.
+
+- [Modified] The version check, can run by the admin member who has permission to access the 'Can manage installation features'.
+
+- [Added] ACP new module - phpBB Arcade - Activity rank settings.
+- [Added] Support for Simple Portal - https://www.phpbb.com/customise/db/extension/portal/
+- [Added] Support for Kiss Portal - https://www.phpbb.com/community/viewtopic.php?p=13450891#p13450891
+
+- [Updated] swfobject.js 2.2 version to 2.3 version.
+
+## 4.0.RC5 - 2016-01-28
+
+- [Fixed] SQL Group by values.
+
+- [Added] IBP Game type - POST data filter function.
+
+## 4.0.RC4 - 2015-10-23
+
+- [Modified] Chat/Shoutbox detect function - Message author - (Set, System Bot, actual user).
+- [Modified] Announcements author - (Set, System Bot, actual user).
+- [Modified] Arcade information on the viewtopic and memberlist page - (No display info - guest and Bot users.)
+- [Modified] ACP/MCP Edit game - If the name of a game is changed, you can check whether it is already in use.
+- [Modified] extension style path.
+
+- [Added] Support for JVA Shoutbox - https://jv-arcade.com/JVA_Shoutbox.html
+
+## 4.0.RC3 - 2015-09-26
+
+- [Fixed] Language files.
+- [Fixed] UCP Manage favorites - Display pagination.
+- [Fixed] Tournament news.
+
+- [Modified] Default images path arcade/images move to ext/jv/arcade/styles/all/theme/images/
+
+- [Added] Reason for deletion of games.
+- [Added] ACP/Arcade/Manage categories - Category image detect if it is in use
+- [Added] ACP/Arcade/Manage categories/games - search game
+- [Added] ACP/Arcade/Manage games - search game
+
+- [Removed] All plugin functions.
+- [Removed] German (sie) language.
+
+## 4.0.RC2 - 2015-09-09
+
+- [Security-Fixed] ACP Download games - Purge download list cache. (Bug: Remove all files from cache directory).
+- [Fixed] Generate Arcade Url root path.
+- [Fixed] Generate submit score index page. (Prevent other extensions to load the common data).
+- [Fixed] Generate member profile arcade data. (Override the custom profile fields).
+- [Fixed] HTML5 compliance.
+- [Fixed] Global announce html.
+- [Fixed] Arcade ranking page title html.
+- [Fixed] Detailed statistics page title html.
+- [Fixed] Category - Arcade permissions fields html.
+- [Fixed] ACP Download games - cache path.
+- [Fixed] UCP Manage favorites - select field.
+- [Fixed] Display rang title if no image.
+- [Fixed] Display Category / all categories.
+- [Fixed] Display viewonline tournament index page.
+- [Fixed] Tournament - if there is no permission to view statistics data a back link is generated.
+- [Fixed] MSSQL, SQLite and SQLite3 query.
+- [Fixed] Check game install file (In any case the file is re-written).
+- [Fixed] Check score variable.
+- [Fixed] Category / games and game playing page - display points info ('0' value replace 'none').
+
+- [Modified] Use of Localhost disables the activation field.
+- [Modified] Game play page - Game options table.
+- [Modified] Menu link use correct app link and mod rewrite.
+- [Modified] All arcade php files convert to phpBB 3.1.
+- [Modified] Flash player run min. version - 18.0.0.232.
+- [Modified] Display global announcement - if display every page and user has no permission for arcade - user see global announcement on forum pages.
+
+- [Added] ACP, MCP Create a new tournament - Display the number of selected games as a tooltip.
+- [Added] ACP Manage category/games module - Points name added to points field.
+- [Added] Form points field validation.
+- [Added] ACP Manage menu - Plus Permissions Check (Supported Portal and Shoutbox, other extension installed and enabled).
+- [Added] ACP Manage menu - Supported App. path.
+- [Added] Game Over - User game favorite.
+- [Added] If the game data is updated and when no game installation file is found, then a game installation file is automatically created.
+
+- [Added] Support for JV Points System - https://jv-arcade.com/JVA_Points_System.html
+- [Added] Support for Ajax Shoutbox - https://www.phpbb.com/customise/db/extension/ajax_shoutbox/
+
+- [Removed] Arcade, tournament and challenge index page login field.
+
+## 4.0.RC1 - 2015-05-23
+
+- [Added] ACP/Arcade/Manage arcade/Manage menu  - New option :: Menu item: Add to the quick menu (An item will be added to the phpBB quick menu.)
