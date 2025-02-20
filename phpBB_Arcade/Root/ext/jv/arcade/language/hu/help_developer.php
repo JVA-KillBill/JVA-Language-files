@@ -3,8 +3,8 @@
 *
 * @package phpBB Arcade
 * @version $Id: help_developer.php 2460 2022-01-16 01:15:57Z KillBill $
-* @author 2011-2024 KillBill
-* @copyright (c) 2014-2024 https://jv-arcade.com/ - https://jv-arcade.com/contact
+* @author 2011-2025 KillBill
+* @copyright (c) 2014-2025 https://jv-arcade.com/ - https://jv-arcade.com/contact
 * @license https://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
 *
 */
@@ -60,8 +60,8 @@ $lang = array_merge($lang, [
 *
 * @package phpBB Arcade
 * @version 7.7.3
-* @author 2011-2024 KillBill
-* @copyright (c) 2014-2024 https://jv-arcade.com/ - https://jv-arcade.com/contact
+* @author 2011-2025 KillBill
+* @copyright (c) 2014-2025 https://jv-arcade.com/ - https://jv-arcade.com/contact
 * @license https://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
 *
 */
@@ -131,7 +131,7 @@ if (!defined(\'IN_PHPBB\') || !defined(\'IN_PHPBB_ARCADE\'))
 
 $game_file = basename(__FILE__, \'.\' . substr(strrchr(__FILE__, \'.\'), 1));
 
-$game_data = array(
+$game_data = [
 	\'game_name\'			=> \'Játék neve\',
 	\'game_desc\'			=> \'Ide kell beírni a játékleírást.\',
 	\'game_control\'		=> GAME_CONTROL_MOUSE_TOUCH,
@@ -146,7 +146,7 @@ $game_data = array(
 	\'game_inherit\'		=> \'Ide kell beírni a játék öröklési útvonalát, ha szükséges.\',
 	\'privacy_desc\'		=> \'Ide kell beírni a Játék Adatvédelmi Irányelvét, ha a játék megköveteli.\',
 	\'privacy_link\'		=> \'Ide kell beírni a Játék Adatvédelmi Irányelvére mutató linket Html formátumban. Ha több is van, akkor mindegyiket írd új sorba.\'
-);
+];
 </textarea>',
 	'ARCADE_ACP_HELP_FAQ_GAMES_INS_FILE_QUESTION'		=> 'Van-e minta telepítő fájl?',
 	'ARCADE_ACP_HELP_FAQ_GAMES_OWN_INS_FILE_ANSWER'		=> 'Nem, bár lehetőség van két eszköz használatára a phpBB Arcade AVP-ben, amik segítenek ebben.<br>

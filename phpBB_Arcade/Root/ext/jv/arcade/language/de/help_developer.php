@@ -3,8 +3,8 @@
 *
 * @package phpBB Arcade
 * @version $Id: help_developer.php 2450 2021-12-13 20:24:43Z KillBill $
-* @author 2011-2024 KillBill
-* @copyright (c) 2014-2024 https://jv-arcade.com/ - https://jv-arcade.com/contact
+* @author 2011-2025 KillBill
+* @copyright (c) 2014-2025 https://jv-arcade.com/ - https://jv-arcade.com/contact
 * @license https://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
 *
 */
@@ -60,8 +60,8 @@ $lang = array_merge($lang, [
 *
 * @package phpBB Arcade
 * @version 7.7.3
-* @author 2011-2024 KillBill
-* @copyright (c) 2014-2024 https://jv-arcade.com/ - https://jv-arcade.com/contact
+* @author 2011-2025 KillBill
+* @copyright (c) 2014-2025 https://jv-arcade.com/ - https://jv-arcade.com/contact
 * @license https://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
 *
 */
@@ -131,7 +131,7 @@ if (!defined(\'IN_PHPBB\') || !defined(\'IN_PHPBB_ARCADE\'))
 
 $game_file = basename(__FILE__, \'.\' . substr(strrchr(__FILE__, \'.\'), 1));
 
-$game_data = array(
+$game_data = [
 	\'game_name\'			=> \'Name des Spiels\',
 	\'game_desc\'			=> \'Gib hier eine Beschreibung des Spiels ein.\',
 	\'game_control\'		=> GAME_CONTROL_MOUSE_TOUCH,
@@ -146,7 +146,7 @@ $game_data = array(
 	\'game_inherit\'		=> \'Gib erforderlichenfalls den Vererbungspfad des Spiels ein.\',
 	\'privacy_desc\'		=> \'Gib hier die Erklärung zum Datenschutz ein, wenn das Spiel sie benötigt.\',
 	\'privacy_link\'		=> \'Gib hier den Link zur Datenschutzerklärung für das Spiel im HTML-Format ein. Wenn mehr als ein Link erforderlich ist, gib jeden in einer neuen Zeile ein.\'
-);
+];
 </textarea>',
 	'ARCADE_ACP_HELP_FAQ_GAMES_INS_FILE_QUESTION'		=> 'Gibt es eine Beispiel-Installationsdatei?',
 	'ARCADE_ACP_HELP_FAQ_GAMES_OWN_INS_FILE_ANSWER'		=> 'Nein. Obwohl dies möglich ist, gibt es im ACP zwei Werkzeuge, die bei dieser Aufgabe helfen.<br>

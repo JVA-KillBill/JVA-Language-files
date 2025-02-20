@@ -3,8 +3,8 @@
 *
 * @package phpBB Arcade
 * @version $Id: help_developer.php 2450 2021-12-13 20:24:43Z KillBill $
-* @author 2011-2024 KillBill
-* @copyright (c) 2014-2024 https://jv-arcade.com/ - https://jv-arcade.com/contact
+* @author 2011-2025 KillBill
+* @copyright (c) 2014-2025 https://jv-arcade.com/ - https://jv-arcade.com/contact
 * @license https://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
 *
 */
@@ -60,8 +60,8 @@ $lang = array_merge($lang, [
 *
 * @package phpBB Arcade
 * @version 7.7.3
-* @author 2011-2024 KillBill
-* @copyright (c) 2014-2024 https://jv-arcade.com/ - https://jv-arcade.com/contact
+* @author 2011-2025 KillBill
+* @copyright (c) 2014-2025 https://jv-arcade.com/ - https://jv-arcade.com/contact
 * @license https://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
 *
 */
@@ -131,7 +131,7 @@ if (!defined(\'IN_PHPBB\') || !defined(\'IN_PHPBB_ARCADE\'))
 
 $game_file = basename(__FILE__, \'.\' . substr(strrchr(__FILE__, \'.\'), 1));
 
-$game_data = array(
+$game_data = [
 	\'game_name\'			=> \'Game name\',
 	\'game_desc\'			=> \'Enter the description of the game here.\',
 	\'game_control\'		=> GAME_CONTROL_MOUSE_TOUCH,
@@ -146,7 +146,7 @@ $game_data = array(
 	\'game_inherit\'		=> \'Enter the inheritance path of the game, if necessary.\',
 	\'privacy_desc\'		=> \'Enter the Game Privacy Policy here if the game requires it.\',
 	\'privacy_link\'		=> \'Enter the link to the Game Privacy Policy in HTML format. If there is more than one link, enter them all in their own new line.\'
-);
+];
 </textarea>',
 	'ARCADE_ACP_HELP_FAQ_GAMES_INS_FILE_QUESTION'		=> 'Is there a sample install file?',
 	'ARCADE_ACP_HELP_FAQ_GAMES_OWN_INS_FILE_ANSWER'		=> 'No, although its possible there are two tools in the phpBB Arcade ACP that will help in this task.<br>

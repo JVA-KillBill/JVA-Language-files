@@ -1,5 +1,14 @@
 # Changelog
 
+## 7.7.6 - 2025-02-20
+
+- [Fixed] ACP/Arcade/Manage categories and games - Responsive style.
+
+- [Modified] Requirement JVA - Core 1.0.16 or later.
+- [Modified] Requirement phpBB 3.3.14 or later.
+
+- [Updated] Ruffle emulator (2025-02-20) for release.
+
 ## 7.7.5 - 2024-10-14
 
 - [Fixed] Group tournament - The evaluation of the winner is incorrect if the 2 players achieve the same score and save their score at the same time.
