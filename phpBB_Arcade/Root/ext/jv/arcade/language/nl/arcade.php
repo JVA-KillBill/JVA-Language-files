@@ -45,7 +45,7 @@ $lang = array_merge($lang, [
 	],
 	'ARCADE_ACTUAL_RANKING'							=> 'Huidige ranglijst',
 	'ARCADE_ADD_FAV'								=> 'Favoriete spel erbij',
-	'ARCADE_ADS_BLOCKING_NOT_ALLOWED'				=> 'Advertentieblokkering is niet toegestaan. 
+	'ARCADE_ADS_BLOCKING_NOT_ALLOWED'				=> 'Advertentieblokkering is niet toegestaan.
 Schakel ad-blokkering op deze website uit.',
 	'ARCADE_ADV_SEARCH'								=> 'Geavanceerd spel zoeken',
 	'ARCADE_ALL_CATEGORIES'							=> 'Alle categorieën',
