@@ -1,4 +1,4 @@
-{SUBJECT}[Arcade Top {TOP_NUMBER}] - [YY].[MM],[DD]
+{SUBJECT}[Arcade Top {TOP_NUMBER}] - [DD].[MM],[YYYY]
 
 [b]De toplijst is aangemaakt door de arcade.[/b]
 

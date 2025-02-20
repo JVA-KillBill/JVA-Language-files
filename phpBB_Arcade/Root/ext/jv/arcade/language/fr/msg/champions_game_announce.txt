@@ -1,4 +1,4 @@
-{SUBJECT}[Salle de jeu top {TOP_NUMBER}] - [MM].[DD].[YYYY]
+{SUBJECT}[Salle de jeu top {TOP_NUMBER}] - [DD].[MM].[YYYY]
 
 [b]La liste des gagnants est générée par l’arcade.[/b]
 
