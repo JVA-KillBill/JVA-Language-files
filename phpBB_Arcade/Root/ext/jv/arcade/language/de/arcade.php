@@ -442,7 +442,7 @@ $lang = array_merge($lang, [
 	'ARCADE_REPORT_NOTE'							=> 'Damit das Problem schnell gelöst werden kann, gebe bitte die folgenden Informationen an:<br>1. Welchen Browser hast du benutzt, als der Fehler auftrat?<br>2. Welche Art von Gerät hast du benutzt? (PC, Tablet, Handy?).<br>3. Welche Auflösung hast du benutzt? - beispielsweise: (1920x1080) px.<br>Eine möglichst korrekte und ausführliche Information ist hier sehr wichtig für uns, um den Fehler finden zu können. Danke.',
 	'ARCADE_REPORT_NOTE_DOUBLE'						=> 'Bitte sende uns den Link zu dem gleichen Spiel, oder den genauen Namen des Spiels!',
 	'ARCADE_REPORT_OPEN'							=> [
-		1											=> 'Es gibt derzeit %s offene Meldungen.',
+		1											=> 'Es gibt derzeit %s offene Meldung.',
 		2											=> 'Es gibt derzeit %s offene Meldungen.',
 	],
 	'ARCADE_REPORT_OTHER'							=> 'Andere…',
