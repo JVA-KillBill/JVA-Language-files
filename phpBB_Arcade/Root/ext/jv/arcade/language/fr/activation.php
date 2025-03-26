@@ -135,10 +135,10 @@ En outre, la clé d’activation spécifiée nous dira que le site affecté est 
 					<li>L’adresse du site web est très importante car, sur cette base, nous pouvons renvoyer les informations dont nous avons besoin.</li>
 					<li>En savoir plus sur le rôle de la clé d’activation :
 						<ol>
-							<li>La principale différence entre « Test » et « Gratuit » est quand un temps d’attente est déclenché. Les sites activés de « test » peuvent avoir un temps d’attente plus long et le site est classé comme une « page de test ». Les logiciels activés « Test » et « Gratuit » peuvent afficher de la publicité et peuvent limiter le nombre de fois pour jouer.<br>
-								Le temps d’attente s’allume et peut être déterminé par le « %2$s ».<br>
-								Le nombre maximum de nombre de fois pour jouer est activé et peut être déterminé par le « %2$s ».<br>
-								Les versions « Test » et « Gratuit » n’ont pas de date d’expiration.
+							<li>Le logiciel activé « Gratuit » peut avoir un temps d’attente et d’affichage de publicités, ainsi qu’une limitation du nombre de jeux joués par jour.<br>
+								Le temps d’attente s’active et peut être déterminé par le « %2$s ».<br>
+								Le nombre maximum de jouer est activé et peut être déterminé par le « %2$s ».<br>
+								La clé « Gratuit » n’a pas de date d’expiration.
 							</li>
 							<li>Une clé privée peut avoir une date d’expiration ou une version phpBB Arcade particulière. Le logiciel activé avec une clé privée bénéficie d’une liberté totale de publicité. <em>Cela ne s’applique qu’à « JVA Game Intro »</em>.<br>De plus, les sites web qui utilisent une clé privée ne sont pas soumis à la limite de nombre de fois pour jouer quotidienne.</li>
 						</ol>
@@ -176,7 +176,7 @@ En outre, la clé d’activation spécifiée nous dira que le site affecté est 
 			<li>Le « %2$s » indique qu’il ne peut ni ne veut effectuer de modifications de base de données implémentée dans d’autres sites web lors de la connexion ! Il est très important d’avoir 100%% de sécurité entre les deux serveurs lors de la connexion. <br>Par conséquent, le logiciel ne peut être activé que par le fondateur du site web.</li>
 		</ol>
 	</li>
-	<li>Sur localhost l’utilisation de « JVA Game Intro » n’est pas pris en charge, mais le logiciel peut fonctionner. Sur localhost, il n’y a pas de connexion de données, mais le temps d’attente est défini sur 5 secondes par défaut.</li>
+	<li>Le « JVA Game Intro » n’est pas pris en charge sur localhost, mais le logiciel peut être exécuté. Sur localhost, le temps d’attente est fixé à 5 secondes par défaut.</li>
 </ul>',
 	'ACP_PHPBB_ARCADE_SYSTEM_INSTRUCTION'			=> 'Instructions phpBB Arcade',
 	'ACP_PHPBB_ARCADE_SYSTEM_INSTRUCTION_EXPLAIN'	=> 'Le logiciel « phpBB Arcade » est <a onclick="window.open(this.href); return false;" href="%3$s" title="JVA License">license</a> et entretenu par le « %1$s » site web.',

@@ -135,10 +135,10 @@ Bovendien kunnen we aan de hand van de verstrekte activeringssleutel achterhalen
 					<li>Het adres van de website is erg belangrijk omdat het ons in staat stelt de informatie op basis daarvan terug te sturen.</li>
 					<li>Meer over de rol van de activeringssleutel:
 						<ol>
-							<li>Het belangrijkste verschil tussen “Test” en “Gratis” is wanneer een wachttijd wordt geactiveerd. “Test” geactiveerde websites kunnen een langere wachttijd hebben en de website is dan geclassificeerd als een “test webpagina”. De “Test” en “Gratis” geactiveerde software kan advertenties weergeven en kan het aantal keren spelen beperken.<br>
+							<li>De “Gratis” geactiveerde software kan een wachttijd en display-advertenties hebben, evenals een limiet van het aantal gespeelde spellen per dag.<br>
 								De wachttijd wordt ingeschakeld en kan worden bepaald door de “%2$s”.<br>
-								Het maximum aantal keren spelen wordt ingeschakeld en kan worden bepaald door de “%2$s”.<br>
-								De “Test” en de “Gratis” versies hebben geen vervaldatum.
+								Het maximale aantal spelen wordt ingeschakeld en kan worden bepaald door de “%2$s”.<br>
+								De “Gratis” sleutel heeft geen vervaldatum.
 							</li>
 							<li>De privésleutel kan een vervaldatum hebben of kan alleen worden gebruikt voor een specifieke phpBB Arcade versie. Software geactiveerd met een privésleutel geniet van volledige advertentievrijheid. <em>Dit is alleen van toepassing op “JVA Game Intro”</em>.<br>Bovendien zijn websites die een privésleutel gebruiken niet onderworpen aan de dagelijkse speellimiet.</li>
 						</ol>
@@ -176,7 +176,7 @@ Bovendien kunnen we aan de hand van de verstrekte activeringssleutel achterhalen
 			<li>De “%2$s” stelt dat het tijdens de verbinding geen databasewijzigingen kan en wil doorvoeren die op andere websites zijn geïmplementeerd! Het is erg belangrijk om 100%% beveiliging te hebben tussen de twee servers tijdens de verbinding.<br>Daarom kan de software alleen worden geactiveerd door de oprichter van de website.</li>
 		</ol>
 	</li>
-	<li>Het gebruik van “JVA Game Intro” op localhost wordt niet ondersteund, maar de software kan worden uitgevoerd. Er is geen dataverbinding op localhost, maar de wachttijd is standaard ingesteld op 5 seconden.</li>
+	<li>De “JVA Game Intro” wordt niet ondersteund op localhost, maar de software kan wel worden uitgevoerd. Op localhost is de wachttijd standaard ingesteld op 5 seconden.</li>
 </ul>',
 	'ACP_PHPBB_ARCADE_SYSTEM_INSTRUCTION'			=> 'phpBB Arcade Instructies',
 	'ACP_PHPBB_ARCADE_SYSTEM_INSTRUCTION_EXPLAIN'	=> 'De “phpBB Arcade” software is <a onclick="window.open(this.href); return false;" href="%3$s" title="JVA License">gelicencieerd</a> en onderhouden door de “%1$s” website.',

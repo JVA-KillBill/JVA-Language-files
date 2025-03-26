@@ -1,5 +1,33 @@
 # Changelog
 
+## 7.7.7 - 2025-03-26
+
+- [Fixed] ACP/Arcade/Guest default settings - The submitted form was invalid.
+
+- [Modified] ACP/Arcade/phpBB Arcade activate - Removed the "test" key.
+- [Modified] ACP/Arcade/phpBB Arcade activate - 1 private key can now be used in both the main and sub domains, however, you only need to register the main domain in your profile. For example: https://example.com
+- [Modified] ACP/Arcade/phpBB Arcade activate - When using localhost, activation is not required and the activation field is no longer visible in the ACP.
+- [Modified] ACP/Arcade/phpBB Arcade activate - The "Remove personal data" button is now available also in this field after activation.
+- [Modified] ACP/Arcade/phpBB Arcade activate/View personal data - All founders can now query the personal data.
+- [Modified] ACP/Arcade/View personal data - If there is no data stored on the "connect" server, an appropriate response should be returned.
+- [Modified] ACP/Arcade/View personal data/Remove personal data - If you do not confirm, you will need to return to the "View personal data" page instead of the main page.
+- [Modified] ACP/Arcade/Games feature/Add games - Remember the last category you selected.
+- [Modified] Category games style - Forum/Arcade, if display game images that are not enabled.
+- [Modified] Game Intro - We have restored the data connection when using localhost.
+- [Modified] Play game JavaScript - If your browser supports the Worker function, the playing time, board session and game session, time counters will now be updated by the Worker function. This way, these counters can no longer be stopped or slowed down by the browser when the browser is placed in the tray or in the background. The counters will now always indicate the correct value.
+- [Modified] The number of reported bug games should not go into negative territory.
+- [Modified] Requirement JVA - Core 1.0.17 or later.
+
+- [Added] ACP/Arcade/phpBB Arcade activate - New setting "Automatic reactivation". The setting is only visible if a private key has an expiration date. This configuration is disabled by default.
+- [Added] ACP/Arcade/Manage categories/Games/Move marked - The moved games are aligned to the end of the row and sorted from there.
+- [Added] UCP/Arcade/General settings - Display Html5/Flash watermark.
+- [Added] Announcements - Checking the display of game images according to global and user settings.
+- [Added] Announcements - Checking global permissions for the following links: (Play in a new window, Download game and Game statistics).
+- [Added] Game Intro - Information will be displayed to the founders in the JVA Game Intro if the website is not registered. The display of information will only be discontinued once the founder has registered the website and then reactivated phpBB Arcade.
+- [Added] Activation - We will be informed about errors that occur during activation, viewing personal data, and deleting personal data.
+
+- [Updated] Ruffle emulator (2025-03-26) for release.
+
 ## 7.7.6 - 2025-02-20
 
 - [Fixed] ACP/Arcade/Manage categories and games - Responsive style.

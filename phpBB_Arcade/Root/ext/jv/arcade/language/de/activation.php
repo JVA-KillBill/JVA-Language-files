@@ -135,10 +135,10 @@ Zusätzlich wird der angegebene Aktivierungsschlüssel übermitteln, ob dies ein
 					<li>Die Webseitenadresse ist sehr wichtig, denn auf dieser Basis senden wir die Informationen zurück.</li>
 					<li>Der Aktivierungsschlüssel hat mehrere Aufgaben:
 						<ol>
-							<li>Der Hauptunterschied zwischen „Test“ und „Kostenlos“ ist, wenn eine Wartezeit aktiviert wird, können „Test“-aktivierte Webseiten eine höhere Wartezeit haben, und die Webseite wird als „Testseite“ klassifiziert. Die mit „Test“ und „Kostenlos“ aktivierte Software kann Werbung anzeigen, und eine begrenzte Anzahl an Spielstarts nutzen.<br>
-								Die Wartezeit wird aktiviert und bestimmt durch „%2$s“.<br>
-								Die maximale Anzahl an Spielstarts wird aktiviert und bestimmt durch “%2$s”.<br>
-								Die Schlüssel „Test“ und „Kostenlos“ haben kein Ablaufdatum.
+							<li>Bei der als „Kostenlos“ aktivierten Software kann es zu Wartezeiten und Werbeeinblendungen kommen, außerdem kann die Anzahl der pro Tag spielbaren Spiele begrenzt sein.<br>
+								Die Wartezeit wird eingeschaltet und bestimmt durch „%2$s“.<br>
+								Die maximale Anzahl der spielbaren Spiele wird eingeschaltet und bestimmt durch „%2$s“.<br>
+								Der „Kostenlos“-Schlüssel hat kein Ablaufdatum.
 							</li>
 							<li>Der private Schlüssel kann von einem Ablaufdatum abhängig sein, oder nur mit einer bestimmten phpBB Arcade-Version funktionieren. Mit privatem Schlüssel aktivierte Software ist vollständig von Werbeeinblendungen ausgenommen. <em>Dies gilt nur für das „JVA Game Intro“</em>.<br>Außerdem sind Webseiten, welche einen privaten Schlüssel verwenden, nicht von einer Begrenzung der täglichen Spielstarts betroffen.</li>
 						</ol>
@@ -176,7 +176,7 @@ Zusätzlich wird der angegebene Aktivierungsschlüssel übermitteln, ob dies ein
 			<li>Die “%2$s” erklärt ausdrücklich, dass sie während der Verbindung keine Datenbankänderungen in anderen Webseiten durchführen kann und will! Das ist sehr wichtig, um während der Verbindung eine 100%%-ige Sicherheit zwischen den beiden Servern zu gewährleisten.<br>Aus diesem Grund kann die Software ausschließlich durch den Gründer der Webseite aktiviert werden.</li>
 		</ol>
 	</li>
-	<li>Die Verwendung des “JVA Game Intro” über localhost wird nicht unterstützt, aber die Software kann laufen. Bei einer Installation auf localhost gibt es keine Datenverbindung, aber die Wartezeit ist standardmäßig auf 5 Sekunden eingestellt.</li>
+	<li>Das „JVA Game Intro“ wird auf dem lokalen Host nicht unterstützt, die Software kann jedoch ausgeführt werden. Auf dem lokalen Host ist die Wartezeit standardmäßig auf 5 Sekunden eingestellt.</li>
 </ul>',
 	'ACP_PHPBB_ARCADE_SYSTEM_INSTRUCTION'			=> 'phpBB Arcade Anleitung',
 	'ACP_PHPBB_ARCADE_SYSTEM_INSTRUCTION_EXPLAIN'	=> 'Die Software „phpBB Arcade“ wird <a onclick="window.open(this.href); return false;" href="%3$s" title="JVA Lizenz">lizenziert</a> und gewartet durch die Webseite „%1$s“.',

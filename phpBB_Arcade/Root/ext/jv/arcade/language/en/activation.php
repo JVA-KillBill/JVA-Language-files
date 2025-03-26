@@ -135,10 +135,10 @@ Additionally, the specified activation key will tell us that the affected site i
 					<li>The website address is very important because, based on this, we can return the information we need.</li>
 					<li>More about the role of the activation key:
 						<ol>
-							<li>The main difference between “Test” and “Free” is when a wait time is activated. “Test” activated sites can have a higher wait time, and the site is classified as a “test page”. The “Test” and “Free” activated software may display advertising and can use limit the number of plays.<br>
+							<li>The “Free” activated software may have a wait time and display ads, as well as a limit of the number of games played per day.<br>
 								The waiting time turns on and can be determined by the “%2$s”.<br>
 								The maximum number of plays turns on and can be determined by the “%2$s”.<br>
-								The “Test” and the “Free” versions have no expiration date.
+								The “Free” key has no expiration date.
 							</li>
 							<li>A private key can have an expiration date or can be used for a particular phpBB Arcade version. Private key activated software is fully exempt from advertising. <em>This only concerns the “JVA Game Intro”</em>.<br>Additionally, websites that use a private key are not subject to a daily plays limit.</li>
 						</ol>
@@ -176,7 +176,7 @@ Additionally, the specified activation key will tell us that the affected site i
 			<li>The “%2$s” states that it can’t and doesn’t want to do any database changes implemented in other websites during the connection! It is very important to have 100%% security between the two servers during the connection.<br>That is why the software can only be activated by the founder of the website.</li>
 		</ol>
 	</li>
-	<li>On localhost the use of “JVA Game Intro” isn’t supported, but the software can run. On localhost there is no data connection, but the waiting time is set to 5 seconds by default.</li>
+	<li>The “JVA Game Intro” is not supported on localhost, but the software can be run. On localhost, the wait time is set to 5 seconds by default.</li>
 </ul>',
 	'ACP_PHPBB_ARCADE_SYSTEM_INSTRUCTION'			=> 'phpBB Arcade Instructions',
 	'ACP_PHPBB_ARCADE_SYSTEM_INSTRUCTION_EXPLAIN'	=> 'The “phpBB Arcade” software is <a onclick="window.open(this.href); return false;" href="%3$s" title="JVA License">licensed</a> and maintained by “%1$s” website.',

@@ -135,12 +135,12 @@ Továbbá a megadott aktiváló kulcsból megtudhatjuk, hogy az érintett webold
 					<li>A weboldal címe nagyon fontos, mivel ez alapján tudjuk visszaküldeni az információkat.</li>
 					<li>Az aktivációs kulcsnak több szerepe is van:
 						<ol>
-							<li>A „Teszt” és az „Ingyenes” kulcs között annyi a különbség, hogy ha a várakozási idő aktiválva van akkor a „Teszt” kulccsal aktivált weboldalakon magasabb lehet a várakozási idő, továbbá a weboldal „Teszt weboldalnak” lesz besorolva. A „Teszt” és az „Ingyenes” kulccsal aktivált szoftver reklámokat jeleníthet meg és korlátozhatja a lejátszások számát.<br>
+							<li>Az „Ingyenes” kulccsal aktivált szoftver várakozási idővel rendelkezhet és reklámokat jeleníthet meg, továbbá korlátozhatja a naponta játszott játékok számát.<br>
 								A várakozási időt a „%2$s” kapcsolhatja be és határozhatja meg.<br>
 								A maximális játszások számát a „%2$s” kapcsolhatja be és határozhatja meg.<br>
-								A „Teszt” és az „Ingyenes” kulcsnak nincs lejárati ideje.
+								Az „Ingyenes” kulcsnak nincs lejárati ideje.
 							</li>
-							<li>A privát kulcshoz lejárati idő is tartozhat, vagy kizárólag egy adott phpBB Arcade verzióhoz használható fel. A privát kulccsal aktivált szoftver teljes reklám mentességet élvez. <em>Ez csak a „JVA Game Intro”-ra érvényes</em>.<br>Továbbá a privát kulcsot használó weboldalakra a napi játszási limit sem vonatkozik.</li>
+							<li>A privát kulcshoz lejárati idő is tartozhat, vagy kizárólag egy adott phpBB Arcade verzióhoz használható fel. A privát kulccsal aktivált szoftver teljes reklám mentességet élvez. <em>Ez csak a „JVA Game Intro”-ra érvényes.</em><br>Továbbá a privát kulcsot használó weboldalakra a napi játszási limit sem vonatkozik.</li>
 						</ol>
 					</li>
 					<li>A phpBB Arcade verzió ellenőrzése is igen fontos, hogy a „JVA Game Intro” az adott verzióval kompatibilis-e.</li>
@@ -176,7 +176,7 @@ Továbbá a megadott aktiváló kulcsból megtudhatjuk, hogy az érintett webold
 			<li>A „%2$s” kijelenti, hogy a kapcsolat során nem végez és nem is tud semmilyen adatbázis módosítást végrehajtani mások weboldalain! Ez azért nagyon fontos, hogy a kapcsolat során megőrizzük a két szerver közti 100%%-os biztonságot.<br>Pont ezért a szoftvert is csak a weboldal alapítója tudja aktiválni.</li>
 		</ol>
 	</li>
-	<li>A „JVA Game Intro” localhost-on való használata nem támogatott, azonban a szoftver futtatható. A localhost-on nincs semmilyen adatkapcsolat, azonban a várakozási idő alapból 5 másodpercre van beállítva.</li>
+	<li>A „JVA Game Intro” localhost-on való használata nem támogatott, azonban a szoftver futtatható. A localhost-on a várakozási idő alapból 5 másodpercre van beállítva.</li>
 </ul>',
 	'ACP_PHPBB_ARCADE_SYSTEM_INSTRUCTION'			=> 'phpBB Arcade Instrukció',
 	'ACP_PHPBB_ARCADE_SYSTEM_INSTRUCTION_EXPLAIN'	=> 'A „phpBB Arcade” szoftvert a „%1$s” weboldal <a onclick="window.open(this.href); return false;" href="%3$s" title="JVA Licensz">licenszeli</a> és tartja karban.',
