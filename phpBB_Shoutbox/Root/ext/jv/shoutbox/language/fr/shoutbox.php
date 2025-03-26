@@ -65,10 +65,10 @@ $lang = array_merge($lang, [
 	],
 	'JV_SHOUTBOX_MSG_NO_USER_IP'			=> 'Le message n’existe pas ou aucune IP n’a été attribuée à ce message.',
 	'JV_SHOUTBOX_NEW_MSG_TITLE'				=> [
-		1									=> '(%d) nouveau message arrivé!',
-		2									=> '(%d) nouveaux messages arrivés!',
+		1									=> '(%d) nouveau message arrivé !',
+		2									=> '(%d) nouveaux messages arrivés !',
 	],
-	'JV_SHOUTBOX_NO_JS'						=> 'Pour utiliser la shoutbox, javascript doit être activé pour que cela fonctionne!',
+	'JV_SHOUTBOX_NO_JS'						=> 'Pour utiliser la shoutbox, javascript doit être activé pour que cela fonctionne !',
 	'JV_SHOUTBOX_NO_MSG_ID'					=> 'Message non trouvé.',
 	'JV_SHOUTBOX_NO_PERMISSION_DELETE_MSG'	=> 'Vous n’êtes pas autorisé à supprimer ce message.',
 	'JV_SHOUTBOX_NO_PERMISSION_EDIT_MSG'	=> 'Vous n’avez pas la permission de modifier ce message.',
