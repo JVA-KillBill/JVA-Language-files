@@ -3,8 +3,8 @@
 *
 * @package JVA - phpBB Shoutbox
 * @version $Id$
-* @author 2011-2025 KillBill
-* @copyright (c) 2014-2025 https://jv-arcade.com/ - https://jv-arcade.com/contact
+* @author 2011-2020 KillBill
+* @copyright (c) 2014-2020 https://jv-arcade.com/ - https://jv-arcade.com/contact
 * @license https://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
 *
 */
@@ -35,7 +35,7 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 // Some characters you may want to copy&paste: ‚ ‘ ’ « » „ “ ” …
 
-$lang = array_merge($lang, [
+$lang = array_merge($lang, array(
 	'ACL_A_JV_SHOUTBOX_SETTINGS'		=> 'Vous pouvez modifier les paramètres de la shoutbox',
 	'ACL_CAT_JV_SHOUTBOX'				=> 'Shoutbox',
 	'ACL_M_JV_SHOUTBOX_DELETE'			=> 'Vous pouvez supprimer les messages des utilisateurs',
@@ -49,4 +49,4 @@ $lang = array_merge($lang, [
 	'ACL_U_JV_SHOUTBOX_SMILIES'			=> 'Vous pouvez utiliser des smileys',
 	'ACL_U_JV_SHOUTBOX_USE'				=> 'Vous pouvez utiliser la shoutbox',
 	'ACL_U_JV_SHOUTBOX_VIEW'			=> 'Vous pouvez voir la shoutbox',
-]);
+));

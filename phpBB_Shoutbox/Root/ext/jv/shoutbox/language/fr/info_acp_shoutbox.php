@@ -3,8 +3,8 @@
 *
 * @package JVA - phpBB Shoutbox
 * @version $Id$
-* @author 2011-2025 KillBill
-* @copyright (c) 2014-2025 https://jv-arcade.com/ - https://jv-arcade.com/contact
+* @author 2011-2020 KillBill
+* @copyright (c) 2014-2020 https://jv-arcade.com/ - https://jv-arcade.com/contact
 * @license https://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
 *
 */
@@ -35,11 +35,11 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 // Some characters you may want to copy&paste: ‚ ‘ ’ « » „ “ ” …
 
-$lang = array_merge($lang, [
+$lang = array_merge($lang, array(
 	'ACP_CAT_JV_SHOUTBOX_SETTINGS'						=> 'Shoutbox',
 	'ACP_JV_SHOUTBOX'									=> 'JVA - phpBB Shoutbox',
 	'ACP_JV_SHOUTBOX_AUTHOR'							=> 'Auteur du message',
-	'ACP_JV_SHOUTBOX_AUTHOR_EXPLAIN'					=> 'Ici, vous pouvez définir l’auteur qui envoie les annonces. Si vous laissez ce champ vide et installez l’extension « JV Add System Bot », l’annonce sera envoyée sous ce nom. S’il n’y a pas d’utilisateur « System Bot », le nom d’utilisateur actuellement configuré sera utilisé pour les annonces.',
+	'ACP_JV_SHOUTBOX_AUTHOR_EXPLAIN'					=> 'Ici, vous pouvez définir l’auteur qui envoie les annonces. Si vous laissez ce champ vide et installez l’extension « JV Add System Bot », l’annonce sera envoyée sous ce nom. S`il n’y a pas d’utilisateur « System Bot », le nom d’utilisateur actuellement configuré sera utilisé pour les annonces.',
 	'ACP_JV_SHOUTBOX_AVATAR'							=> 'Afficher l’avatar',
 	'ACP_JV_SHOUTBOX_AVATAR_EXPLAIN'					=> 'Lorsqu’il est activé, les avatars seront affichés.',
 	'ACP_JV_SHOUTBOX_BBCODE_ALLOWED'					=> 'BBCode autorisé',
@@ -57,8 +57,8 @@ $lang = array_merge($lang, [
 	'ACP_JV_SHOUTBOX_DATE_FORMAT'						=> 'Format de date',
 	'ACP_JV_SHOUTBOX_DATE_FORMAT_EXPLAIN'				=> 'La syntaxe utilisée est identique à PHP <a href="https://php.net/manual/en/function.date.php">date()</a> function.',
 	'ACP_JV_SHOUTBOX_DELETE_MESSAGES'					=> 'Supprimer des messages',
-	'ACP_JV_SHOUTBOX_DELETE_MESSAGES_CONFIRM'			=> 'Êtes-vous sûr de vouloir supprimer tous les messages ?',
 	'ACP_JV_SHOUTBOX_DELETE_MESSAGES_EXPLAIN'			=> 'Ici, vous pouvez supprimer tous les messages.',
+	'ACP_JV_SHOUTBOX_DELETE_MESSAGES_CONFIRM'			=> 'Êtes-vous sûr de vouloir supprimer tous les messages ?',
 	'ACP_JV_SHOUTBOX_DELETE_MESSAGES_SUCCESS'			=> 'Tous les messages supprimés.',
 	'ACP_JV_SHOUTBOX_DISPLAY_ALL_MAIN_PAGES'			=> 'Toutes les pages principales',
 	'ACP_JV_SHOUTBOX_DISPLAY_ALL_PAGES'					=> 'Chaque page',
@@ -123,9 +123,9 @@ $lang = array_merge($lang, [
 	'ACP_JV_SHOUTBOX_SMILIE_SCROLL_BOX'					=> 'Des smileys apparaissent dans la boîte de défilement',
 	'ACP_JV_SHOUTBOX_SMILIE_SCROLL_BOX_EXPLAIN'			=> 'Si trop de smileys sont activés, vous pouvez verrouiller les smileys dans une boîte de défilement ici.',
 
-	'JVA_CORE_EXT_NOT_FOUND'							=> 'L’extension n’a pas pu être activée car l’extension « JVA - Core » est introuvable!',
-
+	'JVA_CORE_EXT_NOT_FOUND'							=> 'L’extension n’a pas pu être activée car l’extension « JVA - Core » est introuvable !',
+	
 	'LOG_JV_SHOUTBOX_CONFIG_SETTINGS'					=> '<strong>Modifier les paramètres de la shoutbox.</strong>',
 	'LOG_JV_SHOUTBOX_DELETE_MESSAGES'					=> '<strong>Supprimer tous les messages de la shoutbox.</strong>',
 	'LOG_JV_SHOUTBOX_MESSAGES_PRUNING'					=> '<strong>Messages shoutbox vidés.</strong><br>» %d messages supprimés',
-]);
+));
