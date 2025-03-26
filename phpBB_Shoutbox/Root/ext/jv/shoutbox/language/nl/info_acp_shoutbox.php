@@ -3,9 +3,9 @@
 *
 * @package JVA - phpBB Shoutbox
 * @version $Id$
-* @author 2011-2022 KillBill
-* @copyright (c) 2014-2022 https://jv-arcade.com/ - https://jv-arcade.com/contact
-* @license https://jv-arcade.com/License.html JVA License v1
+* @author 2011-2025 KillBill
+* @copyright (c) 2014-2025 https://jv-arcade.com/ - https://jv-arcade.com/contact
+* @license https://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
 *
 */
 
@@ -35,11 +35,11 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 // Some characters you may want to copy&paste: ‚ ‘ ’ « » „ “ ” …
 
-$lang = array_merge($lang, array(
+$lang = array_merge($lang, [
 	'ACP_CAT_JV_SHOUTBOX_SETTINGS'						=> 'Shoutbox',
 	'ACP_JV_SHOUTBOX'									=> 'JVA - phpBB Shoutbox',
 	'ACP_JV_SHOUTBOX_AUTHOR'							=> 'Auteur van het bericht',
-	'ACP_JV_SHOUTBOX_AUTHOR_EXPLAIN'					=> 'Hier kan je de auteur instellen die de aankondigingen verzend. Als je dit veld leeg laat en “JV Add System Bot” extensie installeert, worden de aankondigingen onder die naam verzonden. Als er geen “System Bot” gebruiker is dan zal de actuele ingestelde gebruikersnaam gebruikt worden voor de aankondigingen.',
+	'ACP_JV_SHOUTBOX_AUTHOR_EXPLAIN'					=> 'Hier kan je de auteur instellen die de aankondigingen verzend. Als je dit veld leeg laat en “JV Add System Bot” extensie installeert, worden de aankondiging onder die naam verzonden. Als er geen “System Bot” gebruiker is dan zal de actuele ingestelde gebruikersnaam gebruikt worden voor de aankondigingen.',
 	'ACP_JV_SHOUTBOX_AVATAR'							=> 'Laat avatar zien',
 	'ACP_JV_SHOUTBOX_AVATAR_EXPLAIN'					=> 'Indien aangezet, worden de avatars weergegeven.',
 	'ACP_JV_SHOUTBOX_BBCODE_ALLOWED'					=> 'BBCode toegestaan',
@@ -57,8 +57,8 @@ $lang = array_merge($lang, array(
 	'ACP_JV_SHOUTBOX_DATE_FORMAT'						=> 'Datum notatie',
 	'ACP_JV_SHOUTBOX_DATE_FORMAT_EXPLAIN'				=> 'De syntax die wordt gebruikt is identiek aan PHP <a href="https://php.net/manual/en/function.date.php">date()</a> functie.',
 	'ACP_JV_SHOUTBOX_DELETE_MESSAGES'					=> 'Verwijder berichten',
-	'ACP_JV_SHOUTBOX_DELETE_MESSAGES_EXPLAIN'			=> 'Hier kun je alle berichten verwijderen.',
 	'ACP_JV_SHOUTBOX_DELETE_MESSAGES_CONFIRM'			=> 'Weet je zeker dat je al de berichten wilt verwijderen?',
+	'ACP_JV_SHOUTBOX_DELETE_MESSAGES_EXPLAIN'			=> 'Hier kun je alle berichten verwijderen.',
 	'ACP_JV_SHOUTBOX_DELETE_MESSAGES_SUCCESS'			=> 'Alle berichten verwijderd.',
 	'ACP_JV_SHOUTBOX_DISPLAY_ALL_MAIN_PAGES'			=> 'Alle hoofd paginas',
 	'ACP_JV_SHOUTBOX_DISPLAY_ALL_PAGES'					=> 'Elke pagina',
@@ -84,7 +84,7 @@ $lang = array_merge($lang, array(
 	'ACP_JV_SHOUTBOX_LOCATION_EXPLAIN'					=> 'Voeg de locatie toe waar de schoutbox te zien is op de website.',
 	'ACP_JV_SHOUTBOX_MAX_MSG_LIMIT'						=> 'Maximum aantal berichten',
 	'ACP_JV_SHOUTBOX_MAX_MSG_LIMIT_EXPLAIN'				=> 'Hier kan je het maximale aantal berichten beperken dat in de shoutbox kan worden weergegeven, bijvoorbeeld als de opgegeven waarde 100 is en de standaardbelasting 10 is, dan kunnen 90 oude berichten worden teruggelezen. Als de waarde 0 is, kunnen gebruikers alle oude berichten teruglezen.',
-	'ACP_JV_SHOUTBOX_MIN_MAX_ERROR'						=> '„%s“ kan niet kleiner zijn dan “%s”.',
+	'ACP_JV_SHOUTBOX_MIN_MAX_ERROR'						=> '“%s“ kan niet kleiner zijn dan “%s”.',
 	'ACP_JV_SHOUTBOX_MSG_LIMIT'							=> 'Aantal berichten',
 	'ACP_JV_SHOUTBOX_MSG_LIMIT_EXPLAIN'					=> 'Hier kan je specificeren hoeveel berichten standaard in de shoutbox moeten worden geladen. Dezelfde instelling is van toepassing op het laden van oude berichten.',
 	'ACP_JV_SHOUTBOX_MSG_MAX_CHARS'						=> 'Maximaal aantal tekens per bericht',
@@ -121,11 +121,11 @@ $lang = array_merge($lang, array(
 	'ACP_JV_SHOUTBOX_SMILIE_ENABLE'						=> 'Zet smilies aan',
 	'ACP_JV_SHOUTBOX_SMILIE_ENABLE_EXPLAIN'				=> 'Hier kun je het gebruik van smilies aanzetten.',
 	'ACP_JV_SHOUTBOX_SMILIE_SCROLL_BOX'					=> 'Smileys verschijnen in het schuifvenster',
-	'ACP_JV_SHOUTBOX_SMILIE_SCROLL_BOX_EXPLAIN'		    => 'Als er te veel smilies zijn ingeschakeld, kun je de smilies hier in een schuifvak vergrendelen.',
+	'ACP_JV_SHOUTBOX_SMILIE_SCROLL_BOX_EXPLAIN'			=> 'Als er te veel smilies zijn ingeschakeld, kun je de smilies hier in een schuifvak vergrendelen.',
 
 	'JVA_CORE_EXT_NOT_FOUND'							=> 'De extensie kon niet worden ingeschakeld omdat de extensie “JVA - Core” niet kon worden gevonden!',
-	
+
 	'LOG_JV_SHOUTBOX_CONFIG_SETTINGS'					=> '<strong>Wijzig shoutbox instellingen.</strong>',
 	'LOG_JV_SHOUTBOX_DELETE_MESSAGES'					=> '<strong>Verwijder alle shoutbox berichten.</strong>',
 	'LOG_JV_SHOUTBOX_MESSAGES_PRUNING'					=> '<strong>Shoutbox berichten geleegd.</strong><br>» Verwijderde %d berichten',
-));
+]);
