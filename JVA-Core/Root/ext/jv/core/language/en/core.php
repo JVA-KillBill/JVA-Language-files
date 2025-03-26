@@ -35,8 +35,12 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 // Some characters you may want to copy&paste: ‚ ‘ ’ « » „ “ ” …
 
-$lang = array_merge($lang, array(
+$lang = array_merge($lang, [
 	'JVA_CORE'					=> 'JVA - Core',
+	'JVA_CORE_ALL'				=> 'All',
+	'JVA_CORE_ENABLE_ERROR'		=> 'The extension can not be activated because the version of <strong>“phpBB”</strong> is below version <strong>“%s”</strong>!',
+	'JVA_CORE_SEP_DECIMAL'		=> '.',
+	'JVA_CORE_SEP_THOUSANDS'	=> ',',
 	'JVA_CORE_TIME_DAY'			=> [
 		1						=> 'day',
 		2						=> 'days',
@@ -73,10 +77,6 @@ $lang = array_merge($lang, array(
 		1						=> 'year',
 		2						=> 'years',
 	],
-	'JVA_CORE_ALL'				=> 'All',
-	'JVA_CORE_SEP_DECIMAL'		=> '.',
-	'JVA_CORE_SEP_THOUSANDS'	=> ',',
 	'JVA_CORE_TOTAL_DATA'		=> 'Total data (%s)',
-	'JVA_CORE_ENABLE_ERROR'		=> 'The extension can not be activated because the version of <strong>“phpBB”</strong> is below version <strong>“%s”</strong>!',
 	'JVA_CORE_VERSION_ERROR'	=> 'The installed “JVA - Core” is not compatible with this “%s” version. Please update the “JVA - Core”.',
-));
+]);

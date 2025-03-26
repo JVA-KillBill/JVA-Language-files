@@ -35,8 +35,12 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 // Some characters you may want to copy&paste: ‚ ‘ ’ « » „ “ ” …
 
-$lang = array_merge($lang, array(
+$lang = array_merge($lang, [
 	'JVA_CORE'					=> 'JVA - Core',
+	'JVA_CORE_ALL'				=> 'Összes',
+	'JVA_CORE_ENABLE_ERROR'		=> 'A kiterjesztés nem kapcsolható be, mert a <strong>„phpBB”</strong> verziója kisebb mint <strong>„%s”</strong> verzió!',
+	'JVA_CORE_SEP_DECIMAL'		=> '.',
+	'JVA_CORE_SEP_THOUSANDS'	=> ',',
 	'JVA_CORE_TIME_DAY'			=> [
 		1						=> 'nap',
 		2						=> 'nap',
@@ -73,10 +77,6 @@ $lang = array_merge($lang, array(
 		1						=> 'év',
 		2						=> 'év',
 	],
-	'JVA_CORE_ALL'				=> 'Összes',
-	'JVA_CORE_SEP_DECIMAL'		=> '.',
-	'JVA_CORE_SEP_THOUSANDS'	=> ',',
 	'JVA_CORE_TOTAL_DATA'		=> 'Összes adat (%s)',
-	'JVA_CORE_ENABLE_ERROR'		=> 'A kiterjesztés nem kapcsolható be, mert a <strong>„phpBB”</strong> verziója kisebb mint <strong>„%s”</strong> verzió!',
 	'JVA_CORE_VERSION_ERROR'	=> 'A telepített „JVA - Core” kiterjesztés nem kompatibilis ezzel a „%s” verzióval. Kérlek frissítsd a „JVA - Core” kiterjesztést.',
-));
+]);

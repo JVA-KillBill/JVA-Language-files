@@ -35,8 +35,12 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 // Some characters you may want to copy&paste: ‚ ‘ ’ « » „ “ ” …
 
-$lang = array_merge($lang, array(
+$lang = array_merge($lang, [
 	'JVA_CORE'					=> 'JVA - Core',
+	'JVA_CORE_ALL'				=> 'Tout',
+	'JVA_CORE_ENABLE_ERROR'		=> 'L’extension ne peut pas être activée car la version de <strong>« phpBB »</strong> est inférieure à la version <strong>« %s »</strong>!',
+	'JVA_CORE_SEP_DECIMAL'		=> ',',
+	'JVA_CORE_SEP_THOUSANDS'	=> '.',
 	'JVA_CORE_TIME_DAY'			=> [
 		1						=> 'jour',
 		2						=> 'jours',
@@ -73,10 +77,6 @@ $lang = array_merge($lang, array(
 		1						=> 'année',
 		2						=> 'annés',
 	],
-	'JVA_CORE_ALL'				=> 'Tout',
-	'JVA_CORE_SEP_DECIMAL'		=> ',',
-	'JVA_CORE_SEP_THOUSANDS'	=> '.',
 	'JVA_CORE_TOTAL_DATA'		=> 'Données totales (%s)',
-	'JVA_CORE_ENABLE_ERROR'		=> 'L’extension ne peut pas être activée car la version de <strong>« phpBB »</strong> est inférieure à la version <strong>« %s »</strong>!',
 	'JVA_CORE_VERSION_ERROR'	=> 'L’extension « JVA - Core » installée n’est pas compatible avec cette « %s » version. Veuillez mettre à jour la « JVA - Core » extension.',
-));
+]);
