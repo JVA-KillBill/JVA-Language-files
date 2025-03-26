@@ -3,8 +3,8 @@
 *
 * @package JVA - phpBB Shoutbox
 * @version $Id$
-* @author 2011-2024 KillBill
-* @copyright (c) 2014-2024 https://jv-arcade.com/ - https://jv-arcade.com/contact
+* @author 2011-2025 KillBill
+* @copyright (c) 2014-2025 https://jv-arcade.com/ - https://jv-arcade.com/contact
 * @license https://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
 *
 */
@@ -35,7 +35,7 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 // Some characters you may want to copy&paste: ‚ ‘ ’ « » „ “ ” …
 
-$lang = array_merge($lang, array(
+$lang = array_merge($lang, [
 	'JV_SHOUTBOX'							=> 'Shoutbox',
 	'JV_SHOUTBOX_AJAX_ERROR'				=> 'There was an error during processing.',
 	'JV_SHOUTBOX_AUTO_REFRESH_TIME_TITLE'	=> 'Automatic refresh every %d seconds',
@@ -53,21 +53,21 @@ $lang = array_merge($lang, array(
 	'JV_SHOUTBOX_F_NEW_POST_QUOTE'			=> '%3$s quoted a post in the forum %1$s on the topic %2$s.',
 	'JV_SHOUTBOX_F_NEW_TOPIC'				=> '%3$s opened a new topic in the forum %1$s: %2$s.',
 	'JV_SHOUTBOX_IP_BUTTON_TITLE'			=> 'User IP “%s” address details',
-	'JV_SHOUTBOX_MSG_EDITED_TIMES'			=> array(
+	'JV_SHOUTBOX_MSG_EDITED_TIMES'			=> [
 		1									=> 'Edited %d time.',
 		2									=> 'Edited %d times.',
-	),
+	],
 	'JV_SHOUTBOX_MSG_FLOOD_ERROR'			=> 'You cannot send another message so soon after your last.',
 	'JV_SHOUTBOX_MSG_MAX_CHARS_ERROR'		=> 'The message can not contain more than %d characters.',
-	'JV_SHOUTBOX_MSG_MIN_CHARS_ERROR'		=> array(
+	'JV_SHOUTBOX_MSG_MIN_CHARS_ERROR'		=> [
 		1									=> 'The message must contain a minimum of %d character.',
 		2									=> 'The message must contain a minimum of %d characters.',
-	),
+	],
 	'JV_SHOUTBOX_MSG_NO_USER_IP'			=> 'The message does not exist or this message has no assigned IP.',
-	'JV_SHOUTBOX_NEW_MSG_TITLE'				=> array(
+	'JV_SHOUTBOX_NEW_MSG_TITLE'				=> [
 		1									=> '(%d) new message arrived!',
 		2									=> '(%d) new messages arrived!',
-	),
+	],
 	'JV_SHOUTBOX_NO_JS'						=> 'The use shoutbox, you need to enable use JavaScript!',
 	'JV_SHOUTBOX_NO_MSG_ID'					=> 'The message could not be found.',
 	'JV_SHOUTBOX_NO_PERMISSION_DELETE_MSG'	=> 'You do not have permission to delete message.',
@@ -82,4 +82,4 @@ $lang = array_merge($lang, array(
 	'JV_SHOUTBOX_SOUND_ON_TITLE'			=> 'Sound on',
 	'JV_SHOUTBOX_SUCCESS_DELETE_MSG'		=> 'The message was deleted successfully.',
 	'JV_SHOUTBOX_VIEWING'					=> 'Viewing shoutbox',
-));
+]);

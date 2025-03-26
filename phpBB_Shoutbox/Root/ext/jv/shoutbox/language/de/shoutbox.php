@@ -3,8 +3,8 @@
 *
 * @package JVA - phpBB Shoutbox
 * @version $Id$
-* @author 2011-2024 KillBill
-* @copyright (c) 2014-2024 https://jv-arcade.com/ - https://jv-arcade.com/contact
+* @author 2011-2025 KillBill
+* @copyright (c) 2014-2025 https://jv-arcade.com/ - https://jv-arcade.com/contact
 * @license https://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
 *
 */
@@ -35,7 +35,7 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 // Some characters you may want to copy&paste: ‚ ‘ ’ « » „ “ ” …
 
-$lang = array_merge($lang, array(
+$lang = array_merge($lang, [
 	'JV_SHOUTBOX'							=> 'Shoutbox',
 	'JV_SHOUTBOX_AJAX_ERROR'				=> 'Während der Ausführung ist ein Fehler aufgetreten.',
 	'JV_SHOUTBOX_AUTO_REFRESH_TIME_TITLE'	=> 'Aktualisiert automatisch alle %d Sekunden',
@@ -53,21 +53,21 @@ $lang = array_merge($lang, array(
 	'JV_SHOUTBOX_F_NEW_POST_QUOTE'			=> '%3$s zitierte im Forum %1$s einen Beitrag zum Thema %2$s.',
 	'JV_SHOUTBOX_F_NEW_TOPIC'				=> '%3$s erstellte ein neues Thema im Forum %1$s: %2$s.',
 	'JV_SHOUTBOX_IP_BUTTON_TITLE'			=> 'Benutzer IP „%s“ Adressdetails',
-	'JV_SHOUTBOX_MSG_EDITED_TIMES'			=> array(
+	'JV_SHOUTBOX_MSG_EDITED_TIMES'			=> [
 		1									=> '%d mal geändert.',
 		2									=> '%d mal geändert.',
-	),
+	],
 	'JV_SHOUTBOX_MSG_FLOOD_ERROR'			=> 'Du kannst Nachrichten nicht so schnell nacheinander senden.',
 	'JV_SHOUTBOX_MSG_MAX_CHARS_ERROR'		=> 'Die Nachricht darf höchstens %d Zeichen enthalten.',
-	'JV_SHOUTBOX_MSG_MIN_CHARS_ERROR'		=> array(
+	'JV_SHOUTBOX_MSG_MIN_CHARS_ERROR'		=> [
 		1									=> 'Die Nachricht muss mindestens %d Zeichen enthalten.',
 		2									=> 'Die Nachricht muss mindestens %d Zeichen enthalten.',
-	),
+	],
 	'JV_SHOUTBOX_MSG_NO_USER_IP'			=> 'Die Nachricht existiert nicht oder dieser Nachricht ist keine IP zugeordnet.',
-	'JV_SHOUTBOX_NEW_MSG_TITLE'				=> array(
+	'JV_SHOUTBOX_NEW_MSG_TITLE'				=> [
 		1									=> '(%d) neue Nachricht empfangen!',
 		2									=> '(%d) neue Nachrichten empfangen!',
-	),
+	],
 	'JV_SHOUTBOX_NO_JS'						=> 'Um die Shoutbox zu benutzen, musst du Javascript aktivieren!',
 	'JV_SHOUTBOX_NO_MSG_ID'					=> 'Die Nachricht konnte nicht gefunden werden.',
 	'JV_SHOUTBOX_NO_PERMISSION_DELETE_MSG'	=> 'Du bist nicht berechtigt, Nachrichten zu lösschen.',
@@ -82,4 +82,4 @@ $lang = array_merge($lang, array(
 	'JV_SHOUTBOX_SOUND_ON_TITLE'			=> 'Ton an',
 	'JV_SHOUTBOX_SUCCESS_DELETE_MSG'		=> 'Die Nachricht wurde erfolgreich gelöscht.',
 	'JV_SHOUTBOX_VIEWING'					=> 'Betrachtet Shoutbox',
-));
+]);

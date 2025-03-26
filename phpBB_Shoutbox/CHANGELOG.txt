@@ -1,0 +1,191 @@
+# Changelog
+
+## 3.2.0 - 2025-03-26
+
+- [Modified] Let's use the "page" function of the JVA Core extension.
+- [Modified] Disable shoutbox ACP module when JVA - Core extension is disabled.
+- [Modified] The license of the language files has been changed to GPL-2.0.
+- [Modified] Requirement phpBB 3.3.14 or later and JVA - Core 1.0.17 or later.
+
+- [Added] Dutch and French languages.
+
+## 3.1.9 - 2024-01-20
+
+- [Added] Let's use the version function of the JVA Core extension.
+
+- [Modified] Requirement phpBB 3.3.11 or later and JVA - Core 1.0.13 or later.
+
+## 3.1.8 - 2023-06-05
+
+- [Fixed] In the case of editing a message, emoticons do not appear on the secondary page because they receive an incorrect root path.
+
+- [Modified] Verification of requirements.
+- [Modified] Requirement phpBB 3.3.10 or later and JVA - Core 1.0.9 or later.
+
+## 3.1.7 - 2022-08-31
+
+- [Modified] Verification of requirements.
+- [Modified] Requirement phpBB 3.3.8 or later and JVA - Core 1.0.7 or later.
+
+## 3.1.6 - 2022-06-27
+
+- [Fixed] Loading indicator index.
+
+- [Modified] When enabling an extension, use the basic phpBB check function for additional extension dependencies.
+
+## 3.1.5 - 2021-12-12
+
+- [Modified] If a sound is blocked, it cannot be played even after it is unblocked.
+- [Modified] Use the Audio API of the JVA - Core extension to handle audio files.
+- [Modified] Slide sound volume increased by 120%.
+- [Modified] Requirement JVA - Core 1.0.6 or later.
+
+- [Added] Click sound - Pm, quote, ip, edit, delete and alert close buttons.
+
+## 3.1.4 - 2021-11-19
+
+- [Fixed] If the input field is at the bottom and you are reading, keep the position of the messages in case of a new message.
+
+- [Modified] Modernization of Javascript codes.
+- [Modified] Use the "lang_js" designation added in phpBB 3.3.5 to add language values to javascript.
+- [Modified] Anonymization of all javascript functions.
+- [Modified] Merge all audio files.
+- [Modified] Requirement phpBB 3.3.5 or later.
+- [Modified] License GPL-2.0 to JVAL-1.0
+
+- [Added] Close, emoticon, BBcode and color palette buttons for animation clutter protection.
+- [Added] When sending an empty message, do not start an ajax request to the server.
+- [Added] Click and slide sound.
+- [Added] When the user open/close the shoutbox, it will play  a "slide" sound.
+- [Added] When the user click to turn off the sound, it will play  a "click" sound.
+- [Added] When a user edits a message, the "edit" sound is played to the other users.
+
+- [Added] New supported audio extension "webm".
+- [Added] Play audio on all browsers supported by  "howler.js https://github.com/goldfire/howler.js/#browser-compatibility".
+- [Added] Requirement JVA - Core 1.0.5 or later.
+
+Deleted sound files:
+[ROOT]/ext/jv/shoutbox/sound/add
+[ROOT]/ext/jv/shoutbox/sound/delete
+[ROOT]/ext/jv/shoutbox/sound/edit
+[ROOT]/ext/jv/shoutbox/sound/error
+
+## 3.1.3 - 2021-05-02
+
+- [Modified] PHP 8 compatibility.
+
+## 3.1.2 - 2020-03-28
+
+- [Modified] Messages pruning - log entry author: System [Bot], if installed.
+
+## 3.1.1 - 2020-03-11
+
+- [Fixed] Event indirect modification.
+
+## 3.1.0 - 2020-03-08
+
+- [Modified] phpBB Arcade 5.0.4 compatibility - arcade page detect.
+- [Modified] to System [Bot] messages:
+	1. Can no longer quote messages.
+	2. The user names in the message adapt to the name change.
+	3. The game names in the message adapt to the name change.
+	4. Game messages take into account permissions. (phpBB Arcade 5.0.5  or later).
+	5. Messages should be displayed in the user's language.
+
+## 3.0.1 - 2020-02-06
+
+- [Modified] If the extension is disabled, users will no longer see a message. Instead, the Ajax script is stopped and the Shoutbox box is cleared.
+
+## 3.0.0 - 2019-12-23
+
+- [Fixed] If the administrator deletes all messages and a new message arrives immediately, it will appear correctly.
+
+- [Modified] phpBB 3.3 compatibility.
+
+## 2.2.1 - 2019-06-04
+
+- [Fixed] Display on the all main pages. For example: (Points, Poker).
+
+## 2.2.0 - 2019-05-15
+
+- [Fixed] Few smaller html5 code.
+
+- [Modified] Some HTML ID and class names - Reason: Avoiding Jquery bug (If there are more than two "-" characters in the name).
+- [Modified] Root path definition.
+
+- [Added] Checking your browser for support for any audio format.
+
+## 2.1.0 - 2018-06-06
+
+- [Fixed] Write a new topic when auto-post is run from cron.
+
+- [Added] Compatibile cron status extension - https://www.phpbb.com/customise/db/extension/cronstatus.
+
+## 2.0.2 - 2018-02-13
+
+- [Fixed] Display Custom BBCode.
+
+## 2.0.1 - 2018-02-11
+
+- [Fixed] Few smaller html5 code.
+
+## 2.0.0 - 2017-01-23
+
+- [Updated] Compatible with phpBB 3.2.x
+
+## 1.1.1 - 2016-11-21
+
+- [Fixed] Doubled custom bbcodes and smilies in the box when forum posts are created.
+
+## 1.1.0 - 2015-12-09
+
+- [Fixed] Quick delete topic.
+
+- [Modified] Ajax request - disabled shoutbox header data.
+
+- [Added] If you change topic name or forum, or if you move topic or post - the messages will also be updated.
+
+## 1.0.0 - 2015-11-15
+
+This release compatible phpBB 3.1.6 - 3.2.
+
+- [Fixed] In operation, when the shoutbox extension is disabled, ajax generates an error (The service definition "jv.shoutbox" does not exist).
+- [Fixed] ACP detect of portal and arcade - (Page setting).
+- [Fixed] Use phpBB config text table.
+- [Fixed] BBCode allowed list empty - BBCode button disable.
+- [Fixed] Maximum characters per message set 0.
+
+- [Added] New config - Pruning messages.
+- [Added] New config - Custom BBCode.
+- [Added] New config - Message position top / bottom.
+- [Added] New config - Forum post settings - (The messages are displayed only to those users who have permission to see the comments in the forums to read. 
+											  It supports non-permanent deletion and posts to be approved as well.)
+							Author
+							Display (new topic, reply, reply+quote, edit) post.
+							Ignore forums.
+- [Added] Support for Kiss Portal - https://www.phpbb.com/community/viewtopic.php?p=13450891#p13450891
+- [Added] Support multiline message if use shift+enter buttons.
+- [Added] Shoutbox table open/close.
+
+- [Modified] Guest user permissions - Allow: display, use, bbcode, smilies :: Deny: flood ignore, edit and delete message.
+- [Modified] Bot user permissions - Allow: only display, the rest permissions deny.
+
+## 1.0.0-RC2 - 2015-10-31
+
+- [Fixed] Old message load/error img replace.
+- [Fixed] Javascript bug - If disabled display user avatar.
+
+- [Added] New config - Custom page open in an separate window / popup window.
+- [Added] New config - Custom page popup window (width, height).
+- [Added] New config - Display users online on custom page
+- [Added] New config - Shoutbox height.
+- [Added] New config - Maximum number of messages.
+- [Added] New config - Round avatar.
+- [Added] New config - Smiley use scroll box.
+
+- [Modified] Display shoutbox: ("Don’t display", "Forum main page", "Forum all pages", "Arcade main page", "All arcade pages", "Portal pages",
+								"All pages, except the portal", "All pages, except the arcade", "All main pages", "All pages).
+
+## 1.0.0-RC1 - 2015-10-26
+
+- First release
