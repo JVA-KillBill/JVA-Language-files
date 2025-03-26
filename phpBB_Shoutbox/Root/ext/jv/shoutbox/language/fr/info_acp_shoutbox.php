@@ -123,7 +123,7 @@ $lang = array_merge($lang, [
 	'ACP_JV_SHOUTBOX_SMILIE_SCROLL_BOX'					=> 'Des smileys apparaissent dans la boîte de défilement',
 	'ACP_JV_SHOUTBOX_SMILIE_SCROLL_BOX_EXPLAIN'			=> 'Si trop de smileys sont activés, vous pouvez verrouiller les smileys dans une boîte de défilement ici.',
 
-	'JVA_CORE_EXT_NOT_FOUND'							=> 'L’extension n’a pas pu être activée car l’extension « JVA - Core » est introuvable!',
+	'JVA_CORE_EXT_NOT_FOUND'							=> 'L’extension n’a pas pu être activée car l’extension « JVA - Core » est introuvable !',
 
 	'LOG_JV_SHOUTBOX_CONFIG_SETTINGS'					=> '<strong>Modifier les paramètres de la shoutbox.</strong>',
 	'LOG_JV_SHOUTBOX_DELETE_MESSAGES'					=> '<strong>Supprimer tous les messages de la shoutbox.</strong>',

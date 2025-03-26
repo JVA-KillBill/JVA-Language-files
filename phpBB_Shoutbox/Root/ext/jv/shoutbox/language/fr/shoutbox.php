@@ -58,7 +58,7 @@ $lang = array_merge($lang, [
 		2									=> 'Modifié %d fois.',
 	],
 	'JV_SHOUTBOX_MSG_FLOOD_ERROR'			=> 'Vous ne pouvez pas poster un autre message car vous venez d’envoyer le précédent.',
-	'JV_SHOUTBOX_MSG_MAX_CHARS_ERROR'		=> 'Le message peut contenir jusquà %d caractères.',
+	'JV_SHOUTBOX_MSG_MAX_CHARS_ERROR'		=> 'Le message peut contenir jusqu’à %d caractères.',
 	'JV_SHOUTBOX_MSG_MIN_CHARS_ERROR'		=> [
 		1									=> 'Le message doit contenir au moins %d caractère.',
 		2									=> 'Le message doit contenir au moins %d caractères.',
