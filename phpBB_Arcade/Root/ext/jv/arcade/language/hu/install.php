@@ -111,5 +111,5 @@ $lang = array_merge($lang, [
 	'INS_ARCADE_UND_GAMES_FILESIZE'						=> 'Meghatározhatatlan a fájlok mérete, játékok',
 	'INS_ARCADE_UPDATE_GAME_DATA_END'					=> 'A frissítési folyamat véget ért, alább láthatod az eredményt.',
 
-	'JVA_CORE_EXT_NOT_FOUND'							=> 'A kiterjesztés nem kapcsolható be mert nem található a „JVA - Core” kiterjesztés!',
+	'JVA_CORE_EXT_NOT_FOUND'							=> 'A kiterjesztés nem kapcsolható be, mert nem található a „JVA - Core” kiterjesztés!',
 ]);

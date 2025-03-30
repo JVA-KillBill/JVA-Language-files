@@ -268,7 +268,6 @@ $lang = array_merge($lang, [
 	'ACP_CHALLENGE_RESET'								=> 'Kihívás újraindítása',
 	'ACP_CHALLENGE_USER_SELECT_TYPE'					=> 'Felhasználó kiválasztásának típusa',
 	'ACP_CHALLENGE_USER_SELECT_TYPE_EXPLAIN'			=> 'Meghatározhatod, hogy a felhasználó kiválasztása milyen módon történjen meg.<br>Vedd figyelembe, hogy az ajaxal történő betöltés, felülírja ezt az opciót.',
-	'ACP_JVA_CORE_EXT_NOT_COMPATIBLE'					=> 'A telepített „JVA - Core” kiterjesztés nem kompatibilis ezzel a „phpBB Arcade” verzióval. Kérlek frissítsd a „JVA - Core” kiterjesztést.<br>» %sJVA - Core letöltése%s «',
 	'ACP_JVA_CORE_EXT_NOT_FOUND'						=> 'A „JVA - Core” kiterjesztés nem található, így ez a kiterjesztés letiltásra került!',
 	'ACP_TOURNAMENT_RESET'								=> 'Verseny újraindítása',
 	'ACP_VIEW_ARCADE_CATEGORY_PERMISSIONS'				=> 'Kategória alapú jogosultságok megtekintése',

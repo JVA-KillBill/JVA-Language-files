@@ -268,7 +268,6 @@ $lang = array_merge($lang, [
 	'ACP_CHALLENGE_RESET'								=> 'Réinitialisation du défi',
 	'ACP_CHALLENGE_USER_SELECT_TYPE'					=> 'Type sélectionné pour l’utilisateur',
 	'ACP_CHALLENGE_USER_SELECT_TYPE_EXPLAIN'			=> 'Ici, vous pouvez définir le type de sélection de l’utilisateur.<br>Veuillez noter que le chargement via AJAX remplacera cette option.',
-	'ACP_JVA_CORE_EXT_NOT_COMPATIBLE'					=> 'Le « JVA - Core » installé n’est pas compatible avec cette version « phpBB Arcade ». Veuillez mettre à jour le « JVA - Core ».<br>« %sTélécharger JVA - Core%s »',
 	'ACP_JVA_CORE_EXT_NOT_FOUND'						=> 'L’extension « JVA - Core » est introuvable, donc cette extension a été désactivée !',
 	'ACP_TOURNAMENT_RESET'								=> 'Réinitialisation du tournoi',
 	'ACP_VIEW_ARCADE_CATEGORY_PERMISSIONS'				=> 'Afficher les permissions par catégorie',

@@ -268,7 +268,6 @@ $lang = array_merge($lang, [
 	'ACP_CHALLENGE_RESET'								=> 'Uitdaging resetten',
 	'ACP_CHALLENGE_USER_SELECT_TYPE'					=> 'Type gebruikers selectie',
 	'ACP_CHALLENGE_USER_SELECT_TYPE_EXPLAIN'			=> 'Hier kan je het gebruikers type instellen.<br>Houd er rekening mee dat laden via AJAX deze optie zal overschrijven.',
-	'ACP_JVA_CORE_EXT_NOT_COMPATIBLE'					=> 'De geïnstalleerde “JVA - Core” is niet overeenstemmend met deze “phpBB Arcade” versie. Werk de “JVA - Core” bij.<br>» %sDownload JVA - Core%s «',
 	'ACP_JVA_CORE_EXT_NOT_FOUND'						=> 'De “JVA - Core” extensie kon niet worden gevonden, dus deze extensie is uitgeschakeld!',
 	'ACP_TOURNAMENT_RESET'								=> 'Toernooi opnieuw instellen',
 	'ACP_VIEW_ARCADE_CATEGORY_PERMISSIONS'				=> 'Categorie gebaseerde permissies bekijken',
