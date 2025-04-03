@@ -35,7 +35,7 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 //
 // Some characters you may want to copy&paste:
-// ’ « » “ ” …
+// ’ « » “ ” …
 //
 
 // Custom profile fields
@@ -61,13 +61,13 @@ $lang = array_merge($lang, array(
 	'CP_LANG_NAME'				=> 'Nom de champ/titre affiché à l’utilisateur',
 	'CP_LANG_OPTIONS'			=> 'Options',
 	'CREATE_NEW_FIELD'			=> 'Créer un nouveau champ',
-	'CUSTOM_FIELDS_NOT_TRANSLATED'	=> 'Au moins un champ de profil personnalisé n’a pas encore été traduit. Veuillez saisir les informations nécessaires en cliquant sur le lien « Traduire ».',
+	'CUSTOM_FIELDS_NOT_TRANSLATED'	=> 'Au moins un champ de profil personnalisé n’a pas encore été traduit. Veuillez saisir les informations nécessaires en cliquant sur le lien « Traduire ».',
 
 	'DEFAULT_ISO_LANGUAGE'			=> 'Langue par défaut [%s]',
 	'DEFAULT_LANGUAGE_NOT_FILLED'	=> 'L’entrée de langue pour la langue par défaut n’a pas été renseignée pour ce champ de profil.',
 	'DEFAULT_VALUE'					=> 'Valeur par défaut',
 	'DELETE_PROFILE_FIELD'			=> 'Supprimer le champ de profil',
-	'DELETE_PROFILE_FIELD_CONFIRM'	=> 'Êtes-vous sûr de voir supprimer ce champ de profil ?',
+	'DELETE_PROFILE_FIELD_CONFIRM'	=> 'Êtes-vous sûr de voir supprimer ce champ de profil ?',
 	'DISPLAY_AT_PROFILE'			=> 'Afficher dans le panneau de l’utilisateur',
 	'DISPLAY_AT_PROFILE_EXPLAIN'	=> 'Le membre peut modifier ce champ de profil dans le panneau de l’utilisateur.',
 	'DISPLAY_AT_REGISTER'			=> 'Afficher sur la page d’enregistrement',
@@ -79,7 +79,7 @@ $lang = array_merge($lang, array(
 	'DISPLAY_ON_VT'					=> 'Afficher dans les sujets',
 	'DISPLAY_ON_VT_EXPLAIN'			=> 'Si cette option est activée, le champ sera affiché dans le mini-profil des sujets.',
 	'DISPLAY_PROFILE_FIELD'			=> 'Afficher publiquement le champ de profil',
-	'DISPLAY_PROFILE_FIELD_EXPLAIN'	=> 'Le champ de profil sera visible dans tous les endroits autorisés dans la page « Paramètres de charge ». Réglez cela sur « Non » masquera le champ des pages de sujets, des profils et de la liste des membres.',
+	'DISPLAY_PROFILE_FIELD_EXPLAIN'	=> 'Le champ de profil sera visible dans tous les endroits autorisés dans la page « Paramètres de charge ». Réglez cela sur « Non » masquera le champ des pages de sujets, des profils et de la liste des membres.',
 	'DROPDOWN_ENTRIES_EXPLAIN'		=> 'Saisissez vos options, chaque option doit être sur une ligne différente.',
 
 	'EDIT_DROPDOWN_LANG_EXPLAIN'	=> 'Notez que vous pouvez modifier le texte de vos options et ajouter de nouvelles options en fin de liste. Il est déconseillé d’insérer de nouvelles options entre celles existantes - cela pourrait entraîner l’attribution d’options erronées à vos utilisateurs. Ceci peut également se produire si vous supprimez des options parmi d’autres. La suppression d’options en partant de la fin va entraîner, pour les utilisateurs ayant sélectionné ces options, l’activation de l’option définie par défaut.',
@@ -112,7 +112,7 @@ $lang = array_merge($lang, array(
 	'FIRST_OPTION'				=> 'Première option',
 
 	'HIDE_PROFILE_FIELD'			=> 'Masquer le champ de profil',
-	'HIDE_PROFILE_FIELD_EXPLAIN'	=> 'Masque le champ de profil à tous les utilisateurs sauf pour les administrateurs et les modérateurs. Si l’option « Afficher dans le panneau de l’utilisateur » est désactivée, l’utilisateur ne pourra pas voir ou modifier ce champ, seuls les administrateurs le pourront.',
+	'HIDE_PROFILE_FIELD_EXPLAIN'	=> 'Masque le champ de profil à tous les utilisateurs sauf pour les administrateurs et les modérateurs. Si l’option « Afficher dans le panneau de l’utilisateur » est désactivée, l’utilisateur ne pourra pas voir ou modifier ce champ, seuls les administrateurs le pourront.',
 
 	'INVALID_CHARS_FIELD_IDENT'	=> 'L’identification du champ ne peut contenir que des minuscules a-z et _',
 	'INVALID_FIELD_IDENT_LEN'	=> 'La longueur de l’identification du champ ne peut dépasser 17 caractères',
@@ -147,7 +147,7 @@ $lang = array_merge($lang, array(
 	'RADIO_BUTTONS'				=> 'Boutons radio',
 	'REMOVED_PROFILE_FIELD'		=> 'Le champ de profil a été supprimé.',
 	'REQUIRED_FIELD'			=> 'Champ obligatoire',
-	'REQUIRED_FIELD_EXPLAIN'	=> 'Oblige l’utilisateur ou les administrateurs à remplir ou à préciser le champ. Si l’option « Afficher sur la page d’enregistrement » est désactivée, le champ sera seulement requis lorsque l’utilisateur modifiera son profil.',
+	'REQUIRED_FIELD_EXPLAIN'	=> 'Oblige l’utilisateur ou les administrateurs à remplir ou à préciser le champ. Si l’option « Afficher sur la page d’enregistrement » est désactivée, le champ sera seulement requis lorsque l’utilisateur modifiera son profil.',
 	'ROWS'						=> 'Lignes',
 
 	'SAVE'							=> 'Sauvegarder',

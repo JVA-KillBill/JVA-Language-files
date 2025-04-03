@@ -35,7 +35,7 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 //
 // Some characters you may want to copy&paste:
-// ’ « » “ ” …
+// ’ « » “ ” …
 //
 
 $lang = array_merge($lang, array(
@@ -45,7 +45,7 @@ $lang = array_merge($lang, array(
 	'ACP_ORPHAN_ATTACHMENTS_EXPLAIN'	=> 'Depuis cette page, vous accédez à la liste les fichiers orphelins. Un fichier est orphelin lorsqu’un membre joint un fichier dans un message qu’il n’envoie pas. Vous pouvez supprimer ces fichiers orphelins, ou les attribuer à des messages existants en saisissant l’ID (valide) du message auquel le fichier orphelin sera affecté.',
 	'ADD_EXTENSION'						=> 'Ajouter une extension',
 	'ADD_EXTENSION_GROUP'				=> 'Ajouter un groupe d’extensions',
-	'ADMIN_UPLOAD_ERROR'				=> 'Erreur lors du transfert du fichier : « %s ».',
+	'ADMIN_UPLOAD_ERROR'				=> 'Erreur lors du transfert du fichier : « %s ».',
 	'ALLOWED_FORUMS'					=> 'Forums autorisés',
 	'ALLOWED_FORUMS_EXPLAIN'			=> 'Autorise l’utilisation du groupe d’extensions sur les forums sélectionnés (ou tous si sélectionné).',
 	'ALLOWED_IN_PM_POST'				=> 'Autorisé',
@@ -60,14 +60,14 @@ $lang = array_merge($lang, array(
 	'ATTACH_EXT_GROUPS_URL'				=> 'Groupes d’extensions',
 	'ATTACH_ID'							=> 'ID',
 	'ATTACH_MAX_FILESIZE'				=> 'Taille maximale du fichier',
-	'ATTACH_MAX_FILESIZE_EXPLAIN'		=> 'Taille maximale de chaque fichier. Si cette valeur est « 0 », la taille du fichier transféré est uniquement limitée par votre configuration PHP.',
+	'ATTACH_MAX_FILESIZE_EXPLAIN'		=> 'Taille maximale de chaque fichier. Si cette valeur est « 0 », la taille du fichier transféré est uniquement limitée par votre configuration PHP.',
 	'ATTACH_MAX_PM_FILESIZE'			=> 'Taille maximale des fichiers dans la messagerie privée',
-	'ATTACH_MAX_PM_FILESIZE_EXPLAIN'	=> 'Taille maximale de chaque fichier joint à un message privé, mettre « 0 » pour illimité.',
+	'ATTACH_MAX_PM_FILESIZE_EXPLAIN'	=> 'Taille maximale de chaque fichier joint à un message privé, mettre « 0 » pour illimité.',
 	'ATTACH_ORPHAN_URL'					=> 'Fichiers orphelins',
 	'ATTACH_POST_ID'					=> 'ID du message',
 	'ATTACH_POST_TYPE'					=> 'Type du message',
 	'ATTACH_QUOTA'						=> 'Quota total de fichiers joints',
-	'ATTACH_QUOTA_EXPLAIN'				=> 'Espace disque maximum disponible pour les fichiers joints de tout le forum, mettre « 0 » pour illimité.',
+	'ATTACH_QUOTA_EXPLAIN'				=> 'Espace disque maximum disponible pour les fichiers joints de tout le forum, mettre « 0 » pour illimité.',
 	'ATTACH_TO_POST'					=> 'Joindre le fichier au message',
 
 	'CAT_IMAGES'				=> 'Images',
@@ -79,10 +79,10 @@ $lang = array_merge($lang, array(
 
 	'DEFINE_ALLOWED_IPS'			=> 'Définir les adresses IP/noms d’hôtes autorisés',
 	'DEFINE_DISALLOWED_IPS'			=> 'Définir les adresses IP/noms d’hôtes interdits',
-	'DOWNLOAD_ADD_IPS_EXPLAIN'		=> 'Pour indiquer plusieurs adresses IP ou noms d’hôtes différents, saisissez chacun d’eux sur une nouvelle ligne. Pour indiquer une plage d’adresses IP, séparez le début et la fin par un tiret (-), et utilisez « * » comme caractère joker.',
+	'DOWNLOAD_ADD_IPS_EXPLAIN'		=> 'Pour indiquer plusieurs adresses IP ou noms d’hôtes différents, saisissez chacun d’eux sur une nouvelle ligne. Pour indiquer une plage d’adresses IP, séparez le début et la fin par un tiret (-), et utilisez « * » comme caractère joker.',
 	'DOWNLOAD_REMOVE_IPS_EXPLAIN'	=> 'Vous pouvez supprimer (ou ne plus exclure) plusieurs adresses IP d’un coup en utilisant la combinaison de touches appropriée avec votre clavier et votre souris. Les adresses IP et les noms d’hôtes exclus apparaissent en gras.',
 	'DISPLAY_INLINED'				=> 'Afficher les images',
-	'DISPLAY_INLINED_EXPLAIN'		=> 'Si « Non », les images jointes seront affichées sous forme de lien.',
+	'DISPLAY_INLINED_EXPLAIN'		=> 'Si « Non », les images jointes seront affichées sous forme de lien.',
 	'DISPLAY_ORDER'					=> 'Ordre d’affichage des fichiers joints',
 	'DISPLAY_ORDER_EXPLAIN'			=> 'Classer les fichiers joints par date.',
 
@@ -104,7 +104,7 @@ $lang = array_merge($lang, array(
 	'EXT_GROUP_PLAIN_TEXT'			=> 'Texte',
 
 	'FILES_GONE'			=> 'Certains des fichiers joints sélectionnés pour suppression n’existent pas. Ils ont probablement déjà été supprimés. Les fichiers joints qui existaient ont été supprimés.',
-	'FILES_STATS_WRONG'		=> 'Vos statistiques de fichiers sont probablement inexactes et doivent être actualisées. Valeurs réelles : nombre de fichiers joints = %1$d, taille totale des fichiers joints = %2$s.<br>Cliquez %3$sici%4$s pour actualiser les statistiques.',
+	'FILES_STATS_WRONG'		=> 'Vos statistiques de fichiers sont probablement inexactes et doivent être actualisées. Valeurs réelles : nombre de fichiers joints = %1$d, taille totale des fichiers joints = %2$s.<br>Cliquez %3$sici%4$s pour actualiser les statistiques.',
 
 	'GO_TO_EXTENSIONS'		=> 'Gérer les extensions des fichiers joints',
 	'GROUP_NAME'			=> 'Nom du groupe',
@@ -148,7 +148,7 @@ $lang = array_merge($lang, array(
 
 	'REMOVE_ALLOWED_IPS'			=> 'Supprimer ou ne plus exclure les IP/noms d’hôtes <em>autorisés</em>',
 	'REMOVE_DISALLOWED_IPS'			=> 'Supprimer ou ne plus exclure les IP/noms d’hôtes <em>interdits</em>',
-	'RESYNC_FILES_STATS_CONFIRM'	=> 'Êtes-vous sûr de vouloir actualiser les statistiques de fichiers ?',
+	'RESYNC_FILES_STATS_CONFIRM'	=> 'Êtes-vous sûr de vouloir actualiser les statistiques de fichiers ?',
 
 	'SECURE_ALLOW_DENY'				=> 'Liste des autorisations/refus',
 	'SECURE_ALLOW_DENY_EXPLAIN'		=> 'Lorsque les téléchargements sécurisés sont activés, modifiez le comportement par défaut de la liste d’autorisations/refus à celle d’une <strong>liste blanche</strong> (Autorisé) ou une <strong>liste noire</strong> (Refusé).',
@@ -157,7 +157,7 @@ $lang = array_merge($lang, array(
 	'SECURE_DOWNLOAD_NOTICE'		=> 'Les téléchargements sécurisés ne sont pas activés. Les paramètres ci-dessous seront appliqués une fois les téléchargements sécurisés activés.',
 	'SECURE_DOWNLOAD_UPDATE_SUCCESS'=> 'La liste des adresses IP a été mise à jour.',
 	'SECURE_EMPTY_REFERRER'			=> 'Autoriser un référent vide',
-	'SECURE_EMPTY_REFERRER_EXPLAIN'	=> 'Les téléchargements sécurisés sont basés sur les référents. Voulez-vous autoriser les téléchargements pour ceux qui omettent le référent ?',
+	'SECURE_EMPTY_REFERRER_EXPLAIN'	=> 'Les téléchargements sécurisés sont basés sur les référents. Voulez-vous autoriser les téléchargements pour ceux qui omettent le référent ?',
 	'SETTINGS_CAT_IMAGES'			=> 'Paramètres des catégories d’images',
 	'SPECIAL_CATEGORY'				=> 'Catégorie spéciale',
 	'SPECIAL_CATEGORY_EXPLAIN'		=> 'Les catégories spéciales proposent un affichage particulier.',
@@ -166,11 +166,11 @@ $lang = array_merge($lang, array(
 	'SUCCESS_EXTENSION_GROUP_EDIT'	=> 'Le groupe d’extension a été mis à jour.',
 
 	'UPLOADING_FILES'				=> 'Transfert de fichiers',
-	'UPLOADING_FILE_TO'				=> 'Le fichier « %1$s » a été transféré au message numéro %2$d.',
-	'UPLOAD_DENIED_FORUM'			=> 'Vous n’avez pas la permission de transférer des fichiers sur le forum « %s ».',
+	'UPLOADING_FILE_TO'				=> 'Le fichier « %1$s » a été transféré au message numéro %2$d.',
+	'UPLOAD_DENIED_FORUM'			=> 'Vous n’avez pas la permission de transférer des fichiers sur le forum « %s ».',
 	'UPLOAD_DIR'					=> 'Répertoire de transfert',
 	'UPLOAD_DIR_EXPLAIN'			=> 'Indiquez le chemin du répertoire de stockage destiné au transfert de fichiers joints. Notez que si vous modifiez ce répertoire alors que des fichiers joints s’y trouvent déjà, vous devrez les déplacer manuellement vers le nouvel emplacement.',
 	'UPLOAD_ICON'					=> 'Icône de transfert',
 	'UPLOAD_NOT_DIR'				=> 'L’emplacement de transfert que vous avez indiqué ne semble pas être un répertoire.',
-	'UPLOAD_POST_NOT_EXIST'			=> 'Le fichier « %1$s » ne peut pas être transféré vers le message numéro %2$d car ce message n’existe pas.',
+	'UPLOAD_POST_NOT_EXIST'			=> 'Le fichier « %1$s » ne peut pas être transféré vers le message numéro %2$d car ce message n’existe pas.',
 ));

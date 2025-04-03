@@ -35,13 +35,13 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 //
 // Some characters you may want to copy&paste:
-// ’ « » “ ” …
+// ’ « » “ ” …
 //
 
 $lang = array_merge($lang, array(
 	'ACP_MODULE_MANAGEMENT_EXPLAIN'	=> 'Vous pouvez gérer l’ensemble des modules. Notez bien que le panneau d’administration comporte 3 niveaux de menu (Catégorie -> Catégorie -> Module) alors que les autres ne comportent que 2 niveaux (Catégorie -> Module) qui doivent être conservés. Soyez également conscient que vous pouvez vous bloquer si vous désactivez ou supprimez les modules responsables de la gestion des modules eux-mêmes.',
 	'ADD_MODULE'					=> 'Ajouter un module',
-	'ADD_MODULE_CONFIRM'			=> 'Êtes-vous sûr de vouloir ajouter le module sélectionné avec le mode sélectionné ?',
+	'ADD_MODULE_CONFIRM'			=> 'Êtes-vous sûr de vouloir ajouter le module sélectionné avec le mode sélectionné ?',
 	'ADD_MODULE_TITLE'				=> 'Ajouter un module',
 
 	'CANNOT_REMOVE_MODULE'	=> 'Impossible de supprimer le module parent. Supprimez ou déplacez les sous-modules avant de tenter cette action.',
@@ -54,7 +54,7 @@ $lang = array_merge($lang, array(
 
 	'DEACTIVATED_MODULE'	=> 'Désactiver le module',
 	'DELETE_MODULE'			=> 'Supprimer le module',
-	'DELETE_MODULE_CONFIRM'	=> 'Êtes-vous sûr de vouloir supprimer ce module ?',
+	'DELETE_MODULE_CONFIRM'	=> 'Êtes-vous sûr de vouloir supprimer ce module ?',
 
 	'EDIT_MODULE'			=> 'Modifier le module',
 	'EDIT_MODULE_EXPLAIN'	=> 'Vous pouvez entrer une configuration particulière au module.',

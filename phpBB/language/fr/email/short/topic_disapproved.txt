@@ -2,9 +2,9 @@ Subject: Sujet refusé - {TOPIC_TITLE}
 
 Bonjour {USERNAME},
 
-votre sujet « {TOPIC_TITLE} » sur « {SITENAME} » a été refusé par un modérateur ou un administrateur.
+votre sujet « {TOPIC_TITLE} » sur « {SITENAME} » a été refusé par un modérateur ou un administrateur.
 
-La raison du refus est la suivante :
+La raison du refus est la suivante :
 
 {REASON}
 

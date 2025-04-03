@@ -1,12 +1,12 @@
-Subject: « {SITENAME} » - Contacter un ami
+Subject: « {SITENAME} » - Contacter un ami
 
 Bonjour {TO_USERNAME},
 
-Ce courriel a été envoyé depuis « {SITENAME} » par {FROM_USERNAME} qui a pensé que vous pourriez être intéressé par le sujet suivant :
+Ce courriel a été envoyé depuis « {SITENAME} » par {FROM_USERNAME} qui a pensé que vous pourriez être intéressé par le sujet suivant :
 
 {TOPIC_NAME}
 
-Vous pouvez le retrouver en cliquant sur le lien ci-dessous :
+Vous pouvez le retrouver en cliquant sur le lien ci-dessous :
 
 {U_TOPIC}
 

@@ -36,12 +36,12 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 //
 // Some characters you may want to copy&paste:
-// ’ « » “ ” …
+// ’ « » “ ” …
 //
 
 $lang = array_merge($lang, array(
 	'PLUPLOAD_ADD_FILES'			=> 'Ajouter des fichiers',
-	'PLUPLOAD_ADD_FILES_TO_QUEUE'	=> 'Ajouter des fichiers à la file d’attente de transfert et cliquer sur le bouton « Démarrer le transfert ».',
+	'PLUPLOAD_ADD_FILES_TO_QUEUE'	=> 'Ajouter des fichiers à la file d’attente de transfert et cliquer sur le bouton « Démarrer le transfert ».',
 	'PLUPLOAD_ALREADY_QUEUED'		=> '%s déjà présent dans la file d’attente.',
 	'PLUPLOAD_CLOSE'				=> 'Fermer',
 	'PLUPLOAD_DRAG'					=> 'Faites glisser les fichiers ici.',
@@ -50,14 +50,14 @@ $lang = array_merge($lang, array(
 	'PLUPLOAD_ERR_INPUT'			=> 'Impossible d’ouvrir le flux d’entrée.',
 	'PLUPLOAD_ERR_MOVE_UPLOADED'	=> 'Impossible de déplacer le fichier transféré.',
 	'PLUPLOAD_ERR_OUTPUT'			=> 'Impossible d’ouvrir le flux de sortie.',
-	'PLUPLOAD_ERR_FILE_TOO_LARGE'	=> 'Fichier trop volumineux :',
+	'PLUPLOAD_ERR_FILE_TOO_LARGE'	=> 'Fichier trop volumineux :',
 	'PLUPLOAD_ERR_FILE_COUNT'		=> 'Nombre de fichiers erroné.',
-	'PLUPLOAD_ERR_FILE_INVALID_EXT'	=> 'Extension de fichier non prise en charge :',
-	'PLUPLOAD_ERR_RUNTIME_MEMORY'	=> 'La mémoire disponible nécessaire au module « Plupload » n’est pas suffisante.',
+	'PLUPLOAD_ERR_FILE_INVALID_EXT'	=> 'Extension de fichier non prise en charge :',
+	'PLUPLOAD_ERR_RUNTIME_MEMORY'	=> 'La mémoire disponible nécessaire au module « Plupload » n’est pas suffisante.',
 	'PLUPLOAD_ERR_UPLOAD_URL'		=> 'L’URL de transfert est erronée ou n’existe pas.',
 	'PLUPLOAD_EXTENSION_ERROR'		=> 'Extension du fichier erronée.',
-	'PLUPLOAD_FILE'					=> 'Fichier : %s',
-	'PLUPLOAD_FILE_DETAILS'			=> 'Fichier : %s, taille : %d, taille du fichier maximum : %d',
+	'PLUPLOAD_FILE'					=> 'Fichier : %s',
+	'PLUPLOAD_FILE_DETAILS'			=> 'Fichier : %s, taille : %d, taille du fichier maximum : %d',
 	'PLUPLOAD_FILENAME'				=> 'Nom du fichier',
 	'PLUPLOAD_FILES_QUEUED'			=> '%d fichiers en file d’attente',
 	'PLUPLOAD_GENERIC_ERROR'		=> 'Erreur générique.',

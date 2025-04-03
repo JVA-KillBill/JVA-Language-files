@@ -138,8 +138,8 @@ $lang = array_merge($lang, array(
 	'USER_FORUM'			=> 'Gebruikersstatistieken',
 	'USER_LAST_REMINDED'	=> array(
 		0		=> 'Nog geen herinnering verstuurd',
-		1		=> '%1$d herinnering verstuurd<br />» %2$s',
-		2		=> '%1$d herinneringen verstuurd<br />» %2$s',
+		1		=> '%1$d herinnering verstuurd<br>» %2$s',
+		2		=> '%1$d herinneringen verstuurd<br>» %2$s',
 	),
 	'USER_ONLINE'			=> 'Online',
 	'USER_PRESENCE'			=> 'Forumvoorkeuren',

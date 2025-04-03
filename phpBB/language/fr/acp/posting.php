@@ -35,7 +35,7 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 //
 // Some characters you may want to copy&paste:
-// ’ « » “ ” …
+// ’ « » “ ” …
 //
 
 // BBCodes
@@ -66,32 +66,32 @@ $lang = array_merge($lang, array(
 	'BBCODE_USAGE_EXAMPLE'		=> '[highlight={COLOR}]{TEXT}[/highlight]<br><br>[font={SIMPLETEXT1}]{SIMPLETEXT2}[/font]',
 	'BBCODE_USAGE_EXPLAIN'		=> 'Vous pouvez définir la façon d’utiliser le BBCode. Remplacez n’importe quelle variable d’entrée par la chaîne de symboles correspondante (%svoir ci-dessous%s).',
 
-	'EXAMPLE'						=> 'Exemple :',
-	'EXAMPLES'						=> 'Exemples :',
+	'EXAMPLE'						=> 'Exemple :',
+	'EXAMPLES'						=> 'Exemples :',
 
 	'HTML_REPLACEMENT'				=> 'Code HTML de remplacement',
 	'HTML_REPLACEMENT_EXAMPLE'		=> '&lt;span style="background-color: {COLOR};"&gt;{TEXT}&lt;/span&gt;<br><br>&lt;span style="font-family: {SIMPLETEXT1};"&gt;{SIMPLETEXT2}&lt;/span&gt;',
-	'HTML_REPLACEMENT_EXPLAIN'		=> 'Vous pouvez définir le code HTML de remplacement de votre BBCode. N’oubliez pas de remettre la chaîne de symboles que vous avez utilisée ci-dessus !',
+	'HTML_REPLACEMENT_EXPLAIN'		=> 'Vous pouvez définir le code HTML de remplacement de votre BBCode. N’oubliez pas de remettre la chaîne de symboles que vous avez utilisée ci-dessus !',
 
 	'TOKEN'					=> 'Chaîne de symboles',
 	'TOKENS'				=> 'Chaînes de symboles',
-	'TOKENS_EXPLAIN'		=> 'Les chaînes de symboles sont des conteneurs pour les saisies des utilisateurs. Les entrées ne seront validées que si elles trouvent la définition correspondante. Si besoin, vous pouvez les numéroter en y ajoutant un nombre comme dernier caractère entre les accolades, exemple : {TEXT1}, {TEXT2}.<br><br>En plus du remplacement HTML, vous pouvez utiliser les clés de langue présentes dans votre répertoire « language/ » comme ceci : {L_<em>&lt;STRINGNAME&gt;</em>} où <em>&lt;STRINGNAME&gt;</em> est le nom de la chaîne traduite que vous souhaitez ajouter. Par exemple, {L_WROTE} affichera « a écrit » ou son équivalence selon la langue locale du membre.<br><br><strong>Notez que seules les chaînes listées ci-dessous sont autorisées à être utilisées dans les BBCodes personnalisés.</strong>',
-	'TOKEN_DEFINITION'		=> 'Que peut-elle être ?',
+	'TOKENS_EXPLAIN'		=> 'Les chaînes de symboles sont des conteneurs pour les saisies des utilisateurs. Les entrées ne seront validées que si elles trouvent la définition correspondante. Si besoin, vous pouvez les numéroter en y ajoutant un nombre comme dernier caractère entre les accolades, exemple : {TEXT1}, {TEXT2}.<br><br>En plus du remplacement HTML, vous pouvez utiliser les clés de langue présentes dans votre répertoire « language/ » comme ceci : {L_<em>&lt;STRINGNAME&gt;</em>} où <em>&lt;STRINGNAME&gt;</em> est le nom de la chaîne traduite que vous souhaitez ajouter. Par exemple, {L_WROTE} affichera « a écrit » ou son équivalence selon la langue locale du membre.<br><br><strong>Notez que seules les chaînes listées ci-dessous sont autorisées à être utilisées dans les BBCodes personnalisés.</strong>',
+	'TOKEN_DEFINITION'		=> 'Que peut-elle être ?',
 	'TOO_MANY_BBCODES'		=> 'Vous ne pouvez pas créer d’autres BBCodes. Supprimez un ou plusieurs BBCodes puis réessayez.',
 
 	'tokens'	=>	array(
 		'TEXT'			=> 'Tout texte, y compris les caractères étrangers, chiffres, etc.',
 		'SIMPLETEXT'	=> 'Caractères de l’alphabet latin (A-Z), chiffres, espaces, virgules, points, moins, plus, tirets et tirets bas (underscore).',
-		'INTTEXT'		=> 'Caractères Unicode des catégories « Lettres » et « Chiffres », espaces, virgules, points, moins, plus, tirets et tirets bas (underscore).',
+		'INTTEXT'		=> 'Caractères Unicode des catégories « Lettres » et « Chiffres », espaces, virgules, points, moins, plus, tirets et tirets bas (underscore).',
 		'IDENTIFIER'	=> 'Caractères de l’alphabet latin (A-Z), chiffres, tirets et tirets bas (underscore).',
 		'NUMBER'		=> 'Série de chiffres.',
 		'EMAIL'			=> 'Adresse de courriel valide.',
-		'URL'			=> 'Adresse URL valide utilisant n’importe quel protocole autorisé (HTTP, FTP, etc. ne peuvent pas être utilisés pour des exploits JavaScript). Si aucun protocole n’est spécifié, l’adresse URL complète sera préfixée de « http:// ».',
-		'LOCAL_URL'		=> 'Adresse URL locale. Ni le protocole ni le serveur ne doivent être spécifiés, l’adresse URL complète sera préfixée de « %s ». Elle doit donc être relative à la page du sujet.',
+		'URL'			=> 'Adresse URL valide utilisant n’importe quel protocole autorisé (HTTP, FTP, etc. ne peuvent pas être utilisés pour des exploits JavaScript). Si aucun protocole n’est spécifié, l’adresse URL complète sera préfixée de « http:// ».',
+		'LOCAL_URL'		=> 'Adresse URL locale. Ni le protocole ni le serveur ne doivent être spécifiés, l’adresse URL complète sera préfixée de « %s ». Elle doit donc être relative à la page du sujet.',
 		'RELATIVE_URL'	=> 'Adresse URL relative. Il suffit de la préfixer avec le contenu de la variable LOCAL_URL pour obtenir l’adresse URL complète. Attention, une adresse URL complète est aussi une adresse relative qui est valide, ceci peut poser problème.',
 		'COLOR'			=> 'Couleur HTML pouvant être une forme numérique <samp>#FF1234</samp> ou un <a href="http://www.w3.org/TR/CSS21/syndata.html#value-def-color">nom de couleur CSS</a>, par exemple <samp>fuchsia</samp> ou <samp>InactiveBorder</samp>.',
 		'ALNUM'			=> 'Caractères de l’alphabet latin (A-Z) et chiffres.',
-		'CHOICE'		=> 'Choix de valeurs spécifiées, par exemple <samp>{CHOICE=spades,hearts,diamonds,clubs}</samp>. Les valeurs sont traitées comme insensibles à la casse par défaut et peuvent être traitées comme sensibles à la casse en spécifiant l’option <samp>caseSensitive</samp> : <samp>{CHOICE=Spades,Hearts,Diamonds,Clubs;caseSensitive}</samp>',
+		'CHOICE'		=> 'Choix de valeurs spécifiées, par exemple <samp>{CHOICE=spades,hearts,diamonds,clubs}</samp>. Les valeurs sont traitées comme insensibles à la casse par défaut et peuvent être traitées comme sensibles à la casse en spécifiant l’option <samp>caseSensitive</samp> : <samp>{CHOICE=Spades,Hearts,Diamonds,Clubs;caseSensitive}</samp>',
 		'FLOAT'			=> 'Valeur décimale, par exemple <samp>0.5</samp>.',
 		'HASHMAP'		=> 'Associe des chaînes à leur valeur de remplacement sous la forme <samp>{HASHMAP=string1:replacement1,string2:replacement2}</samp>. Sensible à la casse. Par défaut, préserve les valeurs inconnues.',
 		'INT'			=> 'Valeur entière, par exemple <samp>2</samp>.',
@@ -191,9 +191,9 @@ $lang = array_merge($lang, array(
 	'SMILIES_CONFIG'			=> 'Configuration du smiley',
 	'SMILIES_DELETED'			=> 'Le smiley a été supprimé.',
 	'SMILIES_EDIT'				=> 'Modifier le smiley',
-	'SMILIE_NO_CODE'			=> 'Le smiley « %s » a été ignoré car aucun code n’a été saisi.',
-	'SMILIE_NO_EMOTION'			=> 'Le smiley « %s » a été ignoré car aucune émotion n’a été saisie.',
-	'SMILIE_NO_FILE'			=> 'Le smiley « %s » a été ignoré car le fichier est manquant.',
+	'SMILIE_NO_CODE'			=> 'Le smiley « %s » a été ignoré car aucun code n’a été saisi.',
+	'SMILIE_NO_EMOTION'			=> 'Le smiley « %s » a été ignoré car aucune émotion n’a été saisie.',
+	'SMILIE_NO_FILE'			=> 'Le smiley « %s » a été ignoré car le fichier est manquant.',
 	'SMILIES_EDITED'			=> array(
 		0	=> 'Aucun smiley n’a été mis à jour.',
 		1	=> 'Le smiley a été mis à jour.',
@@ -220,7 +220,7 @@ $lang = array_merge($lang, array(
 
 // Word censors
 $lang = array_merge($lang, array(
-	'ACP_WORDS_EXPLAIN'		=> 'Depuis ce panneau de contrôle, vous pouvez ajouter, modifier et supprimer les mots qui seront automatiquement censurés sur votre forum. Les gens seront toujours autorisés à s’inscrire avec un nom d’utilisateur contenant ces mots. Les jokers (*) sont acceptés dans le champ, exemple : *test* censurera « détestable », test* censurera « testament », *test censurera « contest ».',
+	'ACP_WORDS_EXPLAIN'		=> 'Depuis ce panneau de contrôle, vous pouvez ajouter, modifier et supprimer les mots qui seront automatiquement censurés sur votre forum. Les gens seront toujours autorisés à s’inscrire avec un nom d’utilisateur contenant ces mots. Les jokers (*) sont acceptés dans le champ, exemple : *test* censurera « détestable », test* censurera « testament », *test censurera « contest ».',
 	'ADD_WORD'				=> 'Ajouter un nouveau mot',
 
 	'EDIT_WORD'		=> 'Modifier la censure',
@@ -289,7 +289,7 @@ $lang = array_merge($lang, array(
 
 	'NO_REASON'					=> 'La raison est introuvable.',
 	'NO_REASON_INFO'			=> 'Vous devez indiquer un titre et une description pour cette raison.',
-	'NO_REMOVE_DEFAULT_REASON'	=> 'Vous ne pouvez pas supprimer la raison par défaut « Autres ».',
+	'NO_REMOVE_DEFAULT_REASON'	=> 'Vous ne pouvez pas supprimer la raison par défaut « Autres ».',
 
 	'REASON_ADD'				=> 'Ajouter une raison au rapport',
 	'REASON_ADDED'				=> 'Une raison a été ajoutée au rapport.',

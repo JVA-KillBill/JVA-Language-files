@@ -35,7 +35,7 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 //
 // Some characters you may want to copy&paste:
-// ’ « » “ ” …
+// ’ « » “ ” …
 //
 
 $lang = array_merge($lang, array(
@@ -56,7 +56,7 @@ $lang = array_merge($lang, array(
 	'GLOBAL'				=> 'Annonce globale',
 
 	'IGNORED_TERMS'			=> 'ignoré',
-	'IGNORED_TERMS_EXPLAIN'	=> 'Les mots suivants de votre recherche ont été ignorés parce qu’ils sont trop communs : <strong>%s</strong>.',
+	'IGNORED_TERMS_EXPLAIN'	=> 'Les mots suivants de votre recherche ont été ignorés parce qu’ils sont trop communs : <strong>%s</strong>.',
 
 	'JUMP_TO_POST'			=> 'Aller au message',
 
@@ -98,12 +98,12 @@ $lang = array_merge($lang, array(
 	'SEARCH_ALL_TERMS'			=> 'Rechercher tous les termes',
 	'SEARCH_ANY_TERMS'			=> 'Rechercher n’importe lequel de ces termes',
 	'SEARCH_AUTHOR'				=> 'Rechercher par auteur',
-	'SEARCH_AUTHOR_EXPLAIN'		=> 'Utilisez le caractère « * » comme joker pour des recherches partielles.',
+	'SEARCH_AUTHOR_EXPLAIN'		=> 'Utilisez le caractère « * » comme joker pour des recherches partielles.',
 	'SEARCH_FIRST_POST'			=> 'Premier message des sujets uniquement',
 	'SEARCH_FORUMS'				=> 'Rechercher dans les forums',
-	'SEARCH_FORUMS_EXPLAIN'		=> 'Choisissez le forum ou les forums dans le(s)quel(s) vous souhaitez effectuer une recherche. Les sous-forums sont automatiquement inclus si vous ne désactivez pas l’option ci-dessous « Rechercher dans les sous-forums ».',
+	'SEARCH_FORUMS_EXPLAIN'		=> 'Choisissez le forum ou les forums dans le(s)quel(s) vous souhaitez effectuer une recherche. Les sous-forums sont automatiquement inclus si vous ne désactivez pas l’option ci-dessous « Rechercher dans les sous-forums ».',
 	'SEARCH_IN_RESULTS'			=> 'Affiner la recherche…',
-	'SEARCH_KEYWORDS_EXPLAIN'	=> 'Placez un <strong>+</strong> devant un mot qui doit être trouvé et un <strong>-</strong> devant un mot qui doit être exclu. Saisissez une suite de mots séparés par des <strong>|</strong> entre crochets si uniquement un des mots doit être trouvé. Utilisez le caractère « * » comme joker pour des recherches partielles.',
+	'SEARCH_KEYWORDS_EXPLAIN'	=> 'Placez un <strong>+</strong> devant un mot qui doit être trouvé et un <strong>-</strong> devant un mot qui doit être exclu. Saisissez une suite de mots séparés par des <strong>|</strong> entre crochets si uniquement un des mots doit être trouvé. Utilisez le caractère « * » comme joker pour des recherches partielles.',
 	'SEARCH_MSG_ONLY'			=> 'Messages uniquement',
 	'SEARCH_OPTIONS'			=> 'Options de recherche',
 	'SEARCH_QUERY'				=> 'Rechercher',
@@ -117,7 +117,7 @@ $lang = array_merge($lang, array(
 	'SORT_FORUM'				=> 'Forum',
 	'SORT_POST_SUBJECT'			=> 'Sujet du message',
 	'SORT_TIME'					=> 'Date',
-	'SPHINX_SEARCH_FAILED'		=> 'Échec de la recherche : %s',
+	'SPHINX_SEARCH_FAILED'		=> 'Échec de la recherche : %s',
 	'SPHINX_SEARCH_FAILED_LOG'	=> 'Désolé, la recherche n’a pu aboutir. Les informations relatives à cette erreur on été consignées dans le journal des erreurs.',
 
 	'TOO_FEW_AUTHOR_CHARS'	=> array(

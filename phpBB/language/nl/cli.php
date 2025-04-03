@@ -74,7 +74,6 @@ $lang = array_merge($lang, array(
 	'CLI_DESCRIPTION_REPARSER_REPARSE'			=> 'Parse opgeslagen tekst opnieuw met de huidige opmaakservices.',
 	'CLI_DESCRIPTION_REPARSER_REPARSE_ARG_1'	=> 'Teksttype om opnieuw te parsen. Laat leeg om alles opnieuw te parsen.',
 	'CLI_DESCRIPTION_REPARSER_REPARSE_OPT_DRY_RUN'		=> 'Sla geen wijzigingen op; geef alleen weer wat er zou gebeuren.',
-	'CLI_DESCRIPTION_REPARSER_REPARSE_OPT_FORCE_BBCODE'	=> 'Herparseer alle BBCodes zonder uitzondering. Merk op dat alle eerder uitgeschakelde BBCodes opnieuw worden verwerkt, ingeschakeld en volledig worden weergegeven.',
 	'CLI_DESCRIPTION_REPARSER_REPARSE_OPT_RANGE_MIN'	=> 'Laagste record ID om te verwerken',
 	'CLI_DESCRIPTION_REPARSER_REPARSE_OPT_RANGE_MAX'	=> 'Hoogste record ID om te verwerken',
 	'CLI_DESCRIPTION_REPARSER_REPARSE_OPT_RANGE_SIZE'	=> 'Geschat aantal records om per keer te verwerken',

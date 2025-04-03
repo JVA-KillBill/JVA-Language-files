@@ -35,13 +35,13 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 //
 // Some characters you may want to copy&paste:
-// ’ « » “ ” …
+// ’ « » “ ” …
 //
 
 // Database Backup/Restore
 $lang = array_merge($lang, array(
 	'ACP_BACKUP_EXPLAIN'	=> 'Ici, Vous pouvez sauvegarder l’intégralité des données de votre forum. L’archive de sauvegarde sera stockée dans votre répertoire <samp>store/</samp>. Selon la configuration de votre serveur, vous pouvez utiliser différents formats de compression.',
-	'ACP_RESTORE_EXPLAIN'	=> 'Vous pouvez procéder à une restauration de votre forum à partir d’un fichier de sauvegarde. Si votre serveur le permet, vous pouvez utiliser la compression gzip ou bzip2, le fichier sera automatiquement décompressé. <strong>Attention :</strong> cette opération écrase toutes les données existantes. Le processus peut prendre du temps, ne quittez pas cette page avant la fin de la restauration. Les sauvegardes sont stockées dans le répertoire <samp>store/</samp> et sont supposées être générées par la fonctionnalité de sauvegarde de phpBB. La restauration de sauvegardes non créées par phpBB peut ne pas fonctionner.',
+	'ACP_RESTORE_EXPLAIN'	=> 'Vous pouvez procéder à une restauration de votre forum à partir d’un fichier de sauvegarde. Si votre serveur le permet, vous pouvez utiliser la compression gzip ou bzip2, le fichier sera automatiquement décompressé. <strong>Attention :</strong> cette opération écrase toutes les données existantes. Le processus peut prendre du temps, ne quittez pas cette page avant la fin de la restauration. Les sauvegardes sont stockées dans le répertoire <samp>store/</samp> et sont supposées être générées par la fonctionnalité de sauvegarde de phpBB. La restauration de sauvegardes non créées par phpBB peut ne pas fonctionner.',
 
 	'BACKUP_DELETE'			=> 'Le fichier de sauvegarde a été effacé.',
 	'BACKUP_INVALID'		=> 'Le fichier de sauvegarde sélectionné n’est pas valide.',
@@ -53,7 +53,7 @@ $lang = array_merge($lang, array(
 	'DATABASE'			=> 'Utilitaires de base de données',
 	'DATA_ONLY'			=> 'Données seulement',
 	'DELETE_BACKUP'		=> 'Effacer la sauvegarde',
-	'DELETE_SELECTED_BACKUP'	=> 'Êtes-vous sûr de vouloir supprimer la sauvegarde sélectionnée ?',
+	'DELETE_SELECTED_BACKUP'	=> 'Êtes-vous sûr de vouloir supprimer la sauvegarde sélectionnée ?',
 	'DESELECT_ALL'		=> 'Tout désélectionner',
 	'DOWNLOAD_BACKUP'	=> 'Télécharger la sauvegarde',
 
@@ -63,7 +63,7 @@ $lang = array_merge($lang, array(
 
 	'RESTORE_FAILURE'			=> 'Le fichier de sauvegarde est peut-être corrompu.',
 	'RESTORE_OPTIONS'			=> 'Options de restauration',
-	'RESTORE_SELECTED_BACKUP'	=> 'Êtes-vous sûr de vouloir restaurer la sauvegarde sélectionnée ?',
+	'RESTORE_SELECTED_BACKUP'	=> 'Êtes-vous sûr de vouloir restaurer la sauvegarde sélectionnée ?',
 	'RESTORE_SUCCESS'			=> 'La base de données a été restaurée.<br><br>Votre forum devrait être tel qu’il l’était avant la sauvegarde.',
 
 	'SELECT_ALL'			=> 'Tout sélectionner',

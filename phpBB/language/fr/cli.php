@@ -33,7 +33,7 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 //
 // Some characters you may want to copy&paste:
-// ’ « » “ ” …
+// ’ « » “ ” …
 //
 
 $lang = array_merge($lang, array(
@@ -41,15 +41,15 @@ $lang = array_merge($lang, array(
 
 	'CLI_CONFIG_CANNOT_CACHED'			=> 'Utilisez cette option si l’option de configuration change trop souvent pour être efficacement mise en cache',
 	'CLI_CONFIG_CURRENT'				=> 'Valeur actuelle de la configuration. Utilisez 0 ou 1 pour spécifier des valeurs booléennes',
-	'CLI_CONFIG_DELETE_SUCCESS'			=> 'La configuration « %s » a été supprimée',
+	'CLI_CONFIG_DELETE_SUCCESS'			=> 'La configuration « %s » a été supprimée',
 	'CLI_CONFIG_NEW'					=> 'Nouvelle valeur de la configuration. Utilisez 0 ou 1 pour spécifier des valeurs booléennes',
-	'CLI_CONFIG_NOT_EXISTS'				=> 'La configuration « %s » n’existe pas',
+	'CLI_CONFIG_NOT_EXISTS'				=> 'La configuration « %s » n’existe pas',
 	'CLI_CONFIG_OPTION_NAME'			=> 'Le nom de l’option de configuration',
 	'CLI_CONFIG_PRINT_WITHOUT_NEWLINE'	=> 'Utilisez cette option si la valeur doit être affichée à l’écran sans effectuer de retour à la ligne',
 	'CLI_CONFIG_INCREMENT_BY'			=> 'Valeur de l’incrément',
-	'CLI_CONFIG_INCREMENT_SUCCESS'		=> 'La valeur de la configuration « %s » a été incrémentée',
-	'CLI_CONFIG_SET_FAILURE'			=> 'Impossible de paramétrer la configuration « %s »',
-	'CLI_CONFIG_SET_SUCCESS'			=> 'La configuration « %s » a été paramétrée',
+	'CLI_CONFIG_INCREMENT_SUCCESS'		=> 'La valeur de la configuration « %s » a été incrémentée',
+	'CLI_CONFIG_SET_FAILURE'			=> 'Impossible de paramétrer la configuration « %s »',
+	'CLI_CONFIG_SET_SUCCESS'			=> 'La configuration « %s » a été paramétrée',
 
 	'CLI_DESCRIPTION_CRON_LIST'					=> 'Afficher à l’écran la liste de tâches cron prêtes et non prêtes',
 	'CLI_DESCRIPTION_CRON_RUN'					=> 'Exécuter toutes les tâches cron prêtes',
@@ -73,11 +73,10 @@ $lang = array_merge($lang, array(
 	'CLI_DESCRIPTION_PURGE_EXTENSION'			=> 'Désactiver et supprimer les données de l’extension spécifiée',
 
 	'CLI_DESCRIPTION_REPARSER_LIST'						=> 'Lister les types de textes qui peuvent être réanalysés',
-	'CLI_DESCRIPTION_REPARSER_AVAILABLE'				=> 'Analyseurs disponibles :',
-	'CLI_DESCRIPTION_REPARSER_REPARSE'					=> 'Analyser les contenus stockés avec les services « text_formatter » actuels',
+	'CLI_DESCRIPTION_REPARSER_AVAILABLE'				=> 'Analyseurs disponibles :',
+	'CLI_DESCRIPTION_REPARSER_REPARSE'					=> 'Analyser les contenus stockés avec les services « text_formatter » actuels',
 	'CLI_DESCRIPTION_REPARSER_REPARSE_ARG_1'			=> 'Type de texte à analyser. Laisser vide pour tout analyser',
-	'CLI_DESCRIPTION_REPARSER_REPARSE_OPT_DRY_RUN'		=> 'Ne pas enregistrer les modifications ; seulement afficher ce qui se passerait',
-	'CLI_DESCRIPTION_REPARSER_REPARSE_OPT_FORCE_BBCODE'	=> 'Réanalyse tous les BBCodes sans exception. Notez que tous les BBCodes précédemment désactivés seront retraités, activés et correctement affichés.',
+	'CLI_DESCRIPTION_REPARSER_REPARSE_OPT_DRY_RUN'		=> 'Ne pas enregistrer les modifications ; seulement afficher ce qui se passerait',
 	'CLI_DESCRIPTION_REPARSER_REPARSE_OPT_RANGE_MIN'	=> 'Plus petit ID d’enregistrement à traiter',
 	'CLI_DESCRIPTION_REPARSER_REPARSE_OPT_RANGE_MAX'	=> 'Plus grand ID d’enregistrement à traiter',
 	'CLI_DESCRIPTION_REPARSER_REPARSE_OPT_RANGE_SIZE'	=> 'Nombre approximatif d’enregistrements à traiter à la fois',
@@ -97,7 +96,7 @@ $lang = array_merge($lang, array(
 
 	'CLI_DESCRIPTION_UPDATE_HASH_BCRYPT'		=> 'Mettre à jour le hachage obsolète des mots de passe avec le hachage bcrypt',
 
-	'CLI_ERROR_INVALID_STABILITY' => '« %s » doit être paramétré sur « stable » ou « unstable »',
+	'CLI_ERROR_INVALID_STABILITY' => '« %s » doit être paramétré sur « stable » ou « unstable »',
 
 	'CLI_DESCRIPTION_USER_ACTIVATE'				=> 'Activer (ou désactiver) le compte d’un membre',
 	'CLI_DESCRIPTION_USER_ACTIVATE_USERNAME'	=> 'Nom d’utilisateur du compte à activer',
@@ -116,20 +115,20 @@ $lang = array_merge($lang, array(
 	'CLI_DESCRIPTION_USER_DELETE_OPTION_POSTS'	=> 'Supprimer tous les messages du membre. Si cette option n’est pas utilisée, les messages du membre seront conservés',
 	'CLI_DESCRIPTION_USER_RECLEAN'				=> 'Nettoyer les noms d’utilisateurs',
 
-	'CLI_EXTENSION_DISABLE_FAILURE'		=> 'Impossible de désactiver l’extension « %s »',
-	'CLI_EXTENSION_DISABLE_SUCCESS'		=> 'L’extension « %s » a été désactivée',
-	'CLI_EXTENSION_DISABLED'			=> 'L’extension « %s » n’est pas activée',
-	'CLI_EXTENSION_ENABLE_FAILURE'		=> 'Impossible d’activer l’extension « %s »',
-	'CLI_EXTENSION_ENABLE_SUCCESS'		=> 'L’extension « %s » a été activée',
-	'CLI_EXTENSION_ENABLED'				=> 'L’extension « %s » est déjà activée',
-	'CLI_EXTENSION_NOT_EXIST'			=> 'L’extension « %s » n’existe pas',
+	'CLI_EXTENSION_DISABLE_FAILURE'		=> 'Impossible de désactiver l’extension « %s »',
+	'CLI_EXTENSION_DISABLE_SUCCESS'		=> 'L’extension « %s » a été désactivée',
+	'CLI_EXTENSION_DISABLED'			=> 'L’extension « %s » n’est pas activée',
+	'CLI_EXTENSION_ENABLE_FAILURE'		=> 'Impossible d’activer l’extension « %s »',
+	'CLI_EXTENSION_ENABLE_SUCCESS'		=> 'L’extension « %s » a été activée',
+	'CLI_EXTENSION_ENABLED'				=> 'L’extension « %s » est déjà activée',
+	'CLI_EXTENSION_NOT_EXIST'			=> 'L’extension « %s » n’existe pas',
 	'CLI_EXTENSION_NAME'				=> 'Nom de l’extension',
-	'CLI_EXTENSION_PURGE_FAILURE'		=> 'Impossible de désactiver et de supprimer les données de l’extension « %s »',
-	'CLI_EXTENSION_PURGE_SUCCESS'		=> 'L’extension « %s » a été désactivée et ses données ont été supprimées',
-	'CLI_EXTENSION_UPDATE_FAILURE'		=> 'Impossible de mettre à jour l’extension « %s »',
-	'CLI_EXTENSION_UPDATE_SUCCESS'		=> 'L’extension « %s » a été mise à jour',
+	'CLI_EXTENSION_PURGE_FAILURE'		=> 'Impossible de désactiver et de supprimer les données de l’extension « %s »',
+	'CLI_EXTENSION_PURGE_SUCCESS'		=> 'L’extension « %s » a été désactivée et ses données ont été supprimées',
+	'CLI_EXTENSION_UPDATE_FAILURE'		=> 'Impossible de mettre à jour l’extension « %s »',
+	'CLI_EXTENSION_UPDATE_SUCCESS'		=> 'L’extension « %s » a été mise à jour',
 	'CLI_EXTENSION_NOT_FOUND'			=> 'Aucune extension n’a été trouvée',
-	'CLI_EXTENSION_NOT_ENABLEABLE'		=> 'L’extension « %s » ne peut pas être activée.',
+	'CLI_EXTENSION_NOT_ENABLEABLE'		=> 'L’extension « %s » ne peut pas être activée.',
 	'CLI_EXTENSIONS_AVAILABLE'			=> 'Disponibles',
 	'CLI_EXTENSIONS_DISABLED'			=> 'Désactivées',
 	'CLI_EXTENSIONS_ENABLED'			=> 'Activées',
@@ -160,9 +159,9 @@ $lang = array_merge($lang, array(
 	'CLI_THUMBNAIL_NOTHING_TO_GENERATE'	=> 'Aucune vignette à générer',
 	'CLI_THUMBNAIL_NOTHING_TO_DELETE'	=> 'Aucune vignette à supprimer',
 
-	'CLI_USER_ADD_SUCCESS'			=> 'Le membre « %s » a été ajouté',
-	'CLI_USER_DELETE_CONFIRM'		=> 'Êtes-vous sûr de vouloir supprimer « %s » ? [y/N]',
-	'CLI_USER_DELETE_ID_CONFIRM'	=> 'Êtes-vous sûr de vouloir supprimer cette liste d’ID d’utilisateurs « %s » ? [y/N]',
+	'CLI_USER_ADD_SUCCESS'			=> 'Le membre « %s » a été ajouté',
+	'CLI_USER_DELETE_CONFIRM'		=> 'Êtes-vous sûr de vouloir supprimer « %s » ? [y/N]',
+	'CLI_USER_DELETE_ID_CONFIRM'	=> 'Êtes-vous sûr de vouloir supprimer cette liste d’ID d’utilisateurs « %s » ? [y/N]',
 	'CLI_USER_DELETE_ID_SUCCESS'	=> 'Les ID d’utilisateurs ont été supprimés',
 	'CLI_USER_DELETE_ID_START'		=> 'Suppression des comptes par ID',
 	'CLI_USER_DELETE_NONE'			=> 'Aucun compte n’a été supprimé par ID d’utilisateur',
@@ -179,7 +178,7 @@ $lang = array_merge($lang, array(
 	'CLI_HELP_CRON_RUN'			=> $lang['CLI_DESCRIPTION_CRON_RUN'] . '. Optionnellement, vous pouvez spécifier le nom d’une seule tâche afin de n’exécuter que celle-ci.',
 	'CLI_HELP_USER_ACTIVATE'	=> 'Activez ou désactivez le compte d’un membre en utilisant l’option <info>--deactivate</info>.
 Pour éventuellement envoyer un courriel d’activation au membre en utilisant l’option <info>--send-email</info>.',
-	'CLI_HELP_USER_ADD'			=> 'La commande <info>%command.name%</info> ajoute un nouveau membre :
+	'CLI_HELP_USER_ADD'			=> 'La commande <info>%command.name%</info> ajoute un nouveau membre :
 Si cette commande est exécutée sans options, vous serez invité à les saisir.
 Pour éventuellement envoyer un courriel au nouveau membre, utilisez l’option <info>--send-email</info>.',
 	'CLI_HELP_USER_RECLEAN'		=> 'La commande <info>%command.name%</info> analysera tous les noms d’utilisateurs de la base de données et s’assurera qu’une version nettoyée y sera stockée. Les noms d’utilisateurs nettoyés sont rendus insensibles à la casse, normalisés NFC et transformés en ASCII.',

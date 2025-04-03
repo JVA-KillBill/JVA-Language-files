@@ -35,7 +35,7 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 //
 // Some characters you may want to copy&paste:
-// ’ « » “ ” …
+// ’ « » “ ” …
 //
 
 $lang = array_merge($lang, array(
@@ -45,7 +45,7 @@ $lang = array_merge($lang, array(
 	'BAN_ALREADY_ENTERED'	=> 'Ce bannissement a déjà été effectué. La liste des bannissements n’a pas été mise à jour.',
 	'BAN_SUCCESSFUL'		=> 'Le bannissement a été ajouté.',
 
-	'CANNOT_BAN_ANONYMOUS'			=> 'Vous n’êtes pas autorisé à bannir le compte invité. Les permissions des visiteurs peuvent être définies depuis l’onglet « Permissions ».',
+	'CANNOT_BAN_ANONYMOUS'			=> 'Vous n’êtes pas autorisé à bannir le compte invité. Les permissions des visiteurs peuvent être définies depuis l’onglet « Permissions ».',
 	'CANNOT_BAN_FOUNDER'			=> 'Vous n’êtes pas autorisé à bannir les comptes des fondateurs.',
 	'CANNOT_BAN_YOURSELF'			=> 'Vous n’êtes pas autorisé à vous bannir.',
 	'CANNOT_DEACTIVATE_BOT'			=> 'Vous n’êtes pas autorisé à désactiver les comptes des robots. Désactivez plutôt le robot dans la page des robots.',
@@ -113,7 +113,7 @@ $lang = array_merge($lang, array(
 	'USER_ADMIN_DEL_SIG'			=> 'Supprimer sa signature',
 	'USER_ADMIN_EXPLAIN'			=> 'Vous pouvez modifier les informations d’un membre et certaines options particulières.',
 	'USER_ADMIN_FORCE'				=> 'Forcer la réactivation',
-	'USER_ADMIN_LEAVE_NR'			=> 'Supprimer du groupe « Nouveaux utilisateurs enregistrés ».',
+	'USER_ADMIN_LEAVE_NR'			=> 'Supprimer du groupe « Nouveaux utilisateurs enregistrés ».',
 	'USER_ADMIN_MOVE_POSTS'			=> 'Déplacer ses messages',
 	'USER_ADMIN_SIG_REMOVED'		=> 'La signature de ce membre a été supprimée.',
 	'USER_ATTACHMENTS_REMOVED'		=> 'Les fichiers joints de ce membre ont été supprimés.',

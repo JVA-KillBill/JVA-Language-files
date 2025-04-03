@@ -39,7 +39,7 @@ $lang = array_merge($lang, array(
 	'EXTENSIONS'				=> 'Extensies',
 	'EXTENSIONS_ADMIN'			=> 'Extensiebeheer',
 	'EXTENSIONS_EXPLAIN'		=> 'Extensiebeheer is een gereedschap in je phpBB-forum wat je in staat stelt om alle extensiestatussen en informatie te beheren.',
-	'EXTENSION_INVALID_LIST'	=> 'De “%s” extensie is niet geldig.<br />%s<br /><br />',
+	'EXTENSION_INVALID_LIST'	=> 'De “%s” extensie is niet geldig.<br>%s<br><br>',
 	'EXTENSION_NOT_AVAILABLE'	=> 'De geselecteerde extensie is niet beschikbaar voor dit forum, controleer of je phpBB en PHP-versies toegestaan zijn (zie de detailspagina).',
 	'EXTENSION_DIR_INVALID'		=> 'De geselecteerde extensie heeft een ongeldige mapstructuur en kan niet ingeschakeld worden.',
 	'EXTENSION_NOT_ENABLEABLE'	=> 'De geselecteerde extensie kan niet worden ingeschakeld, controleer de vereisten van de extensie.',
@@ -47,13 +47,12 @@ $lang = array_merge($lang, array(
 
 	'DETAILS'				=> 'Details',
 
-	'EXTENSIONS_NOT_INSTALLED'	=> 'Niet geïnstalleerde extensies',
-	'EXTENSIONS_DISABLED'		=> 'Uitgeschakelde Extensies',
-	'EXTENSIONS_ENABLED'		=> 'Ingeschakelde Extensies',
+	'EXTENSIONS_DISABLED'	=> 'Uitgeschakelde Extensies',
+	'EXTENSIONS_ENABLED'	=> 'Ingeschakelde Extensies',
 
-	'EXTENSION_DELETE_DATA'		=> 'Verwijder data',
-	'EXTENSION_DISABLE'			=> 'Uitschakelen',
-	'EXTENSION_ENABLE'			=> 'Inschakelen',
+	'EXTENSION_DELETE_DATA'	=> 'Verwijder data',
+	'EXTENSION_DISABLE'		=> 'Uitschakelen',
+	'EXTENSION_ENABLE'		=> 'Inschakelen',
 
 	'EXTENSION_DELETE_DATA_EXPLAIN'	=> 'Het verwijderen van extensiedata verwijderd alle data en instellingen. De extensiebestanden zullen behouden blijven zodat deze weer ingeschakeld kan worden.',
 	'EXTENSION_DISABLE_EXPLAIN'		=> 'Het uitschakelen van een extensie behoud de bestanden, data en instellingen, maar verwijderd iedere functionaliteit toegevoegd door de extensie aan je forum.',
@@ -91,7 +90,7 @@ $lang = array_merge($lang, array(
 			<li>De extensiebestanden verwijderen van het bestandssysteem</li>
 		</ol>',
 
-	'EXTENSION_DELETE_DATA_CONFIRM'	=> 'Weet je zeker dat je de data die geassocieerd wordt met “%s” wil verwijderen?<br /><br />Dit zal alle data en instellingen van de extensie verwijderen en kan niet ongedaan gemaakt worden!',
+	'EXTENSION_DELETE_DATA_CONFIRM'	=> 'Weet je zeker dat je de data die geassocieerd wordt met “%s” wil verwijderen?<br><br>Dit zal alle data en instellingen van de extensie verwijderen en kan niet ongedaan gemaakt worden!',
 	'EXTENSION_DISABLE_CONFIRM'		=> 'Weet je zeker dat je de extensie “%s” wil uitschakelen?',
 	'EXTENSION_ENABLE_CONFIRM'		=> 'Weet je zeker dat je de extensie “%s” wil inschakelen?',
 	'EXTENSION_FORCE_UNSTABLE_CONFIRM'	=> 'Weet je zeker dat je het gebruik van de onstabiele versie wil forceren?',

@@ -33,7 +33,7 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 //
 // Some characters you may want to copy&paste:
-// ’ « » “ ” …
+// ’ « » “ ” …
 //
 
 $lang = array_merge($lang, array(
@@ -41,17 +41,16 @@ $lang = array_merge($lang, array(
 	'EXTENSIONS'				=> 'Extensions',
 	'EXTENSIONS_ADMIN'			=> 'Gestionnaire d’extensions',
 	'EXTENSIONS_EXPLAIN'		=> 'Le gestionnaire d’extensions est un outil intégré à votre forum phpBB vous permettant de gérer l’ensemble de vos extensions, leurs statuts et de consulter leurs informations.',
-	'EXTENSION_INVALID_LIST'	=> 'L’extension « %s » n’est pas valide.<br>%s<br><br>',
+	'EXTENSION_INVALID_LIST'	=> 'L’extension « %s » n’est pas valide.<br>%s<br><br>',
 	'EXTENSION_NOT_AVAILABLE'	=> 'L’extension sélectionnée n’est pas disponible pour ce forum, vérifiez que vos versions de phpBB et de PHP soient compatibles (voir la page des détails).',
 	'EXTENSION_DIR_INVALID'		=> 'L’extension sélectionnée ne peut pas être activée car elle possède une structure de répertoire qui est invalide.',
 	'EXTENSION_NOT_ENABLEABLE'	=> 'L’extension sélectionnée ne peut pas être activée. Veuillez en vérifier les prérequis.',
-	'EXTENSION_NOT_INSTALLED'	=> 'L’extension « %s » n’est pas disponible. Veuillez vérifier que vous l’avez installée correctement.',
+	'EXTENSION_NOT_INSTALLED'	=> 'L’extension « %s » n’est pas disponible. Veuillez vérifier que vous l’avez installée correctement.',
 
 	'DETAILS'				=> 'Détails',
 
-	'EXTENSIONS_NOT_INSTALLED'	=> 'Extensions non installées',
-	'EXTENSIONS_DISABLED'		=> 'Extensions désactivées',
-	'EXTENSIONS_ENABLED'		=> 'Extensions activées',
+	'EXTENSIONS_DISABLED'	=> 'Extensions désactivées',
+	'EXTENSIONS_ENABLED'	=> 'Extensions activées',
 
 	'EXTENSION_DELETE_DATA'	=> 'Supprimer les données',
 	'EXTENSION_DISABLE'		=> 'Désactiver',
@@ -74,28 +73,28 @@ $lang = array_merge($lang, array(
 	'EXTENSION_OPTIONS'			=> 'Options',
 	'EXTENSION_INSTALL_HEADLINE'=> 'Pour installer une extension',
 	'EXTENSION_INSTALL_EXPLAIN'	=> '<ol>
-			<li>Téléchargez une extension depuis la base de données des extensions de phpBB.com ou phpBB-fr.com ;</li>
-			<li>Décompressez l’archive de l’extension et transférez son contenu dans le répertoire <samp>ext/</samp> de votre forum phpBB ;</li>
-			<li>Activez l’extension, ici depuis le « Gestionnaire d’extensions ».</li>
+			<li>Téléchargez une extension depuis la base de données des extensions de phpBB.com ou phpBB-fr.com ;</li>
+			<li>Décompressez l’archive de l’extension et transférez son contenu dans le répertoire <samp>ext/</samp> de votre forum phpBB ;</li>
+			<li>Activez l’extension, ici depuis le « Gestionnaire d’extensions ».</li>
 		</ol>',
 	'EXTENSION_UPDATE_HEADLINE'	=> 'Pour mettre à jour une extension',
 	'EXTENSION_UPDATE_EXPLAIN'	=> '<ol>
-			<li>Désactivez l’extension ;</li>
-			<li>Supprimez les fichiers de l’extension du système de fichiers ;</li>
-			<li>Transférez les nouveaux fichiers ;</li>
+			<li>Désactivez l’extension ;</li>
+			<li>Supprimez les fichiers de l’extension du système de fichiers ;</li>
+			<li>Transférez les nouveaux fichiers ;</li>
 			<li>Activez l’extension.</li>
 		</ol>',
 	'EXTENSION_REMOVE_HEADLINE'	=> 'Pour supprimer complètement une extension de votre forum',
 	'EXTENSION_REMOVE_EXPLAIN'	=> '<ol>
-			<li>Désactivez l’extension ;</li>
-			<li>Supprimez les données de l’extension ;</li>
+			<li>Désactivez l’extension ;</li>
+			<li>Supprimez les données de l’extension ;</li>
 			<li>Supprimez les fichiers de l’extension du système de fichiers.</li>
 		</ol>',
 
-	'EXTENSION_DELETE_DATA_CONFIRM'	=> 'Êtes-vous sûr de vouloir supprimer les données de l’extension « %s » ?<br>Cela supprimera la totalité des données et les réglages de cette extension, cette action est irréversible !',
-	'EXTENSION_DISABLE_CONFIRM'		=> 'Êtes-vous sûr de vouloir désactiver l’extension « %s » ?',
-	'EXTENSION_ENABLE_CONFIRM'		=> 'Êtes-vous sûr de vouloir activer l’extension « %s » ?',
-	'EXTENSION_FORCE_UNSTABLE_CONFIRM'	=> 'Êtes-vous sûr de vouloir forcer l’utilisation d’une version instable ?',
+	'EXTENSION_DELETE_DATA_CONFIRM'	=> 'Êtes-vous sûr de vouloir supprimer les données de l’extension « %s » ?<br>Cela supprimera la totalité des données et les réglages de cette extension, cette action est irréversible !',
+	'EXTENSION_DISABLE_CONFIRM'		=> 'Êtes-vous sûr de vouloir désactiver l’extension « %s » ?',
+	'EXTENSION_ENABLE_CONFIRM'		=> 'Êtes-vous sûr de vouloir activer l’extension « %s » ?',
+	'EXTENSION_FORCE_UNSTABLE_CONFIRM'	=> 'Êtes-vous sûr de vouloir forcer l’utilisation d’une version instable ?',
 
 	'RETURN_TO_EXTENSION_LIST'	=> 'Retourner à la liste des extensions',
 
@@ -131,6 +130,6 @@ $lang = array_merge($lang, array(
 
 	'BROWSE_EXTENSIONS_DATABASE'		=> 'Parcourir la base de données des extensions',
 
-	'META_FIELD_NOT_SET'	=> 'Le champ méta requis « %s » n’a pas été défini.',
-	'META_FIELD_INVALID'	=> 'Le champ méta « %s » n’est pas valide.',
+	'META_FIELD_NOT_SET'	=> 'Le champ méta requis « %s » n’a pas été défini.',
+	'META_FIELD_INVALID'	=> 'Le champ méta « %s » n’est pas valide.',
 ));

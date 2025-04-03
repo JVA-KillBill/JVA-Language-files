@@ -35,7 +35,7 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 //
 // Some characters you may want to copy&paste:
-// ’ « » “ ” …
+// ’ « » “ ” …
 //
 
 /**
@@ -128,7 +128,7 @@ $lang = array_merge($lang, array(
 	'ACL_F_REPLY'		=> 'Peut répondre à un message.',
 	'ACL_F_EDIT'		=> 'Peut modifier un de ses messages.',
 	'ACL_F_DELETE'		=> 'Peut supprimer définitivement un de ses messages.',
-	'ACL_F_SOFTDELETE'	=> 'Peut supprimer un de ses messages.<br><em>Les modérateurs ayant la permission « Peut approuver et restaurer un message », peuvent restaurer ces messages.</em>',
+	'ACL_F_SOFTDELETE'	=> 'Peut supprimer un de ses messages.<br><em>Les modérateurs ayant la permission « Peut approuver et restaurer un message », peuvent restaurer ces messages.</em>',
 	'ACL_F_IGNOREFLOOD'	=> 'Peut ignorer la limite de flood.',
 	'ACL_F_POSTCOUNT'	=> 'Peut incrémenter le compteur de messages.<br><em>Notez que ce paramètre affecte uniquement les nouveaux messages.</em>',
 	'ACL_F_NOAPPROVE'	=> 'Peut poster sans approbation.',
@@ -150,7 +150,7 @@ $lang = array_merge($lang, array(
 $lang = array_merge($lang, array(
 	'ACL_M_EDIT'		=> 'Peut modifier un message.',
 	'ACL_M_DELETE'		=> 'Peut supprimer définitivement un message.',
-	'ACL_M_SOFTDELETE'	=> 'Peut supprimer un message.<br><em>Les modérateurs ayant la permission « Peut approuver et restaurer un message », peuvent restaurer ces messages.</em>',
+	'ACL_M_SOFTDELETE'	=> 'Peut supprimer un message.<br><em>Les modérateurs ayant la permission « Peut approuver et restaurer un message », peuvent restaurer ces messages.</em>',
 	'ACL_M_APPROVE'		=> 'Peut approuver et restaurer un message.',
 	'ACL_M_REPORT'		=> 'Peut clôturer et supprimer les rapports.',
 	'ACL_M_CHGPOSTER'	=> 'Peut modifier l’auteur d’un message.',

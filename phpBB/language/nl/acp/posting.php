@@ -61,19 +61,19 @@ $lang = array_merge($lang, array(
 	'BBCODE_TAG_TOO_LONG'		=> 'De tagnaam die je hebt ingevoerd is te lang.',
 	'BBCODE_TAG_DEF_TOO_LONG'	=> 'De tagdefinitie die je hebt ingevoerd is te lang, vul een kortere tagdefinitie in.',
 	'BBCODE_USAGE'				=> 'BBCode gebruik',
-	'BBCODE_USAGE_EXAMPLE'		=> '[highlight={COLOR}]{TEXT}[/highlight]<br /><br />[font={SIMPLETEXT1}]{SIMPLETEXT2}[/font]',
+	'BBCODE_USAGE_EXAMPLE'		=> '[highlight={COLOR}]{TEXT}[/highlight]<br><br>[font={SIMPLETEXT1}]{SIMPLETEXT2}[/font]',
 	'BBCODE_USAGE_EXPLAIN'		=> 'Hier kun je definiëren hoe de BBCode gebruikt moet worden. Vervang iedere variabele input door de bijbehorende token (%szie hieronder%s).',
 
 	'EXAMPLE'						=> 'Voorbeeld:',
 	'EXAMPLES'						=> 'Voorbeelden:',
 
 	'HTML_REPLACEMENT'				=> 'HTML vervanging',
-	'HTML_REPLACEMENT_EXAMPLE'		=> '&lt;span style="background-color: {COLOR};"&gt;{TEXT}&lt;/span&gt;<br /><br />&lt;span style="font-family: {SIMPLETEXT1};"&gt;{SIMPLETEXT2}&lt;/span&gt;',
+	'HTML_REPLACEMENT_EXAMPLE'		=> '&lt;span style="background-color: {COLOR};"&gt;{TEXT}&lt;/span&gt;<br><br>&lt;span style="font-family: {SIMPLETEXT1};"&gt;{SIMPLETEXT2}&lt;/span&gt;',
 	'HTML_REPLACEMENT_EXPLAIN'		=> 'Hier kun je de standaard HTML vervanging definiëren. Vergeet niet de tokens te plaatsen die je hierboven hebt gebruikt!',
 
 	'TOKEN'					=> 'Token',
 	'TOKENS'				=> 'Tokens',
-	'TOKENS_EXPLAIN'		=> 'Tokens zijn plaatshouders voor gebruikersinvoer. De invoer zal alleen gevalideerd worden als het overeenkomt met de bijbehorende definitie. Indien nodig, kun je ze nummeren door een nummer toe te voegen als laatste karakter tussen de haakjes, bijv. {TEXT1}, {TEXT2}.<br /><br />In de HTML vervanging kun je ook gebruik maken van iedere taalstring die aanwezig is in je language/ map, zoals dit: {L_<em>&lt;STRINGNAME&gt;</em>} waar <em>&lt;STRINGNAME&gt;</em> de naam is van de vertaalde string die je wil toevoegen. Bijvoorbeeld, {L_WROTE} zal worden weergegeven als “schreef” of zijn vertaling volgens de gebruikers taalinstelling.<br /><br /><strong>Let op dat alleen tokens die hieronder genoemd worden gebruikt kunnen worden in de eigen BBCodes.</strong>',
+	'TOKENS_EXPLAIN'		=> 'Tokens zijn plaatshouders voor gebruikersinvoer. De invoer zal alleen gevalideerd worden als het overeenkomt met de bijbehorende definitie. Indien nodig, kun je ze nummeren door een nummer toe te voegen als laatste karakter tussen de haakjes, bijv. {TEXT1}, {TEXT2}.<br><br>In de HTML vervanging kun je ook gebruik maken van iedere taalstring die aanwezig is in je language/ map, zoals dit: {L_<em>&lt;STRINGNAME&gt;</em>} waar <em>&lt;STRINGNAME&gt;</em> de naam is van de vertaalde string die je wil toevoegen. Bijvoorbeeld, {L_WROTE} zal worden weergegeven als “schreef” of zijn vertaling volgens de gebruikers taalinstelling.<br><br><strong>Let op dat alleen tokens die hieronder genoemd worden gebruikt kunnen worden in de eigen BBCodes.</strong>',
 	'TOKEN_DEFINITION'		=> 'Wat kan het zijn?',
 	'TOO_MANY_BBCODES'		=> 'Je kunt niet méér BBCodes aanmaken. Verwijder één of meerdere BBCodes en probeer het opnieuw.',
 

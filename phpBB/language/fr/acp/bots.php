@@ -35,13 +35,13 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 //
 // Some characters you may want to copy&paste:
-// ’ « » “ ” …
+// ’ « » “ ” …
 //
 
 // Bot settings
 $lang = array_merge($lang, array(
 	'BOTS'				=> 'Gestion des robots',
-	'BOTS_EXPLAIN'		=> 'Les « robots » ou « aspirateurs » sont des agents automatisés le plus souvent utilisés par les moteurs de recherches pour mettre à jour leurs bases de données. Étant donné que ceux-ci font rarement une utilisation appropriée des sessions, ils peuvent fausser le compteur de visiteurs, augmenter la charge du serveur et parfois ne pas indexer correctement les sites. Depuis cette page, vous pouvez définir un type spécial d’utilisateurs afin de pallier ces problèmes.',
+	'BOTS_EXPLAIN'		=> 'Les « robots » ou « aspirateurs » sont des agents automatisés le plus souvent utilisés par les moteurs de recherches pour mettre à jour leurs bases de données. Étant donné que ceux-ci font rarement une utilisation appropriée des sessions, ils peuvent fausser le compteur de visiteurs, augmenter la charge du serveur et parfois ne pas indexer correctement les sites. Depuis cette page, vous pouvez définir un type spécial d’utilisateurs afin de pallier ces problèmes.',
 	'BOT_ACTIVATE'		=> 'Activer',
 	'BOT_ACTIVE'		=> 'Robot actif',
 	'BOT_ADD'			=> 'Ajouter un robot',
@@ -51,7 +51,7 @@ $lang = array_merge($lang, array(
 	'BOT_DEACTIVATE'	=> 'Désactiver',
 	'BOT_DELETED'		=> 'Robot supprimé.',
 	'BOT_EDIT'			=> 'Modifier le robot',
-	'BOT_EDIT_EXPLAIN'	=> 'Cette page vous permet d’ajouter ou de modifier un robot. Vous pouvez définir une chaîne de caractères pour l’agent et/ou une ou plusieurs adresses IP (ou une plage d’adresses) correspondantes. Faites attention en définissant la chaîne de caractères correspondant à l’agent ou aux adresses. Vous pouvez également indiquer le style et la langue que le robot utilisera pour consulter le forum. Cela peut vous permettre de réduire la bande passante utilisée en configurant un style simple pour les robots. N’oubliez pas de mettre les permissions appropriées au groupe prédéfini « Robots ».',
+	'BOT_EDIT_EXPLAIN'	=> 'Cette page vous permet d’ajouter ou de modifier un robot. Vous pouvez définir une chaîne de caractères pour l’agent et/ou une ou plusieurs adresses IP (ou une plage d’adresses) correspondantes. Faites attention en définissant la chaîne de caractères correspondant à l’agent ou aux adresses. Vous pouvez également indiquer le style et la langue que le robot utilisera pour consulter le forum. Cela peut vous permettre de réduire la bande passante utilisée en configurant un style simple pour les robots. N’oubliez pas de mettre les permissions appropriées au groupe prédéfini « Robots ».',
 	'BOT_LANG'			=> 'Langue du robot',
 	'BOT_LANG_EXPLAIN'	=> 'Langue présentée au robot lors de son passage.',
 	'BOT_LAST_VISIT'	=> 'Dernière visite',
@@ -70,5 +70,5 @@ $lang = array_merge($lang, array(
 	'ERR_BOT_NO_MATCHES'		=> 'Vous devez fournir au moins un agent ou une IP pour correspondre à ce robot.',
 
 	'NO_BOT'		=> 'Il n’y a pas de robot avec cet ID.',
-	'NO_BOT_GROUP'	=> 'Le groupe prédéfini « Robots » n’a pas été trouvé.',
+	'NO_BOT_GROUP'	=> 'Le groupe prédéfini « Robots » n’a pas été trouvé.',
 ));

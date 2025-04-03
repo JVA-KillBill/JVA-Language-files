@@ -120,7 +120,7 @@ $lang = array_merge($lang, array(
 	'AVATAR_GALLERY_PATH'			=> 'Avatar galerij pad',
 	'AVATAR_GALLERY_PATH_EXPLAIN'	=> 'Pad in je phpBB-hoofdmap voor geüploade afbeeldingen, bijvoorbeeld <samp>images/avatars/gallery</samp>.<br>Dubbele punten zoals <samp>../</samp> worden verwijderd van het pad om veiligheidsredenen.',
 	'AVATAR_STORAGE_PATH'			=> 'Avatar opslag pad',
-	'AVATAR_STORAGE_PATH_EXPLAIN'	=> 'Pad in je phpBB-hoofdmap, bijvoorbeeld <samp>images/avatars/upload</samp>.<br>Avatar uploaden <strong>zal niet beschikbaar zijn</strong> als dit pad niet schrijfbaar is.<br />Dubbele punten zoals <samp>../</samp> zullen worden verwijderd van het pad om veiligheidsredenen.',
+	'AVATAR_STORAGE_PATH_EXPLAIN'	=> 'Pad in je phpBB-hoofdmap, bijvoorbeeld <samp>images/avatars/upload</samp>.<br>Avatar uploaden <strong>zal niet beschikbaar zijn</strong> als dit pad niet schrijfbaar is.<br>Dubbele punten zoals <samp>../</samp> zullen worden verwijderd van het pad om veiligheidsredenen.',
 	'MAX_AVATAR_SIZE'				=> 'Maximum avatar afmeting',
 	'MAX_AVATAR_SIZE_EXPLAIN'		=> 'Breedte x Hoogte in pixels.',
 	'MAX_FILESIZE'					=> 'Maximum avatar bestandsgrootte',
@@ -494,7 +494,7 @@ $lang = array_merge($lang, array(
 	'UPLOAD_ICONS_PATH'			=> 'Extensiegroep-iconen opslagpad',
 	'UPLOAD_ICONS_PATH_EXPLAIN'	=> 'Pad in je phpBB hoofdmap, bijv. <samp>images/upload_icons</samp>.',
 	'USE_SYSTEM_CRON'			=> 'Draai periodieke taken van systeem cron',
-	'USE_SYSTEM_CRON_EXPLAIN'	=> 'Wanneer uitgeschakeld zal phpBB periodieke taken instellen om deze automatisch te laten draaien. Wanneer ingeschakeld zal phpBB geen periodieke taken instellen; een systeembeheerder zal moeten regelen dat <code>bin/phpbbcli.php cron:run</code> opgeroepen wordt door de systeemcron-voorziening op reguliere interval (bijv. iedere 5 minuten).',
+	'USE_SYSTEM_CRON_EXPLAIN'	=> 'Als dit uitgeschakeld is, zal phpBB ervoor zorgen dat periodieke taken automatisch worden uitgevoerd. Als phpBB is ingeschakeld, zal het zelf geen periodieke taken plannen; Een systeembeheerder moet ervoor zorgen dat <code>bin/phpbbcli.php cron:run</code> met regelmatige tussenpozen (bijvoorbeeld elke 5 minuten) wordt uitgevoerd door de CRON-faciliteit van het besturingssysteem.',
 ));
 
 // Security Settings
@@ -531,7 +531,7 @@ $lang = array_merge($lang, array(
 	'IP_LOGIN_LIMIT_TIME'			=> 'IP-adres aanmeldpoging vervaltijd',
 	'IP_LOGIN_LIMIT_TIME_EXPLAIN'	=> 'Aanmeldpogingen vervallen na deze periode.',
 	'IP_LOGIN_LIMIT_USE_FORWARDED'	=> 'Limiteer aanmeldpogingen via <var>X_FORWARDED_FOR</var>-header',
-	'IP_LOGIN_LIMIT_USE_FORWARDED_EXPLAIN'	=> 'In plaats van het beperken van aanmeldpogingen via IP-adressen, worden ze nu beperkt via <var>X_FORWARDED_FOR</var>-waardes. <br /><em><strong>Waarschuwing:</strong> Schakel dit alleen in als je een proxy-server draait die <var>X_FORWARDED_FOR</var> instelt naar betrouwbare waarden.</em>',
+	'IP_LOGIN_LIMIT_USE_FORWARDED_EXPLAIN'	=> 'In plaats van het beperken van aanmeldpogingen via IP-adressen, worden ze nu beperkt via <var>X_FORWARDED_FOR</var>-waardes. <br><em><strong>Waarschuwing:</strong> Schakel dit alleen in als je een proxy-server draait die <var>X_FORWARDED_FOR</var> instelt naar betrouwbare waarden.</em>',
 	'MAX_LOGIN_ATTEMPTS'			=> 'Maximum aantal aanmeldpogingen per gebruikersnaam',
 	'MAX_LOGIN_ATTEMPTS_EXPLAIN'	=> 'Het aantal aanmeldpogingen toegestaan voor één account voordat de anti-spambottaak geactiveerd wordt. Voer 0 in om te voorkomen dat de anti-spambottaak wordt geactiveerd door verschillende gebruikersnamen.',
 	'NO_IP_VALIDATION'				=> 'Geen',

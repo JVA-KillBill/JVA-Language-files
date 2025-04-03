@@ -35,7 +35,7 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 //
 // Some characters you may want to copy&paste:
-// ’ « » “ ” …
+// ’ « » “ ” …
 //
 
 $lang = array_merge($lang, array(
@@ -71,10 +71,10 @@ $lang = array_merge($lang, array(
 	'LOGIN_NOTIFY_TOPIC'	=> 'Vous avez demandé à surveiller ce sujet. Connectez-vous pour le voir.',
 	'LOGIN_VIEWTOPIC'		=> 'Vous devez être enregistré et connecté pour voir ce sujet.',
 
-	'MAKE_ANNOUNCE'				=> 'Changer en « Annonce »',
-	'MAKE_GLOBAL'				=> 'Changer en « Annonce globale »',
-	'MAKE_NORMAL'				=> 'Changer en « Sujet normal »',
-	'MAKE_STICKY'				=> 'Changer en « Sujet épinglé »',
+	'MAKE_ANNOUNCE'				=> 'Changer en « Annonce »',
+	'MAKE_GLOBAL'				=> 'Changer en « Annonce globale »',
+	'MAKE_NORMAL'				=> 'Changer en « Sujet normal »',
+	'MAKE_STICKY'				=> 'Changer en « Sujet épinglé »',
 	'MAX_OPTIONS_SELECT'		=> array(
 		1	=> 'Vous pouvez sélectionner <strong>%d</strong> option',
 		2	=> 'Vous pouvez sélectionner <strong>%d</strong> options',
@@ -114,7 +114,6 @@ $lang = array_merge($lang, array(
 	'VIEW_INFO'				=> 'Informations du message',
 	'VIEW_NEXT_TOPIC'		=> 'Sujet suivant',
 	'VIEW_PREVIOUS_TOPIC'	=> 'Sujet précédent',
-	'VIEW_QUOTED_POST'		=> 'Voir la citation',
 	'VIEW_RESULTS'			=> 'Voir les résultats',
 	'VIEW_TOPIC_POSTS'		=> array(
 		1	=> '%d message',

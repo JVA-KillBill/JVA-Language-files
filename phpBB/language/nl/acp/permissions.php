@@ -51,7 +51,7 @@ $lang = array_merge($lang, array(
 
 		<h2>Permissiemaskers</h2>
 		<p>Deze worden gebruikt om effectieve permissies, toegewezen aan Gebruikers, Moderators (Lokaal en Globaal), Beheerders of Forums te bekijken.</p>
-		<br />
+		<br>
 
 		<p>Voor meer informatie over het opzetten en beheren van permissies op je phpBB3 forum lees je <a href="https://www.phpbb.com/support/docs/en/3.3/ug/quickstart/permissions/">Hoofdstuk 1.5 van onze Snelle Start Gids</a> (Engelstalig).</p>
 	',
@@ -184,11 +184,11 @@ $lang = array_merge($lang, array(
 	'ROLE_USER_NEW_MEMBER'		=> 'Pas geregistreerde gebruikerfuncties',
 
 	'ROLE_DESCRIPTION_ADMIN_FORUM'			=> 'Heeft toegang tot het forumbeheer en de instellingen van de forumpermissies.',
-	'ROLE_DESCRIPTION_ADMIN_FULL'			=> 'Heeft toegang tot alle beheerdersfuncties van dit forum.<br />Niet aanbevolen.',
+	'ROLE_DESCRIPTION_ADMIN_FULL'			=> 'Heeft toegang tot alle beheerdersfuncties van dit forum.<br>Niet aanbevolen.',
 	'ROLE_DESCRIPTION_ADMIN_STANDARD'		=> 'Heeft toegang tot de meeste beheerdersfuncties, maar kan niet server of systeem gerelateerde functies gebruiken.',
 	'ROLE_DESCRIPTION_ADMIN_USERGROUP'		=> 'Kan gebruikers en groepen beheren: kan permissies en instellingen veranderen, verbanningen en rangen beheren.',
 	'ROLE_DESCRIPTION_FORUM_BOT'			=> 'Deze rol is aanbevolen voor bots.',
-	'ROLE_DESCRIPTION_FORUM_FULL'			=> 'Kan alle forumfuncties gebruiken inclusief het plaatsen van aankondigingen en stickies. Kan ook de vloedbeperking negeren.<br />Niet aanbevolen voor normale gebruikers.',
+	'ROLE_DESCRIPTION_FORUM_FULL'			=> 'Kan alle forumfuncties gebruiken inclusief het plaatsen van aankondigingen en stickies. Kan ook de vloedbeperking negeren.<br>Niet aanbevolen voor normale gebruikers.',
 	'ROLE_DESCRIPTION_FORUM_LIMITED'		=> 'Kan enkele forumfuncties gebruiken maar kan geen bestanden bijvoegen of gebruik maken van berichticonen.',
 	'ROLE_DESCRIPTION_FORUM_LIMITED_POLLS'	=> 'Hetzelfde als “Beperkte Toegang” maar kan ook peilingen aanmaken.',
 	'ROLE_DESCRIPTION_FORUM_NOACCESS'		=> 'Heeft geen toegang tot het forum en kan het forum niet zien.',
@@ -201,7 +201,7 @@ $lang = array_merge($lang, array(
 	'ROLE_DESCRIPTION_MOD_QUEUE'			=> 'Kan de moderatie-wachtrij gebruiken om berichten goed te keuren en te wijzigen, maar verder niks.',
 	'ROLE_DESCRIPTION_MOD_SIMPLE'			=> 'Kan alleen de basis onderwerpacties gebruiken. Kan geen waarschuwingen versturen of de moderatie-wachtrij gebruiken.',
 	'ROLE_DESCRIPTION_MOD_STANDARD'			=> 'Kan de meeste moderatorfuncties gebruiken maar kan geen gebruikers verbannen of de berichtenauteur veranderen.',
-	'ROLE_DESCRIPTION_USER_FULL'			=> 'Kan alle beschikbare functies voor gebruikers gebruiken, inclusief het veranderen van gebruikersnaam of het negeren van de vloedbeperking.<br />Niet aanbevolen.',
+	'ROLE_DESCRIPTION_USER_FULL'			=> 'Kan alle beschikbare functies voor gebruikers gebruiken, inclusief het veranderen van gebruikersnaam of het negeren van de vloedbeperking.<br>Niet aanbevolen.',
 	'ROLE_DESCRIPTION_USER_LIMITED'			=> 'Kan enkele gebruikersfuncties gebruiken. Bijlagen, e-mails of instant messages zijn niet toegestaan.',
 	'ROLE_DESCRIPTION_USER_NOAVATAR'		=> 'Kan een beperkt aantal functies gebruiken en kan de Avatar-functie niet gebruiken.',
 	'ROLE_DESCRIPTION_USER_NOPM'			=> 'Kan een beperkt aantal functies gebruiken, en kan de Privéberichten-functie niet gebruiken.',

@@ -35,7 +35,7 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 //
 // Some characters you may want to copy&paste:
-// ’ « » “ ” …
+// ’ « » “ ” …
 //
 
 $lang = array_merge($lang, array(
@@ -50,23 +50,23 @@ $lang = array_merge($lang, array(
 	'ATTACH_QUOTA_REACHED'		=> 'Désolé, le quota de fichiers joints a été atteint.',
 	'ATTACH_SIG'				=> 'Attacher ma signature (les signatures peuvent être modifiées dans le panneau de l’utilisateur)',
 
-	'BBCODE_A_HELP'				=> 'Insérer un fichier joint dans ce message : [attachment=]nom_du_fichier.ext[/attachment]',
-	'BBCODE_B_HELP'				=> 'Texte gras : [b]texte[/b]',
-	'BBCODE_C_HELP'				=> 'Code : [code]code[/code]',
-	'BBCODE_D_HELP'				=> 'Flash : [flash=largeur,hauteur]http://url[/flash]',
-	'BBCODE_F_HELP'				=> 'Taille de la police : [size=85]petit texte[/size]',
+	'BBCODE_A_HELP'				=> 'Insérer un fichier joint dans ce message : [attachment=]nom_du_fichier.ext[/attachment]',
+	'BBCODE_B_HELP'				=> 'Texte gras : [b]texte[/b]',
+	'BBCODE_C_HELP'				=> 'Code : [code]code[/code]',
+	'BBCODE_D_HELP'				=> 'Flash : [flash=largeur,hauteur]http://url[/flash]',
+	'BBCODE_F_HELP'				=> 'Taille de la police : [size=85]petit texte[/size]',
 	'BBCODE_IS_OFF'				=> 'Les %sBBCodes%s sont <em>désactivés</em>',
 	'BBCODE_IS_ON'				=> 'Les %sBBCodes%s sont <em>activés</em>',
-	'BBCODE_I_HELP'				=> 'Texte italique : [i]texte[/i]',
-	'BBCODE_L_HELP'				=> 'Liste : [list][*]texte[/list]',
-	'BBCODE_LISTITEM_HELP'		=> 'Élément de liste : [*]texte',
-	'BBCODE_O_HELP'				=> 'Liste numérotée : par exemple [list=1][*]Point 1[/list] ou [list=a][*]Point a[/list]',
-	'BBCODE_P_HELP'				=> 'Insérer une image : [img]http://image_url[/img]',
-	'BBCODE_Q_HELP'				=> 'Citation : [quote]texte[/quote]',
-	'BBCODE_S_HELP'				=> 'Couleur de la police : [color=red]texte[/color] ou [color=#FF0000]texte[/color]',
-	'BBCODE_U_HELP'				=> 'Texte souligné : [u]texte[/u]',
-	'BBCODE_W_HELP'				=> 'Insérer un lien : [url]http://url[/url] ou [url=http://url]texte descriptif[/url]',
-	'BBCODE_Y_HELP'				=> 'Liste : Ajouter une liste d’éléments',
+	'BBCODE_I_HELP'				=> 'Texte italique : [i]texte[/i]',
+	'BBCODE_L_HELP'				=> 'Liste : [list][*]texte[/list]',
+	'BBCODE_LISTITEM_HELP'		=> 'Élément de liste : [*]texte',
+	'BBCODE_O_HELP'				=> 'Liste numérotée : par exemple [list=1][*]Point 1[/list] ou [list=a][*]Point a[/list]',
+	'BBCODE_P_HELP'				=> 'Insérer une image : [img]http://image_url[/img]',
+	'BBCODE_Q_HELP'				=> 'Citation : [quote]texte[/quote]',
+	'BBCODE_S_HELP'				=> 'Couleur de la police : [color=red]texte[/color] ou [color=#FF0000]texte[/color]',
+	'BBCODE_U_HELP'				=> 'Texte souligné : [u]texte[/u]',
+	'BBCODE_W_HELP'				=> 'Insérer un lien : [url]http://url[/url] ou [url=http://url]texte descriptif[/url]',
+	'BBCODE_Y_HELP'				=> 'Liste : Ajouter une liste d’éléments',
 	'BUMP_ERROR'				=> 'Vous ne pouvez pas faire remonter ce sujet aussitôt après l’ajout du dernier message.',
 
 	'CANNOT_DELETE_REPLIED'		=> 'Désolé, vous ne pouvez supprimer que les messages n’ayant reçu aucune réponse.',
@@ -88,28 +88,28 @@ $lang = array_merge($lang, array(
 
 	'DELETE_FILE'				=> 'Supprimer le fichier',
 	'DELETE_MESSAGE'			=> 'Supprimer le message',
-	'DELETE_MESSAGE_CONFIRM'	=> 'Êtes-vous sûr de vouloir supprimer ce message ?',
+	'DELETE_MESSAGE_CONFIRM'	=> 'Êtes-vous sûr de vouloir supprimer ce message ?',
 	'DELETE_OWN_POSTS'			=> 'Désolé, vous ne pouvez supprimer que vos propres messages.',
 	'DELETE_PERMANENTLY'		=> 'Supprimer définitivement',
-	'DELETE_POST_CONFIRM'		=> 'Êtes-vous sûr de vouloir supprimer ce message ?',
-	'DELETE_POST_PERMANENTLY_CONFIRM'	=> 'Êtes-vous sûr de vouloir supprimer <strong>définitivement</strong> ce message ?',
+	'DELETE_POST_CONFIRM'		=> 'Êtes-vous sûr de vouloir supprimer ce message ?',
+	'DELETE_POST_PERMANENTLY_CONFIRM'	=> 'Êtes-vous sûr de vouloir supprimer <strong>définitivement</strong> ce message ?',
 	'DELETE_POST_PERMANENTLY'	=> array(
 		1	=> 'Supprimer définitivement ce message, il ne pourra pas être restauré',
 		2	=> 'Supprimer définitivement %1$d messages, ils ne pourront pas être restaurés',
 	),
-	'DELETE_POSTS_CONFIRM'		=> 'Êtes-vous sûr de vouloir supprimer ces messages ?',
-	'DELETE_POSTS_PERMANENTLY_CONFIRM'	=> 'Êtes-vous sûr de vouloir supprimer <strong>définitivement</strong> ces messages ?',
+	'DELETE_POSTS_CONFIRM'		=> 'Êtes-vous sûr de vouloir supprimer ces messages ?',
+	'DELETE_POSTS_PERMANENTLY_CONFIRM'	=> 'Êtes-vous sûr de vouloir supprimer <strong>définitivement</strong> ces messages ?',
 	'DELETE_REASON'				=> 'Raison de la suppression',
 	'DELETE_REASON_EXPLAIN'		=> 'La raison de la suppression sera visible par les modérateurs.',
 	'DELETE_POST_WARN'			=> 'Supprimer ce message',
-	'DELETE_TOPIC_CONFIRM'		=> 'Êtes-vous sûr de vouloir supprimer ce sujet ?',
+	'DELETE_TOPIC_CONFIRM'		=> 'Êtes-vous sûr de vouloir supprimer ce sujet ?',
 	'DELETE_TOPIC_PERMANENTLY'	=> array(
 		1	=> 'Supprimer définitivement ce sujet, il ne pourra pas être restauré',
 		2	=> 'Supprimer définitivement %1$d sujets, ils ne pourront pas être restaurés',
 	),
-	'DELETE_TOPIC_PERMANENTLY_CONFIRM'	=> 'Êtes-vous sûr de vouloir supprimer <strong>définitivement</strong> ce sujet ?',
-	'DELETE_TOPICS_CONFIRM'		=> 'Êtes-vous sûr de vouloir supprimer ces sujets ?',
-	'DELETE_TOPICS_PERMANENTLY_CONFIRM'	=> 'Êtes-vous sûr de vouloir supprimer <strong>définitivement</strong> ces sujets ?',
+	'DELETE_TOPIC_PERMANENTLY_CONFIRM'	=> 'Êtes-vous sûr de vouloir supprimer <strong>définitivement</strong> ce sujet ?',
+	'DELETE_TOPICS_CONFIRM'		=> 'Êtes-vous sûr de vouloir supprimer ces sujets ?',
+	'DELETE_TOPICS_PERMANENTLY_CONFIRM'	=> 'Êtes-vous sûr de vouloir supprimer <strong>définitivement</strong> ces sujets ?',
 	'DISABLE_BBCODE'			=> 'Désactiver les BBCodes',
 	'DISABLE_MAGIC_URL'			=> 'Désactiver les liens',
 	'DISABLE_SMILIES'			=> 'Désactiver les smileys',
@@ -122,7 +122,7 @@ $lang = array_merge($lang, array(
 
 	'EDIT_REASON'				=> 'Raison de la modification du message',
 	'EMPTY_FILEUPLOAD'			=> 'Le fichier transféré est vide ou n’existe pas.',
-	'EMPTY_MESSAGE'				=> 'Votre message est vide !',
+	'EMPTY_MESSAGE'				=> 'Votre message est vide !',
 	'EMPTY_REMOTE_DATA'			=> 'Le fichier n’a pas pu être transféré, essayez de le transférer manuellement.',
 
 	'FLASH_IS_OFF'				=> '[flash] est <em>désactivé</em>',
@@ -153,7 +153,7 @@ $lang = array_merge($lang, array(
 	'LOGIN_EXPLAIN_QUOTE'		=> 'Vous devez être connecté pour citer des messages dans ce forum.',
 	'LOGIN_EXPLAIN_REPLY'		=> 'Vous devez être connecté pour répondre aux sujets de ce forum.',
 
-	'MAX_ATTACHMENT_FILESIZE'	=> 'Taille maximum par fichier joint : %s.',
+	'MAX_ATTACHMENT_FILESIZE'	=> 'Taille maximum par fichier joint : %s.',
 	'MAX_FONT_SIZE_EXCEEDED'	=> 'Vous pouvez seulement employer des polices dont la taille maximum est de %d.',
 	'MAX_FLASH_HEIGHT_EXCEEDED'	=> array(
 		1	=> 'Vos animations flash ne doivent pas dépasser %d pixel de haut.',
@@ -196,7 +196,7 @@ $lang = array_merge($lang, array(
 	'PLACE_INLINE'				=> 'Insérer dans le message',
 	'POLL_DELETE'				=> 'Supprimer le sondage',
 	'POLL_FOR'					=> 'Durée du sondage',
-	'POLL_FOR_EXPLAIN'			=> 'Mettre « 0 » pour une durée de sondage illimitée.',
+	'POLL_FOR_EXPLAIN'			=> 'Mettre « 0 » pour une durée de sondage illimitée.',
 	'POLL_MAX_OPTIONS'			=> 'Option(s) par utilisateur',
 	'POLL_MAX_OPTIONS_EXPLAIN'	=> 'Ceci est le nombre d’options que chaque utilisateur peut choisir quand il vote.',
 	'POLL_OPTIONS'				=> 'Options du sondage',
@@ -242,14 +242,14 @@ $lang = array_merge($lang, array(
 	'SAVE'						=> 'Sauvegarder',
 	'SAVE_DATE'					=> 'Sauvegardé le',
 	'SAVE_DRAFT'				=> 'Sauvegarder le brouillon',
-	'SAVE_DRAFT_CONFIRM'		=> 'Notez que les brouillons sauvegardés ne conservent que le titre et le texte du message, tout autre élément sera ignoré. Souhaitez-vous sauvegarder votre brouillon maintenant ?',
+	'SAVE_DRAFT_CONFIRM'		=> 'Notez que les brouillons sauvegardés ne conservent que le titre et le texte du message, tout autre élément sera ignoré. Souhaitez-vous sauvegarder votre brouillon maintenant ?',
 	'SMILIES'					=> 'Smileys',
 	'SMILIES_ARE_OFF'			=> 'Les smileys sont <em>désactivés</em>',
 	'SMILIES_ARE_ON'			=> 'Les smileys sont <em>activés</em>',
 	'STICKY_ANNOUNCE_TIME_LIMIT'=> 'Durée du sujet épinglé, de l’annonce ou de l’annonce globale',
 	'STICK_TOPIC_FOR'			=> 'Épingler pendant',
-	'STICK_TOPIC_FOR_EXPLAIN'	=> 'Mettre « 0 » pour placer un sujet en « Épinglé » , « Annonce » ou « Annonce globale » pour une durée illimitée. Notez que le nombre saisi part de la date de création du sujet.',
-	'STYLES_TIP'				=> 'Astuce : les mises en forme peuvent être appliquées rapidement en sélectionnant le texte.',
+	'STICK_TOPIC_FOR_EXPLAIN'	=> 'Mettre « 0 » pour placer un sujet en « Épinglé » , « Annonce » ou « Annonce globale » pour une durée illimitée. Notez que le nombre saisi part de la date de création du sujet.',
+	'STYLES_TIP'				=> 'Astuce : les mises en forme peuvent être appliquées rapidement en sélectionnant le texte.',
 
 	'TOO_FEW_CHARS'				=> 'Votre message ne contient aucun caractère.',
 	'TOO_FEW_CHARS_LIMIT'		=> array(
@@ -268,9 +268,9 @@ $lang = array_merge($lang, array(
 	'TOO_MANY_USER_OPTIONS'		=> 'Vous ne pouvez pas indiquer un nombre d’options par utilisateur supérieur au nombre d’options du sondage.',
 	'TOPIC_BUMPED'				=> 'Le sujet a été remonté.',
 
-	'UNAUTHORISED_BBCODE'		=> 'Vous ne pouvez pas utiliser certains BBCodes : %s.',
-	'UNSUPPORTED_CHARACTERS_MESSAGE'	=> 'Votre message contient les caractères non supportés suivants :<br>%s',
-	'UNSUPPORTED_CHARACTERS_SUBJECT'	=> 'Votre objet contient les caractères non supportés suivants :<br>%s',
+	'UNAUTHORISED_BBCODE'		=> 'Vous ne pouvez pas utiliser certains BBCodes : %s.',
+	'UNSUPPORTED_CHARACTERS_MESSAGE'	=> 'Votre message contient les caractères non supportés suivants :<br>%s',
+	'UNSUPPORTED_CHARACTERS_SUBJECT'	=> 'Votre objet contient les caractères non supportés suivants :<br>%s',
 	'UPDATE_COMMENT'			=> 'Mettre à jour le commentaire',
 	'URL_INVALID'				=> 'Le lien indiqué est invalide.',
 	'URL_NOT_FOUND'				=> 'Le fichier indiqué n’a pas été trouvé.',

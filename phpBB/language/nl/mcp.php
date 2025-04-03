@@ -218,7 +218,7 @@ $lang = array_merge($lang, array(
 	'MCP_WARN_USER'			=> 'Waarschuw gebruiker',
 
 	'MERGE_POSTS_CONFIRM'	=> 'Weet je zeker dat je de geselecteerde berichten wil verplaatsen?',
-	'MERGE_TOPIC_EXPLAIN'	=> 'Door het formulier hieronder te gebruiken kun je de geselecteerde berichten verplaatsen naar een ander onderwerp. De berichten zullen gesplitst worden van dit onderwerp en samengevoegd worden met het andere onderwerp. Deze berichten zullen niet opnieuw gesorteerd worden en het zal lijken alsof de gebruiker ze geplaatst heeft in het nieuwe onderwerp.<br />Vul de doel onderwerp ID in of klik op “Selecteer onderwerp” om naar één te zoeken.',
+	'MERGE_TOPIC_EXPLAIN'	=> 'Door het formulier hieronder te gebruiken kun je de geselecteerde berichten verplaatsen naar een ander onderwerp. De berichten zullen gesplitst worden van dit onderwerp en samengevoegd worden met het andere onderwerp. Deze berichten zullen niet opnieuw gesorteerd worden en het zal lijken alsof de gebruiker ze geplaatst heeft in het nieuwe onderwerp.<br>Vul de doel onderwerp ID in of klik op “Selecteer onderwerp” om naar één te zoeken.',
 	'MERGE_TOPIC_ID'		=> 'Doel onderwerp identificatie nummer',
 	'MERGE_TOPICS'			=> 'Onderwerpen samenvoegen',
 	'MERGE_TOPICS_CONFIRM'	=> 'Weet je zeker dat je de geselecteerde onderwerpen wil samenvoegen?',

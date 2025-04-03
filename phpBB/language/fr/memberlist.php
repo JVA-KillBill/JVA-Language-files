@@ -35,7 +35,7 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 //
 // Some characters you may want to copy&paste:
-// ’ « » “ ” …
+// ’ « » “ ” …
 //
 
 $lang = array_merge($lang, array(
@@ -71,7 +71,7 @@ $lang = array_merge($lang, array(
 	'EMPTY_SUBJECT_EMAIL'	=> 'Vous devez indiquer un sujet pour le courriel.',
 	'EQUAL_TO'				=> 'Égal à',
 
-	'FIND_USERNAME_EXPLAIN'	=> 'Utilisez ce formulaire pour rechercher un membre. Vous n’avez pas besoin de compléter tous les champs. Pour effectuer une recherche partielle, utilisez le caractère « * » comme joker. Utilisez le format de date <kbd>AAAA-MM-JJ</kbd>, par exemple : <samp>2004-02-29</samp>. En fonction du formulaire, vous pouvez utiliser les cases à cocher pour sélectionner un ou plusieurs noms d’utilisateurs puis cliquez sur « Valider la sélection » pour retourner au formulaire précédent.',
+	'FIND_USERNAME_EXPLAIN'	=> 'Utilisez ce formulaire pour rechercher un membre. Vous n’avez pas besoin de compléter tous les champs. Pour effectuer une recherche partielle, utilisez le caractère « * » comme joker. Utilisez le format de date <kbd>AAAA-MM-JJ</kbd>, par exemple : <samp>2004-02-29</samp>. En fonction du formulaire, vous pouvez utiliser les cases à cocher pour sélectionner un ou plusieurs noms d’utilisateurs puis cliquez sur « Valider la sélection » pour retourner au formulaire précédent.',
 	'FLOOD_EMAIL_LIMIT'		=> 'Vous ne pouvez pas envoyer un autre courriel si rapidement. Veuillez réessayer ultérieurement.',
 
 	'GROUP_LEADER'			=> 'Chef du groupe',
@@ -81,7 +81,7 @@ $lang = array_merge($lang, array(
 	'IM_ADD_CONTACT'		=> 'Ajouter le contact',
 	'IM_DOWNLOAD_APP'		=> 'Télécharger l’application',
 	'IM_JABBER'				=> 'Notez que les membres ont pu choisir de ne pas recevoir de messages instantanés non sollicités.',
-	'IM_JABBER_SUBJECT'		=> 'Ceci est un message automatique, merci de ne pas y répondre ! Message du membre %1$s le %2$s.',
+	'IM_JABBER_SUBJECT'		=> 'Ceci est un message automatique, merci de ne pas y répondre ! Message du membre %1$s le %2$s.',
 	'IM_MESSAGE'			=> 'Votre message',
 	'IM_NAME'				=> 'Votre nom',
 	'IM_NO_DATA'			=> 'Aucune information de contact pour ce membre.',

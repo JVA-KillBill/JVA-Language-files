@@ -113,8 +113,8 @@ $lang = array_merge($lang, array(
 	'DISABLE_SMILIES'			=> 'Smilies uitschakelen',
 	'DISALLOWED_CONTENT'		=> 'De upload is geweigerd omdat het geüploade bestand mogelijk gevaarlijk is.',
 	'DISALLOWED_EXTENSION'		=> 'De extensie %s is niet toegestaan.',
-	'DRAFT_LOADED'				=> 'Concept in tekstveld geladen, je kunt nu je bericht afmaken.<br />Je concept zal verwijderd worden na het versturen van dit bericht.',
-	'DRAFT_LOADED_PM'			=> 'Concept in tekstveld geladen, je kunt nu je privébericht afmaken.<br />Je concept zal verwijderd worden na het versturen van dit privébericht.',
+	'DRAFT_LOADED'				=> 'Concept in tekstveld geladen, je kunt nu je bericht afmaken.<br>Je concept zal verwijderd worden na het versturen van dit bericht.',
+	'DRAFT_LOADED_PM'			=> 'Concept in tekstveld geladen, je kunt nu je privébericht afmaken.<br>Je concept zal verwijderd worden na het versturen van dit privébericht.',
 	'DRAFT_SAVED'				=> 'Concept succesvol opgeslagen.',
 	'DRAFT_TITLE'				=> 'Concepttitel',
 
@@ -189,8 +189,8 @@ $lang = array_merge($lang, array(
 
 	'PARTIAL_UPLOAD'			=> 'Het geüploade bestand is slechts gedeeltelijk geüpload.',
 	'PHP_UPLOAD_STOPPED'		=> 'Het uploaden is gestopt door een PHP-extensie.',
-	'PHP_SIZE_NA'				=> 'De bestandsgrootte van de bijlage is te groot.<br />Kan de maximum grootte opgegeven door PHP in php.ini niet bepalen.',
-	'PHP_SIZE_OVERRUN'			=> 'De bestandsgrootte van de bijlage is te groot, de maximum uploadgrootte is %1$d %2$s.<br />Dit is ingesteld in php.ini en kan niet worden overschreden.',
+	'PHP_SIZE_NA'				=> 'De bestandsgrootte van de bijlage is te groot.<br>Kan de maximum grootte opgegeven door PHP in php.ini niet bepalen.',
+	'PHP_SIZE_OVERRUN'			=> 'De bestandsgrootte van de bijlage is te groot, de maximum uploadgrootte is %1$d %2$s.<br>Dit is ingesteld in php.ini en kan niet worden overschreden.',
 	'PLACE_INLINE'				=> 'Plaats in tekst',
 	'POLL_DELETE'				=> 'Verwijder peiling',
 	'POLL_FOR'					=> 'Peiling loopt voor',
@@ -267,8 +267,8 @@ $lang = array_merge($lang, array(
 	'TOPIC_BUMPED'				=> 'Onderwerp is succesvol omhoog gehaald.',
 
 	'UNAUTHORISED_BBCODE'		=> 'Je kunt de volgende BBCodes niet gebruiken: %s.',
-	'UNSUPPORTED_CHARACTERS_MESSAGE' => 'Je bericht bevat de volgende tekens die niet worden ondersteund:<br />%s',
-	'UNSUPPORTED_CHARACTERS_SUBJECT' => 'Je onderwerp bevat de volgende tekens die niet worden ondersteund:<br />%s',
+	'UNSUPPORTED_CHARACTERS_MESSAGE' => 'Je bericht bevat de volgende tekens die niet worden ondersteund:<br>%s',
+	'UNSUPPORTED_CHARACTERS_SUBJECT' => 'Je onderwerp bevat de volgende tekens die niet worden ondersteund:<br>%s',
 	'UPDATE_COMMENT'			=> 'Werk reactie bij',
 	'URL_INVALID'				=> 'De URL die je hebt gespecificeerd is ongeldig.',
 	'URL_NOT_FOUND'				=> 'Het gespecificeerde bestand kan niet gevonden worden.',

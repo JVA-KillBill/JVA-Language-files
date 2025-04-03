@@ -35,7 +35,7 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 //
 // Some characters you may want to copy&paste:
-// ’ « » “ ” …
+// ’ « » “ ” …
 //
 
 $lang = array_merge($lang, array(
@@ -60,8 +60,8 @@ $lang = array_merge($lang, array(
 	'GROUP_COLOR'					=> 'Couleur du groupe',
 	'GROUP_COLOR_EXPLAIN'			=> 'Définit la couleur utilisée pour afficher le nom d’utilisateur des membres du groupe, laissez à vide pour conserver les paramètres par défaut du membre.',
 	'GROUP_CONFIRM_ADD_USERS'		=> array(
-		1	=> 'Êtes-vous sûr de vouloir ajouter le membre %2$s à ce groupe ?',
-		2	=> 'Êtes-vous sûr de vouloir ajouter les membres %2$s à ce groupe ?',
+		1	=> 'Êtes-vous sûr de vouloir ajouter le membre %2$s à ce groupe ?',
+		2	=> 'Êtes-vous sûr de vouloir ajouter les membres %2$s à ce groupe ?',
 	),
 	'GROUP_CREATED'					=> 'Le groupe a été créé.',
 	'GROUP_DEFAULT'					=> 'Définir comme groupe par défaut',
@@ -83,9 +83,9 @@ $lang = array_merge($lang, array(
 	'GROUP_LIST'					=> 'Membres actuels',
 	'GROUP_LIST_EXPLAIN'			=> 'Voici la liste complète de tous les membres actuels de ce groupe. Vous pouvez retirer ces membres (excepté dans certains groupes spéciaux) ou en ajouter de nouveaux.',
 	'GROUP_MEMBERS'					=> 'Membres du groupe',
-	'GROUP_MEMBERS_EXPLAIN'			=> 'Voici la liste complète de tous les membres de ce groupe. Ils sont regroupés en trois catégories : chefs de groupe, membres approuvés et membres en attente. Vous pouvez gérer tous les paramètres des membres de ce groupe ainsi que leurs rôles. Pour rétrograder un chef de groupe mais le conserver dans le groupe, utilisez « Rétrograder » et non « Retirer ». De la même manière, utilisez « Promouvoir » pour passer un membre existant en chef de groupe.',
+	'GROUP_MEMBERS_EXPLAIN'			=> 'Voici la liste complète de tous les membres de ce groupe. Ils sont regroupés en trois catégories : chefs de groupe, membres approuvés et membres en attente. Vous pouvez gérer tous les paramètres des membres de ce groupe ainsi que leurs rôles. Pour rétrograder un chef de groupe mais le conserver dans le groupe, utilisez « Rétrograder » et non « Retirer ». De la même manière, utilisez « Promouvoir » pour passer un membre existant en chef de groupe.',
 	'GROUP_MESSAGE_LIMIT'			=> 'Limite de messages privés par dossier pour le groupe',
-	'GROUP_MESSAGE_LIMIT_EXPLAIN'	=> 'Ce paramètre annulera la limite des messages par dossier des membres.<br>Ce maximum détermine la valeur limite pour tous les groupes du membre.<br>Définir cette valeur à « 0 » pour remplacer le paramètre de tous les membres de ce groupe par celui défini globalement au niveau du forum.',
+	'GROUP_MESSAGE_LIMIT_EXPLAIN'	=> 'Ce paramètre annulera la limite des messages par dossier des membres.<br>Ce maximum détermine la valeur limite pour tous les groupes du membre.<br>Définir cette valeur à « 0 » pour remplacer le paramètre de tous les membres de ce groupe par celui défini globalement au niveau du forum.',
 	'GROUP_MODS_ADDED'				=> 'De nouveaux chefs de groupe ont été ajoutés.',
 	'GROUP_MODS_DEMOTED'			=> 'Un ou plusieurs chefs de groupe ont été rétrogradés.',
 	'GROUP_MODS_PROMOTED'			=> 'Un ou plusieurs membres ont été promu en chef de groupe.',
@@ -94,7 +94,7 @@ $lang = array_merge($lang, array(
 	'GROUP_OPEN'					=> 'Ouvert',
 	'GROUP_PENDING'					=> 'Membres en attente',
 	'GROUP_MAX_RECIPIENTS'			=> 'Nombre maximum de destinataires autorisés par message privé',
-	'GROUP_MAX_RECIPIENTS_EXPLAIN'	=> 'Définit le nombre maximum de destinataires autorisés par message privé.<br>Ce maximum détermine la valeur limite pour tous les groupes du membre.<br>Définir cette valeur à « 0 » pour remplacer le paramètre de tous les membres de ce groupe par celui défini globalement au niveau du forum.',
+	'GROUP_MAX_RECIPIENTS_EXPLAIN'	=> 'Définit le nombre maximum de destinataires autorisés par message privé.<br>Ce maximum détermine la valeur limite pour tous les groupes du membre.<br>Définir cette valeur à « 0 » pour remplacer le paramètre de tous les membres de ce groupe par celui défini globalement au niveau du forum.',
 	'GROUP_OPTIONS_SAVE'			=> 'Options du groupe',
 	'GROUP_PROMOTE'					=> 'Promouvoir en chef de groupe',
 	'GROUP_RANK'					=> 'Rang du groupe',
@@ -105,7 +105,7 @@ $lang = array_merge($lang, array(
 	'GROUP_SKIP_AUTH'				=> 'Exempte le chef de groupe des permissions',
 	'GROUP_SKIP_AUTH_EXPLAIN'		=> 'Si activé, le chef de groupe n’héritera pas des permissions de ce groupe.',
 	'GROUP_SPECIAL'					=> 'Prédéfinis',
-	'GROUP_TEAMPAGE'				=> 'Afficher le groupe sur la page « l’équipe du forum »',
+	'GROUP_TEAMPAGE'				=> 'Afficher le groupe sur la page « l’équipe du forum »',
 	'GROUP_TYPE'					=> 'Type du groupe',
 	'GROUP_TYPE_EXPLAIN'			=> 'Cela détermine quels membres peuvent rejoindre ou voir ce groupe.',
 	'GROUP_UPDATED'					=> 'Les préférences du groupe ont été mises à jour.',
@@ -113,15 +113,15 @@ $lang = array_merge($lang, array(
 	'GROUP_USERS_ADDED'				=> 'Des membres ont été ajoutés au groupe.',
 	'GROUP_USERS_EXIST'				=> 'Les membres sélectionnés font déjà partie de ce groupe.',
 	'GROUP_USERS_REMOVE'			=> 'Un ou plusieurs membres ont été retirés du groupe et de nouveaux paramètres par défaut ont été définis.',
-	'GROUP_USERS_INVALID'			=> 'Aucun membre n’a été ajouté dans le groupe car les noms d’utilisateurs suivants n’existent pas : %s',
+	'GROUP_USERS_INVALID'			=> 'Aucun membre n’a été ajouté dans le groupe car les noms d’utilisateurs suivants n’existent pas : %s',
 
-	'LEGEND_EXPLAIN'				=> 'Ces groupes seront affichés dans la légende des groupes :',
+	'LEGEND_EXPLAIN'				=> 'Ces groupes seront affichés dans la légende des groupes :',
 	'LEGEND_SETTINGS'				=> 'Paramètres de la légende',
 	'LEGEND_SORT_GROUPNAME'			=> 'Trier la légende selon les noms de groupes',
 	'LEGEND_SORT_GROUPNAME_EXPLAIN'	=> 'Si cette option est activée, l’ordre des groupes défini ci-dessous sera ignoré.',
 
 	'MANAGE_LEGEND'			=> 'Gérer la légende des groupes',
-	'MANAGE_TEAMPAGE'		=> 'Gérer la page « l’équipe du forum »',
+	'MANAGE_TEAMPAGE'		=> 'Gérer la page « l’équipe du forum »',
 	'MAKE_DEFAULT_FOR_ALL'	=> 'Définir comme groupe par défaut pour tous les membres',
 	'MEMBERS'				=> 'Membres',
 
@@ -143,11 +143,11 @@ $lang = array_merge($lang, array(
 	'TEAMPAGE_DISP_ALL'			=> 'Toutes les adhésions de groupe',
 	'TEAMPAGE_DISP_DEFAULT'		=> 'Uniquement le groupe par défaut du membre',
 	'TEAMPAGE_DISP_FIRST'		=> 'Uniquement la première adhésion de groupe',
-	'TEAMPAGE_EXPLAIN'			=> 'Ces groupes seront affichés dans la page « l’équipe du forum » :',
+	'TEAMPAGE_EXPLAIN'			=> 'Ces groupes seront affichés dans la page « l’équipe du forum » :',
 	'TEAMPAGE_FORUMS'			=> 'Afficher les forums modérés',
-	'TEAMPAGE_FORUMS_EXPLAIN'	=> 'Si défini à « Oui », chaque modérateur aura sur sa ligne la liste complète de tous les forums sur lesquels il a des permissions. Pour des forums volumineux, cette option risque de solliciter intensivement la base de données.',
+	'TEAMPAGE_FORUMS_EXPLAIN'	=> 'Si défini à « Oui », chaque modérateur aura sur sa ligne la liste complète de tous les forums sur lesquels il a des permissions. Pour des forums volumineux, cette option risque de solliciter intensivement la base de données.',
 	'TEAMPAGE_MEMBERSHIPS'		=> 'Afficher les adhésions de groupe du membre',
-	'TEAMPAGE_SETTINGS'			=> 'Paramètres de la page « L’équipe du forum »',
+	'TEAMPAGE_SETTINGS'			=> 'Paramètres de la page « L’équipe du forum »',
 	'TOTAL_MEMBERS'				=> 'Membres',
 
 	'USERS_APPROVED'				=> 'Un ou plusieurs membres ont été approuvés.',
@@ -155,6 +155,6 @@ $lang = array_merge($lang, array(
 	'USER_DEF_GROUPS'				=> 'Groupes personnalisés',
 	'USER_DEF_GROUPS_EXPLAIN'		=> 'Ce sont des groupes créés par vous ou un autre administrateur du forum. Vous pouvez y gérer les membres, ainsi que modifier les propriétés du groupe ou même supprimer le groupe.',
 	'USER_GROUP_DEFAULT'			=> 'Définir comme groupe par défaut',
-	'USER_GROUP_DEFAULT_EXPLAIN'	=> 'Si « Oui », ce groupe sera défini en tant que groupe par défaut pour tous les membres ajoutés.',
+	'USER_GROUP_DEFAULT_EXPLAIN'	=> 'Si « Oui », ce groupe sera défini en tant que groupe par défaut pour tous les membres ajoutés.',
 	'USER_GROUP_LEADER'				=> 'Définir comme chef de groupe',
 ));

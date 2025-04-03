@@ -2,10 +2,10 @@ Subject: Nouveau message privé
 
 Bonjour {USERNAME},
 
-Vous avez reçu un nouveau message privé de « {AUTHOR_NAME} » sur « {SITENAME} » ayant pour objet :
+Vous avez reçu un nouveau message privé de « {AUTHOR_NAME} » sur « {SITENAME} » ayant pour objet :
 {SUBJECT}
 
-Vous pouvez consulter votre nouveau message en cliquant sur le lien suivant :
+Vous pouvez consulter votre nouveau message en cliquant sur le lien suivant :
 
 {U_VIEW_MESSAGE}
 

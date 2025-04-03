@@ -1,34 +1,34 @@
-Subject: Bienvenue sur « {SITENAME} »
+Subject: Bienvenue sur « {SITENAME} »
 
 {WELCOME_MSG}
 
 Conformément à la COPPA, votre compte est actuellement inactif.
 
-Imprimez ce message et faites-le signer et dater par vos parents ou vos tuteurs. Puis, faxez-le à :
+Imprimez ce message et faites-le signer et dater par vos parents ou vos tuteurs. Puis, faxez-le à :
 
 {FAX_INFO}
 
-Ou envoyez-le à l’adresse courriel suivante :
+Ou envoyez-le à l’adresse courriel suivante :
 
 {MAIL_INFO}
 
 ------------------------------ DÉCOUPEZ ICI ------------------------------
-Autorisation de participer à « {SITENAME} » - {U_BOARD}
+Autorisation de participer à « {SITENAME} » - {U_BOARD}
 
-Nom d’utilisateur : {USERNAME}
-Adresse courriel : {EMAIL_ADDRESS}
+Nom d’utilisateur : {USERNAME}
+Adresse courriel : {EMAIL_ADDRESS}
 
-J’AI VÉRIFIÉ LES INFORMATIONS FOURNIES PAR MON ENFANT ET ACCORDE L’AUTORISATION À « {SITENAME} » DE STOCKER CES INFORMATIONS.
+J’AI VÉRIFIÉ LES INFORMATIONS FOURNIES PAR MON ENFANT ET ACCORDE L’AUTORISATION À « {SITENAME} » DE STOCKER CES INFORMATIONS.
 JE COMPRENDS QUE CES INFORMATIONS PEUVENT ÊTRE MODIFIÉES À TOUT MOMENT EN SAISISSANT UN MOT DE PASSE.
-JE COMPRENDS QUE JE PEUX DEMANDER LE RETRAIT DE CES INFORMATIONS À « {SITENAME} » À TOUT MOMENT.
+JE COMPRENDS QUE JE PEUX DEMANDER LE RETRAIT DE CES INFORMATIONS À « {SITENAME} » À TOUT MOMENT.
 
 
 Parent ou tuteur
-(Inscrivez votre nom ici) : _____________________
+(Inscrivez votre nom ici) : _____________________
 
-(Signez ici) : __________________
+(Signez ici) : __________________
 
-Date : _______________
+Date : _______________
 
 ------------------------------ DÉCOUPEZ ICI ------------------------------
 

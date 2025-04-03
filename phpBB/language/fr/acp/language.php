@@ -35,22 +35,22 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 //
 // Some characters you may want to copy&paste:
-// ’ « » “ ” …
+// ’ « » “ ” …
 //
 
 $lang = array_merge($lang, array(
 	'ACP_FILES'						=> 'Fichiers de langue de l’administration',
 	'ACP_LANGUAGE_PACKS_EXPLAIN'	=> 'Vous pouvez installer/supprimer des packs de langue. Le pack de langue par défaut est marqué d’un astérisque (*).',
 
-	'DELETE_LANGUAGE_CONFIRM'		=> 'Êtes-vous sûr de vouloir supprimer « %s » ?',
+	'DELETE_LANGUAGE_CONFIRM'		=> 'Êtes-vous sûr de vouloir supprimer « %s » ?',
 
 	'INSTALLED_LANGUAGE_PACKS'		=> 'Packs de langue installés',
 
 	'LANGUAGE_DETAILS_UPDATED'			=> 'Informations de langue mises à jour.',
 	'LANGUAGE_PACK_ALREADY_INSTALLED'	=> 'Ce pack de langue est déjà installé.',
-	'LANGUAGE_PACK_DELETED'				=> 'Le pack de langue « %s » a été supprimé. La langue paramétrée pour les membres qui utilisaient ce pack est désormais la langue par défaut du forum.',
+	'LANGUAGE_PACK_DELETED'				=> 'Le pack de langue « %s » a été supprimé. La langue paramétrée pour les membres qui utilisaient ce pack est désormais la langue par défaut du forum.',
 	'LANGUAGE_PACK_DETAILS'				=> 'Informations du pack de langue',
-	'LANGUAGE_PACK_INSTALLED'			=> 'Le pack de langue « %s » a été installé.',
+	'LANGUAGE_PACK_INSTALLED'			=> 'Le pack de langue « %s » a été installé.',
 	'LANGUAGE_PACK_CPF_UPDATE'			=> 'Les chaînes de caractères pour la langue des champs de profil personnalisés ont été copiées depuis la langue par défaut. Modifiez-les si nécessaire.',
 	'LANGUAGE_PACK_ISO'					=> 'ISO',
 	'LANGUAGE_PACK_LOCALNAME'			=> 'Nom local',
@@ -71,8 +71,8 @@ $lang = array_merge($lang, array(
 	'NO_REMOVE_DEFAULT_LANG'		=> 'Vous ne pouvez pas supprimer le pack de langue par défaut.<br>Si vous voulez supprimer ce pack, changez d’abord la langue par défaut du forum.',
 	'NO_UNINSTALLED_LANGUAGE_PACKS'	=> 'Aucun pack de langue installé',
 
-	'THOSE_MISSING_LANG_FILES'			=> 'Les fichiers de langue suivants sont absents du répertoire de langue « %s »',
-	'THOSE_MISSING_LANG_VARIABLES'		=> 'Les variables de langue suivantes sont absentes du pack « %s »',
+	'THOSE_MISSING_LANG_FILES'			=> 'Les fichiers de langue suivants sont absents du répertoire de langue « %s »',
+	'THOSE_MISSING_LANG_VARIABLES'		=> 'Les variables de langue suivantes sont absentes du pack « %s »',
 
 	'UNINSTALLED_LANGUAGE_PACKS'	=> 'Packs non installés',
 

@@ -35,12 +35,12 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 //
 // Some characters you may want to copy&paste:
-// ’ « » “ ” …
+// ’ « » “ ” …
 //
 
 // Email settings
 $lang = array_merge($lang, array(
-	'ACP_MASS_EMAIL_EXPLAIN'		=> 'Vous pouvez envoyer un courriel à tous vos membres ayant activé l’option « Recevoir les courriels des administrateurs », individuellement ou aux membres d’un groupe en particulier. Pour cela, un courriel sera envoyé depuis l’adresse administrative et tous les destinataires seront en copie cachée. Par défaut, un courriel est limité à 20 destinataires ; au-delà de ce nombre et pour chaque tranche de 20 destinataires un nouveau courriel sera émis. Si vous envoyez le message à un grand groupe de personnes, veuillez patienter après avoir validé et de ne pas arrêter la page lors du traitement. Il est normal qu’un envoi de masse prenne du temps, vous serez informé lorsque le script sera terminé',
+	'ACP_MASS_EMAIL_EXPLAIN'		=> 'Vous pouvez envoyer un courriel à tous vos membres ayant activé l’option « Recevoir les courriels des administrateurs », individuellement ou aux membres d’un groupe en particulier. Pour cela, un courriel sera envoyé depuis l’adresse administrative et tous les destinataires seront en copie cachée. Par défaut, un courriel est limité à 20 destinataires ; au-delà de ce nombre et pour chaque tranche de 20 destinataires un nouveau courriel sera émis. Si vous envoyez le message à un grand groupe de personnes, veuillez patienter après avoir validé et de ne pas arrêter la page lors du traitement. Il est normal qu’un envoi de masse prenne du temps, vous serez informé lorsque le script sera terminé',
 	'ALL_USERS'						=> 'Tous les membres',
 
 	'COMPOSE'				=> 'Écrire',

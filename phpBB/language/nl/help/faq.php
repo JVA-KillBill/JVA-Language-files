@@ -48,7 +48,7 @@ $lang = array_merge($lang, array(
 	'HELP_FAQ_BOOKMARKS_FORUM_QUESTION'	=> 'Hoe kan ik een bladwijzer of abonnement instellen op specifieke forums?',
 	'HELP_FAQ_BOOKMARKS_REMOVE_ANSWER'	=> 'Om je abonnement op te zeggen, ga je naar het gebruikerspaneel en klik je op de hier voor dienende links.',
 	'HELP_FAQ_BOOKMARKS_REMOVE_QUESTION'	=> 'Hoe zeg ik mijn abonnement op?',
-	'HELP_FAQ_BOOKMARKS_TOPIC_ANSWER'	=> 'Je kunt op de pagina van het onderwerp in het menu “Onderwerp gereedschap” een bladwijzer of abonnement instellen. Dit menu is zowel boven- als onderaan de pagina te vinden. <br />Het is ook mogelijk te abonneren op het onderwerp door bij het reageren de optie “Informeer me wanneer een reactie is geplaatst” aan te vinken.',
+	'HELP_FAQ_BOOKMARKS_TOPIC_ANSWER'	=> 'Je kunt op de pagina van het onderwerp in het menu “Onderwerp gereedschap” een bladwijzer of abonnement instellen. Dit menu is zowel boven- als onderaan de pagina te vinden. <br>Het is ook mogelijk te abonneren op het onderwerp door bij het reageren de optie “Informeer me wanneer een reactie is geplaatst” aan te vinken.',
 	'HELP_FAQ_BOOKMARKS_TOPIC_QUESTION'	=> 'Hoe kan ik een bladwijzer of abonnement instellen op specifieke onderwerpen?',
 
 	'HELP_FAQ_FORMATTING_ANNOUNCEMENT_ANSWER'	=> 'Mededelingen bevatten vaak belangrijke informatie over het forum dat je aan het lezen bent, je kunt deze berichten dan ook het best zo snel mogelijk lezen. Mededelingen verschijnen bovenaan iedere pagina van het forum waarin ze geplaatst zijn. Zoals bij globale mededelingen, hangt het van de vereiste permissies af of je wel of niet mededelingen kan plaatsen. De benodigde permissies zijn bepaald door een beheerder.',
@@ -92,7 +92,7 @@ $lang = array_merge($lang, array(
 	'HELP_FAQ_GROUPS_USERGROUPS_LEAD_QUESTION'	=> 'Hoe word ik een groepsleider?',
 	'HELP_FAQ_GROUPS_USERGROUPS_QUESTION'	=> 'Wat zijn gebruikersgroepen?',
 
-	'HELP_FAQ_ISSUES_ADMIN_ANSWER'	=> 'Alle gebruikers van het forum kunnen gebruik maken van het “Contact”-formulier als deze optie is ingeschakeld door de beheerders.<br />Leden van het forum kunnen ook gebruik maken van de “Het Team”-link.',
+	'HELP_FAQ_ISSUES_ADMIN_ANSWER'	=> 'Alle gebruikers van het forum kunnen gebruik maken van het “Contact”-formulier als deze optie is ingeschakeld door de beheerders.<br>Leden van het forum kunnen ook gebruik maken van de “Het Team”-link.',
 	'HELP_FAQ_ISSUES_ADMIN_QUESTION'	=> 'Hoe neem ik contact op met een beheerder?',
 	'HELP_FAQ_ISSUES_FEATURE_ANSWER'	=> 'Deze software is geschreven en eigendom van de phpBB-Groep. Als je denkt dat een bepaalde optie toegevoegd moet worden, bezoek dan de <a href="https://www.phpbb.com/ideas/">phpBB Ideeën sectie</a>.',
 	'HELP_FAQ_ISSUES_FEATURE_QUESTION'	=> 'Waarom is de optie X niet beschikbaar?',
@@ -158,7 +158,7 @@ $lang = array_merge($lang, array(
 	'HELP_FAQ_SEARCH_BLANK_QUESTION'	=> 'Waarom resulteert mijn zoekopdracht in een lege pagina?',
 	'HELP_FAQ_SEARCH_FORUM_ANSWER'	=> 'Door een zoekterm op te geven in het zoekveld, die je vindt op de index-, forum- en onderwerppagina. Uitgebreid zoeken is mogelijk door op de "zoeken" link te klikken, deze vind je op iedere pagina.',
 	'HELP_FAQ_SEARCH_FORUM_QUESTION'	=> 'Hoe doorzoek ik het forum?',
-	'HELP_FAQ_SEARCH_MEMBERS_ANSWER'	=> 'Ga naar de ledenlijst pagina en klik op de "zoek een lid" link. Op die pagina, vul je de voor zichzelf sprekende opties in.',
+	'HELP_FAQ_SEARCH_MEMBERS_ANSWER'	=> 'Ga naar de "leden" pagina en klik op de "zoek een lid" link. Op die pagina, vul je de voor zichzelf sprekende opties in.',
 	'HELP_FAQ_SEARCH_MEMBERS_QUESTION'	=> 'Hoe zoek ik een gebruiker?',
 	'HELP_FAQ_SEARCH_NO_RESULT_ANSWER'	=> 'Je zoekterm was hoogstwaarschijnlijk niet specifiek genoeg en bevatte mogelijk teveel termen die niet door phpBB3 geïndexeerd worden. Wees specifieker en gebruik, bij uitgebreid zoeken, de beschikbare opties.',
 	'HELP_FAQ_SEARCH_NO_RESULT_QUESTION'	=> 'Waarom levert mijn zoekopdracht geen resultaten op?',

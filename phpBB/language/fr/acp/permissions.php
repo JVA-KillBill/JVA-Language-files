@@ -35,12 +35,12 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 //
 // Some characters you may want to copy&paste:
-// ’ « » “ ” …
+// ’ « » “ ” …
 //
 
 $lang = array_merge($lang, array(
 	'ACP_PERMISSIONS_EXPLAIN'	=> '
-		<p>Les permissions sont très nombreuses et regroupées en quatre grandes sections qui sont :</p>
+		<p>Les permissions sont très nombreuses et regroupées en quatre grandes sections qui sont :</p>
 
 		<h2>Permissions globales</h2>
 		<p>Elles sont utilisées pour contrôler l’accès de façon globale et sont appliquées à l’ensemble du forum. Elles sont elles-mêmes divisées en permissions des utilisateurs, groupes, administrateurs et modérateurs globaux.</p>
@@ -86,7 +86,7 @@ $lang = array_merge($lang, array(
 	'ACP_FORUM_PERMISSIONS_COPY_EXPLAIN'		=> 'Vous pouvez copier les permissions d’un forum vers d’autres forums.',
 	'ACP_GLOBAL_MODERATORS_EXPLAIN'				=> 'Vous pouvez attribuer les droits de modérateur global aux utilisateurs ou aux groupes. Ces modérateurs sont des modérateurs ordinaires excepté qu’ils ont accès à tous les forums.',
 	'ACP_GROUPS_FORUM_PERMISSIONS_EXPLAIN'		=> 'Vous pouvez attribuer les permissions des forums aux groupes.',
-	'ACP_GROUPS_PERMISSIONS_EXPLAIN'			=> 'Vous pouvez attribuer des permissions globales aux groupes - permissions d’utilisateur, de modérateur global et d’administrateur. Les permissions d’utilisateur incluent des possibilités telles que : l’utilisation d’un avatar, l’envoi de messages privés, etc. Les permissions de modérateur global permettent, entre autres, l’approbation des messages, la gestion des sujets, la gestion des bannissements, etc. Enfin, les permissions d’administrateur autorisent la modification de permissions, la gestion des BBCodes personnalisés, la gestion des forums, etc. Les permissions individuelles des utilisateurs ne doivent être modifiées que dans de rares occasions, la méthode appropriée étant l’intégration d’utilisateurs dans des groupes puis l’attribution de permissions à ces mêmes groupes.',
+	'ACP_GROUPS_PERMISSIONS_EXPLAIN'			=> 'Vous pouvez attribuer des permissions globales aux groupes - permissions d’utilisateur, de modérateur global et d’administrateur. Les permissions d’utilisateur incluent des possibilités telles que : l’utilisation d’un avatar, l’envoi de messages privés, etc. Les permissions de modérateur global permettent, entre autres, l’approbation des messages, la gestion des sujets, la gestion des bannissements, etc. Enfin, les permissions d’administrateur autorisent la modification de permissions, la gestion des BBCodes personnalisés, la gestion des forums, etc. Les permissions individuelles des utilisateurs ne doivent être modifiées que dans de rares occasions, la méthode appropriée étant l’intégration d’utilisateurs dans des groupes puis l’attribution de permissions à ces mêmes groupes.',
 	'ACP_ADMIN_ROLES_EXPLAIN'					=> 'Vous pouvez gérer les modèles des permissions des administrateurs. Les modèles sont des permissions effectives. Si vous modifiez un modèle, les éléments auxquels ce modèle était assigné verront aussi leurs permissions modifiées.',
 	'ACP_FORUM_ROLES_EXPLAIN'					=> 'Vous pouvez gérer les modèles des permissions des forums. Les modèles sont des permissions effectives. Si vous modifiez un modèle, les éléments auxquels ce modèle était assigné verront leurs permissions modifiées aussi.',
 	'ACP_MOD_ROLES_EXPLAIN'						=> 'Vous pouvez gérer les modèles des permissions des modérateurs. Les modèles sont des permissions effectives. Si vous modifiez un modèle, les éléments auxquels ce modèle était assigné verront leurs permissions modifiées aussi.',
@@ -113,7 +113,7 @@ $lang = array_merge($lang, array(
 	'APPLY_PERMISSIONS_EXPLAIN'	=> 'Les permissions et modèles définis pour cet élément seront appliqués uniquement à cet élément et à tous les éléments cochés.',
 	'AUTH_UPDATED'				=> 'Les permissions ont été mises à jour.',
 
-	'COPY_PERMISSIONS_CONFIRM'				=> 'Êtes-vous sûr de vouloir effectuer cette opération ? Attention, les permissions existantes des cibles sélectionnées seront remplacées.',
+	'COPY_PERMISSIONS_CONFIRM'				=> 'Êtes-vous sûr de vouloir effectuer cette opération ? Attention, les permissions existantes des cibles sélectionnées seront remplacées.',
 	'COPY_PERMISSIONS_FORUM_FROM_EXPLAIN'	=> 'Le forum source dont vous copiez les permissions.',
 	'COPY_PERMISSIONS_FORUM_TO_EXPLAIN'		=> 'Les forums de destination auxquels vous voulez que les permissions copiées s’appliquent.',
 	'COPY_PERMISSIONS_FROM'					=> 'Copier les permissions de',
@@ -125,7 +125,7 @@ $lang = array_merge($lang, array(
 
 	'DEFAULT'					=> 'Défaut',
 	'DELETE_ROLE'				=> 'Supprimer le modèle',
-	'DELETE_ROLE_CONFIRM'		=> 'Êtes-vous sûr de vouloir supprimer ce modèle ? Les éléments auxquels ce modèle est assigné <strong>ne</strong> perdront <strong>pas</strong> leurs paramètres de permission.',
+	'DELETE_ROLE_CONFIRM'		=> 'Êtes-vous sûr de vouloir supprimer ce modèle ? Les éléments auxquels ce modèle est assigné <strong>ne</strong> perdront <strong>pas</strong> leurs paramètres de permission.',
 	'DISPLAY_ROLE_ITEMS'		=> 'Voir les éléments utilisant ce modèle',
 
 	'EDIT_PERMISSIONS'			=> 'Modifier les permissions',
@@ -141,7 +141,7 @@ $lang = array_merge($lang, array(
 
 	'NO_AUTH_SETTING_FOUND'		=> 'Paramètres de permission non définis.',
 	'NO_ROLE_ASSIGNED'			=> 'Aucun modèle assigné…',
-	'NO_ROLE_ASSIGNED_EXPLAIN'	=> 'La configuration de ce modèle ne modifie pas les permissions sur la droite. Si vous souhaitez supprimer toutes les permissions, vous devez utiliser le lien « Tous sur <strong>NON</strong> ».',
+	'NO_ROLE_ASSIGNED_EXPLAIN'	=> 'La configuration de ce modèle ne modifie pas les permissions sur la droite. Si vous souhaitez supprimer toutes les permissions, vous devez utiliser le lien « Tous sur <strong>NON</strong> ».',
 	'NO_ROLE_AVAILABLE'			=> 'Aucun modèle disponible',
 	'NO_ROLE_NAME_SPECIFIED'	=> 'Merci de donner un nom au modèle.',
 	'NO_ROLE_SELECTED'			=> 'Le modèle n’a pas été trouvé.',
@@ -157,7 +157,7 @@ $lang = array_merge($lang, array(
 	'RESULTING_PERMISSION'			=> 'Permission résultante',
 	'ROLE'							=> 'Modèle',
 	'ROLE_ADD_SUCCESS'				=> 'Le modèle a été ajouté.',
-	'ROLE_ASSIGNED_TO'				=> 'Membres/groupes assignés à « %s »',
+	'ROLE_ASSIGNED_TO'				=> 'Membres/groupes assignés à « %s »',
 	'ROLE_DELETED'					=> 'Le modèle a été supprimé.',
 	'ROLE_DESCRIPTION'				=> 'Description du modèle',
 
@@ -189,14 +189,14 @@ $lang = array_merge($lang, array(
 	'ROLE_DESCRIPTION_ADMIN_FORUM'			=> 'Peut accéder à la gestion et à la configuration des permissions du forum.',
 	'ROLE_DESCRIPTION_ADMIN_FULL'			=> 'A accès à toutes les fonctions administratives du forum.<br>Non recommandé.',
 	'ROLE_DESCRIPTION_ADMIN_STANDARD'		=> 'A accès à la plupart des fonctionnalités administratives mais ne peut pas utiliser le serveur ou les outils relatifs au système.',
-	'ROLE_DESCRIPTION_ADMIN_USERGROUP'		=> 'Peut gérer des groupes et des membres : est autorisé à modifier les permissions, les paramètres, à gérer les bannissements et les rangs.',
+	'ROLE_DESCRIPTION_ADMIN_USERGROUP'		=> 'Peut gérer des groupes et des membres : est autorisé à modifier les permissions, les paramètres, à gérer les bannissements et les rangs.',
 	'ROLE_DESCRIPTION_FORUM_BOT'			=> 'Ce modèle est recommandé pour les robots et moteurs de recherche.',
 	'ROLE_DESCRIPTION_FORUM_FULL'			=> 'Peut utiliser toutes les fonctionnalités du forum, y compris les annonces et les sujets épinglés. N’est pas concerné par la limite de flood.<br>Non recommandé pour les utilisateurs standard.',
 	'ROLE_DESCRIPTION_FORUM_LIMITED'		=> 'Peut utiliser quelques fonctionnalités du forum, mais ne peut pas joindre de fichiers ou utiliser les icônes de messages.',
-	'ROLE_DESCRIPTION_FORUM_LIMITED_POLLS'	=> 'Comme le modèle « accès limité » mais peut aussi créer des sondages.',
+	'ROLE_DESCRIPTION_FORUM_LIMITED_POLLS'	=> 'Comme le modèle « accès limité » mais peut aussi créer des sondages.',
 	'ROLE_DESCRIPTION_FORUM_NOACCESS'		=> 'Ne peut ni voir ni accéder au forum.',
 	'ROLE_DESCRIPTION_FORUM_ONQUEUE'		=> 'Peut utiliser la plupart des fonctionnalités du forum y compris les fichiers joints, mais les messages et les sujets doivent être approuvés par un modérateur.',
-	'ROLE_DESCRIPTION_FORUM_POLLS'			=> 'Comme le modèle « accès standard » mais peut aussi créer des sondages.',
+	'ROLE_DESCRIPTION_FORUM_POLLS'			=> 'Comme le modèle « accès standard » mais peut aussi créer des sondages.',
 	'ROLE_DESCRIPTION_FORUM_READONLY'		=> 'Peut lire le forum, mais ne peut pas créer de nouveaux sujets ou répondre aux messages.',
 	'ROLE_DESCRIPTION_FORUM_STANDARD'		=> 'Peut utiliser la plupart des fonctionnalités du forum y compris les fichiers joints, mais ne peut pas verrouiller ou supprimer ses propres sujets, ni créer de sondages.',
 	'ROLE_DESCRIPTION_FORUM_NEW_MEMBER'		=> 'Un modèle pour les membres du groupe prédéfini nouveaux utilisateurs enregistrés, contient les permissions <strong>JAMAIS</strong> pour verrouiller les fonctionnalités aux nouveaux utilisateurs.',

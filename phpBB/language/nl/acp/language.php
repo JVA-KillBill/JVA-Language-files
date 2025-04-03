@@ -66,7 +66,7 @@ $lang = array_merge($lang, array(
 
 	'NO_FILE_SELECTED'				=> 'Je hebt geen taalbestand gespecificeerd.',
 	'NO_LANG_ID'					=> 'Je hebt geen taalpakket gespecificeerd.',
-	'NO_REMOVE_DEFAULT_LANG'		=> 'Je kunt het standaard taalpakket niet verwijderen.<br />Als je dit taalpakket wil verwijderen moet je eerst de standaard forumtaal wijzigen.',
+	'NO_REMOVE_DEFAULT_LANG'		=> 'Je kunt het standaard taalpakket niet verwijderen.<br>Als je dit taalpakket wil verwijderen moet je eerst de standaard forumtaal wijzigen.',
 	'NO_UNINSTALLED_LANGUAGE_PACKS'	=> 'Er zijn geen niet-geïnstalleerde taalpakketten',
 
 	'THOSE_MISSING_LANG_FILES'			=> 'De volgende taalbestanden ontbreken in de “%s” taalmap',

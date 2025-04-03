@@ -52,7 +52,7 @@ $lang = array_merge($lang, [
 	'INHERITING_FROM'			=> 'Erft van',
 	'INSTALL_STYLE'				=> 'Installeer stijl',
 	'INSTALL_STYLES'			=> 'Installeer stijlen',
-	'INSTALL_STYLES_EXPLAIN'	=> 'Hier kun je nieuwe stijlen installeren.<br />Als je een bepaalde stijl niet in onderstaande lijst staat, controleer dan of de stijl al is geïnstalleerd. Als de stijl nog niet geïnstalleerd is, kijk dan of je hem op de goede manier hebt geüpload.',
+	'INSTALL_STYLES_EXPLAIN'	=> 'Hier kun je nieuwe stijlen installeren.<br>Als je een bepaalde stijl niet in onderstaande lijst staat, controleer dan of de stijl al is geïnstalleerd. Als de stijl nog niet geïnstalleerd is, kijk dan of je hem op de goede manier hebt geüpload.',
 	'INVALID_STYLE_ID'			=> 'Ongeldige stijl-ID.',
 
 	'NO_MATCHING_STYLES_FOUND'	=> 'Er komen geen stijlen overeen met je opdracht.',

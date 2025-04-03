@@ -62,7 +62,7 @@ $lang = array_merge($lang, array(
 	'RESTORE_FAILURE'		=> 'Het back-up bestand is mogelijk beschadigd.',
 	'RESTORE_OPTIONS'		=> 'Herstel instellingen',
 	'RESTORE_SELECTED_BACKUP'	=> 'Weet je zeker dat je de geselecteerde back-up wil herstellen?',
-	'RESTORE_SUCCESS'		=> 'De database is succesvol hersteld.<br /><br />Je forum zou nu weer in dezelfde staat moeten zijn als hij was op het moment dat de back-up werd gemaakt.',
+	'RESTORE_SUCCESS'		=> 'De database is succesvol hersteld.<br><br>Je forum zou nu weer in dezelfde staat moeten zijn als hij was op het moment dat de back-up werd gemaakt.',
 
 	'SELECT_ALL'			=> 'Selecteer alles',
 	'SELECT_FILE'			=> 'Selecteer een bestand',

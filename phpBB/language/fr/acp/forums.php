@@ -35,7 +35,7 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 //
 // Some characters you may want to copy&paste:
-// ’ « » “ ” …
+// ’ « » “ ” …
 //
 
 // Forum Admin
@@ -94,12 +94,12 @@ $lang = array_merge($lang, array(
 	'FORUM_IMAGE'						=> 'Image du forum',
 	'FORUM_IMAGE_EXPLAIN'				=> 'Emplacement, relatif au répertoire racine de phpBB, d’une image supplémentaire à associer à ce forum.',
 	'FORUM_IMAGE_NO_EXIST'				=> 'L’image spécifiée pour ce forum n’existe pas.',
-	'FORUM_LINK_EXPLAIN'				=> 'URL complète (incluant le protocole, exemple <samp>http://</samp> ) vers laquelle l’utilisateur sera redirigé en cliquant sur ce forum. Par exemple : <samp>http://www.phpbb-fr.com/</samp>.',
+	'FORUM_LINK_EXPLAIN'				=> 'URL complète (incluant le protocole, exemple <samp>http://</samp> ) vers laquelle l’utilisateur sera redirigé en cliquant sur ce forum. Par exemple : <samp>http://www.phpbb-fr.com/</samp>.',
 	'FORUM_LINK_TRACK'					=> 'Compter les redirections',
 	'FORUM_LINK_TRACK_EXPLAIN'			=> 'Enregistre le nombre de fois que le lien a été cliqué.',
 	'FORUM_NAME'						=> 'Nom du forum',
 	'FORUM_NAME_EMPTY'					=> 'Vous devez indiquer un nom pour le forum.',
-	'FORUM_NAME_EMOJI'					=> 'Le nom du forum que vous avez saisi n’est pas valide.<br>Les caractères suivants ne sont pas pris en charge :<br>%s',
+	'FORUM_NAME_EMOJI'					=> 'Le nom du forum que vous avez saisi n’est pas valide.<br>Les caractères suivants ne sont pas pris en charge :<br>%s',
 	'FORUM_PARENT'						=> 'Forum parent',
 	'FORUM_PASSWORD'					=> 'Mot de passe',
 	'FORUM_PASSWORD_CONFIRM'			=> 'Confirmation du mot de passe',
@@ -112,7 +112,7 @@ $lang = array_merge($lang, array(
 	'FORUM_PRUNE_SETTINGS'				=> 'Paramètres de délestage des forums',
 	'FORUM_PRUNE_SHADOW'				=> 'Activer l’auto-délestage des sujets-traceurs',
 	'FORUM_PRUNE_SHADOW_EXPLAIN'		=> 'Déleste le forum des sujets-traceurs selon la fréquence et l’ancienneté des messages définies ci-dessous.',
-	'FORUM_RESYNCED'					=> 'Le forum « %s » a été resynchronisé',
+	'FORUM_RESYNCED'					=> 'Le forum « %s » a été resynchronisé',
 	'FORUM_RULES_EXPLAIN'				=> 'Les règles du forum sont affichées sur chaque page du forum.',
 	'FORUM_RULES_LINK'					=> 'Lien vers les règles',
 	'FORUM_RULES_LINK_EXPLAIN'			=> 'Vous pouvez indiquer l’URL de la page ou du message contenant vos règles. Ce paramètre annulera tout texte de règles de forum que vous avez renseigné.',
@@ -122,7 +122,7 @@ $lang = array_merge($lang, array(
 	'FORUM_STATUS'						=> 'Statut du forum',
 	'FORUM_STYLE'						=> 'Style du forum',
 	'FORUM_TOPICS_PAGE'					=> 'Sujets par page',
-	'FORUM_TOPICS_PAGE_EXPLAIN'			=> 'Cette valeur (autre que « 0 ») annulera le paramètre par défaut des sujets par page.',
+	'FORUM_TOPICS_PAGE_EXPLAIN'			=> 'Cette valeur (autre que « 0 ») annulera le paramètre par défaut des sujets par page.',
 	'FORUM_TYPE'						=> 'Type du forum',
 	'FORUM_UPDATED'						=> 'Les informations du forum ont été mises à jour.',
 
@@ -132,11 +132,11 @@ $lang = array_merge($lang, array(
 
 	'LINK'						=> 'Lien',
 	'LIMIT_SUBFORUMS'			=> 'Limiter l’affichage dans la légende uniquement aux sous-forums directs',
-	'LIMIT_SUBFORUMS_EXPLAIN'	=> 'Limite l’affichage des sous-forums aux sous-forums qui sont des descendants directs (enfants) du forum actuel. En désactivant cette option cela affichera tous les sous-forums ayant l’option « Lister les sous-forums dans la légende » activée, peu importe la profondeur.',
+	'LIMIT_SUBFORUMS_EXPLAIN'	=> 'Limite l’affichage des sous-forums aux sous-forums qui sont des descendants directs (enfants) du forum actuel. En désactivant cette option cela affichera tous les sous-forums ayant l’option « Lister les sous-forums dans la légende » activée, peu importe la profondeur.',
 	'LIST_INDEX'				=> 'Lister le sous-forum dans la légende du forum parent',
-	'LIST_INDEX_EXPLAIN'		=> 'Si cette option est activée, ce forum sera listé sous la forme d’un lien dans la légende de tous ses forums parents ayant l’option « Lister les sous-forums dans la légende » activée.',
+	'LIST_INDEX_EXPLAIN'		=> 'Si cette option est activée, ce forum sera listé sous la forme d’un lien dans la légende de tous ses forums parents ayant l’option « Lister les sous-forums dans la légende » activée.',
 	'LIST_SUBFORUMS'			=> 'Lister les sous-forums dans la légende',
-	'LIST_SUBFORUMS_EXPLAIN'	=> 'Si cette option est activée, tous ses sous-forums, ayant l’option « Lister le sous-forum dans la légende du forum parent » activée, apparaîtront sous la forme d’un lien dans la légende de ce forum.',
+	'LIST_SUBFORUMS_EXPLAIN'	=> 'Si cette option est activée, tous ses sous-forums, ayant l’option « Lister le sous-forum dans la légende du forum parent » activée, apparaîtront sous la forme d’un lien dans la légende de ce forum.',
 	'LOCKED'					=> 'Verrouillé',
 
 	'MOVE_POSTS_NO_POSTABLE_FORUM'	=> 'Le forum que vous avez sélectionné pour y déplacer les messages n’est pas approprié. Sélectionnez un forum destiné à recevoir des messages.',

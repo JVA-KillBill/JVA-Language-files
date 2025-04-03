@@ -35,7 +35,7 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 //
 // Some characters you may want to copy&paste:
-// ’ « » “ ” …
+// ’ « » “ ” …
 //
 
 // Banning
@@ -56,14 +56,14 @@ $lang = array_merge($lang, array(
 
 	'EMAIL_BAN'					=> 'Bannir une ou plusieurs adresses courriels',
 	'EMAIL_BAN_EXCLUDE_EXPLAIN'	=> 'Activez cette option pour exclure les adresses courriel listées de tous bannissements actuels.',
-	'EMAIL_BAN_EXPLAIN'			=> 'Pour indiquer plus d’une adresse courriel, saisissez chacune d’elles sur une nouvelle ligne. Pour bannir sur une partie du nom, utilisez « * » comme caractère joker, par exemple : <samp>*@hotmail.com</samp>, <samp>*@*.domain.tld</samp>, etc.',
+	'EMAIL_BAN_EXPLAIN'			=> 'Pour indiquer plus d’une adresse courriel, saisissez chacune d’elles sur une nouvelle ligne. Pour bannir sur une partie du nom, utilisez « * » comme caractère joker, par exemple : <samp>*@hotmail.com</samp>, <samp>*@*.domain.tld</samp>, etc.',
 	'EMAIL_NO_BANNED'			=> 'Aucune adresse courriel bannie',
 	'EMAIL_UNBAN'				=> 'Débannir ou ne plus exclure des adresses courriel',
 	'EMAIL_UNBAN_EXPLAIN'		=> 'Vous pouvez débannir (ou ne plus exclure) plusieurs adresses courriel en une seule fois, en utilisant la bonne combinaison du clavier et de la souris en fonction de votre ordinateur ou navigateur.',
 
 	'IP_BAN'					=> 'Bannir une ou plusieurs adresses IP',
 	'IP_BAN_EXCLUDE_EXPLAIN'	=> 'Activez cette option pour exclure les adresses IP listées de tous bannissements actuels.',
-	'IP_BAN_EXPLAIN'			=> 'Pour indiquer plusieurs adresses IP ou noms d’hôtes différents, saisissez chacun d’eux sur une nouvelle ligne. Pour indiquer une plage d’adresses IP, séparez le début et la fin par un tiret, et utilisez « * » comme caractère joker.',
+	'IP_BAN_EXPLAIN'			=> 'Pour indiquer plusieurs adresses IP ou noms d’hôtes différents, saisissez chacun d’eux sur une nouvelle ligne. Pour indiquer une plage d’adresses IP, séparez le début et la fin par un tiret, et utilisez « * » comme caractère joker.',
 	'IP_HOSTNAME'				=> 'Adresses IP ou noms d’hôtes',
 	'IP_NO_BANNED'				=> 'Aucune adresse IP bannie',
 	'IP_UNBAN'					=> 'Débannir ou ne plus exclure des adresses IP',

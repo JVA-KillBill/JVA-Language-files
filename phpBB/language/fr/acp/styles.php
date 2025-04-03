@@ -35,20 +35,20 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 //
 // Some characters you may want to copy&paste:
-// ’ « » “ ” …
+// ’ « » “ ” …
 //
 
 $lang = array_merge($lang, [
-	'ACP_STYLES_EXPLAIN'						=> 'Depuis cette page, vous pouvez gérer les styles disponibles sur votre forum.<br>Veuillez noter que vous ne pouvez pas désinstaller le style « <strong>prosilver</strong> », car il s’agit du style parent par défaut et principal de phpBB.',
+	'ACP_STYLES_EXPLAIN'						=> 'Depuis cette page, vous pouvez gérer les styles disponibles sur votre forum.<br>Veuillez noter que vous ne pouvez pas désinstaller le style « <strong>prosilver</strong> », car il s’agit du style parent par défaut et principal de phpBB.',
 
 	'CANNOT_BE_INSTALLED'						=> 'Ne peut pas être installé',
-	'CONFIRM_UNINSTALL_STYLES'					=> 'Êtes-vous sûr de vouloir désinstaller les styles sélectionnés ?',
+	'CONFIRM_UNINSTALL_STYLES'					=> 'Êtes-vous sûr de vouloir désinstaller les styles sélectionnés ?',
 	'COPYRIGHT'									=> 'Copyright',
 
 	'DEACTIVATE_DEFAULT'						=> 'Vous ne pouvez pas désactiver le style par défaut.',
-	'DELETE_FROM_FS'							=> 'Supprimer définitivement les fichiers. Attention ! Cette action est irréversible.',
-	'DELETE_STYLE_FILES_FAILED'					=> 'Erreur de suppression de fichiers pour le style « %s ».',
-	'DELETE_STYLE_FILES_SUCCESS'				=> 'Les fichiers pour le style « %s » ont été supprimés.',
+	'DELETE_FROM_FS'							=> 'Supprimer définitivement les fichiers. Attention ! Cette action est irréversible.',
+	'DELETE_STYLE_FILES_FAILED'					=> 'Erreur de suppression de fichiers pour le style « %s ».',
+	'DELETE_STYLE_FILES_SUCCESS'				=> 'Les fichiers pour le style « %s » ont été supprimés.',
 	'DETAILS'									=> 'Détails',
 
 	'INHERITING_FROM'							=> 'Hérité de',
@@ -62,7 +62,7 @@ $lang = array_merge($lang, [
 
 	'PURGED_CACHE'								=> 'Le cache a été purgé.',
 
-	'REQUIRES_STYLE'							=> 'Ce style nécessite que le style « %s » soit installé.',
+	'REQUIRES_STYLE'							=> 'Ce style nécessite que le style « %s » soit installé.',
 
 	'STYLE_ACTIVATE'							=> 'Activer le style',
 	'STYLE_ACTIVE'								=> 'Style actif',
@@ -72,21 +72,21 @@ $lang = array_merge($lang, [
 	'STYLE_ERR_INVALID_PARENT'					=> 'Le style parent n’est pas valide.',
 	'STYLE_ERR_NAME_EXIST'						=> 'Un style porte déjà ce nom.',
 	'STYLE_ERR_STYLE_NAME'						=> 'Vous devez donner un nom à ce style.',
-	'STYLE_INSTALLED'							=> 'Le style « %s » a été installé.',
+	'STYLE_INSTALLED'							=> 'Le style « %s » a été installé.',
 	'STYLE_INSTALLED_RETURN_INSTALLED_STYLES'	=> 'Aller à la liste des styles installés',
 	'STYLE_INSTALLED_RETURN_UNINSTALLED_STYLES'	=> 'Installer davantage de styles',
 	'STYLE_NAME'								=> 'Nom du style',
-	'STYLE_NAME_RESERVED'						=> 'Le style « %s » ne peut pas être installé car ce nom est réservé.',
-	'STYLE_NOT_INSTALLED'						=> 'Le style « %s » n’a pas été installé.',
+	'STYLE_NAME_RESERVED'						=> 'Le style « %s » ne peut pas être installé car ce nom est réservé.',
+	'STYLE_NOT_INSTALLED'						=> 'Le style « %s » n’a pas été installé.',
 	'STYLE_PATH'								=> 'Chemin du style',
 	'STYLE_UNINSTALL'							=> 'Désinstaller',
-	'STYLE_UNINSTALL_DEPENDENT'					=> 'Le style « %s » ne peut pas être désinstallé car un ou plusieurs en dépendent.',
-	'STYLE_UNINSTALLED'							=> 'Le style « %s » a été désinstallé.',
+	'STYLE_UNINSTALL_DEPENDENT'					=> 'Le style « %s » ne peut pas être désinstallé car un ou plusieurs en dépendent.',
+	'STYLE_UNINSTALLED'							=> 'Le style « %s » a été désinstallé.',
 	'STYLE_PHPBB_VERSION'						=> 'Version de phpBB',
 	'STYLE_USED_BY'								=> 'Utilisé par (robots inclus)',
 	'STYLE_VERSION'								=> 'Version du style',
 
-	'UNINSTALL_PROSILVER'						=> 'Vous ne pouvez pas désinstaller le style « prosilver ».',
+	'UNINSTALL_PROSILVER'						=> 'Vous ne pouvez pas désinstaller le style « prosilver ».',
 	'UNINSTALL_DEFAULT'							=> 'Vous ne pouvez pas désinstaller le style par défaut.',
 
 	'BROWSE_STYLES_DATABASE'					=> 'Parcourir la base de données des styles',

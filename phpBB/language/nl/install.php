@@ -45,11 +45,11 @@ $lang = array_merge($lang, array(
 
 	// Introduction page
 	'INTRODUCTION_TITLE'	=> 'Introductie',
-	'INTRODUCTION_BODY'		=> 'Welkom bij phpBB3!<br /><br />phpBB® is wereldwijd de meest gebruikte open source forumsoftware. phpBB3 is de laatste versie van een pakket dat is gestart met de ontwikkeling in 2000. Zoals zijn voorgangers is phpBB3 functie-rijk, gebruiksvriendelijk en het wordt volledig ondersteund door het phpBB-team. phpBB3 verbetert alles wat phpBB2 zo populair maakte en voegt de meestgevraagde functies toe die nog niet aanwezig waren in vorige versies. Wij hopen dat het je verwachtingen overtreft.<br /><br />Het installatiesysteem doorloopt samen met je de stappen om phpBB3 te installeren, oudere versies bijwerken naar de meest recente phpBB3-versie en ook nog het converteren naar phpBB3 vanaf een andere forumsoftware (inclusief phpBB2). Voor meer informatie adviseren we je de <a href="%1$s">installatiehandleiding</a> te lezen. Als je de phpBB3-licentie wil lezen of als je wil weten hoe je ondersteuning kunt krijgen en onze mening daarover, klik dan op de juiste optie in het menu aan de linkerkant van deze pagina. Om verder te gaan selecteer je het juiste tabblad bovenaan de pagina.',
+	'INTRODUCTION_BODY'		=> 'Welkom bij phpBB3!<br><br>phpBB® is wereldwijd de meest gebruikte open source forumsoftware. phpBB3 is de laatste versie van een pakket dat is gestart met de ontwikkeling in 2000. Zoals zijn voorgangers is phpBB3 functie-rijk, gebruiksvriendelijk en het wordt volledig ondersteund door het phpBB-team. phpBB3 verbetert alles wat phpBB2 zo populair maakte en voegt de meestgevraagde functies toe die nog niet aanwezig waren in vorige versies. Wij hopen dat het je verwachtingen overtreft.<br><br>Het installatiesysteem doorloopt samen met je de stappen om phpBB3 te installeren, oudere versies bijwerken naar de meest recente phpBB3-versie en ook nog het converteren naar phpBB3 vanaf een andere forumsoftware (inclusief phpBB2). Voor meer informatie adviseren we je de <a href="%1$s">installatiehandleiding</a> te lezen. Als je de phpBB3-licentie wil lezen of als je wil weten hoe je ondersteuning kunt krijgen en onze mening daarover, klik dan op de juiste optie in het menu aan de linkerkant van deze pagina. Om verder te gaan selecteer je het juiste tabblad bovenaan de pagina.',
 
 	// Support page
 	'SUPPORT_TITLE'		=> 'Support',
-	'SUPPORT_BODY'		=> 'Volledige ondersteuning word gegegeven voor de huidige stabiele versie van phpBB, helemaal gratis. Dit is inclusief:</p><ul><li>Installatie</li><li>Configuratie</li><li>Technische vragen</li><li>Problemen die zijn gerelateerd aan potentiële fouten in de software</li><li>Updaten van een Release Candidate (RC) versie naar de laatste stabiele versie</li><li>Converteren van een oudere versie naar een stabiele versie</li><li>Converteren van andere forumsoftware naar phpBB3</li></ul><p>Wij moedigen gebruikers aan die nog steeds beta-versies hebben van phpBB3 hun installatie te vervangen met een nieuwe kopie van de laatste versie.</p><h2>Verkijgen van support</h2><p><a href="http://www.phpbb.nl/forums">phpBB.nl Supportforums</a><br /><br />',
+	'SUPPORT_BODY'		=> 'Volledige ondersteuning word gegegeven voor de huidige stabiele versie van phpBB, helemaal gratis. Dit is inclusief:</p><ul><li>Installatie</li><li>Configuratie</li><li>Technische vragen</li><li>Problemen die zijn gerelateerd aan potentiële fouten in de software</li><li>Updaten van een Release Candidate (RC) versie naar de laatste stabiele versie</li><li>Converteren van een oudere versie naar een stabiele versie</li><li>Converteren van andere forumsoftware naar phpBB3</li></ul><p>Wij moedigen gebruikers aan die nog steeds beta-versies hebben van phpBB3 hun installatie te vervangen met een nieuwe kopie van de laatste versie.</p><h2>Verkijgen van support</h2><p><a href="http://www.phpbb.nl/forums">phpBB.nl Supportforums</a><br><br>',
 
 	// License
 	'LICENSE_TITLE'		=> 'General Public License',
@@ -347,14 +347,14 @@ $lang = array_merge($lang, array(
 // Common updater messages
 $lang = array_merge($lang, array(
 	'UPDATE_INSTALLATION'			=> 'phpBB-installatie bijwerken',
-	'UPDATE_INSTALLATION_EXPLAIN'	=> 'Met deze optie is het mogelijk om je phpBB-installatie bij te werken naar de laatste versie.<br />Tijdens het proces zullen alle bestanden gecontroleerd worden op hun integriteit. Je kunt ook alle verschillen bekijken van de bestanden voordat je gaat bijwerken.<br /><br />De bestandsupdate kun je op twee manieren doen.</p><h2>Handmatige update</h2><p>Met deze update download je alleen je persoonlijke set van gewijzigde bestanden om er zeker van te zijn dat je geen extensies kwijt raakt die je hebt geïnstalleerd. Nadat je dit pakket hebt gedownload, zul je de bestanden handmatig moeten uploaden naar hun correcte plaats in je phpBB-hoofdmap (root), dus waar je het bestand config.php, memberlist etc. kunt terugvinden. Wanneer je dat hebt gedaan, kun je opnieuw een bestandscontrole doen om te zien of de bestanden correct zijn geüpload naar de juiste locatie.</p><h2>Geavanceerde update met de FTP</h2><p>Deze methode is bijna hetzelfde als de eerste maar met deze methode hoef je niet de gewijzigde bestanden te downloaden naar je eigen computer. Dit wordt namelijk gedaan voor je. Om deze methode te gebruiken heb je de FTP-aanmeldgegevens nodig wanneer er naar wordt gevraagd. Wanneer dit klaar is, zul je worden doorgestuurd naar de bestandscontrolemethode die controleert of alles correct is bijgewerkt.<br /><br />',
+	'UPDATE_INSTALLATION_EXPLAIN'	=> 'Met deze optie is het mogelijk om je phpBB-installatie bij te werken naar de laatste versie.<br>Tijdens het proces zullen alle bestanden gecontroleerd worden op hun integriteit. Je kunt ook alle verschillen bekijken van de bestanden voordat je gaat bijwerken.<br><br>De bestandsupdate kun je op twee manieren doen.</p><h2>Handmatige update</h2><p>Met deze update download je alleen je persoonlijke set van gewijzigde bestanden om er zeker van te zijn dat je geen extensies kwijt raakt die je hebt geïnstalleerd. Nadat je dit pakket hebt gedownload, zul je de bestanden handmatig moeten uploaden naar hun correcte plaats in je phpBB-hoofdmap (root), dus waar je het bestand config.php, memberlist etc. kunt terugvinden. Wanneer je dat hebt gedaan, kun je opnieuw een bestandscontrole doen om te zien of de bestanden correct zijn geüpload naar de juiste locatie.</p><h2>Geavanceerde update met de FTP</h2><p>Deze methode is bijna hetzelfde als de eerste maar met deze methode hoef je niet de gewijzigde bestanden te downloaden naar je eigen computer. Dit wordt namelijk gedaan voor je. Om deze methode te gebruiken heb je de FTP-aanmeldgegevens nodig wanneer er naar wordt gevraagd. Wanneer dit klaar is, zul je worden doorgestuurd naar de bestandscontrolemethode die controleert of alles correct is bijgewerkt.<br><br>',
 	'UPDATE_INSTRUCTIONS'			=> '
 
 		<h1>Versiemededeling</h1>
 
 		<p>Lees de (Engelstalige) aankondiging voordat je begint met het updaten van je forum, het kan belangrijke informatie bevatten. Je vindt daar ook de volledige downloadlinks en een overzicht van de wijzigingen ( changelog ).</p>
 
-		<br />
+		<br>
 		<h1>Hoe kan ik mijn forum updaten met het volledige pakket?</h1>
 
 		<p>De aanbevolen manier van updaten is gebruik maken van het volledige pakket. Indien je basisbestanden van phpBB aangepast hebt kun je ervoor kiezen om het Automatische update-pakket te gebruiken om deze aanpassingen niet kwijt te raken. Je kunt je forum ook updaten met de methodes die beschreven zijn in het <a href="../docs/INSTALL.html">INSTALL.html</a>-document. De stappen om phpBB te updaten met het volledige pakket zijn als volgt:</p>
@@ -385,12 +385,12 @@ $lang = array_merge($lang, array(
 		<ul style="margin-left: 20px; font-size: 1.1em;">
 			<li>Ga naar de downloadspagina van <a href="https://www.phpbb.nl/downloads/" title="http://www.phpbb.nl/downloads/">phpBB.nl</a> en download het "Geavandceerde update-pakket".</li>
 			<li>Pak het archiefbestand uit.</li>
-			<li>Upload de uitgepakte "install"- en "vendor"-mappen naar je phpBB-hoofdmap (waar je config.php staat).<br /><br /></li>
+			<li>Upload de uitgepakte "install"- en "vendor"-mappen naar je phpBB-hoofdmap (waar je config.php staat).<br><br></li>
 		</ul>
 
-		<p>Eenmaal geüpload, zal je forum, door het uploaden van de install-map, voor gewone gebruikers uitgeschakeld zijn.<br /><br />
-		<strong><a href="%1$s" title="%1$s">Ga nu naar de install-map en begin met het updaten van je forum</a>.</strong><br />
-		<br />
+		<p>Eenmaal geüpload, zal je forum, door het uploaden van de install-map, voor gewone gebruikers uitgeschakeld zijn.<br><br>
+		<strong><a href="%1$s" title="%1$s">Ga nu naar de install-map en begin met het updaten van je forum</a>.</strong><br>
+		<br>
 		Daar zal je geholpen worden met het updaten. Je wordt ook op de hoogte gebracht zodra alles geüpdatet is.
 		</p>
 	',
@@ -497,13 +497,13 @@ $lang = array_merge($lang, array(
 	'COULD_NOT_FIND_PATH'		=> 'Kan het pad naar je oude forum niet vinden. Controleer a.u.b. je instelligen en probeer het opnieuw.<br>» %s was opgegeven als pad.',
 	'CONFIG_PHPBB_EMPTY'		=> 'De phpBB3-configuratievariabele voor “%s” is leeg.',
 
-	'MAKE_FOLDER_WRITABLE'		=> 'Wees er zeker van dat de map bestaat en schrijfbaar is voor de webserver en probeer het dan opnieuw:<br />»<strong>%s</strong>.',
-	'MAKE_FOLDERS_WRITABLE'		=> 'Wees er zeker van dat deze mappen bestaan en schrijfbaar zijn voor de webserver en probeer het dan opnieuw:<br />»<strong>%s</strong>.',
+	'MAKE_FOLDER_WRITABLE'		=> 'Wees er zeker van dat de map bestaat en schrijfbaar is voor de webserver en probeer het dan opnieuw:<br>»<strong>%s</strong>.',
+	'MAKE_FOLDERS_WRITABLE'		=> 'Wees er zeker van dat deze mappen bestaan en schrijfbaar zijn voor de webserver en probeer het dan opnieuw:<br>»<strong>%s</strong>.',
 
 	'INSTALL_TEST'				=> 'Opnieuw testen',
 
 	'NO_TABLES_FOUND'			=> 'Er zijn geen tabellen gevonden.',
-	'TABLES_MISSING'			=> 'De volgende tabellen kunnen niet worden gevonden<br />» <strong>%s</strong>.',
+	'TABLES_MISSING'			=> 'De volgende tabellen kunnen niet worden gevonden<br>» <strong>%s</strong>.',
 	'CHECK_TABLE_PREFIX'		=> 'Controleer de tabelprefix en probeer opnieuw.',
 
 	// Conversion in progress
@@ -527,7 +527,7 @@ $lang = array_merge($lang, array(
 
 	// Settings
 	'STAGE_SETTINGS'			=> 'Instellingen',
-	'TABLE_PREFIX_SAME'			=> 'De tabelprefix moet hetzelfde zijn als de software waarvan je wil converteren.<br />» Ingevoerde tabelprefix was %s.',
+	'TABLE_PREFIX_SAME'			=> 'De tabelprefix moet hetzelfde zijn als de software waarvan je wil converteren.<br>» Ingevoerde tabelprefix was %s.',
 	'DEFAULT_PREFIX_IS'			=> 'De convertor was niet in staat om de tabel te vinden met de opgegeven prefix. Wees er zeker van dat je de juiste gegevens hebt ingevuld van het forum waarvan je wil converteren. De standaard tabelprefix voor %1$s is <strong>%2$s</strong>.',
 	'SPECIFY_OPTIONS'			=> 'Opties opgeven voor de conversie',
 	'FORUM_PATH'				=> 'Forumpad',
@@ -538,7 +538,7 @@ $lang = array_merge($lang, array(
 	// Conversion
 	'STAGE_IN_PROGRESS'			=> 'Bezig met converteren',
 
-	'AUTHOR_NOTES'				=> 'Opmerkingen van de auteur<br />» %s',
+	'AUTHOR_NOTES'				=> 'Opmerkingen van de auteur<br>» %s',
 	'STARTING_CONVERT'			=> 'Conversieproces starten',
 	'CONFIG_CONVERT'			=> 'Bezig met het converteren van de configuratie',
 	'DONE'						=> 'Klaar',
@@ -563,7 +563,7 @@ $lang = array_merge($lang, array(
 	'CONTINUE_LAST'				=> 'Doorgaan met de laatste stappen',
 	'CLEAN_VERIFY'				=> 'Opschonen en bevestigen van de uiteindelijke structuur',
 	'NOT_UNDERSTAND'			=> 'Kan het volgende niet begrijpen %s #%d, tabel %s (“%s”)',
-	'NAMING_CONFLICT'			=> 'Naamconflict: %s en %s zijn beide aliasen<br /><br />%s',
+	'NAMING_CONFLICT'			=> 'Naamconflict: %s en %s zijn beide aliasen<br><br>%s',
 
 	// Finish conversion
 	'CONVERT_COMPLETE'			=> 'Conversie compleet',

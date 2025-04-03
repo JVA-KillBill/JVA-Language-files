@@ -102,7 +102,7 @@ $lang = array_merge($lang, array(
 	'EXT_GROUP_PLAIN_TEXT'			=> 'Platte tekst',
 	
 	'FILES_GONE'			=> 'Enkele van de bijlagen die je hebt geselecteerd voor verwijdering bestaan niet. Ze kunnen al verwijderd zijn. Bijlagen die wel bestonden zijn verwijderd.',
-	'FILES_STATS_WRONG'		=> 'Je bestandsstatistieken zijn waarschijnlijk niet meer accuraat en zullen gesynchroniseerd moeten worden. Echte waarden: aantal bijlagen = %1$d, totale grootte van de bijlagen = %2$s.<br />Klik %3$shier%4$s om de statistieken te synchroniseren.',
+	'FILES_STATS_WRONG'		=> 'Je bestandsstatistieken zijn waarschijnlijk niet meer accuraat en zullen gesynchroniseerd moeten worden. Echte waarden: aantal bijlagen = %1$d, totale grootte van de bijlagen = %2$s.<br>Klik %3$shier%4$s om de statistieken te synchroniseren.',
 
 	'GO_TO_EXTENSIONS'		=> 'Ga naar het extensie management scherm',
 	'GROUP_NAME'			=> 'Groepsnaam',

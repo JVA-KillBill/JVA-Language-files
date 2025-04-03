@@ -35,7 +35,7 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 //
 // Some characters you may want to copy&paste:
-// ’ « » “ ” …
+// ’ « » “ ” …
 //
 
 $lang = array_merge($lang, array(
@@ -43,8 +43,8 @@ $lang = array_merge($lang, array(
 	'ACP_SEARCH_SETTINGS_EXPLAIN'			=> 'Vous pouvez définir quelle méthode d’indexation de recherche sera utilisée pour l’indexation des messages et l’exécution des recherches. Vous pouvez définir différentes options qui peuvent influencer sur la puissance de calcul requise. Certains de ces paramètres sont les mêmes pour toutes les méthodes d’indexation du moteur de recherche.',
 
 	'COMMON_WORD_THRESHOLD'					=> 'Seuil de mot commun',
-	'COMMON_WORD_THRESHOLD_EXPLAIN'			=> 'Si un mot est contenu dans un nombre de messages supérieur au pourcentage indiqué, ce mot sera défini comme commun. Ces mots seront par la suite ignorés lors des recherches. Mettre « 0 » pour désactiver cette option. Cette option ne fonctionne que s’il y a plus de 100 messages sur votre forum. Si vous voulez que les mots actuellement considérés comme communs soient reconsidérés, vous devez recréer l’index.',
-	'CONFIRM_SEARCH_BACKEND'				=> 'Voulez-vous réellement changer la méthode d’indexation ? Vous devrez recréer un index de recherche pour la nouvelle méthode. Si vous ne prévoyez pas de réutiliser l’ancienne méthode d’indexation vous pouvez la supprimer pour libérer des ressources système.',
+	'COMMON_WORD_THRESHOLD_EXPLAIN'			=> 'Si un mot est contenu dans un nombre de messages supérieur au pourcentage indiqué, ce mot sera défini comme commun. Ces mots seront par la suite ignorés lors des recherches. Mettre « 0 » pour désactiver cette option. Cette option ne fonctionne que s’il y a plus de 100 messages sur votre forum. Si vous voulez que les mots actuellement considérés comme communs soient reconsidérés, vous devez recréer l’index.',
+	'CONFIRM_SEARCH_BACKEND'				=> 'Voulez-vous réellement changer la méthode d’indexation ? Vous devrez recréer un index de recherche pour la nouvelle méthode. Si vous ne prévoyez pas de réutiliser l’ancienne méthode d’indexation vous pouvez la supprimer pour libérer des ressources système.',
 	'CONTINUE_DELETING_INDEX'				=> 'Continuer le précédent processus de suppression de l’index',
 	'CONTINUE_DELETING_INDEX_EXPLAIN'		=> 'Une suppression d’index de recherche a été commencée. Celle-ci doit être terminée ou annulée pour pouvoir accéder à la page de recherche.',
 	'CONTINUE_INDEXING'						=> 'Continuer le précédent processus d’indexation',
@@ -66,7 +66,7 @@ $lang = array_merge($lang, array(
 	'FULLTEXT_POSTGRES_INCOMPATIBLE_DATABASE'	=> 'L’indexation FULLTEXT de PostgreSQL ne peut être utilisée qu’avec PostgreSQL.',
 	'FULLTEXT_POSTGRES_TOTAL_POSTS'				=> 'Nombre total de messages indexés',
 	'FULLTEXT_POSTGRES_VERSION_CHECK'			=> 'Version de PostgreSQL',
-	'FULLTEXT_POSTGRES_TS_NAME'					=> 'Profil de configuration de recherche de texte :',
+	'FULLTEXT_POSTGRES_TS_NAME'					=> 'Profil de configuration de recherche de texte :',
 	'FULLTEXT_POSTGRES_MIN_WORD_LEN'			=> 'Longueur minimale des mots-clés',
 	'FULLTEXT_POSTGRES_MAX_WORD_LEN'			=> 'Longueur maximale des mots-clés',
 	'FULLTEXT_POSTGRES_VERSION_CHECK_EXPLAIN'	=> 'Cette indexation de la recherche nécessite PostgreSQL version 8.3 ou supérieure.',
@@ -76,22 +76,22 @@ $lang = array_merge($lang, array(
 
 	'FULLTEXT_SPHINX_CONFIGURE'				=> 'Configurez les paramètres suivants pour générer un fichier de configuration Sphinx',
 	'FULLTEXT_SPHINX_DATA_PATH'				=> 'Chemin d’accès au répertoire de données',
-	'FULLTEXT_SPHINX_DATA_PATH_EXPLAIN'		=> 'Il sera utilisé pour stocker les fichiers des index et des journaux. Vous devriez créer ce répertoire en dehors des répertoires Web accessibles (doit avoir une barre oblique « / »).',
-	'FULLTEXT_SPHINX_DELTA_POSTS'			=> 'Nombre de messages dans l’index « delta » (fréquemment mis à jour)',
-	'FULLTEXT_SPHINX_HOST'					=> 'Hôte du démon « Recherche Sphinx »',
-	'FULLTEXT_SPHINX_HOST_EXPLAIN'			=> 'Hôte sur lequel le démon « searchd » (recherche sphinx) écoute. Laissez vide pour utiliser par défaut « localhost ».',
+	'FULLTEXT_SPHINX_DATA_PATH_EXPLAIN'		=> 'Il sera utilisé pour stocker les fichiers des index et des journaux. Vous devriez créer ce répertoire en dehors des répertoires Web accessibles (doit avoir une barre oblique « / »).',
+	'FULLTEXT_SPHINX_DELTA_POSTS'			=> 'Nombre de messages dans l’index « delta » (fréquemment mis à jour)',
+	'FULLTEXT_SPHINX_HOST'					=> 'Hôte du démon « Recherche Sphinx »',
+	'FULLTEXT_SPHINX_HOST_EXPLAIN'			=> 'Hôte sur lequel le démon « searchd » (recherche sphinx) écoute. Laissez vide pour utiliser par défaut « localhost ».',
 	'FULLTEXT_SPHINX_INDEXER_MEM_LIMIT'		=> 'Mémoire limite d’indexation',
 	'FULLTEXT_SPHINX_INDEXER_MEM_LIMIT_EXPLAIN'	=> 'Ce nombre devrait toujours être inférieur à la mémoire vive (RAM) disponible sur votre serveur. Si vous rencontrez des problèmes de performance récurrents, cela pourrait être dû à une trop forte consommation de ressources par l’indexeur. Essayez de réduire la quantité de mémoire allouée à l’indexeur.',
 	'FULLTEXT_SPHINX_MAIN_POSTS'			=> 'Nombre de messages dans l’index principal',
-	'FULLTEXT_SPHINX_PORT'					=> 'Port du démon « Recherche Sphinx »',
-	'FULLTEXT_SPHINX_PORT_EXPLAIN'			=> 'Port sur lequel le démon « searchd » (recherche sphinx) écoute. Laissez vide pour utiliser Sphinx API port 9312 par défaut.',
+	'FULLTEXT_SPHINX_PORT'					=> 'Port du démon « Recherche Sphinx »',
+	'FULLTEXT_SPHINX_PORT_EXPLAIN'			=> 'Port sur lequel le démon « searchd » (recherche sphinx) écoute. Laissez vide pour utiliser Sphinx API port 9312 par défaut.',
 	'FULLTEXT_SPHINX_WRONG_DATABASE'		=> 'La recherche Sphinx pour phpBB supporte uniquement MySQL et PostgreSQL.',
 	'FULLTEXT_SPHINX_CONFIG_FILE'			=> 'Fichier de configuration Sphinx',
-	'FULLTEXT_SPHINX_CONFIG_FILE_EXPLAIN'	=> 'Contenu généré pour le fichier de configuration du moteur de recherche Sphinx. Ces informations doivent être copiées et collées dans le fichier intitulé « sphinx.conf » qui est utilisé par le démon de Sphinx. Remplacez dans le code les occurrences de « [dbuser] » et « [dbpassword] » par leur valeur, permettant de s’identifier sur votre base de données.',
+	'FULLTEXT_SPHINX_CONFIG_FILE_EXPLAIN'	=> 'Contenu généré pour le fichier de configuration du moteur de recherche Sphinx. Ces informations doivent être copiées et collées dans le fichier intitulé « sphinx.conf » qui est utilisé par le démon de Sphinx. Remplacez dans le code les occurrences de « [dbuser] » et « [dbpassword] » par leur valeur, permettant de s’identifier sur votre base de données.',
 	'FULLTEXT_SPHINX_NO_CONFIG_DATA'		=> 'Le chemin du répertoire de données Sphinx n’est pas défini. Merci de le définir afin de pouvoir générer le fichier de configuration.',
 
 	'GENERAL_SEARCH_SETTINGS'				=> 'Paramètres généraux de recherche',
-	'GO_TO_SEARCH_INDEX'					=> 'Aller à la page « Index de la recherche »',
+	'GO_TO_SEARCH_INDEX'					=> 'Aller à la page « Index de la recherche »',
 
 	'INDEX_STATS'							=> 'Statistiques de l’index',
 	'INDEXING_IN_PROGRESS'					=> 'Indexation en cours…',
@@ -103,7 +103,7 @@ $lang = array_merge($lang, array(
 	'MAX_SEARCH_CHARS'						=> 'Caractères maximum indexés par la recherche',
 	'MAX_SEARCH_CHARS_EXPLAIN'				=> 'Seuls les mots inférieurs ou égaux à ce nombre de caractères seront indexés.',
 	'MAX_NUM_SEARCH_KEYWORDS'				=> 'Nombre maximum de mots clés autorisés',
-	'MAX_NUM_SEARCH_KEYWORDS_EXPLAIN'		=> 'Nombre maximum de mots que l’utilisateur est capable de rechercher. Une valeur à « 0 » autorise un nombre illimité de mots.',
+	'MAX_NUM_SEARCH_KEYWORDS_EXPLAIN'		=> 'Nombre maximum de mots que l’utilisateur est capable de rechercher. Une valeur à « 0 » autorise un nombre illimité de mots.',
 	'MIN_SEARCH_CHARS'						=> 'Caractères minimum indexés par la recherche',
 	'MIN_SEARCH_CHARS_EXPLAIN'				=> 'Seuls les mots supérieurs ou égaux à ce nombre de caractères seront indexés.',
 	'MIN_SEARCH_AUTHOR_CHARS'				=> 'Caractères minimum du nom de l’auteur',
@@ -126,12 +126,12 @@ $lang = array_merge($lang, array(
 		2	=> 'Le taux actuel de suppression est de %1$.1f messages par seconde.',
 	),
 	'SEARCH_INDEX_CREATED'					=> 'Tous les messages du forum ont été indexés.',
-	'SEARCH_INDEX_PROGRESS'					=> 'Effectué : %1$d | Restant : %2$d | Total : %3$d',
+	'SEARCH_INDEX_PROGRESS'					=> 'Effectué : %1$d | Restant : %2$d | Total : %3$d',
 	'SEARCH_INDEX_REMOVED'					=> 'L’index de recherche a été supprimé.',
 	'SEARCH_INTERVAL'						=> 'Intervalle de flood des utilisateurs',
 	'SEARCH_INTERVAL_EXPLAIN'				=> 'Nombre de secondes que les utilisateurs doivent attendre entre chaque recherche. Cet intervalle est contrôlé indépendamment pour chaque utilisateur.',
 	'SEARCH_STORE_RESULTS'					=> 'Durée de la mise en cache des résultats',
-	'SEARCH_STORE_RESULTS_EXPLAIN'			=> 'Les résultats de la recherche mis en cache expireront après cette durée, en secondes. Mettre « 0 » pour désactiver la mise en cache de la recherche.',
+	'SEARCH_STORE_RESULTS_EXPLAIN'			=> 'Les résultats de la recherche mis en cache expireront après cette durée, en secondes. Mettre « 0 » pour désactiver la mise en cache de la recherche.',
 	'SEARCH_TYPE'							=> 'Méthode d’indexation de la recherche',
 	'SEARCH_TYPE_EXPLAIN'					=> 'phpBB vous permet de choisir la méthode d’indexation utilisée pour la recherche de texte dans le contenu des messages. Par défaut, la recherche utilisera la recherche FULLTEXT de phpBB.',
 	'SWITCHED_SEARCH_BACKEND'				=> 'Vous avez modifié la méthode d’indexation de la recherche. Afin d’utiliser la nouvelle méthode d’indexation, vous devrez vous assurer qu’il existe bien un index de recherche pour celle-ci.',

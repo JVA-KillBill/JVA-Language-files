@@ -35,12 +35,12 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 //
 // Some characters you may want to copy&paste:
-// ’ « » “ ” …
+// ’ « » “ ” …
 //
 
 // User pruning
 $lang = array_merge($lang, array(
-	'ACP_PRUNE_USERS_EXPLAIN'	=> 'Cette section vous permet de supprimer ou désactiver des utilisateurs de votre forum. Les comptes peuvent être filtrés selon différents critères : par nombre de message, la plus récente activité, etc. Les critères peuvent être combinés de manière à limiter le nombre de comptes qui seront affectés. Par exemple, vous pouvez supprimer les utilisateurs ayant moins de 10 messages, et qui sont également inactifs depuis le 1er janvier 2002. Utilisez * comme joker pour les champs texte. Autrement, Vous pouvez passer complètement la sélection de critères, en entrant une liste d’utilisateurs (chaque utilisateur sur une ligne différente) dans la zone de texte. Soyez vigilant avec cette fonctionnalité ! Une fois qu’un utilisateur est supprimé il n’y a aucun moyen de revenir en arrière.',
+	'ACP_PRUNE_USERS_EXPLAIN'	=> 'Cette section vous permet de supprimer ou désactiver des utilisateurs de votre forum. Les comptes peuvent être filtrés selon différents critères : par nombre de message, la plus récente activité, etc. Les critères peuvent être combinés de manière à limiter le nombre de comptes qui seront affectés. Par exemple, vous pouvez supprimer les utilisateurs ayant moins de 10 messages, et qui sont également inactifs depuis le 1er janvier 2002. Utilisez * comme joker pour les champs texte. Autrement, Vous pouvez passer complètement la sélection de critères, en entrant une liste d’utilisateurs (chaque utilisateur sur une ligne différente) dans la zone de texte. Soyez vigilant avec cette fonctionnalité ! Une fois qu’un utilisateur est supprimé il n’y a aucun moyen de revenir en arrière.',
 
 	'CRITERIA'				=> 'Critères',
 
@@ -85,7 +85,7 @@ $lang = array_merge($lang, array(
 	'PRUNE_ANNOUNCEMENTS'			=> 'Délester les annonces',
 	'PRUNE_FINISHED_POLLS'			=> 'Délester les sondages expirés',
 	'PRUNE_FINISHED_POLLS_EXPLAIN'	=> 'Supprimer les sujets avec un sondage expiré.',
-	'PRUNE_FORUM_CONFIRM'			=> 'Êtes-vous sûr de vouloir délester les forums sélectionnés selon les critères précédemment définis ? Une fois supprimés, il n’y a aucun moyen de récupérer les sujets et les messages.',
+	'PRUNE_FORUM_CONFIRM'			=> 'Êtes-vous sûr de vouloir délester les forums sélectionnés selon les critères précédemment définis ? Une fois supprimés, il n’y a aucun moyen de récupérer les sujets et les messages.',
 	'PRUNE_NOT_POSTED'				=> 'Nombre de jours depuis le dernier message posté',
 	'PRUNE_NOT_VIEWED'				=> 'Nombre de jours depuis la dernière consultation du sujet',
 	'PRUNE_OLD_POLLS'				=> 'Délester les anciens sondages',
