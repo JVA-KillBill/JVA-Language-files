@@ -356,7 +356,7 @@ $lang = array_merge($lang, array(
 	'HIDE_ME'						=> 'Bejelentkezés rejtettként',
 	'HOURS'							=> 'óra',
 	'HOME'							=> 'Főoldal',
-
+	'HTTP_HANDLER_NOT_FOUND'		=> 'A műveletet nem lehetett végrehajtani, mert a PHP-cURL kiterjesztés és a PHP allow_url_fopen PHP ini beállítás le van tiltva, és nem található más HTTP-kezelő.',
 
 	'ICQ'						=> 'ICQ',
 	'IF'						=> 'Feltétel',
