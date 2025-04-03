@@ -39,5 +39,5 @@ $lang = array_merge($lang, array(
 	'JVA_CORE_EXT_NOT_FOUND'	=> 'L’extension ne peut pas être activée car l’extension « JVA - Core » est introuvable!',
 	
 	'JV_OUL24H'					=> '<strong>(%s)</strong> utilisateurs ont visité le site au cours des dernières 24 heures.',
-	'JV_OUL24H_USERS'			=> 'De ce: (Enregistrés: <strong>%s</strong> &bull; Cachés: <strong>%s</strong> &bull; Invités: <strong>%s</strong> &bull; Robots: <strong>%s</strong>)',
+	'JV_OUL24H_USERS'			=> 'De ce : (Enregistrés : <strong>%s</strong> &bull; Cachés: <strong>%s</strong> &bull; Invités : <strong>%s</strong> &bull; Robots : <strong>%s</strong>)',
 ));
