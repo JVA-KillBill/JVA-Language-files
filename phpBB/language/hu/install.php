@@ -48,11 +48,11 @@ $lang = array_merge($lang, array(
 
 	// Introduction page
 	'INTRODUCTION_TITLE'	=> 'Bevezető',
-	'INTRODUCTION_BODY'		=> 'Üdvözlünk a phpBB3-ban!<br /><br />A phpBB® a legelterjedtebb nyílt forrású fórumrendszer a világon. A phpBB3 a 2000-ben kezdődött fejlesztés legfrissebb eleme, mely az elődeihez hasonlóan funkciógazdag, felhasználóbarát és teljes mértékben támogatott a phpBB Team által. A phpBB3 nagyot lép előre a phpBB2-t népszerűvé tevő területeken, számos általánosan kívánt funkciót tesz elérhetővé, melyek a korábbi verziókban nem voltak jelen. Reméljük, meghaladja várakozásaidat.<br /><br />Ez a telepítőrendszer végig fog vezetni a phpBB3 telepítésén, a phpBB3 legújabb verziójára való frissítésén, valamint más fórumrendszer phpBB3-ra való konvertálásán (beleértve a phpBB2-t). További információért, bátorítunk, hogy olvasd el az (angol nyelvű) <a href="%1$s">telepítési útmutatót</a>.<br /><br />A phpBB3 licencének megtekintéséhez, a támogatás elérésének helyéhez, ill. a phpBB Team ehhez való hozzáállásának megismeréséhez, válaszd ki a megfelelő elemet az oldalsó menüből. A folytatáshoz, kérjük, válaszd ki fentebb a megfelelő fület.',
+	'INTRODUCTION_BODY'		=> 'Üdvözlünk a phpBB3-ban!<br><br>A phpBB® a legelterjedtebb nyílt forrású fórumrendszer a világon. A phpBB3 a 2000-ben kezdődött fejlesztés legfrissebb eleme, mely az elődeihez hasonlóan funkciógazdag, felhasználóbarát és teljes mértékben támogatott a phpBB Team által. A phpBB3 nagyot lép előre a phpBB2-t népszerűvé tevő területeken, számos általánosan kívánt funkciót tesz elérhetővé, melyek a korábbi verziókban nem voltak jelen. Reméljük, meghaladja várakozásaidat.<br><br>Ez a telepítőrendszer végig fog vezetni a phpBB3 telepítésén, a phpBB3 legújabb verziójára való frissítésén, valamint más fórumrendszer phpBB3-ra való konvertálásán (beleértve a phpBB2-t). További információért, bátorítunk, hogy olvasd el az (angol nyelvű) <a href="%1$s">telepítési útmutatót</a>.<br><br>A phpBB3 licencének megtekintéséhez, a támogatás elérésének helyéhez, ill. a phpBB Team ehhez való hozzáállásának megismeréséhez, válaszd ki a megfelelő elemet az oldalsó menüből. A folytatáshoz, kérjük, válaszd ki fentebb a megfelelő fület.',
 
 	// Support page
 	'SUPPORT_TITLE'		=> 'Támogatás',
-	'SUPPORT_BODY'		=> 'A phpBB3 aktuális stabil kiadásához teljes támogatás elérhető, térítésmentesen. Ez magában foglalja az alábbiakat:</p><ul><li>telepítés,</li><li>konfiguráció,</li><li>technikai kérdések,</li><li>a szoftverben lévő lehetséges hibákkal kapcsolatos problémák,</li><li>frissítés a Release Candidate (RC) verziókról a legfrissebb stabil verzióra,</li><li>konvertálás phpBB 2.0.x-ről phpBB3-ra,</li><li>konvertálás más fórumszoftverről phpBB3-ra (ezzel kapcsolatban lásd a <a href="https://www.phpbb.com/community/viewforum.php?f=486">Konvertálók fórumot</a>)</li></ul><p>A phpBB3 még béta verzióját futtató felhasználóinknak tanácsoljuk, hogy a jelenlegi fórumukat cseréljék le egy friss telepítésűre a legújabb verzióból.</p><h2>Kiterjesztések, megjelenések</h2><p>A kiterjesztésekkel kapcsolatos ügyekkel, kérünk, a megfelelő, <a href="https://www.phpbb.com/community/viewforum.php?f=451">Kiterjesztések fórumba</a> írj.<br />A megjelenésekkel kapcsolatban kérünk, szintén fordulj az ezeknek megfelelő, <a href="https://www.phpbb.com/community/viewforum.php?f=471">Megjelenések fórumba</a>.<br /><br />Ha a kérdésed egy bizonyos csomagra irányul, kérünk, közvetlenül a csomaggal foglalkozó témába küldd a hozzászólásod.</p><h2>Támogatás elérhetősége</h2><p><a href="https://www.phpbb.com/support/">Támogatás részleg</a><br /><a href="https://www.phpbb.com/support/docs/en/3.3/ug/quickstart/">Gyorstalpaló</a><br /><br />Hogy mindig azonnal értesülj a phpBB frissítéseiről, kövesd a phpBB-t <a href="https://www.twitter.com/phpbb/">Twitter</a>-en és <a href="https://www.facebook.com/phpbb/">Facebook</a>-on.</p><h2>Saját nyelvű támogatás</h2><p>A phpBB.com angol nyelvű támogatása mellett a <a href="https://www.phpbb.com/support/intl/">nemzetközi phpBB oldalak</a> is örömmel állnak rendelkezésre. Ez a magyar nyelv esetében a <a href="http://phpbb.hu/">Magyar phpBB Közösség</a> oldalát jelenti. Ezeken a webhelyeken főképp az alap phpBB-hez nyújtanak támogatást, kiterjesztésekhez, megjelenésekhez többnyire csak részlegesen, nem minden esetben lehet segítséget kapni. Amennyiben az adott oldalon nem foglalkoznak az adott bővítménnyel, keresd fel a phpBB.com megfelelő fórumtémáját.<br /><br />',
+	'SUPPORT_BODY'		=> 'A phpBB3 aktuális stabil kiadásához teljes támogatás elérhető, térítésmentesen. Ez magában foglalja az alábbiakat:</p><ul><li>telepítés,</li><li>konfiguráció,</li><li>technikai kérdések,</li><li>a szoftverben lévő lehetséges hibákkal kapcsolatos problémák,</li><li>frissítés a Release Candidate (RC) verziókról a legfrissebb stabil verzióra,</li><li>konvertálás phpBB 2.0.x-ről phpBB3-ra,</li><li>konvertálás más fórumszoftverről phpBB3-ra (ezzel kapcsolatban lásd a <a href="https://www.phpbb.com/community/viewforum.php?f=486">Konvertálók fórumot</a>)</li></ul><p>A phpBB3 még béta verzióját futtató felhasználóinknak tanácsoljuk, hogy a jelenlegi fórumukat cseréljék le egy friss telepítésűre a legújabb verzióból.</p><h2>Kiterjesztések, megjelenések</h2><p>A kiterjesztésekkel kapcsolatos ügyekkel, kérünk, a megfelelő, <a href="https://www.phpbb.com/community/viewforum.php?f=451">Kiterjesztések fórumba</a> írj.<br>A megjelenésekkel kapcsolatban kérünk, szintén fordulj az ezeknek megfelelő, <a href="https://www.phpbb.com/community/viewforum.php?f=471">Megjelenések fórumba</a>.<br><br>Ha a kérdésed egy bizonyos csomagra irányul, kérünk, közvetlenül a csomaggal foglalkozó témába küldd a hozzászólásod.</p><h2>Támogatás elérhetősége</h2><p><a href="https://www.phpbb.com/support/">Támogatás részleg</a><br><a href="https://www.phpbb.com/support/docs/en/3.3/ug/quickstart/">Gyorstalpaló</a><br><br>Hogy mindig azonnal értesülj a phpBB frissítéseiről, kövesd a phpBB-t <a href="https://www.twitter.com/phpbb/">Twitter</a>-en és <a href="https://www.facebook.com/phpbb/">Facebook</a>-on.</p><h2>Saját nyelvű támogatás</h2><p>A phpBB.com angol nyelvű támogatása mellett a <a href="https://www.phpbb.com/support/intl/">nemzetközi phpBB oldalak</a> is örömmel állnak rendelkezésre. Ez a magyar nyelv esetében a <a href="http://phpbb.hu/">Magyar phpBB Közösség</a> oldalát jelenti. Ezeken a webhelyeken főképp az alap phpBB-hez nyújtanak támogatást, kiterjesztésekhez, megjelenésekhez többnyire csak részlegesen, nem minden esetben lehet segítséget kapni. Amennyiben az adott oldalon nem foglalkoznak az adott bővítménnyel, keresd fel a phpBB.com megfelelő fórumtémáját.<br><br>',
 
 	// License
 	'LICENSE_TITLE'		=> 'General Public License (GNU Általános Nyilvános Licenc)',
@@ -349,14 +349,14 @@ $lang = array_merge($lang, array(
 // Common updater messages
 $lang = array_merge($lang, array(
 	'UPDATE_INSTALLATION'			=> 'phpBB frissítése',
-	'UPDATE_INSTALLATION_EXPLAIN'	=> 'Itt frissítheted a phpBB-d a legújabb verzióra.<br />A frissítés folyamata során minden állomány ellenőrzésre kerül. A tényleges frissítés előtt minden különbséget átnézhetsz.<br /><br />Maga az állományok frissítése két módon végezhető el.</p><h2>Kézi frissítés</h2><p>Ezen frissítési mód használatakor csak a saját megváltozott állományaidat töltöd le, így meggyőződhetsz róla, hogy nem vesztesz el semmilyen módosítást, amit csinálhattál. Miután letöltötted ezt a csomagot, a benne lévő állományokat fel kell töltened a phpBB-d gyökérkönyvtárába, a megfelelő helyükre. Ezután mégegyszer összevetheted az állományokat, hogy leellenőrizd, a megfelelő helyre töltötted fel őket.</p><h2>Haladó frissítés FTP-vel</h2><p>Ez a frissítési mód hasonló az előbbihez, azonban ennél nem kell saját magadnak letöltened, majd feltöltened a megváltozott állományokat – ezt megteszi a phpBB. Ezen mód használatához ismerned kell az FTP-belépéshez szükséges dolgokat, mivel egy űrlapon meg kell adnod ezeket. Miután ezt befejezted, át leszel irányítva az állományok összevetéséhez, hogy meggyőződhess, minden sikeresen frissítésre került.<br /><br />', //? Advanced Update with FTP
+	'UPDATE_INSTALLATION_EXPLAIN'	=> 'Itt frissítheted a phpBB-d a legújabb verzióra.<br>A frissítés folyamata során minden állomány ellenőrzésre kerül. A tényleges frissítés előtt minden különbséget átnézhetsz.<br><br>Maga az állományok frissítése két módon végezhető el.</p><h2>Kézi frissítés</h2><p>Ezen frissítési mód használatakor csak a saját megváltozott állományaidat töltöd le, így meggyőződhetsz róla, hogy nem vesztesz el semmilyen módosítást, amit csinálhattál. Miután letöltötted ezt a csomagot, a benne lévő állományokat fel kell töltened a phpBB-d gyökérkönyvtárába, a megfelelő helyükre. Ezután mégegyszer összevetheted az állományokat, hogy leellenőrizd, a megfelelő helyre töltötted fel őket.</p><h2>Haladó frissítés FTP-vel</h2><p>Ez a frissítési mód hasonló az előbbihez, azonban ennél nem kell saját magadnak letöltened, majd feltöltened a megváltozott állományokat – ezt megteszi a phpBB. Ezen mód használatához ismerned kell az FTP-belépéshez szükséges dolgokat, mivel egy űrlapon meg kell adnod ezeket. Miután ezt befejezted, át leszel irányítva az állományok összevetéséhez, hogy meggyőződhess, minden sikeresen frissítésre került.<br><br>', //? Advanced Update with FTP
 	'UPDATE_INSTRUCTIONS'			=> '
 
 		<h1>Verziómegjelenési közlemény</h1>
 
 		<p>A frissítés folytatása előtt, kérjük, olvasd el a legfrissebb verziót bejelentő közleményt, mivel hasznos információkat tartalmazhat. Mindenképp szerepel benne a változások listája és közvetlen link az új verzió letöltésére.</p>
 
-		<br />
+		<br>
 		
 		<h1>Frissítés módja a telepítő csomag használatával</h1>
 
@@ -373,13 +373,13 @@ $lang = array_merge($lang, array(
 			<li><strong><a href="%1$s" title="%1$s">Indítsd el a frissítési folyamatot az install könyvtár böngészőből való megnyitásával</a>.</strong></li>
 			<li>Válaszd ki a használandó nyelvet a jobb felső sarokban.</li>
 			<li>Kövesd a Frissítés fül lépéseit az adatbázis frissítésére.</li>
-			<li>FTP-n vagy SSH-n keresztül töröld az <code class="inline">/install</code> könyvtárat a fórumod gyökérkönyvtárából.<br /><br /></li>
+			<li>FTP-n vagy SSH-n keresztül töröld az <code class="inline">/install</code> könyvtárat a fórumod gyökérkönyvtárából.<br><br></li>
 		</ol>
 		
 		<p>Ezzel lett egy új, naprakész fórumod, ami tartalmazza az összes felhasználót és hozzászólást. További feladatok:</p>
 		<ul style="margin-left: 20px; font-size: 1.1em;">
 			<li>Használatban lévő nyelvi csomagok frissítése</li>
-			<li>Használatban lévő megjelenések frissítése<br /><br /></li>
+			<li>Használatban lévő megjelenések frissítése<br><br></li>
 		</ul>
 
 		<h1>Frissítés módja a haladó frissítő csomag használatával</h1>
@@ -387,14 +387,14 @@ $lang = array_merge($lang, array(
 		<p>Az itt részletezett javasolt frissítési mód a haladó frissítő csomag használatát feltételezi. Ez csak abban az esetben javasolt, ha a phpBB alap fájljai is szerkesztésre kerültek. A phpBB-det az INSTALL.html-ben leírt módokon is frissítheted. A phpBB3 automatikusan történő frissítése a következő lépésekből áll:</p>
 
 		<ul style="margin-left: 20px; font-size: 1.1em;">
-			<li>Menj a <a href="https://www.phpbb.com/downloads/" title="https://www.phpbb.com/downloads/">phpBB.com letöltések oldalára</a>, és töltsd le a megfelelő haladó frissítő csomagot.<br /><br /></li>
-			<li>Csomagold ki a csomagot.<br /><br /></li>
-			<li>A kicsomagolt csomag install és vendor könyvtárait töltsd fel a phpBB-d gyökérkönyvtárába (ahol a config.php található).<br /><br /></li>
+			<li>Menj a <a href="https://www.phpbb.com/downloads/" title="https://www.phpbb.com/downloads/">phpBB.com letöltések oldalára</a>, és töltsd le a megfelelő haladó frissítő csomagot.<br><br></li>
+			<li>Csomagold ki a csomagot.<br><br></li>
+			<li>A kicsomagolt csomag install és vendor könyvtárait töltsd fel a phpBB-d gyökérkönyvtárába (ahol a config.php található).<br><br></li>
 		</ul>
 
-		<p>Miután feltöltötted, a normál felhasználók nem tudják majd elérni a fórumot az install könyvtár létezése miatt.<br /><br />
-		<strong><a href="%1$s" title="%21s">Most kezdd el a frissítést az install könyvtárba lépéssel.</a></strong><br />
-		<br />
+		<p>Miután feltöltötted, a normál felhasználók nem tudják majd elérni a fórumot az install könyvtár létezése miatt.<br><br>
+		<strong><a href="%1$s" title="%21s">Most kezdd el a frissítést az install könyvtárba lépéssel.</a></strong><br>
+		<br>
 		Ez után a rendszer végigvezet a frissítés folyamatán. A frissítés végeztével meg fog jelenni egy értesítő üzenet.
 		</p>
 	', //? Advanced Update
@@ -498,16 +498,16 @@ $lang = array_merge($lang, array(
 	// Common converter messages
 	'CONVERT_NOT_EXIST'			=> 'A megadott konvertáló nem létezik.',
 	'DEV_NO_TEST_FILE'			=> 'Nem került megadásra a test_file változó értéke a konvertálóban. Ha csak egy használója vagy ennek a konvertálónak, nem szabadna ezt a hibaüzenetet látnod – kérjük, értesítsd a konvertáló készítőjét. Ha a konvertáló készítője vagy, meg kell adnod egy az eredeti fórumban lévő állomány helyét, hogy le lehessen ellenőrizni az eredeti fórum elérési útját.',
-	'COULD_NOT_FIND_PATH'		=> 'Nem sikerült megtalálni az elérési utat az eredeti fórumodhoz. Kérjük, ellenőrizd a beállításokat, és próbálkozz újra.<br />» Megadott elérési út: %s',
+	'COULD_NOT_FIND_PATH'		=> 'Nem sikerült megtalálni az elérési utat az eredeti fórumodhoz. Kérjük, ellenőrizd a beállításokat, és próbálkozz újra.<br>» Megadott elérési út: %s',
 	'CONFIG_PHPBB_EMPTY'		=> 'A phpBB3 „%s” konfigurációs változója üres.',
 
-	'MAKE_FOLDER_WRITABLE'		=> 'Kérünk, győződj meg róla, hogy a következő könyvtár létezik, és írható a webszerver által, majd próbálkozz újra:<br />»<strong>%s</strong>',
-	'MAKE_FOLDERS_WRITABLE'		=> 'Kérünk, győződj meg róla, hogy a következő könyvtárak léteznek, és írhatóak a webszerver által, majd próbálkozz újra:<br />»<strong>%s</strong>',
+	'MAKE_FOLDER_WRITABLE'		=> 'Kérünk, győződj meg róla, hogy a következő könyvtár létezik, és írható a webszerver által, majd próbálkozz újra:<br>»<strong>%s</strong>',
+	'MAKE_FOLDERS_WRITABLE'		=> 'Kérünk, győződj meg róla, hogy a következő könyvtárak léteznek, és írhatóak a webszerver által, majd próbálkozz újra:<br>»<strong>%s</strong>',
 
 	'INSTALL_TEST'				=> 'Tesztelés újra',
 
 	'NO_TABLES_FOUND'			=> 'Nem találhatók adatbázistáblák.',
-	'TABLES_MISSING'			=> 'Az alábbi táblák nem találhatók:<br />» <strong>%s</strong>.',
+	'TABLES_MISSING'			=> 'Az alábbi táblák nem találhatók:<br>» <strong>%s</strong>.',
 	'CHECK_TABLE_PREFIX'		=> 'Kérjük, ellenőrizd az adatbázis-előtagot, és próbálkozz újra.',
 
 	// Conversion in progress
@@ -531,7 +531,7 @@ $lang = array_merge($lang, array(
 
 	// Settings
 	'STAGE_SETTINGS'			=> 'Beállítások',
-	'TABLE_PREFIX_SAME'			=> 'Annak a szoftvernek a tábla előtagját add meg, amelyről konvertálsz.<br />» A megadott tábla előtag %s volt.',
+	'TABLE_PREFIX_SAME'			=> 'Annak a szoftvernek a tábla előtagját add meg, amelyről konvertálsz.<br>» A megadott tábla előtag %s volt.',
 	'DEFAULT_PREFIX_IS'			=> 'A konvertáló nem talált táblákat a megadott előtaggal. Kérünk, győződj meg róla, hogy helyesen adtad meg az eredeti fórum adatait. A %1$s alapértelmezett tábla előtagja <strong>%2$s</strong>.',
 	'SPECIFY_OPTIONS'			=> 'Konvertálás beállításainak megadása',
 	'FORUM_PATH'				=> 'Fórum elérési útja',
@@ -542,7 +542,7 @@ $lang = array_merge($lang, array(
 	// Conversion
 	'STAGE_IN_PROGRESS'			=> 'Konvertálás…',
 
-	'AUTHOR_NOTES'				=> 'Készítő megjegyzései<br />» %s',
+	'AUTHOR_NOTES'				=> 'Készítő megjegyzései<br>» %s',
 	'STARTING_CONVERT'			=> 'Konvertálás elkezdése',
 	'CONFIG_CONVERT'			=> 'Konfiguráció konvertálása',
 	'DONE'						=> 'Kész',
@@ -567,7 +567,7 @@ $lang = array_merge($lang, array(
 	'CONTINUE_LAST'				=> 'Végső műveletek folytatása',
 	'CLEAN_VERIFY'				=> 'Végleges struktúra rendbe tétele és ellenőrzése',
 	'NOT_UNDERSTAND'			=> 'Nem sikerült értelmezni: %s #%d, %s tábla („%s”).',
-	'NAMING_CONFLICT'			=> 'Nevezési ütközés: a %s és a %s is fedőnév.<br /><br />%s',
+	'NAMING_CONFLICT'			=> 'Nevezési ütközés: a %s és a %s is fedőnév.<br><br>%s',
 
 	// Finish conversion
 	'CONVERT_COMPLETE'			=> 'Konvertálás befejeződött',

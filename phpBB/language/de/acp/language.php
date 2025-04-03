@@ -69,7 +69,7 @@ $lang = array_merge($lang, array(
 
 	'NO_FILE_SELECTED'				=> 'Du hast keine Sprachdatei angegeben.',
 	'NO_LANG_ID'					=> 'Du hast kein Sprachpaket angegeben.',
-	'NO_REMOVE_DEFAULT_LANG'		=> 'Du kannst das Standard-Sprachpaket nicht entfernen.<br />Wenn du dieses Sprachpaket entfernen möchtest, musst du zuerst die Standard-Sprache des Boards ändern.',
+	'NO_REMOVE_DEFAULT_LANG'		=> 'Du kannst das Standard-Sprachpaket nicht entfernen.<br>Wenn du dieses Sprachpaket entfernen möchtest, musst du zuerst die Standard-Sprache des Boards ändern.',
 	'NO_UNINSTALLED_LANGUAGE_PACKS'	=> 'Keine deinstallierten Sprachpakete',
 
 	'THOSE_MISSING_LANG_FILES'			=> 'Die folgenden Sprachdateien fehlen im „%s“-Sprachpaket',

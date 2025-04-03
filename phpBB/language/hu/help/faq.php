@@ -51,7 +51,7 @@ $lang = array_merge($lang, array(
 	'HELP_FAQ_BOOKMARKS_FORUM_QUESTION'	=> 'Hogyan tudok feliratkozni egy fórumra?',
 	'HELP_FAQ_BOOKMARKS_REMOVE_ANSWER'	=> 'A leiratkozáshoz menj a felhasználói vezérlőpultra, és kövesd a linkeket a feliratkozásaidhoz.',
 	'HELP_FAQ_BOOKMARKS_REMOVE_QUESTION'	=> 'Hogyan tudok leiratkozni?',
-	'HELP_FAQ_BOOKMARKS_TOPIC_ANSWER'	=> 'Kedvencekbe tehetsz vagy feliratkozhatsz egy témára a “Téma eszközök” menüpont megfelelő hivatkozására kattintva, ami általában a téma tetején és alján helyezkedik el.<br />A témára úgy is feliratkozhatsz, ha a “Értesítést kérek új válasz érkezésekor” opció bejelölésével küldesz új hozzászólást.',
+	'HELP_FAQ_BOOKMARKS_TOPIC_ANSWER'	=> 'Kedvencekbe tehetsz vagy feliratkozhatsz egy témára a “Téma eszközök” menüpont megfelelő hivatkozására kattintva, ami általában a téma tetején és alján helyezkedik el.<br>A témára úgy is feliratkozhatsz, ha a “Értesítést kérek új válasz érkezésekor” opció bejelölésével küldesz új hozzászólást.',
 	'HELP_FAQ_BOOKMARKS_TOPIC_QUESTION'	=> 'Hogyan tudok kedvencekbe tenni vagy feliratkozni egy témára?',
 
 	'HELP_FAQ_FORMATTING_ANNOUNCEMENT_ANSWER'	=> 'A közlemények gyakran fontos információkat tartalmaznak az adott fórummal kapcsolatban, ezért olvasd el őket valahányszor csak tudod. A közlemények a fórum összes oldalán, felül jelennek meg. Hasonlóan a globális közleményekhez, közlemények küldéséhez is az adminisztrátor adhat jogosultságot.',

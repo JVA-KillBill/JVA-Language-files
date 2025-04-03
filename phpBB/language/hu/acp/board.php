@@ -113,7 +113,7 @@ $lang = array_merge($lang, array(
 	'ACP_AVATAR_SETTINGS_EXPLAIN'	=> 'Az avatarok általánosan kis, egyedi képek, melyeket a felhasználók magukhoz társítanak. A témák megtekintésénél általában a felhasználónév alatt jelennek meg a használt megjelenéstől függően. Ezen az oldalon meghatározhatod, hogy a felhasználók milyen módon adhatják meg az avatarukat. Kérjük, vedd figyelembe, hogy az avatarok feltöltésének működéséhez az alább megadott könyvtárnak léteznie kell, és meg kell győződnöd róla, hogy írható a webszerver által. Kérjük, azt is vedd figyelembe, hogy a maximális állomány méretek csak a feltöltött avatarokra vonatkoznak, a kívülről linkeltekre nem.',
 
 	'ALLOW_AVATARS'					=> 'Avatarok bekapcsolása',
-	'ALLOW_AVATARS_EXPLAIN'			=> 'Avatarok használatának engedélyezése általánosságban.<br />Amikor kikapcsolod az avatar funkciót vagy az egyes módon feltöltött avatar képeket, az érintett avatarok nem jelennek meg többet, de a felhasználók továbbra is le tudják tölteni a saját avatarukat a felhasználói vezérlőpultból.',
+	'ALLOW_AVATARS_EXPLAIN'			=> 'Avatarok használatának engedélyezése általánosságban.<br>Amikor kikapcsolod az avatar funkciót vagy az egyes módon feltöltött avatar képeket, az érintett avatarok nem jelennek meg többet, de a felhasználók továbbra is le tudják tölteni a saját avatarukat a felhasználói vezérlőpultból.',
 	'ALLOW_GRAVATAR'				=> 'Gravatar avatarok engedélyezése',
 	'ALLOW_LOCAL'					=> 'Avatar galéria bekapcsolása',
 	'ALLOW_REMOTE'					=> 'Külső avatarok engedélyezése',
@@ -122,9 +122,9 @@ $lang = array_merge($lang, array(
 	'ALLOW_REMOTE_UPLOAD_EXPLAIN'	=> 'Lehetővé teszi avatar feltöltését egy másik weboldalról.<br><em><strong class="error">Figyelmeztetés:</strong> Ennek a funkciónak az engedélyezésével a felhasználók ellenőrizni tudják bizonyos, csak a webszerver helyi hálózatból elérhető fájlok és szolgáltatások létezését.</em>',
 	'ALLOW_UPLOAD'					=> 'Avatarfeltöltés engedélyezése',
 	'AVATAR_GALLERY_PATH'			=> 'Avatar galéria elérési út',
-	'AVATAR_GALLERY_PATH_EXPLAIN'	=> 'A phpBB-d gyökérkönyvtárától viszonyított elérési út az előre feltöltött képekhez, pl. <samp>images/avatars/gallery</samp>.<br />Az elérési útban található dupla pontok (<samp>../</samp>) biztonsági okokból eltávolításra kerülnek.',
+	'AVATAR_GALLERY_PATH_EXPLAIN'	=> 'A phpBB-d gyökérkönyvtárától viszonyított elérési út az előre feltöltött képekhez, pl. <samp>images/avatars/gallery</samp>.<br>Az elérési útban található dupla pontok (<samp>../</samp>) biztonsági okokból eltávolításra kerülnek.',
 	'AVATAR_STORAGE_PATH'			=> 'Avatarok tárolási helyének elérési útja',
-	'AVATAR_STORAGE_PATH_EXPLAIN'	=> 'A phpBB-d gyökérkönyvtárától viszonyított elérési út, pl. <samp>images/avatars/upload</samp>.<br />Az avatar feltöltési lehetőség <strong>nem lesz elérhető</strong>, ha ez az elérési út nem írható.<br />Az elérési útban található dupla pontok (<samp>../</samp>) biztonsági okokból eltávolításra kerülnek.',
+	'AVATAR_STORAGE_PATH_EXPLAIN'	=> 'A phpBB-d gyökérkönyvtárától viszonyított elérési út, pl. <samp>images/avatars/upload</samp>.<br>Az avatar feltöltési lehetőség <strong>nem lesz elérhető</strong>, ha ez az elérési út nem írható.<br>Az elérési útban található dupla pontok (<samp>../</samp>) biztonsági okokból eltávolításra kerülnek.',
 	'MAX_AVATAR_SIZE'				=> 'Maximum avatar méret',
 	'MAX_AVATAR_SIZE_EXPLAIN'		=> 'Szélesség x magasság pixelben.',
 	'MAX_FILESIZE'					=> 'Maximum avatar állomány méret',
@@ -280,7 +280,7 @@ $lang = array_merge($lang, array(
 	'ACP_FEED_SETTINGS_OTHER'			=> 'Más csatornák és beállítások',
 
 	'ACP_FEED_ENABLE'					=> 'Csatornák bekapcsolása',
-	'ACP_FEED_ENABLE_EXPLAIN'			=> 'Az ATOM csatornák be- vagy kikapcsolása az egész fórumon.<br />Ha kikapcsolod, az alábbi beállításoktól függetlenül, az összes csatorna kikapcsolásra kerül.',
+	'ACP_FEED_ENABLE_EXPLAIN'			=> 'Az ATOM csatornák be- vagy kikapcsolása az egész fórumon.<br>Ha kikapcsolod, az alábbi beállításoktól függetlenül, az összes csatorna kikapcsolásra kerül.',
 	'ACP_FEED_LIMIT'					=> 'Bejegyzések száma',
 	'ACP_FEED_LIMIT_EXPLAIN'			=> 'Legfeljebb ennyi bejegyzés kerül megjelenítésre a csatornákban.',
 
@@ -303,7 +303,7 @@ $lang = array_merge($lang, array(
 	'ACP_FEED_TOPICS_ACTIVE'			=> 'Aktív témák csatorna bekapcsolása',
 	'ACP_FEED_TOPICS_ACTIVE_EXPLAIN'	=> 'Bekapcsolja az „Aktív témák” csatornát, amely az utoljára aktív témákat jeleníti meg az utolsó hozzászólásukkal együtt.',
 	'ACP_FEED_NEWS'						=> 'Hírcsatorna',
-	'ACP_FEED_NEWS_EXPLAIN'				=> 'A hírcsatorna ezen fórumok első hozzászólásait jeleníti meg. Ha ki szeretnéd kapcsolni, ne válassz ki egy fórumot se.<br />Több fórumot a <samp>CTRL</samp> gomb nyomvatartásával tudsz kiválasztani.',
+	'ACP_FEED_NEWS_EXPLAIN'				=> 'A hírcsatorna ezen fórumok első hozzászólásait jeleníti meg. Ha ki szeretnéd kapcsolni, ne válassz ki egy fórumot se.<br>Több fórumot a <samp>CTRL</samp> gomb nyomvatartásával tudsz kiválasztani.',
 
 	'ACP_FEED_OVERALL_FORUMS'			=> 'Fórum csatorna bekapcsolása',
 	'ACP_FEED_OVERALL_FORUMS_EXPLAIN'	=> 'Bekapcsolja az „Összes fórum” csatornát, amely a fórumok listáját jeleníti meg..',
@@ -311,9 +311,9 @@ $lang = array_merge($lang, array(
 	'ACP_FEED_HTTP_AUTH'				=> 'HTTP azonosítás engedélyezése',
 	'ACP_FEED_HTTP_AUTH_EXPLAIN'		=> 'Engedélyezi a HTTP azonosítást, aminek segítségével a felhasználók a vendég felhasználók elől elzárt tartalmakhoz is hozzáférnek, ha a csatorna URL-jét kiegészítik a <samp>auth=http</samp> paraméterrel. Kérjük, vedd figyelembe, hogy egyes PHP környezetekben további változtatásokat kell elvégezni a .htaccess állományban. A teendők megtalálhatóak ebben az állományban.',
 	'ACP_FEED_ITEM_STATISTICS'			=> 'Bejegyzés statisztikák',
-	'ACP_FEED_ITEM_STATISTICS_EXPLAIN'	=> 'Különböző statisztikai adatokat jelenít meg a csatorna bejegyzései alatt.<br />(Például szerző, dátum, válaszok száma, megtekintések száma)',
+	'ACP_FEED_ITEM_STATISTICS_EXPLAIN'	=> 'Különböző statisztikai adatokat jelenít meg a csatorna bejegyzései alatt.<br>(Például szerző, dátum, válaszok száma, megtekintések száma)',
 	'ACP_FEED_EXCLUDE_ID'				=> 'Kizárandó fórumok',
-	'ACP_FEED_EXCLUDE_ID_EXPLAIN'		=> 'Ezen fórumok tartalma <strong>nem kerül megjelenítésre a csatornákban</strong>. <br />Több fórumot kijelölni, illetve a kijelölést megszüntetni a <samp>CTRL</samp> gomb nyomvatartásával lehet.',
+	'ACP_FEED_EXCLUDE_ID_EXPLAIN'		=> 'Ezen fórumok tartalma <strong>nem kerül megjelenítésre a csatornákban</strong>. <br>Több fórumot kijelölni, illetve a kijelölést megszüntetni a <samp>CTRL</samp> gomb nyomvatartásával lehet.',
 ));
 
 // Visual Confirmation Settings
@@ -365,7 +365,7 @@ $lang = array_merge($lang, array(
 	'ACP_COOKIE_SETTINGS_EXPLAIN'		=> 'Ezek a beállítások határozzák meg, hogy a felhasználóid böngészőjének milyen sütik kerülnek elküldésre. A legtöbb esetben az alapbeállítások megfelelőek. Ha mégis meg kell változtatnod egy beállítást, tedd figyelemmel, mivel a nem helyes beállítások következtében előfordulhat, hogy a felhasználók nem tudnak majd belépni. Ha a felhasználóknak problémái vannak a fórumon való bejelentkezve maradással, akkor látogasd meg az angol nyelvű <strong><a href="https://www.phpbb.com/support/go/cookie-settings/">phpBB.com Knowledge Base - Fixing incorrect cookie settings</a></strong> oldalt.',
 
 	'COOKIE_DOMAIN'				=> 'Süti domain',
-	'COOKIE_DOMAIN_EXPLAIN'		=> 'A legtöbb esetben a süti domaint nem kell megadni. Hagyd üresen, ha nem vagy biztos az értékében.<br /><br /> Abban az esetben, ha a fórum integrálva van weboldallal vagy más programmal, esetleg több domain névről is elérhető, akkor a következőket kell tenned a megadandó érték eldöntésére. Ha van például egy <i>example.com</i> és egy <i>forums.example.com</i> címed, vagy <i>forums.example.com</i> és <i>blog.example.com</i>, akkor távolítsd el a címek elején lévő aldomaineket addig, amíg meg nem kapod a közös domain nevet, ami ebben az esetben <i>example.com</i>. Most tegyél egy pontot a domain elé és add meg a .example.com címet (figyelj a cím elején lévő pontra).',
+	'COOKIE_DOMAIN_EXPLAIN'		=> 'A legtöbb esetben a süti domaint nem kell megadni. Hagyd üresen, ha nem vagy biztos az értékében.<br><br> Abban az esetben, ha a fórum integrálva van weboldallal vagy más programmal, esetleg több domain névről is elérhető, akkor a következőket kell tenned a megadandó érték eldöntésére. Ha van például egy <i>example.com</i> és egy <i>forums.example.com</i> címed, vagy <i>forums.example.com</i> és <i>blog.example.com</i>, akkor távolítsd el a címek elején lévő aldomaineket addig, amíg meg nem kapod a közös domain nevet, ami ebben az esetben <i>example.com</i>. Most tegyél egy pontot a domain elé és add meg a .example.com címet (figyelj a cím elején lévő pontra).',
 	'COOKIE_NAME'				=> 'Süti név',
 	'COOKIE_NAME_EXPLAIN'		=> 'Ez bármi lehet, amit szeretnél, legyen egyedi. Ha a süti beállítások változnak, a süti nevét is módosítani kell.',
 	'COOKIE_NOTICE'				=> 'Süti használati figyelmeztetés',
@@ -446,7 +446,7 @@ $lang = array_merge($lang, array(
 	'AUTH_METHOD'				=> 'Azonosítási mód',
 
 	'AUTH_PROVIDER_OAUTH_ERROR_ELEMENT_MISSING'	=> 'A key-t és a secret-et is meg kell adnod minden engedélyezett OAuth szolgáltatáshoz, azonban te csak az egyiket adtad meg.',
-	'AUTH_PROVIDER_OAUTH_EXPLAIN'				=> 'Minden OAuth szolgáltatónak szüksége van egy egyedi secret-re és egy key-re, hogy azonosítani tudja a felhasználót egy külső szerveren történő belépéskor. Ezeket az OAuth szolgáltató adja meg a náluk történt regisztráció után, és pontosan abban a formában kell megadnod, ahogy azt a szolgáltató megadta.<br />Azok a szolgáltatók, amelyekhez nincs megadva secret és key is, nem lesznek használhatóak. Megjegyzés: a felhasználók továbbra is tudnak regisztrálni és bejelentkezni a DB azonosítás használatával.', //?
+	'AUTH_PROVIDER_OAUTH_EXPLAIN'				=> 'Minden OAuth szolgáltatónak szüksége van egy egyedi secret-re és egy key-re, hogy azonosítani tudja a felhasználót egy külső szerveren történő belépéskor. Ezeket az OAuth szolgáltató adja meg a náluk történt regisztráció után, és pontosan abban a formában kell megadnod, ahogy azt a szolgáltató megadta.<br>Azok a szolgáltatók, amelyekhez nincs megadva secret és key is, nem lesznek használhatóak. Megjegyzés: a felhasználók továbbra is tudnak regisztrálni és bejelentkezni a DB azonosítás használatával.', //?
 	'AUTH_PROVIDER_OAUTH_KEY'					=> 'Key',
 	'AUTH_PROVIDER_OAUTH_TITLE'					=> 'OAuth',
 	'AUTH_PROVIDER_OAUTH_SECRET'				=> 'Secret',
@@ -462,7 +462,7 @@ $lang = array_merge($lang, array(
 	'LDAP_NO_EMAIL'					=> 'A megadott e-mail paraméter nem létezik.',
 	'LDAP_NO_IDENTITY'				=> 'Nem található belépési azonosító: %s.',
 	'LDAP_PASSWORD'					=> 'LDAP jelszó',
-	'LDAP_PASSWORD_EXPLAIN'			=> 'Névtelen hozzáférés használatához hagyd üresen, egyébként add meg a fenti felhasználóhoz tartozó jelszót. Active Directory szervereknél szükséges.<br /><em><strong>Figyelmeztetés:</strong> Ez a jelszó az adatbázisban sima szövegként kerül tárolásra, így bárki által hozzáférhető, aki hozzáfér az adatbázishoz vagy látja ezt a beállítás oldalt.</em>',
+	'LDAP_PASSWORD_EXPLAIN'			=> 'Névtelen hozzáférés használatához hagyd üresen, egyébként add meg a fenti felhasználóhoz tartozó jelszót. Active Directory szervereknél szükséges.<br><em><strong>Figyelmeztetés:</strong> Ez a jelszó az adatbázisban sima szövegként kerül tárolásra, így bárki által hozzáférhető, aki hozzáfér az adatbázishoz vagy látja ezt a beállítás oldalt.</em>',
 	'LDAP_PORT'						=> 'LDAP szerver port',
 	'LDAP_PORT_EXPLAIN'				=> 'Ha kell, az alap 389-es helyett megadhatsz egy másik portot, mely használva lesz az LDAP szerverhez való kapcsolódáshoz.',
 	'LDAP_SERVER'					=> 'LDAP szervernév',
@@ -543,7 +543,7 @@ $lang = array_merge($lang, array(
 	'IP_LOGIN_LIMIT_TIME'			=> 'IP-címenkénti belépési kísérletek lejárati ideje',
 	'IP_LOGIN_LIMIT_TIME_EXPLAIN'	=> 'A belépési kísérletek ennyi idő elteltével évülnek el, másodpercben.',
 	'IP_LOGIN_LIMIT_USE_FORWARDED'	=> 'Belépési kísérletek limitálása a <var>X_FORWARDED_FOR</var> fejléc alapján',
-	'IP_LOGIN_LIMIT_USE_FORWARDED_EXPLAIN'	=> 'A belépési kísérletek IP-cím szerinti korlátozása helyett a fórum az <var>X_FORWARDED_FOR</var> HTTP fejléc értékét használja. <br /><em><strong>Figyelem:</strong> Ezt a funkciót csak akkor kapcsold be, ha a fórumot egy olyan proxy szerveren keresztül lehet elérni, amely megbízhatóan állítja be ezt az értéket.</em>',
+	'IP_LOGIN_LIMIT_USE_FORWARDED_EXPLAIN'	=> 'A belépési kísérletek IP-cím szerinti korlátozása helyett a fórum az <var>X_FORWARDED_FOR</var> HTTP fejléc értékét használja. <br><em><strong>Figyelem:</strong> Ezt a funkciót csak akkor kapcsold be, ha a fórumot egy olyan proxy szerveren keresztül lehet elérni, amely megbízhatóan állítja be ezt az értéket.</em>',
 	'MAX_LOGIN_ATTEMPTS'			=> 'Belépési kísérletek felhasználónevenkénti maximális száma',
 	'MAX_LOGIN_ATTEMPTS_EXPLAIN'	=> 'Ennyi felhasználónevenkénti sikertelen belépési kísérlet után a felhasználónak meg kell oldania az anti-robot bővítmény által megszabott feladatot. A 0 érték kikapcsolja az anti-robot feladat megjelenítését.',
 	'NO_IP_VALIDATION'				=> 'Nincs',
@@ -579,7 +579,7 @@ $lang = array_merge($lang, array(
 	'CONTACT_EMAIL_NAME'			=> 'Kapcsolat név',
 	'CONTACT_EMAIL_NAME_EXPLAIN'	=> 'Ez az a kapcsolati név, amit az e-mailek címzettjei látni fognak. Ha nem szeretnél nevet megadni, hagyd üresen.',
 	'EMAIL_FORCE_SENDER'			=> 'Feladó e-mail cím használata', // ? force email sender
-	'EMAIL_FORCE_SENDER_EXPLAIN'	=> 'Beállítja a <samp>Return-Path</samp> (visszaküldési útvonal) értékének a feladó e-mail címet a szerver helyi felhasználója és hosztneve helyett. Ez a beállítás nincs figyelembe véve SMTP használatakor.<br /><em><strong>Figyelmeztetés:</strong> A beállítás használatához szükséges, hogy a felhasználó, akinek a nevében a webszerver fut a megbízható felhasználók között szerepeljen a sendmail parancs beállításaiban.</em>', // ? This will set the <samp>Return-Path</samp> to the from email address instead of using the local user and hostname of the server. This setting does not apply when using SMTP.<br><em><strong>Warning:</strong> Requires the user that the webserver runs as to be added as trusted user to the sendmail configuration.</em>
+	'EMAIL_FORCE_SENDER_EXPLAIN'	=> 'Beállítja a <samp>Return-Path</samp> (visszaküldési útvonal) értékének a feladó e-mail címet a szerver helyi felhasználója és hosztneve helyett. Ez a beállítás nincs figyelembe véve SMTP használatakor.<br><em><strong>Figyelmeztetés:</strong> A beállítás használatához szükséges, hogy a felhasználó, akinek a nevében a webszerver fut a megbízható felhasználók között szerepeljen a sendmail parancs beállításaiban.</em>', // ? This will set the <samp>Return-Path</samp> to the from email address instead of using the local user and hostname of the server. This setting does not apply when using SMTP.<br><em><strong>Warning:</strong> Requires the user that the webserver runs as to be added as trusted user to the sendmail configuration.</em>
 	'EMAIL_PACKAGE_SIZE'			=> 'E-mail csomag mérete',
 	'EMAIL_PACKAGE_SIZE_EXPLAIN'	=> 'Legfeljebb ennyi e-mail kerül kiküldésre egy csomagban. Ez a beállítás a belső várakozási sorra vonatkozik. Ha problémák lépnének föl nem megérkező értesítő e-mailekkel kapcsolatban, állítsd ezt az értéket 0-ra.',
 	'EMAIL_MAX_CHUNK_SIZE'			=> 'Címzettek maximális száma',
@@ -591,14 +591,14 @@ $lang = array_merge($lang, array(
 	'SEND_TEST_EMAIL'				=> 'Teszt e-mail küldése',
 	'SEND_TEST_EMAIL_EXPLAIN'		=> 'Egy teszt e-mailt küldhetsz a felhasználói fiókodban megadott e-mail címre.',
 	'SMTP_ALLOW_SELF_SIGNED'		=> 'Önaláírt SSL tanúsítványok engedélyezése',
-	'SMTP_ALLOW_SELF_SIGNED_EXPLAIN'=> 'Csatlakozás engedélyezése önaláírt (self-signed) tanúsítvánnyal rendelkező SMTP szerverekhez. <br /><em><strong>Figyelmeztetés:</strong> Az önaláírt tanúsítványok használatának engedélyezése biztonsági következményekkel járhat.</em>',
+	'SMTP_ALLOW_SELF_SIGNED_EXPLAIN'=> 'Csatlakozás engedélyezése önaláírt (self-signed) tanúsítvánnyal rendelkező SMTP szerverekhez. <br><em><strong>Figyelmeztetés:</strong> Az önaláírt tanúsítványok használatának engedélyezése biztonsági következményekkel járhat.</em>',
 	'SMTP_AUTH_METHOD'				=> 'SMTP azonosítási mód',
 	'SMTP_AUTH_METHOD_EXPLAIN'		=> 'Csak akkor van használva, ha egy felhasználónév/jelszó páros meg van adva. Ha nem vagy biztos benne, melyik módot használd, kérdezd meg a szolgáltatódat.',
 	'SMTP_CRAM_MD5'					=> 'CRAM-MD5',
 	'SMTP_DIGEST_MD5'				=> 'DIGEST-MD5',
 	'SMTP_LOGIN'					=> 'LOGIN',
 	'SMTP_PASSWORD'					=> 'SMTP jelszó',
-	'SMTP_PASSWORD_EXPLAIN'			=> 'Csak akkor adj meg jelszót, ha a használt SMTP szerver megköveteli.<br /><em><strong>Figyelmeztetés:</strong> Ez a jelszó az adatbázisban sima szövegként kerül tárolásra, így bárki által hozzáférhető, aki hozzáfér az adatbázishoz vagy látja ezt a beállítás oldalt.</em>',
+	'SMTP_PASSWORD_EXPLAIN'			=> 'Csak akkor adj meg jelszót, ha a használt SMTP szerver megköveteli.<br><em><strong>Figyelmeztetés:</strong> Ez a jelszó az adatbázisban sima szövegként kerül tárolásra, így bárki által hozzáférhető, aki hozzáfér az adatbázishoz vagy látja ezt a beállítás oldalt.</em>',
 	'SMTP_PLAIN'					=> 'PLAIN',
 	'SMTP_POP_BEFORE_SMTP'			=> 'POP-BEFORE-SMTP',
 	'SMTP_PORT'						=> 'SMTP szerver port',
@@ -609,10 +609,10 @@ $lang = array_merge($lang, array(
 	'SMTP_USERNAME'					=> 'SMTP felhasználónév',
 	'SMTP_USERNAME_EXPLAIN'			=> 'Csak akkor adj meg felhasználónevet, ha a használt SMTP szerver megköveteli.',
 	'SMTP_VERIFY_PEER'				=> 'SSL tanúsítvány ellenőrzése',
-	'SMTP_VERIFY_PEER_EXPLAIN'		=> 'Az SMTP szerver által használt tanúsítvány ellenőrzésének megkövetelése. <br /><em><strong>Figyelmeztetés:</strong> Az ellenőrizetlen SSL tanúsítvánnyal rendelkező szerverekhez való kapcsolódás biztonsági következményekkel járhat.</em>',
+	'SMTP_VERIFY_PEER_EXPLAIN'		=> 'Az SMTP szerver által használt tanúsítvány ellenőrzésének megkövetelése. <br><em><strong>Figyelmeztetés:</strong> Az ellenőrizetlen SSL tanúsítvánnyal rendelkező szerverekhez való kapcsolódás biztonsági következményekkel járhat.</em>',
 	'SMTP_VERIFY_PEER_NAME'			=> 'SMTP szervernév ellenőrzése',
-	'SMTP_VERIFY_PEER_NAME_EXPLAIN'	=> 'Az SMTP szerver által használt gépnév ellenőrzésének megkövetelése SSL / TLS kapcsolatok használatakor.<br /><em><strong>Figyelmeztetés:</strong> Az ellenőrizetlen SSL tanúsítvánnyal rendelkező szerverekhez való kapcsolódás biztonsági következményekkel járhat.</em>',
-	'TEST_EMAIL_SENT'				=> 'A teszt e-mail kiküldésre került.<br />Ha nem érkezik meg, kérjük, ellenőrizd az e-mail küldési beállításokat.<br /><br />Ha segítségre van szükséged, kérjük, látogasd meg a <a href="https://www.phpbb.com/community/">phpBB angol nyelvű támogatási fórumát</a>.',
+	'SMTP_VERIFY_PEER_NAME_EXPLAIN'	=> 'Az SMTP szerver által használt gépnév ellenőrzésének megkövetelése SSL / TLS kapcsolatok használatakor.<br><em><strong>Figyelmeztetés:</strong> Az ellenőrizetlen SSL tanúsítvánnyal rendelkező szerverekhez való kapcsolódás biztonsági következményekkel járhat.</em>',
+	'TEST_EMAIL_SENT'				=> 'A teszt e-mail kiküldésre került.<br>Ha nem érkezik meg, kérjük, ellenőrizd az e-mail küldési beállításokat.<br><br>Ha segítségre van szükséged, kérjük, látogasd meg a <a href="https://www.phpbb.com/community/">phpBB angol nyelvű támogatási fórumát</a>.',
 	'USE_SMTP'						=> 'SMTP használata e-mail küldésére',
 	'USE_SMTP_EXPLAIN'				=> 'Állítsd igenre, ha a helyi mail függvény helyett egy meghatározott szerveren keresztül szeretnéd az e-maileket kiküldeni.',
 ));
@@ -622,14 +622,14 @@ $lang = array_merge($lang, array(
 	'ACP_JABBER_SETTINGS_EXPLAIN'	=> 'Itt bekapcsolhatod, illetve szabályozhatod a Jabber használatát azonnali üzenetküldésre és az értesítésekhez. A Jabber egy nyílt protokoll, így bárki által elérhető. Néhány Jabber szerver lehetővé teszi, hogy más hálózaton lévő felhasználókat is elérj. Nem minden szerver teremt lehetőséget erre, és a protokollban történő változások is megakadályozhatják ezt. Kérünk, győződj meg róla, hogy egy már létező azonosító adatait adod meg, mivel a phpBB további ellenőrzés nélkül fogja használni ezeket.',
 
 	'JAB_ALLOW_SELF_SIGNED'			=> 'Önaláírt SSL tanúsítványok engedélyezése',
-	'JAB_ALLOW_SELF_SIGNED_EXPLAIN'	=> 'Önaláírt (self-signed) tanúsítvánnyal rendelkező Jabber szerverhez való kapcsolódás engedélyezése. <br /><em><strong>Figyelmeztetés:</strong> Az önaláírt tanúsítványok használatának engedélyezése biztonsági következményekkel járhat.</em>',
+	'JAB_ALLOW_SELF_SIGNED_EXPLAIN'	=> 'Önaláírt (self-signed) tanúsítvánnyal rendelkező Jabber szerverhez való kapcsolódás engedélyezése. <br><em><strong>Figyelmeztetés:</strong> Az önaláírt tanúsítványok használatának engedélyezése biztonsági következményekkel járhat.</em>',
 	'JAB_ENABLE'				=> 'Jabber bekapcsolása',
 	'JAB_ENABLE_EXPLAIN'		=> 'A Jabber üzenet- és értesítőküldés bekapcsolása.',
 	'JAB_GTALK_NOTE'			=> 'Kérjük, vedd figyelembe, hogy a GTalk nem fog működni, mivel a <samp>dns_get_record</samp> függvény nem található. Ez a függvény PHP4-ben nem elérhető, illetve nincs implementálva Windows rendszereken. Jelenleg BSD alapú rendszereken sem működik, beleértve a Mac OS-t is.',
 	'JAB_PACKAGE_SIZE'			=> 'Jabber csomag méret',
 	'JAB_PACKAGE_SIZE_EXPLAIN'	=> 'Egy csomagban ennyi üzenet kerül kiküldésre. 0-ra állítva az üzenetek azonnal kiküldésre kerülnek, és nem lesznek berakva egy sorba későbbi elküldéshez.',
 	'JAB_PASSWORD'				=> 'Jabber jelszó',
-	'JAB_PASSWORD_EXPLAIN'		=> '<br /><em><strong>Figyelmeztetés:</strong> Ez a jelszó az adatbázisban sima szövegként kerül tárolásra, így bárki által hozzáférhető, aki hozzáfér az adatbázishoz vagy látja ezt a beállítás oldalt.</em>',
+	'JAB_PASSWORD_EXPLAIN'		=> '<br><em><strong>Figyelmeztetés:</strong> Ez a jelszó az adatbázisban sima szövegként kerül tárolásra, így bárki által hozzáférhető, aki hozzáfér az adatbázishoz vagy látja ezt a beállítás oldalt.</em>',
 	'JAB_PORT'					=> 'Jabber port',
 	'JAB_PORT_EXPLAIN'			=> 'Hagyd üresen, hacsak nem tudod, hogy a port nem 5222.',
 	'JAB_SERVER'				=> 'Jabber szerver',
@@ -640,7 +640,7 @@ $lang = array_merge($lang, array(
 	'JAB_USERNAME'				=> 'Jabber felhasználónév vagy JID',
 	'JAB_USERNAME_EXPLAIN'		=> 'Adj meg egy regisztrált felhasználónevet vagy egy valós JID-t. A felhasználónév létezése nem kerül ellenőrzésre. Ha csak egy felhasználónevet adsz meg, a JID a felhasználónév és a fent megadott szerver lesz. Ha nem ezt szeretnéd, adj meg egy helyes JID-t, pl. felhasznalo@jabber.org.',
 	'JAB_VERIFY_PEER'				=> 'SSL tanúsítvány ellenőrzése',
-	'JAB_VERIFY_PEER_EXPLAIN'		=> 'A Jabber szerver által használt tanúsítvány ellenőrzésének megkövetelése. <br /><em><strong>Figyelmeztetés:</strong> Az ellenőrizetlen SSL tanúsítvánnyal rendelkező szerverekhez való kapcsolódás biztonsági következményekkel járhat.</em>',
+	'JAB_VERIFY_PEER_EXPLAIN'		=> 'A Jabber szerver által használt tanúsítvány ellenőrzésének megkövetelése. <br><em><strong>Figyelmeztetés:</strong> Az ellenőrizetlen SSL tanúsítvánnyal rendelkező szerverekhez való kapcsolódás biztonsági következményekkel járhat.</em>',
 	'JAB_VERIFY_PEER_NAME'			=> 'Jabber szervernév ellenőrzése',
-	'JAB_VERIFY_PEER_NAME_EXPLAIN'	=> 'A Jabber szerver által használt gépnév ellenőrzésének megkövetelése SSL / TLS kapcsolatok használatakor.<br /><em><strong>Figyelmeztetés:</strong> Az ellenőrizetlen SSL tanúsítvánnyal rendelkező szerverekhez való kapcsolódás biztonsági következményekkel járhat.</em>',
+	'JAB_VERIFY_PEER_NAME_EXPLAIN'	=> 'A Jabber szerver által használt gépnév ellenőrzésének megkövetelése SSL / TLS kapcsolatok használatakor.<br><em><strong>Figyelmeztetés:</strong> Az ellenőrizetlen SSL tanúsítvánnyal rendelkező szerverekhez való kapcsolódás biztonsági következményekkel járhat.</em>',
 ));

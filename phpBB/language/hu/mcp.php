@@ -221,7 +221,7 @@ $lang = array_merge($lang, array(
 	'MCP_WARN_USER'			=> 'Felhasználó figyelmeztetése',
 
 	'MERGE_POSTS_CONFIRM'	=> 'Biztosan át akarod helyezni a kiválasztott hozzászólásokat?',
-	'MERGE_TOPIC_EXPLAIN'	=> 'Az alábbi űrlap segítségével hozzászólásokat helyezhetsz át egy másik témába. A hozzászólások nem lesznek újrarendezve, úgy fognak megjelenni, mintha eleve oda küldték volna őket.<br />Add meg a céltéma azonosítóját, vagy kattints a „Téma kiválasztása” gombra, hogy megkeresd a témát.', //? újrarendezve
+	'MERGE_TOPIC_EXPLAIN'	=> 'Az alábbi űrlap segítségével hozzászólásokat helyezhetsz át egy másik témába. A hozzászólások nem lesznek újrarendezve, úgy fognak megjelenni, mintha eleve oda küldték volna őket.<br>Add meg a céltéma azonosítóját, vagy kattints a „Téma kiválasztása” gombra, hogy megkeresd a témát.', //? újrarendezve
 	'MERGE_TOPIC_ID'		=> 'Céltéma azonosító szám',
 	'MERGE_TOPICS'			=> 'Témák összevonása',
 	'MERGE_TOPICS_CONFIRM'	=> 'Biztosan össze akarod vonni a kiválasztott témákat?',

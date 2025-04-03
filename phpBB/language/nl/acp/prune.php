@@ -38,7 +38,7 @@ if (empty($lang) || !is_array($lang))
 
 // User pruning
 $lang = array_merge($lang, array(
-	'ACP_PRUNE_USERS_EXPLAIN'	=> 'Deze sectie staat je toe om gebruikers te deactiveren of te verwijderen op je forum. Accounts kunnen gefilterd worden op verschillende manieren; op berichtenaantal, meest recente activiteit, etc. Criteria kunnen worden gecombineerd om te beperken welke accounts zullen worden beïnvloed. Je kunt bijvoorbeeld alle gebruikers opschonen met minder dan 10 berichten die ook nog inactief zijn na 2002-01-01. Gebruik * als een joker voor tekstvelden. Je kunt ook de criteriaselectie compleet overslaan door een lijst van gebruikers in te voeren (elk op een aparte regel) in het tekstveld. Wees voorzichtig met deze mogelijkheden! Wanneer een gebruiker is verwijderd is er geen manier om dit ongedaan te maken.',
+	'ACP_PRUNE_USERS_EXPLAIN'	=> 'Deze sectie staat je toe om gebruikers te deactiveren of te verwijderen op je forum. Accounts kunnen gefilterd worden op verschillende manieren; op berichtenaantal, meest recente activiteit, etc. Criteria kunnen worden gecombineerd om te beperken welke accounts zullen worden beÄnvloed. Je kunt bijvoorbeeld alle gebruikers opschonen met minder dan 10 berichten die ook nog inactief zijn na 2002-01-01. Gebruik * als een joker voor tekstvelden. Je kunt ook de criteriaselectie compleet overslaan door een lijst van gebruikers in te voeren (elk op een aparte regel) in het tekstveld. Wees voorzichtig met deze mogelijkheden! Wanneer een gebruiker is verwijderd is er geen manier om dit ongedaan te maken.',
 
 	'CRITERIA'				=> 'Criteria',
 
@@ -48,7 +48,7 @@ $lang = array_merge($lang, array(
 	'DELETE_USER_POSTS'			=> 'Verwijder berichten van opgeschoonde gebruikers',
 	'DELETE_USER_POSTS_EXPLAIN'=> 'Verwijdert berichten gemaakt door verwijderde gebruikers, heeft geen effect als gebruikers zijn gedeactiveerd.',
 
-	'JOINED_EXPLAIN'			=> 'Voer een datum in in het volgende formaat <kbd>JJJJ-MM-DD</kbd>. Je kunt beide velden gebruiken om een interval te specificeren of er één leeg laten voor een open datumbereik.',
+	'JOINED_EXPLAIN'			=> 'Voer een datum in in het volgende formaat <kbd>JJJJ-MM-DD</kbd>. Je kunt beide velden gebruiken om een interval te specificeren of er Ã©Ã©n leeg laten voor een open datumbereik.',
 
 	'LAST_ACTIVE_EXPLAIN'		=> 'Voer een datum in in het volgende formaat <kbd>JJJJ-MM-DD</kbd>. Vul <kbd>0000-00-00</kbd> in om gebruikers die nooit zijn aangemeld op te schonen, <em>Voor</em> en <em>Na</em> condities zullen genegeerd worden.',
 
@@ -82,7 +82,7 @@ $lang = array_merge($lang, array(
 	'POSTS_PRUNED'					=> 'Berichten opgeschoond',
 	'PRUNE_ANNOUNCEMENTS'			=> 'Mededelingen opschonen',
 	'PRUNE_FINISHED_POLLS'			=> 'Gesloten peilingen opschonen',
-	'PRUNE_FINISHED_POLLS_EXPLAIN'	=> 'Verwijderd onderwerpen met peilingen die beëindigd zijn.',
+	'PRUNE_FINISHED_POLLS_EXPLAIN'	=> 'Verwijderd onderwerpen met peilingen die beÃ«indigd zijn.',
 	'PRUNE_FORUM_CONFIRM'			=> 'Weet je zeker dat je de geselecteerde forums wil opschonen met de gespecificeerde instellingen? Wanneer het opgeschoond is kunnen de opgeschoonde berichten en onderwerpen niet meer teruggehaald worden.',
 	'PRUNE_NOT_POSTED'				=> 'Dagen sinds laatst bericht',
 	'PRUNE_NOT_VIEWED'				=> 'Dagen sinds laatst bekeken',

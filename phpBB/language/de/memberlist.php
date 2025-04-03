@@ -141,8 +141,8 @@ $lang = array_merge($lang, array(
 	'USER_FORUM'			=> 'Benutzer-Statistik',
 	'USER_LAST_REMINDED'	=> array(
 		0		=> 'Bislang wurde keine Erinnerung versendet',
-		1		=> '%1$d Erinnerung versendet<br />» %2$s',
-		2		=> '%1$d Erinnerungen versendet<br />» %2$s',
+		1		=> '%1$d Erinnerung versendet<br>» %2$s',
+		2		=> '%1$d Erinnerungen versendet<br>» %2$s',
 	),
 	'USER_ONLINE'			=> 'Online',
 	'USER_PRESENCE'			=> 'Anwesenheit im Board',

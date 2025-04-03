@@ -48,11 +48,11 @@ $lang = array_merge($lang, array(
 
 	// Introduction page
 	'INTRODUCTION_TITLE'	=> 'Einführung',
-	'INTRODUCTION_BODY'		=> 'Willkommen bei phpBB3!<br /><br />phpBB ist die am weitesten verbreitete Open-Source-Forensoftware. phpBB3 ist die jüngste Fortsetzung einer im Jahr 2000 begonnenen Entwicklungsgeschichte. Wie seine Vorversionen ist phpBB3 funktionsreich, benutzerfreundlich und vollständig vom phpBB-Team unterstützt. phpBB3 verbessert deutlich, was phpBB2 beliebt gemacht hat und bringt neue Funktionen, die häufig gefragt und nicht in den Vorversionen enthalten waren. Wir hoffen, dass es deine Erwartungen übertrifft.<br /><br />Dieses Installations-System wird dich durch die Installation von phpBB3, das Update von einer älteren auf die aktuelle Version von phpBB3, und auch durch die Konvertierung von einem anderen Software-Paket (inklusive phpBB2) führen. Für weitere Informationen empfehlen wir dir, <a href="%1$s">die Installationsanweisungen</a> zu lesen.<br /><br />Um die Lizenz von phpBB3 zu lesen oder Informationen über den Erhalt von Support und unsere Einstellung dazu zu erhalten, wähle bitte die entsprechende Option aus dem seitlichen Menü aus. Um fortzufahren, wähle bitte oben das entsprechende Register aus.',
+	'INTRODUCTION_BODY'		=> 'Willkommen bei phpBB3!<br><br>phpBB ist die am weitesten verbreitete Open-Source-Forensoftware. phpBB3 ist die jüngste Fortsetzung einer im Jahr 2000 begonnenen Entwicklungsgeschichte. Wie seine Vorversionen ist phpBB3 funktionsreich, benutzerfreundlich und vollständig vom phpBB-Team unterstützt. phpBB3 verbessert deutlich, was phpBB2 beliebt gemacht hat und bringt neue Funktionen, die häufig gefragt und nicht in den Vorversionen enthalten waren. Wir hoffen, dass es deine Erwartungen übertrifft.<br><br>Dieses Installations-System wird dich durch die Installation von phpBB3, das Update von einer älteren auf die aktuelle Version von phpBB3, und auch durch die Konvertierung von einem anderen Software-Paket (inklusive phpBB2) führen. Für weitere Informationen empfehlen wir dir, <a href="%1$s">die Installationsanweisungen</a> zu lesen.<br><br>Um die Lizenz von phpBB3 zu lesen oder Informationen über den Erhalt von Support und unsere Einstellung dazu zu erhalten, wähle bitte die entsprechende Option aus dem seitlichen Menü aus. Um fortzufahren, wähle bitte oben das entsprechende Register aus.',
 
 	// Support page
 	'SUPPORT_TITLE'		=> 'Support',
-	'SUPPORT_BODY'		=> 'Für die aktuelle, stabile Version von phpBB3 wird kostenloser Support gewährt. Dies umfasst:</p><ul><li>Installation</li><li>Konfiguration</li><li>Technische Fragen</li><li>Probleme durch eventuelle Fehler in der Software</li><li>Aktualisierung von Release Candidates (RC) oder stabilen Versionen zur aktuellen stabilen Version</li><li>Konvertierungen von phpBB 2.0.x zu phpBB3</li><li>Konvertierung von anderen Forensoftwares zu phpBB3 (Bitte beachte das <a href="https://www.phpbb.com/community/viewforum.php?f=486">Konvertierungs-Forum (englisch)</a> (<a href="https://www.phpbb.de/go/3.3/konvertierung">Konvertierungs-Support auf phpBB.de</a>))</li></ul><p>Wir ermutigen Benutzer, die noch eine Beta-Version von phpBB3 verwenden, ihre Installation mit einer aktuellen Ausgabe von phpBB3 zu ersetzen.</p><h2>Erweiterungen / Styles</h2><p>Fragen bezüglich von Erweiterungen stelle bitte im <a href="https://www.phpbb.com/community/viewforum.php?f=451">englischsprachigen Erweiterungen-Forum</a> (<a href="https://www.phpbb.de/go/3.3/extensions">Erweiterungen auf phpBB.de</a>).<br />Fragen bezüglich Styles, Templates und Themes stelle bitte im <a href="https://www.phpbb.com/community/viewforum.php?f=471">englischsprachigen Styles-Forum</a> (<a href="https://www.phpbb.de/go/3.3/styles">Styles auf phpBB.de</a>).<br /><br />Wenn sich deine Frage direkt auf ein bestimmtes Paket bezieht, stelle deine Frage bitte direkt in dem Thema, das für das Paket vorgesehen ist.</p><h2>Support erhalten</h2><p><a href="https://www.phpbb.com/support/">Supportbereich (englisch)</a><br /><a href="https://www.phpbb.com/support/docs/en/3.3/ug/quickstart/">Schnellstartanleitung (englisch)</a><br /><a href="https://www.phpbb.de/go/3.3/ersteschritte">Erste Schritte mit phpBB</a><br /><a href="https://www.phpbb.de/go/3.3/support">deutschsprachiger Support auf phpBB.de</a><br /><a href="https://www.phpbb.de/go/3.3/schnellstart">Schnellstartanleitung</a><br /><br />Um immer die neuesten Informationen zu Updates und Veröffentlichungen zu erhalten, folge uns auf <a href="https://www.twitter.com/phpbb/">Twitter</a> und <a href="https://www.facebook.com/phpbb/">Facebook</a> (englisch) oder melde dich für den <a href="https://www.phpbb.de/go/newsletter">deutschsprachigen phpBB.de-Newsletter</a> an.<br /><br />',
+	'SUPPORT_BODY'		=> 'Für die aktuelle, stabile Version von phpBB3 wird kostenloser Support gewährt. Dies umfasst:</p><ul><li>Installation</li><li>Konfiguration</li><li>Technische Fragen</li><li>Probleme durch eventuelle Fehler in der Software</li><li>Aktualisierung von Release Candidates (RC) oder stabilen Versionen zur aktuellen stabilen Version</li><li>Konvertierungen von phpBB 2.0.x zu phpBB3</li><li>Konvertierung von anderen Forensoftwares zu phpBB3 (Bitte beachte das <a href="https://www.phpbb.com/community/viewforum.php?f=486">Konvertierungs-Forum (englisch)</a> (<a href="https://www.phpbb.de/go/3.3/konvertierung">Konvertierungs-Support auf phpBB.de</a>))</li></ul><p>Wir ermutigen Benutzer, die noch eine Beta-Version von phpBB3 verwenden, ihre Installation mit einer aktuellen Ausgabe von phpBB3 zu ersetzen.</p><h2>Erweiterungen / Styles</h2><p>Fragen bezüglich von Erweiterungen stelle bitte im <a href="https://www.phpbb.com/community/viewforum.php?f=451">englischsprachigen Erweiterungen-Forum</a> (<a href="https://www.phpbb.de/go/3.3/extensions">Erweiterungen auf phpBB.de</a>).<br>Fragen bezüglich Styles, Templates und Themes stelle bitte im <a href="https://www.phpbb.com/community/viewforum.php?f=471">englischsprachigen Styles-Forum</a> (<a href="https://www.phpbb.de/go/3.3/styles">Styles auf phpBB.de</a>).<br><br>Wenn sich deine Frage direkt auf ein bestimmtes Paket bezieht, stelle deine Frage bitte direkt in dem Thema, das für das Paket vorgesehen ist.</p><h2>Support erhalten</h2><p><a href="https://www.phpbb.com/support/">Supportbereich (englisch)</a><br><a href="https://www.phpbb.com/support/docs/en/3.3/ug/quickstart/">Schnellstartanleitung (englisch)</a><br><a href="https://www.phpbb.de/go/3.3/ersteschritte">Erste Schritte mit phpBB</a><br><a href="https://www.phpbb.de/go/3.3/support">deutschsprachiger Support auf phpBB.de</a><br><a href="https://www.phpbb.de/go/3.3/schnellstart">Schnellstartanleitung</a><br><br>Um immer die neuesten Informationen zu Updates und Veröffentlichungen zu erhalten, folge uns auf <a href="https://www.twitter.com/phpbb/">Twitter</a> und <a href="https://www.facebook.com/phpbb/">Facebook</a> (englisch) oder melde dich für den <a href="https://www.phpbb.de/go/newsletter">deutschsprachigen phpBB.de-Newsletter</a> an.<br><br>',
 
 	// License
 	'LICENSE_TITLE'		=> 'General Public License',
@@ -349,14 +349,14 @@ $lang = array_merge($lang, array(
 // Common updater messages
 $lang = array_merge($lang, array(
 	'UPDATE_INSTALLATION'			=> 'Update der phpBB-Installation',
-	'UPDATE_INSTALLATION_EXPLAIN'	=> 'Mit dieser Option kannst du deine phpBB-Version auf den neuesten Stand bringen.<br />Während dieses Prozesses wird die Integrität aller deiner Dateien überprüft. Du hast die Möglichkeit, alle Dateiunterschiede vor dem Update zu überprüfen.<br /><br />Die Dateiaktualisierung an sich kann auf zwei Wegen erfolgen:</p><h2>Manuelle Aktualisierung</h2><p>Bei dieser Methode lädst du nur die von dir geänderten Dateien herunter, damit du sichergehen kannst, dass die von dir durchgeführten Dateiänderungen nicht verloren gehen. Nach dem Herunterladen dieses Archivs musst du die Dateien in die entsprechenden Verzeichnisse deiner phpBB-Installation hochladen. Nachdem du das getan hast, kannst du die Dateiüberprüfung erneut ausführen, um zu sehen, ob du alle Dateien korrekt hochgeladen hast.</p><h2>Automatische Aktualisierung über FTP</h2><p>Diese Methode ist der ersten sehr ähnlich, mit dem Unterschied, dass du die veränderten Dateien nicht herunter- und anschließend von Hand wieder hochladen musst. Dies wird automatisch erledigt. Um diese Methode nutzen zu können, musst du deine FTP-Anmeldedaten kennen, da sie abgefragt werden. Nach der Fertigstellung wird auch hier eine Integritätsprüfung der Dateien ausgeführt.<br /><br />',
+	'UPDATE_INSTALLATION_EXPLAIN'	=> 'Mit dieser Option kannst du deine phpBB-Version auf den neuesten Stand bringen.<br>Während dieses Prozesses wird die Integrität aller deiner Dateien überprüft. Du hast die Möglichkeit, alle Dateiunterschiede vor dem Update zu überprüfen.<br><br>Die Dateiaktualisierung an sich kann auf zwei Wegen erfolgen:</p><h2>Manuelle Aktualisierung</h2><p>Bei dieser Methode lädst du nur die von dir geänderten Dateien herunter, damit du sichergehen kannst, dass die von dir durchgeführten Dateiänderungen nicht verloren gehen. Nach dem Herunterladen dieses Archivs musst du die Dateien in die entsprechenden Verzeichnisse deiner phpBB-Installation hochladen. Nachdem du das getan hast, kannst du die Dateiüberprüfung erneut ausführen, um zu sehen, ob du alle Dateien korrekt hochgeladen hast.</p><h2>Automatische Aktualisierung über FTP</h2><p>Diese Methode ist der ersten sehr ähnlich, mit dem Unterschied, dass du die veränderten Dateien nicht herunter- und anschließend von Hand wieder hochladen musst. Dies wird automatisch erledigt. Um diese Methode nutzen zu können, musst du deine FTP-Anmeldedaten kennen, da sie abgefragt werden. Nach der Fertigstellung wird auch hier eine Integritätsprüfung der Dateien ausgeführt.<br><br>',
 	'UPDATE_INSTRUCTIONS'			=> '
 
 		<h1>Release-Bekanntmachung</h1>
 
 		<p>Bitte lies die Release-Bekanntmachung (release announcement) der aktuellsten Version, bevor du den Update-Prozess beginnst — sie enthält wichtige Informationen. Außerdem enthält sie die Links zum Download der Installationspakete sowie ein Änderungsprotokoll (Changelog) der Versionen.</p>
 
-		<br />
+		<br>
 
 		<h1>Wie du ein Update deiner Installation mit dem „Komplettpaket“ durchführst</h1>
 
@@ -391,9 +391,9 @@ $lang = array_merge($lang, array(
 			<li>Lade die entpackten Verzeichnisse „install“ und „vendor“ vollständig in dein phpBB-Hauptverzeichnis (dort, wo die config.php ist).</li>
 		</ol>
 
-		<p>Nach dem Upload wird das Forum vorübergehend für normale Benutzer nicht zugänglich sein, da das von dir hochgeladene Installations-Verzeichnis vorhanden ist.<br /><br />
-		<strong><a href="%1$s" title="%1$s">Starte nun den Update-Prozess, indem du in deinem Webbrowser die Adresse zum Installationsverzeichnis angibst</a>.</strong><br />
-		<br />
+		<p>Nach dem Upload wird das Forum vorübergehend für normale Benutzer nicht zugänglich sein, da das von dir hochgeladene Installations-Verzeichnis vorhanden ist.<br><br>
+		<strong><a href="%1$s" title="%1$s">Starte nun den Update-Prozess, indem du in deinem Webbrowser die Adresse zum Installationsverzeichnis angibst</a>.</strong><br>
+		<br>
 		Anschließend wirst du durch den Update-Prozess geführt. Du wirst benachrichtigt, sobald das Update abgeschlossen ist.
 		</p>
 	',
@@ -497,16 +497,16 @@ $lang = array_merge($lang, array(
 	// Common converter messages
 	'CONVERT_NOT_EXIST'			=> 'Der angegebene Konverter existiert nicht.',
 	'DEV_NO_TEST_FILE'			=> 'Für die test_file-Variable im Konverter wurde kein Wert angegeben. Falls du ein Nutzer dieses Konverters bist, solltest du diesen Fehler nicht sehen. Bitte melde diese Nachricht an die Autoren des Konverters. Falls du ein Konverter-Autor bist, musst du den Namen einer im Quell-Board existierenden Datei angeben, damit der Pfad dorthin verifiziert werden kann.',
-	'COULD_NOT_FIND_PATH'		=> 'Der Pfad zu deinem alten Board konnte nicht gefunden werden. Bitte prüfe deine Einstellungen und versuche es erneut.<br />» Der angegebene Quell-Pfad war: %s',
+	'COULD_NOT_FIND_PATH'		=> 'Der Pfad zu deinem alten Board konnte nicht gefunden werden. Bitte prüfe deine Einstellungen und versuche es erneut.<br>» Der angegebene Quell-Pfad war: %s',
 	'CONFIG_PHPBB_EMPTY'		=> 'Die phpBB3-Konfigurationsvariable für „%s“ ist leer.',
 
-	'MAKE_FOLDER_WRITABLE'		=> 'Bitte stelle sicher, dass dieser Ordner existiert und durch den Webserver beschreibbar ist. Versuche es dann erneut:<br />»<strong>%s</strong>.',
-	'MAKE_FOLDERS_WRITABLE'		=> 'Bitte stelle sicher, dass diese Ordner existieren und durch den Webserver beschreibbar sind. Versuche es dann erneut:<br />»<strong>%s</strong>.',
+	'MAKE_FOLDER_WRITABLE'		=> 'Bitte stelle sicher, dass dieser Ordner existiert und durch den Webserver beschreibbar ist. Versuche es dann erneut:<br>»<strong>%s</strong>.',
+	'MAKE_FOLDERS_WRITABLE'		=> 'Bitte stelle sicher, dass diese Ordner existieren und durch den Webserver beschreibbar sind. Versuche es dann erneut:<br>»<strong>%s</strong>.',
 
 	'INSTALL_TEST'				=> 'Erneut prüfen',
 
 	'NO_TABLES_FOUND'			=> 'Keine Tabellen gefunden.',
-	'TABLES_MISSING'			=> 'Kann diese Tabellen nicht finden<br />» <strong>%s</strong>.',
+	'TABLES_MISSING'			=> 'Kann diese Tabellen nicht finden<br>» <strong>%s</strong>.',
 	'CHECK_TABLE_PREFIX'		=> 'Bitte prüfe dein Tabellen-Präfix und versuche es erneut.',
 
 	// Conversion in progress
@@ -530,7 +530,7 @@ $lang = array_merge($lang, array(
 
 	// Settings
 	'STAGE_SETTINGS'			=> 'Einstellungen',
-	'TABLE_PREFIX_SAME'			=> 'Das Tabellen-Präfix muss mit dem übereinstimmen, das von der Software, von der aus du konvertieren möchtest, genutzt wird.<br />» Das angegebene Tabellen-Präfix lautete %s.',
+	'TABLE_PREFIX_SAME'			=> 'Das Tabellen-Präfix muss mit dem übereinstimmen, das von der Software, von der aus du konvertieren möchtest, genutzt wird.<br>» Das angegebene Tabellen-Präfix lautete %s.',
 	'DEFAULT_PREFIX_IS'			=> 'Der Konverter konnte keine Tabellen mit dem angegebenen Präfix finden. Bitte stelle sicher, dass du die richtigen Daten des Boards angegeben hast, von dem aus du konvertieren möchtest. Der standardmäßige Tabellenpräfix für %1$s ist <strong>%2$s</strong>.',
 	'SPECIFY_OPTIONS'			=> 'Konvertierungs-Optionen festlegen',
 	'FORUM_PATH'				=> 'Board-Pfad',
@@ -541,7 +541,7 @@ $lang = array_merge($lang, array(
 	// Conversion
 	'STAGE_IN_PROGRESS'			=> 'Konvertierung wird durchgeführt',
 
-	'AUTHOR_NOTES'				=> 'Autoren-Anmerkungen<br />» %s',
+	'AUTHOR_NOTES'				=> 'Autoren-Anmerkungen<br>» %s',
 	'STARTING_CONVERT'			=> 'Starte Konvertierungsprozess',
 	'CONFIG_CONVERT'			=> 'Konvertiere die Konfiguration',
 	'DONE'						=> 'Erledigt',
@@ -566,7 +566,7 @@ $lang = array_merge($lang, array(
 	'CONTINUE_LAST'				=> 'Mit den abschließenden Anweisungen fortfahren',
 	'CLEAN_VERIFY'				=> 'Aufräumen und Prüfen der endgültigen Struktur',
 	'NOT_UNDERSTAND'			=> 'Kann %s #%d nicht verstehen, Tabelle %s („%s“)',
-	'NAMING_CONFLICT'			=> 'Namens-Konflikt: %s und %s sind beides Aliasse<br /><br />%s',
+	'NAMING_CONFLICT'			=> 'Namens-Konflikt: %s und %s sind beides Aliasse<br><br>%s',
 
 	// Finish conversion
 	'CONVERT_COMPLETE'			=> 'Konvertierung abgeschlossen',

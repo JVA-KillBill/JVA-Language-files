@@ -142,8 +142,8 @@ $lang = array_merge($lang, array(
 	'USER_FORUM'			=> 'Statisztika',
 	'USER_LAST_REMINDED'	=> array(
 		0		=> 'Még nem lett emlékeztető küldve.',
-		1		=> '%1$d emlékeztető lett küldve<br />» %2$s',
-		2		=> '%1$d emlékeztető lett küldve<br />» %2$s',
+		1		=> '%1$d emlékeztető lett küldve<br>» %2$s',
+		2		=> '%1$d emlékeztető lett küldve<br>» %2$s',
 	),
 	'USER_ONLINE'			=> 'Online',
 	'USER_PRESENCE'			=> 'Jelenlét a fórumban',

@@ -116,8 +116,8 @@ $lang = array_merge($lang, array(
 	'DISABLE_SMILIES'			=> 'Emotikonok kikapcsolása',
 	'DISALLOWED_CONTENT'		=> 'A feltöltés visszautasításra került, mivel a feltöltött állomány egy esetleges támadás hordozója lehet.',
 	'DISALLOWED_EXTENSION'		=> 'A %s kiterjesztés nem engedélyezett.',
-	'DRAFT_LOADED'				=> 'A piszkozat sikeresen betöltésre került, most már befejezheted a hozzászólásod.<br />A piszkozat a hozzászólás elküldése után törlésre fog kerülni.',
-	'DRAFT_LOADED_PM'			=> 'A piszkozat sikeresen betöltésre került, most már befejezheted a privát üzenetet.<br />A piszkozat a privát üzenet elküldése után törlésre fog kerülni.',
+	'DRAFT_LOADED'				=> 'A piszkozat sikeresen betöltésre került, most már befejezheted a hozzászólásod.<br>A piszkozat a hozzászólás elküldése után törlésre fog kerülni.',
+	'DRAFT_LOADED_PM'			=> 'A piszkozat sikeresen betöltésre került, most már befejezheted a privát üzenetet.<br>A piszkozat a privát üzenet elküldése után törlésre fog kerülni.',
 	'DRAFT_SAVED'				=> 'A piszkozat sikeresen elmentésre került.',
 	'DRAFT_TITLE'				=> 'Piszkozat címe',
 
@@ -192,8 +192,8 @@ $lang = array_merge($lang, array(
 
 	'PARTIAL_UPLOAD'			=> 'A feltöltött állomány csak részben került feltöltésre.',
 	'PHP_UPLOAD_STOPPED'		=> 'Egy PHP kiegészítő leállított a fájl feltöltését.',
-	'PHP_SIZE_NA'				=> 'A csatolmány mérete túl nagy.<br />Nem sikerült megállapítani a PHP php.ini-jében meghatározott maximális méretet.', //?
-	'PHP_SIZE_OVERRUN'			=> 'A csatolmány mérete túl nagy. A maximálisan feltölthető méret %1$d %2$s.<br />Kérjük, vedd figyelembe, hogy ez a php.ini-ben van meghatározva, ezért nem írható felül.',
+	'PHP_SIZE_NA'				=> 'A csatolmány mérete túl nagy.<br>Nem sikerült megállapítani a PHP php.ini-jében meghatározott maximális méretet.', //?
+	'PHP_SIZE_OVERRUN'			=> 'A csatolmány mérete túl nagy. A maximálisan feltölthető méret %1$d %2$s.<br>Kérjük, vedd figyelembe, hogy ez a php.ini-ben van meghatározva, ezért nem írható felül.',
 	'PLACE_INLINE'				=> 'Beszúrás a hozzászólásba',
 	'POLL_DELETE'				=> 'Szavazás törlése',
 	'POLL_FOR'					=> 'Szavazás időtartama',
@@ -271,8 +271,8 @@ $lang = array_merge($lang, array(
 	'TOPIC_BUMPED'				=> 'A téma sikeresen előugrasztásra került.',
 
 	'UNAUTHORISED_BBCODE'		=> 'Bizonyos BBCode-okat nem használhatsz: %s:',
-	'UNSUPPORTED_CHARACTERS_MESSAGE'	=> 'Az üzeneted szövege a következő nem támogatott karaktereket tartalmazza:<br />%s',
-	'UNSUPPORTED_CHARACTERS_SUBJECT'	=> 'Az üzeneted tárgya a következő nem támogatott karaktereket tartalmazza:<br />%s',
+	'UNSUPPORTED_CHARACTERS_MESSAGE'	=> 'Az üzeneted szövege a következő nem támogatott karaktereket tartalmazza:<br>%s',
+	'UNSUPPORTED_CHARACTERS_SUBJECT'	=> 'Az üzeneted tárgya a következő nem támogatott karaktereket tartalmazza:<br>%s',
 	'UPDATE_COMMENT'			=> 'Magyarázat frissítése',
 	'URL_INVALID'				=> 'A megadott URL hibás.',
 	'URL_NOT_FOUND'				=> 'A megadott állomány nem található.',

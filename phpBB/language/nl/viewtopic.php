@@ -111,6 +111,7 @@ $lang = array_merge($lang, array(
 	'VIEW_INFO'				=> 'Berichtdetails',
 	'VIEW_NEXT_TOPIC'		=> 'Volgend onderwerp',
 	'VIEW_PREVIOUS_TOPIC'	=> 'Vorig onderwerp',
+	'VIEW_QUOTED_POST'		=> 'Bekijk geciteerd bericht',
 	'VIEW_RESULTS'			=> 'Bekijk resultaten',
 	'VIEW_TOPIC_POSTS'		=> array(
 		1	=> '%d bericht',

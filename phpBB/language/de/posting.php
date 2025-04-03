@@ -116,8 +116,8 @@ $lang = array_merge($lang, array(
 	'DISABLE_SMILIES'			=> 'Smileys ausschalten',
 	'DISALLOWED_CONTENT'		=> 'Die hochgeladene Datei wurde abgewiesen, da sie als möglicher Angriffsversuch identifiziert wurde.',
 	'DISALLOWED_EXTENSION'		=> 'Die Dateierweiterung %s ist nicht erlaubt.',
-	'DRAFT_LOADED'				=> 'Der Entwurf wurde in das Formular geladen. Du kannst deinen Beitrag nun abschließen.<br />Der Entwurf wird nach dem Absenden des Beitrags gelöscht.',
-	'DRAFT_LOADED_PM'			=> 'Der Entwurf wurde in das Formular geladen. Du kannst deine Private Nachricht nun abschließen.<br />Der Entwurf wird nach dem Absenden der Privaten Nachricht gelöscht.',
+	'DRAFT_LOADED'				=> 'Der Entwurf wurde in das Formular geladen. Du kannst deinen Beitrag nun abschließen.<br>Der Entwurf wird nach dem Absenden des Beitrags gelöscht.',
+	'DRAFT_LOADED_PM'			=> 'Der Entwurf wurde in das Formular geladen. Du kannst deine Private Nachricht nun abschließen.<br>Der Entwurf wird nach dem Absenden der Privaten Nachricht gelöscht.',
 	'DRAFT_SAVED'				=> 'Entwurf erfolgreich gespeichert.',
 	'DRAFT_TITLE'				=> 'Entwurfstitel',
 
@@ -192,8 +192,8 @@ $lang = array_merge($lang, array(
 
 	'PARTIAL_UPLOAD'			=> 'Die Datei wurde nur teilweise hochgeladen.',
 	'PHP_UPLOAD_STOPPED'		=> 'Eine PHP-Erweiterung hat den Hochlade-Vorgang unterbrochen.',
-	'PHP_SIZE_NA'				=> 'Der Dateianhang ist zu groß.<br />Die durch PHP in der php.ini festgelegte maximale Größe konnte nicht ermittelt werden.',
-	'PHP_SIZE_OVERRUN'			=> 'Der Dateianhang ist zu groß, er darf maximal %1$d %2$s groß sein.<br />Dieser Wert ist in der php.ini festgelegt und kann nicht überschrieben werden.',
+	'PHP_SIZE_NA'				=> 'Der Dateianhang ist zu groß.<br>Die durch PHP in der php.ini festgelegte maximale Größe konnte nicht ermittelt werden.',
+	'PHP_SIZE_OVERRUN'			=> 'Der Dateianhang ist zu groß, er darf maximal %1$d %2$s groß sein.<br>Dieser Wert ist in der php.ini festgelegt und kann nicht überschrieben werden.',
 	'PLACE_INLINE'				=> 'Im Beitrag anzeigen',
 	'POLL_DELETE'				=> 'Umfrage löschen',
 	'POLL_FOR'					=> 'Umfrage durchführen für',
@@ -270,8 +270,8 @@ $lang = array_merge($lang, array(
 	'TOPIC_BUMPED'				=> 'Das Thema wurde erfolgreich als neu markiert.',
 
 	'UNAUTHORISED_BBCODE'		=> 'Du darfst bestimmte BBCodes nicht verwenden: %s.',
-	'UNSUPPORTED_CHARACTERS_MESSAGE'	=> 'Deine Nachricht enthält folgende unzulässigen Zeichen:<br />%s',
-	'UNSUPPORTED_CHARACTERS_SUBJECT'	=> 'Dein Betreff enthält folgende unzulässigen Zeichen:<br />%s',
+	'UNSUPPORTED_CHARACTERS_MESSAGE'	=> 'Deine Nachricht enthält folgende unzulässigen Zeichen:<br>%s',
+	'UNSUPPORTED_CHARACTERS_SUBJECT'	=> 'Dein Betreff enthält folgende unzulässigen Zeichen:<br>%s',
 	'UPDATE_COMMENT'			=> 'Kommentar aktualisieren',
 	'URL_INVALID'				=> 'Die eingegebene URL ist ungültig.',
 	'URL_NOT_FOUND'				=> 'Die angegebene Datei konnte nicht gefunden werden.',

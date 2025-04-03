@@ -45,7 +45,7 @@ $lang = array_merge($lang, array(
 	'EXTENSIONS'				=> 'Kiterjesztések',
 	'EXTENSIONS_ADMIN'			=> 'Kiterjesztés kezelő',
 	'EXTENSIONS_EXPLAIN'		=> 'A kiterjesztés kezelővel a phpBB fórumod kiterjesztéseit kezelheted, illetve kiterjesztésekkel kapcsolatos információkat tekinthetsz meg.', //?
-	'EXTENSION_INVALID_LIST'	=> 'A “%s” kiterjesztés érvénytelen.<br />%s<br /><br />',
+	'EXTENSION_INVALID_LIST'	=> 'A “%s” kiterjesztés érvénytelen.<br>%s<br><br>',
 	'EXTENSION_NOT_AVAILABLE'	=> 'A kiválasztott kiterjesztés nem telepíthető erre a fórumra, kérjük ellenőrizd a támogatott phpBB és PHP verziókat a részletek oldalon.',
 	'EXTENSION_DIR_INVALID'		=> 'A kiválasztott kiterjesztés könyvtárszerkezete hibás, ezért a kiterjesztés nem engedélyezhető.',
 	'EXTENSION_NOT_ENABLEABLE'	=> 'A kiválasztott kiterjesztés nem engedélyezhető. Kérjük, ellenőrizd a kiterjesztés követelményeit.',
@@ -96,7 +96,7 @@ $lang = array_merge($lang, array(
 			<li>Töröld a kiterjesztés állományait a fájlrendszerből</li>
 		</ol>',
 
-	'EXTENSION_DELETE_DATA_CONFIRM'	=> 'Biztosan törölni akarod “%s” adatait?<br /><br />Ez a művelet törli az összes adatot és beállítást, és nem vonható vissza!',
+	'EXTENSION_DELETE_DATA_CONFIRM'	=> 'Biztosan törölni akarod “%s” adatait?<br><br>Ez a művelet törli az összes adatot és beállítást, és nem vonható vissza!',
 	'EXTENSION_DISABLE_CONFIRM'		=> 'Biztosan letiltod a “%s” kiterjesztést?',
 	'EXTENSION_ENABLE_CONFIRM'		=> 'Biztosan engedélyezed a “%s” kiterjesztést?',
 	'EXTENSION_FORCE_UNSTABLE_CONFIRM'	=> 'Biztosan használni szeretnél egy nem stabil verziót?',

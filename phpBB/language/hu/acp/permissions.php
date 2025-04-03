@@ -55,14 +55,14 @@ $lang = array_merge($lang, array(
 		<h2>Effektív jogosultságok</h2>
 		<p>Ezzel meg tudod nézni, hogy ténylegesen milyen jogosultságok érvényesülnek.</p>
 
-		<br />
+		<br>
 
 		<p>További információért a phpBB3 jogosultságkezeléséről és beállításáról lásd az angol <a href="https://www.phpbb.com/support/docs/en/3.3/ug/quickstart/permissions/">gyorstalpaló Setting permissions fejezetét</a>.</p>
 	', //? további "honosítás"/lokalizáció...
 
 	'ACL_NEVER'				=> 'Soha',
 	'ACL_SET'				=> 'Jogosultságok beállítása',
-	'ACL_SET_EXPLAIN'		=> 'A jogosultságok egy egyszerű <strong>IGEN</strong>/<strong>NEM</strong> rendszeren alapszanak. Ha egy jogosultságot <strong>SOHÁ</strong>ra állítasz, az felül fogja írni az összes többi értéket. Ha egy jogosultságnak nem kívánsz értéket adni, állítsd <strong>NEM</strong>re. Ha máshol hozzá lett rendelve egy érték, az lesz használva, ellenkező esetben a <strong>SOHA</strong> értéket veszi föl. A beállított jogosultságok minden (az előtte lévő jelölőnégyzettel) megjelölt elemre átmásolásra kerülnek. Kérjük, vedd figyelembe, hogy az alapító felhasználók adminisztrátori jogosultságainak beállítása nincs hatással, mivel az adminisztrátori jogosultságok az alapítók esetében mindig <strong>IGEN</strong> értékre vannak beállítva.', //? egy kicsit jobb magyarázat jó lenne "Permissions are based on a simple <strong>YES</strong>/<strong>NO</strong> system. Setting an option to <strong>NEVER</strong> for a user or usergroup overrides any other value assigned to it. If you do not wish to assign a value for an option for this user or group select <strong>NO</strong>. If values are assigned for this option elsewhere they will be used in preference, else <strong>NEVER</strong> is assumed. All objects marked (with the checkbox in front of them) will copy the permission set you defined." 'A jogosultságok egy egyszerű <strong>IGEN</strong>/<strong>NEM</strong> rendszeren alapszanak. Alapból minden jogosultság a <strong>NEM</strong> értéket veszi fel, ezt lehet módosítani. Ha egy jogosultságot <strong>SOHÁ</strong>ra állítasz, az minden értéket felülír, és véglegesen <strong>NEM</strong> lesz. Ha egy jogosultságot <strong>IGEN</strong>re állítasz, az értelemszerűen igen lesz (kivéve ha előtte <strong>SOHÁ</strong>ra lett állítva).<br />Minden (az előtte lévő jelölőnégyzettel) megjelölt elemre átmásolásra kerülnek a beállított jogosultságok.'
+	'ACL_SET_EXPLAIN'		=> 'A jogosultságok egy egyszerű <strong>IGEN</strong>/<strong>NEM</strong> rendszeren alapszanak. Ha egy jogosultságot <strong>SOHÁ</strong>ra állítasz, az felül fogja írni az összes többi értéket. Ha egy jogosultságnak nem kívánsz értéket adni, állítsd <strong>NEM</strong>re. Ha máshol hozzá lett rendelve egy érték, az lesz használva, ellenkező esetben a <strong>SOHA</strong> értéket veszi föl. A beállított jogosultságok minden (az előtte lévő jelölőnégyzettel) megjelölt elemre átmásolásra kerülnek. Kérjük, vedd figyelembe, hogy az alapító felhasználók adminisztrátori jogosultságainak beállítása nincs hatással, mivel az adminisztrátori jogosultságok az alapítók esetében mindig <strong>IGEN</strong> értékre vannak beállítva.', //? egy kicsit jobb magyarázat jó lenne "Permissions are based on a simple <strong>YES</strong>/<strong>NO</strong> system. Setting an option to <strong>NEVER</strong> for a user or usergroup overrides any other value assigned to it. If you do not wish to assign a value for an option for this user or group select <strong>NO</strong>. If values are assigned for this option elsewhere they will be used in preference, else <strong>NEVER</strong> is assumed. All objects marked (with the checkbox in front of them) will copy the permission set you defined." 'A jogosultságok egy egyszerű <strong>IGEN</strong>/<strong>NEM</strong> rendszeren alapszanak. Alapból minden jogosultság a <strong>NEM</strong> értéket veszi fel, ezt lehet módosítani. Ha egy jogosultságot <strong>SOHÁ</strong>ra állítasz, az minden értéket felülír, és véglegesen <strong>NEM</strong> lesz. Ha egy jogosultságot <strong>IGEN</strong>re állítasz, az értelemszerűen igen lesz (kivéve ha előtte <strong>SOHÁ</strong>ra lett állítva).<br>Minden (az előtte lévő jelölőnégyzettel) megjelölt elemre átmásolásra kerülnek a beállított jogosultságok.'
 	'ACL_SETTING'			=> 'Beállítás', //? 'Jogosultság' - nem véletlenül
 
 	'ACL_TYPE_A_'			=> 'Adminisztrátori jogosultságok',
@@ -188,11 +188,11 @@ $lang = array_merge($lang, array(
 	'ROLE_USER_NEW_MEMBER'		=> 'Újonnan regisztrált felhasználó',
 
 	'ROLE_DESCRIPTION_ADMIN_FORUM'			=> 'Hozzáfér a fórumok kezeléséhez és a fórumok jogosultságbeállításaihoz.',
-	'ROLE_DESCRIPTION_ADMIN_FULL'			=> 'Hozzáfér a fórum összes adminisztrátori funkciójához.<br />Nem ajánlott.',
+	'ROLE_DESCRIPTION_ADMIN_FULL'			=> 'Hozzáfér a fórum összes adminisztrátori funkciójához.<br>Nem ajánlott.',
 	'ROLE_DESCRIPTION_ADMIN_STANDARD'		=> 'Hozzáfér a legtöbb adminisztrátori funkcióhoz, de nem használhatja a szerverrel, ill. a rendszerrel kapcsolatos eszközöket.',
 	'ROLE_DESCRIPTION_ADMIN_USERGROUP'		=> 'Kezelheti a felhasználókat és a csoportokat: megváltoztathatja a jogosultságokat, beállításokat, kezelheti a kitiltásokat, rangokat.',
 	'ROLE_DESCRIPTION_FORUM_BOT'			=> 'Ez a szerep a kereső- és bármilyen más robotoknak ajánlott.',
-	'ROLE_DESCRIPTION_FORUM_FULL'			=> 'Használhatja a fórum összes funkcióját, például küldhet közleményeket vagy kiemelt témákat. Figyelmen kívül hagyhatja a flood időközt is.<br />Nem ajánlott normál felhasználóknak.',
+	'ROLE_DESCRIPTION_FORUM_FULL'			=> 'Használhatja a fórum összes funkcióját, például küldhet közleményeket vagy kiemelt témákat. Figyelmen kívül hagyhatja a flood időközt is.<br>Nem ajánlott normál felhasználóknak.',
 	'ROLE_DESCRIPTION_FORUM_LIMITED'		=> 'Használhat néhány fórum funkciót, de nem csatolhat állományokat, és nem használhat hozzászólás ikonokat.',
 	'ROLE_DESCRIPTION_FORUM_LIMITED_POLLS'	=> 'Ugyanaz, mint a korlátozott hozzáférésnél, de készíthet szavazást.',
 	'ROLE_DESCRIPTION_FORUM_NOACCESS'		=> 'Nem láthatja, és nem is férhet hozzá a fórumhoz.',
@@ -205,7 +205,7 @@ $lang = array_merge($lang, array(
 	'ROLE_DESCRIPTION_MOD_QUEUE'			=> 'Szerkesztheti a hozzászólásokat, és jóváhagyhatja a moderálandókat, de semmi mást nem csinálhat.',
 	'ROLE_DESCRIPTION_MOD_SIMPLE'			=> 'Csak a témákkal kapcsolatos műveleteket végezhet. Nem adhat figyelmeztetést, és nem hagyhat jóvá hozzászólásokat.',
 	'ROLE_DESCRIPTION_MOD_STANDARD'			=> 'Használhatja a legtöbb moderátori eszközt, de nem tilthat ki felhasználókat, és nem változtathatja meg a hozzászólások szerzőjét.',
-	'ROLE_DESCRIPTION_USER_FULL'			=> 'Használhatja a fórum összes felhasználói funkcióját, beleértve a felhasználónév-változtatást és a flood időköz figyelmen kívül hagyását.<br />Nem ajánlott.',
+	'ROLE_DESCRIPTION_USER_FULL'			=> 'Használhatja a fórum összes felhasználói funkcióját, beleértve a felhasználónév-változtatást és a flood időköz figyelmen kívül hagyását.<br>Nem ajánlott.',
 	'ROLE_DESCRIPTION_USER_LIMITED'			=> 'Használhat néhány felhasználói funkciót. A csatolmányok, az e-mailek, illetve az azonnali üzenetküldés nem engedélyezett.',
 	'ROLE_DESCRIPTION_USER_NOAVATAR'		=> 'Korlátozott funkciókat használhat, és nem állíthat be avatart.',
 	'ROLE_DESCRIPTION_USER_NOPM'			=> 'Korlátozott funkciókat használhat, és nem használhatja a privát üzenetek funkciót.',

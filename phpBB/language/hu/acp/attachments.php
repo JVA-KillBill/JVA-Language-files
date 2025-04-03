@@ -108,7 +108,7 @@ $lang = array_merge($lang, array(
 	'GROUP_NAME'			=> 'Csoport neve',
 
 	'FILES_GONE'			=> 'Néhány törlésre kiválasztott csatolmány nem létezik. Ezek lehet, hogy már korábban törölve lettek. A létezők törölve lettek.',
-	'FILES_STATS_WRONG'		=> 'A csatolmány statisztikád pontatlan lehet, ezért újraszinkronizálásra lehet szükség. Jelenlegi értékek: csatolmányok száma = %1$d, csatolmányok összes mérete = %2$s.<br />%3$sKattints ide%4$s az újraszinkronizáláshoz.',
+	'FILES_STATS_WRONG'		=> 'A csatolmány statisztikád pontatlan lehet, ezért újraszinkronizálásra lehet szükség. Jelenlegi értékek: csatolmányok száma = %1$d, csatolmányok összes mérete = %2$s.<br>%3$sKattints ide%4$s az újraszinkronizáláshoz.',
 
 	'IMAGE_LINK_SIZE'			=> 'Linkkép méret', //? "Image link dimensions"
 	'IMAGE_LINK_SIZE_EXPLAIN'	=> 'Ha a csatolt kép ennél nagyobb, akkor csak egy link lesz megjelenítve hozzá, ahelyett, hogy közvetlenül szerepelne a hozzászólásban. A funkció kikapcsolásához állítsd mindkét értéket 0-ra.',

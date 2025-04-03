@@ -64,19 +64,19 @@ $lang = array_merge($lang, array(
 	'BBCODE_TAG_TOO_LONG'		=> 'A megadott címkenév túl hosszú.',
 	'BBCODE_TAG_DEF_TOO_LONG'	=> 'A megadott címke meghatározás túl hosszú, kérjük, rövidítsd le.',
 	'BBCODE_USAGE'				=> 'BBCode használata',
-	'BBCODE_USAGE_EXAMPLE'		=> '[kiemeles={COLOR}]{TEXT}[/kiemeles]<br /><br />[betutipus={SIMPLETEXT1}]{SIMPLETEXT2}[/betutipus]',
+	'BBCODE_USAGE_EXAMPLE'		=> '[kiemeles={COLOR}]{TEXT}[/kiemeles]<br><br>[betutipus={SIMPLETEXT1}]{SIMPLETEXT2}[/betutipus]',
 	'BBCODE_USAGE_EXPLAIN'		=> 'Itt tudod megadni, hogy hogyan lehessen használni a BBCode-ot. Minden változó részt helyettesítsd a megfelelő jelölővel (%slásd alább%s).',
 
 	'EXAMPLE'						=> 'Példa:',
 	'EXAMPLES'						=> 'Példák:',
 
 	'HTML_REPLACEMENT'				=> 'HTML csere',
-	'HTML_REPLACEMENT_EXAMPLE'		=> '&lt;span style="background-color: {COLOR};"&gt;{TEXT}&lt;/span&gt;<br /><br />&lt;span style="font-family: {SIMPLETEXT1};"&gt;{SIMPLETEXT2}&lt;/span&gt;',
+	'HTML_REPLACEMENT_EXAMPLE'		=> '&lt;span style="background-color: {COLOR};"&gt;{TEXT}&lt;/span&gt;<br><br>&lt;span style="font-family: {SIMPLETEXT1};"&gt;{SIMPLETEXT2}&lt;/span&gt;',
 	'HTML_REPLACEMENT_EXPLAIN'		=> 'Itt tudod megadni, hogy milyen HTML-re legyen kicserélve a BBCode. Ne felejtsd el visszarakni a fentebb használt jelölőket!', //?
 
 	'TOKEN'					=> 'Jelölő',
 	'TOKENS'				=> 'Jelölők',
-	'TOKENS_EXPLAIN'		=> 'A jelölők a felhasználó által megadott adatokhoz használhatók. A BBCode csak akkor lesz feldolgozva, ha a megadott adatok megfelelnek a meghatározásnak. Ha kell, a jelölőket meg is számozhatod, ehhez a lezáró kapcsos zárójel elé írj egy számot, pl. {TEXT1}, {TEXT2}.<br /><br />A HTML cserében bármilyen a language/ könyvtárban megtalálható nyelvi elemet használhatsz a következőképp: {L_<em>&lt;ELEMNÉV&gt;</em>}, ahol az <em>&lt;ELEMNÉV&gt;</em> a hozzáadni kívánt lefordított elem. Például az {L_WROTE} „írta”-ként kerül megjelenítésre a felhasználó nyelvi beállításainak megfelelően.<br /><br /><strong>Kérjük, vedd figyelembe, hogy az egyedi BBCode-okban csak az alább felsorolt jelölők használhatók.</strong>', //?
+	'TOKENS_EXPLAIN'		=> 'A jelölők a felhasználó által megadott adatokhoz használhatók. A BBCode csak akkor lesz feldolgozva, ha a megadott adatok megfelelnek a meghatározásnak. Ha kell, a jelölőket meg is számozhatod, ehhez a lezáró kapcsos zárójel elé írj egy számot, pl. {TEXT1}, {TEXT2}.<br><br>A HTML cserében bármilyen a language/ könyvtárban megtalálható nyelvi elemet használhatsz a következőképp: {L_<em>&lt;ELEMNÉV&gt;</em>}, ahol az <em>&lt;ELEMNÉV&gt;</em> a hozzáadni kívánt lefordított elem. Például az {L_WROTE} „írta”-ként kerül megjelenítésre a felhasználó nyelvi beállításainak megfelelően.<br><br><strong>Kérjük, vedd figyelembe, hogy az egyedi BBCode-okban csak az alább felsorolt jelölők használhatók.</strong>', //?
 	'TOKEN_DEFINITION'		=> 'Mi lehet?',
 	'TOO_MANY_BBCODES'		=> 'Nem tudsz több BBCode-ot készíteni. Kérünk, törölj egy vagy több BBCode-ot, és próbálkozz újra.',
 

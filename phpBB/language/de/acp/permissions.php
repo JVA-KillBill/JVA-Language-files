@@ -55,7 +55,7 @@ $lang = array_merge($lang, array(
 		<h2>Effektive Berechtigungen</h2>
 		<p>Diese Funktion wird verwendet, um die effektiven Berechtigungen anzuzeigen, die Benutzern, Moderatoren (forenspezifisch und global), Administratoren und Foren zugewiesen sind.</p>
 
-		<br />
+		<br>
 
 		<p>Weitere Informationen über die Einrichtung und Verwaltung von Berechtigungen auf deinem phpBB3-Board findest du <a href="https://www.phpbb.com/support/docs/en/3.3/ug/quickstart/permissions/">im Kapitel „Setting permissions“ der Schnellstartanleitung (englisch)</a> (<a href="https://www.phpbb.de/go/3.3/berechtigungen">deutsche Übersetzung</a>) nach.</p>
 	',
@@ -188,11 +188,11 @@ $lang = array_merge($lang, array(
 	'ROLE_USER_NEW_MEMBER'		=> 'Funktionalitäten für neu registrierte Benutzer',
 
 	'ROLE_DESCRIPTION_ADMIN_FORUM'			=> 'Kann auf die Foren-Verwaltung und die Foren-Berechtigungen zugreifen.',
-	'ROLE_DESCRIPTION_ADMIN_FULL'			=> 'Hat Zugriff auf alle Administrator-Funktionen des Boards.<br />Verwendung wird nicht empfohlen.',
+	'ROLE_DESCRIPTION_ADMIN_FULL'			=> 'Hat Zugriff auf alle Administrator-Funktionen des Boards.<br>Verwendung wird nicht empfohlen.',
 	'ROLE_DESCRIPTION_ADMIN_STANDARD'		=> 'Hat Zugriff auf die meisten Administrator-Funktionen, kann aber nicht die server- und systemnahen Funktionen nutzen.',
 	'ROLE_DESCRIPTION_ADMIN_USERGROUP'		=> 'Kann Gruppen und Benutzer verwalten: kann Rechte und Einstellungen ändern sowie Sperren und Ränge verwalten.',
 	'ROLE_DESCRIPTION_FORUM_BOT'			=> 'Diese Einstellung wird für Bots und Spider von Suchmaschinen empfohlen.',
-	'ROLE_DESCRIPTION_FORUM_FULL'			=> 'Kann alle Funktionen des Forums benutzen inkl. der Erstellung von Bekanntmachungen und wichtigen Themen. Kann auch die Wartezeit umgehen.<br />Nicht für normale Benutzer empfohlen.',
+	'ROLE_DESCRIPTION_FORUM_FULL'			=> 'Kann alle Funktionen des Forums benutzen inkl. der Erstellung von Bekanntmachungen und wichtigen Themen. Kann auch die Wartezeit umgehen.<br>Nicht für normale Benutzer empfohlen.',
 	'ROLE_DESCRIPTION_FORUM_LIMITED'		=> 'Kann die meisten Forums-Funktionen nutzen, aber keine Dateianhänge erstellen oder Beitrags-Symbole verwenden.',
 	'ROLE_DESCRIPTION_FORUM_LIMITED_POLLS'	=> 'Wie „Begrenzter Zugang“, kann aber auch Umfragen erstellen.',
 	'ROLE_DESCRIPTION_FORUM_NOACCESS'		=> 'Kann das Forum weder sehen noch darauf zugreifen.',
@@ -205,7 +205,7 @@ $lang = array_merge($lang, array(
 	'ROLE_DESCRIPTION_MOD_QUEUE'			=> 'Kann die Moderations-Warteschlange benutzen, um Beiträge zu bestätigen und zu ändern — aber nichts anderes.',
 	'ROLE_DESCRIPTION_MOD_SIMPLE'			=> 'Kann nur die themenbezogenen Grundfunktionen nutzen. Kann keine Verwarnungen erteilen oder die Moderations-Warteschlange nutzen.',
 	'ROLE_DESCRIPTION_MOD_STANDARD'			=> 'Kann die meisten Moderations-Funktionen nutzen, kann aber keine Benutzer sperren oder den Autor eines Beitrags ändern.',
-	'ROLE_DESCRIPTION_USER_FULL'			=> 'Kann alle verfügbaren Benutzer-Funktionen verwenden inkl. der Änderung des Benutzernamens und des Übergehens der Wartezeit.<br />Verwendung wird nicht empfohlen.',
+	'ROLE_DESCRIPTION_USER_FULL'			=> 'Kann alle verfügbaren Benutzer-Funktionen verwenden inkl. der Änderung des Benutzernamens und des Übergehens der Wartezeit.<br>Verwendung wird nicht empfohlen.',
 	'ROLE_DESCRIPTION_USER_LIMITED'			=> 'Kann bestimmte Benutzer-Funktionen verwenden. Dateianhänge, E-Mails oder Instant Messages sind nicht erlaubt.',
 	'ROLE_DESCRIPTION_USER_NOAVATAR'		=> 'Hat eingeschränkte Rechte und kann keinen Avatar benutzen.',
 	'ROLE_DESCRIPTION_USER_NOPM'			=> 'Hat eingeschränkte Rechte und kann keine Privaten Nachrichten benutzen.',

@@ -64,19 +64,19 @@ $lang = array_merge($lang, array(
 	'BBCODE_TAG_TOO_LONG'		=> 'Die Name des eingegebenen Tags ist zu lang.',
 	'BBCODE_TAG_DEF_TOO_LONG'	=> 'Die eingegebene Tag-Definition ist zu lang. Bitte kürze die Tag-Definition.',
 	'BBCODE_USAGE'				=> 'BBCode-Benutzung',
-	'BBCODE_USAGE_EXAMPLE'		=> '[highlight={COLOR}]{TEXT}[/highlight]<br /><br />[font={SIMPLETEXT1}]{SIMPLETEXT2}[/font]',
+	'BBCODE_USAGE_EXAMPLE'		=> '[highlight={COLOR}]{TEXT}[/highlight]<br><br>[font={SIMPLETEXT1}]{SIMPLETEXT2}[/font]',
 	'BBCODE_USAGE_EXPLAIN'		=> 'Hier wird eingestellt, wie der BBCode benutzt wird. Ersetze variable Eingaben durch die entsprechenden Tokens (%ssiehe unten%s).',
 
 	'EXAMPLE'						=> 'Beispiel:',
 	'EXAMPLES'						=> 'Beispiele:',
 
 	'HTML_REPLACEMENT'				=> 'HTML-Ersetzung',
-	'HTML_REPLACEMENT_EXAMPLE'		=> '&lt;span style="background-color: {COLOR};"&gt;{TEXT}&lt;/span&gt;<br /><br />&lt;span style="font-family: {SIMPLETEXT1};"&gt;{SIMPLETEXT2}&lt;/span&gt;',
+	'HTML_REPLACEMENT_EXAMPLE'		=> '&lt;span style="background-color: {COLOR};"&gt;{TEXT}&lt;/span&gt;<br><br>&lt;span style="font-family: {SIMPLETEXT1};"&gt;{SIMPLETEXT2}&lt;/span&gt;',
 	'HTML_REPLACEMENT_EXPLAIN'		=> 'Hier kannst du die Standard-HTML-Ersetzung eingeben. Vergiss nicht, die oben verwendeten Tokens hier einzusetzen!',
 
 	'TOKEN'					=> 'Token',
 	'TOKENS'				=> 'Tokens',
-	'TOKENS_EXPLAIN'		=> 'Tokens sind Platzhalter für Benutzereingaben. Die Eingabe wird nur überprüft, wenn sie der eingegebenen Definition entspricht. Wenn nötig, kannst du diese Platzhalter nummerieren, indem du eine Ziffer als letztes Zeichen zwischen den Klammern hinzufügst, z.&nbsp;B. {TEXT1}, {TEXT2}.<br /><br />Innerhalb der HTML-Ersetzung kannst du außerdem jede Sprachvariable, die im Verzeichnis language/ definiert ist, wie folgt benutzen: {L_<em>&lt;STRINGNAME&gt;</em>}, wobei <em>&lt;STRINGNAME&gt;</em> durch den Namen der Variablen mit dem übersetzten Text ersetzt wird. {L_WROTE} wird beispielsweise als „hat geschrieben“ oder dessen Entsprechung, je nach eingestellter Benutzersprache, angezeigt.<br /><br />Beachte, dass nur unten aufgelistete Tokens innerhalb benutzerdefinierter BBCodes verwendet werden können.',
+	'TOKENS_EXPLAIN'		=> 'Tokens sind Platzhalter für Benutzereingaben. Die Eingabe wird nur überprüft, wenn sie der eingegebenen Definition entspricht. Wenn nötig, kannst du diese Platzhalter nummerieren, indem du eine Ziffer als letztes Zeichen zwischen den Klammern hinzufügst, z.&nbsp;B. {TEXT1}, {TEXT2}.<br><br>Innerhalb der HTML-Ersetzung kannst du außerdem jede Sprachvariable, die im Verzeichnis language/ definiert ist, wie folgt benutzen: {L_<em>&lt;STRINGNAME&gt;</em>}, wobei <em>&lt;STRINGNAME&gt;</em> durch den Namen der Variablen mit dem übersetzten Text ersetzt wird. {L_WROTE} wird beispielsweise als „hat geschrieben“ oder dessen Entsprechung, je nach eingestellter Benutzersprache, angezeigt.<br><br>Beachte, dass nur unten aufgelistete Tokens innerhalb benutzerdefinierter BBCodes verwendet werden können.',
 	'TOKEN_DEFINITION'		=> 'Welche Werte sind möglich?',
 	'TOO_MANY_BBCODES'		=> 'Du kannst keine weiteren BBCodes mehr erstellen. Bitte lösche einige BBCodes und versuche es erneut.',
 

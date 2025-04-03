@@ -69,7 +69,7 @@ $lang = array_merge($lang, array(
 
 	'NO_FILE_SELECTED'				=> 'Nem adtál meg nyelvi állományt.',
 	'NO_LANG_ID'					=> 'Nem adtál meg nyelvi csomagot.',
-	'NO_REMOVE_DEFAULT_LANG'		=> 'Az alapértelmezett nyelvi csomagot nem tudod eltávolítani.<br />Ha törölni szeretnéd ezt a nyelvi csomagot, először változtasd meg a fórum alapértelmezett nyelvét.',
+	'NO_REMOVE_DEFAULT_LANG'		=> 'Az alapértelmezett nyelvi csomagot nem tudod eltávolítani.<br>Ha törölni szeretnéd ezt a nyelvi csomagot, először változtasd meg a fórum alapértelmezett nyelvét.',
 	'NO_UNINSTALLED_LANGUAGE_PACKS'	=> 'Nincs telepítetlen nyelvi csomag.',
 
 	'THOSE_MISSING_LANG_FILES'			=> 'A következő nyelvi állományok hiányoznak a “%s” nyelvi könyvtárból:',

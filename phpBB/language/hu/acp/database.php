@@ -65,7 +65,7 @@ $lang = array_merge($lang, array(
 	'RESTORE_FAILURE'		=> 'A kimentés állomány lehet, hogy megfertőzött.', //? corrupt?
 	'RESTORE_OPTIONS'		=> 'Visszaállítás beállítások',
 	'RESTORE_SELECTED_BACKUP'	=> 'Valóban vissza szeretnéd állítani a kiválasztott mentést?',
-	'RESTORE_SUCCESS'		=> 'Az adatbázis sikeresen visszaállításra került.<br /><br />A fórumod bizonyára visszatért a kimentés ideji állapotához.',
+	'RESTORE_SUCCESS'		=> 'Az adatbázis sikeresen visszaállításra került.<br><br>A fórumod bizonyára visszatért a kimentés ideji állapotához.',
 
 	'SELECT_ALL'			=> 'Összes kiválasztása',
 	'SELECT_FILE'			=> 'Válassz egy állományt',

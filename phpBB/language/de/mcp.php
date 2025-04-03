@@ -221,7 +221,7 @@ $lang = array_merge($lang, array(
 	'MCP_WARN_USER'			=> 'Benutzer verwarnen',
 
 	'MERGE_POSTS_CONFIRM'	=> 'Bist du dir sicher, dass du die ausgewählten Beiträge in das ausgewählte Thema verschieben möchtest?',
-	'MERGE_TOPIC_EXPLAIN'	=> 'Mit dem folgenden Formular kannst du Beiträge in ein anderes Thema verschieben. Die Beiträge werden aus diesem Thema entfernt und in das andere Thema integriert. Sie erscheinen dort zusammen mit den anderen Beiträgen in ihrer zeitlichen Abfolge.<br />Bitte gib die ID des Ziel-Themas an oder wähle mit „Thema auswählen“ ein Thema aus.',
+	'MERGE_TOPIC_EXPLAIN'	=> 'Mit dem folgenden Formular kannst du Beiträge in ein anderes Thema verschieben. Die Beiträge werden aus diesem Thema entfernt und in das andere Thema integriert. Sie erscheinen dort zusammen mit den anderen Beiträgen in ihrer zeitlichen Abfolge.<br>Bitte gib die ID des Ziel-Themas an oder wähle mit „Thema auswählen“ ein Thema aus.',
 	'MERGE_TOPIC_ID'		=> 'Primärschlüssel (ID) des Ziel-Themas',
 	'MERGE_TOPICS'			=> 'Themen zusammenführen',
 	'MERGE_TOPICS_CONFIRM'	=> 'Bist du dir sicher, dass du die ausgewählten Themen zusammenführen möchtest?',
