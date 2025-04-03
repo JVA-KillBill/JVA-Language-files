@@ -1,0 +1,11 @@
+Subject: Nouveau sujet dans « {FORUM_NAME} »
+
+Bonjour {USERNAME},
+
+Depuis votre dernière visite sur « {SITENAME} », le sujet « {TOPIC_TITLE} »<!-- IF AUTHOR_NAME != '' --> créé par {AUTHOR_NAME}<!-- ENDIF --> a été nouvellement publié dans le forum « {FORUM_NAME} ». Aucun autre courriel ne vous sera envoyé jusqu’à votre prochaine consultation du forum.
+{U_FORUM}
+
+Si vous ne souhaitez plus surveiller ce forum, cliquez sur le lien suivant :
+{U_STOP_WATCHING_FORUM}
+
+{EMAIL_SIG}

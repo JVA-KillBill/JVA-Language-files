@@ -1,0 +1,18 @@
+Subject: Réponse dans « {FORUM_NAME} »
+List-Unsubscribe: <{U_STOP_WATCHING_FORUM}>
+
+Bonjour {USERNAME},
+
+Depuis votre dernière visite sur « {SITENAME} », le forum « {FORUM_NAME} » a reçu une réponse<!-- IF AUTHOR_NAME != '' --> de {AUTHOR_NAME}<!-- ENDIF --> dans le sujet « {TOPIC_TITLE} ». Aucun autre courriel ne vous sera envoyé jusqu’à votre prochaine consultation du sujet.
+{U_NEWEST_POST}
+
+Pour consulter le sujet dans son ensemble, cliquez sur le lien suivant :
+{U_TOPIC}
+
+Pour consulter le forum, cliquez sur le lien suivant :
+{U_FORUM}
+
+Si vous ne souhaitez plus surveiller ce forum, cliquez sur le lien suivant :
+{U_STOP_WATCHING_FORUM}
+
+{EMAIL_SIG}
