@@ -36,7 +36,5 @@ if (empty($lang) || !is_array($lang))
 // Some characters you may want to copy&paste: ‚ ‘ ’ « » „ “ ” …
 
 $lang = array_merge($lang, [
-	'JV_EXT_ACP_FORUM_FIRST_POST_ALWAYS_SHOW_EXPLAIN'	=> 'Lehetővé teszi, hogy az összes témában lévő első hozzászólás, kiemelve jelenjen meg minden oldal tetején.<br><em>Vedd figyelembe, ha ezt bekapcsolod, akkor az egyéni hozzászólás beállítás nem lesz figyelembe véve.</em>',
-	'JV_EXT_ACP_SETTING_FIRST_POST_ALWAYS_SHOW'			=> 'Első hozzászólás minden oldalon',
-	'JV_EXT_ACP_SETTING_FIRST_POST_ALWAYS_SHOW_EXPLAIN'	=> 'Lehetővé teszi, hogy az összes fórumban lévő első hozzászólás, kiemelve jelenjen meg minden oldal tetején.<br><em>Vedd figyelembe, ha ezt bekapcsolod, akkor ez lesz érvényben minden fórumon.</em>',
+	'JV_EXT_FIRST_POST_SHOW'	=> 'Affichage en vedette sur toutes les pages',
 ]);

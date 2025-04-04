@@ -3,8 +3,8 @@
 *
 * @package JVA - First Post On Every Page
 * @version $Id$
-* @author 2011-2024 KillBill
-* @copyright (c) 2014-2024 https://jv-arcade.com/ - https://jv-arcade.com/contact
+* @author 2011-2025 KillBill
+* @copyright (c) 2014-2025 https://jv-arcade.com/ - https://jv-arcade.com/contact
 * @license https://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
 *
 */
@@ -35,10 +35,8 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 // Some characters you may want to copy&paste: ‚ ‘ ’ « » „ “ ” …
 
-$lang = array_merge($lang, array(
+$lang = array_merge($lang, [
 	'JV_EXT_ACP_FORUM_FIRST_POST_ALWAYS_SHOW_EXPLAIN'	=> 'Allows you to display the first post in all the topics highlighted at the top of each page.<br><em>Please note, if you switch this on, the custom post settings will be ignored.</em>',
 	'JV_EXT_ACP_SETTING_FIRST_POST_ALWAYS_SHOW'			=> 'First post on every page',
 	'JV_EXT_ACP_SETTING_FIRST_POST_ALWAYS_SHOW_EXPLAIN'	=> 'Allows you to display the first post in all the forums highlighted at the top of each page.<br><em>Please note, if you switch this on, it will be in every forum.</em>',
-));
-
-?>
+]);

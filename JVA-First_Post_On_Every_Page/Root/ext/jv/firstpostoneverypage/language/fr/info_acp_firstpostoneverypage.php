@@ -36,7 +36,7 @@ if (empty($lang) || !is_array($lang))
 // Some characters you may want to copy&paste: ‚ ‘ ’ « » „ “ ” …
 
 $lang = array_merge($lang, [
-	'JV_EXT_ACP_FORUM_FIRST_POST_ALWAYS_SHOW_EXPLAIN'	=> 'Lehetővé teszi, hogy az összes témában lévő első hozzászólás, kiemelve jelenjen meg minden oldal tetején.<br><em>Vedd figyelembe, ha ezt bekapcsolod, akkor az egyéni hozzászólás beállítás nem lesz figyelembe véve.</em>',
-	'JV_EXT_ACP_SETTING_FIRST_POST_ALWAYS_SHOW'			=> 'Első hozzászólás minden oldalon',
-	'JV_EXT_ACP_SETTING_FIRST_POST_ALWAYS_SHOW_EXPLAIN'	=> 'Lehetővé teszi, hogy az összes fórumban lévő első hozzászólás, kiemelve jelenjen meg minden oldal tetején.<br><em>Vedd figyelembe, ha ezt bekapcsolod, akkor ez lesz érvényben minden fórumon.</em>',
+	'JV_EXT_ACP_FORUM_FIRST_POST_ALWAYS_SHOW_EXPLAIN'	=> 'Permet d’afficher le premier message dans toutes les rubriques mises en évidence en haut de chaque page.<br><em>Remarque : si vous activez cette option, les paramétres de nessage personnalisés seront ignorés</em>',
+	'JV_EXT_ACP_SETTING_FIRST_POST_ALWAYS_SHOW'			=> 'Premier message sur chaque page',
+	'JV_EXT_ACP_SETTING_FIRST_POST_ALWAYS_SHOW_EXPLAIN'	=> 'Permet d’afficher le premier message dans toutes les rubriques mises en évidence en haut de chaque page.<br><em>Veuillez notez que si vous activez cette option, elle sera présente dans tous les forums.</em>',
 ]);

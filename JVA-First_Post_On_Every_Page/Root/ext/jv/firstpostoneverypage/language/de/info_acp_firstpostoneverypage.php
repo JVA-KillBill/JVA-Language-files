@@ -3,8 +3,8 @@
 *
 * @package JVA - First Post On Every Page
 * @version $Id$
-* @author 2011-2024 KillBill
-* @copyright (c) 2014-2024 https://jv-arcade.com/ - https://jv-arcade.com/contact
+* @author 2011-2025 KillBill
+* @copyright (c) 2014-2025 https://jv-arcade.com/ - https://jv-arcade.com/contact
 * @license https://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
 *
 */
@@ -35,10 +35,8 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 // Some characters you may want to copy&paste: ‚ ‘ ’ « » „ “ ” …
 
-$lang = array_merge($lang, array(
+$lang = array_merge($lang, [
 	'JV_EXT_ACP_FORUM_FIRST_POST_ALWAYS_SHOW_EXPLAIN'	=> 'Dies erlaubt dir, den ersten Beitrag hervorgehoben in allen Themen oben auf allen Seiten anzuzeigen.<br><em>Bitte beachte, dass die persönlichen Beitragseinstellungen ignoriert werden, wenn dies eingeschaltet ist.</em>',
 	'JV_EXT_ACP_SETTING_FIRST_POST_ALWAYS_SHOW'			=> 'Erster Beitrag auf jeder Seite',
 	'JV_EXT_ACP_SETTING_FIRST_POST_ALWAYS_SHOW_EXPLAIN'	=> 'Dies erlaubt dir, in allen Foren den ersten Beitrag eines Themas hervorgehoben oben auf jeder Seite anzuzeigen. <br><em>Bitte beachte, dass das für jedes Forum so sein wird, wenn du dies auswählst.</em>',
-));
-
-?>
+]);
