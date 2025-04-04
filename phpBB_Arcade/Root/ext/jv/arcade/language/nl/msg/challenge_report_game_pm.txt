@@ -1,6 +1,0 @@
-{SUBJECT}Arcade uitdaging voor een wedstrijd verwijderd!
-
-Gebruiker [opponent_user_link] stuurde een foutmelding voor spel [game_name], daarom is de wedstrijd verwijderd.
-{ARCADE_POINT_SYSTEM_MSG}
-
-[view_challenge]

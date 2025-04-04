@@ -1,8 +1,0 @@
-Subject: Invitation request
-
-You have received a request for additional invitations from the user {USERNAME}.
-Requested invitations {NUMBER_INVITE}.
-
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-Webpage link: {U_BOARD}

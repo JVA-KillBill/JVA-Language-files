@@ -1,6 +1,0 @@
-{SUBJECT}Arcade uitdaging wedstrijd geaccepteerd!
-
-Gebruiker [opponent_user_link] accepteerde de uitdaging voor een wedstrijd met het volgende spel: [games_name].
-{ARCADE_POINT_SYSTEM_MSG}
-
-[view_challenge]

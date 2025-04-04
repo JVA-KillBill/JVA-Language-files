@@ -1,8 +1,0 @@
-Subject: Udemande d'invitations
-
-Une demande d'invitations a été reçue de {USERNAME}.
-Le nombre d'invitations demandées est {NUMBER_INVITE}.
-
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-Lien vers la page Web: {U_BOARD}

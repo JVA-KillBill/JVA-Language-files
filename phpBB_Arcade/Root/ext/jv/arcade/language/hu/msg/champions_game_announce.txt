@@ -1,7 +1,0 @@
-{SUBJECT}[Játékterem top {TOP_NUMBER} bajnokai] - [YYYY].[MM].[DD]
-
-[b]A toplistát a játékterem generálta.[/b]
-
-Az elmúlt időszakban a következő játékosok teljesítettek a legjobban:
-
-[users_list_link]

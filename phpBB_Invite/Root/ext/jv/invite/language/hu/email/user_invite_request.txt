@@ -1,8 +1,0 @@
-Subject: Meghívó kérelem
-
-Meghívó kérelem érkezett {USERNAME} felhasználótól.
-Igényelt meghívó {NUMBER_INVITE} darab.
-
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-Weboldal címe: {U_BOARD}
