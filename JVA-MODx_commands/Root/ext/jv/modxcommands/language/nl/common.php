@@ -36,14 +36,14 @@ if (empty($lang) || !is_array($lang))
 // Some characters you may want to copy&paste: ‚ ‘ ’ « » „ “ ” …
 
 $lang = array_merge($lang, [
-	'JV_MODX_AFTER'		=> 'Add utána',
-	'JV_MODX_BEFORE'	=> 'Add elé',
-	'JV_MODX_CMD'		=> 'MODx parancsok',
-	'JV_MODX_DELETE'	=> 'Keresd és töröld',
-	'JV_MODX_FIND'		=> 'Keresd',
-	'JV_MODX_INAFTER'	=> 'Sorban add utána',
-	'JV_MODX_INBEFORE'	=> 'Sorban add elé',
-	'JV_MODX_INFIND'	=> 'Keresd a sorban',
-	'JV_MODX_INREPLACE'	=> 'Sorban cseréld ki',
-	'JV_MODX_REPLACE'	=> 'Cseréld ki',
+	'JV_MODX_AFTER'		=> 'Erna toevoegen',
+	'JV_MODX_BEFORE'	=> 'Ervoor toevoegen',
+	'JV_MODX_CMD'		=> 'MODx commandos',
+	'JV_MODX_DELETE'	=> 'Vind en verwijder',
+	'JV_MODX_FIND'		=> 'Vind',
+	'JV_MODX_INAFTER'	=> 'Voeg erna toe in de lijn',
+	'JV_MODX_INBEFORE'	=> 'Voeg ervoor toe in de lijn',
+	'JV_MODX_INFIND'	=> 'Vind in de lijn',
+	'JV_MODX_INREPLACE'	=> 'Vervang door in de lijn',
+	'JV_MODX_REPLACE'	=> 'Vervang door',
 ]);

@@ -3,8 +3,8 @@
 *
 * @package JVA - MODx commands
 * @version $Id$
-* @author 2011-2020 KillBill
-* @copyright (c) 2014-2020 https://jv-arcade.com/ - https://jv-arcade.com/contact
+* @author 2011-2025 KillBill
+* @copyright (c) 2014-2025 https://jv-arcade.com/ - https://jv-arcade.com/contact
 * @license https://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
 *
 */
@@ -35,15 +35,15 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 // Some characters you may want to copy&paste: ‚ ‘ ’ « » „ “ ” …
 
-$lang = array_merge($lang, array(
-	'JV_MODX_CMD'			=> 'MODx command',
-	'JV_MODX_FIND'			=> 'Find',
-	'JV_MODX_AFTER'			=> 'Add after',
-	'JV_MODX_BEFORE'		=> 'Add before',
-	'JV_MODX_REPLACE'		=> 'Replace with',
-	'JV_MODX_DELETE'		=> 'Find and delete',
-	'JV_MODX_INFIND'		=> 'In line find',
-	'JV_MODX_INAFTER'		=> 'In line add after',
-	'JV_MODX_INBEFORE'		=> 'In line add before',
-	'JV_MODX_INREPLACE'		=> 'In line replace with',
-));
+$lang = array_merge($lang, [
+	'JV_MODX_AFTER'		=> 'Add after',
+	'JV_MODX_BEFORE'	=> 'Add before',
+	'JV_MODX_CMD'		=> 'MODx command',
+	'JV_MODX_DELETE'	=> 'Find and delete',
+	'JV_MODX_FIND'		=> 'Find',
+	'JV_MODX_INAFTER'	=> 'In line add after',
+	'JV_MODX_INBEFORE'	=> 'In line add before',
+	'JV_MODX_INFIND'	=> 'In line find',
+	'JV_MODX_INREPLACE'	=> 'In line replace with',
+	'JV_MODX_REPLACE'	=> 'Replace with',
+]);
