@@ -5,7 +5,7 @@
 * @version $Id$
 * @author 2011-2025 KillBill
 * @copyright (c) 2014-2025 https://jv-arcade.com/ - https://jv-arcade.com/contact
-* @license https://jv-arcade.com/License.html JVA License v1
+* @license https://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
 *
 */
 

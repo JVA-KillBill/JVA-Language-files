@@ -1,0 +1,87 @@
+# Changelog
+
+## 2.0.5 - 2025-04-04
+
+- [Modified] The license of the language files has been changed to GPL-2.0.
+- [Modified] Requirement phpBB 3.3.15 or later.
+
+- [Added] Dutch and French languages.
+
+## 2.0.4 - 2022-08-31
+
+- [Added] Verification of requirements.
+
+- [Modified] Requirement phpBB 3.3.8 or later.
+
+## 2.0.3 - 2022-05-08
+
+- [Fixed] Disabling custom profile fields will result in a PHP error retrieving data.
+
+- [Modified] Requirement phpBB 3.3.7 or later.
+
+## 2.0.2 - 2022-01-03
+
+- [Added] ACP Configuration - Hide user names for guests.
+- [Added] ACP Configuration - Hide user names for bots.
+
+## 2.0.1 - 2020-07-07
+
+- [Added] New user permission - Can delete posts when deleting registration.
+- [Added] If member delete a registration, if the user does not have permission to delete their posts, we will give them the option to remove the IP addresses associated with their posts.
+
+## 2.0.0 - 2020-06-04
+
+- [Fixed] Proper delivery of added registration data.
+- [Fixed] If enable COPPA in the registration, the Privacy Policy Acceptance Form will still be displayed.
+
+## 1.0.8 - 2020-01-16
+
+- [Modified] For guest users, the expiry date of the Privacy policy acceptance will also expire when they close their browser.
+
+- [Added] Cookies used by phpBB - For guests: {cookie_name}_lang.
+
+## 1.0.7 - 2020-01-03
+
+- [Modified] If a logged in user changes his or her privacy settings and refuses the cookie, he will not be logged out.
+- [Modified] For Ajax requests, the extension should be inactive.
+
+## 1.0.6 - 2020-01-02
+
+- [Modified] phpBB 3.3 compatibility.
+
+## 1.0.5 - 2018-12-25
+
+- [Modified] Privacy policy.
+
+## 1.0.4 - 2018-09-19
+
+- [Removed] styles/all/template/event/overall_footer_copyright_append.html file.
+
+## 1.0.3 - 2018-06-04
+
+- [Fixed] Guests have a continuous cookie deletion.
+
+- [Modified] Modifying Accepted Texts.
+
+- [Added] Display information for users in the viewer group.
+- [Added] Display information for users who did not accept cookie save.
+- [Added] Protect controller personal data against unregistered bots.
+	Mail address before and after plus text, the @ before and after plus text.
+	Phone number before and after plus text, the spaces after plus text.
+
+## 1.0.2 - 2018-06-01
+
+- [Modified] Privacy Policy box up to max 450 px.
+
+- [Added] New privacy point - Gravatar
+- [Added] New privacy point - Google Translate
+- [Added] New privacy point - Google Fonts
+
+## 1.0.1 - 2018-05-28
+
+- [Fixed] Remove cookie, if enabled cookie secure.
+- [Fixed] Login redirect param gic duplicate.
+
+## 1.0.0 - 2018-05-23
+
+- First release
