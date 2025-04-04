@@ -3,8 +3,8 @@
 *
 * @package JVA - Contact
 * @version $Id: contact.php 1021 2022-06-27 14:04:28Z KillBill $
-* @author 2011-2022 KillBill
-* @copyright (c) 2014-2022 https://jv-arcade.com/ - https://jv-arcade.com/contact
+* @author 2011-2025 KillBill
+* @copyright (c) 2014-2025 https://jv-arcade.com/ - https://jv-arcade.com/contact
 * @license https://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
 *
 */
@@ -35,8 +35,8 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 // Some characters you may want to copy&paste: ‚ ‘ ’ « » „ “ ” …
 
-$lang = array_merge($lang, array(
-	'JV_CONTACT_TOO_MANY_TRIES'			=> 'You have exceeded the maximum number of attempts for this session. Please try again later.',
-	'JV_CONTACT_PRIVACYPOLICY_EXPLAIN'	=> 'I accept that my name, email address, IP address, message subject and text are processed and stored by the controller of this site as specified in the %sPrivacy Policy%s.',
+$lang = array_merge($lang, [
 	'JV_CONTACT_PRIVACYPOLICY_CONFIRM'	=> 'The Privacy Policy has not been confirmed.',
-));
+	'JV_CONTACT_PRIVACYPOLICY_EXPLAIN'	=> 'I accept that my name, email address, IP address, message subject and text are processed and stored by the controller of this site as specified in the %sPrivacy Policy%s.',
+	'JV_CONTACT_TOO_MANY_TRIES'			=> 'You have exceeded the maximum number of attempts for this session. Please try again later.',
+]);

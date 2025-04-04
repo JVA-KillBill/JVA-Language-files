@@ -2,7 +2,7 @@
 /**
 *
 * @package JVA - Contact
-* @version $Id: contact.php 1021 2022-06-27 14:04:28Z KillBill $
+* @version $Id: info_acp_contact.php 679 2019-12-27 21:51:28Z Scanialady $
 * @author 2011-2025 KillBill
 * @copyright (c) 2014-2025 https://jv-arcade.com/ - https://jv-arcade.com/contact
 * @license https://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
@@ -36,7 +36,15 @@ if (empty($lang) || !is_array($lang))
 // Some characters you may want to copy&paste: ‚ ‘ ’ « » „ “ ” …
 
 $lang = array_merge($lang, [
-	'JV_CONTACT_PRIVACYPOLICY_CONFIRM'	=> 'Az Adatvédelmi irányelv elfogadása nem lett megerősítve.',
-	'JV_CONTACT_PRIVACYPOLICY_EXPLAIN'	=> 'Én elfogadom, hogy a nevem, e-mail címem, IP címem, üzenet témáját és szövegét a weboldal adatkezelője feldolgozza és tárolja az %sAdatvédelmi irányelvek%s szerint.',
-	'JV_CONTACT_TOO_MANY_TRIES'			=> 'Túllépted a próbálkozások maximális számát. Kérlek, később próbáld meg újra.',
+	'JV_ACP_CAT_CONTACT'						=> 'Contact pagina',
+	'JV_ACP_CONTACT'							=> 'JVA - Contact',
+	'JV_ACP_CONTACT_BAN_USERS'					=> 'Gebande gebruikers kunnen ook het contactformulier gebruiken',
+	'JV_ACP_CONTACT_SETTINGS'					=> 'Contact pagina instellingen',
+	'JV_ACP_CONTACT_SPAMBOT_ATTEMPTS'			=> 'Aantal maximale pogingen',
+	'JV_ACP_CONTACT_SPAMBOT_ATTEMPTS_EXPLAIN'	=> 'Aantal pogingen dat gebruikers kunnen doen om de anti-spambottaak op te lossen voordat ze geblokkeerd worden van die sessie.',
+	'JV_ACP_CONTACT_SPAMBOT_ENABLE'				=> 'Schakel anti-spambot tegenmaatregelen in',
+	'JV_ACP_CONTACT_SPAMBOT_ENABLE_EXPLAIN'		=> 'Vereist dat gebruikers de anti-spambottaak doorlopen om geautomatiseerde e-mails te voorkomen.',
+	'JV_ACP_CONTACT_SPAMBOT_GUESTS'				=> 'Anti-spambot alleen voor gasten',
+
+	'LOG_JV_ACP_CONTACT'						=> '<strong>Contact pagina instellingen gewijzigd.</strong>',
 ]);

@@ -3,8 +3,8 @@
 *
 * @package JVA - Contact
 * @version $Id: info_acp_contact.php 1021 2022-06-27 14:04:28Z KillBill $
-* @author 2011-2022 KillBill
-* @copyright (c) 2014-2022 https://jv-arcade.com/ - https://jv-arcade.com/contact
+* @author 2011-2025 KillBill
+* @copyright (c) 2014-2025 https://jv-arcade.com/ - https://jv-arcade.com/contact
 * @license https://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
 *
 */
@@ -35,16 +35,16 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 // Some characters you may want to copy&paste: ‚ ‘ ’ « » „ “ ” …
 
-$lang = array_merge($lang, array(
+$lang = array_merge($lang, [
 	'JV_ACP_CAT_CONTACT'						=> 'Kontaktseite',
 	'JV_ACP_CONTACT'							=> 'JVA - Contact',
 	'JV_ACP_CONTACT_BAN_USERS'					=> 'Gesperrte Benutzer können das Kontaktformular ebenfalls nutzen.',
 	'JV_ACP_CONTACT_SETTINGS'					=> 'Kontaktseiten-Einstellungen',
+	'JV_ACP_CONTACT_SPAMBOT_ATTEMPTS'			=> 'Anzahl maximaler Lösungsversuche',
+	'JV_ACP_CONTACT_SPAMBOT_ATTEMPTS_EXPLAIN'	=> 'Die Zahl der Versuche, die ein Benutzer für die Lösung der Anti-Spambot-Aufgabe hat, bevor er für die Sitzung gesperrt wird.',
 	'JV_ACP_CONTACT_SPAMBOT_ENABLE'				=> 'Aktiviere Anti-Spambot-Maßnahmen',
 	'JV_ACP_CONTACT_SPAMBOT_ENABLE_EXPLAIN'		=> 'Erfordert, dass Benutzer die Anti-Spambot-Aufgabe lösen, um automatisierte E-Mails zu verhindern.',
 	'JV_ACP_CONTACT_SPAMBOT_GUESTS'				=> 'Anti-Spambot ausschließlich für Gäste',
-	'JV_ACP_CONTACT_SPAMBOT_ATTEMPTS'			=> 'Anzahl maximaler Lösungsversuche',
-	'JV_ACP_CONTACT_SPAMBOT_ATTEMPTS_EXPLAIN'	=> 'Die Zahl der Versuche, die ein Benutzer für die Lösung der Anti-Spambot-Aufgabe hat, bevor er für die Sitzung gesperrt wird.',
 
 	'LOG_JV_ACP_CONTACT'						=> '<strong>Einstellungen für Kontaktseite geändert.</strong>',
-));
+]);

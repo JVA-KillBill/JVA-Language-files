@@ -2,7 +2,7 @@
 /**
 *
 * @package JVA - Contact
-* @version $Id: contact.php 1021 2022-06-27 14:04:28Z KillBill $
+* @version $Id: contact.php 667 2019-12-27 10:44:32Z killbill $
 * @author 2011-2025 KillBill
 * @copyright (c) 2014-2025 https://jv-arcade.com/ - https://jv-arcade.com/contact
 * @license https://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
@@ -36,7 +36,7 @@ if (empty($lang) || !is_array($lang))
 // Some characters you may want to copy&paste: ‚ ‘ ’ « » „ “ ” …
 
 $lang = array_merge($lang, [
-	'JV_CONTACT_PRIVACYPOLICY_CONFIRM'	=> 'Az Adatvédelmi irányelv elfogadása nem lett megerősítve.',
-	'JV_CONTACT_PRIVACYPOLICY_EXPLAIN'	=> 'Én elfogadom, hogy a nevem, e-mail címem, IP címem, üzenet témáját és szövegét a weboldal adatkezelője feldolgozza és tárolja az %sAdatvédelmi irányelvek%s szerint.',
-	'JV_CONTACT_TOO_MANY_TRIES'			=> 'Túllépted a próbálkozások maximális számát. Kérlek, később próbáld meg újra.',
+	'JV_CONTACT_PRIVACYPOLICY_CONFIRM'	=> 'La politique de confidentialité n’a pas été confirmée.',
+	'JV_CONTACT_PRIVACYPOLICY_EXPLAIN'	=> 'J’accepte que mon nom, mon adresse e-mail, mon adresse IP, l’objet du message et le texte soient traités et stockés par le contrôleur de ce site Web comme spécifié dans la %sPolitique de confidentialité%s.',
+	'JV_CONTACT_TOO_MANY_TRIES'			=> 'Vous avez dépassé le nombre maximal de tentatives pour cette session. Veuillez réessayer plus tard.',
 ]);
