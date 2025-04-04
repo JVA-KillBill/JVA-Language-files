@@ -36,6 +36,6 @@ if (empty($lang) || !is_array($lang))
 // Some characters you may want to copy&paste: ‚ ‘ ’ « » „ “ ” …
 
 $lang = array_merge($lang, [
-	'ARCADE_EXT_LEADERS_FORUM_INDEX'			=> 'Játéktermi vezetők a fórum főoldalán',
-	'ARCADE_EXT_LEADERS_FORUM_INDEX_EXPLAIN'	=> 'A kiterjesztés lehetővé teszi, hogy a játékterem, kihívás és a verseny vezető felhasználói, kijelzésre kerüljenek a fórum főoldalán.',
+	'ARCADE_EXT_LEADERS_FORUM_INDEX'			=> 'Játéktermi bajnokok a fórum főoldalán',
+	'ARCADE_EXT_LEADERS_FORUM_INDEX_EXPLAIN'	=> 'A kiterjesztés lehetővé teszi, hogy a játékterem, kihívás és a verseny bajnokai, kijelzésre kerüljenek a fórum főoldalán.',
 ]);
