@@ -1,16 +1,15 @@
 <?php
 /**
- *
- * VigLink extension for the phpBB Forum Software package.
- *
- * @copyright (c) 2014 phpBB Limited <https://www.phpbb.com>
- * @license GNU General Public License, version 2 (GPL-2.0)
- *
- */
+*
+* @package Board3 Portal v2.3 - Welcome
+* @copyright (c) 2023 Board3 Group ( www.board3.de )
+* @license GNU General Public License, version 2 (GPL-2.0-only)
+*
+*/
 
 /**
- * DO NOT CHANGE
- */
+* DO NOT CHANGE
+*/
 if (!defined('IN_PHPBB'))
 {
 	exit;
@@ -32,12 +31,12 @@ if (empty($lang) || !is_array($lang))
 // You do not need this where single placeholders are used, e.g. 'Message %d' is fine
 // equally where a string contains only two placeholders which are used to wrap text
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
-//
-// Some characters you may want to copy&paste:
-// ’ « » “ ” …
-//
+$lang = array_merge($lang, [
+	'ACP_PORTAL_TOO_FEW_CHARS'			=> 'Die eingegebene Nachricht ist nicht lang genug.',
+	'ACP_PORTAL_WELCOME_MESSAGE'		=> 'Willkommens-Nachricht',
+	'ACP_PORTAL_WELCOME_MESSAGE_EXP'	=> 'Du kannst die Willkommens-Nachricht in der Textbox verändern. BBCode, Bilder und Links sind erlaubt.',
+	'ACP_PORTAL_WELCOME_PREVIEW'		=> 'Willkommens-Nachricht Vorschau',
+	'ACP_PORTAL_WELCOME_SETTINGS'		=> 'Einstellungen für die Willkommens-Nachricht',
 
-$lang = array_merge($lang, array(
-	'ACP_VIGLINK_SETTINGS'		=> 'Paramètres VigLink',
-	'LOG_VIGLINK_CHECK_FAIL'	=> '<strong>Les paramètres VigLink n’ont pu être récupérés depuis phpBB.com</strong><br>» %s',
-));
+	'PORTAL_WELCOME'					=> 'Willkommen',
+]);

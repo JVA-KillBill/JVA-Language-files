@@ -1,16 +1,15 @@
 <?php
 /**
- *
- * VigLink extension for the phpBB Forum Software package.
- *
- * @copyright (c) 2014 phpBB Limited <https://www.phpbb.com>
- * @license GNU General Public License, version 2 (GPL-2.0)
- *
- */
+*
+* @package Board3 Portal v2.3 - Clock
+* @copyright (c) 2013 Board3 Group ( www.board3.de )
+* @license GNU General Public License, version 2 (GPL-2.0-only)
+*
+*/
 
 /**
- * DO NOT CHANGE
- */
+* DO NOT CHANGE
+*/
 if (!defined('IN_PHPBB'))
 {
 	exit;
@@ -32,12 +31,11 @@ if (empty($lang) || !is_array($lang))
 // You do not need this where single placeholders are used, e.g. 'Message %d' is fine
 // equally where a string contains only two placeholders which are used to wrap text
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
-//
-// Some characters you may want to copy&paste:
-// ’ « » “ ” …
-//
+$lang = array_merge($lang, [
+	'ACP_PORTAL_CLOCK_SETTINGS'		=> 'Paramètres de l’horloge',
+	'ACP_PORTAL_CLOCK_SETTINGS_EXP'	=> 'Ici vous pouvez personnalisez le bloc de l’horloge.',
+	'ACP_PORTAL_CLOCK_SRC'			=> 'Horloge',
+	'ACP_PORTAL_CLOCK_SRC_EXP'		=> 'Saisir le nom du fichier de votre horloge. Le fichier doit être dans tous les répertoires: styles/{votre_style}/theme/images/portal/.',
 
-$lang = array_merge($lang, array(
-	'ACP_VIGLINK_SETTINGS'		=> 'Paramètres VigLink',
-	'LOG_VIGLINK_CHECK_FAIL'	=> '<strong>Les paramètres VigLink n’ont pu être récupérés depuis phpBB.com</strong><br>» %s',
-));
+	'CLOCK'							=> 'Horloge',
+]);

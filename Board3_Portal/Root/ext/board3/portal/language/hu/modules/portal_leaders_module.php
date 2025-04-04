@@ -1,16 +1,15 @@
 <?php
 /**
- *
- * VigLink extension for the phpBB Forum Software package.
- *
- * @copyright (c) 2014 phpBB Limited <https://www.phpbb.com>
- * @license GNU General Public License, version 2 (GPL-2.0)
- *
- */
+*
+* @package Board3 Portal v2.3 - Leaders
+* @copyright (c) 2013 Board3 Group ( www.board3.de )
+* @license GNU General Public License, version 2 (GPL-2.0-only)
+*
+*/
 
 /**
- * DO NOT CHANGE
- */
+* DO NOT CHANGE
+*/
 if (!defined('IN_PHPBB'))
 {
 	exit;
@@ -32,12 +31,14 @@ if (empty($lang) || !is_array($lang))
 // You do not need this where single placeholders are used, e.g. 'Message %d' is fine
 // equally where a string contains only two placeholders which are used to wrap text
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
-//
-// Some characters you may want to copy&paste:
-// ’ « » “ ” …
-//
+$lang = array_merge($lang, [
+	'ACP_PORTAL_LEADERS'		=> 'Team Settings',
+	'ACP_PORTAL_LEADERS_EXP'	=> 'This is where you customize the team block',
 
-$lang = array_merge($lang, array(
-	'ACP_VIGLINK_SETTINGS'		=> 'Paramètres VigLink',
-	'LOG_VIGLINK_CHECK_FAIL'	=> '<strong>Les paramètres VigLink n’ont pu être récupérés depuis phpBB.com</strong><br>» %s',
-));
+	'NO_ADMINISTRATORS_P'		=> 'No Administrators',
+	'NO_GROUPS_P'				=> 'No Groups',
+	'NO_MODERATORS_P'			=> 'No Moderators',
+
+	'PORTAL_LEADERS_EXT'		=> 'Extended Leaders / Team',
+	'PORTAL_LEADERS_EXT_EXP'	=> 'The standard block lists all admins/mods, while the extended block includes all non-hidden groups with a legend.',
+]);

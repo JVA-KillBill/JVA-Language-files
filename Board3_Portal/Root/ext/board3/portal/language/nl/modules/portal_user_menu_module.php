@@ -1,16 +1,15 @@
 <?php
 /**
- *
- * VigLink extension for the phpBB Forum Software package.
- *
- * @copyright (c) 2014 phpBB Limited <https://www.phpbb.com>
- * @license GNU General Public License, version 2 (GPL-2.0)
- *
- */
+*
+* @package Board3 Portal v2.3 - User Menu
+* @copyright (c) 2013 Board3 Group ( www.board3.de )
+* @license GNU General Public License, version 2 (GPL-2.0-only)
+*
+*/
 
 /**
- * DO NOT CHANGE
- */
+* DO NOT CHANGE
+*/
 if (!defined('IN_PHPBB'))
 {
 	exit;
@@ -32,12 +31,16 @@ if (empty($lang) || !is_array($lang))
 // You do not need this where single placeholders are used, e.g. 'Message %d' is fine
 // equally where a string contains only two placeholders which are used to wrap text
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
-//
-// Some characters you may want to copy&paste:
-// ’ « » “ ” …
-//
+$lang = array_merge($lang, [
+	'M_ACP'					=> 'ACP',
+	'M_MENU'				=> 'Menu',
 
-$lang = array_merge($lang, array(
-	'ACP_VIGLINK_SETTINGS'		=> 'Paramètres VigLink',
-	'LOG_VIGLINK_CHECK_FAIL'	=> '<strong>Les paramètres VigLink n’ont pu être récupérés depuis phpBB.com</strong><br>» %s',
-));
+	'UM_BOOKMARKS'			=> 'Favorieten',
+	'UM_HIDE_ME'			=> 'Verberg mij',
+	'UM_LOG_ME_IN'			=> 'Onthouden',
+	'UM_MAIN_SUBSCRIBED'	=> 'Abonnementen',
+	'UM_REGISTER_NOW'		=> 'Registreer nu!',
+	'USER_MENU'				=> 'Gebruikersmenu',
+	'USER_MENU_REGISTER'	=> 'Laat registratie link zien in gebruikersmenu',
+	'USER_MENU_SETTINGS'	=> 'Gebruikersmenu instellingen',
+]);
