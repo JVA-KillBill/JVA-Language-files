@@ -46,6 +46,5 @@ $lang = array_merge($lang, array(
 	'JV_ACP_CONTACT_SPAMBOT_ATTEMPTS'			=> 'Maximális kísérletek száma',
 	'JV_ACP_CONTACT_SPAMBOT_ATTEMPTS_EXPLAIN'	=> 'Legfeljebb ennyi kísérletet tehet a felhasználó az anti-robot feladat megoldására, mielőtt ki lenne zárva arra a munkamenetre.',
 
-	
 	'LOG_JV_ACP_CONTACT'						=> '<strong>Kapcsolat oldal beállítások módosítása.</strong>',
 ));
