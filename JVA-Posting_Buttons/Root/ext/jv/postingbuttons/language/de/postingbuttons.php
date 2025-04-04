@@ -3,8 +3,8 @@
 *
 * @package JVA - Posting Buttons
 * @version $Id$
-* @author 2011-2020 KillBill
-* @copyright (c) 2014-2020 https://jv-arcade.com/ - https://jv-arcade.com/contact
+* @author 2011-2025 KillBill
+* @copyright (c) 2014-2025 https://jv-arcade.com/ - https://jv-arcade.com/contact
 * @license https://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
 *
 */
@@ -35,6 +35,6 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 // Some characters you may want to copy&paste: ‚ ‘ ’ « » „ “ ” …
 
-$lang = array_merge($lang, array(
-	'JV_CUSTOM_BBCODES' => 'Benutzerdefinierte BBCodes'
-));
+$lang = array_merge($lang, [
+	'JV_CUSTOM_BBCODES'	=> 'Benutzerdefinierte BBCodes',
+]);

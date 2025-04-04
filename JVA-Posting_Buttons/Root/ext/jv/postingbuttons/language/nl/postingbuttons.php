@@ -36,5 +36,5 @@ if (empty($lang) || !is_array($lang))
 // Some characters you may want to copy&paste: ‚ ‘ ’ « » „ “ ” …
 
 $lang = array_merge($lang, [
-	'JV_CUSTOM_BBCODES'	=> 'Egyéni BBKódok',
+	'JV_CUSTOM_BBCODES'	=> 'Aangepaste BBCodes',
 ]);
