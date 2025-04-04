@@ -1,0 +1,68 @@
+# Changelog
+
+## 7.7.4 - 2024-06-14
+
+- [Modified] phpBB Arcade 7.7.4 compatibility.
+
+- [Added] Dutch and French languages.
+
+## 7.3.0 - 2021-05-20
+
+- [Modified] phpBB Arcade 7.3.0 compatibility.
+- [Modified] Mobile view.
+
+## 7.0.3 - 2021-01-27
+
+- [Fixed] If the rating system is turned off, Best rated games modules should also be inactive.
+
+## 7.0.0 - 2020-10-20
+
+- [Modified] phpBB Arcade 7.0.0 compatibility.
+
+## 6.3.1 - 2019-12-06
+
+- [Fixed] Automatically disable the extension if it is not compatible with the installed version of phpBB Arcade.
+
+- [Modified] Change the function names that are the same as those used by phpBB.
+
+## 6.3.0 - 2019-11-28
+
+- [Modified] phpBB 3.3 compatibility.
+- [Modified] Author data and files comments.
+
+## 6.2.1 - 2019-06-04
+
+- [Fixed] Html5 - Who is playing in the arcade center block.
+
+## 6.2.0 - 2018-11-30
+
+- [Modified] Compatibility phpBB Arcade 4.3.0
+- [Modified] All arcade portal modules take into account global settings. (Avatar, game images, popup icon enable/disable).
+
+- [Removed] [NL] Dutch language.
+
+## 6.1.2 - 2018-06-22
+
+- [Fixed] Challenge and tournament permission check.
+
+- [Added] View games permission check.
+
+## 6.1.1 - 2018-03-06
+
+- [Modified] Detected phpBB Arcade.
+
+- [Added] [NL] Dutch language.
+
+## 6.1.0 - 2018-02-18
+
+- [Fixed] responsive.
+
+- [Modified] Compatibility phpBB 3.2 and phpBB Arcade 4.2.0
+
+## 6.0.1 - 2015-11-16
+
+- [Added] When you uninstall the extension is verified, whether the portal modules have been deleted. They are deleted automatically if not before the extension is uninstalled.
+
+## 6.0.0 - 2015-09-09
+
+- [Modified] All php files convert to phpBB 3.1.
