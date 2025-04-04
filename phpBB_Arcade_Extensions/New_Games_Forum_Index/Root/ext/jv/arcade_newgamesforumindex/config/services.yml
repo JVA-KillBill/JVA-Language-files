@@ -1,0 +1,15 @@
+services:
+    jv.arcade_newgamesforumindex.listener:
+        class: jv\arcade_newgamesforumindex\event\listener
+        arguments:
+            - '@template'
+            - '@jv.arcade_newgamesforumindex.ext'
+            - '@?jv.arcade.arcade'
+            - '@?jv.arcade.config'
+        tags:
+            - { name: event.listener }
+
+    jv.arcade_newgamesforumindex.ext:
+        class: jv\arcade_newgamesforumindex\inc\acp_settings
+        tags:
+            - { name: jv.arcade.ext }

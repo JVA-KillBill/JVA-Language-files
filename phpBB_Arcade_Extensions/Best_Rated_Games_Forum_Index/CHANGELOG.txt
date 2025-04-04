@@ -1,0 +1,21 @@
+# Changelog
+
+## 7.7.7 - 2025-04-04
+
+- [Added] Dutch and French languages.
+
+## 7.0.3 - 2021-01-27
+
+- [Fixed] If the rating system is turned off, this extension should also be inactive.
+
+## 7.0.0 - 2020-10-20
+
+- [Modified] phpBB Arcade 7.0.0 compatibility.
+
+## 2.0.0 - 2019-11-28
+
+- [Modified] Author data and files comments.
+
+## 1.1.0 - 2018-11-30
+
+First release.

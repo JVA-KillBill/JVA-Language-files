@@ -1,0 +1,33 @@
+# Changelog
+
+## 7.7.7 - 2025-04-04
+
+- [Added] Dutch and French languages.
+
+## 7.0.0 - 2020-10-20
+
+- [Modified] phpBB Arcade 7.0.0 compatibility.
+
+## 2.0.0 - 2019-11-28
+
+- [Modified] Author data and files comments.
+
+## 1.1.0 - 2018-11-30
+
+- [Modified] Compatibility phpBB Arcade 4.3.0
+
+- [Removed] [NL] Dutch language.
+
+## 1.0.2 - 2018-06-22
+
+- [Added] View games permission check.
+
+## 1.0.1 - 2018-03-06
+
+- [Modified] Detected phpBB Arcade.
+
+- [Added] [NL] Dutch language.
+
+## 1.0.0 - 2018-02-24
+
+First release.

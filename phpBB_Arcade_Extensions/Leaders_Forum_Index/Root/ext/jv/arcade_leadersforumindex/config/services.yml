@@ -1,0 +1,14 @@
+services:
+    jv.arcade_leadersforumindex.listener:
+        class: jv\arcade_leadersforumindex\event\listener
+        arguments:
+            - '@jv.arcade_leadersforumindex.ext'
+            - '@?jv.arcade.arcade'
+            - '@?jv.arcade.config'
+        tags:
+            - { name: event.listener }
+
+    jv.arcade_leadersforumindex.ext:
+        class: jv\arcade_leadersforumindex\inc\acp_settings
+        tags:
+            - { name: jv.arcade.ext }

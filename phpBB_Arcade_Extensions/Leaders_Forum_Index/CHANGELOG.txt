@@ -1,0 +1,29 @@
+# Changelog
+
+## 7.7.7 - 2025-04-04
+
+- [Added] Dutch and French languages.
+
+## 7.6.0 - 2022-03-17
+
+- [Added] Size of avatars.
+
+## 7.0.0 - 2020-10-20
+
+- [Modified] phpBB Arcade 7.0.0 compatibility.
+
+## 2.0.0 - 2019-11-28
+
+- [Modified] Author data and files comments.
+
+## 1.1.1 - 2019-05-04
+
+- [Fixed] Arcade leaders block - If display more than 3 users.
+
+## 1.1.0 - 2018-11-30
+
+- [Modified] Compatibility phpBB Arcade 4.3.0
+
+## 1.0.0 - 2018-03-08
+
+First release.
