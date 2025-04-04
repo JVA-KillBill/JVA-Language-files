@@ -37,9 +37,9 @@ if (empty($lang) || !is_array($lang))
 
 $lang = array_merge($lang, [
 	'JV_FL_COUNT'			=> [
-		1					=> 'Since your last visit there was %d failed login attempt!',
-		2					=> 'Since your last visit there was %d failed login attempts!',
+		1					=> 'Sinds je laatste bezoek waren er %d mislukte inlogpogingen!',
+		2					=> 'Sinds je laatste bezoek was er %d mislukte inlogpoging!',
 	],
 
-	'LOG_JV_FL_LOGIN_FAIL'	=> '<strong>Failed login attempt</strong>',
+	'LOG_JV_FL_LOGIN_FAIL'	=> '<strong>mislukte inlogpoging</strong>',
 ]);
