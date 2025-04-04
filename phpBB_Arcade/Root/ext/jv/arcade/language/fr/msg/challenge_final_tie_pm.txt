@@ -1,0 +1,11 @@
+{SUBJECT}Résultat final du défi Arcade!
+
+[game_image_link]
+[game_stats_link]
+[game_popup_link]
+
+Le défi à [game_link] s’est terminé par une égalité.
+[opponent_user_link] a fait [user_score] et votre score est de [user_score].
+{ARCADE_POINT_SYSTEM_MSG}
+
+[view_challenge]

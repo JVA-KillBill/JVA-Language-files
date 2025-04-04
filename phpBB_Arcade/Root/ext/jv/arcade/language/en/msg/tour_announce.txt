@@ -1,0 +1,13 @@
+{SUBJECT}[Tournament message] - [tour_name]
+
+[b]New tournament was created.[/b]
+
+Games in tournament: [tour_games_link]
+Involved groups for this tournament: [tour_groups_link]
+
+Number of replays allowed for each game: [b][tour_plays_max][/b]
+{ARCADE_POINT_SYSTEM_MSG}
+
+If you wish to gain more information you can look at the tournament: [tour_link].
+
+[b]Good luck![/b]

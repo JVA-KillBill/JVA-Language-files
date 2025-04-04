@@ -1,0 +1,11 @@
+{SUBJECT}[Annonce du tournoi de groupe] - [tour_name]
+
+[b]Un nouveau tournoi de groupe a été créé.[/b]
+
+Jeu dans le tournoi : [tour_game_link]
+Participants au tournoi : [tour_places]
+{ARCADE_POINT_SYSTEM_MSG}
+
+Si vous souhaitez obtenir plus d’informations, vous pouvez consulter le tournoi de groupe : [tour_link].
+
+[b]Bonne chance![/b]

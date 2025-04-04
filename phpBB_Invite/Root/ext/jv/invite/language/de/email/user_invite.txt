@@ -1,0 +1,25 @@
+Subject: Einladung
+
+{USERNAME} hat dich dazu eingeladen, dich auf „{SITENAME}“ anzumelden.
+Du kannst unten stehenden Link verwenden, um dich zu registrieren.
+
+{U_ACTIVATE}
+
+Das Ablaufdatum dieser Einladung ist ({INVITE_TIME_END}). Wenn diese Frist überschritten ist, verfällt deine Einladung!
+
+Falls du diese Einladung ablehnen möchtest, so kannst du diese E-Mail einfach ignorieren, oder auf folgenden Verweis klicken, um die Einladung zu löschen:
+{U_DEACTIVATE}
+
+{USERNAME}s Nachricht an dich:
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+{MESSAGE}
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Falls obige Nachricht anstößig ist, oder dich sonstwie beeinträchtigt, kontaktiere bitte
+den Administrator unter dieser E-Mail-Adresse: {BOARD_CONTACT}
+Hänge diese E-Mail an deine Nachricht an (achte darauf, die Kopfzeilen einzuschließen).
+Die Antwortadresse dieser Mitteilung ist {USERNAME}s E-Mail-Adresse, somit wird er deine Antwort
+erhalten.
+--------------------------------------
+
+Webseitenlink: {U_BOARD}

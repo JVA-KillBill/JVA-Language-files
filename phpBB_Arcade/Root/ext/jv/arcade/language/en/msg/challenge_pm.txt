@@ -1,0 +1,14 @@
+{SUBJECT}You have been challenged!
+
+[game_image_link]
+[game_stats_link]
+[game_popup_link]
+
+[challenger_user_link] would like to challenge you in the game [game_link].
+{ARCADE_POINT_SYSTEM_MSG}
+
+[view_challenge]
+
+[b]Attention![/b]
+To play this challenge, it is neccessary to accept it first on the challenge page, and after that start game there.
+If you don’t want to play this challenge, you have the option to decline.

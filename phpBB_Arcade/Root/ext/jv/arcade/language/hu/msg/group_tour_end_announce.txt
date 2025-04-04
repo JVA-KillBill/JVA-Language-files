@@ -1,0 +1,10 @@
+{SUBJECT}Re: [Csoport verseny közlemény] - [tour_name]
+
+[b]A csoport verseny véget ért.[/b]
+
+Verseny játéka: [tour_game_link]
+Verseny résztvevők száma: [tour_places]
+
+[b]Első helyen végzett:[/b] [username_link] {ARCADE_POINT_SYSTEM_MSG}
+
+Ha további információra szeretnél szert tenni, akkor nézz be a versenybe: [tour_end_link].

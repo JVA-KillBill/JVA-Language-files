@@ -1,0 +1,10 @@
+Subject: Invitation gift
+
+You have successfully reached the post milestone, so you have received {NUMBER_INVITE} gift invitation.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Webpage link: {U_BOARD}
+Contact: {BOARD_CONTACT}
+
+{EMAIL_SIG}

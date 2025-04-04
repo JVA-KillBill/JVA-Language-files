@@ -1,0 +1,11 @@
+{SUBJECT}Játéktermi kihívás végeredménye!
+
+[game_image_link]
+[game_stats_link]
+[game_popup_link]
+
+Gratulálok megnyerted a versenyt a [game_link] játékban.
+[loser_user_link] eredménye: [loser_score] pont, saját eredmény: [winner_score] pont.
+{ARCADE_POINT_SYSTEM_MSG}
+
+[view_challenge]

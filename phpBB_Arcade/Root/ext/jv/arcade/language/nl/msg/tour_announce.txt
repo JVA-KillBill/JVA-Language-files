@@ -1,0 +1,13 @@
+{SUBJECT}[Toernooi aangemaakt] - [tour_name]
+
+[b]Een nieuw toernooi is aangemaakt.[/b]
+
+Spellen in het toernooi: [tour_games_link]
+Deelnemende groepen voor dit toernooi: [tour_groups_link]
+
+Aantal keren dat een spel gespeeld mag worden: [b][tour_plays_max][/b]
+{ARCADE_POINT_SYSTEM_MSG}
+
+Als je meer informatie wilt, kijk dan bij het toernooi: [tour_link].
+
+[b]Succes![/b]

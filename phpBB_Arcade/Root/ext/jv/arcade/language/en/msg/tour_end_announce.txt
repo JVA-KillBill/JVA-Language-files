@@ -1,0 +1,11 @@
+{SUBJECT}Re: [Tournament message] - [tour_name]
+
+[b]The tournament has ended.[/b]
+
+Games and winners in tournament: [tour_games_link]
+
+[b]First place finished:[/b] [1_username_link] {1_ARCADE_POINT_SYSTEM_MSG}
+[b]Second place finished:[/b] [2_username_link] {2_ARCADE_POINT_SYSTEM_MSG}
+[b]Third place finished:[/b] [3_username_link] {3_ARCADE_POINT_SYSTEM_MSG}
+
+If you wish to gain more information you can look at the tournament: [tour_end_link].

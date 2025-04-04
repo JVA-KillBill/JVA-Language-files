@@ -1,0 +1,11 @@
+Subject: Invitations gift
+
+You have received {NUMBER_INVITE} invitations as a gift for your birthday.
+We wish you a happy birthday.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Webpage link: {U_BOARD}
+Contact: {BOARD_CONTACT}
+
+{EMAIL_SIG}

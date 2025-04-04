@@ -1,0 +1,11 @@
+{SUBJECT}Ergebnis der Herausforderung!
+
+[game_image_link]
+[game_stats_link]
+[game_popup_link]
+
+Glückwunsch, du hast das Duell in [game_link] gewonnen.
+[loser_user_link]s Punkte: [loser_score], deine Punkte: [winner_score].
+{ARCADE_POINT_SYSTEM_MSG}
+
+[view_challenge]

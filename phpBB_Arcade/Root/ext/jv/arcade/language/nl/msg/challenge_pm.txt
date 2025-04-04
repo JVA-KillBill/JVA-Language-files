@@ -1,0 +1,14 @@
+{SUBJECT}Je bent uitgedaagd voor een wedstrijd!
+
+[game_image_link]
+[game_stats_link]
+[game_popup_link]
+
+[challenger_user_link] daagt je uit voor een wedstrijd met het spelen van het spel [game_link].
+{ARCADE_POINT_SYSTEM_MSG}
+
+[view_challenge]
+
+[b]Opgelet![/b]
+Om deze wedstrijd te spelen, is het nodig om eerst de uitdaging te accepteren op de wedstrijd pagina, om daarna daar het spel te starten.
+Als je geen gebruik wilt maken van de uitdaging, heb je de optie om te weigeren.

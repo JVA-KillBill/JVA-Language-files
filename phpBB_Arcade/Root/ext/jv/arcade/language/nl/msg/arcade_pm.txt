@@ -1,0 +1,10 @@
+{SUBJECT}Je verloor je trofee in [game_name] aan [new_username]!
+
+[game_image_link]
+[game_stats_link]
+[game_popup_link]
+
+Je verloor je score in [game_link].
+[new_user_link] behaalde een score van [b][new_score][/b] welke jouw oude score versloeg van [b][old_score][/b].
+
+Je kunt jouw arcade statistieken bekijken door hier te klikken [old_user_link].

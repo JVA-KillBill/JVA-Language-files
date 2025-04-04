@@ -1,0 +1,10 @@
+Subject: Einladungsanfrage
+
+Deine Einladungsanfrage wurde leider abgelehnt.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Webseitenlink: {U_BOARD}
+Kontakt: {BOARD_CONTACT}
+
+{EMAIL_SIG}

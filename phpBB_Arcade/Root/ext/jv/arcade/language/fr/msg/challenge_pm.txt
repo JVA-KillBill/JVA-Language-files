@@ -1,0 +1,14 @@
+{SUBJECT}Vous avez été mis au défi!
+
+[game_image_link]
+[game_stats_link]
+[game_popup_link]
+
+[challenger_user_link] vous lance un défi à [game_link].
+{ARCADE_POINT_SYSTEM_MSG}
+
+[view_challenge]
+
+[b]Attention![/b]
+Pour faire ce défi, il faut d’abord l’accepter sur la page des défis, et ensuite lancer le jeu au même endroit.
+Vous avez par ailleurs l’option de décliner le défi.

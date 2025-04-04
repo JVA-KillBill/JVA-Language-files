@@ -1,0 +1,11 @@
+{SUBJECT}Ergebnis der Herausforderung!
+
+[game_image_link]
+[game_stats_link]
+[game_popup_link]
+
+Das Duell in [game_link] endete unentschieden.
+[opponent_user_link]s Punkte: [user_score], deine Punkte: [user_score].
+{ARCADE_POINT_SYSTEM_MSG}
+
+[view_challenge]

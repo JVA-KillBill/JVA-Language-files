@@ -1,0 +1,11 @@
+{SUBJECT}Arcade challenge final result!
+
+[game_image_link]
+[game_stats_link]
+[game_popup_link]
+
+Tie game in the tournament of [game_link].
+[opponent_user_link] score: [user_score] points, own score: [user_score] points.
+{ARCADE_POINT_SYSTEM_MSG}
+
+[view_challenge]

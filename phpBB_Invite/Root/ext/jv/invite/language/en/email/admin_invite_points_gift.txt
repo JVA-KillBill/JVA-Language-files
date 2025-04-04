@@ -1,0 +1,10 @@
+Subject: Invitation gift
+
+For inviting {INVITE_USERNAME}, we credited you with {GIFT_POINTS} as a gift.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Webpage link: {U_BOARD}
+Contact: {BOARD_CONTACT}
+
+{EMAIL_SIG}

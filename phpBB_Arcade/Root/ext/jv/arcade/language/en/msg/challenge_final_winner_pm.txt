@@ -1,0 +1,11 @@
+{SUBJECT}Arcade challenge final result!
+
+[game_image_link]
+[game_stats_link]
+[game_popup_link]
+
+Congratulations on winning a tournament game of [game_link].
+[loser_user_link] score: [loser_score] points, own score: [winner_score] points.
+{ARCADE_POINT_SYSTEM_MSG}
+
+[view_challenge]

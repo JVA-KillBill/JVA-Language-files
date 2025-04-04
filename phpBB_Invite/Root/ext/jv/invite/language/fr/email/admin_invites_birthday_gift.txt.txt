@@ -1,0 +1,10 @@
+Subject: Invitations cadeaux
+
+Vous avez reçu {NUMBER_INVITE}  invitations cadeaux pour votre anniversaire.
+Nous te souhaitons un joyeux anniversaire
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Lien vers la page Web : {U_BOARD}
+Contact : {BOARD_CONTACT}
+
+{EMAIL_SIG}

@@ -1,0 +1,10 @@
+Subject: Invitation request
+
+Your invitation request has been denied.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Webpage link: {U_BOARD}
+Contact: {BOARD_CONTACT}
+
+{EMAIL_SIG}
