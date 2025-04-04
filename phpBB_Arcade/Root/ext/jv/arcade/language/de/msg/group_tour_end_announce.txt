@@ -1,1 +1,10 @@
-{SUBJECT}Re: [Gruppenturnier-Ankündigung] - [tour_name][b]Das Turnier ist beendet.[/b]Spiel im Turnier: [tour_game_link]Anzahl der Turnierteilnehmer: [tour_places][b]Erster Platz:[/b] [username_link] {ARCADE_POINT_SYSTEM_MSG}Wenn du mehr Informationen bekommen möchtest, kannst du das Gruppenturnier ansehen: [tour_end_link].
+{SUBJECT}Re: [Gruppenturnier-Ankündigung] - [tour_name]
+
+[b]Das Turnier ist beendet.[/b]
+
+Spiel im Turnier: [tour_game_link]
+Anzahl der Turnierteilnehmer: [tour_places]
+
+[b]Erster Platz:[/b] [username_link] {ARCADE_POINT_SYSTEM_MSG}
+
+Wenn du mehr Informationen bekommen möchtest, kannst du das Gruppenturnier ansehen: [tour_end_link].
