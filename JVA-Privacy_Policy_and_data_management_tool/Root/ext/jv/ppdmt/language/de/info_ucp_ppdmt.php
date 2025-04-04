@@ -3,9 +3,9 @@
 *
 * @package JVA - Privacy Policy and data management tool
 * @version $Id$
-* @author 2011-2022 KillBill
-* @copyright (c) 2014-2022 https://jv-arcade.com/ - https://jv-arcade.com/contact
-* @license https://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
+* @author 2011-2025 KillBill
+* @copyright (c) 2014-2025 https://jv-arcade.com/ - https://jv-arcade.com/contact
+* @license https://jv-arcade.com/License.html JVA License v1
 *
 */
 
@@ -35,7 +35,7 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 // Some characters you may want to copy&paste: ‚ ‘ ’ « » „ “ ” …
 
-$lang = array_merge($lang, array(
+$lang = array_merge($lang, [
 	'JVPPDMT_COOKIE_SETTING'				=> 'Cookies empfangen',
 	'JVPPDMT_COOKIE_SETTING_EXPLAIN'		=> 'Hier kannst du festlegen, ob diese Webseite Cookies auf deinem Gerät speichern darf oder nicht. Für mehr Informationen über Cookies lies bitte die %sDatenschutzerklärung%s.<br><em>Beachte bitte, dass viele Features nicht funktionieren werden, wenn du Cookies verbietest.</em>',
 	'JVPPDMT_CREATE_TIME'					=> 'Erstelldatum',
@@ -66,4 +66,4 @@ $lang = array_merge($lang, array(
 	'JVPPDMT_TERM_OF_USE_ACCEPT_DATE'		=> 'Nutzungsbedingungen zuletzt akzeptiert',
 	'JVPPDMT_YOUR_PM_NUMBER'				=> 'Anzahl privater Nachrichten',
 	'JVPPDMT_YOUR_POST_NUMBER'				=> 'Anzahl an Beiträgen',
-));
+]);

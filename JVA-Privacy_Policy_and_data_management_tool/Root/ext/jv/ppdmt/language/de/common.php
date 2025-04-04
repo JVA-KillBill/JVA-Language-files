@@ -3,9 +3,9 @@
 *
 * @package JVA - Privacy Policy and data management tool
 * @version $Id$
-* @author 2011-2022 KillBill
-* @copyright (c) 2014-2022 https://jv-arcade.com/ - https://jv-arcade.com/contact
-* @license https://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
+* @author 2011-2025 KillBill
+* @copyright (c) 2014-2025 https://jv-arcade.com/ - https://jv-arcade.com/contact
+* @license https://jv-arcade.com/License.html JVA License v1
 *
 */
 
@@ -35,7 +35,7 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 // Some characters you may want to copy&paste: ‚ ‘ ’ « » „ “ ” …
 
-$lang = array_merge($lang, array(
+$lang = array_merge($lang, [
 	'ACL_U_JVPPDMT_MY_ACC_POST_DELETE'	=> 'Kann bei Accountlöschung die eigenen Beiträge löschen',
 
 	'G_JVPPDMT_REGISTERED_VIEWER'		=> 'Registrierte Beobachter',
@@ -52,4 +52,4 @@ $lang = array_merge($lang, array(
 	'UCP_JVPPDMT_PRIVACY_DATA'			=> 'Private Daten',
 	'UCP_JVPPDMT_SETTINGS'				=> 'Einstellungen',
 	'UCP_PROFILE_JVPPDMT_MY_ACC_DELETE'	=> 'Mein Benutzerkonto löschen',
-));
+]);

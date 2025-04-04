@@ -3,9 +3,9 @@
 *
 * @package JVA - Privacy Policy and data management tool
 * @version $Id$
-* @author 2011-2022 KillBill
-* @copyright (c) 2014-2022 https://jv-arcade.com/ - https://jv-arcade.com/contact
-* @license https://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
+* @author 2011-2025 KillBill
+* @copyright (c) 2014-2025 https://jv-arcade.com/ - https://jv-arcade.com/contact
+* @license https://jv-arcade.com/License.html JVA License v1
 *
 */
 
@@ -35,7 +35,7 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 // Some characters you may want to copy&paste: ‚ ‘ ’ « » „ “ ” …
 
-$lang = array_merge($lang, array(
+$lang = array_merge($lang, [
 	'JVPPDMT_COOKIE_SETTING'				=> 'Cookie-k fogadása',
 	'JVPPDMT_COOKIE_SETTING_EXPLAIN'		=> 'Itt beállíthatod, hogy a weboldal menthet-e cookie-kat az eszközödre vagy nem. Bővebb információért olvasd el az %sAdatvédelmi Irányelvet%s.<br><em>Vedd figyelembe, hogy ha nem engedélyezed a cookie-kat , akkor számos funkció nem fog működni.</em>',
 	'JVPPDMT_CREATE_TIME'					=> 'Létrehozás ideje',
@@ -66,4 +66,4 @@ $lang = array_merge($lang, array(
 	'JVPPDMT_TERM_OF_USE_ACCEPT_DATE'		=> 'Utolsó használati feltételek elfogadásának időpontja',
 	'JVPPDMT_YOUR_PM_NUMBER'				=> 'Privát üzeneteim száma',
 	'JVPPDMT_YOUR_POST_NUMBER'				=> 'Hozzászólásaim száma',
-));
+]);

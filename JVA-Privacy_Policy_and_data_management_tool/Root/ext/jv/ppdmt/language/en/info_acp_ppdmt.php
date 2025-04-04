@@ -3,9 +3,9 @@
 *
 * @package JVA - Privacy Policy and data management tool
 * @version $Id$
-* @author 2011-2022 KillBill
-* @copyright (c) 2014-2022 https://jv-arcade.com/ - https://jv-arcade.com/contact
-* @license https://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
+* @author 2011-2025 KillBill
+* @copyright (c) 2014-2025 https://jv-arcade.com/ - https://jv-arcade.com/contact
+* @license https://jv-arcade.com/License.html JVA License v1
 *
 */
 
@@ -35,7 +35,7 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 // Some characters you may want to copy&paste: ‚ ‘ ’ « » „ “ ” …
 
-$lang = array_merge($lang, array(
+$lang = array_merge($lang, [
 	'ACP_CAT_JVPPDMT'							=> 'Privacy policy and data management tool',
 	'ACP_JVPPDMT'								=> 'JVA - Privacy Policy and data management tool',
 	'ACP_JVPPDMT_CONTROLLER_NAME'				=> 'Controller name',
@@ -76,4 +76,4 @@ $lang = array_merge($lang, array(
 	'LOG_JVPPDMT_RESET'							=> '<strong>Reset privacy policy</strong>',
 	'LOG_JVPPDMT_SETTINGS'						=> '<strong>Altered privacy policy and data management tools settings</strong>',
 	'LOG_JVPPDMT_TERM_OF_USE_RESET'				=> '<strong>Reset terms of use</strong>',
-));
+]);

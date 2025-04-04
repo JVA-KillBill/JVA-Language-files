@@ -3,9 +3,9 @@
 *
 * @package JVA - Privacy Policy and data management tool
 * @version $Id$
-* @author 2011-2022 KillBill
-* @copyright (c) 2014-2022 https://jv-arcade.com/ - https://jv-arcade.com/contact
-* @license https://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
+* @author 2011-2025 KillBill
+* @copyright (c) 2014-2025 https://jv-arcade.com/ - https://jv-arcade.com/contact
+* @license https://jv-arcade.com/License.html JVA License v1
 *
 */
 
@@ -44,7 +44,7 @@ if (empty($lang) || !is_array($lang))
 %6$s :: Hozzáad plusz egy sort, ha a vendégeknek kikapcsoljuk a cookie-kat
 */
 
-$lang = array_merge($lang, array(
+$lang = array_merge($lang, [
 	'JVPPDMT_APPROVAL'						=> 'Jóváhagyom',
 	'JVPPDMT_CONFIRM'						=> 'Az adatvédelmi irányelvet elolvastam és tudomásul veszem.',
 	'JVPPDMT_COOKIE_CONFIRM'				=> 'Kérlek válaszd ki, hogy a(z) %s weboldal menthet-e cookie-kat az eszközödre:',
@@ -379,7 +379,7 @@ Tisztázzuk, hogy a személyes adatok átadását részben törvényi előírja 
 <h3>A szerződés megszűntetése</h3>
 A weboldalunkon mindenki saját döntése szerint bármikor törölheti saját regisztrációját. A regisztráció törlése folyamán minden személyes adat törlésre fog kerülni. A törlés után nem áll módunkban visszaállítani az adatokat.',
 	'JVPPDMT_REJECTION'						=> 'Elutasítom',
-	'JVPPDMT_USED_COOKIE'			=> array(
+	'JVPPDMT_USED_COOKIE'			=> [
 		'<strong>phpBB fórum által használt cookie:</strong>',
 		'%1$s_cookie_status: Weblapunk meglátogatása során tárolja a visszaigazolást a cookie elfogadásáról.',
 		'%1$s_k: Használja az automatikus bejelentkezési szolgáltatás (emlékezzen rám).',
@@ -407,5 +407,5 @@ A weboldalunkon mindenki saját döntése szerint bármikor törölheti saját r
 		/* Ha nem használja a (Collapsible Forum Categories) kiterjesztést, akkor add hozzá a // karaktereket a sor elejéhez. */
 		'<br><strong>Összecsukható fórum kategóriák által használt cookie:</strong>',
 		'%1$s_ccat: A felhasználó személyes beállításait tárolja az összecsukott vagy kinyitott kategóriákról (Blokkokról).',
-	),
-));
+	],
+]);

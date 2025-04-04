@@ -3,9 +3,9 @@
 *
 * @package JVA - Privacy Policy and data management tool
 * @version $Id$
-* @author 2011-2022 KillBill
-* @copyright (c) 2014-2022 https://jv-arcade.com/ - https://jv-arcade.com/contact
-* @license https://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
+* @author 2011-2025 KillBill
+* @copyright (c) 2014-2025 https://jv-arcade.com/ - https://jv-arcade.com/contact
+* @license https://jv-arcade.com/License.html JVA License v1
 *
 */
 
@@ -44,7 +44,7 @@ if (empty($lang) || !is_array($lang))
 %6$s :: Eine weitere Zeile wird hinzugefügt, wenn wir Cookies für Gäste deaktivieren
 */
 
-$lang = array_merge($lang, array(
+$lang = array_merge($lang, [
 	'JVPPDMT_APPROVAL'						=> 'Zustimmung',
 	'JVPPDMT_CONFIRM'						=> 'Ich habe die Datenschutzerklärung gelesen und verstanden.',
 	'JVPPDMT_COOKIE_CONFIRM'				=> 'Bitte wähle, ob die Webseite %s Cookies auf deinem Gerät speichern darf:',
@@ -379,7 +379,7 @@ Wir klären Sie darüber auf, dass die Bereitstellung personenbezogener Daten zu
 <h3>Beendigung deines Nutzungsvertrages</h3>
 Jedermann auf unserer Webseite kann im eigenen Ermessen sein Benutzerkonto selbständig löschen. Mit dieser Löschung werden alle persönlichen Daten entfernt, und wir können sie nicht wiederherstellen.',
 	'JVPPDMT_REJECTION'						=> 'Ablehnung',
-	'JVPPDMT_USED_COOKIE' => array(
+	'JVPPDMT_USED_COOKIE' => [
 		'<strong>Cookies, die vom phpBB-Forum verwendet werden:</strong>',
 		'%1$s_cookie_status: Wird benutzt, um die Erlaubnis zur Verwendung von Cookies zu speichern, wenn du unsere Webseite besuchst.',
 		'%1$s_k: Wird benutzt, um den automatischen Login Dienst zu nutzen (Angemeldet bleiben).',
@@ -407,5 +407,5 @@ Jedermann auf unserer Webseite kann im eigenen Ermessen sein Benutzerkonto selbs
 		/* Wenn du die Erweiterung (Collapsible Forum Categories)  nicht verwendest, dann füge die Kommentarzeichen // am Beginn der Zeile ein. */
 		'<br><strong>Cookie, welches von Collapsible Forum Categories verwendet wird:</strong>',
 		'%1$s_ccat: Speichert die persönliche Einstellung über ein- oder ausgeklappte Kategorieboxen.',
-	),
-));
+	],
+]);

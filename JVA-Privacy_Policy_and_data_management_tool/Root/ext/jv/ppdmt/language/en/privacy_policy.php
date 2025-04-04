@@ -3,9 +3,9 @@
 *
 * @package JVA - Privacy Policy and data management tool
 * @version $Id$
-* @author 2011-2022 KillBill
-* @copyright (c) 2014-2022 https://jv-arcade.com/ - https://jv-arcade.com/contact
-* @license https://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
+* @author 2011-2025 KillBill
+* @copyright (c) 2014-2025 https://jv-arcade.com/ - https://jv-arcade.com/contact
+* @license https://jv-arcade.com/License.html JVA License v1
 *
 */
 
@@ -44,7 +44,7 @@ if (empty($lang) || !is_array($lang))
 %6$s :: Added plus one line if we disable cookies for guests
 */
 
-$lang = array_merge($lang, array(
+$lang = array_merge($lang, [
 	'JVPPDMT_APPROVAL'						=> 'Approval',
 	'JVPPDMT_CONFIRM'						=> 'I have read and understood the Privacy Policy.',
 	'JVPPDMT_COOKIE_CONFIRM'				=> 'Please select whether the %s website could save cookies on your device:',
@@ -379,7 +379,7 @@ We clarify that the provision of personal data is partly required by law (e.g. t
 <h3>Termination of your contract</h3>
 Everyone on our website at any time at its discretion may delete his registration. All personal data will be deleted when the registration is canceled. After deletion, we can not recover the data.',
 	'JVPPDMT_REJECTION'						=> 'Rejection',
-	'JVPPDMT_USED_COOKIE' => array(
+	'JVPPDMT_USED_COOKIE' => [
 		'<strong>Cookies used by phpBB forum:</strong>',
 		'%1$s_cookie_status: When you visit our website it will store a confirmation of acceptance of using cookies.',
 		'%1$s_k: Is used to use the automatic login service (remember me).',
@@ -407,5 +407,5 @@ Everyone on our website at any time at its discretion may delete his registratio
 		/* If you are not using the extension (Collapsible Forum Categories) then add the comment // at the beginning of the line. */
 		'<br><strong>Cookie used by Collapsible Forum Categories:</strong>',
 		'%1$s_ccat: Stores the users personal preference about collapsed or expanded category boxes.',
-	),
-));
+	],
+]);
