@@ -36,7 +36,7 @@ if (empty($lang) || !is_array($lang))
 // Some characters you may want to copy&paste: ‚ ‘ ’ « » „ “ ” …
 
 $lang = array_merge($lang, array(
-	'JVA_CORE_EXT_NOT_FOUND'		=> 'L’extension ne peut pas être activée car l’extension « JVA - Core » est introuvable!',
+	'JVA_CORE_EXT_NOT_FOUND'		=> 'L’extension ne peut pas être activée car l’extension « JVA - Core » est introuvable !',
 	'JV_CHAT'						=> 'Tchat',
 	'JV_CHAT_SOUND_OFF'				=> 'Le son du tchat est éteint',
 	'JV_CHAT_SOUND_ON'				=> 'Le son du tchat est activé',
@@ -49,5 +49,5 @@ $lang = array_merge($lang, array(
 	'JV_CHAT_USER_LOGIN'			=> 'Vous n’êtes pas connecté, reconnectez-vous.',
 	'JV_CHAT_NEW_MSG'				=> '%s nouveau message reçu',
 	'JV_CHAT_DELETE_MSGS'			=> 'Supprimer des messages',
-	'JV_CHAT_DELETE_MSGS_CONFIRM'	=> 'Êtes-vous sûr de vouloir supprimer les messages?',
+	'JV_CHAT_DELETE_MSGS_CONFIRM'	=> 'Êtes-vous sûr de vouloir supprimer les messages ?',
 ));

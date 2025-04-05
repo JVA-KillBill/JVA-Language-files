@@ -48,13 +48,13 @@ $lang = array_merge($lang, [
 	'JVPPDMT_APPROVAL'						=> 'Approuver',
 	'JVPPDMT_CONFIRM'						=> 'J’ai lu et compris la politique de confidentialité.',
 	'JVPPDMT_COOKIE_CONFIRM'				=> 'Sélectionnez si le site Web %s peut stocker des cookies sur votre appareil:',
-	'JVPPDMT_COOKIE_DESC'					=> 'Attention! Ce site utilise des cookies pour vous garantir la meilleure expérience sur notre site. <a onclick="window.open(this.href); return false;" href="https://cookiesandyou.com/">En savoir plus</a>.<br>Ici, vous avez la possibilité d’accepter ou de refuser les cookies, et à tout moment vous pouvez désactiver l’utilisation des cookies du site Web dans les paramètres de votre navigateur.',
+	'JVPPDMT_COOKIE_DESC'					=> 'Attention ! Ce site utilise des cookies pour vous garantir la meilleure expérience sur notre site. <a onclick="window.open(this.href); return false;" href="https://cookiesandyou.com/">En savoir plus</a>.<br>Ici, vous avez la possibilité d’accepter ou de refuser les cookies, et à tout moment vous pouvez désactiver l’utilisation des cookies du site Web dans les paramètres de votre navigateur.',
 	'JVPPDMT_DISABLED_COOKIE_GUEST_USER'	=> 'Nous ne stockons pas de cookies sur les appareils des utilisateurs invités!',
-	'JVPPDMT_NOT_CONFIRM'					=> 'Attention! Vous n’avez pas fait de sélection à confirmer.',
+	'JVPPDMT_NOT_CONFIRM'					=> 'Attention ! Vous n’avez pas fait de sélection à confirmer.',
 	'JVPPDMT_ONLY_ALREADY_EXISTING_DATA'	=> 'Pour les données déjà enregistrées, j’approuve, mais rien d’autre.<br><em>Veuillez noter que si vous choisissez cette option, vous serez dans un groupe en lecture seule. Bien sûr, vous pouvez modifier cette décision plus tard dans les paramètres du panneau d’utilisateur/des données de confidentialité</em>',
 	'JVPPDMT_ONLY_REGISTER_DATA'			=> 'Pour les données personnelles nécessaires à l’inscription, j’approuve, mais rien d’autre.<br><em>Veuillez noter que si vous choisissez cette option, vous serez dans un groupe en lecture seule. Bien sûr, vous pouvez modifier cette décision plus tard dans les paramètres du panneau d’utilisateur/des données de confidentia.</em>',
 	'JVPPDMT_PERSONAL_DATA_CONFIRM'			=> 'Sélectionnez si le site Web %s peut utiliser et stocker vos informations personnelles. Les données personnelles ne seront pas transmises à des tiers.',
-	'JVPPDMT_PERSONAL_DATA_REG'				=> 'Attention! Les données personnelles doivent être fournies lors de l’inscription.',
+	'JVPPDMT_PERSONAL_DATA_REG'				=> 'Attention ! Les données personnelles doivent être fournies lors de l’inscription.',
 	'JVPPDMT_PRIVACY_POLICY'		=> 'Politique de confidentialité',
 	'JVPPDMT_PRIVACY_POLICY_DESC'	=> 'La protection des données a une priorité particulièrement élevée pour la gestion du site Web « %1$s ». L’utilisation des pages Internet du site Web « %1$s » est possible sans aucune indication de données personnelles; cependant, si une personne concernée souhaite utiliser des services spéciaux via notre site Web, il peut être nécessaire de traiter des données personnelles. Lorsque le traitement des données personnelles est nécessaire et qu’il n’existe aucune base légale pour un tel traitement, nous obtenons généralement le consentement de la personne concernée.
 
@@ -112,6 +112,7 @@ L’utilisation de cookies permet au site Web « %1$s » de fournir aux utilisat
 Au moyen d’un cookie, les informations et les offres de notre site Web peuvent être optimisées en pensant à l’utilisateur. Les cookies nous permettent, comme mentionné précédemment, de reconnaître les utilisateurs de notre site Web. Le but de cette reconnaissance est de faciliter l’utilisation de notre site Web par les utilisateurs. L’utilisateur du site Web qui utilise des cookies n’a pas à saisir de données d’accès à chaque ouverture du site Web, car elles sont reprises par le site Web et le cookie et ainsi stockées sur le système informatique de l’utilisateur. Un autre exemple est le cookie d’un panier dans une boutique en ligne. La boutique en ligne mémorise les articles qu1 un client a placés dans le panier virtuel via un cookie. Un jeu par navigateur peut stocker le score actuel ou l’état du niveau dans un cookie et revenir au tableau de bord pour le stockage à la fin du jeu.
 
 Exemples concrets d’utilisation de cookies sur notre site Internet :
+
 %5$s
 
 La personne concernée peut à tout moment empêcher l’installation de cookies via notre site Web au moyen d’un réglage correspondant du navigateur Internet utilisé et peut donc refuser définitivement l’installation de cookies. En outre, les cookies déjà définis peuvent être supprimés à tout moment via un navigateur Internet ou d’autres logiciels. Ceci est possible dans tous les navigateurs Internet courants. Si la personne concernée désactive le paramétrage des cookies dans le navigateur Internet utilisé, toutes les fonctions de notre site Web peuvent ne pas être pleinement utilisables.

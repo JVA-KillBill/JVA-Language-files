@@ -37,6 +37,6 @@ if (empty($lang) || !is_array($lang))
 
 $lang = array_merge($lang, [
 	'JV_CONTACT_PRIVACYPOLICY_CONFIRM'	=> 'Het privacybeleid is niet bevestigd.',
-	'JV_CONTACT_PRIVACYPOLICY_EXPLAIN'	=> 'Ik accepteer dat mijn naam, e-mailadres, IP-adres, onderwerp van het bericht en tekst worden verwerkt en opgeslagen door de controller van deze site zoals vermeld in de %sPrivacy Policy%s.',
+	'JV_CONTACT_PRIVACYPOLICY_EXPLAIN'	=> 'Ik accepteer dat mijn naam, e-mailadres, IP-adres, onderwerp van het bericht en tekst worden verwerkt en opgeslagen door de controller van deze website zoals vermeld in de %sPrivacy Policy%s.',
 	'JV_CONTACT_TOO_MANY_TRIES'			=> 'Je hebt het maximale aantal pogingen voor deze sessie overschreden. Probeer later nog eens.',
 ]);

@@ -42,7 +42,7 @@ $lang = array_merge($lang, [
 	'ACP_JVA_CORE_EXPLAIN'					=> 'L’extension « JVA - Core » contient de nombreuses fonctions qui peuvent être librement utilisées par d’autres extensions. L’objectif est d’éviter d’avoir à placer ces fonctions dans chaque extension, évitant ainsi les doublons et réduisant le temps de chargement des données. Les fonctions disponibles de « JVA - Core » sont en constante expansion, ce qui affecte les fonctions PHP, Html et JavaScript.',
 	'ACP_JVA_CORE_FILE_VERSSION'			=> 'Version du fichier :',
 	'ACP_JVA_CORE_MAIN'						=> 'Principal',
-	'ACP_JVA_CORE_VERSION_ERROR'			=> 'Le numéro de version du fichier et de la base de données ne correspond pas !<br><br>Si une mise à jour a été effectuée, l’extension doit être désactivée avant de télécharger de nouveaux fichiers et réactivée après un téléchargement de fichier réussi. ',
+	'ACP_JVA_CORE_VERSION_ERROR'			=> 'Le numéro de version du fichier et de la base de données ne correspond pas !<br><br>Si une mise à jour a été effectuée, l’extension doit être désactivée avant de télécharger de nouveaux fichiers et réactivée après un téléchargement de fichier réussi.',
 
 	'JVA_CORE_EXT_DETECT_DISABLED'			=> 'Nous avons détecté que <strong>« %s »</strong> est installé mais actuellement désactivé.',
 	'JVA_CORE_EXT_DETECT_ENABLED'			=> 'Nous avons détecté que <strong>« %s »</strong> est installé et actuellement activé.',

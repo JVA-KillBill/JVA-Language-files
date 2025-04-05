@@ -37,7 +37,7 @@ if (empty($lang) || !is_array($lang))
 
 //These are used through out the invite
 $lang = array_merge($lang, [
-	'JVA_CORE_EXT_NOT_FOUND'			=> 'L’extension ne peut pas être activée car l’extension « JVA - Core » est introuvable!',
+	'JVA_CORE_EXT_NOT_FOUND'			=> 'L’extension ne peut pas être activée car l’extension « JVA - Core » est introuvable !',
 	'JV_INVITE'							=> 'Invitation',
 	'JV_INVITED_BY_USERS'				=> [
 		1								=> 'membre invité par %s',
@@ -53,11 +53,11 @@ $lang = array_merge($lang, [
 		1								=> 'Votre invitation a été supprimée.',
 		2								=> 'Vos invitations sont supprimées.',
 	],
-	'JV_INVITE_DISABLED'				=> 'Le système d’invitation est actuellement désactivé!',
+	'JV_INVITE_DISABLED'				=> 'Le système d’invitation est actuellement désactivé !',
 	'JV_INVITE_EMAIL_NOT_MODIFY'		=> 'Ne peut pas être modifié !',
 	'JV_INVITE_EXP'						=> 'Invitez un ami sur notre forum.',
 	'JV_INVITE_INVITED'					=> 'invité',
-	'JV_INVITE_KEY_ERROR'				=> '<div class="jv_invite_error">Votre invitation n’est pas valide!</div>',
+	'JV_INVITE_KEY_ERROR'				=> '<div class="jv_invite_error">Votre invitation n’est pas valide !</div>',
 	'JV_INVITE_MEMBER'					=> [
 		1								=> '%s membre',
 		2								=> '%s membres'
@@ -67,13 +67,13 @@ $lang = array_merge($lang, [
 		2								=> 'L’utilisateur %s vous a envoyé %s invitations.'
 	],
 	'JV_INVITE_NOTIFICATION_MANAGE_DEL'	=> 'L’utilisateur %s a supprimé toutes vos invitations.',
-	'JV_INVITE_NOTIFICATION_MANAGE_SET'	=> 'L’utilisateur %s a changé le nombre d’invitations.<br> balance: %s.',
+	'JV_INVITE_NOTIFICATION_MANAGE_SET'	=> 'L’utilisateur %s a changé le nombre d’invitations.<br> balance : %s.',
 	'JV_INVITE_NO_SELECTED_USERS'		=> 'L’utilisateur sélectionné n’a encore invité personne.',
 	'JV_INVITE_NO_USERS'				=> 'Aucun utilisateur invité.',
 	'JV_INVITE_PETITION'				=> [
 		1								=> 'Demande d’invitation reçue. Nombre de demandes en attente : <b>%s</b> invitation.',
 		2								=> 'Demande d’invitations reçues. Nombre de demandes en attente : <b>%s</b> invitations.',
 	],
-	'JV_INVITE_REGISTRATION'			=> '<div class="jv_invite_error">Actuellement, vous ne pouvez vous inscrire que sur invitation!</div>',
+	'JV_INVITE_REGISTRATION'			=> '<div class="jv_invite_error">Actuellement, vous ne pouvez vous inscrire que sur invitation !</div>',
 	'JV_INVITE_REGISTRATION_DISABLE'	=> 'L’inscription avec une invitation est temporairement désactivée, revenez plus tard.',
 ]);

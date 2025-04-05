@@ -1,7 +1,7 @@
 Subject: Cadeau d’invitation
 
 Le site web « {SITENAME} » vous remerciez d’avoir invité de nouveaux membres supplémentaires sur notre site Web via le système d’invitation.
-Nous voulons que vous continuiez à utiliser le système d’invitation, alors nous vous avons  {NUMBER_INVITE} invitations données en cadeau.
+Nous voulons que vous continuiez à utiliser le système d’invitation, alors nous vous avons données {NUMBER_INVITE} invitations en cadeau.
 
 Nous vous souhaitons un agréable séjour.
 
