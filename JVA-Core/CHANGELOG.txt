@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.0.18 - 2025-xx-xx
+
+- [Added] New javascript variables - Version, phpBBVersion, AssetsVesion, BoardUrl and UserLang.
+
 ## 1.0.17 - 2025-03-26
 
 - [Modified] PHP function: page - We put the returned values in a static cache and added a new parameter query string filter.

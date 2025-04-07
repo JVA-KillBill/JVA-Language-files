@@ -19,7 +19,7 @@ if (!defined('IN_PHPBB'))
 
 if (empty($lang) || !is_array($lang))
 {
-	$lang = array();
+	$lang = [];
 }
 
 // DEVELOPERS PLEASE NOTE
@@ -36,47 +36,50 @@ if (empty($lang) || !is_array($lang))
 // Some characters you may want to copy&paste: ‚ ‘ ’ « » „ “ ” …
 
 $lang = array_merge($lang, [
-	'JVA_CORE'					=> 'JVA - Core',
-	'JVA_CORE_ALL'				=> 'All',
-	'JVA_CORE_ENABLE_ERROR'		=> 'The extension can not be activated because the version of <strong>“phpBB”</strong> is below version <strong>“%s”</strong>!',
-	'JVA_CORE_SEP_DECIMAL'		=> '.',
-	'JVA_CORE_SEP_THOUSANDS'	=> ',',
-	'JVA_CORE_TIME_DAY'			=> [
-		1						=> 'day',
-		2						=> 'days',
+	'JVA_CORE'							=> 'JVA - Core',
+	'JVA_CORE_ALL'						=> 'All',
+	'JVA_CORE_ENABLE_ERROR'				=> 'The extension can not be activated because the version of <strong>“phpBB”</strong> is below version <strong>“%s”</strong>!',
+	'JVA_CORE_FILE_NOT_FOUND'			=> 'The “%s” file could not be found!',
+	'JVA_CORE_JS_FUNCTION_NOT_FOUND'	=> 'The „%s“ javascript function cannot be found!',
+	'JVA_CORE_JS_OBJECT_NOT_FOUND'		=> 'The “%s” javascript object cannot be found!',
+	'JVA_CORE_SEP_DECIMAL'				=> '.',
+	'JVA_CORE_SEP_THOUSANDS'			=> ',',
+	'JVA_CORE_TIME_DAY'					=> [
+		1								=> 'day',
+		2								=> 'days',
 	],
-	'JVA_CORE_TIME_HOUR'		=> [
-		1						=> 'hour',
-		2						=> 'hours',
+	'JVA_CORE_TIME_HOUR'				=> [
+		1								=> 'hour',
+		2								=> 'hours',
 	],
-	'JVA_CORE_TIME_MIN'			=> [
-		1						=> 'min',
-		2						=> 'mins',
+	'JVA_CORE_TIME_MIN'					=> [
+		1								=> 'min',
+		2								=> 'mins',
 	],
-	'JVA_CORE_TIME_MINUTE'		=> [
-		1						=> 'minute',
-		2						=> 'minutes',
+	'JVA_CORE_TIME_MINUTE'				=> [
+		1								=> 'minute',
+		2								=> 'minutes',
 	],
-	'JVA_CORE_TIME_MONTH'		=> [
-		1						=> 'month',
-		2						=> 'months',
+	'JVA_CORE_TIME_MONTH'				=> [
+		1								=> 'month',
+		2								=> 'months',
 	],
-	'JVA_CORE_TIME_SEC'			=> [
-		1						=> 'sec',
-		2						=> 'secs',
+	'JVA_CORE_TIME_SEC'					=> [
+		1								=> 'sec',
+		2								=> 'secs',
 	],
-	'JVA_CORE_TIME_SECOND'		=> [
-		1						=> 'second',
-		2						=> 'seconds',
+	'JVA_CORE_TIME_SECOND'				=> [
+		1								=> 'second',
+		2								=> 'seconds',
 	],
-	'JVA_CORE_TIME_WEEK'		=> [
-		1						=> 'week',
-		2						=> 'weeks',
+	'JVA_CORE_TIME_WEEK'				=> [
+		1								=> 'week',
+		2								=> 'weeks',
 	],
-	'JVA_CORE_TIME_YEAR'		=> [
-		1						=> 'year',
-		2						=> 'years',
+	'JVA_CORE_TIME_YEAR'				=> [
+		1								=> 'year',
+		2								=> 'years',
 	],
-	'JVA_CORE_TOTAL_DATA'		=> 'Total data (%s)',
-	'JVA_CORE_VERSION_ERROR'	=> 'The installed “JVA - Core” is not compatible with this “%s” version. Please update the “JVA - Core”.',
+	'JVA_CORE_TOTAL_DATA'				=> 'Total data (%s)',
+	'JVA_CORE_VERSION_ERROR'			=> 'The installed “JVA - Core” is not compatible with this “%s” version. Please update the “JVA - Core”.',
 ]);

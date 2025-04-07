@@ -19,7 +19,7 @@ if (!defined('IN_PHPBB'))
 
 if (empty($lang) || !is_array($lang))
 {
-	$lang = array();
+	$lang = [];
 }
 
 // DEVELOPERS PLEASE NOTE
@@ -36,47 +36,50 @@ if (empty($lang) || !is_array($lang))
 // Some characters you may want to copy&paste: ‚ ‘ ’ « » „ “ ” …
 
 $lang = array_merge($lang, [
-	'JVA_CORE'					=> 'JVA - Core',
-	'JVA_CORE_ALL'				=> 'Összes',
-	'JVA_CORE_ENABLE_ERROR'		=> 'A kiterjesztés nem kapcsolható be, mert a <strong>„phpBB”</strong> verziója kisebb mint <strong>„%s”</strong> verzió!',
-	'JVA_CORE_SEP_DECIMAL'		=> '.',
-	'JVA_CORE_SEP_THOUSANDS'	=> ',',
-	'JVA_CORE_TIME_DAY'			=> [
-		1						=> 'nap',
-		2						=> 'nap',
+	'JVA_CORE'							=> 'JVA - Core',
+	'JVA_CORE_ALL'						=> 'Összes',
+	'JVA_CORE_ENABLE_ERROR'				=> 'A kiterjesztés nem kapcsolható be, mert a <strong>„phpBB”</strong> verziója kisebb mint <strong>„%s”</strong> verzió!',
+	'JVA_CORE_FILE_NOT_FOUND'			=> 'A „%s” fájl nem található!',
+	'JVA_CORE_JS_FUNCTION_NOT_FOUND'	=> 'A „%s” javascript funkció nem található!',
+	'JVA_CORE_JS_OBJECT_NOT_FOUND'		=> 'A „%s” javascript objektum nem található!',
+	'JVA_CORE_SEP_DECIMAL'				=> '.',
+	'JVA_CORE_SEP_THOUSANDS'			=> ',',
+	'JVA_CORE_TIME_DAY'					=> [
+		1								=> 'nap',
+		2								=> 'nap',
 	],
-	'JVA_CORE_TIME_HOUR'		=> [
-		1						=> 'óra',
-		2						=> 'óra',
+	'JVA_CORE_TIME_HOUR'				=> [
+		1								=> 'óra',
+		2								=> 'óra',
 	],
-	'JVA_CORE_TIME_MIN'			=> [
-		1						=> 'p',
-		2						=> 'p',
+	'JVA_CORE_TIME_MIN'					=> [
+		1								=> 'p',
+		2								=> 'p',
 	],
-	'JVA_CORE_TIME_MINUTE'		=> [
-		1						=> 'perc',
-		2						=> 'perc',
+	'JVA_CORE_TIME_MINUTE'				=> [
+		1								=> 'perc',
+		2								=> 'perc',
 	],
-	'JVA_CORE_TIME_MONTH'		=> [
-		1						=> 'hónap',
-		2						=> 'hónap',
+	'JVA_CORE_TIME_MONTH'				=> [
+		1								=> 'hónap',
+		2								=> 'hónap',
 	],
-	'JVA_CORE_TIME_SEC'			=> [
-		1						=> 'mp',
-		2						=> 'mp',
+	'JVA_CORE_TIME_SEC'					=> [
+		1								=> 'mp',
+		2								=> 'mp',
 	],
-	'JVA_CORE_TIME_SECOND'		=> [
-		1						=> 'másodperc',
-		2						=> 'másodperc',
+	'JVA_CORE_TIME_SECOND'				=> [
+		1								=> 'másodperc',
+		2								=> 'másodperc',
 	],
-	'JVA_CORE_TIME_WEEK'		=> [
-		1						=> 'hét',
-		2						=> 'hét',
+	'JVA_CORE_TIME_WEEK'				=> [
+		1								=> 'hét',
+		2								=> 'hét',
 	],
-	'JVA_CORE_TIME_YEAR'		=> [
-		1						=> 'év',
-		2						=> 'év',
+	'JVA_CORE_TIME_YEAR'				=> [
+		1								=> 'év',
+		2								=> 'év',
 	],
-	'JVA_CORE_TOTAL_DATA'		=> 'Összes adat (%s)',
-	'JVA_CORE_VERSION_ERROR'	=> 'A telepített „JVA - Core” kiterjesztés nem kompatibilis ezzel a „%s” verzióval. Kérlek frissítsd a „JVA - Core” kiterjesztést.',
+	'JVA_CORE_TOTAL_DATA'				=> 'Összes adat (%s)',
+	'JVA_CORE_VERSION_ERROR'			=> 'A telepített „JVA - Core” kiterjesztés nem kompatibilis ezzel a „%s” verzióval. Kérlek frissítsd a „JVA - Core” kiterjesztést.',
 ]);
