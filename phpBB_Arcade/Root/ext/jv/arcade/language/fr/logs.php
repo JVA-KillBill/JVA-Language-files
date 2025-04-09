@@ -108,7 +108,7 @@ $lang = array_merge($lang, [
 		2											=> '<strong>Fichiers supprimés des jeux</strong><br>» %s'
 	],
 	'LOG_ARCADE_DELETE_SCORE'						=> '<strong>Score de jeu supprimé pour l’utilisateur : %3$s%1$s%2$s</strong><br>» %4$s',
-	'LOG_ARCADE_DELETE_SUPER_CHAMPION_SCORE'		=> '<strong>Score de super champion supprimé pour l’utilisateur : %s</strong><br>» Jeu: %s',
+	'LOG_ARCADE_DELETE_SUPER_CHAMPION_SCORE'		=> '<strong>Score de super champion supprimé pour l’utilisateur : %s</strong><br>» Jeu : %s',
 	'LOG_ARCADE_DEL_CAT'							=> '<strong>Catégorie supprimée</strong><br>» %s',
 	'LOG_ARCADE_DEL_CATS'							=> '<strong>Catégorie et ses sous-catégories supprimées</strong><br>» %s',
 	'LOG_ARCADE_DEL_DELETED_GAMES'					=> '<strong>Liste de jeux supprimées supprimée.</strong>',
@@ -127,11 +127,11 @@ $lang = array_merge($lang, [
 	'LOG_ARCADE_EXT_SETTINGS'						=> '<strong>Paramètres d’extensions modifiées</strong>',
 	'LOG_ARCADE_FEATURE'							=> '<strong>Paramètres des fonctionnalités modifiés</strong>',
 	'LOG_ARCADE_FORM_SCORE_ERROR'					=> [
-		1											=> '<strong>Le jeu « %s » a envoyé un score incorrect</strong><br>Type de sauvegarde : %s<br>Temps de jouer : %s<br>Score : %s<br><strong>Erreur:</strong> (%s)',
-		2											=> '<strong>Le jeu « %s » a envoyé un score incorrect</strong><br>Type de sauvegarde : %s<br>Temps de jouer : %s<br>Score : %s<br><strong>Erreurs:</strong> (%s)'
+		1											=> '<strong>Le jeu « %s » a envoyé un score incorrect</strong><br>Type de sauvegarde : %s<br>Temps de jouer : %s<br>Score : %s<br><strong>Erreur :</strong> (%s)',
+		2											=> '<strong>Le jeu « %s » a envoyé un score incorrect</strong><br>Type de sauvegarde : %s<br>Temps de jouer : %s<br>Score : %s<br><strong>Erreurs :</str ong> (%s)'
 	],
 	'LOG_ARCADE_GAME'								=> '<strong>Paramètres de jeu modifiés</strong>',
-	'LOG_ARCADE_GAME_ANNOUNCE'						=> '<strong>Annonce du jeu modifiée</strong><br>» Langue: %s',
+	'LOG_ARCADE_GAME_ANNOUNCE'						=> '<strong>Annonce du jeu modifiée</strong><br>» Langue : %s',
 	'LOG_ARCADE_GAME_ANNOUNCE_SYNC'					=> '<strong>Resynchroniser les annonces de jeu</strong>',
 	'LOG_ARCADE_GAME_DATA_EMPTY_ERROR'				=> '<strong>Le jeu « %s » n’a pas envoyé de code arcadegid ou enscore. Le jeu est endommagé.</strong><br>» Temps de jouer : %s<br>» Score : %s',
 	'LOG_ARCADE_GAME_FILE_NOT_FOUND'				=> '<strong>Un fichier d’un jeu « %s » ne peut être trouvé</strong><br>» Fichier : %s',

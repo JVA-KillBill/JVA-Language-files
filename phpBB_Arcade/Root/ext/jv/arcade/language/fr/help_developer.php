@@ -122,7 +122,7 @@ $lang = array_merge($lang, [
 //
 // Tous les fichiers d’installation doivent utiliser UTF-8 comme encodage et les fichiers ne doivent pas contenir de BOM.
 //
-// Certains caractères que vous voudrez peut-être copier et coller: ‚ ‘ ’ « » „ « » …
+// Certains caractères que vous voudrez peut-être copier et coller : ‚ ‘ ’ « » „ « » …
 /*
 if (!defined(\'IN_PHPBB\') || !defined(\'IN_PHPBB_ARCADE\'))
 {
@@ -362,7 +362,7 @@ $game_data = [
 	'ARCADE_ACP_HELP_FAQ_MODULES_NO_FAV_ANSWER'			=> 'Le module favori n’est visible que si nous en avons la permission, les permissions ne peuvent être modifiées que par l’administrateur.',
 	'ARCADE_ACP_HELP_FAQ_MODULES_NO_FAV_QUESTION'		=> 'Comment se fait-il que je ne vois pas le module de mes jeux favoris ?',
 	'ARCADE_ACP_HELP_FAQ_MODULES_NO_GAMES_ANSWER'		=> 'Pour ajouter des jeux, vous devez d’abord créer une catégorie pour les jeux, vous pouvez le faire dans le menu Gérer les catégories. Ils sont très faciles à faire.',
-	'ARCADE_ACP_HELP_FAQ_MODULES_NO_GAMES_QUESTION'		=> 'Pourquoi ne puis-je pas ajouter de jeux?',
+	'ARCADE_ACP_HELP_FAQ_MODULES_NO_GAMES_QUESTION'		=> 'Pourquoi ne puis-je pas ajouter de jeux ?',
 	'ARCADE_ACP_HELP_FAQ_MODULES_QUESTION'				=> 'De quels modules le PCA de phpBB Arcade dispose-t-il?',
 	'ARCADE_ACP_HELP_FAQ_MODULES_REQ_DOWNLOAD_ANSWER'	=> 'Ce module doit avoir le <strong>« allow_url_fopen »</strong> activé et la <strong>cURL library</strong> doit être installée. Cela peut être vérifié en vérifiant les informations php sur votre serveur. Si <strong>« allow_url_fopen »</strong> est désactivé et que la <strong>cURL library</strong> n’est pas installée, le module ne fonctionnera pas.',
 	'ARCADE_ACP_HELP_FAQ_MODULES_REQ_DOWNLOAD_QUESTION'	=> 'Pourquoi le module de téléchargement du jeu ne fonctionne-t-il pas ?',

@@ -11,15 +11,15 @@
 	"delete_gd_confirm":		"Voulez-vous vraiment supprimer les données stockées par le jeu de votre navigateur et redémarrer le jeu ?",
 
 	"err":						{
-		"1":					"phpBB Arcade n’est pas activé!",
+		"1":					"phpBB Arcade n’est pas activé !",
 		"2":					"Cette version n’est plus prise en charge!\n\nSVP mettre a jour vers la derniere version de phpBB Arcade !",
-		"3":					"Ce site Web enfreint la licence du logiciel phpBB Arcade et a été bloqué!",
-		"4":					"phpBB Arcade ne peut pas être utilisé dans cette plage de domaines!",
-		"5":					"Le phpBB Arcade ne supporte pas l’utilisation de serveur proxy!",
+		"3":					"Ce site Web enfreint la licence du logiciel phpBB Arcade et a été bloqué !",
+		"4":					"phpBB Arcade ne peut pas être utilisé dans cette plage de domaines !",
+		"5":					"Le phpBB Arcade ne supporte pas l’utilisation de serveur proxy !",
 		"6":					"Ce site Web a atteint sa limite quotidienne de %s jeux, donc plus aucun jeu ne peut être joué aujourd’hui. Réessayez demain, s’il vous plaît.",
 		"7":					"Une clé privée de niveau %s est nécessaire pour démarrer le jeu.",
-		"8":					"Ce jeu n’est pas utilisable ici!",
-		"9":					"Ce jeu est interdit!"
+		"8":					"Ce jeu n’est pas utilisable ici !",
+		"9":					"Ce jeu est interdit !"
 	},
 	"error_game_data":			"Les données du jeu sont introuvables !",
 
