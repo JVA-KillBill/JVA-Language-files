@@ -128,7 +128,7 @@ $lang = array_merge($lang, [
 	'LOG_ARCADE_FEATURE'							=> '<strong>Paramètres des fonctionnalités modifiés</strong>',
 	'LOG_ARCADE_FORM_SCORE_ERROR'					=> [
 		1											=> '<strong>Le jeu « %s » a envoyé un score incorrect</strong><br>Type de sauvegarde : %s<br>Temps de jouer : %s<br>Score : %s<br><strong>Erreur :</strong> (%s)',
-		2											=> '<strong>Le jeu « %s » a envoyé un score incorrect</strong><br>Type de sauvegarde : %s<br>Temps de jouer : %s<br>Score : %s<br><strong>Erreurs :</str ong> (%s)'
+		2											=> '<strong>Le jeu « %s » a envoyé un score incorrect</strong><br>Type de sauvegarde : %s<br>Temps de jouer : %s<br>Score : %s<br><strong>Erreurs :</strong> (%s)'
 	],
 	'LOG_ARCADE_GAME'								=> '<strong>Paramètres de jeu modifiés</strong>',
 	'LOG_ARCADE_GAME_ANNOUNCE'						=> '<strong>Annonce du jeu modifiée</strong><br>» Langue : %s',
