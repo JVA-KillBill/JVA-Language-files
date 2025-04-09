@@ -19,7 +19,7 @@ if (!defined('IN_PHPBB'))
 
 if (empty($lang) || !is_array($lang))
 {
-	$lang = array();
+	$lang = [];
 }
 
 // DEVELOPERS PLEASE NOTE
@@ -48,15 +48,15 @@ $lang = array_merge($lang, [
 	'UCP_ARCADE_DARK'							=> 'Dunkel',
 	'UCP_ARCADE_DELETE_FAVORITE'				=> [
 		1										=> 'Favorit löschen',
-		2										=> 'Favoriten löschen',
+		2										=> 'Favoriten löschen'
 	],
 	'UCP_ARCADE_DELETE_FAVORITE_CONFIRM'		=> [
 		1										=> 'Bist du sicher, dass du diesen Spielefavoriten entfernen möchtest?',
-		2										=> 'Bist du sicher, dass du diese Spielefavoriten entfernen möchtest?',
+		2										=> 'Bist du sicher, dass du diese Spielefavoriten entfernen möchtest?'
 	],
 	'UCP_ARCADE_DELETE_FAVORITE_SUCCESS'		=> [
 		1										=> 'Favorit erfolgreich gelöscht.',
-		2										=> 'Favoriten erfolgreich gelöscht.',
+		2										=> 'Favoriten erfolgreich gelöscht.'
 	],
 	'UCP_ARCADE_DEVICES_ALL'					=> 'Alle Geräte',
 	'UCP_ARCADE_DEVICES_TOUCH_SCREEN'			=> 'Touchscreen-Geräte',
@@ -138,5 +138,5 @@ $lang = array_merge($lang, [
 	'UCP_ARCADE_USER_INFO_EXPLAIN'				=> 'den Benutzerinformationsblock im Willkommensblock ersetzen. Stattdessen kannst du festlegen, dass die am häufigsten gespielten Spiele angezeigt werden.<br><em>Diese Option hat keine Auswirkungen auf die Herausforderungs- und Turnierseiten.</em>',
 	'UCP_CAT_ARCADE'							=> 'Spielhalle',
 	'UCP_CHALLENGE_ENABLED'						=> 'Herausforderung aktiviert',
-	'UCP_CHALLENGE_ENABLED_EXPLAIN'				=> 'Falls aktiviert, können sich Spieler duellieren.',
+	'UCP_CHALLENGE_ENABLED_EXPLAIN'				=> 'Falls aktiviert, können sich Spieler duellieren.'
 ]);

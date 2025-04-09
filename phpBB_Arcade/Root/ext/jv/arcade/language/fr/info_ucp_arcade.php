@@ -19,7 +19,7 @@ if (!defined('IN_PHPBB'))
 
 if (empty($lang) || !is_array($lang))
 {
-	$lang = array();
+	$lang = [];
 }
 
 // DEVELOPERS PLEASE NOTE
@@ -48,15 +48,15 @@ $lang = array_merge($lang, [
 	'UCP_ARCADE_DARK'							=> 'Sombre',
 	'UCP_ARCADE_DELETE_FAVORITE'				=> [
 		1										=> 'Supprimer le jeu préféré',
-		2										=> 'Supprimer des jeux préférés',
+		2										=> 'Supprimer des jeux préférés'
 	],
 	'UCP_ARCADE_DELETE_FAVORITE_CONFIRM'		=> [
 		1										=> 'Etes-vous sûr de vouloir supprimer ce jeu des favoris ?',
-		2										=> 'Etes-vous sûr de vouloir supprimer ces jeux des favoris ?',
+		2										=> 'Etes-vous sûr de vouloir supprimer ces jeux des favoris ?'
 	],
 	'UCP_ARCADE_DELETE_FAVORITE_SUCCESS'		=> [
 		1										=> 'Jeu favoris supprimé avec succès.',
-		2										=> 'Jeux favoris supprimés avec succès.',
+		2										=> 'Jeux favoris supprimés avec succès.'
 	],
 	'UCP_ARCADE_DEVICES_ALL'					=> 'Tous les appareils',
 	'UCP_ARCADE_DEVICES_TOUCH_SCREEN'			=> 'Appareils à écran tactile',
@@ -138,5 +138,5 @@ $lang = array_merge($lang, [
 	'UCP_ARCADE_USER_INFO_EXPLAIN'				=> 'Ici, vous avez la possibilité de remplacer le bloc d’informations utilisateur dans le bloc de bienvenue, à la place vous pouvez choisir d’afficher les jeux les plus joués.<br><em>Cette option n’a aucun effet sur les pages de défis et tournoi.</em>',
 	'UCP_CAT_ARCADE'							=> 'Salle de jeux',
 	'UCP_CHALLENGE_ENABLED'						=> 'Activer le défi',
-	'UCP_CHALLENGE_ENABLED_EXPLAIN'				=> 'Si vous l’activez, les utilisateurs peuvent défier un duel dans les jeux.',
+	'UCP_CHALLENGE_ENABLED_EXPLAIN'				=> 'Si vous l’activez, les utilisateurs peuvent défier un duel dans les jeux.'
 ]);

@@ -19,7 +19,7 @@ if (!defined('IN_PHPBB'))
 
 if (empty($lang) || !is_array($lang))
 {
-	$lang = array();
+	$lang = [];
 }
 
 // DEVELOPERS PLEASE NOTE
@@ -179,5 +179,5 @@ En outre, la clé d’activation spécifiée nous dira que le site affecté est 
 	<li>Le « JVA Game Intro » n’est pas pris en charge sur localhost, mais le logiciel peut être exécuté. Sur localhost, le temps d’attente est fixé à 5 secondes par défaut.</li>
 </ul>',
 	'ACP_PHPBB_ARCADE_SYSTEM_INSTRUCTION'			=> 'Instructions phpBB Arcade',
-	'ACP_PHPBB_ARCADE_SYSTEM_INSTRUCTION_EXPLAIN'	=> 'Le logiciel « phpBB Arcade » est <a onclick="window.open(this.href); return false;" href="%3$s" title="JVA License">license</a> et entretenu par le « %1$s » site web.',
+	'ACP_PHPBB_ARCADE_SYSTEM_INSTRUCTION_EXPLAIN'	=> 'Le logiciel « phpBB Arcade » est <a onclick="window.open(this.href); return false;" href="%3$s" title="JVA License">license</a> et entretenu par le « %1$s » site web.'
 ]);

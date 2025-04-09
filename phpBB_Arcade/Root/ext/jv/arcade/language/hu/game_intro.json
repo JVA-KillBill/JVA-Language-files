@@ -1,0 +1,66 @@
+{
+	"ads_not_blocking":			"A hirdetések blokkolása nem engedélyezett.\nKérlek kapcsold ki ezen a weboldalon a hirdetések blokkolását.",
+
+	"backlight_off":			"Háttérvilágítás kikapcsolása",
+	"backlight_on":				"Háttérvilágítás bekapcsolása",
+	"bug_game_stop":			"Figyelem! Ez a játék letiltásra került, mert veszélyezteti a szervert!",
+
+	"controls":					"Vezérlők",
+
+	"delete_game_data":			"Játék adatok törlése",
+	"delete_gd_confirm":		"Biztos vagy benne, hogy törlöd a játék által tárolt adatokat a böngésződből és ezáltal újrakezded a játékot?",
+
+	"err":						{
+		"1":					"A phpBB Arcade nincs aktiválva!",
+		"2":					"Ez a phpBB Arcade verzió már nem támogatott!\n\nKérjük, frissítse a phpBB Arcade a legújabb kiadásra!",
+		"3":					"Ez a weboldal megsértette a phpBB Arcade szoftver engedélyét, ezért blokkolásra került!",
+		"4":					"A phpBB Arcade nem használható ebben a tartományban!",
+		"5":					"A phpBB Arcade nem támogatja a proxi szerver használatát!",
+		"6":					"Ez a weboldal elérte a napi %s lejátszási limitet, így a mai napon már nem játszható több játék. Kérlek látogass vissza holnap.",
+		"7":					"A játék elindításához %s szintű privát kulcs szükséges.",
+		"8":					"Ez a játék, itt nem használható!",
+		"9":					"Ez a játék kitiltva!"
+	},
+	"error_game_data":			"A játék adatai nem találhatóak!",
+
+	"flash_process":			"Flash játék konvertálása, kérlek várj…",
+	"framework_not_found":		"A játék keretrendszere nem található!",
+	"fullscreen_no_support":	"Ezen a böngészőn nem támogatott a teljes képernyős üzemmód!",
+	"fullscreen_off":			"Normál képernyő",
+	"fullscreen_on":			"Teljes képernyő",
+
+	"game_continue":			"Játék folytatása",
+	"game_exit":				"Játék elhagyása",
+	"game_gdpr":				"Figyelem!<br><br>Ez a játék idegen oldalakról szeretne fájlokat betölteni. Ez a viselkedés veszélyeztetheti a személyes adataidnak biztonságát.<br><br>Érintett weboldal(ak):<br>%s<br><br>Kérlek, olvasd el ezen webhelyek adatvédelmi irányelvét. Ha ezekről a webhelyekről nem áll rendelkezésre adatvédelmi irányelv, akkor kérjük jelentsd ezt a játékot egy adminisztrátornak, mivel ez sérti az adatvédelmi irányelvet és a GDPR-t.",
+	"game_load_error":			"A játék betöltése sikertelen!",
+	"game_pp_confirm":			"A játékra vonatkozó Adatvédelmi irányelvet elolvastam és elfogadom.",
+	"game_web":					"<strong>Weboldal:</strong> %s",
+	"game_web_file":			"<strong>Fájl helye:</strong> %s",
+
+	"info":						{
+		"1":					"További információért keresse fel a JV-Arcade weboldalt!",
+		"2":					"Kérjük, frissítse a phpBB Arcade a legújabb kiadásra!",
+		"3":					"Kérjük, regisztrálja ezt a weboldalt a JV-Arcade weboldalon!"
+	},
+	"info_block_close":			"Információ blokk bezárása",
+	"info_block_open":			"Információ blokk kinyitása",
+	"instructions":				"Instrukciók",
+
+	"jump_activation":			"» Ugrás az aktíváláshoz «",
+
+	"loading":					"Betöltés…",
+
+	"options":					"Opciók",
+
+	"pause":					"Szünet",
+	"play_again":				"Újrajátszás",
+
+	"rotate":					"Játék elforgatása",
+
+	"skip_ads":					"» Hirdetés átugrása «",
+	"submit_score":				"Eredmény beküldése",
+
+	"total_score":				"Összesített eredmény",
+
+	"waiting_time":				"Várakozási idő"
+}

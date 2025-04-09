@@ -19,7 +19,7 @@ if (!defined('IN_PHPBB'))
 
 if (empty($lang) || !is_array($lang))
 {
-	$lang = array();
+	$lang = [];
 }
 
 // DEVELOPERS PLEASE NOTE
@@ -59,7 +59,7 @@ $lang = array_merge($lang, [
 	'LOG_ARCADE_ADD_CAT'							=> '<strong>Nieuwe categorie aangemaakt</strong><br>» %s',
 	'LOG_ARCADE_ADD_GAME'							=> [
 		1											=> '<strong>Installeer het spel in de %s categorie.</strong><br>» %s',
-		2											=> '<strong>Installeer de spellen in de %s categorie.</strong><br>» %s',
+		2											=> '<strong>Installeer de spellen in de %s categorie.</strong><br>» %s'
 	],
 	'LOG_ARCADE_ALL_ANNOUNCE_RESTORE_DEFAULT_DATA'	=> '<strong>Alle standaard gegevensmededelingen hersteld</strong>',
 	'LOG_ARCADE_ANNOUNCE_CREATE_DB_DATA'			=> '<strong>“%s” maakt een bericht aan in de database</strong><br>» Taal: %s',
@@ -75,7 +75,7 @@ $lang = array_merge($lang, [
 	'LOG_ARCADE_AUTO_RESET_SCORE_SS_RP'				=> '<strong>Reset automatisch scores en superkampioenen door het aantal keren spelen te behouden</strong>',
 	'LOG_ARCADE_BACKUP_CAT'							=> [
 		1											=> '<strong>Geback-upte categorie</strong><br>» %s',
-		2											=> '<strong>Geback-upte categorieen</strong><br>» %s',
+		2											=> '<strong>Geback-upte categorieen</strong><br>» %s'
 	],
 	'LOG_ARCADE_BACKUP_EMPTY'						=> '<strong>Ledigde back-upmap</strong>',
 	'LOG_ARCADE_CATEGORY_COPIED_PERMISSIONS'		=> '<strong>Kopieerde categorie permissies</strong> van %1$s<br>» %2$s',
@@ -101,11 +101,11 @@ $lang = array_merge($lang, [
 	'LOG_ARCADE_CREATE_INSTALL_FILE'				=> '<strong>Maakte spel installatiebestand</strong><br>» %s',
 	'LOG_ARCADE_DELETE_GAME'						=> [
 		1											=> '<strong>Verwijderde spel</strong><br>» %s',
-		2											=> '<strong>Verwijderde spellen</strong><br>» %s',
+		2											=> '<strong>Verwijderde spellen</strong><br>» %s'
 	],
 	'LOG_ARCADE_DELETE_GAME_FILES'					=> [
 		1											=> '<strong>Verwijderde bestanden van het spel</strong><br>» %s',
-		2											=> '<strong>Verwijderde bestanden van de spellen</strong><br>» %s',
+		2											=> '<strong>Verwijderde bestanden van de spellen</strong><br>» %s'
 	],
 	'LOG_ARCADE_DELETE_SCORE'						=> '<strong>Verwijderde spelscore voor gebruiker: %3$s%1$s%2$s</strong><br>» %4$s',
 	'LOG_ARCADE_DELETE_SUPER_CHAMPION_SCORE'		=> '<strong>Verwijderde super hoogste score voor gebruiker: %s</strong><br>» Spel: %s',
@@ -128,7 +128,7 @@ $lang = array_merge($lang, [
 	'LOG_ARCADE_FEATURE'							=> '<strong>Wijzigde functie instellingen</strong>',
 	'LOG_ARCADE_FORM_SCORE_ERROR'					=> [
 		1											=> '<strong>Het spel “%s” heeft een onjuist resultaatformulier verzonden</strong><br>Opslagtype: %s<br>Speeltijd: %s<br>Score: %s<br><strong>Fout:</strong> (%s)',
-		2											=> '<strong>Het spel “%s” heeft een onjuist resultaatformulier verzonden</strong><br>Opslagtype: %s<br>Speeltijd: %s<br>Score: %s<br><strong>Fouten:</strong> (%s)',
+		2											=> '<strong>Het spel “%s” heeft een onjuist resultaatformulier verzonden</strong><br>Opslagtype: %s<br>Speeltijd: %s<br>Score: %s<br><strong>Fouten:</strong> (%s)'
 	],
 	'LOG_ARCADE_GAME'								=> '<strong>Wijzigde spelinstellingen</strong>',
 	'LOG_ARCADE_GAME_ANNOUNCE'						=> '<strong>Wijzigde spel aankondiging</strong><br>» Taal: %s',
@@ -158,7 +158,7 @@ $lang = array_merge($lang, [
 	'LOG_ARCADE_MENU_ADD'							=> '<strong>Menu toegevoegd</strong><br>» %s',
 	'LOG_ARCADE_MENU_DELETE'						=> [
 		1											=> '<strong>Verwijderde menu</strong><br>» %s',
-		2											=> '<strong>Verwijderde menu met zijn submenus</strong><br>» %s',
+		2											=> '<strong>Verwijderde menu met zijn submenus</strong><br>» %s'
 	],
 	'LOG_ARCADE_MENU_EDIT'							=> '<strong>Bewerkte menu</strong><br>» %s',
 	'LOG_ARCADE_MENU_MOVE_DOWN'						=> '<strong>Verplaatste menu</strong> %1$s <strong>onder</strong> %2$s',
@@ -166,7 +166,7 @@ $lang = array_merge($lang, [
 	'LOG_ARCADE_MOVE_DOWN'							=> '<strong>Verplaatste categorie</strong> %1$s <strong>onder</strong> %2$s',
 	'LOG_ARCADE_MOVE_GAME'							=> [
 		1											=> '<strong>Verplaatste spel van categorie %1$s naar nieuwe categorie %2$s</strong><br>» %3$s',
-		2											=> '<strong>Verplaatste spellen van categorie %1$s naar nieuwe categorie %2$s</strong><br>» %3$s',
+		2											=> '<strong>Verplaatste spellen van categorie %1$s naar nieuwe categorie %2$s</strong><br>» %3$s'
 	],
 	'LOG_ARCADE_MOVE_UP'							=> '<strong>Verplaatste categorie</strong> %1$s <strong>boven</strong> %2$s',
 	'LOG_ARCADE_PAAR'								=> '<strong>Wijzigde phpBB Arcade - activiteitenrang</strong>',
@@ -180,17 +180,17 @@ $lang = array_merge($lang, [
 	'LOG_ARCADE_RESET_DOWNLOADS'					=> '<strong>Download statistieken gereset</strong>',
 	'LOG_ARCADE_RESET_GAME'							=> [
 		1											=> '<strong>Reset spel data%s%s%s%s</strong><br>» %s',
-		2											=> '<strong>Reset spellen data%s%s%s%s</strong><br>» %s',
+		2											=> '<strong>Reset spellen data%s%s%s%s</strong><br>» %s'
 	],
 	'LOG_ARCADE_RESET_GAMES_REC'					=> '<strong>Reset spelverwijzing</strong>',
 	'LOG_ARCADE_RESET_GAME_SCORES'					=> [
 		1											=> '<strong>Reset spel scores%s%s</strong><br>» %s',
-		2											=> '<strong>Reset spellen scores%s%s</strong><br>» %s',
+		2											=> '<strong>Reset spellen scores%s%s</strong><br>» %s'
 	],
 	'LOG_ARCADE_RESET_GROUP_TOURNAMENT'				=> '<strong>Reset groep toernooi</strong>',
 	'LOG_ARCADE_RESET_INSTALL_DATE_GAME'			=> [
 		1											=> '<strong>Reset de installatiedatum van spel</strong><br>» %s',
-		2											=> '<strong>Reset installatiedatums van de spellen</strong><br>» %s',
+		2											=> '<strong>Reset installatiedatums van de spellen</strong><br>» %s'
 	],
 	'LOG_ARCADE_RESET_JACKPOT'						=> '<strong>Jackpot data gereset</strong>',
 	'LOG_ARCADE_RESET_MENU'							=> '<strong>Herstel menustructuur</strong>',
@@ -213,7 +213,7 @@ $lang = array_merge($lang, [
 	'LOG_ARCADE_SYNC_CAT'							=> '<strong>Categorie gehersynchroniseerd</strong><br>» %s',
 	'LOG_ARCADE_SYNC_GAME'							=> [
 		1											=> '<strong>Hersynchronisatie spel</strong><br>» %s',
-		2											=> '<strong>Hersynchronisatie spellen</strong><br>» %s',
+		2											=> '<strong>Hersynchronisatie spellen</strong><br>» %s'
 	],
 	'LOG_ARCADE_SYSTEM'								=> '<strong>Wijzigde systeeminstellingen</strong>',
 	'LOG_ARCADE_TOURNAMENT'							=> '<strong>Wijzigde toernooi instellingen</strong>',
@@ -226,32 +226,32 @@ $lang = array_merge($lang, [
 	'LOG_ARCADE_UNDEFINED_SCORE'					=> '<strong>Het spel “%s” heeft een niet gedefinieerde score verzonden</strong>',
 	'LOG_ARCADE_UNPACK_GAME'						=> [
 		1											=> '<strong>Uitgepakt spel</strong><br>» %s',
-		2											=> '<strong>Uitgepakte spellen</strong><br>» %s',
+		2											=> '<strong>Uitgepakte spellen</strong><br>» %s'
 	],
 	'LOG_ARCADE_UPLOAD_GAME'						=> [
 		1											=> '<strong>Upload spel</strong><br>» %s',
-		2											=> '<strong>Upload spellen</strong><br>» %s',
+		2											=> '<strong>Upload spellen</strong><br>» %s'
 	],
 	'LOG_ARCADE_USER_BANNED'						=> '<strong>Gebande gebruiker</strong><br>» %s',
 	'LOG_ARCADE_USER_DELETE_FAVORITE'				=> [
 		1											=> '<strong>Verwijderde favoriete spel</strong><br>» %s',
-		2											=> '<strong>Verwijderde favoriete spellen</strong><br>» %s',
+		2											=> '<strong>Verwijderde favoriete spellen</strong><br>» %s'
 	],
 	'LOG_ARCADE_USER_GAME_SETTINGS'					=> '<strong>Wijzigde spelinstellingen</strong>',
 	'LOG_ARCADE_USER_HIGHLIGHT_FAVORITE'			=> [
 		1											=> '<strong>Markeer je favoriete spel</strong><br>» %s',
-		2											=> '<strong>Markeer je favoriete spellen</strong><br>» %s',
+		2											=> '<strong>Markeer je favoriete spellen</strong><br>» %s'
 	],
 	'LOG_ARCADE_USER_MAIN_SETTINGS'					=> '<strong>Wijzigde hoofdinstellingen</strong>',
 	'LOG_ARCADE_USER_POST_SETTINGS'					=> '<strong>Wijzigde berichtinstellingen</strong>',
 	'LOG_ARCADE_USER_REMOVE_HIGHLIGHT_FAVORITE'		=> [
 		1											=> '<strong>Verwijder markering van favoriete spel</strong><br>» %s',
-		2											=> '<strong>Verwijder markeringen van favoriete spellen</strong><br>» %s',
+		2											=> '<strong>Verwijder markeringen van favoriete spellen</strong><br>» %s'
 	],
 	'LOG_ARCADE_USER_SET_UPDATE'					=> '<strong>Gebruikersdetails ge-update</strong><br>» %s',
 	'LOG_ARCADE_VERSION_CHECK_DISABLED'				=> '<strong>Automatische versiecontrole uitgezet</strong>',
 	'LOG_ARCADE_VERSION_CHECK_ENABLED'				=> '<strong>Automatische versiecontrole aangezet</strong>',
 	'LOG_C_ROLE_ADD'								=> '<strong>Categorierol toegevoegd</strong><br>» %s',
 	'LOG_C_ROLE_EDIT'								=> '<strong>Categorierol bewerkt</strong><br>» %s',
-	'LOG_C_ROLE_REMOVED'							=> '<strong>Categorierol verplaatst</strong><br>» %s',
+	'LOG_C_ROLE_REMOVED'							=> '<strong>Categorierol verplaatst</strong><br>» %s'
 ]);

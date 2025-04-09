@@ -19,7 +19,7 @@ if (!defined('IN_PHPBB'))
 
 if (empty($lang) || !is_array($lang))
 {
-	$lang = array();
+	$lang = [];
 }
 
 // DEVELOPERS PLEASE NOTE
@@ -48,15 +48,15 @@ $lang = array_merge($lang, [
 	'UCP_ARCADE_DARK'							=> 'Dark',
 	'UCP_ARCADE_DELETE_FAVORITE'				=> [
 		1										=> 'Delete favorite game',
-		2										=> 'Delete favorite games',
+		2										=> 'Delete favorite games'
 	],
 	'UCP_ARCADE_DELETE_FAVORITE_CONFIRM'		=> [
 		1										=> 'Are you sure you want to delete this favorite game?',
-		2										=> 'Are you sure you want to delete these favorite games?',
+		2										=> 'Are you sure you want to delete these favorite games?'
 	],
 	'UCP_ARCADE_DELETE_FAVORITE_SUCCESS'		=> [
 		1										=> 'Favorite game successfully deleted.',
-		2										=> 'Favorite games successfully deleted.',
+		2										=> 'Favorite games successfully deleted.'
 	],
 	'UCP_ARCADE_DEVICES_ALL'					=> 'All devices',
 	'UCP_ARCADE_DEVICES_TOUCH_SCREEN'			=> 'Touch screen devices',
@@ -138,5 +138,5 @@ $lang = array_merge($lang, [
 	'UCP_ARCADE_USER_INFO_EXPLAIN'				=> 'Here you can replace the user information block in the welcome block, instead you can choose to display the most played games.<br><em>This option has no effect on the challenge and tournament pages.</em>',
 	'UCP_CAT_ARCADE'							=> 'Arcade',
 	'UCP_CHALLENGE_ENABLED'						=> 'Enable challenge',
-	'UCP_CHALLENGE_ENABLED_EXPLAIN'				=> 'When enabled, users will challenge each other to a duel in games.',
+	'UCP_CHALLENGE_ENABLED_EXPLAIN'				=> 'When enabled, users will challenge each other to a duel in games.'
 ]);

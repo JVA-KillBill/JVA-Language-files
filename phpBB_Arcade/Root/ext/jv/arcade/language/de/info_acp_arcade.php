@@ -19,7 +19,7 @@ if (!defined('IN_PHPBB'))
 
 if (empty($lang) || !is_array($lang))
 {
-	$lang = array();
+	$lang = [];
 }
 
 // DEVELOPERS PLEASE NOTE
@@ -75,7 +75,7 @@ $lang = array_merge($lang, [
 	'ACP_ARCADE_DELETE_ALL_DATA_SUCCESS'				=> 'Alle Daten wurden erfolgreich gelöscht.',
 	'ACP_ARCADE_DELETE_SELECTED_DATA_SUCCESS'			=> [
 		1												=> 'Die ausgewählten Daten wurden erfolgreich gelöscht.',
-		2												=> 'Die ausgewählten Daten wurden erfolgreich gelöscht.',
+		2												=> 'Die ausgewählten Daten wurden erfolgreich gelöscht.'
 	],
 	'ACP_ARCADE_DISPLAY_AGGREGATED_DATA'				=> 'Aggregierte Daten anzeigen',
 	'ACP_ARCADE_DISPLAY_ARCADE_RANK'					=> 'Zeige Spielhallenrang an',
@@ -281,7 +281,7 @@ $lang = array_merge($lang, [
 	'ARCADE_ADD_GAME_ID_IGN_CAT_EXPLAIN'				=> 'Wenn du eine Spiele-ID eingibst, wird dies das Spiel des Wettbewerbs sein. Dies überschreibt die Kategorieauswahl.',
 	'ARCADE_ADD_GAME_SUCCESS'							=> [
 		1												=> 'Das Spiel „%s“ wurde erfolgreich zur Kategorie „%s“ hinzugefügt.',
-		2												=> 'Die Spiele „%s“ wurden erfolgreich zur Kategorie „%s“ hinzugefügt.',
+		2												=> 'Die Spiele „%s“ wurden erfolgreich zur Kategorie „%s“ hinzugefügt.'
 	],
 	'ARCADE_ADD_MENU'									=> 'Neues Menü hinzufügen',
 	'ARCADE_ALLOW_LOCAL_STORAGE'						=> 'Erlaube lokale Speicherung',
@@ -331,11 +331,11 @@ $lang = array_merge($lang, [
 	'ARCADE_BACKUP_NO_GAMES'							=> 'In den ausgewählten Kategorien gab es keine Spiele.',
 	'ARCADE_BACKUP_SUCCESS'								=> [
 		1												=> 'Die ausgewählte Kategorie wurde erfolgreich gesichert.',
-		2												=> 'Die ausgewählten Kategorien wurden erfolgreich gesichert.',
+		2												=> 'Die ausgewählten Kategorien wurden erfolgreich gesichert.'
 	],
 	'ARCADE_BAD_INSTALL_FILE'							=> [
 		1												=> 'Fehlerhafte oder nicht beschreibbare Installationsdatei gefunden. Bitte überprüfe die folgende Datei: <br>%s',
-		2												=> 'Fehlerhafte oder nicht beschreibbare Installationsdateien gefunden. Bitte überprüfe die folgenden Dateien: <br>%s',
+		2												=> 'Fehlerhafte oder nicht beschreibbare Installationsdateien gefunden. Bitte überprüfe die folgenden Dateien: <br>%s'
 	],
 	'ARCADE_BANNED_EXCLUDE_ALL'							=> 'Alle gesperrten Benutzer nicht mehr ausschließen',
 	'ARCADE_BANNED_EXCLUDE_ALL_SUCCESS'					=> 'Alle Benutzer wurden erfolgreich entsperrt',
@@ -510,14 +510,14 @@ $lang = array_merge($lang, [
 	'ARCADE_DOWNLOAD_USER_STATS'						=> 'Gesamtdownloads für %s',
 	'ARCADE_DUPLICATE_GAMENAME'							=> [
 		1												=> 'Das gelb markierte Spiel existiert mehr als einmal in der Liste.',
-		2												=> 'Die gelb markierten Spiele existieren mehr als einmal in der Liste.',
+		2												=> 'Die gelb markierten Spiele existieren mehr als einmal in der Liste.'
 	],
 	'ARCADE_DUPLICATE_GAMENAME_ADD_GAMES'				=> 'Dieses Spiel ist bereits mehrfach in der Liste vorhanden',
 	'ARCADE_DUPLICATE_GAMENAME_ERROR'					=> 'Der ausgewählte Spielename ist bereits in Benutzung.',
 	'ARCADE_DUPLICATE_GAMENAME_INSTALL_GAMES'			=> 'Es ist bereits ein Spiel dieses Namens installiert',
 	'ARCADE_DUPLICATE_INSTALL_GAMENAME'					=> [
 		1												=> 'Das grün markierte Spiel trägt denselben Namen wie ein bereits installiertes Spiel.',
-		2												=> 'Die grün markierten Spiele tragen denselben Namen wie ein bereits installiertes Spiel.',
+		2												=> 'Die grün markierten Spiele tragen denselben Namen wie ein bereits installiertes Spiel.'
 	],
 	'ARCADE_EDIT_GAME'									=> 'Spiel bearbeiten',
 	'ARCADE_EDIT_GAME_EXPLAIN'							=> 'Hier kannst du alle Informationen über das Spiel ändern. Wenn das Spiel geerbte Spiele enthält, werden die Daten dieser Spiele ebenfalls automatisch aktualisiert.<br><em>Beachte, dass vererbbare Spielebeschreibungen nur dann andere Spielebeschreibungen ändern, wenn sie zu 100% übereinstimmen.</em>',
@@ -535,7 +535,7 @@ $lang = array_merge($lang, [
 	'ARCADE_FILE_INVALID_EXT'							=> 'Ungültige Dateiendung: %s',
 	'ARCADE_FILE_NOT_FOUND'								=> [
 		1												=> 'Die Datei „%s“ wurde nicht gefunden!',
-		2												=> 'Die folgenden Dateien wurden nicht gefunden:<br><br>%s',
+		2												=> 'Die folgenden Dateien wurden nicht gefunden:<br><br>%s'
 	],
 	'ARCADE_FILE_TOO_LARGE'								=> 'Datei zu groß: %s',
 	'ARCADE_FILE_WRONG'									=> 'Die Datei „%s“ ist fehlerhaft!',
@@ -621,7 +621,7 @@ $lang = array_merge($lang, [
 	'ARCADE_GAME_PROCESSING'							=> 'Bitte warten…<br>%1$s<br>Verarbeite Spiel %2$s von %3$s.',
 	'ARCADE_GAME_REMOVE_FILES_SUCCESS'					=> [
 		1												=> 'Die ausgewählten Spieldateien wurden erfolgreich entfernt.',
-		2												=> 'Die ausgewählten Spieldateien wurden erfolgreich entfernt.',
+		2												=> 'Die ausgewählten Spieldateien wurden erfolgreich entfernt.'
 	],
 	'ARCADE_GAME_REWARD'								=> 'Belohnung',
 	'ARCADE_GAME_REWARD_EXPLAIN'						=> 'Die Anzahl an Punkten, die man für ein gewonnenes Spiel bekommt.',
@@ -686,7 +686,7 @@ $lang = array_merge($lang, [
 	'ARCADE_HIDE_FOUND_REMOVED_GAMES_EXPLAIN'			=> 'Hinweis: Die Spiele, die rot markiert sind, waren bereits installiert, wurden aber wieder entfernt.',
 	'ARCADE_HIGHLIGHTED_GAME_ALREADY_INSTALLED'			=> [
 		1												=> 'Das hervorgehobene Spiel ist bereits installiert.',
-		2												=> 'Die hervorgehobenen Spiele sind bereits installiert.',
+		2												=> 'Die hervorgehobenen Spiele sind bereits installiert.'
 	],
 	'ARCADE_HTML5_GAMES'								=> 'HTML5-Spiele',
 	'ARCADE_ICONS_COUNT'								=> 'Anzahl der Bilder',
@@ -793,15 +793,15 @@ $lang = array_merge($lang, [
 	'ARCADE_MENU_CREATED'								=> 'Das neue Menü wurde erfolgreich erstellt.',
 	'ARCADE_MENU_DELETE'								=> [
 		1												=> 'Menü löschen',
-		2												=> 'Lösche Menüs',
+		2												=> 'Lösche Menüs'
 	],
 	'ARCADE_MENU_DELETED'								=> [
 		1												=> 'Das Menü wurde erfolgreich gelöscht.',
-		2												=> 'Das Menü wurde mit den Untermenüs erfolgreich gelöscht.',
+		2												=> 'Das Menü wurde mit den Untermenüs erfolgreich gelöscht.'
 	],
 	'ARCADE_MENU_DELETE_CONFIRM'						=> [
 		1												=> 'Bist du sicher, dass du dieses Menü löschen möchtest?',
-		2												=> 'Bist du sicher, dass du dieses Menü und seine Untermenüs löschen möchtest?',
+		2												=> 'Bist du sicher, dass du dieses Menü und seine Untermenüs löschen möchtest?'
 	],
 	'ARCADE_MENU_EDIT_EXPLAIN'							=> 'Das Formular unten erlaubt dir, diesen Menüpunkt anzupassen.',
 	'ARCADE_MENU_FA'									=> 'Menu icon',
@@ -847,7 +847,7 @@ $lang = array_merge($lang, [
 	'ARCADE_NO_DISPLAY'									=> 'Nicht anzeigen',
 	'ARCADE_NO_GAMES_SELECT_CAT'						=> [
 		1												=> 'Es gibt keine Spiele in der ausgewählten Kategorie.',
-		2												=> 'Es gibt keine Spiele in den ausgewählten Kategorien.',
+		2												=> 'Es gibt keine Spiele in den ausgewählten Kategorien.'
 	],
 	'ARCADE_NO_INSTALL_GAME'							=> 'Keine Spiele installiert!',
 	'ARCADE_NO_SELECT_CATS'								=> 'Du hast keine Kategorie ausgewählt.',
@@ -861,7 +861,7 @@ $lang = array_merge($lang, [
 	'ARCADE_NUM_RANDOM_GAMES_EXPLAIN'					=> 'Spiele werden in dieser Anzahl nach dem Zufallsprinzip ausgewählt.<br>Diese Anzahl kann definiert werden zwischen den Werten (%s - %s).',
 	'ARCADE_OLD_GAME_UNINSTALL'							=> [
 		1												=> 'Das rosa markierte Spiel war bereits installiert, wurde aber wieder deinstalliert.',
-		2												=> 'Die rosa markierten Spiele waren bereits installiert, wurden aber wieder deinstalliert.',
+		2												=> 'Die rosa markierten Spiele waren bereits installiert, wurden aber wieder deinstalliert.'
 	],
 	'ARCADE_OLD_GAME_UNINSTALL_DATE'					=> 'Deinstallationsdatum: %s, Grund: %s',
 	'ARCADE_ONLINE_TIME'								=> '„Wer spielt“-Zeitspanne',
@@ -1075,7 +1075,7 @@ $lang = array_merge($lang, [
 		1												=> 'Neuer Rekord',
 		2												=> 'Erster Rekord und neuer Rekord',
 		3												=> 'Neuer Superrekord',
-		4												=> 'Erster Rekord und neuer Superrekord',
+		4												=> 'Erster Rekord und neuer Superrekord'
 	],
 	'ARCADE_SHOUT_SCORE_TYPE_EXPLAIN'					=> 'Der ausgewählte Rekordtyp wird in der Shoutbox gemeldet.',
 	'ARCADE_SIZE'										=> 'Größe',
@@ -1128,7 +1128,7 @@ $lang = array_merge($lang, [
 	'ARCADE_TOUR_MIN_GAMES'								=> 'Mindestanzahl an Spielen',
 	'ARCADE_TOUR_MIN_GAMES_CAT_ERROR'					=> [
 		1												=> 'Die gewählte Kategorie enthält nicht genug Spiele. Mindestanzahl an Spielen: %s',
-		2												=> 'Die gewählten Kategorien enthalten nicht genug Spiele. Mindestanzahl an Spielen: %s',
+		2												=> 'Die gewählten Kategorien enthalten nicht genug Spiele. Mindestanzahl an Spielen: %s'
 	],
 	'ARCADE_TOUR_MIN_GAMES_ERROR'						=> 'Die Anzahl der ausgewählten Spiele ist zu klein „%s“. Du musst mindestens „%s“ Spiele auswählen.',
 	'ARCADE_TOUR_MIN_GAMES_EXPLAIN'						=> 'Wenn du ein neues Turnier erstellst, musst du mindestens diese Anzahl Spiele dafür auswählen.',
@@ -1161,12 +1161,12 @@ $lang = array_merge($lang, [
 	'ARCADE_TOUR_START_TIME_EXPLAIN'					=> 'Die Startzeit des Turniers.<br>Gebe Datum und Uhrzeit im 24-Stunden-Format „JJJJ-MM-TT SS:MM“ ein.',
 	'ARCADE_UNPACK_DISPLAY_GAMES_EXISTING'				=> [
 		1												=> 'Das angezeigte Spiel ist bereits installiert',
-		2												=> 'Die angezeigten Spiele sind bereits installiert',
+		2												=> 'Die angezeigten Spiele sind bereits installiert'
 	],
 	'ARCADE_UNPACK_GAMES'								=> 'Spiele entpacken',
 	'ARCADE_UNPACK_GAMES_EXISTING'						=> [
 		1												=> 'In dem Ordner, der auf das Entpacken wartet, wurde ein Spiel gefunden, welches bereits installiert war, weshalb dieses Spiel aus der Liste herausgefiltert wurde. Solltest du dieses Spiel jedoch wieder entpacken wollen, weil es zum Beispiel repariert wurde, benutze die Schaltfläche „Angezeigtes Spiel bereits installiert“.',
-		2												=> 'In dem Ordner, der auf das Entpacken wartet, wurden Spiele gefunden, welche bereits installiert waren, weshalb diese Spiele aus der Liste herausgefiltert wurden. Solltest du diese Spiele jedoch wieder entpacken wollen, weil sie zum Beispiel repariert wurden, benutze die Schaltfläche „Angezeigte Spiele bereits installiert“.',
+		2												=> 'In dem Ordner, der auf das Entpacken wartet, wurden Spiele gefunden, welche bereits installiert waren, weshalb diese Spiele aus der Liste herausgefiltert wurden. Solltest du diese Spiele jedoch wieder entpacken wollen, weil sie zum Beispiel repariert wurden, benutze die Schaltfläche „Angezeigte Spiele bereits installiert“.'
 	],
 	'ARCADE_UNPACK_GAMES_FOUND_READ'					=> 'Die Anzahl der Spiele, die darauf warten entpackt zu werden ist %s, davon wurden %s gelesen.',
 	'ARCADE_UNPACK_GAMES_FOUND_READ_ALL'				=> 'Die Anzahl der Spiele, die darauf warten entpackt zu werden ist %s',
@@ -1174,17 +1174,17 @@ $lang = array_merge($lang, [
 	'ARCADE_UNPACK_GAMES_LIMIT_EXPLAIN'					=> 'Maximale Anzahl an Spielen, die gleichzeitig entpackt werden können.',
 	'ARCADE_UNPACK_GAME_ERROR'							=> [
 		1												=> 'Spiel „%s“ erfolgreich entpackt. Bitte stelle sicher, dass die Datei mit der Spielhalle kompatibel ist. Falls es sich um eine <em>tar</em>-Datei handelt, stelle bitte sicher, dass sie im <em>UStar</em>-Format vorliegt.<br>Des Weiteren überprüfe bitte, ob die Schreibweise der hochgeladenen Datei der der Originaldatei entspricht (Groß-/Kleinschreibung).',
-		2												=> 'Spiele „%s“ erfolgreich entpackt. Bitte stelle sicher, dass die Dateien mit der Spielhalle kompatibel sind. Falls es sich um <em>tar</em>-Dateien handelt, stelle bitte sicher, dass sie im <em>UStar</em>-Format vorliegen.<br>Des Weiteren überprüfe bitte, ob die Schreibweisen der hochgeladenen Dateien denen der Originaldateien entsprechen (Groß-/Kleinschreibung).',
+		2												=> 'Spiele „%s“ erfolgreich entpackt. Bitte stelle sicher, dass die Dateien mit der Spielhalle kompatibel sind. Falls es sich um <em>tar</em>-Dateien handelt, stelle bitte sicher, dass sie im <em>UStar</em>-Format vorliegen.<br>Des Weiteren überprüfe bitte, ob die Schreibweisen der hochgeladenen Dateien denen der Originaldateien entsprechen (Groß-/Kleinschreibung).'
 	],
 	'ARCADE_UNPACK_GAME_PATH'							=> 'Spielentpackpfad',
 	'ARCADE_UNPACK_GAME_PATH_EXPLAIN'					=> 'Dies ist das Verzeichnis, in dem die Spiele zum Entpacken gespeichert werden. Sie werden komprimiert unter diesem Pfad gespeichert, und tragen denselben Namen wie die Punktevariable.',
 	'ARCADE_UNPACK_GAME_SUCCESS'						=> [
 		1												=> 'Spiel „%s“ erfolgreich entpackt.',
-		2												=> 'Spiele „%s“ erfolgreich entpackt.',
+		2												=> 'Spiele „%s“ erfolgreich entpackt.'
 	],
 	'ARCADE_UNPACK_INSTALL_GAME'						=> [
 		1												=> 'Das rot hervorgehobene Spiel ist bereits installiert, aber es fehlen Dateien. Deshalb ist das Entpacken erlaubt.',
-		2												=> 'Die rot hervorgehobenen Spiele sind bereits installiert, aber es fehlen Dateien. Deshalb ist das Entpacken erlaubt.',
+		2												=> 'Die rot hervorgehobenen Spiele sind bereits installiert, aber es fehlen Dateien. Deshalb ist das Entpacken erlaubt.'
 	],
 	'ARCADE_UPDATE_GAME_DATA_PROC_EXPLAIN'				=> 'Unten kannst du sehen, wie der Stand des Aktualisierungsprozesses gerade ist. Bitte schließe deinen Browser nicht, bevor die Aktualisierung beendet ist.',
 	'ARCADE_UPLOAD_GAME'								=> 'Spiele hochladen',
@@ -1192,7 +1192,7 @@ $lang = array_merge($lang, [
 	'ARCADE_UPLOAD_GAME_INP_EXPLAIN'					=> '<em>Erlaubte Dateiendungen: (<strong>%s</strong>)<br>Maximale Anzahl an Spielen, welche gleichzeitig hochgeladen werden können: <strong>%s</strong>.</em>',
 	'ARCADE_UPLOAD_GAME_SUCCESS'						=> [
 		1												=> 'Spiel %s erfolgreich hochgeladen.',
-		2												=> 'Spiele %s erfolgreich hochgeladen.',
+		2												=> 'Spiele %s erfolgreich hochgeladen.'
 	],
 	'ARCADE_UPLOAD_LIMIT'								=> 'Uploadbegrenzung für Spiele',
 	'ARCADE_UPLOAD_LIMIT_ERROR'							=> 'Du hast die Maximalanzahl an Dateien überschritten, die du hochladen kannst. Du wolltest %1$s Dateien hochladen, aber das Maximum ist %2$s.',
@@ -1295,11 +1295,11 @@ $lang = array_merge($lang, [
 	'DELETE_SELECTED_GAMES'								=> 'Lösche ausgewählte Spiele',
 	'DELETE_SELECTED_GAME_CONFIRM'						=> [
 		1												=> 'Bist du sicher, dass du das ausgewählte Spiel löschen möchtest?',
-		2												=> 'Bist du sicher, dass du die ausgewählten Spiele löschen möchtest?',
+		2												=> 'Bist du sicher, dass du die ausgewählten Spiele löschen möchtest?'
 	],
 	'DELETE_SELECTED_GAME_FILES_CONFIRM'				=> [
 		1												=> 'Bist du sicher, dass du die Dateien des ausgewählten Spiels löschen möchtest?',
-		2												=> 'Bist du sicher, dass du die Dateien der ausgewählten Spiele löschen möchtest?',
+		2												=> 'Bist du sicher, dass du die Dateien der ausgewählten Spiele löschen möchtest?'
 	],
 	'DELETE_SELECTED_GAME_SAVE_TYPE'					=> 'Spiele des ausgewählten Speichertyps löschen',
 	'DELETE_SELECTED_GAME_SAVE_TYPE_CONFIRM'			=> 'Bist du sicher, dass du alle Spiele des ausgewählten Speichertyps löschen möchtest?',
@@ -1327,31 +1327,31 @@ $lang = array_merge($lang, [
 	'GAMES_DELETE'										=> 'Spiele löschen',
 	'GAME_DELETED'										=> [
 		1												=> 'Spiel „%s“ erfolgreich gelöscht.',
-		2												=> 'Spiele „%s“ erfolgreich gelöscht.',
+		2												=> 'Spiele „%s“ erfolgreich gelöscht.'
 	],
 	'GAME_FILES_DELETED'								=> [
 		1												=> 'Dateien des Spiels “%s” erfolgreich gelöscht.',
-		2												=> 'Dateien der Spiele “%s” erfolgreich gelöscht.',
+		2												=> 'Dateien der Spiele “%s” erfolgreich gelöscht.'
 	],
 	'GAME_INSTALL_FILE_NOT_FOUND'						=> [
 		1												=> 'Das folgende Spiel wurde in der Installationsdatei nicht gefunden:<br>%s',
-		2												=> 'Die folgenden Spiele wurden in der Installationsdatei nicht gefunden:<br>%s',
+		2												=> 'Die folgenden Spiele wurden in der Installationsdatei nicht gefunden:<br>%s'
 	],
 	'GAME_MOVED'										=> [
 		1												=> 'Spiel „%s“ erfolgreich nach Kategorie „%s“ verschoben.',
-		2												=> 'Spiele „%s“ erfolgreich nach Kategorie „%s“ verschoben.',
+		2												=> 'Spiele „%s“ erfolgreich nach Kategorie „%s“ verschoben.'
 	],
 	'GAME_RESET'										=> [
 		1												=> 'Spiel „%s“ erfolgreich zurückgesetzt.',
-		2												=> 'Spiele „%s“ erfolgreich zurückgesetzt.',
+		2												=> 'Spiele „%s“ erfolgreich zurückgesetzt.'
 	],
 	'GAME_RESYNCED'										=> [
 		1												=> 'Spiel „%s“ erfolgreich synchronisiert.',
-		2												=> 'Spiele „%s“ erfolgreich synchronisiert.',
+		2												=> 'Spiele „%s“ erfolgreich synchronisiert.'
 	],
 	'GAME_SCORES_RESET'									=> [
 		1												=> 'Spielstände des Spiels „%s“ erfolgreich zurückgesetzt.',
-		2												=> 'Spielstände der Spiele „%s“ erfolgreich zurückgesetzt.',
+		2												=> 'Spielstände der Spiele „%s“ erfolgreich zurückgesetzt.'
 	],
 	'GENERAL_CAT_SETTINGS'								=> 'Allgemeine Kategorien-Einstellungen',
 	'GENERAL_LINK_SETTINGS'								=> 'Allgemeine Linkeinstellungen',
@@ -1527,31 +1527,31 @@ Zusätzlich wird die Anzahl der Spiele, und das erste und letzte Spielstartdatum
 	'REDIRECT_ACL'										=> 'Nun kannst du für diese Kategorie %sBefugnisse vergeben%s.',
 	'RESET_INSTALL_DATE_GAME_SUCCESS'					=> [
 		1												=> 'Das Spiel „%s“ wurde erfolgreich zurückgesetzt und das Installationsdatum auf den heutigen Tag gesetzt.',
-		2												=> 'Die Spiele „%s“ wurden erfolgreich zurückgesetzt und das Installationsdatum jeweils auf den heutigen Tag gesetzt.',
+		2												=> 'Die Spiele „%s“ wurden erfolgreich zurückgesetzt und das Installationsdatum jeweils auf den heutigen Tag gesetzt.'
 	],
 	'RESET_INSTALL_DATE_SELECTED_GAME'					=> [
 		1												=> 'Installationsdatum des ausgewählten Spiels zurücksetzen',
-		2												=> 'Installationsdatum der ausgewählten Spiele zurücksetzen',
+		2												=> 'Installationsdatum der ausgewählten Spiele zurücksetzen'
 	],
 	'RESET_INSTALL_DATE_SELECTED_GAME_CONFIRM'			=> [
 		1												=> 'Alle Daten des ausgewählten Spiels einschließlich des Superchampions werden gelöscht. Bist du sicher, dass du das Installationsdatum zurücksetzen möchtest?',
-		2												=> 'Alle Daten der ausgewählten Spiele einschließlich der Superchampions werden gelöscht. Bist du sicher, dass du das Installationsdatum zurücksetzen möchtest?',
+		2												=> 'Alle Daten der ausgewählten Spiele einschließlich der Superchampions werden gelöscht. Bist du sicher, dass du das Installationsdatum zurücksetzen möchtest?'
 	],
 	'RESET_SELECTED_GAME'								=> [
 		1												=> 'Ausgewähltes Spiel zurücksetzen',
-		2												=> 'Ausgewählte Spiele zurücksetzen',
+		2												=> 'Ausgewählte Spiele zurücksetzen'
 	],
 	'RESET_SELECTED_GAME_CONFIRM'						=> [
 		1												=> 'Wenn du dieses Spiel zurücksetzt, werden all seine Punkte und Bewertungen gelöscht. Bist du sicher, dass du dieses Spiel zurücksetzen möchtest?',
-		2												=> 'Wenn du diese Spiele zurücksetzt, werden all ihre Punkte und Bewertungen gelöscht. Bist du sicher, dass du diese Spiele zurücksetzen möchtest?',
+		2												=> 'Wenn du diese Spiele zurücksetzt, werden all ihre Punkte und Bewertungen gelöscht. Bist du sicher, dass du diese Spiele zurücksetzen möchtest?'
 	],
 	'RESET_SELECTED_GAME_SCORES'						=> [
 		1												=> 'Ausgewählte Spielstände zurücksetzen',
-		2												=> 'Ausgewählte Spielstände zurücksetzen',
+		2												=> 'Ausgewählte Spielstände zurücksetzen'
 	],
 	'RESET_SELECTED_GAME_SCORES_CONFIRM'				=> [
 		1												=> 'Wenn du dieses Spiel zurücksetzt, werden all seine Spielstände geleert. Bist du sicher, dass du dies tun möchtest?',
-		2												=> 'Wenn du diese Spiele zurücksetzt, werden all ihre Spielstände geleert. Bist du sicher, dass du dies tun möchtest?',
+		2												=> 'Wenn du diese Spiele zurücksetzt, werden all ihre Spielstände geleert. Bist du sicher, dass du dies tun möchtest?'
 	],
 	'RESET_USER_ALL'									=> 'Alle Benutzerdaten zurücksetzen',
 	'RESET_USER_ALL_CONFIRM'							=> 'Bist du sicher, dass du alle Spieldaten des ausgewählten Benutzers zurücksetzen möchtest?',
@@ -1591,5 +1591,5 @@ Zusätzlich wird die Anzahl der Spiele, und das erste und letzte Spielstartdatum
 
 	'VERTICAL'											=> 'Vertikal',
 
-	'WRONG_CAT_TYPE'									=> 'Du hast versucht ein Spiel zu einer Kategorie hinzuzufügen, die keine Spiele akzeptiert oder ein Link ist. Du kannst Spiele nur zu einer Kategorie des Typs „Kategorie mit Spielen“ hinzufügen.',
+	'WRONG_CAT_TYPE'									=> 'Du hast versucht ein Spiel zu einer Kategorie hinzuzufügen, die keine Spiele akzeptiert oder ein Link ist. Du kannst Spiele nur zu einer Kategorie des Typs „Kategorie mit Spielen“ hinzufügen.'
 ]);

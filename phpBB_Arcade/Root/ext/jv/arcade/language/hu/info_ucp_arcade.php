@@ -19,7 +19,7 @@ if (!defined('IN_PHPBB'))
 
 if (empty($lang) || !is_array($lang))
 {
-	$lang = array();
+	$lang = [];
 }
 
 // DEVELOPERS PLEASE NOTE
@@ -48,15 +48,15 @@ $lang = array_merge($lang, [
 	'UCP_ARCADE_DARK'							=> 'Sötét',
 	'UCP_ARCADE_DELETE_FAVORITE'				=> [
 		1										=> 'Kedvenc játék törlése',
-		2										=> 'Kedvenc játékok törlése',
+		2										=> 'Kedvenc játékok törlése'
 	],
 	'UCP_ARCADE_DELETE_FAVORITE_CONFIRM'		=> [
 		1										=> 'Biztos vagy benne, hogy törlöd ezt a kedvenc játékot?',
-		2										=> 'Biztos vagy benne, hogy törlöd ezeket a kedvenc játékokat?',
+		2										=> 'Biztos vagy benne, hogy törlöd ezeket a kedvenc játékokat?'
 	],
 	'UCP_ARCADE_DELETE_FAVORITE_SUCCESS'		=> [
 		1										=> 'Kedvenc játék sikeresen törölve.',
-		2										=> 'Kedvenc játékok sikeresen törölve.',
+		2										=> 'Kedvenc játékok sikeresen törölve.'
 	],
 	'UCP_ARCADE_DEVICES_ALL'					=> 'Összes eszköz',
 	'UCP_ARCADE_DEVICES_TOUCH_SCREEN'			=> 'Érintőképernyős eszközök',
@@ -138,5 +138,5 @@ $lang = array_merge($lang, [
 	'UCP_ARCADE_USER_INFO_EXPLAIN'				=> 'Itt lehetőséged van az üdvözlő blokkban lévő felhasználói információ blokk lecserélésére, helyette választhatod a legtöbbet játszott játékok kijelzését.<br><em>Ez az opció nincs hatással a kihívás és a verseny oldalon.</em>',
 	'UCP_CAT_ARCADE'							=> 'Játékterem',
 	'UCP_CHALLENGE_ENABLED'						=> 'Kihívás engedélyezése',
-	'UCP_CHALLENGE_ENABLED_EXPLAIN'				=> 'Ha engedélyezed, akkor a felhasználók kihívhatnak a játékokban egy párbajra.',
+	'UCP_CHALLENGE_ENABLED_EXPLAIN'				=> 'Ha engedélyezed, akkor a felhasználók kihívhatnak a játékokban egy párbajra.'
 ]);

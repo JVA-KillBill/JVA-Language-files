@@ -19,7 +19,7 @@ if (!defined('IN_PHPBB'))
 
 if (empty($lang) || !is_array($lang))
 {
-	$lang = array();
+	$lang = [];
 }
 
 // DEVELOPERS PLEASE NOTE
@@ -375,5 +375,5 @@ $game_data = [
 	'ARCADE_ACP_HELP_FAQ_SCORING_TEST_ANSWER'			=> 'This will now allow you to play games in a category and have no data or scores saved. This allows you to test out games to make sure they function correctly. Once finished with a game you will be displayed a message detailing what would have occured. At the end of the game, administrators will receive detailed information about the game if the “phpBB-DEBUG” system is enabled.<br><em>To enable the “phpBB-DEBUG” system, we need to install the “JVA - Debug” extension.</em>',
 	'ARCADE_ACP_HELP_FAQ_SCORING_TEST_CAT_ANSWER'		=> 'Go to the “Manage arcade” ACP module. Click edit on the category. You want to enable “Test mode” and then set the “Test mode” option to yes.',
 	'ARCADE_ACP_HELP_FAQ_SCORING_TEST_CAT_QUESTION'		=> 'How do I enable “Test mode” for a category?',
-	'ARCADE_ACP_HELP_FAQ_SCORING_TEST_QUESTION'			=> 'What does “Test mode” do?',
+	'ARCADE_ACP_HELP_FAQ_SCORING_TEST_QUESTION'			=> 'What does “Test mode” do?'
 ]);

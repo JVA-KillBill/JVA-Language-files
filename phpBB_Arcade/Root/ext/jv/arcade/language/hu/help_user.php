@@ -19,7 +19,7 @@ if (!defined('IN_PHPBB'))
 
 if (empty($lang) || !is_array($lang))
 {
-	$lang = array();
+	$lang = [];
 }
 
 // DEVELOPERS PLEASE NOTE
@@ -292,5 +292,5 @@ Böngésző helyi tároló adatok törlése:
 	'ARCADE_HELP_FAQ_USER_SET_FAV_MANAGE_ANSWER'		=> 'Itt tudod a már felvett kedvenc játékaidat eltávolítani a kedvencek közül, továbbá kiemelté teheted az egyes játékokat.',
 	'ARCADE_HELP_FAQ_USER_SET_FAV_MANAGE_QUESTION'		=> 'Mi az a kedvencek kezelése?',
 	'ARCADE_HELP_FAQ_USER_SET_IMG_DISABLE_ANSWER'		=> 'Akkor érdemes kikapcsolni, ha számodra az oldal betöltése túl lassú.',
-	'ARCADE_HELP_FAQ_USER_SET_IMG_DISABLE_QUESTION'		=> 'Avatarok, játék képek megjelenítése, érdemes kikapcsolni?',
+	'ARCADE_HELP_FAQ_USER_SET_IMG_DISABLE_QUESTION'		=> 'Avatarok, játék képek megjelenítése, érdemes kikapcsolni?'
 ]);

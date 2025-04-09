@@ -19,7 +19,7 @@ if (!defined('IN_PHPBB'))
 
 if (empty($lang) || !is_array($lang))
 {
-	$lang = array();
+	$lang = [];
 }
 
 // DEVELOPERS PLEASE NOTE
@@ -59,7 +59,7 @@ $lang = array_merge($lang, [
 	'LOG_ARCADE_ADD_CAT'							=> '<strong>Nouvelle catégorie créée</strong><br>» %s',
 	'LOG_ARCADE_ADD_GAME'							=> [
 		1											=> '<strong>Ajoute un jeu à la catégorie %s.</strong><br>» %s',
-		2											=> '<strong>Ajoute des jeux à la catégorie %s.</strong><br>» %s',
+		2											=> '<strong>Ajoute des jeux à la catégorie %s.</strong><br>» %s'
 	],
 	'LOG_ARCADE_ALL_ANNOUNCE_RESTORE_DEFAULT_DATA'	=> '<strong>Toutes les données par défaut de l’annonce ont été restaurées</strong>',
 	'LOG_ARCADE_ANNOUNCE_CREATE_DB_DATA'			=> '<strong>« %s » crée un message dans la base de données</strong><br>» Langue : %s',
@@ -75,7 +75,7 @@ $lang = array_merge($lang, [
 	'LOG_ARCADE_AUTO_RESET_SCORE_SS_RP'				=> '<strong>Réinitialise automatiquement les scores et les super champions en conservant le nombre de fois joué</strong>',
 	'LOG_ARCADE_BACKUP_CAT'							=> [
 		1											=> '<strong>Catégorie sauvegardée</strong><br>» %s',
-		2											=> '<strong>Catégories sauvegardées</strong><br>» %s',
+		2											=> '<strong>Catégories sauvegardées</strong><br>» %s'
 	],
 	'LOG_ARCADE_BACKUP_EMPTY'						=> '<strong>Répertoire de sauvegarde vidé</strong>',
 	'LOG_ARCADE_CATEGORY_COPIED_PERMISSIONS'		=> '<strong>Autorisations de catégorie copiées</strong> à partir de %1$s<br>» %2$s',
@@ -101,11 +101,11 @@ $lang = array_merge($lang, [
 	'LOG_ARCADE_CREATE_INSTALL_FILE'				=> '<strong>Création du fichier d’installation pour le jeu</strong><br>» %s',
 	'LOG_ARCADE_DELETE_GAME'						=> [
 		1											=> '<strong>Jeu supprimé</strong><br>» %s',
-		2											=> '<strong>Jeux supprimés</strong><br>» %s',
+		2											=> '<strong>Jeux supprimés</strong><br>» %s'
 	],
 	'LOG_ARCADE_DELETE_GAME_FILES'					=> [
 		1											=> '<strong>Fichiers supprimés du jeu</strong><br>» %s',
-		2											=> '<strong>Fichiers supprimés des jeux</strong><br>» %s',
+		2											=> '<strong>Fichiers supprimés des jeux</strong><br>» %s'
 	],
 	'LOG_ARCADE_DELETE_SCORE'						=> '<strong>Score de jeu supprimé pour l’utilisateur : %3$s%1$s%2$s</strong><br>» %4$s',
 	'LOG_ARCADE_DELETE_SUPER_CHAMPION_SCORE'		=> '<strong>Score de super champion supprimé pour l’utilisateur : %s</strong><br>» Jeu: %s',
@@ -128,7 +128,7 @@ $lang = array_merge($lang, [
 	'LOG_ARCADE_FEATURE'							=> '<strong>Paramètres des fonctionnalités modifiés</strong>',
 	'LOG_ARCADE_FORM_SCORE_ERROR'					=> [
 		1											=> '<strong>Le jeu « %s » a envoyé un score incorrect</strong><br>Type de sauvegarde : %s<br>Temps de jouer : %s<br>Score : %s<br><strong>Erreur:</strong> (%s)',
-		2											=> '<strong>Le jeu « %s » a envoyé un score incorrect</strong><br>Type de sauvegarde : %s<br>Temps de jouer : %s<br>Score : %s<br><strong>Erreurs:</strong> (%s)',
+		2											=> '<strong>Le jeu « %s » a envoyé un score incorrect</strong><br>Type de sauvegarde : %s<br>Temps de jouer : %s<br>Score : %s<br><strong>Erreurs:</strong> (%s)'
 	],
 	'LOG_ARCADE_GAME'								=> '<strong>Paramètres de jeu modifiés</strong>',
 	'LOG_ARCADE_GAME_ANNOUNCE'						=> '<strong>Annonce du jeu modifiée</strong><br>» Langue: %s',
@@ -158,7 +158,7 @@ $lang = array_merge($lang, [
 	'LOG_ARCADE_MENU_ADD'							=> '<strong>Menu ajouté</strong><br>» %s',
 	'LOG_ARCADE_MENU_DELETE'						=> [
 		1											=> '<strong>Supprimer le menu</strong><br>» %s',
-		2											=> '<strong>Menu et ses sous-menus supprimé</strong><br>» %s',
+		2											=> '<strong>Menu et ses sous-menus supprimé</strong><br>» %s'
 	],
 	'LOG_ARCADE_MENU_EDIT'							=> '<strong>Menu édité</strong><br>» %s',
 	'LOG_ARCADE_MENU_MOVE_DOWN'						=> '<strong>Menu déplacé</strong> %1$s <strong>sous</strong> %2$s',
@@ -166,7 +166,7 @@ $lang = array_merge($lang, [
 	'LOG_ARCADE_MOVE_DOWN'							=> '<strong>Catégorie déplacée</strong> %1$s <strong>sous</strong> %2$s',
 	'LOG_ARCADE_MOVE_GAME'							=> [
 		1											=> '<strong>Jeu déplacé de la catégorie %1$s vers la nouvelle catégorie %2$s</strong><br>» %3$s',
-		2											=> '<strong>Jeux déplacés de la catégorie %1$s vers la nouvelle catégorie %2$s</strong><br>» %3$s',
+		2											=> '<strong>Jeux déplacés de la catégorie %1$s vers la nouvelle catégorie %2$s</strong><br>» %3$s'
 	],
 	'LOG_ARCADE_MOVE_UP'							=> '<strong>Catégorie déplacée</strong> %1$s <strong>au dessus</strong> %2$s',
 	'LOG_ARCADE_PAAR'								=> '<strong>phpBB Arcade modifiée - classement d’activité</strong>',
@@ -180,17 +180,17 @@ $lang = array_merge($lang, [
 	'LOG_ARCADE_RESET_DOWNLOADS'					=> '<strong>Réinitialiser les statistiques de téléchargement</strong>',
 	'LOG_ARCADE_RESET_GAME'							=> [
 		1											=> '<strong>Réinitialiser les données du jeu%s%s%s%s</strong><br>» %s',
-		2											=> '<strong>Réinitialiser les données des jeux%s%s%s%s</strong><br>» %s',
+		2											=> '<strong>Réinitialiser les données des jeux%s%s%s%s</strong><br>» %s'
 	],
 	'LOG_ARCADE_RESET_GAMES_REC'					=> '<strong>Réinitialiser la recommandation de jeux</strong>',
 	'LOG_ARCADE_RESET_GAME_SCORES'					=> [
 		1											=> '<strong>Réinitialiser les scores du jeu%s%s</strong><br>» %s',
-		2											=> '<strong>Réinitialiser les scores des jeux%s%s</strong><br>» %s',
+		2											=> '<strong>Réinitialiser les scores des jeux%s%s</strong><br>» %s'
 	],
 	'LOG_ARCADE_RESET_GROUP_TOURNAMENT'				=> '<strong>Réinitialiser le tournoi de groupe</strong>',
 	'LOG_ARCADE_RESET_INSTALL_DATE_GAME'			=> [
 		1											=> '<strong>Réinitialiser la date d’installation d’un jeu</strong><br>» %s',
-		2											=> '<strong>Réinitialiser plusieurs dates d’installation de jeux</strong><br>» %s',
+		2											=> '<strong>Réinitialiser plusieurs dates d’installation de jeux</strong><br>» %s'
 	],
 	'LOG_ARCADE_RESET_JACKPOT'						=> '<strong>Réinitialiser les données du jackpot</strong>',
 	'LOG_ARCADE_RESET_MENU'							=> '<strong>Réinitialiser la structure du menu</strong>',
@@ -213,7 +213,7 @@ $lang = array_merge($lang, [
 	'LOG_ARCADE_SYNC_CAT'							=> '<strong>Catégorie resynchronisée</strong><br>» %s',
 	'LOG_ARCADE_SYNC_GAME'							=> [
 		1											=> '<strong>Jeu re-synchronisé</strong><br>» %s',
-		2											=> '<strong>Jeux re-synchronisés</strong><br>» %s',
+		2											=> '<strong>Jeux re-synchronisés</strong><br>» %s'
 	],
 	'LOG_ARCADE_SYSTEM'								=> '<strong>Paramètres système modifiés</strong>',
 	'LOG_ARCADE_TOURNAMENT'							=> '<strong>Paramètres de tournoi modifiés</strong>',
@@ -226,32 +226,32 @@ $lang = array_merge($lang, [
 	'LOG_ARCADE_UNDEFINED_SCORE'					=> '<strong>Le jeu « %s » a envoyé un score indéfini</strong>',
 	'LOG_ARCADE_UNPACK_GAME'						=> [
 		1											=> '<strong>Jeu déballé</strong><br>» %s',
-		2											=> '<strong>Jeu déballés</strong><br>» %s',
+		2											=> '<strong>Jeu déballés</strong><br>» %s'
 	],
 	'LOG_ARCADE_UPLOAD_GAME'						=> [
 		1											=> '<strong>Télécharger le jeu</strong><br>» %s',
-		2											=> '<strong>Télécharger les jeux</strong><br>» %s',
+		2											=> '<strong>Télécharger les jeux</strong><br>» %s'
 	],
 	'LOG_ARCADE_USER_BANNED'						=> '<strong>Utilisateur banni</strong><br>» %s',
 	'LOG_ARCADE_USER_DELETE_FAVORITE'				=> [
 		1											=> '<strong>Supprimer le jeu favoris</strong><br>» %s',
-		2											=> '<strong>Supprimer les jeux favoris</strong><br>» %s',
+		2											=> '<strong>Supprimer les jeux favoris</strong><br>» %s'
 	],
 	'LOG_ARCADE_USER_GAME_SETTINGS'					=> '<strong>Paramètres de jeu modifiés</strong>',
 	'LOG_ARCADE_USER_HIGHLIGHT_FAVORITE'			=> [
 		1											=> '<strong>Mettez en surbrillance votre jeu préféré</strong><br>» %s',
-		2											=> '<strong>Mettez en surbrillance vos jeux préférés </strong><br>» %s',
+		2											=> '<strong>Mettez en surbrillance vos jeux préférés </strong><br>» %s'
 	],
 	'LOG_ARCADE_USER_MAIN_SETTINGS'					=> '<strong>Paramètres principaux modifiés</strong>',
 	'LOG_ARCADE_USER_POST_SETTINGS'					=> '<strong>Paramètres de publication modifiés</strong>',
 	'LOG_ARCADE_USER_REMOVE_HIGHLIGHT_FAVORITE'		=> [
 		1											=> '<strong>Supprimer votre jeu préféré mis en surbrillance des favoris</strong><br>» %s',
-		2											=> '<strong>Supprimer vos jeux préférés mis en surbrillance des favoris</strong><br>» %s',
+		2											=> '<strong>Supprimer vos jeux préférés mis en surbrillance des favoris</strong><br>» %s'
 	],
 	'LOG_ARCADE_USER_SET_UPDATE'					=> '<strong>Informations utilisateur mises à jour</strong><br>» %s',
 	'LOG_ARCADE_VERSION_CHECK_DISABLED'				=> '<strong>Vérification de version automatique désactivée</strong>',
 	'LOG_ARCADE_VERSION_CHECK_ENABLED'				=> '<strong>Vérification de version automatique activée</strong>',
 	'LOG_C_ROLE_ADD'								=> '<strong>Rôle de catégorie ajouté</strong><br>» %s',
 	'LOG_C_ROLE_EDIT'								=> '<strong>Rôle de catégorie modifié</strong><br>» %s',
-	'LOG_C_ROLE_REMOVED'							=> '<strong>Rôle de catégorie supprimé</strong><br>» %s',
+	'LOG_C_ROLE_REMOVED'							=> '<strong>Rôle de catégorie supprimé</strong><br>» %s'
 ]);

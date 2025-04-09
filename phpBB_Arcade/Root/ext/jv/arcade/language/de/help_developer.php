@@ -19,7 +19,7 @@ if (!defined('IN_PHPBB'))
 
 if (empty($lang) || !is_array($lang))
 {
-	$lang = array();
+	$lang = [];
 }
 
 // DEVELOPERS PLEASE NOTE
@@ -375,5 +375,5 @@ $game_data = [
 	'ARCADE_ACP_HELP_FAQ_SCORING_TEST_ANSWER'			=> 'Es ermöglicht dir, zu spielen, ohne dass Daten oder Punkte gespeichert werden. Dadurch kannst du Spiele zunächst testen, um sicherzustellen, dass sie korrekt funktionieren. Wenn du ein Spiel beendet hast, wird dir angezeigt, welche Daten gespeichert worden wären. Nach Beendigung eines Spiels erhalten Administratoren detaillierte Informationen über das Spiel, falls das “phpBB-DEBUG”-System aktiviert ist.<br><em>Um das “phpBB-DEBUG”-System aktivieren zu können, ist erforderlich die „JVA - Debug”-Extension zu installieren.</em>',
 	'ARCADE_ACP_HELP_FAQ_SCORING_TEST_CAT_ANSWER'		=> 'Öffne das ACP-Modul „Spielhalle verwalten“. Bearbeite die gewünschte Kategorie und setze dort die Option „Testmodus“ auf „Ja“.',
 	'ARCADE_ACP_HELP_FAQ_SCORING_TEST_CAT_QUESTION'		=> 'Wie aktiviere ich den „Testmodus“ für eine Kategorie?',
-	'ARCADE_ACP_HELP_FAQ_SCORING_TEST_QUESTION'			=> 'Was ist der „Testmodus“?',
+	'ARCADE_ACP_HELP_FAQ_SCORING_TEST_QUESTION'			=> 'Was ist der „Testmodus“?'
 ]);

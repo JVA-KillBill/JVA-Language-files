@@ -19,7 +19,7 @@ if (!defined('IN_PHPBB'))
 
 if (empty($lang) || !is_array($lang))
 {
-	$lang = array();
+	$lang = [];
 }
 
 // DEVELOPERS PLEASE NOTE
@@ -50,5 +50,5 @@ $lang = array_merge($lang, [
 	'MCP_ARCADE_MANAGE_GROUP_TOUR_EXPLAIN'	=> 'Itt lehetőséged van csoportversenyeket létrehozni és szerkeszteni.',
 	'MCP_ARCADE_MANAGE_TOUR'				=> 'Versenyek kezelése',
 	'MCP_ARCADE_MANAGE_TOUR_EXPLAIN'		=> 'Itt lehetőséged van a versenyek létrehozására, szerkesztésére.',
-	'MCP_CAT_ARCADE'						=> 'Játékterem',
+	'MCP_CAT_ARCADE'						=> 'Játékterem'
 ]);

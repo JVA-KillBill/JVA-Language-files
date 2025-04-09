@@ -19,7 +19,7 @@ if (!defined('IN_PHPBB'))
 
 if (empty($lang) || !is_array($lang))
 {
-	$lang = array();
+	$lang = [];
 }
 
 // DEVELOPERS PLEASE NOTE
@@ -59,7 +59,7 @@ $lang = array_merge($lang, [
 	'LOG_ARCADE_ADD_CAT'							=> '<strong>Neue Spielhallenkategorie erstellt</strong><br>» %s',
 	'LOG_ARCADE_ADD_GAME'							=> [
 		1											=> '<strong>Ein Spiel hinzugefügt zu Kategorie %s.</strong><br>» %s',
-		2											=> '<strong>Spiele hinzugefügt zu Kategorie %s.</strong><br>» %s',
+		2											=> '<strong>Spiele hinzugefügt zu Kategorie %s.</strong><br>» %s'
 	],
 	'LOG_ARCADE_ALL_ANNOUNCE_RESTORE_DEFAULT_DATA'	=> '<strong>Spielhalle, Alle Standardeinstellungen der Ankündigung wiederhergestellt.</strong>',
 	'LOG_ARCADE_ANNOUNCE_CREATE_DB_DATA'			=> '<strong>„%s“ erstellte eine Nachricht in der Datenbank</strong><br>» Sprache: %s',
@@ -75,7 +75,7 @@ $lang = array_merge($lang, [
 	'LOG_ARCADE_AUTO_RESET_SCORE_SS_RP'				=> '<strong>Automatisches Zurücksetzen von Punktzahlen und Super-Champions unter Beibehaltung der Anzahl der Spiele</strong>',
 	'LOG_ARCADE_BACKUP_CAT'							=> [
 		1											=> '<strong>Spielhallenkategorie gesichert</strong><br>» %s',
-		2											=> '<strong>Spielhallenkategorien gesichert</strong><br>» %s',
+		2											=> '<strong>Spielhallenkategorien gesichert</strong><br>» %s'
 	],
 	'LOG_ARCADE_BACKUP_EMPTY'						=> '<strong>Spielhallensicherungen gelöscht</strong>',
 	'LOG_ARCADE_CATEGORY_COPIED_PERMISSIONS'		=> '<strong>Spielhalle, Kategorienbefugnisse kopiert</strong> von %1$s<br>» %2$s',
@@ -101,11 +101,11 @@ $lang = array_merge($lang, [
 	'LOG_ARCADE_CREATE_INSTALL_FILE'				=> '<strong>Spielinstallationsdatei erstellt</strong><br>» %s',
 	'LOG_ARCADE_DELETE_GAME'						=> [
 		1											=> '<strong>Spiel gelöscht</strong><br>» %s',
-		2											=> '<strong>Spiele gelöscht</strong><br>» %s',
+		2											=> '<strong>Spiele gelöscht</strong><br>» %s'
 	],
 	'LOG_ARCADE_DELETE_GAME_FILES'					=> [
 		1											=> '<strong>Lösche Dateien des Spiels</strong><br>» %s',
-		2											=> '<strong>Lösche Dateien der Spiele</strong><br>» %s',
+		2											=> '<strong>Lösche Dateien der Spiele</strong><br>» %s'
 	],
 	'LOG_ARCADE_DELETE_SCORE'						=> '<strong>Spielpunkte gelöscht für Benutzer: %3$s%1$s%2$s</strong><br>» %4$s',
 	'LOG_ARCADE_DELETE_SUPER_CHAMPION_SCORE'		=> '<strong>Punktestand des Superchampions gelöscht für Benutzer: %s.</strong><br>» Spiel: %s',
@@ -128,7 +128,7 @@ $lang = array_merge($lang, [
 	'LOG_ARCADE_FEATURE'							=> '<strong>Funktionseinstellungen der Spielhalle geändert</strong>',
 	'LOG_ARCADE_FORM_SCORE_ERROR'					=> [
 		1											=> '<strong>Das Spiel %s hat inkorrekte Punkte übermittelt.</strong><br>Speichertyp: %s<br>Spielzeit: %s<br>Punkte: %s<br><strong>Fehler:</strong> (%s)',
-		2											=> '<strong>Das Spiel %s hat inkorrekte Punkte übermittelt.</strong><br>Speichertyp: %s<br>Spielzeit: %s<br>Punkte: %s<br><strong>Fehler:</strong> (%s)',
+		2											=> '<strong>Das Spiel %s hat inkorrekte Punkte übermittelt.</strong><br>Speichertyp: %s<br>Spielzeit: %s<br>Punkte: %s<br><strong>Fehler:</strong> (%s)'
 	],
 	'LOG_ARCADE_GAME'								=> '<strong>Spieleinstellungen geändert</strong>',
 	'LOG_ARCADE_GAME_ANNOUNCE'						=> '<strong>Einstellungen für Spielankündigung geändert</strong><br>» Sprache: %s',
@@ -158,7 +158,7 @@ $lang = array_merge($lang, [
 	'LOG_ARCADE_MENU_ADD'							=> '<strong>Menü hinzugefügt</strong><br>» %s',
 	'LOG_ARCADE_MENU_DELETE'						=> [
 		1											=> '<strong>Menü gelöscht</strong><br>» %s',
-		2											=> '<strong>Menü und seine Untermenüs gelöscht</strong><br>» %s',
+		2											=> '<strong>Menü und seine Untermenüs gelöscht</strong><br>» %s'
 	],
 	'LOG_ARCADE_MENU_EDIT'							=> '<strong>Menü bearbeitet</strong><br>» %s',
 	'LOG_ARCADE_MENU_MOVE_DOWN'						=> '<strong>Menü verschoben </strong> %1$s <strong>unter</strong> %2$s',
@@ -166,7 +166,7 @@ $lang = array_merge($lang, [
 	'LOG_ARCADE_MOVE_DOWN'							=> '<strong>Spielhallenkategorie</strong> %1$s <strong>verschoben unter</strong> %2$s',
 	'LOG_ARCADE_MOVE_GAME'							=> [
 		1											=> '<strong>Spiel aus Kategorie %1$s in neue Kategorie %2$s verschoben</strong><br>» %3$s',
-		2											=> '<strong>Spiele aus Kategorie %1$s in neue Kategorie %2$s verschoben</strong><br>» %3$s',
+		2											=> '<strong>Spiele aus Kategorie %1$s in neue Kategorie %2$s verschoben</strong><br>» %3$s'
 	],
 	'LOG_ARCADE_MOVE_UP'							=> '<strong>Spielhallenkategorie</strong> %1$s <strong>verschoben über</strong> %2$s',
 	'LOG_ARCADE_PAAR'								=> '<strong>Geändert phpBB Arcade - Aktivitätsrang</strong>',
@@ -180,17 +180,17 @@ $lang = array_merge($lang, [
 	'LOG_ARCADE_RESET_DOWNLOADS'					=> '<strong>Spielhallen-Downloadstatistik zurückgesetzt</strong>',
 	'LOG_ARCADE_RESET_GAME'							=> [
 		1											=> '<strong>Spieldaten zurückgesetzt%s%s%s%s</strong><br>» %s',
-		2											=> '<strong>Spieldaten zurückgesetzt%s%s%s%s</strong><br>» %s',
+		2											=> '<strong>Spieldaten zurückgesetzt%s%s%s%s</strong><br>» %s'
 	],
 	'LOG_ARCADE_RESET_GAMES_REC'					=> '<strong>Spieleempfehlung zurückgesetzt.</strong>',
 	'LOG_ARCADE_RESET_GAME_SCORES'					=> [
 		1											=> '<strong>Spielstände zurückgesetzt%s%s</strong><br>» %s',
-		2											=> '<strong>Spielstände zurückgesetzt%s%s</strong><br>» %s',
+		2											=> '<strong>Spielstände zurückgesetzt%s%s</strong><br>» %s'
 	],
 	'LOG_ARCADE_RESET_GROUP_TOURNAMENT'				=> '<strong>Gruppenturnier zurückgesetzt</strong>',
 	'LOG_ARCADE_RESET_INSTALL_DATE_GAME'			=> [
 		1											=> '<strong>Installationsdatum eines Spiels zurückgesetzt.</strong><br>» %s',
-		2											=> '<strong>Installationsdatum von Spielen zurückgesetzt.</strong><br>» %s',
+		2											=> '<strong>Installationsdatum von Spielen zurückgesetzt.</strong><br>» %s'
 	],
 	'LOG_ARCADE_RESET_JACKPOT'						=> '<strong>Jackpotdaten für die Spielhalle zurückgesetzt.</strong>',
 	'LOG_ARCADE_RESET_MENU'							=> '<strong>Menüstruktur der Spielhalle zurückgesetzt</strong>',
@@ -213,7 +213,7 @@ $lang = array_merge($lang, [
 	'LOG_ARCADE_SYNC_CAT'							=> '<strong>Spielhallenkategorie neu synchronisiert</strong><br>» %s',
 	'LOG_ARCADE_SYNC_GAME'							=> [
 		1											=> '<strong>Spiel neu synchronisiert</strong><br>» %s',
-		2											=> '<strong>Spiele neu synchronisiert</strong><br>» %s',
+		2											=> '<strong>Spiele neu synchronisiert</strong><br>» %s'
 	],
 	'LOG_ARCADE_SYSTEM'								=> '<strong>Spielhalle, Systemeinstellungen geändert</strong>',
 	'LOG_ARCADE_TOURNAMENT'							=> '<strong>Spielhalle, Turniereinstellungen geändert.</strong>',
@@ -226,32 +226,32 @@ $lang = array_merge($lang, [
 	'LOG_ARCADE_UNDEFINED_SCORE'					=> '<strong>Das Spiel „%s“ hat einen undefinierten Punktestand gesendet.</strong>',
 	'LOG_ARCADE_UNPACK_GAME'						=> [
 		1											=> '<strong>Spiel entpackt</strong><br>» %s',
-		2											=> '<strong>Spiele entpackt</strong><br>» %s',
+		2											=> '<strong>Spiele entpackt</strong><br>» %s'
 	],
 	'LOG_ARCADE_UPLOAD_GAME'						=> [
 		1											=> '<strong>Spiel hochgeladen</strong><br>» %s',
-		2											=> '<strong>Spiele hochgeladen</strong><br>» %s',
+		2											=> '<strong>Spiele hochgeladen</strong><br>» %s'
 	],
 	'LOG_ARCADE_USER_BANNED'						=> '<strong>Spielhallenbenutzer gesperrt</strong><br>» %s',
 	'LOG_ARCADE_USER_DELETE_FAVORITE'				=> [
 		1											=> '<strong>Spielefavorit gelöscht</strong><br>» %s',
-		2											=> '<strong>Spielefavoriten gelöscht</strong><br>» %s',
+		2											=> '<strong>Spielefavoriten gelöscht</strong><br>» %s'
 	],
 	'LOG_ARCADE_USER_GAME_SETTINGS'					=> '<strong>Spieleinstellungen geändert</strong>',
 	'LOG_ARCADE_USER_HIGHLIGHT_FAVORITE'			=> [
 		1											=> '<strong>Spielefavorit hervorgehoben</strong><br>» %s',
-		2											=> '<strong>Spielefavoriten hervorgehoben</strong><br>» %s',
+		2											=> '<strong>Spielefavoriten hervorgehoben</strong><br>» %s'
 	],
 	'LOG_ARCADE_USER_MAIN_SETTINGS'					=> '<strong>Spielhallenbenutzer, Haupteinstellungen geändert.</strong>',
 	'LOG_ARCADE_USER_POST_SETTINGS'					=> '<strong>Spielhalle, Beitragseinstellungen geändert.</strong>',
 	'LOG_ARCADE_USER_REMOVE_HIGHLIGHT_FAVORITE'		=> [
 		1											=> '<strong>Hervorhebung des Spielefavoriten entfernt</strong><br>» %s',
-		2											=> '<strong>Hervorhebung der Spielefavoriten entfernt</strong><br>» %s',
+		2											=> '<strong>Hervorhebung der Spielefavoriten entfernt</strong><br>» %s'
 	],
 	'LOG_ARCADE_USER_SET_UPDATE'					=> '<strong>Spielhallenbenutzerdaten aktualisiert</strong><br>» %s',
 	'LOG_ARCADE_VERSION_CHECK_DISABLED'				=> '<strong>Automatische Versionsprüfung deaktiviert</strong>',
 	'LOG_ARCADE_VERSION_CHECK_ENABLED'				=> '<strong>Automatische Versionsprüfung aktiviert</strong>',
 	'LOG_C_ROLE_ADD'								=> '<strong>Spielhallenkategorienrolle hinzugefügt</strong><br>» %s',
 	'LOG_C_ROLE_EDIT'								=> '<strong>Spielhallenkategorienrolle geändert</strong><br>» %s',
-	'LOG_C_ROLE_REMOVED'							=> '<strong>Spielhallenkategorienrolle entfernt</strong><br>» %s',
+	'LOG_C_ROLE_REMOVED'							=> '<strong>Spielhallenkategorienrolle entfernt</strong><br>» %s'
 ]);

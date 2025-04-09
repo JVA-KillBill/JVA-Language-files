@@ -19,7 +19,7 @@ if (!defined('IN_PHPBB'))
 
 if (empty($lang) || !is_array($lang))
 {
-	$lang = array();
+	$lang = [];
 }
 
 // DEVELOPERS PLEASE NOTE
@@ -95,7 +95,7 @@ $lang = array_merge($lang, [
 	'INS_ARCADE_DATA_FILES_CORRECT'						=> 'Fichiers avec des données correctes',
 	'INS_ARCADE_DELETE_DUPLICATE_GAME'					=> [
 		1												=> 'Jeu en double supprimé',
-		2												=> 'Jeux en double supprimés',
+		2												=> 'Jeux en double supprimés'
 	],
 	'INS_ARCADE_ENABLE_ERROR'							=> 'L’extension ne peut pas être activée parce que la version de <strong>« phpBB »</strong> est inférieure à la version <strong>« %s »</strong> !',
 	'INS_ARCADE_FILES_ALL_EXISTS'						=> 'Tous les fichiers existent',
@@ -111,5 +111,5 @@ $lang = array_merge($lang, [
 	'INS_ARCADE_UND_GAMES_FILESIZE'						=> 'La taille des fichiers et des jeux est indéterminable',
 	'INS_ARCADE_UPDATE_GAME_DATA_END'					=> 'Le processus de mise à jour est terminé, vous pouvez voir les résultats ci-dessous.',
 
-	'JVA_CORE_EXT_NOT_FOUND'							=> 'L’extension ne peut pas être activée car l’extension « JVA - Core » ne peut pas être trouvée !',
+	'JVA_CORE_EXT_NOT_FOUND'							=> 'L’extension ne peut pas être activée car l’extension « JVA - Core » ne peut pas être trouvée !'
 ]);

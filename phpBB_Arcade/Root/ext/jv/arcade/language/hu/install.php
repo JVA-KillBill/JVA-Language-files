@@ -19,7 +19,7 @@ if (!defined('IN_PHPBB'))
 
 if (empty($lang) || !is_array($lang))
 {
-	$lang = array();
+	$lang = [];
 }
 
 // DEVELOPERS PLEASE NOTE
@@ -95,7 +95,7 @@ $lang = array_merge($lang, [
 	'INS_ARCADE_DATA_FILES_CORRECT'						=> 'Helyes adatokkal rendelkező fájlok',
 	'INS_ARCADE_DELETE_DUPLICATE_GAME'					=> [
 		1												=> 'Duplikált játék törlése',
-		2												=> 'Duplikált játékok törlése',
+		2												=> 'Duplikált játékok törlése'
 	],
 	'INS_ARCADE_ENABLE_ERROR'							=> 'A kiterjesztés nem kapcsolható be mert a <strong>„phpBB”</strong> verziója kisebb mint <strong>„%s”</strong> verzió!',
 	'INS_ARCADE_FILES_ALL_EXISTS'						=> 'Az összes fájl létezik',
@@ -111,5 +111,5 @@ $lang = array_merge($lang, [
 	'INS_ARCADE_UND_GAMES_FILESIZE'						=> 'Meghatározhatatlan a fájlok mérete, játékok',
 	'INS_ARCADE_UPDATE_GAME_DATA_END'					=> 'A frissítési folyamat véget ért, alább láthatod az eredményt.',
 
-	'JVA_CORE_EXT_NOT_FOUND'							=> 'A kiterjesztés nem kapcsolható be, mert nem található a „JVA - Core” kiterjesztés!',
+	'JVA_CORE_EXT_NOT_FOUND'							=> 'A kiterjesztés nem kapcsolható be, mert nem található a „JVA - Core” kiterjesztés!'
 ]);

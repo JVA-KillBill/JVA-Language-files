@@ -19,7 +19,7 @@ if (!defined('IN_PHPBB'))
 
 if (empty($lang) || !is_array($lang))
 {
-	$lang = array();
+	$lang = [];
 }
 
 // DEVELOPERS PLEASE NOTE
@@ -59,7 +59,7 @@ $lang = array_merge($lang, [
 	'LOG_ARCADE_ADD_CAT'							=> '<strong>Új kategória létrehozása</strong><br>» Új kategória neve:(%s)',
 	'LOG_ARCADE_ADD_GAME'							=> [
 		1											=> '<strong>Játék telepítése a(z) %s kategóriába</strong><br>» %s',
-		2											=> '<strong>Játékok telepítése a(z) %s kategóriába</strong><br>» %s',
+		2											=> '<strong>Játékok telepítése a(z) %s kategóriába</strong><br>» %s'
 	],
 	'LOG_ARCADE_ALL_ANNOUNCE_RESTORE_DEFAULT_DATA'	=> '<strong>Összes közlemény adatai, alaphelyzetbe állítása</strong>',
 	'LOG_ARCADE_ANNOUNCE_CREATE_DB_DATA'			=> '<strong>„%s” üzenet létrehozása az adatbázisba</strong><br>» Nyelv: %s',
@@ -75,7 +75,7 @@ $lang = array_merge($lang, [
 	'LOG_ARCADE_AUTO_RESET_SCORE_SS_RP'				=> '<strong>Eredmények és a szuperbajnokok automatikus visszaállítása a játszások számának megtartásával</strong>',
 	'LOG_ARCADE_BACKUP_CAT'							=> [
 		1											=> '<strong>Biztonsági mentés</strong><br>» Kategória: %s',
-		2											=> '<strong>Biztonsági mentés</strong><br>» Kategóriák: %s',
+		2											=> '<strong>Biztonsági mentés</strong><br>» Kategóriák: %s'
 	],
 	'LOG_ARCADE_BACKUP_EMPTY'						=> '<strong>Biztonsági könyvtár kiürítése</strong>',
 	'LOG_ARCADE_CATEGORY_COPIED_PERMISSIONS'		=> '<strong>Kategória jogosultság másolása</strong> honnan %1$s<br>» %2$s',
@@ -101,11 +101,11 @@ $lang = array_merge($lang, [
 	'LOG_ARCADE_CREATE_INSTALL_FILE'				=> '<strong>Játék telepítő fájl készítése</strong><br>» %s',
 	'LOG_ARCADE_DELETE_GAME'						=> [
 		1											=> '<strong>Törölt játék</strong><br>» %s',
-		2											=> '<strong>Törölt játékok</strong><br>» %s',
+		2											=> '<strong>Törölt játékok</strong><br>» %s'
 	],
 	'LOG_ARCADE_DELETE_GAME_FILES'					=> [
 		1											=> '<strong>Fájlok törlése a következő játéknak</strong><br>» %s',
-		2											=> '<strong>Fájlok törlése a következő játékoknak</strong><br>» %s',
+		2											=> '<strong>Fájlok törlése a következő játékoknak</strong><br>» %s'
 	],
 	'LOG_ARCADE_DELETE_SCORE'						=> '<strong>Játékpont törlése, felhasználó: (%3$s)%1$s%2$s</strong><br>» (%4$s)',
 	'LOG_ARCADE_DELETE_SUPER_CHAMPION_SCORE'		=> '<strong>%s felhasználó szuperbajnok eredmény törlése</strong><br>» Játék: %s',
@@ -128,7 +128,7 @@ $lang = array_merge($lang, [
 	'LOG_ARCADE_FEATURE'							=> '<strong>Funkció beállítások módosítása</strong>',
 	'LOG_ARCADE_FORM_SCORE_ERROR'					=> [
 		1											=> '<strong>A „%s” játék helytelen eredmény űrlapot küldött</strong><br>Mentési típus: %s<br>Játszási idő: %s<br>Eredmény: %s<br><strong>Hiba:</strong> (%s)',
-		2											=> '<strong>A „%s” játék helytelen eredmény űrlapot küldött</strong><br>Mentési típus: %s<br>Játszási idő: %s<br>Eredmény: %s<br><strong>Hibák:</strong> (%s)',
+		2											=> '<strong>A „%s” játék helytelen eredmény űrlapot küldött</strong><br>Mentési típus: %s<br>Játszási idő: %s<br>Eredmény: %s<br><strong>Hibák:</strong> (%s)'
 	],
 	'LOG_ARCADE_GAME'								=> '<strong>Játék beállítások módosítása</strong>',
 	'LOG_ARCADE_GAME_ANNOUNCE'						=> '<strong>Játék közlemény szerkesztése</strong><br>» Nyelv: %s',
@@ -158,7 +158,7 @@ $lang = array_merge($lang, [
 	'LOG_ARCADE_MENU_ADD'							=> '<strong>Új menű hozzáadása</strong><br>» %s',
 	'LOG_ARCADE_MENU_DELETE'						=> [
 		1											=> '<strong>Menü törlése</strong><br>» %s',
-		2											=> '<strong>Menü törlése az almenükkel együtt</strong><br>» %s',
+		2											=> '<strong>Menü törlése az almenükkel együtt</strong><br>» %s'
 	],
 	'LOG_ARCADE_MENU_EDIT'							=> '<strong>Menü szerkesztése</strong><br>» %s',
 	'LOG_ARCADE_MENU_MOVE_DOWN'						=> '%1$s <strong>menü mozgatása lefele</strong> a %2$s menü alá',
@@ -166,7 +166,7 @@ $lang = array_merge($lang, [
 	'LOG_ARCADE_MOVE_DOWN'							=> '%1$s <strong>kategória mozgatása lefele</strong> a %2$s kategória alá',
 	'LOG_ARCADE_MOVE_GAME'							=> [
 		1											=> '<strong>Játék áthelyezése a(z) %1$s kategóriából a(z) %2$s kategóriába</strong><br>» %3$s',
-		2											=> '<strong>Játékok áthelyezése a(z) %1$s kategóriából a(z) %2$s kategóriába</strong><br>» %3$s',
+		2											=> '<strong>Játékok áthelyezése a(z) %1$s kategóriából a(z) %2$s kategóriába</strong><br>» %3$s'
 	],
 	'LOG_ARCADE_MOVE_UP'							=> '%1$s <strong>kategória mozgatása felfele</strong> a %2$s kategória fölé',
 	'LOG_ARCADE_PAAR'								=> '<strong>phpBB Arcade - Aktivitási rang módosítása</strong>',
@@ -180,17 +180,17 @@ $lang = array_merge($lang, [
 	'LOG_ARCADE_RESET_DOWNLOADS'					=> '<strong>Letöltési statisztika újraindítása</strong>',
 	'LOG_ARCADE_RESET_GAME'							=> [
 		1											=> '<strong>Játék adatok újraindítása%s%s%s%s</strong><br>» %s',
-		2											=> '<strong>Játékok adatainak újraindítása%s%s%s%s</strong><br>» %s',
+		2											=> '<strong>Játékok adatainak újraindítása%s%s%s%s</strong><br>» %s'
 	],
 	'LOG_ARCADE_RESET_GAMES_REC'					=> '<strong>Játék ajánló újraindítása</strong>',
 	'LOG_ARCADE_RESET_GAME_SCORES'					=> [
 		1											=> '<strong>Játék eredmények újraindítása%s%s</strong><br>» %s',
-		2											=> '<strong>Játékok eredményeinek újraindítása%s%s</strong><br>» %s',
+		2											=> '<strong>Játékok eredményeinek újraindítása%s%s</strong><br>» %s'
 	],
 	'LOG_ARCADE_RESET_GROUP_TOURNAMENT'				=> '<strong>Csoportversenyek újraindítása</strong>',
 	'LOG_ARCADE_RESET_INSTALL_DATE_GAME'			=> [
 		1											=> '<strong>Játék telepítési dátum alaphelyzetbe állítása</strong><br>» %s',
-		2											=> '<strong>Játékok telepítési dátumok alaphelyzetbe állítása</strong><br>» %s',
+		2											=> '<strong>Játékok telepítési dátumok alaphelyzetbe állítása</strong><br>» %s'
 	],
 	'LOG_ARCADE_RESET_JACKPOT'						=> '<strong>Összes játék főnyereményének újraindítása</strong>',
 	'LOG_ARCADE_RESET_MENU'							=> '<strong>Menüstruktúra visszaállítása</strong>',
@@ -213,7 +213,7 @@ $lang = array_merge($lang, [
 	'LOG_ARCADE_SYNC_CAT'							=> '<strong>Kategória szinkronizálása</strong><br>» Kategória=%s',
 	'LOG_ARCADE_SYNC_GAME'							=> [
 		1											=> '<strong>Játék szinkronizálása</strong><br>» Játék=%s',
-		2											=> '<strong>Játékok szinkronizálása</strong><br>» Játékok=%s',
+		2											=> '<strong>Játékok szinkronizálása</strong><br>» Játékok=%s'
 	],
 	'LOG_ARCADE_SYSTEM'								=> '<strong>Rendszer beállítások módosítása</strong>',
 	'LOG_ARCADE_TOURNAMENT'							=> '<strong>Verseny beállítások módosítása</strong>',
@@ -226,32 +226,32 @@ $lang = array_merge($lang, [
 	'LOG_ARCADE_UNDEFINED_SCORE'					=> '<strong>A „%s” játék meghatározatlan éredményt küldött</strong>',
 	'LOG_ARCADE_UNPACK_GAME'						=> [
 		1											=> '<strong>Játék kicsomagolása</strong><br>» %s',
-		2											=> '<strong>Játékok kicsomagolása</strong><br>» %s',
+		2											=> '<strong>Játékok kicsomagolása</strong><br>» %s'
 	],
 	'LOG_ARCADE_UPLOAD_GAME'						=> [
 		1											=> '<strong>Játék feltöltése</strong><br>» %s',
-		2											=> '<strong>Játékok feltöltése</strong><br>» %s',
+		2											=> '<strong>Játékok feltöltése</strong><br>» %s'
 	],
 	'LOG_ARCADE_USER_BANNED'						=> '<strong>Felhasználó kitiltása</strong><br>» %s',
 	'LOG_ARCADE_USER_DELETE_FAVORITE'				=> [
 		1											=> '<strong>Kedvenc játék törlése</strong><br>» %s',
-		2											=> '<strong>Kedvenc játékok törlése</strong><br>» %s',
+		2											=> '<strong>Kedvenc játékok törlése</strong><br>» %s'
 	],
 	'LOG_ARCADE_USER_GAME_SETTINGS'					=> '<strong>Játék beállítások módosítása</strong>',
 	'LOG_ARCADE_USER_HIGHLIGHT_FAVORITE'			=> [
 		1											=> '<strong>Kedvenc játék kiemelése</strong><br>» %s',
-		2											=> '<strong>Kedvenc játékok kiemelése</strong><br>» %s',
+		2											=> '<strong>Kedvenc játékok kiemelése</strong><br>» %s'
 	],
 	'LOG_ARCADE_USER_MAIN_SETTINGS'					=> '<strong>Főbeállítások módosítása</strong>',
 	'LOG_ARCADE_USER_POST_SETTINGS'					=> '<strong>Hozzászólás beállítások módosítása</strong>',
 	'LOG_ARCADE_USER_REMOVE_HIGHLIGHT_FAVORITE'		=> [
 		1											=> '<strong>Kedvenc játék kiemelés eltávolítása</strong><br>» %s',
-		2											=> '<strong>Kedvenc játékok kiemeléseinek eltávolítása</strong><br>» %s',
+		2											=> '<strong>Kedvenc játékok kiemeléseinek eltávolítása</strong><br>» %s'
 	],
 	'LOG_ARCADE_USER_SET_UPDATE'					=> '<strong>Felhasználó beállításainak módosítása</strong><br>» %s',
 	'LOG_ARCADE_VERSION_CHECK_DISABLED'				=> '<strong>Automatikus verzió ellenőrzés kikapcsolása</strong>',
 	'LOG_ARCADE_VERSION_CHECK_ENABLED'				=> '<strong>Automatikus verzió ellenőrzés bekapcsolása</strong>',
 	'LOG_C_ROLE_ADD'								=> '<strong>Kategória szerep hozzáadása</strong><br>» %s',
 	'LOG_C_ROLE_EDIT'								=> '<strong>Kategória szerep módosítása</strong><br>» %s',
-	'LOG_C_ROLE_REMOVED'							=> '<strong>Kategória szerep törlése</strong><br>» %s',
+	'LOG_C_ROLE_REMOVED'							=> '<strong>Kategória szerep törlése</strong><br>» %s'
 ]);

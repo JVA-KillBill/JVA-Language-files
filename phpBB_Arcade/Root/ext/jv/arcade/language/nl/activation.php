@@ -19,7 +19,7 @@ if (!defined('IN_PHPBB'))
 
 if (empty($lang) || !is_array($lang))
 {
-	$lang = array();
+	$lang = [];
 }
 
 // DEVELOPERS PLEASE NOTE
@@ -179,5 +179,5 @@ Bovendien kunnen we aan de hand van de verstrekte activeringssleutel achterhalen
 	<li>De “JVA Game Intro” wordt niet ondersteund op localhost, maar de software kan wel worden uitgevoerd. Op localhost is de wachttijd standaard ingesteld op 5 seconden.</li>
 </ul>',
 	'ACP_PHPBB_ARCADE_SYSTEM_INSTRUCTION'			=> 'phpBB Arcade Instructies',
-	'ACP_PHPBB_ARCADE_SYSTEM_INSTRUCTION_EXPLAIN'	=> 'De “phpBB Arcade” software is <a onclick="window.open(this.href); return false;" href="%3$s" title="JVA License">gelicencieerd</a> en onderhouden door de “%1$s” website.',
+	'ACP_PHPBB_ARCADE_SYSTEM_INSTRUCTION_EXPLAIN'	=> 'De “phpBB Arcade” software is <a onclick="window.open(this.href); return false;" href="%3$s" title="JVA License">gelicencieerd</a> en onderhouden door de “%1$s” website.'
 ]);

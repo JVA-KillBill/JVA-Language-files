@@ -19,7 +19,7 @@ if (!defined('IN_PHPBB'))
 
 if (empty($lang) || !is_array($lang))
 {
-	$lang = array();
+	$lang = [];
 }
 
 // DEVELOPERS PLEASE NOTE
@@ -59,7 +59,7 @@ $lang = array_merge($lang, [
 	'LOG_ARCADE_ADD_CAT'							=> '<strong>Created new category</strong><br>» %s',
 	'LOG_ARCADE_ADD_GAME'							=> [
 		1											=> '<strong>Added a game of %s category.</strong><br>» %s',
-		2											=> '<strong>Added games of %s category.</strong><br>» %s',
+		2											=> '<strong>Added games of %s category.</strong><br>» %s'
 	],
 	'LOG_ARCADE_ALL_ANNOUNCE_RESTORE_DEFAULT_DATA'	=> '<strong>All announcement default data restored</strong>',
 	'LOG_ARCADE_ANNOUNCE_CREATE_DB_DATA'			=> '<strong>“%s” create a message in the database</strong><br>» Language: %s',
@@ -75,7 +75,7 @@ $lang = array_merge($lang, [
 	'LOG_ARCADE_AUTO_RESET_SCORE_SS_RP'				=> '<strong>Automatically reset scores and super champions by keeping the number of plays</strong>',
 	'LOG_ARCADE_BACKUP_CAT'							=> [
 		1											=> '<strong>Backed up category</strong><br>» %s',
-		2											=> '<strong>Backed up categories</strong><br>» %s',
+		2											=> '<strong>Backed up categories</strong><br>» %s'
 	],
 	'LOG_ARCADE_BACKUP_EMPTY'						=> '<strong>Emptied backup directory</strong>',
 	'LOG_ARCADE_CATEGORY_COPIED_PERMISSIONS'		=> '<strong>Copied category permissions</strong> from %1$s<br>» %2$s',
@@ -101,11 +101,11 @@ $lang = array_merge($lang, [
 	'LOG_ARCADE_CREATE_INSTALL_FILE'				=> '<strong>Create game installation file</strong><br>» %s',
 	'LOG_ARCADE_DELETE_GAME'						=> [
 		1											=> '<strong>Deleted game</strong><br>» %s',
-		2											=> '<strong>Deleted games</strong><br>» %s',
+		2											=> '<strong>Deleted games</strong><br>» %s'
 	],
 	'LOG_ARCADE_DELETE_GAME_FILES'					=> [
 		1											=> '<strong>Deleted files of the game</strong><br>» %s',
-		2											=> '<strong>Deleted files of the games</strong><br>» %s',
+		2											=> '<strong>Deleted files of the games</strong><br>» %s'
 	],
 	'LOG_ARCADE_DELETE_SCORE'						=> '<strong>Deleted game score for user: %3$s%1$s%2$s</strong><br>» %4$s',
 	'LOG_ARCADE_DELETE_SUPER_CHAMPION_SCORE'		=> '<strong>Deleted super champion score for user: %s</strong><br>» Game: %s',
@@ -128,7 +128,7 @@ $lang = array_merge($lang, [
 	'LOG_ARCADE_FEATURE'							=> '<strong>Altered feature settings</strong>',
 	'LOG_ARCADE_FORM_SCORE_ERROR'					=> [
 		1											=> '<strong>The game “%s” has sent an incorrect score</strong><br>Save type: %s<br>Playing time: %s<br>Score: %s<br><strong>Error:</strong> (%s)',
-		2											=> '<strong>The game “%s” has sent an incorrect score</strong><br>Save type: %s<br>Playing time: %s<br>Score: %s<br><strong>Errors:</strong> (%s)',
+		2											=> '<strong>The game “%s” has sent an incorrect score</strong><br>Save type: %s<br>Playing time: %s<br>Score: %s<br><strong>Errors:</strong> (%s)'
 	],
 	'LOG_ARCADE_GAME'								=> '<strong>Altered game settings</strong>',
 	'LOG_ARCADE_GAME_ANNOUNCE'						=> '<strong>Altered game announcement</strong><br>» Language: %s',
@@ -158,7 +158,7 @@ $lang = array_merge($lang, [
 	'LOG_ARCADE_MENU_ADD'							=> '<strong>Added menu</strong><br>» %s',
 	'LOG_ARCADE_MENU_DELETE'						=> [
 		1											=> '<strong>Delete menu</strong><br>» %s',
-		2											=> '<strong>Deleted menu and its submenus</strong><br>» %s',
+		2											=> '<strong>Deleted menu and its submenus</strong><br>» %s'
 	],
 	'LOG_ARCADE_MENU_EDIT'							=> '<strong>Edit menu</strong><br>» %s',
 	'LOG_ARCADE_MENU_MOVE_DOWN'						=> '<strong>Moved menu</strong> %1$s <strong>below</strong> %2$s',
@@ -166,7 +166,7 @@ $lang = array_merge($lang, [
 	'LOG_ARCADE_MOVE_DOWN'							=> '<strong>Moved category</strong> %1$s <strong>below</strong> %2$s',
 	'LOG_ARCADE_MOVE_GAME'							=> [
 		1											=> '<strong>Moved game from category %1$s to the new category %2$s</strong><br>» %3$s',
-		2											=> '<strong>Moved games from category %1$s to the new category %2$s</strong><br>» %3$s',
+		2											=> '<strong>Moved games from category %1$s to the new category %2$s</strong><br>» %3$s'
 	],
 	'LOG_ARCADE_MOVE_UP'							=> '<strong>Moved category</strong> %1$s <strong>above</strong> %2$s',
 	'LOG_ARCADE_PAAR'								=> '<strong>Altered phpBB Arcade - activity rank</strong>',
@@ -180,17 +180,17 @@ $lang = array_merge($lang, [
 	'LOG_ARCADE_RESET_DOWNLOADS'					=> '<strong>Reset download statistics</strong>',
 	'LOG_ARCADE_RESET_GAME'							=> [
 		1											=> '<strong>Reset game data%s%s%s%s</strong><br>» %s',
-		2											=> '<strong>Reset games data%s%s%s%s</strong><br>» %s',
+		2											=> '<strong>Reset games data%s%s%s%s</strong><br>» %s'
 	],
 	'LOG_ARCADE_RESET_GAMES_REC'					=> '<strong>Reset games recommendation</strong>',
 	'LOG_ARCADE_RESET_GAME_SCORES'					=> [
 		1											=> '<strong>Reset game scores%s%s</strong><br>» %s',
-		2											=> '<strong>Reset games scores%s%s</strong><br>» %s',
+		2											=> '<strong>Reset games scores%s%s</strong><br>» %s'
 	],
 	'LOG_ARCADE_RESET_GROUP_TOURNAMENT'				=> '<strong>Reset group tournament</strong>',
 	'LOG_ARCADE_RESET_INSTALL_DATE_GAME'			=> [
 		1											=> '<strong>Reset a game installation date</strong><br>» %s',
-		2											=> '<strong>Reset several games installation dates</strong><br>» %s',
+		2											=> '<strong>Reset several games installation dates</strong><br>» %s'
 	],
 	'LOG_ARCADE_RESET_JACKPOT'						=> '<strong>Reset jackpot data</strong>',
 	'LOG_ARCADE_RESET_MENU'							=> '<strong>Reset menu structure</strong>',
@@ -213,7 +213,7 @@ $lang = array_merge($lang, [
 	'LOG_ARCADE_SYNC_CAT'							=> '<strong>Re-synchronised category</strong><br>» %s',
 	'LOG_ARCADE_SYNC_GAME'							=> [
 		1											=> '<strong>Re-synchronised game</strong><br>» %s',
-		2											=> '<strong>Re-synchronised games</strong><br>» %s',
+		2											=> '<strong>Re-synchronised games</strong><br>» %s'
 	],
 	'LOG_ARCADE_SYSTEM'								=> '<strong>Altered system settings</strong>',
 	'LOG_ARCADE_TOURNAMENT'							=> '<strong>Altered tournament settings</strong>',
@@ -226,32 +226,32 @@ $lang = array_merge($lang, [
 	'LOG_ARCADE_UNDEFINED_SCORE'					=> '<strong>The game “%s” has sent an undefined score</strong>',
 	'LOG_ARCADE_UNPACK_GAME'						=> [
 		1											=> '<strong>Unpacked game</strong><br>» %s',
-		2											=> '<strong>Unpacked games</strong><br>» %s',
+		2											=> '<strong>Unpacked games</strong><br>» %s'
 	],
 	'LOG_ARCADE_UPLOAD_GAME'						=> [
 		1											=> '<strong>Upload game</strong><br>» %s',
-		2											=> '<strong>Upload games</strong><br>» %s',
+		2											=> '<strong>Upload games</strong><br>» %s'
 	],
 	'LOG_ARCADE_USER_BANNED'						=> '<strong>Banned user</strong><br>» %s',
 	'LOG_ARCADE_USER_DELETE_FAVORITE'				=> [
 		1											=> '<strong>Delete favorite games</strong><br>» %s',
-		2											=> '<strong>Delete favorite games</strong><br>» %s',
+		2											=> '<strong>Delete favorite games</strong><br>» %s'
 	],
 	'LOG_ARCADE_USER_GAME_SETTINGS'					=> '<strong>Altered game settings</strong>',
 	'LOG_ARCADE_USER_HIGHLIGHT_FAVORITE'			=> [
 		1											=> '<strong>Highlight your favorite game</strong><br>» %s',
-		2											=> '<strong>Highlight your favorite games </strong><br>» %s',
+		2											=> '<strong>Highlight your favorite games </strong><br>» %s'
 	],
 	'LOG_ARCADE_USER_MAIN_SETTINGS'					=> '<strong>Altered main settings</strong>',
 	'LOG_ARCADE_USER_POST_SETTINGS'					=> '<strong>Altered post settings</strong>',
 	'LOG_ARCADE_USER_REMOVE_HIGHLIGHT_FAVORITE'		=> [
 		1											=> '<strong>Remove highlights from favorite game</strong><br>» %s',
-		2											=> '<strong>Remove highlights from favorite games</strong><br>» %s',
+		2											=> '<strong>Remove highlights from favorite games</strong><br>» %s'
 	],
 	'LOG_ARCADE_USER_SET_UPDATE'					=> '<strong>Updated user details</strong><br>» %s',
 	'LOG_ARCADE_VERSION_CHECK_DISABLED'				=> '<strong>Automatic version check disabled</strong>',
 	'LOG_ARCADE_VERSION_CHECK_ENABLED'				=> '<strong>Automatic version check enabled</strong>',
 	'LOG_C_ROLE_ADD'								=> '<strong>Category role added</strong><br>» %s',
 	'LOG_C_ROLE_EDIT'								=> '<strong>Category role edited</strong><br>» %s',
-	'LOG_C_ROLE_REMOVED'							=> '<strong>Category role removed</strong><br>» %s',
+	'LOG_C_ROLE_REMOVED'							=> '<strong>Category role removed</strong><br>» %s'
 ]);

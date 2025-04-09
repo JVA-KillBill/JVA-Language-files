@@ -19,7 +19,7 @@ if (!defined('IN_PHPBB'))
 
 if (empty($lang) || !is_array($lang))
 {
-	$lang = array();
+	$lang = [];
 }
 
 // DEVELOPERS PLEASE NOTE
@@ -95,7 +95,7 @@ $lang = array_merge($lang, [
 	'INS_ARCADE_DATA_FILES_CORRECT'						=> 'Bestanden met correcte gegevens',
 	'INS_ARCADE_DELETE_DUPLICATE_GAME'					=> [
 		1												=> 'Verwijder dubbel spel',
-		2												=> 'Verwijder dubbele spellen',
+		2												=> 'Verwijder dubbele spellen'
 	],
 	'INS_ARCADE_ENABLE_ERROR'							=> 'De extensie kan niet worden geactiveerd omdat de versie van <strong>“phpBB”</strong> lager is dan <strong>“%s”</strong>!',
 	'INS_ARCADE_FILES_ALL_EXISTS'						=> 'Alle bestanden zijn aanwezig',
@@ -111,5 +111,5 @@ $lang = array_merge($lang, [
 	'INS_ARCADE_UND_GAMES_FILESIZE'						=> 'Ongespecificeerde bestandsgrootte, spellen',
 	'INS_ARCADE_UPDATE_GAME_DATA_END'					=> 'Het bijwerking proces is voltooid, je kunt de resultaten hieronder zien.',
 
-	'JVA_CORE_EXT_NOT_FOUND'							=> 'De extensie kan niet worden ingeschakeld omdat de “JVA - Core” extensie niet kan worden gevonden!',
+	'JVA_CORE_EXT_NOT_FOUND'							=> 'De extensie kan niet worden ingeschakeld omdat de “JVA - Core” extensie niet kan worden gevonden!'
 ]);

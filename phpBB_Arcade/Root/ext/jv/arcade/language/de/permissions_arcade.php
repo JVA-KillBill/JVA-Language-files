@@ -19,7 +19,7 @@ if (!defined('IN_PHPBB'))
 
 if (empty($lang) || !is_array($lang))
 {
-	$lang = array();
+	$lang = [];
 }
 
 // DEVELOPERS PLEASE NOTE
@@ -90,5 +90,5 @@ $lang = array_merge($lang, [
 	'ACL_U_ARCADE_SEARCH'				=> 'Kann in der Spielhalle suchen',
 	'ACL_U_ARCADE_TOUR'					=> 'Kann im Turnier spielen',
 	'ACL_U_ARCADE_VIEWSTATS'			=> 'Kann Spielestatistik ansehen',
-	'ACL_U_ARCADE_VIEW_WHOISPLAYING'	=> 'Kann sehen, wer gerade spielt',
+	'ACL_U_ARCADE_VIEW_WHOISPLAYING'	=> 'Kann sehen, wer gerade spielt'
 ]);

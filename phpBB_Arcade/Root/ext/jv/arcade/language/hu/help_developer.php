@@ -19,7 +19,7 @@ if (!defined('IN_PHPBB'))
 
 if (empty($lang) || !is_array($lang))
 {
-	$lang = array();
+	$lang = [];
 }
 
 // DEVELOPERS PLEASE NOTE
@@ -375,5 +375,5 @@ $game_data = [
 	'ARCADE_ACP_HELP_FAQ_SCORING_TEST_ANSWER'			=> 'A teszt mód arra a célra készült, hogy tesztelni lehessen a játékokat, hogy megfelelően-e működnek. A teszt módban nem lehet elmenteni az elért eredményeket. A játék végén az adminisztrátorok részletes információt kapnak a játékról, ha be van kapcsolva a „phpBB-DEBUG” rendszer.<br><em>A „phpBB-DEBUG” rendszert bekapcsolásához telepítenünk kell a „JVA - Debug” kiterjesztést.</em>',
 	'ARCADE_ACP_HELP_FAQ_SCORING_TEST_CAT_ANSWER'		=> 'Lépj be az AVP-be és kattints a kategóriák szerkesztésére, válaszd ki a szerkeszteni kívánt kategóriát és kapcsold át teszt üzemmódba.',
 	'ARCADE_ACP_HELP_FAQ_SCORING_TEST_CAT_QUESTION'		=> 'Hogyan tudok tesztelni egy kategóriát?',
-	'ARCADE_ACP_HELP_FAQ_SCORING_TEST_QUESTION'			=> 'Mit érek el a teszt üzemmóddal?',
+	'ARCADE_ACP_HELP_FAQ_SCORING_TEST_QUESTION'			=> 'Mit érek el a teszt üzemmóddal?'
 ]);

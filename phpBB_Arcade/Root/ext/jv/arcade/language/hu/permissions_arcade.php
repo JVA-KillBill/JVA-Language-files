@@ -19,7 +19,7 @@ if (!defined('IN_PHPBB'))
 
 if (empty($lang) || !is_array($lang))
 {
-	$lang = array();
+	$lang = [];
 }
 
 // DEVELOPERS PLEASE NOTE
@@ -90,5 +90,5 @@ $lang = array_merge($lang, [
 	'ACL_U_ARCADE_SEARCH'				=> 'Használhatja a keresést',
 	'ACL_U_ARCADE_TOUR'					=> 'Használhatja a versenyt',
 	'ACL_U_ARCADE_VIEWSTATS'			=> 'Megtekintheti a statisztikai adatokat',
-	'ACL_U_ARCADE_VIEW_WHOISPLAYING'	=> 'Láthatja, hogy ép ki mivel játszik',
+	'ACL_U_ARCADE_VIEW_WHOISPLAYING'	=> 'Láthatja, hogy ép ki mivel játszik'
 ]);

@@ -19,7 +19,7 @@ if (!defined('IN_PHPBB'))
 
 if (empty($lang) || !is_array($lang))
 {
-	$lang = array();
+	$lang = [];
 }
 
 // DEVELOPERS PLEASE NOTE
@@ -95,7 +95,7 @@ $lang = array_merge($lang, [
 	'INS_ARCADE_DATA_FILES_CORRECT'						=> 'Dateien mit korrekten Daten',
 	'INS_ARCADE_DELETE_DUPLICATE_GAME'					=> [
 		1												=> 'Doppeltes Spiel gelöscht',
-		2												=> 'Doppelte Spiele gelöscht',
+		2												=> 'Doppelte Spiele gelöscht'
 	],
 	'INS_ARCADE_ENABLE_ERROR'							=> 'Die Erweiterung kann nicht aktiviert werden, weil die Version von <strong>„phpBB“</strong> unterhalb der Version <strong>„%s“</strong> liegt!',
 	'INS_ARCADE_FILES_ALL_EXISTS'						=> 'Alle Dateien existieren',
@@ -111,5 +111,5 @@ $lang = array_merge($lang, [
 	'INS_ARCADE_UND_GAMES_FILESIZE'						=> 'Dateigröße nicht angegeben, Spiele',
 	'INS_ARCADE_UPDATE_GAME_DATA_END'					=> 'Der Aktualisierungsprozess ist komplett, du kannst unten die Ergebnisse sehen.',
 
-	'JVA_CORE_EXT_NOT_FOUND'							=> 'Diese Erweiterung kann nicht aktiviert werden, weil die „JVA - Core“ Extension nicht gefunden wurde!',
+	'JVA_CORE_EXT_NOT_FOUND'							=> 'Diese Erweiterung kann nicht aktiviert werden, weil die „JVA - Core“ Extension nicht gefunden wurde!'
 ]);

@@ -1,5 +1,18 @@
 # Changelog
 
+## 7.7.8 - 2025-xx-xx
+
+- [Fixed] Arcade forum topics for guests gave a javascript error.
+- [Fixed] Images of game recommendations in the played category had an incorrect watermark.
+- [Fixed] Restarting the game did not stop old counters.
+
+- [Modified] Requirement JVA - Core 1.0.18 or later.
+- [Modified] Requirement phpBB 3.3.15 or later.
+
+- [Added] Game Intro - If the preloader detects an incorrect file load, it displays the path to the affected file in the error message.
+- [Added] Game Intro - Use language file instead of texts imported from html file.
+- [Added] New language file - game_intro.json
+
 ## 7.7.7 - 2025-03-26
 
 - [Fixed] ACP/Arcade/Guest default settings - The submitted form was invalid.

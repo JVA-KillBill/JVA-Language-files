@@ -19,7 +19,7 @@ if (!defined('IN_PHPBB'))
 
 if (empty($lang) || !is_array($lang))
 {
-	$lang = array();
+	$lang = [];
 }
 
 // DEVELOPERS PLEASE NOTE
@@ -50,5 +50,5 @@ $lang = array_merge($lang, [
 	'MCP_ARCADE_MANAGE_GROUP_TOUR_EXPLAIN'	=> 'Ici, vous avez la possibilité de créer et de modifier des tournois de groupe.',
 	'MCP_ARCADE_MANAGE_TOUR'				=> 'Gérer les tournois',
 	'MCP_ARCADE_MANAGE_TOUR_EXPLAIN'		=> 'Ici, vous avez la possibilité de créer ou de modifier des tournois.',
-	'MCP_CAT_ARCADE'						=> 'Arcade',
+	'MCP_CAT_ARCADE'						=> 'Arcade'
 ]);

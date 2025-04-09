@@ -19,7 +19,7 @@ if (!defined('IN_PHPBB'))
 
 if (empty($lang) || !is_array($lang))
 {
-	$lang = array();
+	$lang = [];
 }
 
 // DEVELOPERS PLEASE NOTE
@@ -292,5 +292,5 @@ Pour supprimer les données de sauvegarde locales du navigateur :
 	'ARCADE_HELP_FAQ_USER_SET_FAV_MANAGE_ANSWER'		=> 'Là on peut supprimer des jeux favoris qu’on avait ajoutés, ou les marquer en les mettant en surbrillance.',
 	'ARCADE_HELP_FAQ_USER_SET_FAV_MANAGE_QUESTION'		=> 'Qu’est-ce que la gestion des jeux favoris ?',
 	'ARCADE_HELP_FAQ_USER_SET_IMG_DISABLE_ANSWER'		=> 'Vous pouvez choisir de désactiver l’affichage des images, par exemple si le chargement des pages est trop lent.',
-	'ARCADE_HELP_FAQ_USER_SET_IMG_DISABLE_QUESTION'		=> 'Voulez vous que les avatars des utilisateurs et les images des jeux ne s’affichent plus ?',
+	'ARCADE_HELP_FAQ_USER_SET_IMG_DISABLE_QUESTION'		=> 'Voulez vous que les avatars des utilisateurs et les images des jeux ne s’affichent plus ?'
 ]);

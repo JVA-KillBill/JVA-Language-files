@@ -19,7 +19,7 @@ if (!defined('IN_PHPBB'))
 
 if (empty($lang) || !is_array($lang))
 {
-	$lang = array();
+	$lang = [];
 }
 
 // DEVELOPERS PLEASE NOTE
@@ -292,5 +292,5 @@ Löschen der lokalen Speicherdaten des Browsers:
 	'ARCADE_HELP_FAQ_USER_SET_FAV_MANAGE_ANSWER'		=> 'Hier kannst du deine als Favoriten hinzugefügten Lieblingsspiele wieder entfernen, oder markieren und hervorheben.',
 	'ARCADE_HELP_FAQ_USER_SET_FAV_MANAGE_QUESTION'		=> 'Was ist Favoriten verwalten?',
 	'ARCADE_HELP_FAQ_USER_SET_IMG_DISABLE_ANSWER'		=> 'Wenn das Laden der Seite zu langsam ist, kannst du die Anzeige der Avatare und Bilder abschalten.',
-	'ARCADE_HELP_FAQ_USER_SET_IMG_DISABLE_QUESTION'		=> 'Du möchtest die Anzeige von Avataren und Bildern der Spiele abschalten?',
+	'ARCADE_HELP_FAQ_USER_SET_IMG_DISABLE_QUESTION'		=> 'Du möchtest die Anzeige von Avataren und Bildern der Spiele abschalten?'
 ]);

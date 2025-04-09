@@ -19,7 +19,7 @@ if (!defined('IN_PHPBB'))
 
 if (empty($lang) || !is_array($lang))
 {
-	$lang = array();
+	$lang = [];
 }
 
 // DEVELOPERS PLEASE NOTE
@@ -375,5 +375,5 @@ $game_data = [
 	'ARCADE_ACP_HELP_FAQ_SCORING_TEST_ANSWER'			=> 'Hierdoor kun je nu spellen in een categorie spelen zonder dat er gegevens of scores worden opgeslaan. Hiermee kan je spellen testen om er zeker van te zijn dat ze correct werken. Als je klaar bent met een spel, krijg je een bericht te zien met details over wat er zou zijn gebeurd. Aan het einde van het spel zullen beheerders gedetailleerde informatie over het spel ontvangen als het “phpBB-DEBUG” system ingeschakeld is.<br><em>Om het “phpBB-DEBUG” systeem in te schakelen, moeten we de “JVA - Debug” extensie installeren.</em>',
 	'ARCADE_ACP_HELP_FAQ_SCORING_TEST_CAT_ANSWER'		=> 'Ga naar de “Beheer arcade” ACP module. Klik daar op bewerken. Je moet de “Test modus” inschakelen en dan de “Test modus” instellen op ja.',
 	'ARCADE_ACP_HELP_FAQ_SCORING_TEST_CAT_QUESTION'		=> 'Hoe schakel ik de “Test modus” in voor een categorie?',
-	'ARCADE_ACP_HELP_FAQ_SCORING_TEST_QUESTION'			=> 'Wat doet de “Test modus”?',
+	'ARCADE_ACP_HELP_FAQ_SCORING_TEST_QUESTION'			=> 'Wat doet de “Test modus”?'
 ]);

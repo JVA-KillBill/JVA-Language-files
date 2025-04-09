@@ -19,7 +19,7 @@ if (!defined('IN_PHPBB'))
 
 if (empty($lang) || !is_array($lang))
 {
-	$lang = array();
+	$lang = [];
 }
 
 // DEVELOPERS PLEASE NOTE
@@ -95,7 +95,7 @@ $lang = array_merge($lang, [
 	'INS_ARCADE_DATA_FILES_CORRECT'						=> 'Files with correct data',
 	'INS_ARCADE_DELETE_DUPLICATE_GAME'					=> [
 		1												=> 'Deleted duplicate game',
-		2												=> 'Deleted duplicate games',
+		2												=> 'Deleted duplicate games'
 	],
 	'INS_ARCADE_ENABLE_ERROR'							=> 'The extension can’t be activated because the version of <strong>“phpBB”</strong> is below version <strong>“%s”</strong>!',
 	'INS_ARCADE_FILES_ALL_EXISTS'						=> 'All files exists',
@@ -111,5 +111,5 @@ $lang = array_merge($lang, [
 	'INS_ARCADE_UND_GAMES_FILESIZE'						=> 'Unspecified file size, games',
 	'INS_ARCADE_UPDATE_GAME_DATA_END'					=> 'The upgrade process is complete, you can see the results below.',
 
-	'JVA_CORE_EXT_NOT_FOUND'							=> 'The extension can’t be enabled because the “JVA - Core” extension can’t be found!',
+	'JVA_CORE_EXT_NOT_FOUND'							=> 'The extension can’t be enabled because the “JVA - Core” extension can’t be found!'
 ]);

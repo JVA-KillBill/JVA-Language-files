@@ -19,7 +19,7 @@ if (!defined('IN_PHPBB'))
 
 if (empty($lang) || !is_array($lang))
 {
-	$lang = array();
+	$lang = [];
 }
 
 // DEVELOPERS PLEASE NOTE
@@ -375,5 +375,5 @@ $game_data = [
 	'ARCADE_ACP_HELP_FAQ_SCORING_TEST_ANSWER'			=> 'Cela vous permet désormais de jouer à des jeux dans une catégorie sans enregistrer les données ou les scores. Cela vous permet de tester des jeux pour vous assurer qu’ils fonctionnent correctement. Lorsque vous avez terminé avec un jeu, vous verrez un message détaillant ce qui a pu se passer. À la fin du jeu, les administrateurs recevront des informations détaillées sur le jeu si le système « phpBB-DEBUG » est activé.<br><em>Pour activer le système « phpBB-DEBUG », nous devons installer l’extension « JVA - Debug ».</em>',
 	'ARCADE_ACP_HELP_FAQ_SCORING_TEST_CAT_ANSWER'		=> 'Aller dans le module « Gestion de l’arcade » du PCA. Vous devez activer le « Mode Test » puis régler le « Mode Test » sur oui.',
 	'ARCADE_ACP_HELP_FAQ_SCORING_TEST_CAT_QUESTION'		=> 'Comment activer le « Mode Test » pour une catégorie ?',
-	'ARCADE_ACP_HELP_FAQ_SCORING_TEST_QUESTION'			=> 'A quoi sert le « Mode Test » ?',
+	'ARCADE_ACP_HELP_FAQ_SCORING_TEST_QUESTION'			=> 'A quoi sert le « Mode Test » ?'
 ]);

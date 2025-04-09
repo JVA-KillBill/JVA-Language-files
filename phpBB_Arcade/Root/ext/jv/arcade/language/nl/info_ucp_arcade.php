@@ -19,7 +19,7 @@ if (!defined('IN_PHPBB'))
 
 if (empty($lang) || !is_array($lang))
 {
-	$lang = array();
+	$lang = [];
 }
 
 // DEVELOPERS PLEASE NOTE
@@ -48,15 +48,15 @@ $lang = array_merge($lang, [
 	'UCP_ARCADE_DARK'							=> 'Donker',
 	'UCP_ARCADE_DELETE_FAVORITE'				=> [
 		1										=> 'Verwijder favoriete spel',
-		2										=> 'Verwijder favoriete spellen',
+		2										=> 'Verwijder favoriete spellen'
 	],
 	'UCP_ARCADE_DELETE_FAVORITE_CONFIRM'		=> [
 		1										=> 'Weet je zeker dat je dit favoriete spel wilt verwijderen?',
-		2										=> 'Weet je zeker dat je deze favoriete spellen wilt verwijderen?',
+		2										=> 'Weet je zeker dat je deze favoriete spellen wilt verwijderen?'
 	],
 	'UCP_ARCADE_DELETE_FAVORITE_SUCCESS'		=> [
 		1										=> 'Favoriete spel is verwijderd.',
-		2										=> 'Favoriete spellen zijn verwijderd.',
+		2										=> 'Favoriete spellen zijn verwijderd.'
 	],
 	'UCP_ARCADE_DEVICES_ALL'					=> 'Alle apparaten',
 	'UCP_ARCADE_DEVICES_TOUCH_SCREEN'			=> 'Apparaten met aanraakscherm',
@@ -138,5 +138,5 @@ $lang = array_merge($lang, [
 	'UCP_ARCADE_USER_INFO_EXPLAIN'				=> 'Hier heb je de mogelijkheid om het gebruiker informatieblok en het welkomst blok te vervangen, in plaats daarvan kun je ervoor kiezen om de meest gespeelde spellen weer te geven.<br><em>Deze optie heeft geen effect op de uitdaging- en toernooi paginas.</em>',
 	'UCP_CAT_ARCADE'							=> 'Arcade',
 	'UCP_CHALLENGE_ENABLED'						=> 'Uitdaging inschakelen',
-	'UCP_CHALLENGE_ENABLED_EXPLAIN'				=> 'Als je dit inschakelt, kunnen gebruikers je uitdagen voor een duel in spellen.',
+	'UCP_CHALLENGE_ENABLED_EXPLAIN'				=> 'Als je dit inschakelt, kunnen gebruikers je uitdagen voor een duel in spellen.'
 ]);

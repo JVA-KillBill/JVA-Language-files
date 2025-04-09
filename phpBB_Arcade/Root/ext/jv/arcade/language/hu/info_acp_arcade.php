@@ -19,7 +19,7 @@ if (!defined('IN_PHPBB'))
 
 if (empty($lang) || !is_array($lang))
 {
-	$lang = array();
+	$lang = [];
 }
 
 // DEVELOPERS PLEASE NOTE
@@ -75,7 +75,7 @@ $lang = array_merge($lang, [
 	'ACP_ARCADE_DELETE_ALL_DATA_SUCCESS'				=> 'Az összes adat sikeresen törölve.',
 	'ACP_ARCADE_DELETE_SELECTED_DATA_SUCCESS'			=> [
 		1												=> 'A kiválasztott adat sikeresen törölve.',
-		2												=> 'A kiválasztott adatok sikeresen törölve.',
+		2												=> 'A kiválasztott adatok sikeresen törölve.'
 	],
 	'ACP_ARCADE_DISPLAY_AGGREGATED_DATA'				=> 'Összesített adatok megjelenítése',
 	'ACP_ARCADE_DISPLAY_ARCADE_RANK'					=> 'Játéktermi rang kijelzése',
@@ -281,7 +281,7 @@ $lang = array_merge($lang, [
 	'ARCADE_ADD_GAME_ID_IGN_CAT_EXPLAIN'				=> 'Ha megadsz egy játék azonosított, akkor az lesz a verseny játéka. Ez felülírja a kategória választást.',
 	'ARCADE_ADD_GAME_SUCCESS'							=> [
 		1												=> 'A „%s” játék sikeresen telepítve a(z) „%s” kategóriába.',
-		2												=> 'A „%s” játékok sikeresen telepítve lettek a(z) „%s” kategóriába.',
+		2												=> 'A „%s” játékok sikeresen telepítve lettek a(z) „%s” kategóriába.'
 	],
 	'ARCADE_ADD_MENU'									=> 'Új menü hozzáadása',
 	'ARCADE_ALLOW_LOCAL_STORAGE'						=> 'Helyi tároló engedélyezése',
@@ -331,11 +331,11 @@ $lang = array_merge($lang, [
 	'ARCADE_BACKUP_NO_GAMES'							=> 'A kiválasztott kategóriában nincsenek játékok.',
 	'ARCADE_BACKUP_SUCCESS'								=> [
 		1												=> 'A kiválasztott kategória lementése sikeres.',
-		2												=> 'A kiválasztott kategóriák lementése sikeres.',
+		2												=> 'A kiválasztott kategóriák lementése sikeres.'
 	],
 	'ARCADE_BAD_INSTALL_FILE'							=> [
 		1												=> 'Hibás vagy nem írható, telepítő fájlt találtam. Ellenőrizd a következő fájlt: <br>%s',
-		2												=> 'Hibás vagy nem írható, telepítő fájlokat találtam. Ellenőrizd a következő fájlokat: <br>%s',
+		2												=> 'Hibás vagy nem írható, telepítő fájlokat találtam. Ellenőrizd a következő fájlokat: <br>%s'
 	],
 	'ARCADE_BANNED_EXCLUDE_ALL'							=> 'Összes felhasználó feloldása',
 	'ARCADE_BANNED_EXCLUDE_ALL_SUCCESS'					=> 'Összes felhasználó kitiltásának feloldása sikeresen megtörtént.',
@@ -510,14 +510,14 @@ $lang = array_merge($lang, [
 	'ARCADE_DOWNLOAD_USER_STATS'						=> 'Felhasználó: %s',
 	'ARCADE_DUPLICATE_GAMENAME'							=> [
 		1												=> 'A sárga színnel megjelölt játék név többször szerepel a listában.',
-		2												=> 'A sárga színnel megjelölt játékok nevei többször szerepelnek a listában.',
+		2												=> 'A sárga színnel megjelölt játékok nevei többször szerepelnek a listában.'
 	],
 	'ARCADE_DUPLICATE_GAMENAME_ADD_GAMES'				=> 'Többször szerepel ez a játék név a listában',
 	'ARCADE_DUPLICATE_GAMENAME_ERROR'					=> 'A megadott játék név már használatban van.',
 	'ARCADE_DUPLICATE_GAMENAME_INSTALL_GAMES'			=> 'Ezzel a játék névvel, már lett telepítve játék',
 	'ARCADE_DUPLICATE_INSTALL_GAMENAME'					=> [
 		1												=> 'A zöld színnel megjelölt játék név megegyezik a már telepített játék nevével.',
-		2												=> 'A zöld színnel megjelölt játékok nevei megegyezik a már telepített játék nevével.',
+		2												=> 'A zöld színnel megjelölt játékok nevei megegyezik a már telepített játék nevével.'
 	],
 	'ARCADE_EDIT_GAME'									=> 'Játék szerkesztése',
 	'ARCADE_EDIT_GAME_EXPLAIN'							=> 'Itt tudod szerkeszteni a játékra vonatkozó beállításokat. Ha a játékhoz örökölt játékok tartoznak, akkor azok a játékok adatai is frissülni fognak automatikusan.<br><em>Vedd figyelembe, hogy az örökölt játékok leírása csak akkor frissíti a többi játék leírását is, ha 100%-ban megegyeznek.</em>',
@@ -535,7 +535,7 @@ $lang = array_merge($lang, [
 	'ARCADE_FILE_INVALID_EXT'							=> 'Érvénytelen fájlkiterjesztés: %s',
 	'ARCADE_FILE_NOT_FOUND'								=> [
 		1												=> 'A „%s” fájl nem található!',
-		2												=> 'A következő fájlok nem találhatóak:<br><br>%s',
+		2												=> 'A következő fájlok nem találhatóak:<br><br>%s'
 	],
 	'ARCADE_FILE_TOO_LARGE'								=> 'A fájl túl nagy: %s',
 	'ARCADE_FILE_WRONG'									=> 'A „%s” fájl hibás!',
@@ -621,7 +621,7 @@ $lang = array_merge($lang, [
 	'ARCADE_GAME_PROCESSING'							=> 'Kérlek várj…<br>%1$s<br>Feldolgozás alatt %3$s játék, ebből elkészült %2$s darab játék.',
 	'ARCADE_GAME_REMOVE_FILES_SUCCESS'					=> [
 		1												=> 'A kijelölt játék fájlok sikeresen eltávolításra került.',
-		2												=> 'A kijelölt játékok fájljai sikeresen eltávolításra kerültek.',
+		2												=> 'A kijelölt játékok fájljai sikeresen eltávolításra kerültek.'
 	],
 	'ARCADE_GAME_REWARD'								=> 'Fix játék jutalom',
 	'ARCADE_GAME_REWARD_EXPLAIN'						=> 'A játéknak ez lesz a megszerezhető jutalma. Vedd figyelembe, hogy ez a beállítás felülbírálja a globális, kategória beállítást. Jutalom kikapcsolása: <b>-1</b><br>Főnyeremény használata felülbírálja a jutalmat.',
@@ -686,7 +686,7 @@ $lang = array_merge($lang, [
 	'ARCADE_HIDE_FOUND_REMOVED_GAMES_EXPLAIN'			=> 'Megjegyzés: Azok a játékok, amelyek piros színnel vannak kiemelve, azok már egyszer telepítve és eltávolítva lettek.',
 	'ARCADE_HIGHLIGHTED_GAME_ALREADY_INSTALLED'			=> [
 		1												=> 'A kiemelt játék már telepítve van.',
-		2												=> 'A kiemelt játékok már telepítve vannak.',
+		2												=> 'A kiemelt játékok már telepítve vannak.'
 	],
 	'ARCADE_HTML5_GAMES'								=> 'HTML5 játékok',
 	'ARCADE_ICONS_COUNT'								=> 'Ikonok száma',
@@ -793,15 +793,15 @@ $lang = array_merge($lang, [
 	'ARCADE_MENU_CREATED'								=> 'Az új menü sikeresen létrehozva.',
 	'ARCADE_MENU_DELETE'								=> [
 		1												=> 'Menü törlése',
-		2												=> 'Menük törlése',
+		2												=> 'Menük törlése'
 	],
 	'ARCADE_MENU_DELETED'								=> [
 		1												=> 'A menü sikeresen törölve lett.',
-		2												=> 'A menü az almenükkel együtt sikeresen törölve lettek.',
+		2												=> 'A menü az almenükkel együtt sikeresen törölve lettek.'
 	],
 	'ARCADE_MENU_DELETE_CONFIRM'						=> [
 		1												=> 'Biztos vagy abban, hogy törlöd ezt a menüt?',
-		2												=> 'Biztos vagy abban, hogy törlöd ezt a menüt az almenükkel együtt?',
+		2												=> 'Biztos vagy abban, hogy törlöd ezt a menüt az almenükkel együtt?'
 	],
 	'ARCADE_MENU_EDIT_EXPLAIN'							=> 'Az alábbi űrlap lehetővé teszi, hogy testre szabd ezt a menü pontot.',
 	'ARCADE_MENU_FA'									=> 'Menü ikon',
@@ -847,7 +847,7 @@ $lang = array_merge($lang, [
 	'ARCADE_NO_DISPLAY'									=> 'Nincs kijelzés',
 	'ARCADE_NO_GAMES_SELECT_CAT'						=> [
 		1												=> 'A kiválasztott kategóriában nincs játék.',
-		2												=> 'A kiválasztott kategóriákban nincsenek játékok.',
+		2												=> 'A kiválasztott kategóriákban nincsenek játékok.'
 	],
 	'ARCADE_NO_INSTALL_GAME'							=> 'Nincs telepített játék!',
 	'ARCADE_NO_SELECT_CATS'								=> 'Nem választottál ki egy kategóriát sem.',
@@ -861,7 +861,7 @@ $lang = array_merge($lang, [
 	'ARCADE_NUM_RANDOM_GAMES_EXPLAIN'					=> 'A megadott érték szerint kerülnek a játékok véletlenszerű kiválasztásra.<br>A megadott érték (%s - %s) között kell meghatározni.',
 	'ARCADE_OLD_GAME_UNINSTALL'							=> [
 		1												=> 'A rózsaszínnel megjelölt játék már régebben telepítve volt, de törölve lett.',
-		2												=> 'A rózsaszínnel megjelölt játékok már régebben telepítve voltak, de törölve lettek.',
+		2												=> 'A rózsaszínnel megjelölt játékok már régebben telepítve voltak, de törölve lettek.'
 	],
 	'ARCADE_OLD_GAME_UNINSTALL_DATE'					=> 'Törlés ideje: %s, Oka: %s',
 	'ARCADE_ONLINE_TIME'								=> 'Ki játszik ez idő alatt',
@@ -1075,7 +1075,7 @@ $lang = array_merge($lang, [
 		1												=> 'Új rekord',
 		2												=> 'Első eredmény és új rekord',
 		3												=> 'Új szuper rekord',
-		4												=> 'Első eredmény és új szuper rekord',
+		4												=> 'Első eredmény és új szuper rekord'
 	],
 	'ARCADE_SHOUT_SCORE_TYPE_EXPLAIN'					=> 'A kiválasztott eredmény típus kiírásra kerül az üzenőfalra.',
 	'ARCADE_SIZE'										=> 'Méret',
@@ -1128,7 +1128,7 @@ $lang = array_merge($lang, [
 	'ARCADE_TOUR_MIN_GAMES'								=> 'Játékok minimum száma',
 	'ARCADE_TOUR_MIN_GAMES_CAT_ERROR'					=> [
 		1												=> 'A kiválasztott kategóriában nincs elegendő játék. Minimum játékok száma: %s',
-		2												=> 'A kiválasztott kategóriákban nincs elegendő játék. Minimum játékok száma: %s',
+		2												=> 'A kiválasztott kategóriákban nincs elegendő játék. Minimum játékok száma: %s'
 	],
 	'ARCADE_TOUR_MIN_GAMES_ERROR'						=> 'A kijelölt játékok száma „%s” túl kevés, neked minimum „%s” játékot kell kiválasztani.',
 	'ARCADE_TOUR_MIN_GAMES_EXPLAIN'						=> 'Új verseny létrehozása esetén minimum ennyi játékot kell kiválasztani.',
@@ -1161,12 +1161,12 @@ $lang = array_merge($lang, [
 	'ARCADE_TOUR_START_TIME_EXPLAIN'					=> 'A verseny kezdetének az időpontja.<br>Add meg a dátumot és az időt 24 órás „ÉÉÉÉ-HH-NN ÓÓ:PP” formátumban.',
 	'ARCADE_UNPACK_DISPLAY_GAMES_EXISTING'				=> [
 		1												=> 'Már telepített játék kijelzése',
-		2												=> 'Már telepített játékok kijelzése',
+		2												=> 'Már telepített játékok kijelzése'
 	],
 	'ARCADE_UNPACK_GAMES'								=> 'Játékok kicsomagolása',
 	'ARCADE_UNPACK_GAMES_EXISTING'						=> [
 		1												=> 'A kicsomagolásra váró mappában olyan játékot érzékeltem amely már telepítve lett, így ez a játék kiszűrésre került a listából. Azonban, ha szeretnéd újra kicsomagolni ezt a játékot, mert pl. javítva lett, akkor használd a „Már telepített játék kijelzése” gombot.',
-		2												=> 'A kicsomagolásra váró mappában olyan játékokat érzékeltem amelyek már telepítve lettek, így ezek a játékok kiszűrésre kerültek a listából. Azonban, ha szeretnéd újra kicsomagolni ezeket a játékokat, mert pl. javítva lettek, akkor használd a „Már telepített játékok kijelzése” gombot.',
+		2												=> 'A kicsomagolásra váró mappában olyan játékokat érzékeltem amelyek már telepítve lettek, így ezek a játékok kiszűrésre kerültek a listából. Azonban, ha szeretnéd újra kicsomagolni ezeket a játékokat, mert pl. javítva lettek, akkor használd a „Már telepített játékok kijelzése” gombot.'
 	],
 	'ARCADE_UNPACK_GAMES_FOUND_READ'					=> 'Kicsomagolásra váró játékok száma %s, ebből %s beolvasásra került.',
 	'ARCADE_UNPACK_GAMES_FOUND_READ_ALL'				=> 'Kicsomagolásra váró játékok száma %s.',
@@ -1174,17 +1174,17 @@ $lang = array_merge($lang, [
 	'ARCADE_UNPACK_GAMES_LIMIT_EXPLAIN'					=> 'Egyszerre kicsomagolható játékok maximális száma.',
 	'ARCADE_UNPACK_GAME_ERROR'							=> [
 		1												=> 'A „%s” játék kicsomagolása sikertelen. Ha ez egy <em>tar</em> fájl akkor nézd meg, hogy <em>UStar</em> formátumban lett-e létrehozva.<br>Továbbá ellenőrizd, hogy a feltöltött fájl neve, megegyezik az eredeti fájl névvel (Kis/Nagy betű).',
-		2												=> 'A „%s” játékok kicsomagolása sikertelen. Ha ez egy <em>tar</em> fájl akkor nézd meg, hogy <em>UStar</em> formátumban lett-e létrehozva.<br>Továbbá ellenőrizd, hogy a feltöltött fájlok nevei, megegyeznek az eredeti fájlok neveivel (Kis/Nagy betű).',
+		2												=> 'A „%s” játékok kicsomagolása sikertelen. Ha ez egy <em>tar</em> fájl akkor nézd meg, hogy <em>UStar</em> formátumban lett-e létrehozva.<br>Továbbá ellenőrizd, hogy a feltöltött fájlok nevei, megegyeznek az eredeti fájlok neveivel (Kis/Nagy betű).'
 	],
 	'ARCADE_UNPACK_GAME_PATH'							=> 'Játékok telepítési útvonala',
 	'ARCADE_UNPACK_GAME_PATH_EXPLAIN'					=> 'Azaz út ahol is a telepítésre váró játékokat töltöd fel. Ide kerülnek a még tömörített játékok.',
 	'ARCADE_UNPACK_GAME_SUCCESS'						=> [
 		1												=> 'A „%s” játék, kicsomagolása sikeres.',
-		2												=> 'A „%s” játékok, kicsomagolása sikeres.',
+		2												=> 'A „%s” játékok, kicsomagolása sikeres.'
 	],
 	'ARCADE_UNPACK_INSTALL_GAME'						=> [
 		1												=> 'A kiemelt piros színű játék már telepítve van, de hiányoznak egyes fájljai, ezért engedélyezett a kicsomagolása.',
-		2												=> 'A kiemelt piros színű játékok már telepítve vannak, de hiányoznak egyes fájlok, ezért engedélyezett a kicsomagolásuk.',
+		2												=> 'A kiemelt piros színű játékok már telepítve vannak, de hiányoznak egyes fájlok, ezért engedélyezett a kicsomagolásuk.'
 	],
 	'ARCADE_UPDATE_GAME_DATA_PROC_EXPLAIN'				=> 'Alább láthatod, hogy hol tart a frissítési folyamat, kérlek a folyamat végéig ne zárd be a böngészőt.',
 	'ARCADE_UPLOAD_GAME'								=> 'Játékok feltöltése',
@@ -1192,7 +1192,7 @@ $lang = array_merge($lang, [
 	'ARCADE_UPLOAD_GAME_INP_EXPLAIN'					=> '<em>Engedélyezett fájl kiterjesztések: (<strong>%s</strong>)<br>Egyszerre feltölthető játékok maximális száma: <strong>%s</strong>.</em>',
 	'ARCADE_UPLOAD_GAME_SUCCESS'						=> [
 		1												=> 'A %s játék feltöltése sikeres.',
-		2												=> 'A %s játékok feltöltése sikeres.',
+		2												=> 'A %s játékok feltöltése sikeres.'
 	],
 	'ARCADE_UPLOAD_LIMIT'								=> 'Játékok feltöltésének limitje',
 	'ARCADE_UPLOAD_LIMIT_ERROR'							=> 'Túllépted a maximum feltölthető fájlok mennyiségét. Te %1$s fájlt szerettél volna feltölteni, de a megengedett maximum %2$s.',
@@ -1295,11 +1295,11 @@ $lang = array_merge($lang, [
 	'DELETE_SELECTED_GAMES'								=> 'Kiválasztott játékok törlése',
 	'DELETE_SELECTED_GAME_CONFIRM'						=> [
 		1												=> 'Biztos vagy benne, hogy törlöd a kiválasztott játékot?',
-		2												=> 'Biztos vagy benne, hogy törlöd a kiválasztott játékokat?',
+		2												=> 'Biztos vagy benne, hogy törlöd a kiválasztott játékokat?'
 	],
 	'DELETE_SELECTED_GAME_FILES_CONFIRM'				=> [
 		1												=> 'Biztos vagy abban, hogy törlöd a kiválasztott játék fájljait?',
-		2												=> 'Biztos vagy abban, hogy törlöd a kiválasztott játékok fájljait?',
+		2												=> 'Biztos vagy abban, hogy törlöd a kiválasztott játékok fájljait?'
 	],
 	'DELETE_SELECTED_GAME_SAVE_TYPE'					=> 'Összes játék törlése a kiválasztott mentési típusból',
 	'DELETE_SELECTED_GAME_SAVE_TYPE_CONFIRM'			=> 'Biztos vagy benne, hogy törlöd a kiválasztott mentési típus összes játékát?',
@@ -1327,31 +1327,31 @@ $lang = array_merge($lang, [
 	'GAMES_DELETE'										=> 'Játékok törlése',
 	'GAME_DELETED'										=> [
 		1												=> '„%s” játék sikeresen törölve.',
-		2												=> '„%s” játékok sikeresen törölve.',
+		2												=> '„%s” játékok sikeresen törölve.'
 	],
 	'GAME_FILES_DELETED'								=> [
 		1												=> '„%s” játék fájlok sikeresen törölve.',
-		2												=> '„%s” játékok fájljai sikeresen törölve.',
+		2												=> '„%s” játékok fájljai sikeresen törölve.'
 	],
 	'GAME_INSTALL_FILE_NOT_FOUND'						=> [
 		1												=> 'A következő játéknak nem található a telepítő fájlja:<br>%s',
-		2												=> 'A következő játékoknak nem található a telepítő fájljuk:<br>%s',
+		2												=> 'A következő játékoknak nem található a telepítő fájljuk:<br>%s'
 	],
 	'GAME_MOVED'										=> [
 		1												=> '„%s” játék sikeresen áthelyezve a(z) „%s” kategóriába.',
-		2												=> '„%s” játékok sikeresen áthelyezve a(z) „%s” kategóriába.',
+		2												=> '„%s” játékok sikeresen áthelyezve a(z) „%s” kategóriába.'
 	],
 	'GAME_RESET'										=> [
 		1												=> '„%s” játék sikeresen újraindítva.',
-		2												=> '„%s” játékok sikeresen újraindítva.',
+		2												=> '„%s” játékok sikeresen újraindítva.'
 	],
 	'GAME_RESYNCED'										=> [
 		1												=> '„%s” játék sikeresen szinkronizálva lett.',
-		2												=> '„%s” játékok sikeresen szinkronizálva lettek.',
+		2												=> '„%s” játékok sikeresen szinkronizálva lettek.'
 	],
 	'GAME_SCORES_RESET'									=> [
 		1												=> '„%s” játék eredményei sikeresen újraindítva.',
-		2												=> '„%s” játékok eredményei sikeresen újraindítva.',
+		2												=> '„%s” játékok eredményei sikeresen újraindítva.'
 	],
 	'GENERAL_CAT_SETTINGS'								=> 'Általános játék kategória beállítások',
 	'GENERAL_LINK_SETTINGS'								=> 'Általános kapcsolat /link/ beállítások',
@@ -1527,31 +1527,31 @@ Továbbá mentésre kerülnek a játszások száma és az első és utolsó ját
 	'REDIRECT_ACL'										=> '%s Itt beállíthatod a kategória jogosultságait. %s',
 	'RESET_INSTALL_DATE_GAME_SUCCESS'					=> [
 		1												=> 'A „%s” játék sikeresen visszaállításra került és a telepítési dátum a jelen idő lett.',
-		2												=> 'A „%s” játékok sikeresen visszaállításra kerültek és a telepítési dátumok a jelen idő lett.',
+		2												=> 'A „%s” játékok sikeresen visszaállításra kerültek és a telepítési dátumok a jelen idő lett.'
 	],
 	'RESET_INSTALL_DATE_SELECTED_GAME'					=> [
 		1												=> 'Kiválasztott játék telepítési dátumának alaphelyzetbe állítása',
-		2												=> 'Kiválasztott játékok telepítési dátumainak alaphelyzetbe állítása',
+		2												=> 'Kiválasztott játékok telepítési dátumainak alaphelyzetbe állítása'
 	],
 	'RESET_INSTALL_DATE_SELECTED_GAME_CONFIRM'			=> [
 		1												=> 'A kiválasztott játék összes eddigi adata visszaállításra fog kerülni beleértve a szuperbajnok is. Biztos vagy benne, hogy alaphelyzetbe állítod a telepítési dátumot?',
-		2												=> 'A kiválasztott játékok összes eddigi adata visszaállításra fog kerülni beleértve a szuperbajnokok is. Biztos vagy benne, hogy alaphelyzetbe állítod a telepítési dátumot?',
+		2												=> 'A kiválasztott játékok összes eddigi adata visszaállításra fog kerülni beleértve a szuperbajnokok is. Biztos vagy benne, hogy alaphelyzetbe állítod a telepítési dátumot?'
 	],
 	'RESET_SELECTED_GAME'								=> [
 		1												=> 'Kiválasztott játék újraindítása',
-		2												=> 'Kiválasztott játékok újraindítása',
+		2												=> 'Kiválasztott játékok újraindítása'
 	],
 	'RESET_SELECTED_GAME_CONFIRM'						=> [
 		1												=> 'A kiválasztott játék összes adata törlödni fog (Eredmények, játszások, letöltések, értékelések). Biztos vagy benne, hogy újraindítod a kiválasztott játékot?',
-		2												=> 'A kiválasztott játékok összes adata törlődni fog (Eredmények, játszások, letöltések, értékelések). Biztos vagy benne, hogy újraindítod a kiválasztott játékokat?',
+		2												=> 'A kiválasztott játékok összes adata törlődni fog (Eredmények, játszások, letöltések, értékelések). Biztos vagy benne, hogy újraindítod a kiválasztott játékokat?'
 	],
 	'RESET_SELECTED_GAME_SCORES'						=> [
 		1												=> 'Kiválasztott játék eredményeinek törlése',
-		2												=> 'Kiválasztott játékok eredményeinek törlése',
+		2												=> 'Kiválasztott játékok eredményeinek törlése'
 	],
 	'RESET_SELECTED_GAME_SCORES_CONFIRM'				=> [
 		1												=> 'A kiválasztott játék összes elért eredménye törlődni fog. Biztos vagy benne, hogy törlöd a kiválasztott játék eredményeit?',
-		2												=> 'A kiválasztott játékok összes elért eredménye törlődni fog. Biztos vagy benne, hogy törlöd a kiválasztott játékok eredményeit?',
+		2												=> 'A kiválasztott játékok összes elért eredménye törlődni fog. Biztos vagy benne, hogy törlöd a kiválasztott játékok eredményeit?'
 	],
 	'RESET_USER_ALL'									=> 'Felhasználó összes adatának a törlése',
 	'RESET_USER_ALL_CONFIRM'							=> 'Biztos vagy benne, hogy törlöd a kiválasztott felhasználó összes adatát?',
@@ -1591,5 +1591,5 @@ Továbbá mentésre kerülnek a játszások száma és az első és utolsó ját
 
 	'VERTICAL'											=> 'Függőleges',
 
-	'WRONG_CAT_TYPE'									=> 'Egy olyan kategóriához próbáltál meg hozzáadni, egy játékot, vagy linket, ami nem elfogadható. Kizárólag olyan kategória típushoz adhatsz házzá játékokat amelynek a típusa „Kategória játékokkal”.',
+	'WRONG_CAT_TYPE'									=> 'Egy olyan kategóriához próbáltál meg hozzáadni, egy játékot, vagy linket, ami nem elfogadható. Kizárólag olyan kategória típushoz adhatsz házzá játékokat amelynek a típusa „Kategória játékokkal”.'
 ]);

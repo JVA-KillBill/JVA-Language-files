@@ -19,7 +19,7 @@ if (!defined('IN_PHPBB'))
 
 if (empty($lang) || !is_array($lang))
 {
-	$lang = array();
+	$lang = [];
 }
 
 // DEVELOPERS PLEASE NOTE
@@ -292,5 +292,5 @@ Delete browser local storage data:
 	'ARCADE_HELP_FAQ_USER_SET_FAV_MANAGE_ANSWER'		=> 'Here you can remove your added favorite games, or mark and highlight them.',
 	'ARCADE_HELP_FAQ_USER_SET_FAV_MANAGE_QUESTION'		=> 'What is manage favorites?',
 	'ARCADE_HELP_FAQ_USER_SET_IMG_DISABLE_ANSWER'		=> 'You can choose to deactivate it if the page loading is too slowly. For example, you may have a slow internet connection or a slow server connection.',
-	'ARCADE_HELP_FAQ_USER_SET_IMG_DISABLE_QUESTION'		=> 'You want to turn off display of avatars and game images?',
+	'ARCADE_HELP_FAQ_USER_SET_IMG_DISABLE_QUESTION'		=> 'You want to turn off display of avatars and game images?'
 ]);

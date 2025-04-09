@@ -19,7 +19,7 @@ if (!defined('IN_PHPBB'))
 
 if (empty($lang) || !is_array($lang))
 {
-	$lang = array();
+	$lang = [];
 }
 
 // DEVELOPERS PLEASE NOTE
@@ -75,7 +75,7 @@ $lang = array_merge($lang, [
 	'ACP_ARCADE_DELETE_ALL_DATA_SUCCESS'				=> 'Alle gegevens succesvol verwijderd.',
 	'ACP_ARCADE_DELETE_SELECTED_DATA_SUCCESS'			=> [
 		1												=> 'Geselecteerde gegeven is verwijderd.',
-		2												=> 'Geselecteerde gegevens zijn verwijderd.',
+		2												=> 'Geselecteerde gegevens zijn verwijderd.'
 	],
 	'ACP_ARCADE_DISPLAY_AGGREGATED_DATA'				=> 'Samengevoegde gegevens weergeven',
 	'ACP_ARCADE_DISPLAY_ARCADE_RANK'					=> 'Laat arcade rang zien',
@@ -281,7 +281,7 @@ $lang = array_merge($lang, [
 	'ARCADE_ADD_GAME_ID_IGN_CAT_EXPLAIN'				=> 'Als je een spel-ID invoert, wordt dit het spel van het toernooi. Dit heft de categorieselectie op.',
 	'ARCADE_ADD_GAME_SUCCESS'							=> [
 		1												=> 'Het spel “%s” is succesvol geïnstalleerd in de “%s” categorie.',
-		2												=> 'De “%s” spellen zijn succesvol geinstalleerd in de “%s” categorie.',
+		2												=> 'De “%s” spellen zijn succesvol geinstalleerd in de “%s” categorie.'
 	],
 	'ARCADE_ADD_MENU'									=> 'Voeg een nieuw menu toe',
 	'ARCADE_ALLOW_LOCAL_STORAGE'						=> 'Lokale opslag toestaan',
@@ -331,11 +331,11 @@ $lang = array_merge($lang, [
 	'ARCADE_BACKUP_NO_GAMES'							=> 'Er zijn geen spellen in de geselecteerde categorieën.',
 	'ARCADE_BACKUP_SUCCESS'								=> [
 		1												=> 'Er is met succes een back-up gemaakt van de geselecteerde categorie.',
-		2												=> 'Er is met succes een back-up gemaakt van de geselecteerde categorieën.',
+		2												=> 'Er is met succes een back-up gemaakt van de geselecteerde categorieën.'
 	],
 	'ARCADE_BAD_INSTALL_FILE'							=> [
 		1												=> 'Er is een beschadigd of niet beschrijfbaar installatiebestand gedetecteerd. Controleer het volgende bestand: <br>%s',
-		2												=> 'Er zijn corrupte of niet beschrijfbare installatiebestanden gedetecteerd. Controleer de volgende bestanden: <br>%s',
+		2												=> 'Er zijn corrupte of niet beschrijfbare installatiebestanden gedetecteerd. Controleer de volgende bestanden: <br>%s'
 	],
 	'ARCADE_BANNED_EXCLUDE_ALL'							=> 'Alle gebruikers uitsluiten van verbanning',
 	'ARCADE_BANNED_EXCLUDE_ALL_SUCCESS'					=> 'Het opheffen van de ban is voor alle gebruikers succesvol uitgevoerd.',
@@ -510,14 +510,14 @@ $lang = array_merge($lang, [
 	'ARCADE_DOWNLOAD_USER_STATS'						=> 'Download totalen voor %s',
 	'ARCADE_DUPLICATE_GAMENAME'							=> [
 		1												=> 'De met geel gemarkeerde spelnaam wordt meer dan eens vermeld in de lijst.',
-		2												=> 'De namen van de met geel gemarkeerde spellen verschijnen meerdere keren in de lijst.',
+		2												=> 'De namen van de met geel gemarkeerde spellen verschijnen meerdere keren in de lijst.'
 	],
 	'ARCADE_DUPLICATE_GAMENAME_ADD_GAMES'				=> 'Deze spelnaam wordt meer dan eens vermeld',
 	'ARCADE_DUPLICATE_GAMENAME_ERROR'					=> 'De opgegeven spelnaam is al in gebruik.',
 	'ARCADE_DUPLICATE_GAMENAME_INSTALL_GAMES'			=> 'Een spel met deze spelnaam is al geïnstalleerd',
 	'ARCADE_DUPLICATE_INSTALL_GAMENAME'					=> [
 		1												=> 'De spelnaam die groen is gemarkeerd, is hetzelfde als de naam van het spel dat al is geïnstalleerd.',
-		2												=> 'Spellen met de groene naam hebben dezelfde naam als spellen die al zijn geïnstalleerd.',
+		2												=> 'Spellen met de groene naam hebben dezelfde naam als spellen die al zijn geïnstalleerd.'
 	],
 	'ARCADE_EDIT_GAME'									=> 'Bewerk spel',
 	'ARCADE_EDIT_GAME_EXPLAIN'							=> 'Hier kan je iedere informatie over het spel wijzigen. Als het spel overgeërfde spellen bevat, worden de gegevens van die spellen ook automatisch bijgewerkt.<br><em>Houd er rekening mee dat geërfde spelbeschrijvingen andere spelbeschrijvingen alleen updaten als ze 100% overeenkomen.</em>',
@@ -535,7 +535,7 @@ $lang = array_merge($lang, [
 	'ARCADE_FILE_INVALID_EXT'							=> 'Ongeldige bestand extensie: %s',
 	'ARCADE_FILE_NOT_FOUND'								=> [
 		1												=> 'Het “%s” bestand is niet gevonden!',
-		2												=> 'De volgende bestanden konden niet worden gevonden:<br><br>%s',
+		2												=> 'De volgende bestanden konden niet worden gevonden:<br><br>%s'
 	],
 	'ARCADE_FILE_TOO_LARGE'								=> 'Te groot bestand: %s',
 	'ARCADE_FILE_WRONG'									=> 'Het bestand “%s” is corrupt!',
@@ -621,7 +621,7 @@ $lang = array_merge($lang, [
 	'ARCADE_GAME_PROCESSING'							=> 'Even geduld…<br>%1$s<br>Momenteel bezig met het verwerken van spel %2$s van %3$s.',
 	'ARCADE_GAME_REMOVE_FILES_SUCCESS'					=> [
 		1												=> 'Het geselecteerde spelbestand is succesvol verwijderd.',
-		2												=> 'De geselecteerde spelbestanden zijn succesvol verwijderd.',
+		2												=> 'De geselecteerde spelbestanden zijn succesvol verwijderd.'
 	],
 	'ARCADE_GAME_REWARD'								=> 'Beloning',
 	'ARCADE_GAME_REWARD_EXPLAIN'						=> 'Het aantal punten waarmee je wordt beloond voor het behalen van een hoogste score. Stel in op -1 voor geen.',
@@ -686,7 +686,7 @@ $lang = array_merge($lang, [
 	'ARCADE_HIDE_FOUND_REMOVED_GAMES_EXPLAIN'			=> 'Opmerking: De spellen die rood gemarkeerd zijn, waren al geïnstalleerd en verwijderd.',
 	'ARCADE_HIGHLIGHTED_GAME_ALREADY_INSTALLED'			=> [
 		1												=> 'Het gemarkeerde spel is al geïnstalleerd.',
-		2												=> 'De gemarkeerde spellen zijn al geïnstalleerd.',
+		2												=> 'De gemarkeerde spellen zijn al geïnstalleerd.'
 	],
 	'ARCADE_HTML5_GAMES'								=> 'HTML5 spellen',
 	'ARCADE_ICONS_COUNT'								=> 'Aantal pictogrammen',
@@ -793,15 +793,15 @@ $lang = array_merge($lang, [
 	'ARCADE_MENU_CREATED'								=> 'Het nieuwe menu is succesvol aangemaakt.',
 	'ARCADE_MENU_DELETE'								=> [
 		1												=> 'Verwijder het menu',
-		2												=> 'Verwijder de menus',
+		2												=> 'Verwijder de menus'
 	],
 	'ARCADE_MENU_DELETED'								=> [
 		1												=> 'Het menu is succesvol verwijderd.',
-		2												=> 'Het menu en de submenu’s zijn succesvol verwijderd.',
+		2												=> 'Het menu en de submenu’s zijn succesvol verwijderd.'
 	],
 	'ARCADE_MENU_DELETE_CONFIRM'						=> [
 		1												=> 'Ben je zeker dat je dit menu wil verwijderen?',
-		2												=> 'Ben je zeker dat je dit menu samen met de submenus wil verwijderen?',
+		2												=> 'Ben je zeker dat je dit menu samen met de submenus wil verwijderen?'
 	],
 	'ARCADE_MENU_EDIT_EXPLAIN'							=> 'Met het onderstaande formulier kan je dit menu item aanpassen.',
 	'ARCADE_MENU_FA'									=> 'Menupictogram',
@@ -847,7 +847,7 @@ $lang = array_merge($lang, [
 	'ARCADE_NO_DISPLAY'									=> 'Geen weergave',
 	'ARCADE_NO_GAMES_SELECT_CAT'						=> [
 		1												=> 'Er zijn geen spellen in de geselecteerde categorie.',
-		2												=> 'Er zijn geen spellen in de geselecteerde categorieën.',
+		2												=> 'Er zijn geen spellen in de geselecteerde categorieën.'
 	],
 	'ARCADE_NO_INSTALL_GAME'							=> 'Geen spellen geïnstalleerd!',
 	'ARCADE_NO_SELECT_CATS'								=> 'Je hebt geen categorie geselecteerd.',
@@ -861,7 +861,7 @@ $lang = array_merge($lang, [
 	'ARCADE_NUM_RANDOM_GAMES_EXPLAIN'					=> 'Spellen worden willekeurig geselecteerd op basis van de opgegeven waarde.<br>Deze waarde kan liggen tussen (%s - %s).',
 	'ARCADE_OLD_GAME_UNINSTALL'							=> [
 		1												=> 'Het roze gemarkeerde spel was eerder geïnstalleerd maar is verwijderd.',
-		2												=> 'Roze gemarkeerde spellen zijn in het verleden geïnstalleerd, maar zijn verwijderd.',
+		2												=> 'Roze gemarkeerde spellen zijn in het verleden geïnstalleerd, maar zijn verwijderd.'
 	],
 	'ARCADE_OLD_GAME_UNINSTALL_DATE'					=> 'Verwijderingsdatum: %s, Reden %s',
 	'ARCADE_ONLINE_TIME'								=> 'Wie speelt er gedurende deze tijd',
@@ -1075,7 +1075,7 @@ $lang = array_merge($lang, [
 		1												=> 'Nieuwe score',
 		2												=> 'Eerste score en nieuwe hoogste score',
 		3												=> 'Nieuwe super hoogste score',
-		4												=> 'Eerste score en nieuwe super hoogste score',
+		4												=> 'Eerste score en nieuwe super hoogste score'
 	],
 	'ARCADE_SHOUT_SCORE_TYPE_EXPLAIN'					=> 'Het geselecteerde score type zal te zien zijn in de shoutbox.',
 	'ARCADE_SIZE'										=> 'Grootte',
@@ -1128,7 +1128,7 @@ $lang = array_merge($lang, [
 	'ARCADE_TOUR_MIN_GAMES'								=> 'Minimum aantal spellen',
 	'ARCADE_TOUR_MIN_GAMES_CAT_ERROR'					=> [
 		1												=> 'De geselecteerde categorie bevat niet genoeg spellen. Minimum aantal spellen: %s',
-		2												=> 'De geselecteerde categorieën bevatten niet genoeg spellen. Minimum aantal spellen: %s',
+		2												=> 'De geselecteerde categorieën bevatten niet genoeg spellen. Minimum aantal spellen: %s'
 	],
 	'ARCADE_TOUR_MIN_GAMES_ERROR'						=> 'Het aantal spellen “%s” is te weinig, je moet minimaal “%s” spellen kiezen.',
 	'ARCADE_TOUR_MIN_GAMES_EXPLAIN'						=> 'Wanneer je een toernooi aanmaakt, kun je een minimaal aantal spellen kiezen voor het toernooi.',
@@ -1161,12 +1161,12 @@ $lang = array_merge($lang, [
 	'ARCADE_TOUR_START_TIME_EXPLAIN'					=> 'Toernooi starttijd<br>Geef de datum en tijd in 24 uur “YYYY-MM-DD HH:MM” formaat in.',
 	'ARCADE_UNPACK_DISPLAY_GAMES_EXISTING'				=> [
 		1												=> 'Getoonde spel is al geinstalleerd',
-		2												=> 'Getoonde spellen zijn al geinstalleerd',
+		2												=> 'Getoonde spellen zijn al geinstalleerd'
 	],
 	'ARCADE_UNPACK_GAMES'								=> 'Spellen uitpakken',
 	'ARCADE_UNPACK_GAMES_EXISTING'						=> [
 		1												=> 'In de map die wacht op het uitpakken werd een spel gevonden dat al was geïnstalleerd, dus dit spel is uit de lijst gefilterd. Als je dit spel echter weer wilt uitpakken, bijvoorbeeld omdat het gerepareerd is, gebruik dan de “Getoonde spel is al geinstalleerd” knop.',
-		2												=> 'In de map die wacht op het uitpakken werden spellen gevonden dat al waren geïnstalleerd, dus die spellen zijn uit de lijst gefilterd. Als je die spellen echter weer wilt uitpakken, bijvoorbeeld omdat ze gerepareerd zijn, gebruik dan de “Getoonde spellen zijn al geinstalleerd” knop.',
+		2												=> 'In de map die wacht op het uitpakken werden spellen gevonden dat al waren geïnstalleerd, dus die spellen zijn uit de lijst gefilterd. Als je die spellen echter weer wilt uitpakken, bijvoorbeeld omdat ze gerepareerd zijn, gebruik dan de “Getoonde spellen zijn al geinstalleerd” knop.'
 	],
 	'ARCADE_UNPACK_GAMES_FOUND_READ'					=> 'Aantal spellen dat wacht om te worden uitgepakt is %s, van welke %s gelezen zijn.',
 	'ARCADE_UNPACK_GAMES_FOUND_READ_ALL'				=> 'Aantal spellen dat wacht om te worden uitgepakt is %s',
@@ -1174,17 +1174,17 @@ $lang = array_merge($lang, [
 	'ARCADE_UNPACK_GAMES_LIMIT_EXPLAIN'					=> 'Maximum aantal spellen dat tegelijkertijd kan worden uitgepakt.',
 	'ARCADE_UNPACK_GAME_ERROR'							=> [
 		1												=> 'Spel “%s” is zonder succes uitgepakt. Zorg ervoor dat het bestand overeenstemmend is met de arcade. Als dit een <em>tar</em> bestand is, zorg er dan voor dat het is gemaakt in de indeling <em>UStar</em> format.<br>Vergewis je er bovendien van dat de geüploade bestandsnaam hetzelfde is als de originele bestandsnaam. (Kleine/Grote letters).',
-		2												=> 'Spellen “%s” zijn zonder succes uitgepakt. Zorg ervoor dat de bestanden overeenstemmend zijn met de arcade. Als dit <em>tar</em> bestanden zijn, zorg er dan voor dat ze zijn gemaakt in de indeling <em>UStar</em> format.<br>Zorg er bovendien voor dat de naam van de geüploade bestanden hetzelfde is als de oorspronkelijke bestandsnaam. (Kleine/Grote letters).',
+		2												=> 'Spellen “%s” zijn zonder succes uitgepakt. Zorg ervoor dat de bestanden overeenstemmend zijn met de arcade. Als dit <em>tar</em> bestanden zijn, zorg er dan voor dat ze zijn gemaakt in de indeling <em>UStar</em> format.<br>Zorg er bovendien voor dat de naam van de geüploade bestanden hetzelfde is als de oorspronkelijke bestandsnaam. (Kleine/Grote letters).'
 	],
 	'ARCADE_UNPACK_GAME_PATH'							=> 'Spelpad uitpakken',
 	'ARCADE_UNPACK_GAME_PATH_EXPLAIN'					=> 'Dit is het pad waar de spellen worden opgeslaan om te worden uitgepakt. Ze worden hierin gecomprimeerd opgeslaan en hebben dezelfde naam als de scorevariabele.',
 	'ARCADE_UNPACK_GAME_SUCCESS'						=> [
 		1												=> 'Spel “%s” is succesvol uitgepakt.',
-		2												=> 'Spellen “%s” zijn succesvol uitgepakt.',
+		2												=> 'Spellen “%s” zijn succesvol uitgepakt.'
 	],
 	'ARCADE_UNPACK_INSTALL_GAME'						=> [
 		1												=> 'Het gemarkeerde rode spel is al geïnstalleerd, maar sommige bestanden ontbreken, dus uitpakken is toegestaan.',
-		2												=> 'De gemarkeerde rode spellen zijn al geïnstalleerd, maar er ontbreken enkele bestanden, dus uitpakken is toegestaan.',
+		2												=> 'De gemarkeerde rode spellen zijn al geïnstalleerd, maar er ontbreken enkele bestanden, dus uitpakken is toegestaan.'
 	],
 	'ARCADE_UPDATE_GAME_DATA_PROC_EXPLAIN'				=> 'Je kan hieronder zien hoever het uploadproces is. Sluit je browser pas aan het einde van het proces.',
 	'ARCADE_UPLOAD_GAME'								=> 'Upload spellen',
@@ -1192,7 +1192,7 @@ $lang = array_merge($lang, [
 	'ARCADE_UPLOAD_GAME_INP_EXPLAIN'					=> '<em>Toegestane bestandsextensies: (<strong>%s</strong>)<br>aantal spellen dat tegelijk kan worden geüpload: <strong>%s</strong>.</em>',
 	'ARCADE_UPLOAD_GAME_SUCCESS'						=> [
 		1												=> 'Het %s spel is succesvol geupload.',
-		2												=> 'De %s spellen zijn succesvol geupload.',
+		2												=> 'De %s spellen zijn succesvol geupload.'
 	],
 	'ARCADE_UPLOAD_LIMIT'								=> 'Spellen upload limiet',
 	'ARCADE_UPLOAD_LIMIT_ERROR'							=> 'Je hebt het maximum aantal bestanden dat je kan uploaden overschreden. Je wilde %1$s bestanden uploaden, maar het maximum is %2$s.',
@@ -1295,11 +1295,11 @@ $lang = array_merge($lang, [
 	'DELETE_SELECTED_GAMES'								=> 'Geselecteerde spellen verwijderen',
 	'DELETE_SELECTED_GAME_CONFIRM'						=> [
 		1												=> 'Weet je zeker dat je het geselecteerde spel wilt verwijderen?',
-		2												=> 'Weet je zeker dat je de geselecteerde spellen wilt verwijderen?',
+		2												=> 'Weet je zeker dat je de geselecteerde spellen wilt verwijderen?'
 	],
 	'DELETE_SELECTED_GAME_FILES_CONFIRM'				=> [
 		1												=> 'Weet je zeker dat je de bestanden in het geselecteerde spel wilt verwijderen?',
-		2												=> 'Weet je zeker dat je de geselecteerde spelbestanden wilt verwijderen?',
+		2												=> 'Weet je zeker dat je de geselecteerde spelbestanden wilt verwijderen?'
 	],
 	'DELETE_SELECTED_GAME_SAVE_TYPE'					=> 'Verwijder alle spellen van het geselecteerde opslagtype',
 	'DELETE_SELECTED_GAME_SAVE_TYPE_CONFIRM'			=> 'Weet je zeker dat je alle spellen van het geselecteerde opslagtype wilt verwijderen?',
@@ -1327,31 +1327,31 @@ $lang = array_merge($lang, [
 	'GAMES_DELETE'										=> 'Verwijder spellen',
 	'GAME_DELETED'										=> [
 		1												=> 'Spel “%s” is successvol verwijderd.',
-		2												=> 'Spellen “%s” zijn successvol verwijderd.',
+		2												=> 'Spellen “%s” zijn successvol verwijderd.'
 	],
 	'GAME_FILES_DELETED'								=> [
 		1												=> '“%s” spelbestand is succesvol verwijderd.',
-		2												=> '“%s” spelbestanden zijn succesvol verwijderd.',
+		2												=> '“%s” spelbestanden zijn succesvol verwijderd.'
 	],
 	'GAME_INSTALL_FILE_NOT_FOUND'						=> [
 		1												=> 'Het installatiebestand voor het volgende spel is niet gevonden:<br>%s',
-		2												=> 'Het installatiebestand voor de volgende spellen is niet gevonden:<br>%s',
+		2												=> 'Het installatiebestand voor de volgende spellen is niet gevonden:<br>%s'
 	],
 	'GAME_MOVED'										=> [
 		1												=> '“%s” spel is succesvol verplaatst naar categorie “%s”.',
-		2												=> '“%s” spellen zijn succesvol verplaatst naar categorie “%s”.',
+		2												=> '“%s” spellen zijn succesvol verplaatst naar categorie “%s”.'
 	],
 	'GAME_RESET'										=> [
 		1												=> '“%s” is succesvol herstart.',
-		2												=> '“%s” zijn succesvol herstart.',
+		2												=> '“%s” zijn succesvol herstart.'
 	],
 	'GAME_RESYNCED'										=> [
 		1												=> '“%s” spel is succesvol gesynchroniseerd.',
-		2												=> '“%s” spellen zijn succesvol gesynchroniseerd.',
+		2												=> '“%s” spellen zijn succesvol gesynchroniseerd.'
 	],
 	'GAME_SCORES_RESET'									=> [
 		1												=> '“%s” spelresultaat is succesvol opnieuw opgestart.',
-		2												=> '“%s” spelresultaten zijn succesvol opnieuw opgestart.',
+		2												=> '“%s” spelresultaten zijn succesvol opnieuw opgestart.'
 	],
 	'GENERAL_CAT_SETTINGS'								=> 'Algemene arcade-categorie-instellingen',
 	'GENERAL_LINK_SETTINGS'								=> 'Algemene instellingen voor arcadelinken',
@@ -1527,31 +1527,31 @@ Bovendien worden het aantal keren dat je speelt en de eerste en laatste speeldat
 	'REDIRECT_ACL'										=> 'Nu kun je %spermissies instellen%s voor deze categorie.',
 	'RESET_INSTALL_DATE_GAME_SUCCESS'					=> [
 		1												=> 'Het spel “%s” is met succes gereset en de installatiedatum is ingesteld op de huidige dag.',
-		2												=> 'De spellen “%s” zijn met succes gereset en hun installatiedatum is ingesteld op de huidige dag.',
+		2												=> 'De spellen “%s” zijn met succes gereset en hun installatiedatum is ingesteld op de huidige dag.'
 	],
 	'RESET_INSTALL_DATE_SELECTED_GAME'					=> [
 		1												=> 'Reset de geselecteerde spel-installatiedatum',
-		2												=> 'Reset de geselecteerde installatiedatums van de spellen',
+		2												=> 'Reset de geselecteerde installatiedatums van de spellen'
 	],
 	'RESET_INSTALL_DATE_SELECTED_GAME_CONFIRM'			=> [
 		1												=> 'De totale gegevens van het geselecteerde spel worden gereset, inclusief de superkampioen. Weet je zeker dat je de installatiedatum opnieuw wilt instellen?',
-		2												=> 'De totale gegevens van de geselecteerde spellen worden gereset, inclusief de superkampioenen. Weet je zeker dat je de installatiedatum opnieuw wilt instellen?',
+		2												=> 'De totale gegevens van de geselecteerde spellen worden gereset, inclusief de superkampioenen. Weet je zeker dat je de installatiedatum opnieuw wilt instellen?'
 	],
 	'RESET_SELECTED_GAME'								=> [
 		1												=> 'Reset selecteerde spel',
-		2												=> 'Reset selecteerde spellen',
+		2												=> 'Reset selecteerde spellen'
 	],
 	'RESET_SELECTED_GAME_CONFIRM'						=> [
 		1												=> 'Zodra je dit spel opnieuw instelt, worden alle scores, aantal keren spelen, downloads en beoordelingen gewist. Weet je zeker dat je dit spel wilt resetten?',
-		2												=> 'Zodra je deze spellen reset, worden alle scores, aantal keren spelen, downloads en beoordelingen gewist. Weet je zeker dat je deze spellen wilt resetten?',
+		2												=> 'Zodra je deze spellen reset, worden alle scores, aantal keren spelen, downloads en beoordelingen gewist. Weet je zeker dat je deze spellen wilt resetten?'
 	],
 	'RESET_SELECTED_GAME_SCORES'						=> [
 		1												=> 'Geselecteerde spelscores resetten',
-		2												=> 'Geselecteerde spellenscores resetten',
+		2												=> 'Geselecteerde spellenscores resetten'
 	],
 	'RESET_SELECTED_GAME_SCORES_CONFIRM'				=> [
 		1												=> 'Nadat je dit spel hebt gereset, worden alle scores gewist. Weet je zeker dat je de scores van dit spel wilt resetten?',
-		2												=> 'Zodra je deze spellen opnieuw instelt, worden al hun scores gewist. Weet je zeker dat je deze spelscores opnieuw wilt instellen?',
+		2												=> 'Zodra je deze spellen opnieuw instelt, worden al hun scores gewist. Weet je zeker dat je deze spelscores opnieuw wilt instellen?'
 	],
 	'RESET_USER_ALL'									=> 'Verwijder alle gebruikers gegevens',
 	'RESET_USER_ALL_CONFIRM'							=> 'Weet je zeker dat je alle arcade gegevens van de geselecteerde gebruiker wilt verwijderen?',
@@ -1591,5 +1591,5 @@ Bovendien worden het aantal keren dat je speelt en de eerste en laatste speeldat
 
 	'VERTICAL'											=> 'Verticaal',
 
-	'WRONG_CAT_TYPE'									=> 'Je hebt geprobeerd om een spel aan een categorie toe te voegen dat geen spellen accepteert of een koppeling is. Je kan alleen spellen toevoegen aan een categorie met het type “Categorie met spellen”.',
+	'WRONG_CAT_TYPE'									=> 'Je hebt geprobeerd om een spel aan een categorie toe te voegen dat geen spellen accepteert of een koppeling is. Je kan alleen spellen toevoegen aan een categorie met het type “Categorie met spellen”.'
 ]);

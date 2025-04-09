@@ -19,7 +19,7 @@ if (!defined('IN_PHPBB'))
 
 if (empty($lang) || !is_array($lang))
 {
-	$lang = array();
+	$lang = [];
 }
 
 // DEVELOPERS PLEASE NOTE
@@ -179,5 +179,5 @@ Továbbá a megadott aktiváló kulcsból megtudhatjuk, hogy az érintett webold
 	<li>A „JVA Game Intro” localhost-on való használata nem támogatott, azonban a szoftver futtatható. A localhost-on a várakozási idő alapból 5 másodpercre van beállítva.</li>
 </ul>',
 	'ACP_PHPBB_ARCADE_SYSTEM_INSTRUCTION'			=> 'phpBB Arcade Instrukció',
-	'ACP_PHPBB_ARCADE_SYSTEM_INSTRUCTION_EXPLAIN'	=> 'A „phpBB Arcade” szoftvert a „%1$s” weboldal <a onclick="window.open(this.href); return false;" href="%3$s" title="JVA Licensz">licenszeli</a> és tartja karban.',
+	'ACP_PHPBB_ARCADE_SYSTEM_INSTRUCTION_EXPLAIN'	=> 'A „phpBB Arcade” szoftvert a „%1$s” weboldal <a onclick="window.open(this.href); return false;" href="%3$s" title="JVA Licensz">licenszeli</a> és tartja karban.'
 ]);

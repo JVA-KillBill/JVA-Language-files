@@ -19,7 +19,7 @@ if (!defined('IN_PHPBB'))
 
 if (empty($lang) || !is_array($lang))
 {
-	$lang = array();
+	$lang = [];
 }
 
 // DEVELOPERS PLEASE NOTE
@@ -292,5 +292,5 @@ Lokale opslaggegevens van browser verwijderen:
 	'ARCADE_HELP_FAQ_USER_SET_FAV_MANAGE_ANSWER'		=> 'Hier kun je je favoriete spelletjes toevoegen, verwijderen of markeren.',
 	'ARCADE_HELP_FAQ_USER_SET_FAV_MANAGE_QUESTION'		=> 'Wat betekent favorieten beheren?',
 	'ARCADE_HELP_FAQ_USER_SET_IMG_DISABLE_ANSWER'		=> 'Je kunt er voor kiezen deze functie te deactiveren als de laadtijd van de pagina te langzaam is.',
-	'ARCADE_HELP_FAQ_USER_SET_IMG_DISABLE_QUESTION'		=> 'Wil je de weergave van avatars en spelafbeeldingen uitschakelen?',
+	'ARCADE_HELP_FAQ_USER_SET_IMG_DISABLE_QUESTION'		=> 'Wil je de weergave van avatars en spelafbeeldingen uitschakelen?'
 ]);
