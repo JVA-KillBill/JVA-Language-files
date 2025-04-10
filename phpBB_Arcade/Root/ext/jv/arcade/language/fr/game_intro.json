@@ -12,7 +12,7 @@
 
 	"err":						{
 		"1":					"phpBB Arcade n’est pas activé !",
-		"2":					"Cette version n’est plus prise en charge!\n\nSVP mettre a jour vers la derniere version de phpBB Arcade !",
+		"2":					"Cette version de phpBB Arcade n’est plus prise en charge!\n\nSVP mettre a jour vers la derniere version de phpBB Arcade !",
 		"3":					"Ce site Web enfreint la licence du logiciel phpBB Arcade et a été bloqué !",
 		"4":					"phpBB Arcade ne peut pas être utilisé dans cette plage de domaines !",
 		"5":					"Le phpBB Arcade ne supporte pas l’utilisation de serveur proxy !",
