@@ -12,7 +12,7 @@
 
 	"err":						{
 		"1":					"phpBB Arcade is not activated!",
-		"2":					"This version is no longer supported!\n\nPlease upgrade to the latest release of phpBB Arcade!",
+		"2":					"This version of phpBB Arcade is no longer supported!\n\nPlease upgrade to the latest release of phpBB Arcade!",
 		"3":					"This website is in breach of the license for phpBB Arcade software and has been blocked!",
 		"4":					"phpBB Arcade can not be used in this domain range!",
 		"5":					"The phpBB Arcade does not support the use of proxy server!",
