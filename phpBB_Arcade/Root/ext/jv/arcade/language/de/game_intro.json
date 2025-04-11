@@ -12,7 +12,7 @@
 
 	"err":						{
 		"1":					"Die phpBB Arcade ist nicht aktiviert!",
-		"2":					"Diese Version wird nicht länger unterstützt!\n\nBitte aktualisiere auf die neueste Version des phpBB Arcade!",
+		"2":					"Diese Version von phpBB-Arcade wird nicht länger unterstützt!\n\nBitte aktualisiere auf die neueste Version von phpBB Arcade!",
 		"3":					"Diese Website verletzt die Lizenzbedingungen für die phpBB Arcade-Software und ist gesperrt!",
 		"4":					"phpBB Arcade kann in dieser Domain-Range nicht benutzt werden!",
 		"5":					"Das phpBB Arcade unterstützt die Nutzung eines Proxy-Servers nicht!",
@@ -38,8 +38,8 @@
 	"game_web_file":			"<strong>Datei-Speicherort:</strong> %s",
 
 	"info":						{
-		"1":					"Für weitere Informationen besuchen Sie die JV-Arcade Webseite!",
-		"2":					"Bitte aktualisiere auf die neueste Version des phpBB Arcade!",
+		"1":					"Für weitere Informationen besuche die JV-Arcade Webseite!",
+		"2":					"Bitte aktualisiere auf die neueste Version von phpBB Arcade!",
 		"3":					"Bitte registriere diese Webseite auf der JV-Arcade-Webseite!"
 	},
 	"info_block_close":			"Infoblock schließen",
