@@ -2,7 +2,14 @@
 
 ## 1.0.18 - 2025-xx-xx
 
-- [Added] New javascript variables - Version, phpBBVersion, AssetsVesion, BoardUrl and UserLang.
+- [Added] New javascript variables - Version, phpBBVersion, AssetsVesion, BoardUrl and UserLangName.
+- [Added] New javascript functions - getFileExtension, replace_root_path, error, lang, isNumber and rv.
+			getFileExtension:	Returns the file extension.
+			replace_root_path:	Replaces the value of phpbb_root_path from the file path with the text [ROOT].
+			error:				Currently, it can return three error messages: (file_load_error, js_obj_not_found and js_fun_not_found).
+			lang:				Returns the value associated with the language identifier or the key, if there is no value associated with it.
+			isNumber:			Returns whether the value is a true or false number.
+			rv:					Returns the value of an object, function, or a variable, or the key, if there is no value associated with it.
 
 ## 1.0.17 - 2025-03-26
 
