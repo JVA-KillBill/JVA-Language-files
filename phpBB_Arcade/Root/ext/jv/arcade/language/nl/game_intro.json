@@ -36,7 +36,7 @@
 
 	"msg_err":					{
 		"1":					"phpBB Arcade is niet geactiveerd!",
-		"2":					"Deze versie van phpBB Arcade wordt niet langer ondersteund!<br><br>Alstublieft upgrade naar de laatste versie van de phpBB Arcade!",
+		"2":					"Deze versie van phpBB Arcade wordt niet langer ondersteund!<br><br>Upgrade alsjeblieft naar de laatste versie van de phpBB Arcade!",
 		"3":					"Deze website is in strijd met de licentie voor phpBB Arcade-software en is geblokkeerd!",
 		"4":					"phpBB Arcade kan niet worden gebruikt in dit domeinbereik!",
 		"5":					"De phpBB Arcade ondersteunt het gebruik van een proxyserver niet!",
