@@ -1,5 +1,5 @@
 {
-	"ads_not_blocking":			"A hirdetések blokkolása nem engedélyezett.\nKérlek kapcsold ki ezen a weboldalon a hirdetések blokkolását.",
+	"ads_not_blocking":			"A hirdetések blokkolása nem engedélyezett.<br>Kérlek kapcsold ki ezen a weboldalon a hirdetések blokkolását.",
 
 	"backlight_off":			"Háttérvilágítás kikapcsolása",
 	"backlight_on":				"Háttérvilágítás bekapcsolása",
@@ -10,17 +10,6 @@
 	"delete_game_data":			"Játék adatok törlése",
 	"delete_gd_confirm":		"Biztos vagy benne, hogy törlöd a játék által tárolt adatokat a böngésződből és ezáltal újrakezded a játékot?",
 
-	"err":						{
-		"1":					"A phpBB Arcade nincs aktiválva!",
-		"2":					"Ez a phpBB Arcade verzió már nem támogatott!\n\nKérjük, frissítse a phpBB Arcade a legújabb kiadásra!",
-		"3":					"Ez a weboldal megsértette a phpBB Arcade szoftver engedélyét, ezért blokkolásra került!",
-		"4":					"A phpBB Arcade nem használható ebben a tartományban!",
-		"5":					"A phpBB Arcade nem támogatja a proxi szerver használatát!",
-		"6":					"Ez a weboldal elérte a napi %s lejátszási limitet, így a mai napon már nem játszható több játék. Kérlek látogass vissza holnap.",
-		"7":					"A játék elindításához %s szintű privát kulcs szükséges.",
-		"8":					"Ez a játék, itt nem használható!",
-		"9":					"Ez a játék kitiltva!"
-	},
 	"error_game_data":			"A játék adatai nem találhatóak!",
 
 	"flash_process":			"Flash játék konvertálása, kérlek várj…",
@@ -37,11 +26,6 @@
 	"game_web":					"<strong>Weboldal:</strong> %s",
 	"game_web_file":			"<strong>Fájl helye:</strong> %s",
 
-	"info":						{
-		"1":					"További információért keresse fel a JV-Arcade weboldalt!",
-		"2":					"Kérjük, frissítse a phpBB Arcade a legújabb kiadásra!",
-		"3":					"Kérjük, regisztrálja ezt a weboldalt a JV-Arcade weboldalon!"
-	},
 	"info_block_close":			"Információ blokk bezárása",
 	"info_block_open":			"Információ blokk kinyitása",
 	"instructions":				"Instrukciók",
@@ -49,6 +33,23 @@
 	"jump_activation":			"» Ugrás az aktíváláshoz «",
 
 	"loading":					"Betöltés…",
+
+	"msg_err":					{
+		"1":					"A phpBB Arcade nincs aktiválva!",
+		"2":					"Ez a phpBB Arcade verzió már nem támogatott!<br><br>Kérjük, frissítse a phpBB Arcade a legújabb kiadásra!",
+		"3":					"Ez a weboldal megsértette a phpBB Arcade szoftver engedélyét, ezért blokkolásra került!",
+		"4":					"A phpBB Arcade nem használható ebben a tartományban!",
+		"5":					"A phpBB Arcade nem támogatja a proxi szerver használatát!",
+		"6":					"Ez a weboldal elérte a napi %s lejátszási limitet, így a mai napon már nem játszható több játék. Kérlek látogass vissza holnap.",
+		"7":					"A játék elindításához %s szintű privát kulcs szükséges.",
+		"8":					"Ez a játék, itt nem használható!",
+		"9":					"Ez a játék kitiltva!"
+	},
+	"msg_info":					{
+		"1":					"További információért keresse fel a JV-Arcade weboldalt!",
+		"2":					"Kérjük, frissítse a phpBB Arcade a legújabb kiadásra!",
+		"3":					"Kérjük, regisztrálja ezt a weboldalt a JV-Arcade weboldalon!"
+	},
 
 	"options":					"Opciók",
 

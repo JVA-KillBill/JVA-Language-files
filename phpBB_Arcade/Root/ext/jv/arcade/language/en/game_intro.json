@@ -1,5 +1,5 @@
 {
-	"ads_not_blocking":			"Blocking of advertisements isn’t allowed.\nPlease disable the blocking of advertisements on this website.",
+	"ads_not_blocking":			"Blocking of advertisements isn’t allowed.<br>Please disable the blocking of advertisements on this website.",
 
 	"backlight_off":			"Backlight off",
 	"backlight_on":				"Backlight on",
@@ -10,17 +10,6 @@
 	"delete_game_data":			"Delete game data",
 	"delete_gd_confirm":		"Are you sure you want to delete the data stored by the game from your browser and restart the game?",
 
-	"err":						{
-		"1":					"phpBB Arcade is not activated!",
-		"2":					"This version of phpBB Arcade is no longer supported!\n\nPlease upgrade to the latest release of phpBB Arcade!",
-		"3":					"This website is in breach of the license for phpBB Arcade software and has been blocked!",
-		"4":					"phpBB Arcade can not be used in this domain range!",
-		"5":					"The phpBB Arcade does not support the use of proxy server!",
-		"6":					"This website has reached its daily limit of %s plays, so no more games can be played today. Try it again tomorrow, please.",
-		"7":					"A level %s private key is required to start the game.",
-		"8":					"This game is not usable here!",
-		"9":					"This game is banned!"
-	},
 	"error_game_data":			"The game data can’t be found!",
 
 	"flash_process":			"Convert your Flash game, please wait…",
@@ -37,11 +26,6 @@
 	"game_web":					"<strong>Website:</strong> %s",
 	"game_web_file":			"<strong>File location:</strong> %s",
 
-	"info":						{
-		"1":					"For more information visit the JV-Arcade website!",
-		"2":					"Please upgrade to the latest release of phpBB Arcade!",
-		"3":					"Please register this website on the JV-Arcade website!"
-	},
 	"info_block_close":			"Information block close",
 	"info_block_open":			"Information block open",
 	"instructions":				"Instructions",
@@ -49,6 +33,23 @@
 	"jump_activation":			"» Jump to the Activation «",
 
 	"loading":					"Loading…",
+
+	"msg_err":					{
+		"1":					"phpBB Arcade is not activated!",
+		"2":					"This version of phpBB Arcade is no longer supported!<br><br>Please upgrade to the latest release of phpBB Arcade!",
+		"3":					"This website is in breach of the license for phpBB Arcade software and has been blocked!",
+		"4":					"phpBB Arcade can not be used in this domain range!",
+		"5":					"The phpBB Arcade does not support the use of proxy server!",
+		"6":					"This website has reached its daily limit of %s plays, so no more games can be played today. Try it again tomorrow, please.",
+		"7":					"A level %s private key is required to start the game.",
+		"8":					"This game is not usable here!",
+		"9":					"This game is banned!"
+	},
+	"msg_info":					{
+		"1":					"For more information visit the JV-Arcade website!",
+		"2":					"Please upgrade to the latest release of phpBB Arcade!",
+		"3":					"Please register this website on the JV-Arcade website!"
+	},
 
 	"options":					"Options",
 

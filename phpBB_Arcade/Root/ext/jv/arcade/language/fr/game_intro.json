@@ -1,5 +1,5 @@
 {
-	"ads_not_blocking":			"Le blocage des publicités n’est pas autorisé.\nVeuillez désactiver le blocage des publicités sur ce site web.",
+	"ads_not_blocking":			"Le blocage des publicités n’est pas autorisé.<br>Veuillez désactiver le blocage des publicités sur ce site web.",
 
 	"backlight_off":			"Éteignez le rétroéclairage",
 	"backlight_on":				"Activer le rétroéclairage",
@@ -10,17 +10,6 @@
 	"delete_game_data":			"Supprimer les données du jeu",
 	"delete_gd_confirm":		"Voulez-vous vraiment supprimer les données stockées par le jeu de votre navigateur et redémarrer le jeu ?",
 
-	"err":						{
-		"1":					"phpBB Arcade n’est pas activé !",
-		"2":					"Cette version de phpBB Arcade n’est plus prise en charge !\n\nSVP mettre a jour vers la derniere version de phpBB Arcade !",
-		"3":					"Ce site Web enfreint la licence du logiciel phpBB Arcade et a été bloqué !",
-		"4":					"phpBB Arcade ne peut pas être utilisé dans cette plage de domaines !",
-		"5":					"Le phpBB Arcade ne supporte pas l’utilisation de serveur proxy !",
-		"6":					"Ce site Web a atteint sa limite quotidienne de %s jeux, donc plus aucun jeu ne peut être joué aujourd’hui. Réessayez demain, s’il vous plaît.",
-		"7":					"Une clé privée de niveau %s est nécessaire pour démarrer le jeu.",
-		"8":					"Ce jeu n’est pas utilisable ici !",
-		"9":					"Ce jeu est interdit !"
-	},
 	"error_game_data":			"Les données du jeu sont introuvables !",
 
 	"flash_process":			"Convertissez votre jeu Flash, veuillez patienter…",
@@ -37,11 +26,6 @@
 	"game_web":					"<strong>Site web :</strong> %s",
 	"game_web_file":			"<strong>Emplacement du fichier :</strong> %s",
 
-	"info":						{
-		"1":					"Pour de plus amples informations, veuillez visiter le site de JV-Arcade !",
-		"2":					"SVP mettre a jour vers la derniere version de phpBB Arcade !",
-		"3":					"Veuillez enregistrer ce site Web sur le site Web de JV-Arcade !"
-	},
 	"info_block_close":			"Bloc d’information fermer",
 	"info_block_open":			"Bloc d’information ouvert",
 	"instructions":				"Instructions",
@@ -49,6 +33,23 @@
 	"jump_activation":			"» Aller à l’Activation «",
 
 	"loading":					"Chargement…",
+
+	"msg_err":					{
+		"1":					"phpBB Arcade n’est pas activé !",
+		"2":					"Cette version de phpBB Arcade n’est plus prise en charge !<br><br>SVP mettre a jour vers la derniere version de phpBB Arcade !",
+		"3":					"Ce site Web enfreint la licence du logiciel phpBB Arcade et a été bloqué !",
+		"4":					"phpBB Arcade ne peut pas être utilisé dans cette plage de domaines !",
+		"5":					"Le phpBB Arcade ne supporte pas l’utilisation de serveur proxy !",
+		"6":					"Ce site Web a atteint sa limite quotidienne de %s jeux, donc plus aucun jeu ne peut être joué aujourd’hui. Réessayez demain, s’il vous plaît.",
+		"7":					"Une clé privée de niveau %s est nécessaire pour démarrer le jeu.",
+		"8":					"Ce jeu n’est pas utilisable ici !",
+		"9":					"Ce jeu est interdit !"
+	},
+	"msg_info":					{
+		"1":					"Pour de plus amples informations, veuillez visiter le site de JV-Arcade !",
+		"2":					"SVP mettre a jour vers la derniere version de phpBB Arcade !",
+		"3":					"Veuillez enregistrer ce site Web sur le site Web de JV-Arcade !"
+	},
 
 	"options":					"Options",
 

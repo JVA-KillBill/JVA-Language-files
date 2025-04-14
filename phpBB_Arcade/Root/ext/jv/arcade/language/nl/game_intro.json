@@ -1,5 +1,5 @@
 {
-	"ads_not_blocking":			"Advertentieblokkering is niet toegestaan.\nSchakel ad-blokkering op deze website uit.",
+	"ads_not_blocking":			"Advertentieblokkering is niet toegestaan.<br>Schakel ad-blokkering op deze website uit.",
 
 	"backlight_off":			"Achtergrondverlichting uit",
 	"backlight_on":				"Achtergrondverlichting aan",
@@ -10,17 +10,6 @@
 	"delete_game_data":			"Verwijder spelgegevens",
 	"delete_gd_confirm":		"Weet je zeker dat je de gegevens, die door het spel zijn opgeslaan, uit je browser wilt verwijderen en het spel opnieuw wilt starten?",
 
-	"err":						{
-		"1":					"phpBB Arcade is niet geactiveerd!",
-		"2":					"Deze versie van phpBB Arcade wordt niet langer ondersteund!\n\nAlstublieft upgrade naar de laatste versie van de phpBB Arcade!",
-		"3":					"Deze website is in strijd met de licentie voor phpBB Arcade-software en is geblokkeerd!",
-		"4":					"phpBB Arcade kan niet worden gebruikt in dit domeinbereik!",
-		"5":					"De phpBB Arcade ondersteunt het gebruik van een proxyserver niet!",
-		"6":					"Deze website heeft de dagelijkse limiet van %s plays, spelen bereikt, dus er kunnen vandaag geen spellen meer worden gespeeld. Probeer het morgen opnieuw alsjeblieft.",
-		"7":					"Een privésleutel van niveau %s is vereist om het spel te starten.",
-		"8":					"Dit spel is hier niet bruikbaar!",
-		"9":					"Dit spel is verbannen!"
-	},
 	"error_game_data":			"Speldata niet gevonden!",
 
 	"flash_process":			"Flash spel word geconverteerd, even geduld…",
@@ -37,11 +26,6 @@
 	"game_web":					"<strong>Website:</strong> %s",
 	"game_web_file":			"<strong>Bestandslocatie:</strong> %s",
 
-	"info":						{
-		"1":					"Voor meer informatie bezoek de website van de JV-Arcade!",
-		"2":					"Alstublieft upgrade naar de laatste versie van de phpBB Arcade!",
-		"3":					"Gelieve deze website op de website van JV-Arcade te registreren!"
-	},
 	"info_block_close":			"Sluit informatieblok",
 	"info_block_open":			"Open informatieblok",
 	"instructions":				"Instructies",
@@ -49,6 +33,23 @@
 	"jump_activation":			"» Ga naar Activatie «",
 
 	"loading":					"Laden…",
+
+	"msg_err":					{
+		"1":					"phpBB Arcade is niet geactiveerd!",
+		"2":					"Deze versie van phpBB Arcade wordt niet langer ondersteund!<br><br>Alstublieft upgrade naar de laatste versie van de phpBB Arcade!",
+		"3":					"Deze website is in strijd met de licentie voor phpBB Arcade-software en is geblokkeerd!",
+		"4":					"phpBB Arcade kan niet worden gebruikt in dit domeinbereik!",
+		"5":					"De phpBB Arcade ondersteunt het gebruik van een proxyserver niet!",
+		"6":					"Deze website heeft de dagelijkse limiet van %s plays, spelen bereikt, dus er kunnen vandaag geen spellen meer worden gespeeld. Probeer het morgen opnieuw alsjeblieft.",
+		"7":					"Een privésleutel van niveau %s is vereist om het spel te starten.",
+		"8":					"Dit spel is hier niet bruikbaar!",
+		"9":					"Dit spel is verbannen!"
+	},
+	"msg_info":					{
+		"1":					"Voor meer informatie bezoek de website van de JV-Arcade!",
+		"2":					"Alstublieft upgrade naar de laatste versie van de phpBB Arcade!",
+		"3":					"Gelieve deze website op de website van JV-Arcade te registreren!"
+	},
 
 	"options":					"Opties",
 

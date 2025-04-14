@@ -1,5 +1,5 @@
 {
-	"ads_not_blocking":			"Das Blockieren von Werbeeinblendungen ist nicht erlaubt.\nBitte deaktiviere deinen Ad-Blocker auf dieser Webseite.",
+	"ads_not_blocking":			"Das Blockieren von Werbeeinblendungen ist nicht erlaubt.<br>Bitte deaktiviere deinen Ad-Blocker auf dieser Webseite.",
 
 	"backlight_off":			"Licht aus",
 	"backlight_on":				"Licht an",
@@ -10,17 +10,6 @@
 	"delete_game_data":			"Spieldaten löschen",
 	"delete_gd_confirm":		"Bist du sicher, dass du die von deinem Browser gespeicherten Spieldaten löschen und das Spiel neu starten möchtest?",
 
-	"err":						{
-		"1":					"Die phpBB Arcade ist nicht aktiviert!",
-		"2":					"Diese Version von phpBB-Arcade wird nicht länger unterstützt!\n\nBitte aktualisiere auf die neueste Version von phpBB Arcade!",
-		"3":					"Diese Website verletzt die Lizenzbedingungen für die phpBB Arcade-Software und ist gesperrt!",
-		"4":					"phpBB Arcade kann in dieser Domain-Range nicht benutzt werden!",
-		"5":					"Das phpBB Arcade unterstützt die Nutzung eines Proxy-Servers nicht!",
-		"6":					"Diese Webseite hat ihre tägliche Begrenzung auf %s Spielstarts erreicht, so dass heute keine weiteren Spiele gespielt werden können. Versuche es bitte morgen noch einmal.",
-		"7":					"Zum Starten des Spiels ist ein privater Schlüssel der Stufe %s erforderlich.",
-		"8":					"Dieses Spiel kann hier nicht verwendet werden!",
-		"9":					"Dieses Spiel wurde gesperrt!"
-	},
 	"error_game_data":			"Die Spieldaten können nicht gefunden werden!",
 
 	"flash_process":			"Konvertiere dein Flash-Spiel, bitte warte…",
@@ -37,11 +26,6 @@
 	"game_web":					"<strong>Webseite:</strong> %s",
 	"game_web_file":			"<strong>Datei-Speicherort:</strong> %s",
 
-	"info":						{
-		"1":					"Für weitere Informationen besuche die JV-Arcade Webseite!",
-		"2":					"Bitte aktualisiere auf die neueste Version von phpBB Arcade!",
-		"3":					"Bitte registriere diese Webseite auf der JV-Arcade-Webseite!"
-	},
 	"info_block_close":			"Infoblock schließen",
 	"info_block_open":			"Infoblock öffnen",
 	"instructions":				"Spielhinweise",
@@ -49,6 +33,23 @@
 	"jump_activation":			"» Gehe zur Aktivierung «",
 
 	"loading":					"Laden…",
+
+	"msg_err":					{
+		"1":					"Die phpBB Arcade ist nicht aktiviert!",
+		"2":					"Diese Version von phpBB-Arcade wird nicht länger unterstützt!<br><br>Bitte aktualisiere auf die neueste Version von phpBB Arcade!",
+		"3":					"Diese Website verletzt die Lizenzbedingungen für die phpBB Arcade-Software und ist gesperrt!",
+		"4":					"phpBB Arcade kann in dieser Domain-Range nicht benutzt werden!",
+		"5":					"Das phpBB Arcade unterstützt die Nutzung eines Proxy-Servers nicht!",
+		"6":					"Diese Webseite hat ihre tägliche Begrenzung auf %s Spielstarts erreicht, so dass heute keine weiteren Spiele gespielt werden können. Versuche es bitte morgen noch einmal.",
+		"7":					"Zum Starten des Spiels ist ein privater Schlüssel der Stufe %s erforderlich.",
+		"8":					"Dieses Spiel kann hier nicht verwendet werden!",
+		"9":					"Dieses Spiel wurde gesperrt!"
+	},
+	"msg_info":					{
+		"1":					"Für weitere Informationen besuche die JV-Arcade Webseite!",
+		"2":					"Bitte aktualisiere auf die neueste Version von phpBB Arcade!",
+		"3":					"Bitte registriere diese Webseite auf der JV-Arcade-Webseite!"
+	},
 
 	"options":					"Optionen",
 

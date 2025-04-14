@@ -3,6 +3,7 @@
 ## 7.7.8 - 2025-xx-xx
 
 - [Fixed] Arcade forum topics for guests gave a javascript error.
+- [Fixed] Arcade forum topics, the Html5 watermark has been associated with each image.
 - [Fixed] Images of game recommendations in the played category had an incorrect watermark.
 - [Fixed] Restarting the game did not stop old counters.
 
