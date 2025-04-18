@@ -11,7 +11,7 @@
 			isNumber:			Returns whether the value is a true or false number.
 			ScreenLock:			Lock a landscape or portrait screen. (Only for Android system).
 			ScreenUnlock:		Unlock screen rotation. (Only for Android system).
-			rv:					Returns the value of an object, function, or a variable, or the key, if there is no value associated with it.
+			rv:					Returns the value of an object, function, a variable, or the key, if there is no value associated with it.
 
 - [Modified] Requirement - phpBB 3.3.15 or later.
 
