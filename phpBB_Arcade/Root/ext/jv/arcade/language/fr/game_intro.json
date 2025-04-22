@@ -13,6 +13,7 @@
 	"error_game_data":			"Les données du jeu sont introuvables !",
 
 	"flash_process":			"Convertissez votre jeu Flash, veuillez patienter…",
+	"framework_not_defined":	"Le niveau du cadre du jeu n’est pas défini !",
 	"framework_not_found":		"Cadre de jeu introuvable !",
 	"fullscreen_no_support":	"Le mode plein écran n’est pas pris en charge par ce navigateur !",
 	"fullscreen_off":			"Écran normal",

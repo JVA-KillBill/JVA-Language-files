@@ -13,6 +13,7 @@
 	"error_game_data":			"The game data can’t be found!",
 
 	"flash_process":			"Convert your Flash game, please wait…",
+	"framework_not_defined":	"The game framework level is not defined!",
 	"framework_not_found":		"Game framework not found!",
 	"fullscreen_no_support":	"Full screen mode isn’t supported by this browser!",
 	"fullscreen_off":			"Normal screen",

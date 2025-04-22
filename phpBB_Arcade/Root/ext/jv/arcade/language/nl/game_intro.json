@@ -13,6 +13,7 @@
 	"error_game_data":			"Speldata niet gevonden!",
 
 	"flash_process":			"Flash spel word geconverteerd, even geduld…",
+	"framework_not_defined":	"Het niveau van het spelkader is niet gedefinieerd!",
 	"framework_not_found":		"Spelkader niet gevonden!",
 	"fullscreen_no_support":	"De modus volledig scherm wordt niet ondersteund door deze browser!",
 	"fullscreen_off":			"Normaal scherm",

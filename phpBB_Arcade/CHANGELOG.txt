@@ -1,18 +1,22 @@
 # Changelog
 
-## 7.7.8 - 2025-xx-xx
+## 7.7.8 - 2025-04-22
 
 - [Fixed] Arcade forum topics for guests gave a javascript error.
 - [Fixed] Arcade forum topics, the Html5 watermark has been associated with each image.
 - [Fixed] Images of game recommendations in the played category had an incorrect watermark.
 - [Fixed] Restarting the game did not stop old counters.
 
+- [Modified] Play game - If a game has the same width and height, it will automatically be marked as a non-rotatable game when the game is launched, so the rotate button will not be visible in the game menu. But in case of device rotation, the game will automatically rotating and the "Device rotation warning" will not be active in this case.
+- [Modified] Play game - If a game cannot be rotated and the user is using a full-screen display, the display of Android devices will be locked with the display which the game supports, such as landscape or portrait. So the device will only rotate the game if the degree of rotation is 180° compared to the display of the game.
 - [Modified] Requirement JVA - Core 1.0.18 or later.
 - [Modified] Requirement phpBB 3.3.15 or later.
 
 - [Added] Game Intro - If the preloader detects an incorrect file load, it displays the path to the affected file in the error message.
 - [Added] Game Intro - Use language file instead of texts imported from html file.
 - [Added] New language file - game_intro.json
+
+- [Updated] Ruffle emulator (2025-04-22) for release.
 
 ## 7.7.7 - 2025-03-26
 
