@@ -13,8 +13,8 @@
 	"error_game_data":			"Die Spieldaten können nicht gefunden werden!",
 
 	"flash_process":			"Konvertiere dein Flash-Spiel, bitte warte…",
-	"framework_not_defined":	"",
-	"framework_not_found":		"Game Framework nicht gefunden!",
+	"framework_not_defined":	"Das Game-Framework-Level ist nicht definiert!",
+	"framework_not_found":		"Game-Framework nicht gefunden!",
 	"fullscreen_no_support":	"Der Vollbildmodus wird von diesem Browser nicht unterstützt!",
 	"fullscreen_off":			"Normale Anzeige",
 	"fullscreen_on":			"Vollbild",
