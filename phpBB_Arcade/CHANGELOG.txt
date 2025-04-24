@@ -1,6 +1,13 @@
 # Changelog
 
-## 7.7.8 - 2025-04-22
+## 7.7.9 - 2025-xx-xx
+
+- [Fixed] Display super champion – If the Super Champion and the current champion of the game are not the same user, then in the event of a tie, the Super Champion must be shown. In the event of a tie, the Super Champion is always the one who achieved the score earlier.
+
+- [Modified] Display caterory/games/Your best - We leave the place of our own best score empty if you have no score and if you did not have the permission to play.
+- [Modified] Display tournament/tour_name/Your best - We leave the place of our own best score empty if you have no score and if you did not have the permission to play.
+
+## 7.7.8 - 2025-04-23
 
 - [Fixed] Arcade forum topics for guests gave a javascript error.
 - [Fixed] Arcade forum topics, the Html5 watermark has been associated with each image.
