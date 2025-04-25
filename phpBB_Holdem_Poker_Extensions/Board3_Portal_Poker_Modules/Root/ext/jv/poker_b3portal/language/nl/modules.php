@@ -41,7 +41,7 @@ $lang = array_merge($lang, [
 	'POKER_EXT_B3PORTAL_LEAST_PLAYED_USERS_TITLE'	=> 'Poker - Minst gespeelde gebruikers',
 	'POKER_EXT_B3PORTAL_LONGEST_PLAYTIME_TITLE'		=> 'Poker - Langste speltijd',
 	'POKER_EXT_B3PORTAL_MOST_PLAYED_USERS_TITLE'	=> 'Poker - Meest spelende gebruikers',
-	// 'POKER_EXT_B3PORTAL_SHORTEST_PLAYTIME_TITLE'	=> 'Poker - Kortste speeltijd',
+	'POKER_EXT_B3PORTAL_SHORTEST_PLAYTIME_TITLE'	=> 'Poker - Kortste speeltijd',
 	'POKER_EXT_B3PORTAL_TOUR_LEADERS'				=> 'Poker toernooileiders',
 	'POKER_EXT_B3PORTAL_WHO_IS_PLAYING'				=> 'Wie speelt er in de poker kamers?'
 ]);
