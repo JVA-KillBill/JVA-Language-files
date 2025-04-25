@@ -3,9 +3,9 @@
 *
 * @package phpBB Holdem Póker
 * @version $Id$
-* @author 2011-2022 KillBill
-* @copyright (c) 2014-2022 https://jv-arcade.com/ - https://jv-arcade.com/contact
-* @license https://jv-arcade.com/License.html JVA License v1
+* @author 2011-2025 KillBill
+* @copyright (c) 2014-2025 https://jv-arcade.com/ - https://jv-arcade.com/contact
+* @license https://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
 *
 */
 
@@ -19,7 +19,7 @@ if (!defined('IN_PHPBB'))
 
 if (empty($lang) || !is_array($lang))
 {
-	$lang = array();
+	$lang = [];
 }
 
 // DEVELOPERS PLEASE NOTE
@@ -35,7 +35,7 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 // Some characters you may want to copy&paste: ‚ ‘ ’ « » „ “ ” …
 
-$lang = array_merge($lang, array(
+$lang = array_merge($lang, [
 	'ACL_A_JV_POKER'				=> 'Kezelheti a póker újraindítását',
 	'ACL_A_JV_POKER_RADIO_DELETE'	=> 'Törölhet rádió állomást',
 	'ACL_A_JV_POKER_RADIO_MANAGE'	=> 'Kezelheti a rádiót',
@@ -48,5 +48,5 @@ $lang = array_merge($lang, array(
 	'ACL_U_JV_POKER'				=> 'Használhatja a pókert',
 	'ACL_U_JV_POKER_PLAY'			=> 'Játszhatja a pókert. <em>Ez az opció csak a regisztrált felhasználókra érvényes.</em>',
 	'ACL_U_JV_POKER_SHOUT'			=> 'Használhatja az üzenőfalat. <em>Ez az opció csak a regisztrált felhasználókra érvényes.</em>',
-	'ACL_U_JV_POKER_STATS'			=> 'Megtekintheti a statisztikai adatokat',
-));
+	'ACL_U_JV_POKER_STATS'			=> 'Megtekintheti a statisztikai adatokat'
+]);

@@ -36,17 +36,17 @@ if (empty($lang) || !is_array($lang))
 // Some characters you may want to copy&paste: ‚ ‘ ’ « » „ “ ” …
 
 $lang = array_merge($lang, [
-	'ACL_A_JV_POKER'				=> 'Can manage poker reset',
-	'ACL_A_JV_POKER_RADIO_DELETE'	=> 'Can delete radio station',
-	'ACL_A_JV_POKER_RADIO_MANAGE'	=> 'Can manage radio',
-	'ACL_A_JV_POKER_ROOMS_DELETE'	=> 'Can delete poker rooms',
-	'ACL_A_JV_POKER_ROOMS_MANAGE'	=> 'Can manage poker rooms',
-	'ACL_A_JV_POKER_SETTINGS'		=> 'Can manage poker settings',
-	'ACL_A_JV_POKER_STYLES'			=> 'Can manage poker styles',
+	'ACL_A_JV_POKER'				=> 'Peut gérer la réinitialisation du poker',
+	'ACL_A_JV_POKER_RADIO_DELETE'	=> 'Peut supprimer une station de radio',
+	'ACL_A_JV_POKER_RADIO_MANAGE'	=> 'Peut gérer la radio',
+	'ACL_A_JV_POKER_ROOMS_DELETE'	=> 'Peut supprimer des salles de poker',
+	'ACL_A_JV_POKER_ROOMS_MANAGE'	=> 'Peut gérer des salles de poker',
+	'ACL_A_JV_POKER_SETTINGS'		=> 'Peut gérer les paramètres de poker',
+	'ACL_A_JV_POKER_STYLES'			=> 'Peut gérer les styles de poker',
 	'ACL_CAT_JV_POKER'				=> 'Poker',
-	'ACL_M_JV_POKER_MSG_DELETE'		=> 'Can delete messages from the shoutbox archive',
-	'ACL_U_JV_POKER'				=> 'Can use poker',
-	'ACL_U_JV_POKER_PLAY'			=> 'Can play poker. <em>This option applies only to registered users.</em>',
-	'ACL_U_JV_POKER_SHOUT'			=> 'Can use the shoutbox with poker. <em>This option applies only to registered users.</em>',
-	'ACL_U_JV_POKER_STATS'			=> 'Can view stats data of poker'
+	'ACL_M_JV_POKER_MSG_DELETE'		=> 'Peut supprimer des messages de l’archive shoutbox',
+	'ACL_U_JV_POKER'				=> 'Peut utiliser le poker',
+	'ACL_U_JV_POKER_PLAY'			=> 'Peut jouer au poker. <em>Cette option s’applique uniquement aux utilisateurs enregistrés.</em>',
+	'ACL_U_JV_POKER_SHOUT'			=> 'Peut utiliser la shoutbox avec le poker. <em>Cette option ne s’applique qu’aux utilisateurs enregistrés.</em>',
+	'ACL_U_JV_POKER_STATS'			=> 'Peut voir les données de statistiques du poker'
 ]);

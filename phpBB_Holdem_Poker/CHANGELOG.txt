@@ -1,0 +1,421 @@
+# Changelog
+
+## 3.1.9 - 2025-xx-xx
+
+- [Fixed] ACP/Poker/Poker rule - The action url is missing from the form field.
+- [Fixed] The position of the mouse on the radio and bet slider.
+- [Fixed] If we change the radio volume before starting the radio, we get a javascript error.
+- [Fixed] If the bet slider is held and the time expires, the button is held.
+- [Fixed] The slider's bet close button has slipped in Google Chrome.
+- [Fixed] Validation of the highest call value.
+- [Fixed] Automatic "check fold" and "check call" - If the time runs out and the "lasttimer" (movement time) value update is missed, it will cause an error in the next player movement time, plus the action sound is also not correct.
+- [Fixed] Information intended for administrators is visible for users in the header.
+- [Fixed] If we disabled poker, the navigation menu is visible.
+- [Fixed] Display of shoutbox archive if there are no messages, not found ID or no permission poker.
+- [Fixed] The small/big blind can never be more than the user with the second most chips.
+- [Fixed] If a browser in the tray is reopened, the POT chips may be displayed incorrectly.
+- [Fixed] If we enable Ajax running only in the active window, it happened that the display of chips remained in the start position.
+- [Fixed] If we block a user from sitting down, the chairs data will not be updated.
+- [Fixed] Shoutbox archive - Jump to the page.
+- [Fixed] If we limit the number of chairs, the speed of the card deal gets bad values, thus the successive playback of the sounds is also slower.
+- [Fixed] If we turn off the sound, the currently playing sound should stop immediately.
+- [Fixed] Incorrect card evaluation occurred when the table "straight flush" and the user higher "straight" were used. The user cards were identified as a "straight" instead of a table "straight flush".
+- [Fixed] During card presentation, if the winning user stands up or takes a pause, the cards disappear.
+
+- [Modified] ACP/Poker/User data reset has been renamed to ACP/Poker/Reset poker.
+- [Modified] ACP/Poker/Rooms settings - Movement time (Since many people complained that the minimum movement time of 20 seconds was slow, we added the option of 10 and 16 seconds).
+- [Modified] ACP/Poker/Manage rooms - If there is no way to edit, stop and delete the room, the icons become inactive.
+- [Modified] ACP/Poker/Manage rooms/Buy-in amount - You can choose from a pre-made selection list and various variations. In addition to the amounts, the value of the small blind corresponding to the amount is also displayed.
+- [Modified] Small/big blind amount function.
+- [Modified] If we want to raise on the call, the bet must also include the value of the call.
+- [Modified] The bet raise can only be increased by the size of the big blind.
+- [Modified] Place chips on the table feature.
+- [Modified] We've changed the position of the Yes/No buttons in the confirmation field.
+- [Modified] Increase the size of the radio slider, bet slider and close buttons.
+- [Modified] Chips values from (0.01, 0.02, 1, 10, 100, 500, 1000, 2000, 5000, 10000) to (1, 10, 100, 1000, 10000, 100000, 1000000, 10000000, 100000000, 1000000000).
+- [Modified] Increased the maximum chips amount from 186,111.1 to 11,111,111,110.
+- [Modified] Round avatars.
+- [Modified] If the user fold his cards, his avatar will be darker.
+- [Modified] Poker javascript uses the Points.NumberFormat functions of the new "JVA - Core" extension.
+- [Modified] Disable ACP modules when JVA - Core extension is disabled.
+- [Modified] Bet buttons function.
+- [Modified] Displaying the chips placed on the table and in the Pot.
+- [Modified] The champions will be displayed based on the chips earned.
+- [Modified] If someone leaves the chair during the game, it can be occupied immediately, you don't have to wait until the end of the game for the chair to be occupied.
+- [Modified] The lost cards are already darkened using css code.
+- [Modified] Automatic "check fold" and "check call" is only visible during the game and is reset with each new hand.
+- [Modified] When sitting down, we do not send an ajax request to query the user's chips balance in the event that the user does not have enough chips. Because when entering the room, the user's chips balance is already in the memory.
+- [Modified] When choosing a room, you can click on the entire field to enter the room.
+- [Modified] The limit of frequent clicks has been increased from one to three.
+- [Modified] Moving the dealer was placed before the shuffling sound of the cards.
+- [Modified] Acceleration of evaluation, so the user can get up from the table even during this time.
+- [Modified] At the end of the tournament, even during the card presentation time, the winning user can stand up from the table.
+- [Modified] The winning cards are displayed on the chat without abbreviations.
+- [Modified] In the tournament rooms, it is no longer possible to limit the amount of the call.
+- [Modified] The clock display in the room uses the clock of our device.
+- [Modified] Our movement and pause time displays should run smoothly.
+- [Modified] If we enable auto "check fold" or "check call", the bet buttons cannot be visible to us.
+- [Modified] Bets placements starts from zero in every round.
+- [Modified] The check timestamp of the rooms already uses microtime.
+- [Modified] Determining the time of the next tournament.
+- [Modified] During a tournament or normal game, if the server goes offline after the auto stand up all users, the game will be closed and all of the in-game users chips will be refunded as if the game had never taken place.
+- [Modified] If our opponent stand up from the table at the beginning of the game, the animations still run.
+- [Modified] Statistical data is saved only in normal and tournament rooms.
+- [Modified] The warning and confirmation box that appears in the room should always be adapted to the resizing of the room, plus its style has also been modified.
+- [Modified] The fold cards will no longer be displayed during further play, the red hand will be displayed instead.
+- [Modified] We have sped up the game by removing the small/big blind steps, instead the small/big blind are displayed when the cards are dealt.
+- [Modified] If we modify the time of the pause in the admin, the time strip of the users taking a pause in the rooms should also adapt to the new setting.
+- [Modified] New JackPot System - (Users can buy JackPot tickets and win a certain percentage of the JackPot.)
+- [Modified] If two users are playing, the small/big blind should always be exchanged between the two users for a new hand, even if the player stands up and sits down.
+- [Modified] FAQ - It takes into account some settings and the description is displayed accordingly.
+- [Modified] Display of played time - Seconds are displayed only if a user has played for less than 1 minute.
+- [Modified] Normal and tournament rooms can now be used even without installing the "Point system".
+- [Modified] Installed styles always inherit the basic images, except for the sit down, background and table images.
+- [Modified] Many small images have been deleted and an atlas image is used instead, so the game's preload time has been significantly reduced.
+- [Modified] If we remove the permission to play from a player, he can still watch the game. If the player is playing, it is stand up immediately from the practice room, and if he is playing on a normal room, it is stand up from the table only at the end of the game.
+- [Modified] Appearance: If the server is not available.
+						 If we don't have an internet connection.
+						 If we don't have enough chips to sit down.
+- [Modified] If two browsers are open at the same time and we turn on/off the sound of the game or shoutbox, both browsers have to adjust.
+- [Modified] If "Safe Bets" is enabled and a player intentionally presses "ALL-IN" and stand up from the table, only then the user who held this particular call or part of it can win that amount. If everyone folds, then the extra chips will belong to the Bank, which we will call Profit. So everyone can only win as many chips as they were able to call, the rest of the chips will be returned to the raiser if they are still at the table, if not then to the bank.
+- [Modified] If "Safe Bets" is enabled and a call is not entered, it will be returned to the user. Only held calls will be pulled into the Pot.
+- [Modified] In the case of stand up or exit, confirmation is only required during play. Confirmation is no longer active when the user is not playing or when a card is being evaluated.
+- [Modified] cron job/ shout_msg_purge - If the process runs, we log it.
+- [Modified] Winning hand sound.
+- [Modified] Database optimization.
+- [Modified] Javascript optimization and modernization.
+- [Modified] The license of the language files has been changed to GPL-2.0.
+- [Modified] Requirement phpBB 3.3.15 or later and JVA-Core 1.0.18 or later.
+
+- [Added] ACP/Poker/ Statistic - (Usable - Learner, Practice, Normal and Tournament rooms).
+- [Added] ACP/Poker/ Stop all rooms - We add the option to stop all rooms immediately.
+- [Added] ACP/Poker/ Reset poker - This will reset all poker data.
+- [Added] ACP/Poker/ Reset chat - Dealer and users messages will also be deleted.
+- [Added] ACP/Poker/General settings - Enable Points/Chips exchange.
+- [Added] ACP/Poker/General settings - Enable Chips/Points exchange.
+- [Added] ACP/Poker/General settings - Point exchange cost.
+- [Added] ACP/Poker/General settings - Chips exchange cost.
+- [Added] ACP/Poker/Rooms settings/ Stop gif animation - Provides the option to stop user avatar gif animations in rooms.
+- [Added] ACP/Poker/Rooms settings/ Display JP clock - The display of the date in the JackPot list is extended by the clock display.
+- [Added] ACP/Poker/Rooms settings/Security settings/ Safe Bets - Users can only win up to the amount they bet. If the winning user has not yet been able to bet, the big blind or the user chips will be used as the basis.
+- [Added] ACP/Poker/Rooms settings/Security settings/ Offline bet protection - During active protection, offline users who have already placed a bet do not fold their cards.
+- [Added] ACP/Poker/Rooms settings/Game settings/ Pause game - Provides the option to turn the game pause enable/disable.
+- [Added] ACP/Poker/Rooms settings/Game settings/ JackPot system.
+- [Added] ACP/Poker/Rooms settings/Game settings/ JackPot ticket price.
+- [Added] ACP/Poker/Rooms settings/Game settings/ JackPot minimum.
+- [Added] ACP/Poker/Rooms settings/Game settings/ Profit system
+- [Added] ACP/Poker/Rooms settings/Game settings/ Offline users - Offline users are automatically stand up based on the set hand number. (This new setting replaced the old "Drop time" setting).
+- [Added] ACP/Poker/Rooms settings/Game settings/ Inactive users - Inactive users are automatically stand up based on the set hand number. (This new setting replaced the old "Inactivity time" setting).
+- [Added] ACP/Poker/Load settings - Chips exchange limit.
+- [Added] ACP/Poker/Load settings - Ajax update in real time.
+- [Added] ACP/Poker/Manage rooms/(Learner, Practice and Normal room)/ new setting option: Fixed Buy-in Amount - if no then, the buy-in amount can be chosen freely within a given limit.
+- [Added] ACP/Poker/Manage rooms/(Learner, Practice and Normal room)/ new setting option: Size of amount	  - If we use a fixed limit, we can specify whether we want to use the minimum, medium or maximum value.
+- [Added] ACP/Poker/Manage rooms - Detailed logging of all hands in each room.
+- [Added] ACP/Poker/Manage rooms - Time of blind growth (Only for tournament rooms).
+- [Added] ACP/Poker/Manage rooms - Stop room (Allows you to stop the rooms one by one).
+- [Added] ACP/Poker/Manage rooms - Reset room (Allows you to reset the rooms one by one).
+- [Added] Save the radio mute and volume value in the browser's local storage.
+- [Added] Validate the authenticity of the bet at a fixed limit table.
+- [Added] If we disable the extension, all the rooms will be reset and the chips will be returned to the users.
+- [Added] If we delete the extension data, the user chips will be returned to the points system if it is installed and confirmed.
+- [Added] Abbreviation of numbers, for example: 1,000 = 1K.
+- [Added] The check, fold and bet has been animated.
+- [Added] The contraction of bets into the POT has been animated.
+- [Added] The POT reaching the winning user has been animated.
+- [Added] Adding the prize to our balance has been animated.
+- [Added] The amount of our prize is displayed animatedly above the avatar.
+- [Added] Hacking protection of the maximum raise value.
+- [Added] The fold is red, check green, raise is yellow while the call uses blue hand for both chips and numbers color.
+- [Added] Our card strength is displayed at the bottom of our card.
+- [Added] Instant evaluation of a winner on every hand, if only one active player remains in the game.
+- [Added] The avatar of the winning user is animated with a laurel wreath.
+- [Added] Before sitting down - If the minimum and maximum value of the Buy-In is different, you can customize how many chips you sit at the table with.
+- [Added] Before sitting down - Auto Re-buy (Instatly buy you back when your chips run out on the table).
+- [Added] Before sitting down - Auto Top-off (Instantly top your chips to your initial buy-in at the end of each hand).
+- [Added] Before sitting down - Allowing the purchase of a JackPot ticket.
+- [Added] Database modification - We add the room number in the user table where we sit or play. This way we avoid having to go through all the rooms to check if we are playing, thus we save a lot of energy for our server.
+- [Added] The room ID number and the small/big blind are displayed in the rooms.
+- [Added] In the tournament rooms, the next blinds will be displayed one minute before they increase.
+- [Added] Who is playing in the poker rooms - Check that the room is not closed and that we have a permission to play.
+- [Added] Checking the success of the stand up.
+- [Added] Losing cards can only be seen by others if the user has placed all his chips.
+- [Added] If everyone throws his cards, the winning user's cards will not be visible to the others, but the winning user can show his cards if he wants.
+- [Added] Chip moving and my turn sound signal.
+- [Added] Header information field. Give information about someone withdrawing a prize from the JackPot.
+			In addition, information is displayed 10 and 2 minutes before the start of the tournament.
+			The information field is only displayed to online users for a few seconds.
+			The information field also appears on the forum pages, except for the ACP.
+			On the forum pages, the verification script only runs in the background every 30 seconds.
+- [Added] User statistics - Largest Pot won.
+- [Added] The winning cards appear below the tableau cards in order of rank.
+- [Added] You can view the list of JackPot winners by clicking on the JackPot amount in the room.
+- [Added] Evaluation of all winners. This can happen when the strongest hand has few chips, allowing other users to raise even more. So now there is no refund of the chips, rather they are evaluated.
+- [Added] If the user wants to take a pause during the game, confirmation is required.
+- [Added] Chips/Points and Points/Chips exchange logging.
+- [Added] New cron job/ jp_purge - Purge JackPot list every 2 days. The last 8 winners are always kept.
+- [Added] New cron job/ rooms_stop - If a room in the game exceeds the offline time, those rooms will be stopped (check time: every 30 minutes).
+- [Added] Dutch and French languages.
+
+- [Deleted] Use of decimal values.
+- [Deleted] Income.
+- [Deleted] Canvas element.
+- [Deleted] The room names will be deleted and the room ID number will be displayed instead.
+- [Deleted] ACP/configurations:
+				Room auto load configuration - You can no longer turn it off, it is always active.
+				Can play on several tables at the same time.
+				User name color configuration.
+				Automatic start configuration.
+- [Deleted] The following totals have been removed from the statistics: (calls, raises, checks, allins and folds).
+- [Deleted] Dealer shoutbox messages: Join and left the table, player pause and continues playing.
+
+- [Deleted] ext/jv/poker/images/1st.gif
+- [Deleted] ext/jv/poker/images/2nd.gif
+- [Deleted] ext/jv/poker/images/3rd.gif
+- [Deleted] ext/jv/poker/images/loading.gif
+- [Deleted] ext/jv/poker/images/no_avatar.gif
+- [Deleted] ext/jv/poker/images/strike.png
+- [Deleted] ext/jv/poker/images/trophy.gif
+- [Deleted] ext/jv/poker/images/styles/jv_poker/theme/images/cards
+- [Deleted] ext/jv/poker/images/styles/jv_poker/theme/images/chips
+- [Deleted] ext/jv/poker/images/styles/jv_poker/theme/images/dealer.png
+- [Deleted] ext/jv/poker/images/styles/jv_poker/theme/images/smilie.png
+
+## 3.1.8 - 2022-08-31
+
+- [Modified] Verification of requirements.
+- [Modified] Javascript optimization and modernization.
+- [Modified] Requirement phpBB 3.3.8 or later and JVA - Core 1.0.7 or later.
+
+## 3.1.7 - 2022-06-14
+
+- [Fixed] Next tournament start - The set clock shifts on a clock change.
+
+- [Modified] When enabling an extension, use the basic phpBB check function for additional extension dependencies.
+- [Modified] Use a new modern resizing feature to avoid pixel slip errors.
+- [Modified] Reduced memory usage.
+
+## 3.1.6 - 2021-12-12
+
+- [Modified] The javascript code has been removed from the ACP Html files.
+- [Modified] The appearance of copyright uses the new classes in phpBB.
+- [Modified] Use the Audio API of the JVA - Core extension to handle audio files.
+- [Modified] Use the Audio API of the JVA - Core extension to manage the radio.
+- [Modified] Requirement JVA - Core 1.0.6 or later.
+
+## 3.1.5 - 2021-11-23
+
+- [Fixed] Google Chrome browser - Radio sound and bet slider button with glued grip.
+- [Fixed] The shoutbox archive should check to see if we still have permission to use poker.
+- [Fixed] When starting the game, the sound of the card shuffling was omitted in several cases.
+
+- [Modified] Modernization of obsolete javascript codes.
+- [Modified] Anonymization of all javascript functions.
+- [Modified] Clicking the radio sound and bet slider button grabs the button even outside the frame until release the mouse button.
+- [Modified] Merge all audio files.
+- [Modified] Card shuffling sound.
+- [Modified] Use the "lang_js" designation added in phpBB 3.3.5 to add language values to javascript.
+- [Modified] Requirement phpBB 3.3.5 or later and JVA - Core 1.0.5 or later.
+
+- [Added] New supported audio extension "webm".
+- [Added] Radio sound and bet slider button touch screen support.
+- [Added] Play audio on all browsers supported by "howler.js https://github.com/goldfire/howler.js/#browser-compatibility".
+- [Added] Slide sound - For radio channels list and smilie block open/close.
+
+- [Deleted] ACP configuration - Automatic resizing on/off.
+
+Deleted next files:
+[ROOT]/ext/jv/poker/sounds/allin
+[ROOT]/ext/jv/poker/sounds/bet
+[ROOT]/ext/jv/poker/sounds/call
+[ROOT]/ext/jv/poker/sounds/card
+[ROOT]/ext/jv/poker/sounds/check
+[ROOT]/ext/jv/poker/sounds/click
+[ROOT]/ext/jv/poker/sounds/clock
+[ROOT]/ext/jv/poker/sounds/fold
+[ROOT]/ext/jv/poker/sounds/raise
+[ROOT]/ext/jv/poker/sounds/shout
+[ROOT]/ext/jv/poker/sounds/show
+[ROOT]/ext/jv/poker/sounds/shuffle
+[ROOT]/ext/jv/poker/sounds/sliding
+[ROOT]/ext/jv/poker/sounds/warning
+
+[ROOT]/ext/jv/poker/styles/all/template/js/create_js.js
+[ROOT]/ext/jv/poker/styles/all/template/js/jquery.min.js
+
+## 3.1.4 - 2021-06-21
+
+- [Added] Poker statistics are displayed in the user post profiles and user profiles.
+
+## 3.1.3 - 2021-05-20
+
+- [Added] Ajax scripts check for the need for the JVA-Core extension.
+
+- [Modified] The timestamp of the start time of the tournament is created by phpBB "user->create_datetime" feature.
+- [Modified] Requirement - JVA - Core 1.0.4 or later.
+
+- [Updated] jQuery 3.5.1 to 3.6.0
+
+## 3.1.2 - 2021-05-02
+
+- [Fixed] Points system - Update our actual user total points when a point changes.
+
+- [Modified] PHP 8 compatibility.
+
+- [Updated] CreateJS 0.7.0 to 1.0.0
+
+## 3.1.1 - 2020-12-11
+
+- [Modified] ACP/Poker/Main - statistics style.
+
+- [Updated] jQuery 3.4.1 to 3.5.1
+
+- [Added] Use of JVA - Core extension.
+
+## 3.1.0 - 2020-04-10
+
+- [Fixed] The winning parties of users were saved incorrectly because the wrong ID was submitted. Thus, the statistics are incorrect and can result in database mismanagement of data.
+
+- [Modified] M4A audio files recompressed.
+
+## 3.0.2 - 2020-04-07
+
+- [Fixed] User setup - undefined user data 'is_registered'.
+
+## 3.0.1 - 2020-02-08
+
+- [Fixed] Whenever start a new hand, check whether the dealer is actually playing.
+
+## 3.0.0 - 2020-01-29
+
+- [Fixed] In quick passes, the last player may not be correctly identified.
+- [Fixed] If a user leaves the tournament before the end and the pot value cannot be divided equally, the first active player to the left of the dealer button is entitled to the surplus.
+
+- [Modified] Fade the logo on the table during the game.
+
+- [Added] New Configuration - Display background image.
+
+## 2.0.3 - 2020-01-17
+
+- [Fixed] PC full screen.
+- [Fixed] If the tournament start time is set, the start button can not be displayed.
+- [Fixed] Reset room - if the game is interrupted just before evaluation.
+- [Fixed] If the pot value cannot be divided equally, the first active player to the left of the dealer button will be entitled to the surplus.
+- [Fixed] In the case of All-in, if multiple users win with a smaller bet than the loser, only the held bet can be distributed, the difference must be returned to the loser.
+- [Fixed] When a player fold cards, the last player ID definition is incorrectly changed from time to time.
+- [Fixed] Calculation of the proportion in case of different stakes.
+- [Fixed] Keep the last check call.
+- [Fixed] Different smaller amounts than big blind, incorrect game evaluation.
+
+- [Added] If the administrator changes the buy-in amount before starting the tournament, then all user stand up from the table.
+- [Added] At the end of a tournament, the winning user stand up from the table automatically.
+- [Added] Congratulatory message to the winner of the tournament.
+- [Added] Surplus refunds message.
+- [Added] Clock sound.
+- [Added] If the calling user exits or pauses and no one has already given the call, we will immediately refund the call amount and restore the data to the pre-call state.
+
+- [Modified] Write a prize amount. Your own "Pot" amount must also be included in the winning amount.
+- [Modified] Reload radio.
+- [Modified] Winners will be listed on the chat, starting with the user to the left of the dealer.
+- [Modified] The maximum value of an "All-in" can only be the minimum one user can hold.
+
+## 2.0.2 - 2020-01-05
+
+- [Fixed] If the big blind user has less chips than the big blind, he or she will give the next user the correct big blind.
+- [Fixed] For example, if three users play and all three users have a lower chip value than the blind, then the last player should not be left out.
+- [Fixed] For touch screen devices, chat should not be under constant focus.
+- [Fixed] Chat - Turn off the mobile keypad after sending a message.
+- [Fixed] Correctly resize for mobile rotation when in full screen mode.
+
+- [Added] Validate call amount.
+- [Added] Detection of touch screen devices.
+
+## 2.0.1 - 2019-12-06
+
+- [Fixed] Order rooms by type.
+- [Fixed] Poker members statistics link.
+- [Fixed] Users ranking.
+
+- [Modified] phpBB 3.3 compatibility.
+
+- [Updated] jQuery v1.12.4 to v3.4.1.
+
+- [Added] New ACP module - Extensions settings.
+- [Added] New ACP settings - (Champions, statistics - Display user avatars and User avatar size).
+- [Added] Statistics page - Tournament (Most played users, Tournament leaders, Least played users).
+- [Added] Statistics data use cache.
+- [Added] Microsoft Edge browser support fullscreen.
+
+## 2.0.0 - 2019-08-14
+
+- [Modified] Paths for default style, cards and chips.
+- [Modified] Cards shuffle function.
+
+- [Added] ACP new module - Manage styles and install style.
+- [Added] Tournament statistics.
+- [Added] Poker menu - Lobby, Chips exchange, statistics, tournament statistics and poker guide.
+- [Added] New room setting - Start a tournament on date.
+- [Added] New room setting - Start of the next tournament (+days).
+- [Added] New permission - Can manage poker styles.
+
+## 1.0.5 - 2019-07-21
+
+- [Fixed] Avoiding double jumps. (Next hand.)
+
+- [Modified] The cron job should run once a day.
+
+## 1.0.4 - 2019-06-26
+
+- [Fixed] Radio list layer.
+
+- [Modified] Force user timestamp.
+
+## 1.0.3 - 2019-06-03
+
+- [Fixed] - Playing a double warning sound.
+- [Fixed] - If the user stand up, we delete the number of chips.
+
+- [Modified] Poker guide.
+- [Modified] Dealer image replacement and added animation and replace sound.
+- [Modified] Pot chips image replacement and added animation and sound.
+- [Modified] New version automatically reloads all poker game files.
+
+- [Added] ACP new config - Shoutbox archive - messages per page.
+- [Added] ACP new config - Purge messages (days).
+- [Added] ACP new module - Poker rules.
+- [Added] New room type - Learner rooms (Open cards).
+- [Added] Prevent Administrator from cards cheating.
+- [Added] Shoutbox archive. (Not use AJAX refresh operations!)
+- [Added] Shoutbox archive - delete message.
+- [Added] 2 new permissions - Moderator :: Can delete messages from the shoutbox archive.
+									User :: Can play poker.
+- [Added] - Html5 Canvas element.
+- [Added] - Automatic Check/Fold.
+- [Added] - Automatic Check/Call.
+
+## 1.0.2 - 2019-05-22
+
+- [Fixed] Update poker version.
+- [Fixed] Darkening of losing cards when a user stands up from the table while playing.
+
+- [Modified] New version automatically reloads the modified poker game language file.
+- [Modified] Stronger mixing of cards.
+- [Modified] Displaying a server or user offline error message if the error occurs three times in a row.
+- [Modified] Your own avatar is immediately flashing when offline.
+
+- [Added] If we delete poker permission from the user, we also allow the exchange of their chips.
+
+## 1.0.1 - 2019-05-21
+
+- [Fixed] Move time and pause time take into account the server time and not the users device time.
+- [Fixed] If we do not use income, then Poker leaders statistics will show the winning ratio.
+- [Fixed] If someone runs out of chips they can't stay in the game.
+- [Fixed] Definition Straight Flush.
+
+- [Modified] No pause, stand up and exit function may be used at the moment of evaluation.
+- [Modified] Tournament room exit confirmation for viewer users, use the basic confirmation text.
+- [Modified] Providing users with correct information when the server is broken (PHP error) or offline or the user does not have an internet connection.
+- [Modified] Only active window - Updating card data.
+
+## 1.0.0 - 2019-05-11
+
+- First release

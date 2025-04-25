@@ -3,9 +3,9 @@
 *
 * @package phpBB Holdem Póker
 * @version $Id$
-* @author 2011-2022 KillBill
-* @copyright (c) 2014-2022 https://jv-arcade.com/ - https://jv-arcade.com/contact
-* @license https://jv-arcade.com/License.html JVA License v1
+* @author 2011-2025 KillBill
+* @copyright (c) 2014-2025 https://jv-arcade.com/ - https://jv-arcade.com/contact
+* @license https://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
 *
 */
 
@@ -19,7 +19,7 @@ if (!defined('IN_PHPBB'))
 
 if (empty($lang) || !is_array($lang))
 {
-	$lang = array();
+	$lang = [];
 }
 
 // DEVELOPERS PLEASE NOTE
@@ -35,7 +35,7 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 // Some characters you may want to copy&paste: ‚ ‘ ’ « » „ “ ” …
 
-$lang = array_merge($lang, array(
+$lang = array_merge($lang, [
 	'ACL_A_JV_POKER'				=> 'Kann Poker zurücksetzen',
 	'ACL_A_JV_POKER_RADIO_DELETE'	=> 'Kann Radiostation löschen',
 	'ACL_A_JV_POKER_RADIO_MANAGE'	=> 'Kann Radio verwalten',
@@ -48,5 +48,5 @@ $lang = array_merge($lang, array(
 	'ACL_U_JV_POKER'				=> 'Kann Poker benutzen',
 	'ACL_U_JV_POKER_PLAY'			=> 'Kann Poker spielen. <em>Diese Option wirkt nur auf registrierte Benutzer.</em>',
 	'ACL_U_JV_POKER_SHOUT'			=> 'Kann Shoutbox in Poker benutzen. <em>Diese Option wirkt nur auf registrierte Benutzer.</em>',
-	'ACL_U_JV_POKER_STATS'			=> 'Kann statistische Daten von Poker sehen',
-));
+	'ACL_U_JV_POKER_STATS'			=> 'Kann statistische Daten von Poker sehen'
+]);
