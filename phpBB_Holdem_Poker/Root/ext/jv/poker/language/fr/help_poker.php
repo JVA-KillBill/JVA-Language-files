@@ -56,7 +56,7 @@ $lang = array_merge($lang, [
 	'JV_POKER_HELP_A_SHOUT_RE_QUESTION'		=> 'Après avoir rafraîchi l’archive, les messages ont disparu, pourquoi ?',
 	'JV_POKER_HELP_A_SHOUT_R_ANSWER'		=> 'Oui, le bouton d’actualisation est situé sur le côté droit de la barre de titre.',
 	'JV_POKER_HELP_A_SHOUT_R_QUESTION'		=> 'Existe-t-il un moyen de rafraîchir l’archive ?',
-	'JV_POKER_HELP_BAN_CHIPS_ANSWER'		=> 'Oui, si un administrateur révoque votre autorisation de jouer au poker, vous pouvez automatiquement échanger tous vos jetons à tout moment %s<strong>ICI</strong>%s. Le changement automatique ne fonctionnera pas si le poker est désactivé, auquel cas vous reviendrez plus tard et réessayerez.',
+	'JV_POKER_HELP_BAN_CHIPS_ANSWER'		=> 'Oui, si un administrateur révoque votre autorisation de jouer au poker, vous pouvez automatiquement échanger tous vos chips à tout moment %s<strong>ICI</strong>%s. Le changement automatique ne fonctionnera pas si le poker est désactivé, auquel cas vous reviendrez plus tard et réessayerez.',
 	'JV_POKER_HELP_BAN_CHIPS_QUESTION'		=> 'Si je perds ma permission de jouer au poker, y a-t-il un moyen d’échanger mes chips ?',
 	'JV_POKER_HELP_BLIND_ANSWER'			=> 'Le Small Blind/Big Blind dépend toujours du montant de départ minimum et maximum. Le montant de départ minimum (buy-in) est toujours de 10x le big blind, tandis que le montant de départ maximum est de 200x le big blind. Bien sûr, si les valeurs minimale et maximale sont identiques, cela dépend du réglage si la valeur minimale, moyenne ou maximale est utilisée comme base. Le big blind est toujours la moitié de la grosse blind. Cette règle diffère dans la salle de tournoi, où le Small Blind/Big Blind est toujours le double de la valeur de base. De plus, le Small Blind/Big Blind dans la salle de tournoi augmente régulièrement tout au long du tournoi.',
 	'JV_POKER_HELP_BLIND_QUESTION'			=> 'Small/big blind bets entre les salles sont différentes, pourquoi ?',
@@ -90,8 +90,8 @@ $lang = array_merge($lang, [
 	'JV_POKER_HELP_CTOP_QUESTION'			=> 'Les chips peuvent-ils être échangés contre « %s » ?',
 	'JV_POKER_HELP_DROP_TOKEN_ANSWER'		=> 'Dans ce cas, il y a 3 options disponibles :
 	<ul>
-		<li>1. Vous ne pouvez pas sortir les chips d’une salle d’entraînement, donc tous les jetons qu’il vous reste seront annulés.</li>
-		<li>2. Bien sûr, si vous êtes expulsé d’une pièce normale, vous récupérerez vos chips restants.</li>
+		<li>1. Vous ne pouvez pas sortir les chips d’une salle d’entraînement, donc tous les chips qu’il vous reste seront annulés.</li>
+		<li>2. Bien sûr, si vous êtes expulsé d’une salle normale, vous récupérerez vos chips restants.</li>
 		<li>3. S’ils m’expulsent du tournoi avant le début du tournoi, vous récupérerez votre buy-in. Si le tournoi a déjà commencé, vous perdrez le buy-in.</li>
 	</ul>',
 	'JV_POKER_HELP_DROP_TOKEN_QUESTION'		=> 'Qu’advient-il de mes chips si je suis expulsée du jeu ?',
@@ -105,8 +105,8 @@ $lang = array_merge($lang, [
 	'JV_POKER_HELP_DROP_USER_QUESTION'		=> 'Dans quels cas le jeu peut-il vous jeter dehors ?',
 	'JV_POKER_HELP_EXIT_ANSWER'				=> 'Dans ce cas, 3 options s’offrent à vous :
 	<ul>
-		<li>1. Vous ne pouvez pas obtenir de chips dans une salle de pratique, donc vos jetons seront retirés et vous quitterez la pièce.</li>
-		<li>2. Lorsque vous quittez la salle normale, les jetons que vous gagnez seront ajoutés à votre solde de chips et vous quitterez la pièce.</li>
+		<li>1. Vous ne pouvez pas obtenir de chips dans une salle de pratique, donc vos chips seront retirés et vous quitterez la salle.</li>
+		<li>2. Lorsque vous quittez la salle normale, les chips que vous gagnez seront ajoutés à votre solde de chips et vous quitterez la salle.</li>
 		<li>3. Si vous quittez la salle de tournoi avant le début du tournoi, vous récupérerez votre buy-in. Si le tournoi a déjà commencé, vous perdrez le buy-in.</li>
 	</ul>',
 	'JV_POKER_HELP_EXIT_QUESTION'			=> 'Que se passe-t-il si j’appuie sur le bouton de sortie ?',
@@ -139,7 +139,7 @@ $lang = array_merge($lang, [
 	'JV_POKER_HELP_JACKPOT_QUESTION'		=> 'Comment puis-je gagner le JackPot ?',
 	'JV_POKER_HELP_LEADERS_ANSWER'			=> 'Les champions sont classés en fonction du nombre de chips gagnés.',
 	'JV_POKER_HELP_LEADERS_QUESTION'		=> 'Par quoi sont classés les champions ? ',
-	'JV_POKER_HELP_LEARNER_ANSWER'			=> 'out le monde peut jouer dans cette salle, même s’il n’a pas ses propres jetons. Chaque joueur reçoit un nombre prédéterminé de jetons lorsqu’il s’assoit. Dans la salle, tous les joueurs jouent avec des cartes face visible, afin qu’ils aient une chance de s’enseigner les uns les autres. Les jetons gagnés dans cette salle ne peuvent pas être retirés de la salle ni échangés.',
+	'JV_POKER_HELP_LEARNER_ANSWER'			=> 'out le monde peut jouer dans cette salle, même s’il n’a pas ses propres chips. Chaque joueur reçoit un nombre prédéterminé de chips lorsqu’il s’assoit. Dans la salle, tous les joueurs jouent avec des cartes face visible, afin qu’ils aient une chance de s’enseigner les uns les autres. Les chips gagnés dans cette salle ne peuvent pas être retirés de la salle ni échangés.',
 	'JV_POKER_HELP_LEARNER_QUESTION'		=> 'Qu’est-ce que cela signifie d’être dans une salle d’apprentissage ?',
 	'JV_POKER_HELP_LIMIT_ANSWER'			=> 'Nous avons déjà décrit la réponse à cette question dans « Comment jouer au poker ?/Règles du Limit ».',
 	'JV_POKER_HELP_LIMIT_QUESTION'			=> 'Que signifie Limite fixe/Aucune limite ?',
@@ -151,8 +151,8 @@ $lang = array_merge($lang, [
 		<li>2. Si l’action du joueur précédent était un call, nous fold automatiquement nos cartes.</li>
 	</ul>',
 	'JV_POKER_HELP_MOVE_TIME_QUESTION'		=> 'Qu’est le temps de mouvement ?',
-	'JV_POKER_HELP_NORMAL_ANSWER'			=> 'Dans une salle normale, seuls les utilisateurs qui possèdent leurs propres jetons et qui peuvent contribuer suffisamment pour le montant minimum d’entrée requis peuvent jouer. Chacune de ces chambres a un montant minimum et maximum défini pour commencer. Les utilisateurs peuvent s’asseoir à la table avec le montant minimum. Les chips gagnés dans cette salle peuvent être retirés de la pièce et augmenter vos chips. Ces jetons peuvent être échangés à nouveau.',
-	'JV_POKER_HELP_NORMAL_QUESTION'			=> 'Qu’est-ce que cela signifie d’être dans une pièce normale ?',
+	'JV_POKER_HELP_NORMAL_ANSWER'			=> 'Dans une salle normale, seuls les utilisateurs qui possèdent leurs propres chips et qui peuvent contribuer suffisamment pour le montant minimum d’entrée requis peuvent jouer. Chacune de ces chambres a un montant minimum et maximum défini pour commencer. Les utilisateurs peuvent s’asseoir à la table avec le montant minimum. Les chips gagnés dans cette salle peuvent être retirés de la salle et augmenter vos chips. Ces chips peuvent être échangés à nouveau.',
+	'JV_POKER_HELP_NORMAL_QUESTION'			=> 'Qu’est-ce que cela signifie d’être dans une salle normale ?',
 	'JV_POKER_HELP_OFFLINE_BL_ANSWER'		=> 'Si l’avatar de l’utilisateur clignote en gris, cela indique que l’utilisateur est actuellement hors ligne ou non connecté à la salle. Cela est possible pour deux raisons :
 	<ul>	
 		<li>La connexion Internet de l’utilisateur est perdue.</li>
@@ -298,7 +298,7 @@ $lang = array_merge($lang, [
 	'JV_POKER_HELP_PLAY_QUESTION'			=> 'Comment jouez-vous au poker ?',
 	'JV_POKER_HELP_POKER_ANSWER'			=> 'PhpBB Holdem Póker est un jeu de cartes auquel les utilisateurs enregistrés peuvent jouer les uns contre les autres. Seul un administrateur peut autoriser l’utilisation du poker. Cependant, le guide suivant sera probablement utile.',
 	'JV_POKER_HELP_POKER_QUESTION'			=> 'Qu’est-ce que phpBB Holdem Póker?',
-	'JV_POKER_HELP_PRACTICE_ANSWER'			=> 'Tout le monde peut jouer dans cette salle, même s’il n’a pas ses propres jetons. Chaque joueur reçoit un nombre prédéterminé de jetons lorsqu’il s’assoit. Les jetons gagnés dans cette salle ne peuvent pas être retirés de la salle ni échangés.',
+	'JV_POKER_HELP_PRACTICE_ANSWER'			=> 'Tout le monde peut jouer dans cette salle, même s’il n’a pas ses propres chips. Chaque joueur reçoit un nombre prédéterminé de chips lorsqu’il s’assoit. Les chips gagnés dans cette salle ne peuvent pas être retirés de la salle ni échangés.',
 	'JV_POKER_HELP_PRACTICE_QUESTION'		=> 'Qu’est-ce que cela signifie d’être dans une salle de répétition ?',
 	'JV_POKER_HELP_PTOC_ANSWER'				=> 'Oui, pour cela, utilisez le bouton « Échange de chips » sur la page principale du poker à côté de l’affichage des chips dans votre propre profil.',
 	'JV_POKER_HELP_PTOC_QUESTION'			=> '« %s » peut-il être échangé contre des chips ?',
@@ -309,13 +309,13 @@ $lang = array_merge($lang, [
 	'JV_POKER_HELP_SHOUT_ANSWER'			=> 'Si l’administrateur a donné l’autorisation, alors oui. Si vous n’avez pas les autorisations requises, vous ne pourrez lire que les messages sur la progression du jeu sur le mur.',
 	'JV_POKER_HELP_SHOUT_QUESTION'			=> 'Puis-je utiliser le tableau d’affichage pendant une partie ?',
 	'JV_POKER_HELP_SHOUT_SOUND_ANSWER'		=> 'Oui. Vous pouvez désactiver le forum individuellement. La désactivation du tableau d’affichage ne mettra pas le jeu en sourdine.',
-	'JV_POKER_HELP_SHOUT_SOUND_QUESTION'	=> 'Kan ik het prikbord uitzetten?',
+	'JV_POKER_HELP_SHOUT_SOUND_QUESTION'	=> 'Puis-je désactiver le tableau d’affichage ?',
 	'JV_POKER_HELP_SHOWDOWN_ANSWER'			=> 'L’heure de présentation des cartes à la fin de la partie est déterminée par l’administrateur.',
 	'JV_POKER_HELP_SHOWDOWN_QUESTION'		=> 'Combien de temps les cartes sont-elles visibles à la fin de la partie ?',
 	'JV_POKER_HELP_STAND_UP_ANSWER'			=> 'Dans ce cas, il y a deux possibilités :
 	<ul>
-		<li>1. Vous vous levez de table. Vous ne quittez pas la pièce. Si vous êtes dans une salle d’entraînement, vous ne pourrez pas sortir vos jetons, ils seront donc annulés.</li>
-		<li>2. Vous vous levez de table. Vous ne quittez pas la pièce. Si vous êtes dans une pièce normale, vos jetons gagnés seront ajoutés à votre solde.</li>
+		<li>1. Vous vous levez de table. Vous ne quittez pas la salle. Si vous êtes dans une salle d’entraînement, vous ne pourrez pas sortir vos chips, ils seront donc annulés.</li>
+		<li>2. Vous vous levez de table. Vous ne quittez pas la salle. Si vous êtes dans une salle normale, vos chips gagnés seront ajoutés à votre solde.</li>
 	</ul>',
 	'JV_POKER_HELP_STAND_UP_QUESTION'		=> 'Que se passe-t-il si j’appuie sur le bouton stand-up ?',
 	'JV_POKER_HELP_STATUS_ANSWER'			=> 'Le champ sous « Statut » indique si cette salle est en jeu ou non.',
@@ -324,7 +324,7 @@ $lang = array_merge($lang, [
 	'JV_POKER_HELP_SU_SHOUT_QUESTION'		=> 'Quand je me lève, puis-je utiliser le tableau d’affichage ?',
 	'JV_POKER_HELP_S_SHOUT_ANSWER'			=> 'Dans tous les cas, le mur ne peut afficher que les 8 dernières lignes, vous ne pouvez donc pas faire défiler plus loin.',
 	'JV_POKER_HELP_S_SHOUT_QUESTION'		=> 'Comment faire défiler les messages ?',
-	'JV_POKER_HELP_TOUR_ANSWER'				=> 'Seuls les utilisateurs qui possèdent leurs propres jetons et qui peuvent contribuer suffisamment de jetons pour le montant minimum d’entrée requis peuvent jouer dans une salle de tournoi. Chacune de ces salles a un montant minimum fixe pour commencer. Les jetons gagnés dans cette salle peuvent être retirés de la pièce et augmenter vos jetons. Ces jetons peuvent être échangés à nouveau.',
+	'JV_POKER_HELP_TOUR_ANSWER'				=> 'Seuls les utilisateurs qui possèdent leurs propres chips et qui peuvent contribuer suffisamment de chips pour le montant minimum d’entrée requis peuvent jouer dans une salle de tournoi. Chacune de ces salles a un montant minimum fixe pour commencer. Les chips gagnés dans cette salle peuvent être retirés de la salle et augmenter vos chips. Ces chips peuvent être échangés à nouveau.',
 	'JV_POKER_HELP_TOUR_QUESTION'			=> 'Qu’est-ce que cela signifie d’être dans une salle de tournoi ?',
 	'JV_POKER_HELP_USER_STATS_ANSWER'		=> 'Oui, si l’administrateur donne l’autorisation d’afficher les statistiques.',
 	'JV_POKER_HELP_USER_STATS_QUESTION'		=> 'Puis-je voir les statistiques de l’utilisateur ?'

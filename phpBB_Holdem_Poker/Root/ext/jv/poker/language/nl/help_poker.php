@@ -56,9 +56,9 @@ $lang = array_merge($lang, [
 	'JV_POKER_HELP_A_SHOUT_RE_QUESTION'		=> 'Na het verversen van het archief verdwenen de berichten, waarom?',
 	'JV_POKER_HELP_A_SHOUT_R_ANSWER'		=> 'Ja, de knop vernieuwen bevindt zich aan de rechterkant van de titelbalk.',
 	'JV_POKER_HELP_A_SHOUT_R_QUESTION'		=> 'Is er een manier om het archief op te frissen?',
-	'JV_POKER_HELP_BAN_CHIPS_ANSWER'		=> 'Ja, als een beheerder je toestemming voor poker intrekt, kun je automatisch al je chips inwisselen op elk gewenst moment %s<strong>HIER</strong>%s. Automatisch wisselen werkt niet als poker is uitgeschakeld, in dat geval kom je later terug en probeer het opnieuw.',
+	'JV_POKER_HELP_BAN_CHIPS_ANSWER'		=> 'Ja, als een beheerder je toestemming voor poker intrekt, kun je automatisch al je chips inwisselen op elk gewenst moment %s<strong>HIER</strong>%s. Automatisch wisselen werkt niet als poker is uitgeschakeld, in dat geval kom je later terug en probeer je het opnieuw.',
 	'JV_POKER_HELP_BAN_CHIPS_QUESTION'		=> 'Als ik mijn toestemming voor poker verlies, is er dan een manier om mijn chips in te wisselen?',
-	'JV_POKER_HELP_BLIND_ANSWER'			=> 'De Small Blind/Big Blind is altijd afhankelijk van het minimale en maximale startbedrag. Het minimale startbedrag (buy-in) is altijd 10x de big blind, terwijl het maximale startbedrag 200x de big blind is. Als de minimum- en maximumwaarden gelijk zijn, hangt het natuurlijk van de instelling af of de minimum-, medium- of maximumwaarde als basis wordt gebruikt. De small blind is altijd de helft van de big blind. Deze regel verschilt in de toernooikamer, waar de Small Blind/Big Blind altijd twee keer de basiswaarde is. Daarnaast groeit in de toernooizaal de Small Blind/Big Blind gestaag gedurende het toernooi.',
+	'JV_POKER_HELP_BLIND_ANSWER'			=> 'De Small Blind/Big Blind zijn altijd afhankelijk van het minimale en maximale startbedrag. Het minimale startbedrag (buy-in) is altijd 10x de big blind, terwijl het maximale startbedrag 200x de big blind is. Als de minimum- en maximumwaarden gelijk zijn, hangt het natuurlijk van de instelling af of de minimum-, medium- of maximumwaarde als basis wordt gebruikt. De small blind is altijd de helft van de big blind. Deze regel verschilt in de toernooikamer, waar de Small Blind/Big Blind altijd twee keer de basiswaarde is. Daarnaast groeit in de toernooizaal de Small Blind/Big Blind gestaag gedurende het toernooi.',
 	'JV_POKER_HELP_BLIND_QUESTION'			=> 'Small/big blind bets tussen kamers zijn verschillend, waarom?',
 	'JV_POKER_HELP_BLOCK_GAME'				=> 'Problemen met pokerspel',
 	'JV_POKER_HELP_BLOCK_GENERAL'			=> 'Algemene vragen',
@@ -99,15 +99,15 @@ $lang = array_merge($lang, [
 	<ul>
 		<li>1. Als je internetverbinding wegvalt.</li>
 		<li>2. Als je inactief bent en nergens op reageert, wat het verloop van het spel opzettelijk kan vertragen.</li>
-		<li>3. Als het spelvenster naar de achtergrond wordt verplaatst. In dit geval kunnen meerdere browsers  het bijwerken van achtergrondgegevens vertragen of helemaal stoppen, het spel neemt je mee als een offline gebruiker, dus het spel gooit je eruit.</li>
+		<li>3. Als het spelvenster naar de achtergrond wordt verplaatst. In dit geval kunnen meerdere browsers het bijwerken van achtergrondgegevens vertragen of helemaal stoppen, het spel neemt je mee als een offline gebruiker, dus het spel gooit je eruit.</li>
 		<li>4. De beheerder staat alleen een spel met actieve focus toe, dus de situatie is hetzelfde als beschreven in punt 3. In dit geval verschijnt echter de pauze-inscriptie.</li>
 	</ul>',
 	'JV_POKER_HELP_DROP_USER_QUESTION'		=> 'In welke gevallen kan het spel je eruit gooien?',
 	'JV_POKER_HELP_EXIT_ANSWER'				=> 'In dit geval zijn er 3 opties beschikbaar:
 	<ul>
 		<li>1. Je kunt geen chips uit een oefenkamer halen, dus je chips worden verwijderd en je verlaat de kamer.</li>
-		<li>2. Als je de normale kamer verlaat, worden de chips die je verdient toegevoegd aan je chipssaldo en verlaat je de kamer.</li>
-		<li>3.Als je de toernooizaal verlaat voor het begin van het toernooi, krijg je je Buy-In back. terug. Als het toernooi al begonnen is, verlies je de Buy-In.</li>
+		<li>2. Als je de normale kamer verlaat, worden de chips die je verdient, toegevoegd aan je chipssaldo en verlaat je de kamer.</li>
+		<li>3. Als je de toernooizaal verlaat voor het begin van het toernooi, krijg je je Buy-In terug. Als het toernooi al begonnen is, verlies je de Buy-In.</li>
 	</ul>',
 	'JV_POKER_HELP_EXIT_QUESTION'			=> 'Wat gebeurt er als ik op de exit-knop druk?',
 	'JV_POKER_HELP_E_SHOUT_ANSWER'			=> 'Indien ingeschakeld door de beheerder, ja.',
@@ -145,7 +145,7 @@ $lang = array_merge($lang, [
 	'JV_POKER_HELP_LIMIT_QUESTION'			=> 'Wat betekent Vaste limiet/Geen limiet?',
 	'JV_POKER_HELP_L_STATS_ANSWER'			=> 'Er worden geen statistische gegevens opgeslagen in de leer- en praktijkkamers.',
 	'JV_POKER_HELP_L_STATS_QUESTION'		=> 'Slaan de leer- en praktijkkamers ook statistische gegevens op?',
-	'JV_POKER_HELP_MOVE_TIME_ANSWER'		=> '“Bewegingstijd” is de tijd waarin een gebruiker kan beslissen om te checken, in te zetten of te folden. Als deze tijd is verstreken, zijn er twee automatische opties beschikbaa:
+	'JV_POKER_HELP_MOVE_TIME_ANSWER'		=> '“Bewegingstijd” is de tijd waarin een gebruiker kan beslissen om te checken, in te zetten of te folden. Als deze tijd is verstreken, zijn er twee automatische opties beschikbaar:
 	<ul>
 		<li>1. Als de actie van de vorige speler geen call was, controleren we automatisch.</li>
 		<li>2. Als de actie van de vorige speler een call was, folden we onze kaarten automatisch.</li>
@@ -161,8 +161,8 @@ $lang = array_merge($lang, [
 	'JV_POKER_HELP_OFFLINE_BL_QUESTION'		=> 'De avatar van de gebruiker knippert grijs, wat betekent dat?',
 	'JV_POKER_HELP_OFFLINE_BP_ANSWER'		=> 'In dit geval kan het volgende gebeuren:
 	<ul>
-		<li>1. Als je terugkeert voordat je aan de beurt bent en je zittijd is nog niet verstreken, dan kun je nog steeds extra inzetten plaatsen.</li>
-		<li>2. Als je niet op tijd kunt terugkeren, wordt je weddenschap in een beschermende positie geplaatst, maar kun je geen weddenschappen meer plaatsen. Op deze manier heb je een kans om te winnen met je reeds geplaatste weddenschap, zelfs als je tijdens het spel offline blijft.</li>
+		<li>1. Als je terugkeert voordat je aan de beurt bent en je zittijd is nog niet verstreken, kun je nog steeds extra inzetten plaatsen.</li>
+		<li>2. Als je niet op tijd kunt terugkeren, wordt je weddenschap in een beschermende positie geplaatst maar kun je geen weddenschappen meer plaatsen. Op deze manier heb je een kans om te winnen met je reeds geplaatste weddenschap, zelfs als je tijdens het spel offline blijft.</li>
 	</ul>',
 	'JV_POKER_HELP_OFFLINE_BP_QUESTION'		=> 'Wat gebeurt er met mijn weddenschap als mijn internetverbinding wegvalt?',
 	'JV_POKER_HELP_OFFLINE_S_ANSWER'		=> 'Als de server na minder dan 10 minuten weer beschikbaar is, kunnen terugkerende gebruikers het spel voortzetten waar ze waren gebleven. In het geval dat de server minstens 10 minuten niet beschikbaar is, wordt het toernooi verwijderd en krijgen alle gebruikers die nog in het toernooi zaten hun buy-in terug.',
@@ -176,17 +176,17 @@ $lang = array_merge($lang, [
 	'JV_POKER_HELP_OFFLINE_U_QUESTION'		=> 'Wat gebeurt er als mijn internetverbinding wegvalt?',
 	'JV_POKER_HELP_PAUSE_ANSWER'			=> 'Als je op de pauzeknop drukt, is dat gelijk aan uit het spel stappen, dus als de ronde doorgaat, worden je kaarten gefold. Deze optie is de moeite waard om te gebruiken als de speler niet wil dat iemand anders in de tussentijd zijn plaats inneemt. Uiteraard is de pauzetijd beperkt. De limiet wordt bepaald door de beheerder.',
 	'JV_POKER_HELP_PAUSE_QUESTION'			=> 'Wat gebeurt er als ik op de pauzeknop druk?',
-	'JV_POKER_HELP_PD_ANSWER'				=> '“phpBB Holdem Póker” verzamelt en bewaart het IP-adres van elke huidige speler totdat de gebruiker de tafel verlaat. Wanneer een gebruiker opstaat van de tabel, worden alle gegevens gewist en blijven alleen de statistische gegevens behouden. Het IP-adres wordt tijdens het spel opgeslagen om te voorkomen dat meerdere spelers aan dezelfde tafel hetzelfde IP-adres gebruiken. Uiteraard kunt u deze IP-check in- en uitschakelen.',
+	'JV_POKER_HELP_PD_ANSWER'				=> '“phpBB Holdem Póker” verzamelt en bewaart het IP-adres van elke huidige speler totdat de gebruiker de tafel verlaat. Wanneer een gebruiker opstaat van de tafel, worden alle gegevens gewist en blijven alleen de statistische gegevens behouden. Het IP-adres wordt tijdens het spel opgeslagen om te voorkomen dat meerdere spelers aan dezelfde tafel hetzelfde IP-adres gebruiken. Uiteraard kan je deze IP-check in- en uitschakelen.',
 	'JV_POKER_HELP_PD_QUESTION'				=> 'Slaat “phpBB Holdem Póker” persoonsgegevens op?',
-	'JV_POKER_HELP_PLAY_ANSWER'				=> 'Poker is een van de meest populaire kaartspellen ter wereld. Het doel van het spel is om het meeste te halen uit de kaarten die je hebt ontvangen, in combinatie met de onthulde gemeenschappelijke kaarten, om uiteindelijk de inzet in het midden van de tafel te winnen (in het Engels “Pot” genoemd). Per pokerroom kan het spel door 2-8 personen gespeeld worden. Het spel maakt gebruik van een Franse hand van 52 kaarten zonder joker. Elke speler krijgt twee privékaarten die niet door andere spelers kunnen worden gezien en gebruikt. Tijdens het spel worden vijf gemeenschappelijke kaarten opengelegd op tafel, die alle spelers kunnen zien en gebruiken. De speler probeert nu een zo goed mogelijke “vijfkaartcombinatie” te maken van zijn eigen kaarten en de gemeenschappelijke kaarten. De speler met de sterkste kaarten wint de waarde van de inzet. Een deck Franse kaarten (zonder jokers) heeft 4 verschillende kleuren en elke kleur bestaat uit 13 kaarten van verschillende waarden, wat het deck van 52 vellen oplevert. De volgorde van de 4 kleuren : <span class="poker_cs">♣</span> klaveren <span class="poker_dh">♦</span> ruiten  <span class="poker_dh">♥</span> harten <span class="poker_cs">♠</span> schoppen. Alle kleuren zijn gelijk voor de evaluatie van pokerhanden. De 13 kaartwaarden in hun volgorde: A (Aas), 2, 3, 4, 5, 6, 7, 8, 9, 10, J (Boer), Q (Vrouw), K (Heer). Een aas is niet alleen een numerieke waarde van 1, het kan ook de hoogste kaart zijn na de koning.
+	'JV_POKER_HELP_PLAY_ANSWER'				=> 'Poker is een van de meest populaire kaartspellen ter wereld. Het doel van het spel is om het meeste te halen uit de kaarten die je hebt ontvangen, in combinatie met de onthulde gemeenschappelijke kaarten, om uiteindelijk de inzet in het midden van de tafel te winnen (in het Engels “Pot” genoemd). Per pokerkamer kan het spel door 2-8 personen gespeeld worden. Het spel maakt gebruik van een Franse hand van 52 kaarten zonder joker. Elke speler krijgt twee privékaarten die niet door andere spelers kunnen worden gezien en gebruikt. Tijdens het spel worden vijf gemeenschappelijke kaarten zichtbaar op tafel, die alle spelers kunnen zien en gebruiken. De speler probeert nu een zo goed mogelijke “vijfkaartcombinatie” te maken van zijn eigen kaarten en de gemeenschappelijke kaarten. De speler met de sterkste kaarten wint de waarde van de inzet. Een deck Franse kaarten (zonder jokers) heeft 4 verschillende kleuren en elke kleur bestaat uit 13 kaarten van verschillende waarden, wat het deck van 52 kaarten oplevert. De volgorde van de 4 kleuren: <span class="poker_cs">♣</span> klaveren <span class="poker_dh">♦</span> ruiten <span class="poker_dh">♥</span> harten <span class="poker_cs">♠</span> schoppen. Alle kleuren zijn gelijk voor de evaluatie van pokerhanden. De 13 kaartwaarden in hun volgorde: A (Aas), 2, 3, 4, 5, 6, 7, 8, 9, 10, J (Boer), Q (Vrouw), K (Heer). Een aas is niet alleen een numerieke waarde van 1, het kan ook de hoogste kaart zijn na de koning.
 		<br><br><strong>Dealer:</strong><br>
 		Aan de pokertafel is er altijd een dealerpositie. De dealer behandelt de kaarten, mengt en verdeelt ze. De dealerbutton (D) geeft de speler aan die op dat moment de dealerpositie bekleedt. De dealer neemt deel aan het spel.
 
 		<br><br><strong>Small blinds en big blinds:</strong><br>
-		De eerste speler links van de dealerbutton is de “small blind”, en de eerste speler links van de small blind is de “big blind”. Het zijn de blind mensen die hun weddenschappen moeten plaatsen zonder hun eigen kaarten te kennen. De “small blind” is de kleine startinzet, de “big blind” is de grote startinzet, die ze “blindelings” moeten doen.
+		De eerste speler links van de dealerbutton is de “small blind”, en de eerste speler links van de small blind is de “big blind”. Het zijn de blind spelers die hun weddenschappen moeten plaatsen zonder hun eigen kaarten te kennen. De “small blind” is de kleine startinzet, de “big blind” is de grote startinzet, die ze “blindelings” moeten doen.
 
 		<br><br><strong>Bieden:</strong><br>
-		Poker gebruikt “Chips” om te bieden, wat contant geld tijdens het spel vervangt. In de inzetronde gaat het bieden altijd in de linkerrichting, en alle “actieve spelers” (die hun kaarten nog niet hebben gefold) zetten in en gaan door zolang er geen actieve inzetten meer worden verhoogd, vastgehouden of gefold. Het aantal biedingen en verhogingen is in overeenstemming met de limietregels.
+		Poker gebruikt “Chips” om te bieden, wat contant geld tijdens het spel vervangt. In de inzetronde gaat het bieden altijd in de linkerrichting en alle “actieve spelers” (die hun kaarten nog niet hebben gefold) zetten in en gaan door zolang er geen actieve inzetten meer worden verhoogd, vastgehouden of gefold. Het aantal biedingen en verhogingen zijn in overeenstemming met de limietregels.
 
 		<br><br><strong>Delen:</strong><br>
 		De dealer schudt het kaartspel. Voordat de kaarten worden gedeeld, worden de startinzetten van de “small blind” en de “big blind” geplaatst, waarna de dealer alle kaarten naar links legt. Dan begint de Pre-Flop (de eerste inzetronde), die anders is dan de andere inzetrondes in het spel.
@@ -199,7 +199,7 @@ $lang = array_merge($lang, [
 			<li>Fold - De kaarten worden met de afbeelding naar beneden op tafel gelegd en verlaten de ronde (opgeven).</li>
 		</ul>
 
-		De inzetronde gaat naar links en spelers kunnen bieden. Als je net de weddenschap hebt gehouden, dan:
+		De inzetronde gaat naar links en spelers kunnen bieden. Als je net de weddenschap hebt vastgehouden, dan:
 		<ul>
 			<li>De “small blind” moet in ieder geval met de small blind zijn eigen inzet verhogen of zijn kaarten folden en opgeven.</li>
 			<li>De “big blinds” kunnen de inzet verhogen met in ieder geval hun big blind, ze kunnen checken - niet nog een bod doen - of hun kaarten folden en opgeven.</li>
@@ -209,17 +209,17 @@ $lang = array_merge($lang, [
 		<br><br><strong>Flop (tweede biedingsronde):</strong><br>
 		De dealer deelt drie kaarten, de “Flop”, die open in het midden van de tafel word gelegd, zodat alle spelers ze kunnen zien. Dan begint de tweede inzetronde van het spel.
 
-		<br><br><strong>In tegenstelling tot de Pre-Flop -inzetronde, kunnen alle inzetrondes na de flop altijd beginnen met de eerste actieve speler links van de dealerbutton en kunnen er drie biedingen worden gedaan:</strong><br>
+		<br><br><strong>In tegenstelling tot de Pre-Flop inzetronde, kunnen alle inzetrondes na de flop altijd beginnen met de eerste actieve speler links van de dealerbutton en kunnen er drie biedingen worden gedaan:</strong><br>
 		<ul>
 			<li>Check: Geef de actie door aan de volgende speler, call niet en fold je kaarten niet.</li>
 			<li>Bet: Betaalt de openingsinzet volgens de limietregels.</li>
-			<li>Fold: Leg de kaarten met de kleur naar beneden af en geef de ronde op.</li>
+			<li>Fold: Leg de kaarten met de kleur naar beneden en geef de ronde op.</li>
 		</ul>
 
 		Als een speler de openingsinzet plaatst, kan de eerste actieve speler links van hem drie biedingen doen:
 		<ul>
 			<li>Call - De bestaande inzet wordt uitbetaald.</li>
-			<li>Raise - betaalt de bestaande inzet uit en verhoogt deze binnen de limietregels.</li>
+			<li>Raise - Betaalt de bestaande inzet uit en verhoogt deze binnen de limietregels.</li>
 			<li>Fold - De kaarten worden met de afbeelding naar beneden op tafel gelegd en verlaten de ronde (opgeven).</li>
 		</ul>
 
@@ -296,11 +296,11 @@ $lang = array_merge($lang, [
 			</li>
 		</ul>',
 	'JV_POKER_HELP_PLAY_QUESTION'			=> 'Hoe speel je poker?',
-	'JV_POKER_HELP_POKER_ANSWER'			=> 'PhpBB Holdem Póker is een kaartspel dat geregistreerde gebruikers tegen elkaar kunnen spelen. Alleen een beheerder kan het gebruik van poker autoriseren. De volgende gids zal echter waarschijnlijk nuttig zijn.',
+	'JV_POKER_HELP_POKER_ANSWER'			=> 'PhpBB Holdem Póker is een kaartspel dat geregistreerde gebruikers tegen elkaar kunnen spelen. Alleen een beheerder kan het gebruik van poker toelaten. De volgende gids zal echter waarschijnlijk nuttig zijn.',
 	'JV_POKER_HELP_POKER_QUESTION'			=> 'Wat is phpBB Holdem Póker?',
 	'JV_POKER_HELP_PRACTICE_ANSWER'			=> 'Iedereen kan in deze kamer spelen, ook als ze geen eigen chips hebben. Elke speler krijgt een vooraf bepaald aantal chips als hij gaat zitten. De chips die in deze kamer worden gewonnen, kunnen niet uit de kamer worden gehaald of worden geruild.',
 	'JV_POKER_HELP_PRACTICE_QUESTION'		=> 'Wat betekent het om in een praktijkkamer te zijn?',
-	'JV_POKER_HELP_PTOC_ANSWER'				=> 'Ja, gebruik hiervoor de knop “Chips wisselen” op de hoofdpagina van de pokerpagina naast de chips die in je eigen profiel worden weergegeven.',
+	'JV_POKER_HELP_PTOC_ANSWER'				=> 'Ja, gebruik hiervoor de knop “Chips wisselen” op de hoofdpagina van poker naast de chips die in je eigen profiel worden weergegeven.',
 	'JV_POKER_HELP_PTOC_QUESTION'			=> 'Kunnen “%s” worden ingewisseld voor chips?',
 	'JV_POKER_HELP_P_SHOUT_ANSWER'			=> 'Indien ingeschakeld door de beheerder, ja. Als het niet is ingeschakeld, verschijnt alleen het woord “Pauze” op het prikbord.',
 	'JV_POKER_HELP_P_SHOUT_QUESTION'		=> 'Kan ik de shoutbox gebruiken tijdens een pauze?',
@@ -308,13 +308,13 @@ $lang = array_merge($lang, [
 	'JV_POKER_HELP_REG_QUESTION'			=> 'Waarom moet ik me überhaupt registreren?',
 	'JV_POKER_HELP_SHOUT_ANSWER'			=> 'Als de beheerder toestemming heeft gegeven, dan wel. Als je niet over de vereiste machtigingen beschikt, kun je alleen berichten over de voortgang van het spel op het prikbord lezen.',
 	'JV_POKER_HELP_SHOUT_QUESTION'			=> 'Kan ik het prikbord gebruiken tijdens een spel?',
-	'JV_POKER_HELP_SHOUT_SOUND_ANSWER'		=> 'Ja. U kunt het prikbord afzonderlijk uitschakelen. Als u het prikbord uitschakelt, wordt het geluid van het spel niet uitgeschakeld.',
+	'JV_POKER_HELP_SHOUT_SOUND_ANSWER'		=> 'Ja. Je kan het prikbord afzonderlijk uitschakelen. Als je het prikbord uitschakelt, wordt het geluid van het spel niet uitgeschakeld.',
 	'JV_POKER_HELP_SHOUT_SOUND_QUESTION'	=> 'Kan ik het prikbord uitzetten?',
 	'JV_POKER_HELP_SHOWDOWN_ANSWER'			=> 'Het tijdstip van presentatie van de kaarten aan het einde van het spel wordt bepaald door de beheerder.',
 	'JV_POKER_HELP_SHOWDOWN_QUESTION'		=> 'Hoe lang zijn de kaarten zichtbaar aan het einde van het spel?',
-	'JV_POKER_HELP_STAND_UP_ANSWER'			=> 'IIn dit geval zijn er twee mogelijkheden:
+	'JV_POKER_HELP_STAND_UP_ANSWER'			=> 'In dit geval zijn er twee mogelijkheden:
 	<ul>
-		<li>1. Je staat op van de tafel. Je verlaat de kamer niet. Als je in een oefenkamer bent, kun je je chips niet uitnemen, dus ze worden geannuleerd.</li>
+		<li>1. Je staat op van de tafel. Je verlaat de kamer niet. Als je in een oefenkamer bent, kun je je chips niet meenemen, dus ze worden geannuleerd.</li>
 		<li>2. Je staat op van de tafel. Je verlaat de kamer niet. Als je in een normale kamer bent, worden je gewonnen chips toegevoegd aan je saldo.</li>
 	</ul>',
 	'JV_POKER_HELP_STAND_UP_QUESTION'		=> 'Wat gebeurt er als ik op de sta-op-knop druk?',
@@ -324,8 +324,8 @@ $lang = array_merge($lang, [
 	'JV_POKER_HELP_SU_SHOUT_QUESTION'		=> 'Als ik opsta, kan ik dan het prikbord gebruiken?',
 	'JV_POKER_HELP_S_SHOUT_ANSWER'			=> 'Het prikbord kan in ieder geval alleen de laatste 8 regels weergeven, dus verder scrollen is niet mogelijk.',
 	'JV_POKER_HELP_S_SHOUT_QUESTION'		=> 'Hoe scroll ik door berichten?',
-	'JV_POKER_HELP_TOUR_ANSWER'				=> 'In een toernooikamer kunnen alleen gebruikers spelen die hun eigen chips bezitten, en die genoeg chips kunnen inbrengen voor het vereiste minimale inschrijfbedrag. Elk van deze kamers heeft een vast minimumbedrag om aan de slag te gaan. Chips die in deze kamer zijn gewonnen, kunnen uit de kamer worden gehaald en je chips verhogen. Deze chips kunnen weer worden ingewisseld.',
+	'JV_POKER_HELP_TOUR_ANSWER'				=> 'In een toernooikamer kunnen alleen gebruikers spelen die hun eigen chips bezitten en die genoeg chips kunnen inbrengen voor het vereiste minimale inschrijfbedrag. Elk van deze kamers heeft een vast minimumbedrag om aan de slag te gaan. Chips die in deze kamer zijn gewonnen, kunnen uit de kamer worden gehaald en je chips verhogen. Deze chips kunnen weer worden ingewisseld.',
 	'JV_POKER_HELP_TOUR_QUESTION'			=> 'Wat betekent het om in een toernooikamer te zitten?',
-	'JV_POKER_HELP_USER_STATS_ANSWER'		=> 'Ja, als de beheerder toestemming geeft om statistieken in te zien.',
+	'JV_POKER_HELP_USER_STATS_ANSWER'		=> 'Ja, als de beheerder toestemming geeft om statistieken te bekijken.',
 	'JV_POKER_HELP_USER_STATS_QUESTION'		=> 'Kan ik de statistieken van de gebruiker zien?'
 ]);
