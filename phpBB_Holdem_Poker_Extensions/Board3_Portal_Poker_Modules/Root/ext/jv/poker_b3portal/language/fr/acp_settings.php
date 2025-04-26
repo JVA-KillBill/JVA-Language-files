@@ -36,7 +36,7 @@ if (empty($lang) || !is_array($lang))
 // Some characters you may want to copy&paste: ‚ ‘ ’ « » „ “ ” …
 
 $lang = array_merge($lang, [
-	'POKER_EXT_B3PORTAL'					=> 'Board3 portal poker modules,',
+	'POKER_EXT_B3PORTAL'					=> 'Modules de poker du portail Board3,',
 	'POKER_EXT_B3PORTAL_DETECT'				=> 'L’extension « Board3 Portal » n’est pas installée ou désactivée donc cette extension est inactive.',
 	'POKER_EXT_B3PORTAL_EXPLAIN'			=> 'Tous les modules de portail de poker installés seront affichés sur le portail.',
 	'POKER_EXT_B3PORTAL_STATS_AUTH'			=> 'Vérification des autorisations statistiques',

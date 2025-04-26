@@ -38,7 +38,7 @@ if (empty($lang) || !is_array($lang))
 $lang = array_merge($lang, [
 	'POKER_EXT_B3PORTAL_DISPLAYED_DATA'				=> 'Toon data',
 	'POKER_EXT_B3PORTAL_LEADERS'					=> 'Poker leiders',
-	'POKER_EXT_B3PORTAL_LEAST_PLAYED_USERS_TITLE'	=> 'Poker - Minst spelende gebruikers',
+	'POKER_EXT_B3PORTAL_LEAST_PLAYED_USERS_TITLE'	=> 'Poker - Minst gespeelde gebruikers',
 	'POKER_EXT_B3PORTAL_LONGEST_PLAYTIME_TITLE'		=> 'Poker - Langste speltijd',
 	'POKER_EXT_B3PORTAL_MOST_PLAYED_USERS_TITLE'	=> 'Poker - Meest spelende gebruikers',
 	'POKER_EXT_B3PORTAL_SHORTEST_PLAYTIME_TITLE'	=> 'Poker - Kortste speeltijd',
