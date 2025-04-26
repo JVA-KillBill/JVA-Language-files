@@ -36,7 +36,7 @@ if (empty($lang) || !is_array($lang))
 // Some characters you may want to copy&paste: ‚ ‘ ’ « » „ “ ” …
 
 $lang = array_merge($lang, [
-	'POKER_EXT_B3PORTAL_ERROR_ENABLE1'	=> 'L’extension ne peut pas être activée car le <strong>« Portail Board3 »</strong> n’est pas installé !',
+	'POKER_EXT_B3PORTAL_ERROR_ENABLE1'	=> 'L’extension ne peut pas être activée car le <strong>« Board3 portal »</strong> n’est pas installé !',
 	'POKER_EXT_B3PORTAL_ERROR_ENABLE2'	=> 'L’extension ne peut pas être activée car <strong>« phpBB Holdem Póker «</strong> n’est pas actif !',
 	'POKER_EXT_B3PORTAL_ERROR_ENABLE3'	=> 'L’extension ne peut pas être activée car la version de <strong>« phpBB Holdem Póker »</strong> est inférieure à la version <strong>« %s »</strong> !'
 ]);
