@@ -38,6 +38,6 @@ if (empty($lang) || !is_array($lang))
 $lang = array_merge($lang, [
 	'POKER_EXT_ENABLE_ERROR1'						=> 'De extensie kan niet worden geactiveerd omdat <strong>“phpBB Holdem Poker”</strong> niet actief is!',
 	'POKER_EXT_ENABLE_ERROR2'						=> 'De extensie kan niet worden geactiveerd omdat de versie van <strong>“phpBB Holdem Póker”</strong> lager is dan versie <strong>“%s”</strong>!',
-	'POKER_EXT_WHO_IS_PLAYING_FORUM_INDEX'			=> '“Wie speelt er” op de indexpagina van het forum',
-	'POKER_EXT_WHO_IS_PLAYING_FORUM_INDEX_EXPLAIN'	=> 'Met de extensie kan arcade “Wie speelt er” weergeven op de indexpagina van het forum.'
+	'POKER_EXT_WHO_IS_PLAYING_FORUM_INDEX'			=> '“Who is playing” op de indexpagina van het forum',
+	'POKER_EXT_WHO_IS_PLAYING_FORUM_INDEX_EXPLAIN'	=> 'Met de extensie kan arcade “Who is playing” weergeven op de indexpagina van het forum.'
 ]);

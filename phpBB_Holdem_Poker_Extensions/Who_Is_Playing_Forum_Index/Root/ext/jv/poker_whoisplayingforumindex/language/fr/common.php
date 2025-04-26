@@ -38,6 +38,6 @@ if (empty($lang) || !is_array($lang))
 $lang = array_merge($lang, [
 	'POKER_EXT_ENABLE_ERROR1'						=> 'L’extension ne peut pas être activée car <strong>« phpBB Holdem Póker »</strong> n’est pas actif !',
 	'POKER_EXT_ENABLE_ERROR2'						=> 'L’extension ne peut pas être activée car la version de <strong>« phpBB Holdem Póker »</strong> est inférieure à la version <strong>“%s”</strong> !',
-	'POKER_EXT_WHO_IS_PLAYING_FORUM_INDEX'			=> '« Qui joue » sur la page d’index du forum',
-	'POKER_EXT_WHO_IS_PLAYING_FORUM_INDEX_EXPLAIN'	=> 'L’extension permettra à l’arcade d’afficher « Qui joue » sur la page d’index du forum.'
+	'POKER_EXT_WHO_IS_PLAYING_FORUM_INDEX'			=> '« Who is playing » sur la page d’index du forum',
+	'POKER_EXT_WHO_IS_PLAYING_FORUM_INDEX_EXPLAIN'	=> 'L’extension permettra à l’arcade d’afficher « Who is playing » sur la page d’index du forum.'
 ]);
