@@ -81,7 +81,7 @@ $lang = array_merge($lang, [
 	'PORTAL_EVENTS_MANAGE'					=> 'Gérer les évènements',
 	'PORTAL_EVENTS_URL_NEW_WINDOW'			=> 'Ouvrir les liens externes des évènements dans une nouvelle fenêtre',
 	'PORTAL_LONG_MONTH'						=> 'Afficher le nom complet des mois',
-	'PORTAL_LONG_MONTH_EXP'					=> 'Si désactivé  le nom des mois sera tronqué, comme par exemple : Jan. à la place de Janvier.',
+	'PORTAL_LONG_MONTH_EXP'					=> 'Si désactivé le nom des mois sera tronqué, comme par exemple : Jan. à la place de Janvier.',
 	'PORTAL_SUNDAY_FIRST'					=> 'Premier jour de la semaine',
 	'PORTAL_SUNDAY_FIRST_EXP'				=> 'Si désactivé le calendrier affichera Lu. --> Di., à la place de Di. --> Sa.',
 
