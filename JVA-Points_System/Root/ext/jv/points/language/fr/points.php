@@ -74,7 +74,7 @@ $lang = array_merge($lang, array(
 	'JV_POINTS_NOTIFICATION_CHANGE_ADD'		=> 'Utilisateur %s a ajouté un montant à votre compte.<br>Montant ajouté : %s.',
 	'JV_POINTS_NOTIFICATION_CHANGE_SET'		=> 'Utilisateur %s a changé votre montant.<br>Nouvel solde : %s.',
 	'JV_POINTS_NOTIFICATION_CHANGE_SUB'		=> 'Utilisateur %s a déduit un montant de votre compte.<br>Montant déduit : %s.',
-	'JV_POINTS_NOTIFICATION_SET'			=> 'Utilisateur %s a changé votre solde.<br>Ancien solde: %s<br>Nouvel solde : %s.',
+	'JV_POINTS_NOTIFICATION_SET'			=> 'Utilisateur %s a changé votre solde.<br>Ancien solde : %s<br>Nouvel solde : %s.',
 	'JV_POINTS_NOTIFICATION_TRANSFER'		=> 'Utilisateur %s vous a fait un don de %s.',
 	'JV_POINTS_NO_TRANSFER_LOG'				=> 'Aucun transfert n’a encore été effectué',
 	'JV_POINTS_NO_USER'						=> 'Actuellement, le montant de chaque utilisateur est de zéro.',
@@ -101,5 +101,5 @@ $lang = array_merge($lang, array(
 	'JV_POINTS_VIEWING'						=> 'Regarde le panneau de configuration du système de points',
 	'JV_POINTS_WRITE_POST_NO_POINTS'		=> 'Tu n’as pas assez de « %s » pour écrire un nouveau message.',
 
-	'JVA_CORE_EXT_NOT_FOUND'				=> 'L’extension ne peut pas être activée car l’extension « JVA - Core » est introuvable!',
+	'JVA_CORE_EXT_NOT_FOUND'				=> 'L’extension ne peut pas être activée car l’extension « JVA - Core » est introuvable !',
 ));

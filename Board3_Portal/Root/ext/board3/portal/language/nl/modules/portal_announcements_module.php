@@ -33,14 +33,14 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 $lang = array_merge($lang, [
 	'ACP_PORTAL_ANNOUNCE_SETTINGS'				=> 'Algemene aankondigingen instellingen',
-	'ACP_PORTAL_ANNOUNCE_SETTINGS_EXP'			=> 'Hier kan je de algemene aankondigingen blok aanpassen.',
+	'ACP_PORTAL_ANNOUNCE_SETTINGS_EXP'			=> 'Hier kan je het algemene aankondigingen blok aanpassen.',
 
 	'COMMENTS'									=> 'Reacties',
 
 	'GLOBAL_ANNOUNCEMENT'						=> 'Algemene aankondiging',
 	'GLOBAL_ANNOUNCEMENTS'						=> 'Algemene aankondigingen',
 
-	'JUMP_FIRST'								=> 'spring naar eerste bericht',
+	'JUMP_FIRST'								=> 'Spring naar eerste bericht',
 	'JUMP_NEWEST'								=> 'Spring naar nieuwste bericht',
 	'JUMP_TO_POST'								=> 'Spring naar bericht',
 
@@ -55,11 +55,11 @@ $lang = array_merge($lang, [
 	'PORTAL_ANNOUNCEMENTS_DAY_EXP'				=> '0 betekent oneindig',
 	'PORTAL_ANNOUNCEMENTS_EXP'					=> 'Geef dit blok weer op het portaal.',
 	'PORTAL_ANNOUNCEMENTS_FORUM_EXCLUDE'		=> 'Forums uitsluiten',
-	'PORTAL_ANNOUNCEMENTS_FORUM_EXCLUDE_EXP'	=> 'Selecteer “Ja” als je de geselecteerde forums wilt uitsluiten van de aankondigingen blok, en “Nee” als je alleen de geselecteerde forums wilt zien in het aankondigingsblok.',
-	'PORTAL_ANNOUNCEMENTS_LENGTH'				=> 'Maximum grootte/lengte van algemene aankondiging',
+	'PORTAL_ANNOUNCEMENTS_FORUM_EXCLUDE_EXP'	=> 'Selecteer “Ja” als je de geselecteerde forums wilt uitsluiten van het aankondigingen blok, en “Nee” als je alleen de geselecteerde forums wilt zien in het aankondigingenblok.',
+	'PORTAL_ANNOUNCEMENTS_LENGTH'				=> 'Maximum grootte/lengte van algemene aankondigingen',
 	'PORTAL_ANNOUNCEMENTS_LENGTH_EXP'			=> '0 betekent oneindig',
 	'PORTAL_ANNOUNCEMENTS_PERMISSIONS'			=> 'Permissies in-/uitschakelen',
-	'PORTAL_ANNOUNCEMENTS_PERMISSIONS_EXP'		=> 'Tijdens het weergeven van aankondigingen, de gebruiker forum weergave permissies in de gaten houden.',
+	'PORTAL_ANNOUNCEMENTS_PERMISSIONS_EXP'		=> 'Tijdens het weergeven van aankondigingen, de weergave permissies van het gebruikersforum in de gaten houden.',
 	'PORTAL_ANNOUNCEMENTS_STYLE'				=> 'Compacte algemene aankondigingen blokstijl',
 	'PORTAL_ANNOUNCEMENTS_STYLE_EXP'			=> '“Ja” betekent het gebruik van de compacte stijl voor algemene aankondigingen. “Nee” betekent het gebruik van de grote stijl (tekst weergave).',
 	'PORTAL_GLOBAL_ANNOUNCEMENTS_FORUM'			=> 'Aankondigingsforums',

@@ -48,7 +48,7 @@ $lang = array_merge($lang, [
 	'ACP_PORTAL_MENU_PERMISSION_EXP'	=> 'Sélectionner les groupes qui doivent être autorisés à voir le lien. Afin que tous les utilisateurs soient en mesure de voir le lien, ne rien sélectionner.<br>Pour sélectionner/désélectionner plusieurs groupes maintenir la touche <samp>CTRL</samp> tout en cliquant.',
 	'ACP_PORTAL_MENU_TITLE'				=> 'Titre',
 	'ACP_PORTAL_MENU_TYPE'				=> 'Type de lien',
-	'ACP_PORTAL_MENU_TYPE_EXP'			=> 'Pour un lien vers une page de votre forum, choisir "Lien interne" afin d’éviter des déconnexions indésirables.',
+	'ACP_PORTAL_MENU_TYPE_EXP'			=> 'Pour un lien vers une page de votre forum, choisir « Lien interne » afin d’éviter des déconnexions indésirables.',
 	'ACP_PORTAL_MENU_URL'				=> 'Adresse URL du lien',
 	'ACP_PORTAL_MENU_URL_EXP'			=> 'Les liens externes:<br>Ils doivent contenir http://<br><br>Les liens internes:<br>Ils doivent contenir le fichier PHP comme adresse URL, comme par exemple index.php?style=4.',
 

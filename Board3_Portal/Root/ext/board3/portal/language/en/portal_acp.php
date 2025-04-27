@@ -49,7 +49,7 @@ $lang = array_merge($lang, [
 	'CHOOSE_MODULE'						=> 'Choose module',
 	'CHOOSE_MODULE_EXP'					=> 'Choose a module from the drop-down list',
 
-	'DELETE_MODULE_CONFIRM'				=> 'Are you sure you wish to delete the module "%1$s"?',
+	'DELETE_MODULE_CONFIRM'				=> 'Are you sure you wish to delete the module “%1$s”?',
 
 	'LINK_ADDED'						=> 'The link has been successfully added',
 	'LINK_UPDATED'						=> 'The link has been successfully updated',
@@ -78,7 +78,7 @@ $lang = array_merge($lang, [
 	'MODULE_POS_RIGHT'					=> 'Right column',
 	'MODULE_POS_TOP'					=> 'Top',
 	'MODULE_RESET'						=> 'Reset module configuration',
-	'MODULE_RESET_CONFIRM'				=> 'Are you sure you wish to reset the settings of the module "%1$s"?',
+	'MODULE_RESET_CONFIRM'				=> 'Are you sure you wish to reset the settings of the module “%1$s”?',
 	'MODULE_RESET_EXP'					=> 'This will reset all settings to the default!<br>Due to technical reason, Font Awesome Icons will have to be set manually again after the reset!<br>Fitting icons can be selected from the <a href="https://github.com/board3/Board3-Portal/wiki#empfohlene-fa-icons--recommended-fa-icons" target="_blank" rel="noopener noreferrer"><strong>list of recommended FA icons</strong></a>.',
 	'MODULE_RESET_SUCCESS'				=> 'Successfully reset the module settings.',
 	'MODULE_STATUS'						=> 'Enable module',

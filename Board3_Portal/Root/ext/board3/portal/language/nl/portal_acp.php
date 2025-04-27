@@ -73,7 +73,7 @@ $lang = array_merge($lang, [
 	'MODULE_PERMISSIONS'				=> 'Module permissies',
 	'MODULE_PERMISSIONS_EXP'			=> 'Selecteer de groepen die deze module mogen zien. Als alle groepen deze module mogen zien, selecteer dan niets.<br>Selecteer/Deselecteer meerdere groepen door middel van <samp>CTRL</samp> en door te klikken.',
 	'MODULE_POS_BOTTOM'					=> 'Onder',
-	'MODULE_POS_CENTER'					=> 'Midden kolom',
+	'MODULE_POS_CENTER'					=> 'Middeste kolom',
 	'MODULE_POS_LEFT'					=> 'Linker kolom',
 	'MODULE_POS_RIGHT'					=> 'Rechter kolom',
 	'MODULE_POS_TOP'					=> 'Boven',
@@ -82,7 +82,7 @@ $lang = array_merge($lang, [
 	'MODULE_RESET_EXP'					=> 'Hierdoor worden alle instellingen teruggezet naar de standaard configuratie!',
 	'MODULE_RESET_SUCCESS'				=> 'Module instellingen succesvol gereset.',
 	'MODULE_STATUS'						=> 'Module inschakelen',
-	'MOVE_LEFT'							=> 'verplaats naar links',
+	'MOVE_LEFT'							=> 'Verplaats naar links',
 	'MOVE_RIGHT'						=> 'Verplaats naar rechts',
 
 	'NO_MODULES'						=> 'Er zijn geen modules gedetecteerd.',

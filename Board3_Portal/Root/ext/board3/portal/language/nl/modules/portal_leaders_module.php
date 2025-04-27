@@ -39,6 +39,6 @@ $lang = array_merge($lang, [
 	'NO_GROUPS_P'				=> 'Geen groepen',
 	'NO_MODERATORS_P'			=> 'Geen Moderators',
 
-	'PORTAL_LEADERS_EXT'		=> 'Uitgebreide leiders / team',
+	'PORTAL_LEADERS_EXT'		=> 'Uitgebreide leiders/team',
 	'PORTAL_LEADERS_EXT_EXP'	=> 'Het standaard blok geeft alle beheerders/moderators weer, het uitgebreide blok geeft alle niet-verborgen groepen met legenda weer.',
 ]);

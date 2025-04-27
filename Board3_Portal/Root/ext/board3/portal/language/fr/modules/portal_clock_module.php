@@ -35,7 +35,7 @@ $lang = array_merge($lang, [
 	'ACP_PORTAL_CLOCK_SETTINGS'		=> 'Paramètres de l’horloge',
 	'ACP_PORTAL_CLOCK_SETTINGS_EXP'	=> 'Ici vous pouvez personnalisez le bloc de l’horloge.',
 	'ACP_PORTAL_CLOCK_SRC'			=> 'Horloge',
-	'ACP_PORTAL_CLOCK_SRC_EXP'		=> 'Saisir le nom du fichier de votre horloge. Le fichier doit être dans tous les répertoires: styles/{votre_style}/theme/images/portal/.',
+	'ACP_PORTAL_CLOCK_SRC_EXP'		=> 'Saisir le nom du fichier de votre horloge. Le fichier doit être dans tous les répertoires : styles/{votre_style}/theme/images/portal/.',
 
 	'CLOCK'							=> 'Horloge',
 ]);

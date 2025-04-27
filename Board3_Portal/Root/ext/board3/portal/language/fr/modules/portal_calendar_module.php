@@ -42,9 +42,9 @@ $lang = array_merge($lang, [
 	'ACP_PORTAL_CALENDAR_START_INCORRECT'	=> 'La date spécifiée du début de l’évènement est incorrecte. Veuillez suivez les instructions attentivement.',
 	'ACP_PORTAL_EVENTS'						=> 'Évènements du calendrier',
 	'ACP_PORTAL_EVENT_END_DATE'				=> 'Date de la fin de l’évènement',
-	'ACP_PORTAL_EVENT_END_DATE_EXP'			=> 'Saisir la date et l’heure de la fin de l’événement. La date doit avoir le format suivant: JJ/MM/AAAA/3:00 PM.',
+	'ACP_PORTAL_EVENT_END_DATE_EXP'			=> 'Saisir la date et l’heure de la fin de l’événement. La date doit avoir le format suivant : JJ/MM/AAAA/3:00 PM.',
 	'ACP_PORTAL_EVENT_START_DATE'			=> 'Date du début de l’évènement',
-	'ACP_PORTAL_EVENT_START_DATE_EXP'		=> 'Saisir la date et l’heure du début de l’événement. La date doit avoir le format suivant: JJ/MM/AAAA 3:00 PM.',
+	'ACP_PORTAL_EVENT_START_DATE_EXP'		=> 'Saisir la date et l’heure du début de l’événement. La date doit avoir le format suivant : JJ/MM/AAAA 3:00 PM.',
 	'ADD_EVENT'								=> 'Ajouter un nouvel évènement',
 
 	'CURRENT_EVENTS'						=> 'Événements',
@@ -81,7 +81,7 @@ $lang = array_merge($lang, [
 	'PORTAL_EVENTS_MANAGE'					=> 'Gérer les évènements',
 	'PORTAL_EVENTS_URL_NEW_WINDOW'			=> 'Ouvrir les liens externes des évènements dans une nouvelle fenêtre',
 	'PORTAL_LONG_MONTH'						=> 'Afficher le nom complet des mois',
-	'PORTAL_LONG_MONTH_EXP'					=> 'Si désactivé  le nom des mois sera tronqué, comme par exemple: Jan. à la place de Janvier.',
+	'PORTAL_LONG_MONTH_EXP'					=> 'Si désactivé  le nom des mois sera tronqué, comme par exemple : Jan. à la place de Janvier.',
 	'PORTAL_SUNDAY_FIRST'					=> 'Premier jour de la semaine',
 	'PORTAL_SUNDAY_FIRST_EXP'				=> 'Si désactivé le calendrier affichera Lu. --> Di., à la place de Di. --> Sa.',
 
