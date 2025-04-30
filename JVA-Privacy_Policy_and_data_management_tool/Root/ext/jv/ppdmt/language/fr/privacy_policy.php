@@ -47,7 +47,7 @@ if (empty($lang) || !is_array($lang))
 $lang = array_merge($lang, [
 	'JVPPDMT_APPROVAL'						=> 'Approuver',
 	'JVPPDMT_CONFIRM'						=> 'J’ai lu et compris la politique de confidentialité.',
-	'JVPPDMT_COOKIE_CONFIRM'				=> 'Sélectionnez si le site Web %s peut stocker des cookies sur votre appareil:',
+	'JVPPDMT_COOKIE_CONFIRM'				=> 'Sélectionnez si le site Web %s peut stocker des cookies sur votre appareil :',
 	'JVPPDMT_COOKIE_DESC'					=> 'Attention ! Ce site utilise des cookies pour vous garantir la meilleure expérience sur notre site. <a onclick="window.open(this.href); return false;" href="https://cookiesandyou.com/">En savoir plus</a>.<br>Ici, vous avez la possibilité d’accepter ou de refuser les cookies, et à tout moment vous pouvez désactiver l’utilisation des cookies du site Web dans les paramètres de votre navigateur.',
 	'JVPPDMT_DISABLED_COOKIE_GUEST_USER'	=> 'Nous ne stockons pas de cookies sur les appareils des utilisateurs invités!',
 	'JVPPDMT_NOT_CONFIRM'					=> 'Attention ! Vous n’avez pas fait de sélection à confirmer.',
@@ -229,7 +229,7 @@ Le contrôleur a intégré le service Gravatar sur ce site Web afin d’utiliser
 
 Gravatar est un service où la personne concernée peut s’inscrire et enregistrer des photos de profil avec une adresse e-mail. La photo de l’utilisateur choisie ici peut ensuite être utilisée sur de nombreux sites Web différents. Si la personne concernée écrit des messages ou des commentaires sur d’autres sites en ligne avec l’adresse e-mail respective, sa photo de profil peut être affichée à côté des messages ou des commentaires. À cette fin, l’adresse e-mail fournie par la personne concernée est cryptée et envoyée à Gravatar pour vérifier si un profil avec une photo a été stocké à cette fin. C’est le seul but du transfert d’adresse e-mail.
 
-En affichant les images, Gravatar connaît l’adresse IP actuelle de la personne concernée, car cela est nécessaire pour la communication entre un navigateur et un service en ligne. De plus, Gravatar reçoit des informations sur les sites Web visités et où la photo de profil est utilisée. Ces connexions de données ne sont pas sous notre contrôle et nous ne sommes pas au courant des données utilisées ou transmises. Pour plus d’informations sur la façon dont Gravatar collecte et utilise les données, consultez la politique de confidentialité d’Automtic: <a onclick="window.open (this.href); return false;" href="https://automattic.com/privacy/"> https://automattic.com/privacy/</a>.
+En affichant les images, Gravatar connaît l’adresse IP actuelle de la personne concernée, car cela est nécessaire pour la communication entre un navigateur et un service en ligne. De plus, Gravatar reçoit des informations sur les sites Web visités et où la photo de profil est utilisée. Ces connexions de données ne sont pas sous notre contrôle et nous ne sommes pas au courant des données utilisées ou transmises. Pour plus d’informations sur la façon dont Gravatar collecte et utilise les données, consultez la politique de confidentialité d’Automtic : <a onclick="window.open (this.href); return false;" href="https://automattic.com/privacy/"> https://automattic.com/privacy/</a>.
 
 Si la personne concernée ne souhaite pas qu’une image apparaisse dans les messages, qui est associée à son adresse e-mail chez Gravatar, elle doit être utilisée dans le compte utilisateur et pour les messages ou commentaires une adresse e-mail, qui n’est pas enregistré auprès de Gravatar. Les utilisateurs peuvent empêcher complètement le transfert de données en ne connectant pas une image Gravatar à leur compte utilisateur ou à leurs commentaires, mais en sélectionnant de préférence une image utilisateur locale.
 
@@ -267,7 +267,7 @@ L’exploitant du composant Google Analytics est Google Inc., 1600 Amphitheatre 
 
 Pour l’analyse Web via Google Analytics, le contrôleur utilise l’application « _gat. _anonymizeIp ». Grâce à cette application, l’adresse IP de la connexion Internet de la personne concernée est tronquée par Google et anonymisée lors de la visite de nos sites Internet depuis un État membre de l’Union européenne ou un autre État contractant à l’Accord sur l’Espace économique européen.
 
-Le composant Google Analytics a pour objectif d’analyser le trafic sur notre site Web. Google utilise les données et informations collectées, entre autres pour évaluer l’utilisation de notre site Web et pour fournir des rapports en ligne, qui montrent les activités sur nos sites Web, et pour fournir d’autres services liés à l’utilisation de notre site Web pour nous. .
+Le composant Google Analytics a pour objectif d’analyser le trafic sur notre site Web. Google utilise les données et informations collectées, entre autres pour évaluer l’utilisation de notre site Web et pour fournir des rapports en ligne, qui montrent les activités sur nos sites Web, et pour fournir d’autres services liés à l’utilisation de notre site Web pour nous.
 
 Google Analytics place un cookie sur le système informatique de la personne concernée. La définition des cookies a été expliquée ci-dessus. En définissant le cookie, Google peut analyser l’utilisation de notre site Web. À chaque appel à l’une des pages individuelles de ce site Internet, qui est exploité par le responsable  et dans lequel un composant Google Analytics a été intégré, le navigateur Internet du système informatique de la personne concernée transmet automatiquement des données via le Composant Google Analytics à des fins de publicité en ligne et de règlement des commissions chez Google. Au cours de cette procédure technique, la société Google acquiert la connaissance d’informations personnelles, telles que l’adresse IP de la personne concernée, qui servent entre autres à Google pour comprendre l’origine des visiteurs et des clics et ensuite pour créer des règlements de commissions.
 
@@ -305,7 +305,7 @@ En utilisant Google Translate sur nos pages, la personne concernée accepte la c
 
 Les conditions d’utilisation de Google Translate sont disponibles sur <a onclick ="window.open (this.href); return false;"href="https://policies.google.com/terms">https://policies.google.com/terms</a>. Dispositions relatives à la protection des données de Google Translate disponibles sur <a onclick ="window.open (this.href); return false;"href="https://policies.google.com/privacy">https://policies.google.com/privacy</a> fournir des informations sur la collecte, le traitement et l’utilisation des données personnelles par Google.
 
-Plus d’informations sur Google Translate sont disponibles sur: <a onclick="window.open(this.href); return false;" href="http://translate.google.com/manager/website/">http://translate.google.com/manager/website/</a>.
+Plus d’informations sur Google Translate sont disponibles sur : <a onclick="window.open(this.href); return false;" href="http://translate.google.com/manager/website/">http://translate.google.com/manager/website/</a>.
 
 <h3>Dispositions relatives à la protection des données concernant l’application et l’utilisation de Google Fonts</h3>
 Sur ce site Web, le contrôleur a intégré des polices externes de Google Fonts. L’opérateur de Google Fonts est Google Inc., 1600 Amphitheater Pkwy, Mountain View, CA 94043-1351, ETATS-UNIS. Google Fonts est un service d’utilisation de polices en ligne pour une utilisation sur divers sites Web. Les fichiers de polices doivent être téléchargés dans le système informatique de la personne concernée avant de pouvoir être affichés. Les polices fournies par l’API Google Fonts sont automatiquement compressées pour un téléchargement plus rapide et une fois téléchargées, elles sont mises en cache dans le navigateur et réutilisées par une autre page Web qui utilise l’API Google Fonts.
@@ -318,7 +318,7 @@ Pendant toute la durée du séjour sur le site Internet qui a appelé le service
 
 Si le navigateur ou les paramètres de l’utilisateur ne prennent pas en charge les polices Web, une police installée sur le système informatique de la personne concernée est utilisée. Les polices Web peuvent être désactivées en bloquant les modules complémentaires dans le navigateur.
 
-Plus d’informations sur Google Fonts sont disponibles sur: <a onclick="window.open(this.href); return false;" href="https://fonts.google.com/about#">https://fonts.google.com/about#</a> et sur <a onclick="window.open(this.href); return false;" href="https://developers.google.com/fonts/faq">https://developers.google.com/fonts/faq</a>.
+Plus d’informations sur Google Fonts sont disponibles sur : <a onclick="window.open(this.href); return false;" href="https://fonts.google.com/about#">https://fonts.google.com/about#</a> et sur <a onclick="window.open(this.href); return false;" href="https://developers.google.com/fonts/faq">https://developers.google.com/fonts/faq</a>.
 
 Les conditions d1 utilisation de Google Fonts sont disponibles sur <a onclick="window.open (this.href); return false;" href="https://policies.google.com/terms">https://policies.google.com/terms</a>. Dispositions relatives à la protection des données de Google Translate disponibles sur <a onclick="window.open (this.href); return false;"href="https://policies.google.com/privacy"> https://policies.google.com/privacy</a> fournir des informations sur la collecte, le traitement et l’utilisation des données personnelles par Google.
 
@@ -381,24 +381,24 @@ Toute personne sur notre site Web peut supprimer son inscription à tout moment 
 	'JVPPDMT_REJECTION'						=> 'désapprouver',
 	'JVPPDMT_USED_COOKIE' => [
 		'<strong>Cookies utilisés par le forum phpBB:</strong>',
-		'%1$s_cookie_status: Lorsque vous visitez notre site Web, une confirmation d’acceptation de l’utilisation des cookies est enregistrée.',
-		'%1$s_k: Utilisé pour utiliser le service de connexion automatique (souvenez-vous de moi).',
-		'%1$s_lang: Si l’utilisateur invité change la langue, ce cookie est créé. Cette session se termine lorsque la navigation s’arrête.',		
-		'%1$s_sid: Contient l’ID de session. Ce cookie est utilisé pour identifier l’utilisateur avec %1$s_u.',
-		'%1$s_u: L’ID utilisateur de l’utilisateur est stocké ici.',
-		'%1$s_track: Marquage des messages lus pour les invités.',
+		'%1$s_cookie_status : Lorsque vous visitez notre site Web, une confirmation d’acceptation de l’utilisation des cookies est enregistrée.',
+		'%1$s_k : Utilisé pour utiliser le service de connexion automatique (souvenez-vous de moi).',
+		'%1$s_lang : Si l’utilisateur invité change la langue, ce cookie est créé. Cette session se termine lorsque la navigation s’arrête.',		
+		'%1$s_sid : Contient l’ID de session. Ce cookie est utilisé pour identifier l’utilisateur avec %1$s_u.',
+		'%1$s_u : L’ID utilisateur de l’utilisateur est stocké ici.',
+		'%1$s_track : Marquage des messages lus pour les invités.',
 
 		/* Si vous n’utilisez pas l’extension (phpBB Arcade) ajoutez le commentaire // au début de la ligne.. */
 		'<br><strong>Cookies utilisé par Arcade:</strong>',
-		'%1$s_arcade_sid: Contient l’ID de session de jeu à utiliser avec phpBB Arcade.',
-		'%1$s_arcade_pd: Comprend l’identifiant du jeu à utiliser avec phpBB Arcade.',
-		'%1$s_arcade_popup: Contient les paramètres lors de la lecture d’un jeu dans la fenêtre contextuelle.',
-		'%1$s_arcade_lighting: Comprend les préférences de l’utilisateur du rétroéclairage des jeux.',
-		'%1$s_arcade_info_block: Contient la préférence de l’utilisateur pour la visibilité du bloc d’informations pendant les jeux.',
+		'%1$s_arcade_sid : Contient l’ID de session de jeu à utiliser avec phpBB Arcade.',
+		'%1$s_arcade_pd : Comprend l’identifiant du jeu à utiliser avec phpBB Arcade.',
+		'%1$s_arcade_popup : Contient les paramètres lors de la lecture d’un jeu dans la fenêtre contextuelle.',
+		'%1$s_arcade_lighting : Comprend les préférences de l’utilisateur du rétroéclairage des jeux.',
+		'%1$s_arcade_info_block : Contient la préférence de l’utilisateur pour la visibilité du bloc d’informations pendant les jeux.',
 
 		/* Si vous n’utilisez pas l’extension (JV Footer Chat) ajoutez le commentaire // au début de la ligne.. */
-		'<br><strong>Cookie utilisé par JV footer chat:</strong>',
-		'%1$s_jv_chat_data: Contient les paramètres du module tchat et le numéro d’identification des utilisateurs avec lesquels nous discutons.',
+		'<br><strong>Cookie utilisé par JV footer chat :</strong>',
+		'%1$s_jv_chat_data : Contient les paramètres du module tchat et le numéro d’identification des utilisateurs avec lesquels nous discutons.',
 
 		/*Si vous n’utilisez pas l’extension (JV SHoutbox) ajoutez le commentaire // au début de la ligne.. */
 		'<br><strong>Cookie utilisé par JV Shoutbox:</strong>',
@@ -406,6 +406,6 @@ Toute personne sur notre site Web peut supprimer son inscription à tout moment 
 
 		/* Si vous n’utilisez pas l’extension (Collapsible Forum Categories) ajoutez le commentaire // au début de la ligne. */
 		'<br><strong>Cookie utilisé par les catégories de forum réductibles:</strong>',
-		'%1$s_ccat: Stocke les préférences personnelles des utilisateurs dans les champs de catégorie réduits ou étendus.',
+		'%1$s_ccat : Stocke les préférences personnelles des utilisateurs dans les champs de catégorie réduits ou étendus.',
 	],
 ]);

@@ -42,7 +42,7 @@ $lang = array_merge($lang, [
 
 	'JVPPDMT_COOKIE_INFO'				=> 'Cher utilisateur, du fait que vous avez refusé d’enregistrer des cookies sur votre terminal, de nombreuses fonctionnalités ne vous sont pas accessibles.<br>Si vous souhaitez modifier vos paramètres de confidentialité à tout moment, cliquez sur %sICI%s.',
 	'JVPPDMT_INFO_NO_USE_COOKIE_GUEST'	=> 'Cher invité, nous tenons à vous informer que nous ne stockons pas de cookies pour les utilisateurs invités. Si vous souhaitez plus d‘informations, veuillez lire notre %spolitique de confidentialité%s.',
-	'JVPPDMT_PHPBB_ERROR'				=> 'L’extension ne peut pas être activée car la version de <strong>« phpBB »</strong> est inférieure à la version <strong>« %s »</strong>!',
+	'JVPPDMT_PHPBB_ERROR'				=> 'L’extension ne peut pas être activée car la version de <strong>« phpBB »</strong> est inférieure à la version <strong>« %s »</strong> !',
 	'JVPPDMT_SOMEONE'					=> 'Quelqu’un',
 	'JVPPDMT_VIEWER_GROUP_INFO'			=> 'Cher membre, vous avez refusé avec succès le stockage d‘autres données personnelles et vous faites maintenant partie du groupe de téléspectateurs. Le groupe de téléspectateurs ne peut regarder que les pages mais pas soumettre de formulaires car cela n‘est pas possible sans enregistrer les données.<br>Clique %sICI%s si vous souhaitez modifier vos paramètres d‘enregistrement des données de confidentialité à tout moment.',
 

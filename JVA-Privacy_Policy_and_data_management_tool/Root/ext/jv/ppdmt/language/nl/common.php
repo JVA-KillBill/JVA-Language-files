@@ -40,7 +40,7 @@ $lang = array_merge($lang, [
 
 	'G_JVPPDMT_REGISTERED_VIEWER'		=> 'Geregistreerde kijkers',
 
-	'JVPPDMT_COOKIE_INFO'				=> 'Beste lid, omdat je niet toestaat dat cookies op je apparaat worden opgeslaan zijn veel functies niet beschikbaar voor je.<br>Als je op enig moment je instellingen voor het opslaan van privacygegevens wilt wijzigen, klik je %sHIER%s.',
+	'JVPPDMT_COOKIE_INFO'				=> 'Beste lid, omdat je niet toestaat dat cookies op je apparaat worden opgeslaan, zijn veel functies niet beschikbaar voor je.<br>Als je op enig moment je instellingen voor het opslaan van privacygegevens wilt wijzigen, klik je %sHIER%s.',
 	'JVPPDMT_INFO_NO_USE_COOKIE_GUEST'	=> 'Geachte gast, we willen je laten weten dat we geen cookies opslaan voor gast gebruikers. Als je meer informatie wilt, lees dan ons %sPrivacybeleid%s.',
 	'JVPPDMT_PHPBB_ERROR'				=> 'De extensie kan niet worden geactiveerd omdat de versie van <strong>“phpBB”</strong> lager is dan versie <strong>“%s”</strong>!',
 	'JVPPDMT_SOMEONE'					=> 'Iemand',
