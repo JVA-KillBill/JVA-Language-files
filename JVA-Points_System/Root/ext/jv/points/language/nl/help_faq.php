@@ -55,7 +55,7 @@ $lang = array_merge($lang, array(
 	'JV_POINTS_HELP_FAQ_INTRO_MODULES_ANSWER'				=> 'In het puntensysteem zijn veel modules opgenomen, maar alleen degene die door de beheerder zijn geactiveerd, zijn beschikbaar. 
 																<br><br><strong>Modules:</strong>
 																<ul>
-																	<li><strong>Overzicht</strong> - De hier weergegeven gebruikers hebben  het hoogste saldo. Daarnaast kan je hier je eigen actuele saldo bekijken.</li>
+																	<li><strong>Overzicht</strong> - De hier weergegeven gebruikers hebben het hoogste saldo. Daarnaast kan je hier je eigen actuele saldo bekijken.</li>
 																	<li><strong>Algemene informatie</strong> - Hier lees je de huidige instellingen, welke beloningen er zijn en welke kosten.</li>
 																	<li><strong>Overdracht</strong> - Hier kan je saldo overdragen aan een andere gebruiker.</li>
 																	<li><strong>Overdrachtslogboeken</strong> - Hier kan je de overdrachtstransacties bekijken.</li>

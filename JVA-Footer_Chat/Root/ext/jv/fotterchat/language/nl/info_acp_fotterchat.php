@@ -40,6 +40,6 @@ $lang = array_merge($lang, array(
 	'ACP_JV_FOTTERCHAT'						=> 'JVA - Footer Chat',
 	'ACP_JV_FOTTERCHAT_SETTINGS'			=> 'Algemene instellingen',
 	'ACP_JV_FOTTERCHAT_ALL_USERS'			=> 'Toon alle gebruikers',
-	'ACP_JV_FOTTERCHAT_ALL_USERS_EXPLAIN'	=> 'Hier kunt u alle gebruikers in de lijst laten verschijnen.<br><em>Houd er rekening mee dat alle gebruikers alleen worden weergegeven aan gebruikers die hiervoor toestemming hebben.</em>',
+	'ACP_JV_FOTTERCHAT_ALL_USERS_EXPLAIN'	=> 'Hier kan je alle gebruikers in de lijst laten verschijnen.<br><em>Houd er rekening mee dat alle gebruikers alleen worden weergegeven aan gebruikers die hiervoor toestemming hebben.</em>',
 	'ACP_JV_FOTTERCHAT_USERNAME_FUL'		=> 'De gebruikersnaam moet altijd beginnen met een hoofdletter',
 ));
