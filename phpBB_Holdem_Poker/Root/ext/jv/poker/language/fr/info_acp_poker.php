@@ -83,6 +83,7 @@ $lang = array_merge($lang, [
 	'ACP_JV_POKER_DELETE_TOUR_REFUND'				=> 'Tournoi supprimé (buy-in remboursé)',
 	'ACP_JV_POKER_DISABLE'							=> 'Désactiver le poker',
 	'ACP_JV_POKER_DISABLE_EXPLAIN'					=> 'Cela rend le poker indisponible pour les utilisateurs. Vous pouvez également saisir un court message (255 caractères) à afficher si vous le souhaitez.',
+	'ACP_JV_POKER_DISPLAY_CHIPS_DISCS'				=> 'Afficher les disques de chip',
 	'ACP_JV_POKER_DISPLAY_PLAYING_USERS'			=> 'Montrer qui joue',
 	'ACP_JV_POKER_DISPLAY_PLAYING_USERS_EXPLAIN'	=> 'Lorsque cette option est activée, les joueurs séjournant ou jouant dans les salles seront affichés sur la page principale du poker.',
 	'ACP_JV_POKER_EDIT_RADIO'						=> 'Modifier une station de radio',

@@ -80,7 +80,7 @@ $lang = array_merge($lang, [
 		<li>Bruin: 1.000.000.000</li>
 	</ul>',
 	'JV_POKER_HELP_CHIPS_C_QUESTION'		=> 'Wat is de waarde van de verschillende gekleurde chips?',
-	'JV_POKER_HELP_CHIPS_DC_ANSWER'			=> 'Ja, zolang je het maximale aantal chips dat kan worden weergegeven niet hebt bereikt, namelijk $ 11.111.111.110, aangezien er maximaal 10 items in 1 chip zitten.',
+	'JV_POKER_HELP_CHIPS_DC_ANSWER'			=> 'Ja, zolang je het maximale aantal chips dat kan worden weergegeven niet hebt bereikt, namelijk 11.111.111.110, aangezien er maximaal 10 items in 1 chip zitten.',
 	'JV_POKER_HELP_CHIPS_DC_QUESTION'		=> 'Worden de chips op de juiste hoeveelheid weergegeven?',
 	'JV_POKER_HELP_CM_ANSWER'				=> '“Stoelen” betekent hoeveel plaatsen er beschikbaar zijn voor spelers in deze kamer. Als het aantal zitplaatsen 8 is, kunnen er 8 gebruikers tegelijk in de zaal zitten. “Spelers” geeft aan hoeveel gebruikers er in de kamer zijn. Als de beheerder de kamer sluit, betekent dit dat de kamer vol is en dat geen enkel ander lid de kamer kan betreden voordat er een stoel is vrijgekomen.',
 	'JV_POKER_HELP_CM_QUESTION'				=> 'Wat betekent Spelers/Stoelen?',

@@ -83,6 +83,7 @@ $lang = array_merge($lang, [
 	'ACP_JV_POKER_DELETE_TOUR_REFUND'				=> 'Verwijderd toernooi (Buy-in terugbetaald)',
 	'ACP_JV_POKER_DISABLE'							=> 'Poker uitschakelen',
 	'ACP_JV_POKER_DISABLE_EXPLAIN'					=> 'Dit maakt de poker niet beschikbaar voor gebruikers. Je kan ook een kort bericht (255 tekens) invoeren om weer te geven als je dat wilt.',
+	'ACP_JV_POKER_DISPLAY_CHIPS_DISCS'				=> 'Toon chip schijven',
 	'ACP_JV_POKER_DISPLAY_PLAYING_USERS'			=> 'Laat zien wie er speelt',
 	'ACP_JV_POKER_DISPLAY_PLAYING_USERS_EXPLAIN'	=> 'Indien ingeschakeld, worden spelers die in de kamers verblijven of spelen, weergegeven op de hoofdpagina van poker.',
 	'ACP_JV_POKER_EDIT_RADIO'						=> 'Een radiostation bewerken',

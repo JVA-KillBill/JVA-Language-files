@@ -83,6 +83,7 @@ $lang = array_merge($lang, [
 	'ACP_JV_POKER_DELETE_TOUR_REFUND'				=> 'Turnier gelöscht (Buy-in zurückerstattet)',
 	'ACP_JV_POKER_DISABLE'							=> 'Poker deaktivieren',
 	'ACP_JV_POKER_DISABLE_EXPLAIN'					=> 'Poker wird dadurch für die Benutzer nicht mehr verfügbar sein. Du kannst außerdem eine kurze Nachricht (255 Zeichen) eingeben, wenn eine Anzeige gewünscht wird.',
+	'ACP_JV_POKER_DISPLAY_CHIPS_DISCS'				=> '',
 	'ACP_JV_POKER_DISPLAY_PLAYING_USERS'			=> 'Anzeigen, wer gerade spielt',
 	'ACP_JV_POKER_DISPLAY_PLAYING_USERS_EXPLAIN'	=> 'Wenn dies aktiviert ist, werden Spieler, die sich in den Räumen aufhalten oder spielen, auf der Poker-Hauptseite angezeigt.',
 	'ACP_JV_POKER_EDIT_RADIO'						=> 'Eine Radiostation bearbeiten',

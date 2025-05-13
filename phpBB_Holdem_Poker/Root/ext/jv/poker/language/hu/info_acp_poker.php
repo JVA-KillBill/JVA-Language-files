@@ -83,6 +83,7 @@ $lang = array_merge($lang, [
 	'ACP_JV_POKER_DELETE_TOUR_REFUND'				=> 'Törölt verseny (Nevezési díjak visszatérítve)',
 	'ACP_JV_POKER_DISABLE'							=> 'Póker kikapcsolva',
 	'ACP_JV_POKER_DISABLE_EXPLAIN'					=> 'A felhasználók számára elérhetetlené fogja tenni a pókert, de az adminisztrátorok továbbra is beléphetnek, a felhasználóknak kilehet írni egy rövid szöveges üzenetet, hogy miért is van zárva a póker, maximum (255 karakter).',
+	'ACP_JV_POKER_DISPLAY_CHIPS_DISCS'				=> 'Zseton korongok kijelzése',
 	'ACP_JV_POKER_DISPLAY_PLAYING_USERS'			=> 'Kik játszanak megjelenítése',
 	'ACP_JV_POKER_DISPLAY_PLAYING_USERS_EXPLAIN'	=> 'Ha engedélyezed, akkor a szobákban üllő illetve játszó játékosok kijelzésre fognak kerülni a póker főoldalán.',
 	'ACP_JV_POKER_EDIT_RADIO'						=> 'Rádióállomás szerkesztése',

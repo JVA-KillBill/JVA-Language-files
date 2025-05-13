@@ -83,6 +83,7 @@ $lang = array_merge($lang, [
 	'ACP_JV_POKER_DELETE_TOUR_REFUND'				=> 'Deleted tournament (Buy-in refunded)',
 	'ACP_JV_POKER_DISABLE'							=> 'Disable poker',
 	'ACP_JV_POKER_DISABLE_EXPLAIN'					=> 'This will make the poker unavailable to users. You can also enter a short (255 character) message to display if you wish.',
+	'ACP_JV_POKER_DISPLAY_CHIPS_DISCS'				=> 'Display chip discs',
 	'ACP_JV_POKER_DISPLAY_PLAYING_USERS'			=> 'Display who is playing',
 	'ACP_JV_POKER_DISPLAY_PLAYING_USERS_EXPLAIN'	=> 'If enabled, players staying in or playing in the rooms will be displayed on the main page of poker.',
 	'ACP_JV_POKER_EDIT_RADIO'						=> 'Edit a radio station',

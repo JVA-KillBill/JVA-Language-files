@@ -80,7 +80,7 @@ $lang = array_merge($lang, [
 		<li>Bruin: 1.000.000.000</li>
 	</ul>',
 	'JV_POKER_HELP_CHIPS_C_QUESTION'		=> 'Quelle est la valeur des chips de différentes couleurs ?',
-	'JV_POKER_HELP_CHIPS_DC_ANSWER'			=> 'Oui, tant que vous n’avez pas atteint le nombre maximum de chips pouvant être affichés, qui est de $ 11.111.111.110, car il y a jusqu’à 10 éléments dans 1 chip .',
+	'JV_POKER_HELP_CHIPS_DC_ANSWER'			=> 'Oui, tant que vous n’avez pas atteint le nombre maximum de chips pouvant être affichés, qui est de 11.111.111.110, car il y a jusqu’à 10 éléments dans 1 chip .',
 	'JV_POKER_HELP_CHIPS_DC_QUESTION'		=> 'Les chips sont-ils affichés au bon montant ?',
 	'JV_POKER_HELP_CM_ANSWER'				=> '« Chaises » signifie le nombre de chaises disponibles pour les joueurs dans cette salle. Si le nombre de chaises est de 8, 8 utilisateurs peuvent s’asseoir dans la salle en même temps. « Joueurs » indique combien d’utilisateurs sont dans la salle. Si l’administrateur ferme la salle, cela signifie que la salle est pleine et qu’aucun autre membre ne peut entrer dans la salle avant qu’une chaise ne soit libérée.',
 	'JV_POKER_HELP_CM_QUESTION'				=> 'Que signifie Joueurs/Chaises ?',

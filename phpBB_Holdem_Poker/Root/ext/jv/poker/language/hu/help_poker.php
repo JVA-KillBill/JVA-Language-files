@@ -80,7 +80,7 @@ $lang = array_merge($lang, [
 		<li>Barna: 1,000,000,000</li>
 	</ul>',
 	'JV_POKER_HELP_CHIPS_C_QUESTION'		=> 'Mi az értékük a különféle színű zsetonoknak?',
-	'JV_POKER_HELP_CHIPS_DC_ANSWER'			=> 'Igen mindaddig, amíg el nem érik a maximum megjeleníthető zseton mennyiségét, ami $11,111,111,110 mivel egy zsetonból maximum 10 darab jelenik meg.',
+	'JV_POKER_HELP_CHIPS_DC_ANSWER'			=> 'Igen mindaddig, amíg el nem érik a maximum megjeleníthető zseton mennyiségét, ami 11,111,111,110 mivel egy zsetonból maximum 10 darab jelenik meg.',
 	'JV_POKER_HELP_CHIPS_DC_QUESTION'		=> 'A zsetonok a megfelelő összeg szerint jelennek-e meg?',
 	'JV_POKER_HELP_CM_ANSWER'				=> 'A „Szék” az jelenti, hogy az adott szobában mennyi ülőhely van engedélyezve. Ha az ülőhelyek száma 8, akkor 8 felhasználó ülhet be egyszerre az adott szobában. A „Játékos” azt takarja, hogy a szobában mennyi felhasználó ült már le. Ha az adminisztrátor lezárja a szobát az azt jelenti, hogy ha a szoba megtelt, akkor további felhasználó már nem mehet be az érintett szobába, addig míg egy ülőhely meg nem üresedik.',
 	'JV_POKER_HELP_CM_QUESTION'				=> 'Mit jelent a Szék/Játékos?',

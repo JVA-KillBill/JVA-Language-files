@@ -36,7 +36,7 @@
 - [Modified] Increased the maximum chips amount from 186,111.1 to 11,111,111,110.
 - [Modified] Round avatars.
 - [Modified] If the user fold his cards, his avatar will be darker.
-- [Modified] Poker javascript uses the Points.NumberFormat functions of the new "JVA - Core" extension.
+- [Modified] Poker javascript uses the Points.NumberFormat function of the new "JVA - Core" extension.
 - [Modified] Disable ACP modules when JVA - Core extension is disabled.
 - [Modified] Bet buttons function.
 - [Modified] Displaying the chips placed on the table and in the Pot.
@@ -95,6 +95,7 @@
 - [Added] ACP/Poker/General settings - Enable Chips/Points exchange.
 - [Added] ACP/Poker/General settings - Point exchange cost.
 - [Added] ACP/Poker/General settings - Chips exchange cost.
+- [Added] ACP/Poker/Rooms settings - Display chip discs.
 - [Added] ACP/Poker/Rooms settings/ Stop gif animation - Provides the option to stop user avatar gif animations in rooms.
 - [Added] ACP/Poker/Rooms settings/ Display JP clock - The display of the date in the JackPot list is extended by the clock display.
 - [Added] ACP/Poker/Rooms settings/Security settings/ Safe Bets - Users can only win up to the amount they bet. If the winning user has not yet been able to bet, the big blind or the user chips will be used as the basis.

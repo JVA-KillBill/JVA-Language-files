@@ -80,7 +80,7 @@ $lang = array_merge($lang, [
 		<li>Braun: 1,000,000,000</li>
 	</ul>',
 	'JV_POKER_HELP_CHIPS_C_QUESTION'		=> 'Welchen Wert haben die verschiedenfarbigen Chips?',
-	'JV_POKER_HELP_CHIPS_DC_ANSWER'			=> 'Ja, solange bis du die maximale Anzahl an Chips erreicht hast, die angezeigt werden können, welche $11,111,111,110 beträgt. Es sind bis zu 10 Einheiten in einem Chip.',
+	'JV_POKER_HELP_CHIPS_DC_ANSWER'			=> 'Ja, solange bis du die maximale Anzahl an Chips erreicht hast, die angezeigt werden können, welche 11,111,111,110 beträgt. Es sind bis zu 10 Einheiten in einem Chip.',
 	'JV_POKER_HELP_CHIPS_DC_QUESTION'		=> 'Werden die Chips in der richtigen Menge angezeigt?',
 	'JV_POKER_HELP_CM_ANSWER'				=> '„Sitze“ bedeutet, wieviel Plätze für Spieler in diesem Raum verfügbar sind. Wenn die Anzahl der Sitzplätze 8 beträgt, können 8 Benutzer gleichzeitig im Raum sitzen. „Mitspieler“ gibt an, wieviele Benutzer sich im Raum befinden. Wenn der Administrator den Raum schließt, bedeutet das, dass der Raum voll ist, und kein weiteres Mitglied den Raum betreten kann, ehe ein Sitzplatz frei geworden ist.',
 	'JV_POKER_HELP_CM_QUESTION'				=> 'Was bedeutet Mitspieler/Sitze?',
