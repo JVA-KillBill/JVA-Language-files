@@ -36,7 +36,7 @@ if (empty($lang) || !is_array($lang))
 // Some characters you may want to copy&paste: ‚ ‘ ’ « » „ “ ” …
 
 $lang = array_merge($lang, [
-	'JV_POKER_HELP_AUTO_ACC_ANSWER'			=> 'Als de gebruiker de functie “Automatische Check/Call” goedkeurt, wanneer de speler aan de beurt is, zal deze automatisch passen, of als er een call is, zal hij automatisch het gecallde bedrag specificeren.',
+	'JV_POKER_HELP_AUTO_ACC_ANSWER'			=> 'Als de gebruiker de functie “Automatische Check/Call” goedkeurt en wanneer de speler aan de beurt is, zal deze automatisch passen, of als er een call is, zal hij automatisch het gecallde bedrag specificeren.',
 	'JV_POKER_HELP_AUTO_ACC_QUESTION'		=> 'Wat doet automatische Check/Call?',
 	'JV_POKER_HELP_AUTO_ACF_ANSWER'			=> 'Als de gebruiker de “Automatische Check/Fold” functie goedkeurt, zal de speler automatisch de kaarten doorgeven of folden als er een call is.',
 	'JV_POKER_HELP_AUTO_ACF_QUESTION'		=> 'Wat doet de Automatische Check/Fold?',
@@ -145,7 +145,7 @@ $lang = array_merge($lang, [
 	'JV_POKER_HELP_LEARNER_QUESTION'		=> 'Wat betekent het om in een leerkamer te zijn?',
 	'JV_POKER_HELP_LIMIT_ANSWER'			=> 'We hebben het antwoord op deze vraag al beschreven in “Hoe speel je poker?/Limietregels”.',
 	'JV_POKER_HELP_LIMIT_QUESTION'			=> 'Wat betekent Vaste limiet/Geen limiet?',
-	'JV_POKER_HELP_L_STATS_ANSWER'			=> 'Er worden geen statistische gegevens opgeslagen in de leer- en praktijkkamers.',
+	'JV_POKER_HELP_L_STATS_ANSWER'			=> 'Er worden geen statistische gegevens opgeslaan in de leer- en praktijkkamers.',
 	'JV_POKER_HELP_L_STATS_QUESTION'		=> 'Slaan de leer- en praktijkkamers ook statistische gegevens op?',
 	'JV_POKER_HELP_MOVE_TIME_ANSWER'		=> '“Bewegingstijd” is de tijd waarin een gebruiker kan beslissen om te checken, in te zetten of te folden. Als deze tijd is verstreken, zijn er twee automatische opties beschikbaar:
 	<ul>
@@ -185,7 +185,7 @@ $lang = array_merge($lang, [
 		Aan de pokertafel is er altijd een dealerpositie. De dealer behandelt de kaarten, mengt en verdeelt ze. De dealerbutton (D) geeft de speler aan die op dat moment de dealerpositie bekleedt. De dealer neemt deel aan het spel.
 
 		<br><br><strong>Small blinds en big blinds:</strong><br>
-		De eerste speler links van de dealerbutton is de “small blind”, en de eerste speler links van de small blind is de “big blind”. Het zijn de blind spelers die hun weddenschappen moeten plaatsen zonder hun eigen kaarten te kennen. De “small blind” is de kleine startinzet, de “big blind” is de grote startinzet, die ze “blindelings” moeten doen.
+		De eerste speler links van de dealerknop is de “small blind”, en de eerste speler links van de small blind is de “big blind”. Het zijn de blind spelers die hun weddenschappen moeten plaatsen zonder hun eigen kaarten te kennen. De “small blind” is de kleine startinzet, de “big blind” is de grote startinzet, die ze “blindelings” moeten doen.
 
 		<br><br><strong>Bieden:</strong><br>
 		Poker gebruikt “Chips” om te bieden, wat contant geld tijdens het spel vervangt. In de inzetronde gaat het bieden altijd in de linkerrichting en alle “actieve spelers” (die hun kaarten nog niet hebben gefold) zetten in en gaan door zolang er geen actieve inzetten meer worden verhoogd, vastgehouden of gefold. Het aantal biedingen en verhogingen zijn in overeenstemming met de limietregels.
@@ -234,7 +234,7 @@ $lang = array_merge($lang, [
 		De dealer deelt de laatste open gemeenschappelijke kaart, genaamd “River”. Dit geeft elke speler in totaal zeven kaarten. Vijf daarvan moeten worden gebruikt om een pokerhand te maken, die hopelijk van hogere kwaliteit is dan de hand van de tegenstander.
 
 		<br><br><strong>Showdown (kaartpresentatie)</strong><br>
-		Als er meer dan één speler in het spel blijft na het einde van de laatste inzetronde, worden de kaarten van de winnaar en de All-In spelers gepresenteerd. De pot wordt toegekend aan de speler met de sterkste hand van 5 kaarten. In het geval dat twee of meer spelers dezelfde sterkste hand hebben, wordt de Pot evenredig verdeeld. Als de waarde van de pot niet evenredig deelbaar is, heeft de eerste winnende speler links van de dealerbutton recht op het meertal. Voor de volgende ronde wordt de dealerbutton altijd een positie naar links verplaatst. De dealer is dus in elke ronde anders, en de blinds worden ook aan andere spelers toegewezen.
+		Als er meer dan één speler in het spel blijft na het einde van de laatste inzetronde, worden de kaarten van de winnaar en de All-In spelers gepresenteerd. De pot wordt toegekend aan de speler met de sterkste hand van 5 kaarten. In het geval dat twee of meer spelers dezelfde sterkste hand hebben, wordt de Pot evenredig verdeeld. Als de waarde van de pot niet evenredig deelbaar is, heeft de eerste winnende speler links van de dealerknop recht op het meertal. Voor de volgende ronde wordt de dealerknop altijd een positie naar links verplaatst. De dealer is dus in elke ronde anders, en de blinds worden ook aan andere spelers toegewezen.
 
 		<br><br><strong>Beoordeling van pokerhanden</strong><br>
 		Bij poker is een pokerhand een combinatie van 5 kaarten, die de speler combineert van zijn eigen twee en de vijf gemeenschappelijke kaarten van de tafel (dat wil zeggen, in totaal zeven kaarten). De speler kan één, beide of geen van zijn eigen kaarten gebruiken. De kleuren van de kaarten zijn van gelijke waarde. Als twee spelers dezelfde combinatie hebben, bepaalt de bijbehorende kaart welke speler het spel wint. Een bijbehorende kaart (kicker) maakt geen deel uit van de combinatie, het begeleidt en “vult” het alleen aan. Als twee spelers gelijk spelen, dan beslist de hogere kicker. Als er nog steeds een gelijke stand is, wordt de pot verdeeld onder de winnaars.
