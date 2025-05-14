@@ -38,14 +38,14 @@ if (empty($lang) || !is_array($lang))
 $lang = array_merge($lang, [
 	'JV_POKER_HELP_AUTO_ACC_ANSWER'			=> 'Si l’utilisateur approuve la fonction « Check/Call automatique », lorsque c’est le tour du joueur, il passera automatiquement, ou s’il y a un call, il spécifiera automatiquement le montant appelé.',
 	'JV_POKER_HELP_AUTO_ACC_QUESTION'		=> 'À quoi sert le Check/Call automatique ?',
-	'JV_POKER_HELP_AUTO_ACF_ANSWER'			=> 'Si l’utilisateur approuve la fonction « Check/Fold automatique », le joueur passera automatiquement les cartes ou se couchera lorsqu’il y aura un call.',
-	'JV_POKER_HELP_AUTO_ACF_QUESTION'		=> 'À quoi sert le Check/Fold automatique ?',
+	'JV_POKER_HELP_AUTO_ACF_ANSWER'			=> 'Si l’utilisateur approuve la fonction « Check/Plié automatique », le joueur passera automatiquement les cartes ou se couchera lorsqu’il y aura un call.',
+	'JV_POKER_HELP_AUTO_ACF_QUESTION'		=> 'À quoi sert le Check/Plié automatique ?',
 	'JV_POKER_HELP_AVATAR_BC_ANSWER'		=> 'Oui, les couleurs suivantes sont actuellement utilisées autour de l’avatar :
 	<ul>
 		<li>Blanc : En attente de jouer.</li>
 		<li>Noir : Ceux qui sont dans le jeu.</li>
 		<li>Jaune : Joueur réel.</li>
-		<li>Bourgogne : Fold les cartes.</li>
+		<li>Bourgogne : Plié les cartes.</li>
 	</ul>',
 	'JV_POKER_HELP_AVATAR_BC_ANSWER_2'		=> '<li>Bourgogne barré : Faire une pause.</li>',
 	'JV_POKER_HELP_AVATAR_BC_ANSWER_3'		=> '<li>Bleu : Protection de pari.</li>',
@@ -122,13 +122,13 @@ $lang = array_merge($lang, [
 		<li>2. Si vous êtes dans un jeu de tournoi, vous vous relevez automatiquement à la fin de la %s. main.</li>
 	</ul>
 	C’est nécessaire car personne n’aime que quelqu’un ralentisse délibérément le jeu.',
-	'JV_POKER_HELP_INACTIVE_QUESTION'		=> 'Que se passe-t-il si je ne réponds à rien pendant le match ?',
+	'JV_POKER_HELP_INACTIVE_QUESTION'		=> 'Que se passe-t-il si je ne réponds à rien pendant le jeu ?',
 	'JV_POKER_HELP_JACKPOT_ANSWER'			=> 'Il y a trois façons de retirer les gains d’un JackPot. Seulement lors de la présentation des cartes et lorsque la vôtre est la main la plus forte.<br>
 	<strong>Prix de JackPot :</strong>
 	<ul>
-		<li>1. Dans le cas de Four of a Kind 10% du JackPot.</li>
-		<li>2. Dans le cas de Straight Flush 30% du JackPot.</li>
-		<li>3. Dans le cas de Royal Flush 80% du JackPot.</li>
+		<li>1. Dans le cas de Le Carré 10% du JackPot.</li>
+		<li>2. Dans le cas de La Quinte Couleur 30% du JackPot.</li>
+		<li>3. Dans le cas d’une Quinte Couleur à l’as 80% du JackPot.</li>
 	</ul>
 	S’il y a plus d’un gagnant, le prix sera calculé au prorata.<br><br>
 	<strong>Vous ne pouvez pas gagner le JackPot si :</strong>
@@ -141,19 +141,19 @@ $lang = array_merge($lang, [
 	'JV_POKER_HELP_JACKPOT_QUESTION'		=> 'Comment puis-je gagner le JackPot ?',
 	'JV_POKER_HELP_LEADERS_ANSWER'			=> 'Les champions sont classés en fonction du nombre de jetons gagnés.',
 	'JV_POKER_HELP_LEADERS_QUESTION'		=> 'Par quoi sont classés les champions ? ',
-	'JV_POKER_HELP_LEARNER_ANSWER'			=> 'out le monde peut jouer dans cette salle, même s’il n’a pas ses propres jetons. Chaque joueur reçoit un nombre prédéterminé de jetons lorsqu’il s’assoit. Dans la salle, tous les joueurs jouent avec des cartes face visible, afin qu’ils aient une chance de s’enseigner les uns les autres. Les jetons gagnés dans cette salle ne peuvent pas être retirés de la salle ni échangés.',
+	'JV_POKER_HELP_LEARNER_ANSWER'			=> 'Tout le monde peut jouer dans cette salle, même s’il n’a pas ses propres jetons. Chaque joueur reçoit un nombre prédéterminé de jetons lorsqu’il s’assoit. Dans la salle, tous les joueurs jouent avec des cartes face visible, afin qu’ils aient une chance de s’enseigner les uns les autres. Les jetons gagnés dans cette salle ne peuvent pas être retirés de la salle ni échangés.',
 	'JV_POKER_HELP_LEARNER_QUESTION'		=> 'Qu’est-ce que cela signifie d’être dans une salle d’apprentissage ?',
 	'JV_POKER_HELP_LIMIT_ANSWER'			=> 'Nous avons déjà décrit la réponse à cette question dans « Comment jouer au poker ?/Règles du Limit ».',
 	'JV_POKER_HELP_LIMIT_QUESTION'			=> 'Que signifie Limite fixe/Aucune limite ?',
 	'JV_POKER_HELP_L_STATS_ANSWER'			=> 'Aucune donnée statistique n’est stockée dans les salles d’apprentissage et les salles pratiques.',
 	'JV_POKER_HELP_L_STATS_QUESTION'		=> 'Les salles d’apprentissage et les salles pratiques stockent-elles également des données statistiques ?',
-	'JV_POKER_HELP_MOVE_TIME_ANSWER'		=> 'Le « temps de mouvement » est le temps pendant lequel un utilisateur peut décider de checker, de miser ou de folder. Une fois ce temps écoulé, deux options automatiques sont disponibles :
+	'JV_POKER_HELP_MOVE_TIME_ANSWER'		=> 'Le « temps de mouvement » est le temps pendant lequel un utilisateur peut décider de checker, de miser ou de plié les cartes. Une fois ce temps écoulé, deux options automatiques sont disponibles :
 	<ul>
 		<li>1. Si l’action du joueur précédent n’était pas un call, nous vérifierons automatiquement.</li>
-		<li>2. Si l’action du joueur précédent était un call, nous avons pliés automatiquement nos cartes.</li>
+		<li>2. Si l’action du joueur précédent était un call, nous avons plié automatiquement nos cartes.</li>
 	</ul>',
 	'JV_POKER_HELP_MOVE_TIME_QUESTION'		=> 'Qu’est le temps de mouvement ?',
-	'JV_POKER_HELP_NORMAL_ANSWER'			=> 'Dans une salle normale, seuls les utilisateurs qui possèdent leurs propres jetons et qui peuvent contribuer suffisamment pour le montant minimum d’entrée requis peuvent jouer. Chacune de ces chambres a un montant minimum et maximum défini pour commencer. Les utilisateurs peuvent s’asseoir à la table avec le montant minimum. Les jetons gagnés dans cette salle peuvent être retirés de la salle et augmenter vos jetons. Ces jetons peuvent être échangés à nouveau.',
+	'JV_POKER_HELP_NORMAL_ANSWER'			=> 'Dans une salle normale, seuls les utilisateurs qui possèdent leurs propres jetons et qui peuvent contribuer suffisamment pour le montant minimum d’entrée requis peuvent jouer. Chacune de ces salles a un montant minimum et maximum défini pour commencer. Les utilisateurs peuvent s’asseoir à la table avec le montant minimum. Les jetons gagnés dans cette salle peuvent être retirés de la salle et augmenter vos jetons. Ces jetons peuvent être échangés à nouveau.',
 	'JV_POKER_HELP_NORMAL_QUESTION'			=> 'Qu’est-ce que cela signifie d’être dans une salle normale ?',
 	'JV_POKER_HELP_OFFLINE_BL_ANSWER'		=> 'Si l’avatar de l’utilisateur clignote en gris, cela indique que l’utilisateur est actuellement hors ligne ou non connecté à la salle. Cela est possible pour deux raisons :
 	<ul>	
@@ -176,16 +176,16 @@ $lang = array_merge($lang, [
 		<li>3. Si vous êtes dans une partie de tournoi, vous vous relevez automatiquement à la fin de la %s. main.</li>
 	</ul>',
 	'JV_POKER_HELP_OFFLINE_U_QUESTION'		=> 'Que se passe-t-il si ma connexion Internet est interrompue ?',
-	'JV_POKER_HELP_PAUSE_ANSWER'			=> 'Appuyer sur le bouton pause équivaut à sortir du jeu, donc si le tour continue, vos cartes seront couchées. Cette option vaut la peine d’être utilisée si le joueur ne veut pas que quelqu’un d’autre prenne sa place entre-temps. Bien sûr, le temps de pause est limité. La limite est déterminée par l’administrateur.',
+	'JV_POKER_HELP_PAUSE_ANSWER'			=> 'Appuyer sur le bouton pause équivaut à sortir du jeu, donc si le tour continue, vos cartes seront pliés. Cette option vaut la peine d’être utilisée si le joueur ne veut pas que quelqu’un d’autre prenne sa place entre-temps. Bien sûr, le temps de pause est limité. La limite est déterminée par l’administrateur.',
 	'JV_POKER_HELP_PAUSE_QUESTION'			=> 'Que se passe-t-il si j’appuie sur le bouton pause ?',
 	'JV_POKER_HELP_PD_ANSWER'				=> '« phpBB Holdem Poker » collecte et stocke l’adresse IP de chaque joueur actuel jusqu’à ce que l’utilisateur quitte la table. Lorsqu’un utilisateur se lève de la table, toutes les données sont effacées et seules les données statistiques sont conservées. L’adresse IP est stockée pendant la partie pour éviter que plusieurs joueurs à la même table n’utilisent la même adresse IP. Bien sûr, vous pouvez activer et désactiver cette vérification IP.',
 	'JV_POKER_HELP_PD_QUESTION'				=> 'Est-ce que « phpBB Holdem Póker » stocke des données personnelles ?',
-	'JV_POKER_HELP_PLAY_ANSWER'				=> 'Le poker est l’un des jeux de cartes les plus populaires au monde. Le but du jeu est de tirer le meilleur parti des cartes que vous avez reçues, en combinaison avec les cartes communes révélées, afin de finalement gagner la mise au milieu de la table (appelée « Pot » en anglais). Le jeu peut être joué par 2 à 8 personnes par salle de poker. Le jeu utilise une main française de 52 cartes sans joker. Chaque joueur reçoit deux cartes privées qui ne peuvent pas être vues et utilisées par les autres joueurs. Pendant le jeu, cinq cartes communes sont placées face visible sur la table, que tous les joueurs peuvent voir et utiliser. Le joueur essaie maintenant de faire la meilleure « combinaison de cinq cartes » possible de ses propres cartes et des cartes communes. Le joueur avec les cartes les plus fortes remporte la valeur de la mise. Un jeu de cartes françaises (sans jokers) a 4 couleurs différentes, et chaque couleur se compose de 13 cartes de valeurs différentes, ce qui donne le jeu de 52 feuilles. L’ordre des 4 couleurs : <span class="poker_cs">♣</span> trèfle <span class="poker_dh">♦</span> diamants  <span class="poker_dh">♥</span> cœur <span class="poker_cs">♠</span> pique.  Toutes les couleurs sont égales pour l’évaluation des mains de poker. Les 13 valeurs de cartes dans leur ordre : A (As), 2, 3, 4, 5, 6, 7, 8, 9, 10, J (Valet), Q (Dame), K (Roi). Un as n’est pas seulement une valeur numérique de 1, il peut aussi être la carte la plus haute après le roi.
+	'JV_POKER_HELP_PLAY_ANSWER'				=> 'Le poker est l’un des jeux de cartes les plus populaires au monde. Le but du jeu est de tirer le meilleur parti des cartes que vous avez reçues, en combinaison avec les cartes communes révélées, afin de finalement gagner la mise au milieu de la table (appelée « Pot » en anglais). Le jeu peut être joué par 2 à 8 personnes par salle de poker. Le jeu utilise une main française de 52 cartes sans joker. Chaque joueur reçoit deux cartes privées qui ne peuvent pas être vues et utilisées par les autres joueurs. Pendant le jeu, cinq cartes communes sont placées face visible sur la table, que tous les joueurs peuvent voir et utiliser. Le joueur essaie maintenant de faire la meilleure « combinaison de cinq cartes » possible de ses propres cartes et des cartes communes. Le joueur avec les cartes les plus fortes remporte la valeur de la mise. Un jeu de cartes françaises (sans jokers) a 4 couleurs différentes, et chaque couleur se compose de 13 cartes de valeurs différentes, ce qui donne le jeu de 52 feuilles. L’ordre des 4 couleurs : <span class="poker_cs">♣</span> trèfle <span class="poker_dh">♦</span> diamants  <span class="poker_dh">♥</span> cœur <span class="poker_cs">♠</span> pique. Toutes les couleurs sont égales pour l’évaluation des mains de poker. Les 13 valeurs de cartes dans leur ordre : A (As), 2, 3, 4, 5, 6, 7, 8, 9, 10, J (Valet), Q (Dame), K (Roi). Un as n’est pas seulement une valeur numérique de 1, il peut aussi être la carte la plus haute après le roi.
 		<br><br><strong>Croupier:</strong><br>
 		À la table de poker, il y a toujours une position de croupier. Le croupier manipule, mélange et distribue les cartes. Le bouton du croupier (D) indique le joueur qui occupe actuellement la position du croupier. Le croupier participe au jeu.
 
 		<br><br><strong>Petite blinds et grande blinds :</strong><br>
-		Le premier joueur à gauche du bouton du croupier est le « petite blind » et le premier joueur à gauche du petite blind est le « grande blind ». Ce sont les aveugles qui doivent placer leurs paris sans connaître leurs propres cartes. La « petite blind » est la petite mise de départ, la « grande blind » est la grosse mise de départ, qu’ils doivent faire « à l’aveuglette ».
+		Le premier joueur à gauche du bouton du croupier est la « petite blind » et le premier joueur à gauche du petite blind est la « grande blind ». Ce sont les blinds qui doivent placer leurs paris sans connaître leurs propres cartes. La « petite blind » est la petite mise de départ, la « grande blind » est la grosse mise de départ, qu’ils doivent faire « à l’aveuglette ».
 
 		<br><br><strong>Enchèrer :</strong><br>
 		Le poker utilise des « Jetons » , pour enchérir, qui remplacent l’argent pendant la partie. Dans le tour d’enchères, les enchères sont toujours dans le sens de la gauche, et tous les « joueurs actifs » (qui n’ont pas encore plié leurs cartes) misent et continuent tant qu’il n’y a plus de mises actives, maintenues ou fold. Le nombre d’enchères et de relances est conforme aux règles de limite.
@@ -213,7 +213,7 @@ $lang = array_merge($lang, [
 
 		<br><br><strong>Contrairement au tour d’enchères pré-flop, tous les tours d’enchères après le flop peuvent toujours commencer avec le premier joueur actif à gauche du bouton du croupier et trois enchères peuvent être faites :</strong><br>
 		<ul>
-			<li>Check: Transmettez l’action au joueur suivant, pas call ni plié vos cartes.</li>
+			<li>Check: Transmettez l’action au joueur suivant, pas call ni foldé vos cartes.</li>
 			<li>Bet : Paie la mise d’ouverture selon les règles de la limite.</li>
 			<li>Fold : Défaussez les cartes face cachée et abandonnez le tour.</li>
 		</ul>
@@ -248,52 +248,52 @@ $lang = array_merge($lang, [
 
 		<strong>Mains de Poker :</strong>
 		<ul>
-			<li><strong>Royal Flush</strong>
+			<li><strong>Une Quinte Couleur à l’as</strong>
 				<ul><li>La combinaison de cartes la plus forte. 10, valet, dame, roi, as - tous dans la même couleur. Si deux sont à égalité, il y a égalité (le prix est partagé).<br>Exemple: 10<span class="poker_dh">♥</span>, J<span class="poker_dh">♥</span>, Q<span class="poker_dh">♥</span>, K<span class="poker_dh">♥</span>, A<span class="poker_dh">♥</span>.</li></ul>
 			</li>
 		</ul>
 		<ul>
-			<li><strong>Straight Flush</strong>
+			<li><strong>La Quinte Couleur </strong>
 				<ul><li>Couleur consécutive de cinq cartes de la même couleur. Si cela se produit plusieurs fois dans le tour, la carte la plus haute décide. Si deux sont à égalité, il y a égalité (le prix est partagé).<br>Exemple : 5<span class="poker_cs">♣</span>, 6<span class="poker_cs">♣</span>, 7<span class="poker_cs">♣</span>, 8<span class="poker_cs">♣</span>, 9<span class="poker_cs">♣</span></li></ul>
 			</li>
 		</ul>
 		<ul>
-			<li><strong>Poker (four of a kind)</strong>
+			<li><strong>Poker (le carré)</strong>
 				<ul><li>Il se compose de quatre cartes avec le même numéro ou caractère et de toute autre carte. Si plusieurs d’entre eux se rencontrent, le meilleur joueur de poker gagne.<br>Exemple : 7<span class="poker_dh">♥</span>, 7<span class="poker_cs">♠</span>, 7<span class="poker_cs">♣</span>, 7<span class="poker_dh">♦</span>, 10<span class="poker_cs">♠</span>.</li></ul>
 			</li>
 		</ul>
 		<ul>
-			<li><strong>Full house</strong>
+			<li><strong>Le Full</strong>
 				<ul><li>Il se compose de trois cartes avec le même numéro ou signe, et de deux autres cartes avec le même numéro ou signe. Si plusieurs d’entre eux se rencontrent, le plus élevé gagne three of a kind. S’il y a toujours égalité, la paire la plus élevée gagne.<br>Exemple : 5<span class="poker_dh">♦</span>, 5<span class="poker_cs">♣</span>, 5<span class="poker_cs">♠</span>, 8<span class="poker_dh">♥</span>, 8<span class="poker_cs">♠</span>.</li></ul
 			</li>
 		</ul>
 		<ul>
-			<li><strong>Flush</strong>
+			<li><strong>La Couleur</strong>
 				<ul><li>Se compose de cinq cartes aléatoires de la même couleur. Si plusieurs d’entre eux se rencontrent, le joueur qui a la carte la plus haute que tous les joueurs n’ont pas gagne. Toujours en cas d’égalité, la deuxième carte la plus élevée marque, et ainsi de suite…<br>Exemple : 2<span class="poker_cs">♠</span>, 4<span class="poker_cs">♠</span>, 5<span class="poker_cs">♠</span>, 7<span class="poker_cs">♠</span>, 10<span class="poker_cs">♠</span>.</li></ul>
 			</li>
 		</ul>
 		<ul>
-			<li><strong>Straight</strong>
+			<li><strong>Quinte</strong>
 				<ul><li>Se compose de 5 cartes consécutives de chaque couleur. S’il y en a plusieurs, le joueur avec la carte la plus élevée gagne. Si aucune décision n’a encore été prise, il y aura un tirage au sort (le prix sera partagé).<br>Exemple : 4<span class="poker_dh">♥</span>, 5<span class="poker_dh">♦</span>, 6<span class="poker_cs">♠</span>, 7<span class="poker_cs">♠</span>, 8<span class="poker_cs">♣</span>.</li></ul>
 			</li>
 		</ul>
 		<ul>
-			<li><strong>Three of a kind (trips)</strong>
+			<li><strong>Le Brelan</strong>
 				<ul><li>Il se compose de trois cartes avec le même numéro ou caractère et deux d’un autre. Si plusieurs d’entre eux se rencontrent, le trois plus élevé gagne. Si aucune décision n’est prise, la carte neutre la plus élevée décide que la carte la plus basse.<br>Exemple : 3<span class="poker_dh">♥</span>, 3<span class="poker_cs">♣</span>, 3<span class="poker_cs">♠</span>, 7<span class="poker_cs">♠</span>, 10<span class="poker_dh">♦</span>.</li></ul>
 			</li>
 		</ul>
 		<ul>
-			<li><strong>Two pairs</strong>
+			<li><strong>Deux Paires</strong>
 				<ul><li>Il se compose de deux fois deux cartes avec le même numéro ou personnage et une carte différente. S’il y a plusieurs doubles paires, la paire la plus élevée décide, puis la deuxième plus haute et, si nécessaire, la carte neutre.<br>Exemple : 5<span class="poker_cs">♠</span>, 5<span class="poker_dh">♦</span>, 8<span class="poker_cs">♠</span>, 8<span class="poker_cs">♣</span>, 10<span class="poker_dh">♦</span>.</li></ul>
 			</li>
 		</ul>
 		<ul>
-			<li><strong>One pair</strong>
+			<li><strong>Une Paire</strong>
 				<ul><li>Il se compose de deux cartes avec le même numéro ou signe, et de trois autres cartes. S’il y a plusieurs paires, la paire la plus élevée décide, puis les cartes neutres le sont.<br>Exemple : 3<span class="poker_dh">♥</span>, 5<span class="poker_cs">♠</span>, 7<span class="poker_cs">♣</span>, 10<span class="poker_dh">♦</span>, 10<span class="poker_cs">♠</span>.</li></ul>
 			</li>
 		</ul>
 		<ul>
-			<li><strong>High card</strong>
+			<li><strong>Haute carte</strong>
 				<ul><li>Chaque carte.
 			</li>
 		</ul>',
@@ -319,7 +319,7 @@ $lang = array_merge($lang, [
 		<li>1. Vous vous levez de table. Vous ne quittez pas la salle. Si vous êtes dans une salle d’entraînement, vous ne pourrez pas sortir vos jetons, ils seront donc annulés.</li>
 		<li>2. Vous vous levez de table. Vous ne quittez pas la salle. Si vous êtes dans une salle normale, vos jetons gagnés seront ajoutés à votre solde.</li>
 	</ul>',
-	'JV_POKER_HELP_STAND_UP_QUESTION'		=> 'Que se passe-t-il si j’appuie sur le bouton stand-up ?',
+	'JV_POKER_HELP_STAND_UP_QUESTION'		=> 'Que se passe-t-il si j’appuie sur le bouton se lever ?',
 	'JV_POKER_HELP_STATUS_ANSWER'			=> 'Le champ sous « Statut » indique si cette salle est en jeu ou non.',
 	'JV_POKER_HELP_STATUS_QUESTION'			=> 'Que signifie le statut ?',
 	'JV_POKER_HELP_SU_SHOUT_ANSWER'			=> 'Non, le mur ne peut être utilisé que par un utilisateur assis.',
