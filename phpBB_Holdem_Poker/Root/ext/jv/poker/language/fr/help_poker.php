@@ -56,9 +56,9 @@ $lang = array_merge($lang, [
 	'JV_POKER_HELP_A_SHOUT_RE_QUESTION'		=> 'Après avoir rafraîchi l’archive, les messages ont disparu, pourquoi ?',
 	'JV_POKER_HELP_A_SHOUT_R_ANSWER'		=> 'Oui, le bouton d’actualisation est situé sur le côté droit de la barre de titre.',
 	'JV_POKER_HELP_A_SHOUT_R_QUESTION'		=> 'Existe-t-il un moyen de rafraîchir l’archive ?',
-	'JV_POKER_HELP_BAN_CHIPS_ANSWER'		=> 'Oui, si un administrateur révoque votre autorisation de jouer au poker, vous pouvez automatiquement échanger tous vos jetons à tout moment %s<strong>ICI</strong>%s. Le changement automatique ne fonctionnera pas si le poker est désactivé, auquel cas vous reviendrez plus tard et réessayerez.',
+	'JV_POKER_HELP_BAN_CHIPS_ANSWER'		=> 'Oui, si un administrateur révoque votre autorisation de jouer au poker, vous pouvez automatiquement échanger tous vos jetons à tout moment %s<strong>ICI</strong>%s. Le changement automatique ne fonctionnera pas si le poker est désactivé, dans ce cas vous reviendrez plus tard et réessayerez.',
 	'JV_POKER_HELP_BAN_CHIPS_QUESTION'		=> 'Si je perds ma permission de jouer au poker, y a-t-il un moyen d’échanger mes jetons ?',
-	'JV_POKER_HELP_BLIND_ANSWER'			=> 'Le Petite Blind/Big Blind dépend toujours du montant de départ minimum et maximum. Le montant de départ minimum (buy-in) est toujours de 10x le grande blind, tandis que le montant de départ maximum est de 200x le grande blind. Bien sûr, si les valeurs minimale et maximale sont identiques, cela dépend du réglage si la valeur minimale, moyenne ou maximale est utilisée comme base. Le grande blind est toujours la moitié de la grosse blind. Cette règle diffère dans la salle de tournoi, où le Petite Blind/Big Blind est toujours le double de la valeur de base. De plus, le Petite Blind/Big Blind dans la salle de tournoi augmente régulièrement tout au long du tournoi.',
+	'JV_POKER_HELP_BLIND_ANSWER'			=> 'Le Petite Blind/Grande Blind dépend toujours du montant de départ minimum et maximum. Le montant de départ minimum (buy-in) est toujours de 10x la grande blind, tandis que le montant de départ maximum est de 200x le grande blind. Bien sûr, si les valeurs minimale et maximale sont identiques, cela dépend du réglage si la valeur minimale, moyenne ou maximale est utilisée comme base. La grande blind est toujours la moitié de la grosse blind. Cette règle diffère dans la salle de tournoi, où le Petite Blind/Grande Blind est toujours le double de la valeur de base. De plus, le Petite Blind/Grande Blind dans la salle de tournoi augmente régulièrement tout au long du tournoi.',
 	'JV_POKER_HELP_BLIND_QUESTION'			=> 'Petite/grande blind bets entre les salles sont différentes, pourquoi ?',
 	'JV_POKER_HELP_BLOCK_GAME'				=> 'Problèmes avec le jeu de poker',
 	'JV_POKER_HELP_BLOCK_GENERAL'			=> 'Questions générales',
@@ -134,8 +134,8 @@ $lang = array_merge($lang, [
 	<strong>Vous ne pouvez pas gagner le JackPot si :</strong>
 	<ul>
 		<li>1. Vous n’avez pas acheté de billet JackPot.</li>
-		<li>2. Vous avez fold des cartes.</li>
-		<li>3. Tous les autres fold leur cartes.</li>
+		<li>2. Vous avez pliez des cartes.</li>
+		<li>3. Tous les autres ont pliés leur cartes.</li>
 		<li>4. Vos cartes ne sont pas la main la plus forte.</li>
 	</ul>',
 	'JV_POKER_HELP_JACKPOT_QUESTION'		=> 'Comment puis-je gagner le JackPot ?',
@@ -150,7 +150,7 @@ $lang = array_merge($lang, [
 	'JV_POKER_HELP_MOVE_TIME_ANSWER'		=> 'Le « temps de mouvement » est le temps pendant lequel un utilisateur peut décider de checker, de miser ou de folder. Une fois ce temps écoulé, deux options automatiques sont disponibles :
 	<ul>
 		<li>1. Si l’action du joueur précédent n’était pas un call, nous vérifierons automatiquement.</li>
-		<li>2. Si l’action du joueur précédent était un call, nous fold automatiquement nos cartes.</li>
+		<li>2. Si l’action du joueur précédent était un call, nous avons pliés automatiquement nos cartes.</li>
 	</ul>',
 	'JV_POKER_HELP_MOVE_TIME_QUESTION'		=> 'Qu’est le temps de mouvement ?',
 	'JV_POKER_HELP_NORMAL_ANSWER'			=> 'Dans une salle normale, seuls les utilisateurs qui possèdent leurs propres jetons et qui peuvent contribuer suffisamment pour le montant minimum d’entrée requis peuvent jouer. Chacune de ces chambres a un montant minimum et maximum défini pour commencer. Les utilisateurs peuvent s’asseoir à la table avec le montant minimum. Les jetons gagnés dans cette salle peuvent être retirés de la salle et augmenter vos jetons. Ces jetons peuvent être échangés à nouveau.',
@@ -181,17 +181,17 @@ $lang = array_merge($lang, [
 	'JV_POKER_HELP_PD_ANSWER'				=> '« phpBB Holdem Poker » collecte et stocke l’adresse IP de chaque joueur actuel jusqu’à ce que l’utilisateur quitte la table. Lorsqu’un utilisateur se lève de la table, toutes les données sont effacées et seules les données statistiques sont conservées. L’adresse IP est stockée pendant la partie pour éviter que plusieurs joueurs à la même table n’utilisent la même adresse IP. Bien sûr, vous pouvez activer et désactiver cette vérification IP.',
 	'JV_POKER_HELP_PD_QUESTION'				=> 'Est-ce que « phpBB Holdem Póker » stocke des données personnelles ?',
 	'JV_POKER_HELP_PLAY_ANSWER'				=> 'Le poker est l’un des jeux de cartes les plus populaires au monde. Le but du jeu est de tirer le meilleur parti des cartes que vous avez reçues, en combinaison avec les cartes communes révélées, afin de finalement gagner la mise au milieu de la table (appelée « Pot » en anglais). Le jeu peut être joué par 2 à 8 personnes par salle de poker. Le jeu utilise une main française de 52 cartes sans joker. Chaque joueur reçoit deux cartes privées qui ne peuvent pas être vues et utilisées par les autres joueurs. Pendant le jeu, cinq cartes communes sont placées face visible sur la table, que tous les joueurs peuvent voir et utiliser. Le joueur essaie maintenant de faire la meilleure « combinaison de cinq cartes » possible de ses propres cartes et des cartes communes. Le joueur avec les cartes les plus fortes remporte la valeur de la mise. Un jeu de cartes françaises (sans jokers) a 4 couleurs différentes, et chaque couleur se compose de 13 cartes de valeurs différentes, ce qui donne le jeu de 52 feuilles. L’ordre des 4 couleurs : <span class="poker_cs">♣</span> trèfle <span class="poker_dh">♦</span> diamants  <span class="poker_dh">♥</span> cœur <span class="poker_cs">♠</span> pique.  Toutes les couleurs sont égales pour l’évaluation des mains de poker. Les 13 valeurs de cartes dans leur ordre : A (As), 2, 3, 4, 5, 6, 7, 8, 9, 10, J (Valet), Q (Dame), K (Roi). Un as n’est pas seulement une valeur numérique de 1, il peut aussi être la carte la plus haute après le roi.
-		<br><br><strong>Dealer:</strong><br>
-		À la table de poker, il y a toujours une position de dealer. Le dealer manipule, mélange et distribue les cartes. Le bouton du dealer (D) indique le joueur qui occupe actuellement la position du dealer. Le dealer participe au jeu.
+		<br><br><strong>Croupier:</strong><br>
+		À la table de poker, il y a toujours une position de croupier. Le croupier manipule, mélange et distribue les cartes. Le bouton du croupier (D) indique le joueur qui occupe actuellement la position du croupier. Le croupier participe au jeu.
 
 		<br><br><strong>Petite blinds et grande blinds :</strong><br>
 		Le premier joueur à gauche du bouton du croupier est le « petite blind » et le premier joueur à gauche du petite blind est le « grande blind ». Ce sont les aveugles qui doivent placer leurs paris sans connaître leurs propres cartes. La « petite blind » est la petite mise de départ, la « grande blind » est la grosse mise de départ, qu’ils doivent faire « à l’aveuglette ».
 
-		<br><br><strong>Enchèrer:</strong><br>
-		Le poker utilise des « Jetons » om te bieden, pour enchérir, qui remplacent l’argent pendant la partie. Dans le tour d’enchères, les enchères sont toujours dans le sens de la gauche, et tous les « joueurs actifs » (qui n’ont pas encore fold leurs cartes) misent et continuent tant qu’il n’y a plus de mises actives, maintenues ou fold. Le nombre d’enchères et de relances est conforme aux règles de limite.
+		<br><br><strong>Enchèrer :</strong><br>
+		Le poker utilise des « Jetons » , pour enchérir, qui remplacent l’argent pendant la partie. Dans le tour d’enchères, les enchères sont toujours dans le sens de la gauche, et tous les « joueurs actifs » (qui n’ont pas encore plié leurs cartes) misent et continuent tant qu’il n’y a plus de mises actives, maintenues ou fold. Le nombre d’enchères et de relances est conforme aux règles de limite.
 
-		<br><br><strong>Partager:</strong><br>
-		Le dealer mélange les cartes. Avant que les cartes ne soient distribuées, les mises de départ du « petite blind » et le « grande blind » sont placées, après quoi le dealer place toutes les cartes à gauche. Ensuite, le pré-flop (le premier tour d’enchères) commence, ce qui est différent des autres tours d’enchères du jeu.
+		<br><br><strong>Partager :</strong><br>
+		Le croupier mélange les cartes. Avant que les cartes ne soient distribuées, les mises de départ du « petite blind » et le « grande blind » sont placées, après quoi le croupier place toutes les cartes à gauche. Ensuite, le pré-flop (le premier tour d’enchères) commence, ce qui est différent des autres tours d’enchères du jeu.
 
 		<br><br><strong>Pre-Flop (Premier tour d’enchères):</strong><br>
 		Le premier tour d’enchères est lancé par le premier joueur à gauche du « grande blind » et trois enchères peuvent être faites :
@@ -203,17 +203,17 @@ $lang = array_merge($lang, [
 
 		Le tour d’enchères va à gauche et les joueurs peuvent enchérir. Si vous venez de faire le pari, alors:
 		<ul>
-			<li>Le « petite blind » doit au moins relancer sa propre mise avec le petite blind ou fold ses cartes et abandonner.</li>
-			<li>Les « grande blinds » peuvent relancer la mise d’au moins leur grande blind, ils peuvent checker - pas faire une autre enchère - ou fold leurs cartes et abandonner.</li>
+			<li>La « petite blind » doit au moins relancer sa propre mise avec la petite blind ou plié ses cartes et abandonner.</li>
+			<li>Les « grande blinds » peuvent relancer la mise d’au moins leur grande blind, ils peuvent checker - pas faire une autre enchère - ou plier leurs cartes et abandonner.</li>
 		</ul>
 
-		Lorsqu’un joueur augmente la mise, les enchères commencent. À la fin du tour d’enchères, le dealer collecte les mises et les place dans le fonds du jeu, le « Pot ».
+		Lorsqu’un joueur augmente la mise, les enchères commencent. À la fin du tour d’enchères, le croupier collecte les mises et les place dans le fonds du jeu, le « Pot ».
 		<br><br><strong>Flop (Deuxième tour d’enchères) :</strong><br>
-		Le dealer distribue trois cartes, le « Flop », qui est placé face visible au milieu de la table afin que tous les joueurs puissent les voir. Ensuite, le deuxième tour d’enchères du jeu commence.
+		Le croupier distribue trois cartes, le « Flop », qui est placé face visible au milieu de la table afin que tous les joueurs puissent les voir. Ensuite, le deuxième tour d’enchères du jeu commence.
 
-		<br><br><strong>Contrairement au tour d’enchères pré-flop, tous les tours d’enchères après le flop peuvent toujours commencer avec le premier joueur actif à gauche du bouton du dealer et trois enchères peuvent être faites :</strong><br>
+		<br><br><strong>Contrairement au tour d’enchères pré-flop, tous les tours d’enchères après le flop peuvent toujours commencer avec le premier joueur actif à gauche du bouton du croupier et trois enchères peuvent être faites :</strong><br>
 		<ul>
-			<li>Check: Transmettez l’action au joueur suivant, pas call ni fold vos cartes.</li>
+			<li>Check: Transmettez l’action au joueur suivant, pas call ni plié vos cartes.</li>
 			<li>Bet : Paie la mise d’ouverture selon les règles de la limite.</li>
 			<li>Fold : Défaussez les cartes face cachée et abandonnez le tour.</li>
 		</ul>
@@ -225,16 +225,16 @@ $lang = array_merge($lang, [
 			<li>Fold - Les cartes sont placées face cachée sur la table et quittent le tour (abandonnez).</li>
 		</ul>
 
-		Lorsqu’un joueur augmente la mise, les enchères commencent. À la fin du tour d’enchères, le dealer collecte les paris et les place dans le Pot.
+		Lorsqu’un joueur augmente la mise, les enchères commencent. À la fin du tour d’enchères, le croupier collecte les paris et les place dans le Pot.
 
 		<br><br><strong>Turn (Troisième tour d’enchères)</strong><br>
-		Le dealer donne une autre carte appelée « Turn » face visible aux cartes communes. Cela donne au joueur quatre cartes communes. Maintenant, le troisième tour d’enchères commence.
+		Le croupier donne une autre carte appelée « Turn » face visible aux cartes communes. Cela donne au joueur quatre cartes communes. Maintenant, le troisième tour d’enchères commence.
 
 		<br><br><strong>River (Quatrième tour d’enchères)</strong><br>
-		Le dealer distribue la dernière carte commune face visible, appelée « River ». Cela donne à chaque joueur un total de sept cartes. Cinq d’entre eux doivent être utilisés pour faire une main de poker, qui, espérons-le, sera de meilleure qualité que la main de l’adversaire.
+		Le croupier distribue la dernière carte commune face visible, appelée « River ». Cela donne à chaque joueur un total de sept cartes. Cinq d’entre eux doivent être utilisés pour faire une main de poker, qui, espérons-le, sera de meilleure qualité que la main de l’adversaire.
 
 		<br><br><strong>Showdown (présentation de cartes)</strong><br>
-		S’il reste plus d’un joueur en jeu après la fin du dernier tour d’enchères, les cartes du gagnant et des joueurs All-In seront présentées. Le pot est attribué au joueur ayant la main la plus forte de 5 cartes. Dans le cas où deux joueurs ou plus ont la même main la plus forte, le pot sera partagé à parts égales. Si la valeur du pot n’est pas divisible proportionnellement, le premier joueur gagnant à gauche du bouton du dealer a droit au supérieur. Pour le tour suivant, le bouton du dealer est toujours déplacé d’une position vers la gauche. Le dealer est donc différent à chaque tour, et les blinds sont également attribués à d’autres joueurs.
+		S’il reste plus d’un joueur en jeu après la fin du dernier tour d’enchères, les cartes du gagnant et des joueurs All-In seront présentées. Le pot est attribué au joueur ayant la main la plus forte de 5 cartes. Dans le cas où deux joueurs ou plus ont la même main la plus forte, le pot sera partagé à parts égales. Si la valeur du pot n’est pas divisible proportionnellement, le premier joueur gagnant à gauche du bouton du croupier a droit au supérieur. Pour le tour suivant, le bouton du croupier est toujours déplacé d’une position vers la gauche. Le croupier est donc différent à chaque tour, et les blinds sont également attribués à d’autres joueurs.
 
 		<br><br><strong>Evaluation des mains de poker</strong><br>
 		Au poker, une main de poker est une combinaison de 5 cartes, que le joueur combine à partir de ses deux propres cartes et des cinq cartes communes de la table (c’est-à-dire un total de sept cartes). Le joueur peut utiliser une, les deux ou aucune de ses propres cartes. Les couleurs des cartes sont de valeur égale. Si deux joueurs ont la même combinaison, la carte correspondante détermine quel joueur gagne la partie. Une carte correspondante (kicker) ne fait pas partie de la combinaison, elle ne fait que l’accompagner et la « compléter ». Si deux joueurs sont à égalité, le botteur le plus élevé décide. S’il y a toujours égalité, le pot sera partagé entre les gagnants..
