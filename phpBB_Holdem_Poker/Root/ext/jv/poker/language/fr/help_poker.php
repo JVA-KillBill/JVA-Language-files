@@ -58,8 +58,8 @@ $lang = array_merge($lang, [
 	'JV_POKER_HELP_A_SHOUT_R_QUESTION'		=> 'Existe-t-il un moyen de rafraîchir l’archive ?',
 	'JV_POKER_HELP_BAN_CHIPS_ANSWER'		=> 'Oui, si un administrateur révoque votre autorisation de jouer au poker, vous pouvez automatiquement échanger tous vos jetons à tout moment %s<strong>ICI</strong>%s. Le changement automatique ne fonctionnera pas si le poker est désactivé, auquel cas vous reviendrez plus tard et réessayerez.',
 	'JV_POKER_HELP_BAN_CHIPS_QUESTION'		=> 'Si je perds ma permission de jouer au poker, y a-t-il un moyen d’échanger mes jetons ?',
-	'JV_POKER_HELP_BLIND_ANSWER'			=> 'Le Small Blind/Big Blind dépend toujours du montant de départ minimum et maximum. Le montant de départ minimum (buy-in) est toujours de 10x le big blind, tandis que le montant de départ maximum est de 200x le big blind. Bien sûr, si les valeurs minimale et maximale sont identiques, cela dépend du réglage si la valeur minimale, moyenne ou maximale est utilisée comme base. Le big blind est toujours la moitié de la grosse blind. Cette règle diffère dans la salle de tournoi, où le Small Blind/Big Blind est toujours le double de la valeur de base. De plus, le Small Blind/Big Blind dans la salle de tournoi augmente régulièrement tout au long du tournoi.',
-	'JV_POKER_HELP_BLIND_QUESTION'			=> 'Small/big blind bets entre les salles sont différentes, pourquoi ?',
+	'JV_POKER_HELP_BLIND_ANSWER'			=> 'Le Petite Blind/Big Blind dépend toujours du montant de départ minimum et maximum. Le montant de départ minimum (buy-in) est toujours de 10x le grande blind, tandis que le montant de départ maximum est de 200x le grande blind. Bien sûr, si les valeurs minimale et maximale sont identiques, cela dépend du réglage si la valeur minimale, moyenne ou maximale est utilisée comme base. Le grande blind est toujours la moitié de la grosse blind. Cette règle diffère dans la salle de tournoi, où le Petite Blind/Big Blind est toujours le double de la valeur de base. De plus, le Petite Blind/Big Blind dans la salle de tournoi augmente régulièrement tout au long du tournoi.',
+	'JV_POKER_HELP_BLIND_QUESTION'			=> 'Petite/grande blind bets entre les salles sont différentes, pourquoi ?',
 	'JV_POKER_HELP_BLOCK_GAME'				=> 'Problèmes avec le jeu de poker',
 	'JV_POKER_HELP_BLOCK_GENERAL'			=> 'Questions générales',
 	'JV_POKER_HELP_BLOCK_POKER'				=> 'Questions sur phpBB Holdem Póker ',
@@ -184,17 +184,17 @@ $lang = array_merge($lang, [
 		<br><br><strong>Dealer:</strong><br>
 		À la table de poker, il y a toujours une position de dealer. Le dealer manipule, mélange et distribue les cartes. Le bouton du dealer (D) indique le joueur qui occupe actuellement la position du dealer. Le dealer participe au jeu.
 
-		<br><br><strong>Small blinds et big blinds :</strong><br>
-		Le premier joueur à gauche du bouton du croupier est le « small blind » et le premier joueur à gauche du small blind est le « big blind ». Ce sont les aveugles qui doivent placer leurs paris sans connaître leurs propres cartes. La « small blind » est la petite mise de départ, la « big blind » est la grosse mise de départ, qu’ils doivent faire « à l’aveuglette ».
+		<br><br><strong>Petite blinds et grande blinds :</strong><br>
+		Le premier joueur à gauche du bouton du croupier est le « petite blind » et le premier joueur à gauche du petite blind est le « grande blind ». Ce sont les aveugles qui doivent placer leurs paris sans connaître leurs propres cartes. La « petite blind » est la petite mise de départ, la « grande blind » est la grosse mise de départ, qu’ils doivent faire « à l’aveuglette ».
 
 		<br><br><strong>Enchèrer:</strong><br>
 		Le poker utilise des « Jetons » om te bieden, pour enchérir, qui remplacent l’argent pendant la partie. Dans le tour d’enchères, les enchères sont toujours dans le sens de la gauche, et tous les « joueurs actifs » (qui n’ont pas encore fold leurs cartes) misent et continuent tant qu’il n’y a plus de mises actives, maintenues ou fold. Le nombre d’enchères et de relances est conforme aux règles de limite.
 
 		<br><br><strong>Partager:</strong><br>
-		Le dealer mélange les cartes. Avant que les cartes ne soient distribuées, les mises de départ du « small blind » et le « big blind » sont placées, après quoi le dealer place toutes les cartes à gauche. Ensuite, le pré-flop (le premier tour d’enchères) commence, ce qui est différent des autres tours d’enchères du jeu.
+		Le dealer mélange les cartes. Avant que les cartes ne soient distribuées, les mises de départ du « petite blind » et le « grande blind » sont placées, après quoi le dealer place toutes les cartes à gauche. Ensuite, le pré-flop (le premier tour d’enchères) commence, ce qui est différent des autres tours d’enchères du jeu.
 
 		<br><br><strong>Pre-Flop (Premier tour d’enchères):</strong><br>
-		Le premier tour d’enchères est lancé par le premier joueur à gauche du « big blind » et trois enchères peuvent être faites :
+		Le premier tour d’enchères est lancé par le premier joueur à gauche du « grande blind » et trois enchères peuvent être faites :
 		<ul>
 			<li>Call - La mise existante sera payée.</li>
 			<li>Raise - Paie la mise existante et l’augmente dans les règles de limite.</li>
@@ -203,8 +203,8 @@ $lang = array_merge($lang, [
 
 		Le tour d’enchères va à gauche et les joueurs peuvent enchérir. Si vous venez de faire le pari, alors:
 		<ul>
-			<li>Le « small blind » doit au moins relancer sa propre mise avec le small blind ou fold ses cartes et abandonner.</li>
-			<li>Les « big blinds » peuvent relancer la mise d’au moins leur big blind, ils peuvent checker - pas faire une autre enchère - ou fold leurs cartes et abandonner.</li>
+			<li>Le « petite blind » doit au moins relancer sa propre mise avec le petite blind ou fold ses cartes et abandonner.</li>
+			<li>Les « grande blinds » peuvent relancer la mise d’au moins leur grande blind, ils peuvent checker - pas faire une autre enchère - ou fold leurs cartes et abandonner.</li>
 		</ul>
 
 		Lorsqu’un joueur augmente la mise, les enchères commencent. À la fin du tour d’enchères, le dealer collecte les mises et les place dans le fonds du jeu, le « Pot ».
@@ -240,9 +240,9 @@ $lang = array_merge($lang, [
 		Au poker, une main de poker est une combinaison de 5 cartes, que le joueur combine à partir de ses deux propres cartes et des cinq cartes communes de la table (c’est-à-dire un total de sept cartes). Le joueur peut utiliser une, les deux ou aucune de ses propres cartes. Les couleurs des cartes sont de valeur égale. Si deux joueurs ont la même combinaison, la carte correspondante détermine quel joueur gagne la partie. Une carte correspondante (kicker) ne fait pas partie de la combinaison, elle ne fait que l’accompagner et la « compléter ». Si deux joueurs sont à égalité, le botteur le plus élevé décide. S’il y a toujours égalité, le pot sera partagé entre les gagnants..
 
 		<br><br><strong>Régles de limite</strong><br>
-		La mise minimale est toujours la même que la big blind.
+		La mise minimale est toujours la même que la grande blind.
 		<ul>
-			<li>Avec une limite fixe, il est possible de tripler la grosse blind pendant le pré-flop (premier tour d’enchères) et le flop (deuxième tour d’enchères). Pour les tours, Turn (troisième tour d’enchères) et River (quatrième tour d’enchères) ne peuvent être relancés par cette règle qu’avec la double big blind.</li>
+			<li>Avec une limite fixe, il est possible de tripler la grosse blind pendant le pré-flop (premier tour d’enchères) et le flop (deuxième tour d’enchères). Pour les tours, Turn (troisième tour d’enchères) et River (quatrième tour d’enchères) ne peuvent être relancés par cette règle qu’avec la double grande blind.</li>
 			<li>Aucune limite signifie que le montant et le nombre d’augmentations ne sont pas limités.</li>
 		</ul>
 
