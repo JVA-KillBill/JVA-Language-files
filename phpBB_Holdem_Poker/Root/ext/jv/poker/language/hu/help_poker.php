@@ -82,6 +82,8 @@ $lang = array_merge($lang, [
 	'JV_POKER_HELP_CHIPS_C_QUESTION'		=> 'Mi az értékük a különféle színű zsetonoknak?',
 	'JV_POKER_HELP_CHIPS_DC_ANSWER'			=> 'Igen mindaddig, amíg el nem érik a maximum megjeleníthető zseton mennyiségét, ami 11,111,111,110 mivel egy zsetonból maximum 10 darab jelenik meg.',
 	'JV_POKER_HELP_CHIPS_DC_QUESTION'		=> 'A zsetonok a megfelelő összeg szerint jelennek-e meg?',
+	'JV_POKER_HELP_CHIPS_ZERO_ANSWER'		=> 'Ha egy körben felteszed az összes zsetonod és elveszted, de az újratöltés nálad aktív és még van kint zsetonod, akkor a bent lévő zsetonod csak, akkor töltődik újra, amikor az új kör elkezdődik és te is aktív játékos vagy.',
+	'JV_POKER_HELP_CHIPS_ZERO_QUESTION'		=> 'Van zsetonom, de a bent ülő zsetonom nullát mutat, miért?',
 	'JV_POKER_HELP_CM_ANSWER'				=> 'A „Szék” az jelenti, hogy az adott szobában mennyi ülőhely van engedélyezve. Ha az ülőhelyek száma 8, akkor 8 felhasználó ülhet be egyszerre az adott szobában. A „Játékos” azt takarja, hogy a szobában mennyi felhasználó ült már le. Ha az adminisztrátor lezárja a szobát az azt jelenti, hogy ha a szoba megtelt, akkor további felhasználó már nem mehet be az érintett szobába, addig míg egy ülőhely meg nem üresedik.',
 	'JV_POKER_HELP_CM_QUESTION'				=> 'Mit jelent a Szék/Játékos?',
 	'JV_POKER_HELP_CREATE_ANSWER'			=> 'Ezt a kiegészítőt (eredeti formájában) a <a href="https://jv-arcade.com/">JV-Arcade Group</a> készítette, adta ki, és gyakorolja a szerzői jogokat felette. A <a href="https://jv-arcade.com/License.html">JVA licensz</a> alatt érhető el, és nem terjeszthető. További információért lásd a linket.',

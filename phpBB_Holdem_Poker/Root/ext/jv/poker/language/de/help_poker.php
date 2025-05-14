@@ -82,6 +82,8 @@ $lang = array_merge($lang, [
 	'JV_POKER_HELP_CHIPS_C_QUESTION'		=> 'Welchen Wert haben die verschiedenfarbigen Chips?',
 	'JV_POKER_HELP_CHIPS_DC_ANSWER'			=> 'Ja, solange bis du die maximale Anzahl an Chips erreicht hast, die angezeigt werden können, welche 11,111,111,110 beträgt. Es sind bis zu 10 Einheiten in einem Chip.',
 	'JV_POKER_HELP_CHIPS_DC_QUESTION'		=> 'Werden die Chips in der richtigen Menge angezeigt?',
+	'JV_POKER_HELP_CHIPS_ZERO_ANSWER'		=> '',
+	'JV_POKER_HELP_CHIPS_ZERO_QUESTION'		=> '?',
 	'JV_POKER_HELP_CM_ANSWER'				=> '„Sitze“ bedeutet, wieviel Plätze für Spieler in diesem Raum verfügbar sind. Wenn die Anzahl der Sitzplätze 8 beträgt, können 8 Benutzer gleichzeitig im Raum sitzen. „Mitspieler“ gibt an, wieviele Benutzer sich im Raum befinden. Wenn der Administrator den Raum schließt, bedeutet das, dass der Raum voll ist, und kein weiteres Mitglied den Raum betreten kann, ehe ein Sitzplatz frei geworden ist.',
 	'JV_POKER_HELP_CM_QUESTION'				=> 'Was bedeutet Mitspieler/Sitze?',
 	'JV_POKER_HELP_CREATE_ANSWER'			=> 'Dieses Add-On (in seiner ursprünglichen Form) wurde von der <a href="https://jv-arcade.com/">JV-Arcade Group</a> erstellt, veröffentlicht, und urheberrechtlich geschützt. Es ist verfügbar unter der <a href="https://jv-arcade.com/License.html">JVA Lizenz</a>, und darf nicht weitergegeben oder verteilt werden. Weitere Informationen unter dem Link.',

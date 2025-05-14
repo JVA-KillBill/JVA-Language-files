@@ -82,6 +82,8 @@ $lang = array_merge($lang, [
 	'JV_POKER_HELP_CHIPS_C_QUESTION'		=> 'What is the value of the different colored chips?',
 	'JV_POKER_HELP_CHIPS_DC_ANSWER'			=> 'Yes, as long as you don’t have reached the maximum amount of chips that can be displayed, which is 11,111,111,110 as there are up to 10 items in 1 chip.',
 	'JV_POKER_HELP_CHIPS_DC_QUESTION'		=> 'Are the chips displayed at the right amount?',
+	'JV_POKER_HELP_CHIPS_ZERO_ANSWER'		=> 'If you put all your chips in a round and lose, but the re-buy is active and you still have chips outside, then your chips inside will only be re-buyed when the new round starts and you are an active player.',
+	'JV_POKER_HELP_CHIPS_ZERO_QUESTION'		=> 'I have chips, but my chips sitting inside show zero, why?',
 	'JV_POKER_HELP_CM_ANSWER'				=> '“Chairs” means how many chairs are available for players in this room. If the number of chairs is 8, 8 users can sit in the room at the same time. “Players” indicates how many users are in the room. If the administrator closes the room, it means the room is full and no other member can enter the room before a chair is vacated.',
 	'JV_POKER_HELP_CM_QUESTION'				=> 'What means Players/Chairs?',
 	'JV_POKER_HELP_CREATE_ANSWER'			=> 'This add-on (in its original form) was created, published, and copyrighted by the <a href="https://jv-arcade.com/">JV-Arcade Group</a>. It is available under the <a href="https://jv-arcade.com/License.html">JVA License</a>, and may not be shared or distributed. Further information under the link.',

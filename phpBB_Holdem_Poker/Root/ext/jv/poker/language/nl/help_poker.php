@@ -82,6 +82,8 @@ $lang = array_merge($lang, [
 	'JV_POKER_HELP_CHIPS_C_QUESTION'		=> 'Wat is de waarde van de verschillende gekleurde chips?',
 	'JV_POKER_HELP_CHIPS_DC_ANSWER'			=> 'Ja, zolang je het maximale aantal chips dat kan worden weergegeven niet hebt bereikt, namelijk 11.111.111.110, aangezien er maximaal 10 items in 1 chip zitten.',
 	'JV_POKER_HELP_CHIPS_DC_QUESTION'		=> 'Worden de chips op de juiste hoeveelheid weergegeven?',
+	'JV_POKER_HELP_CHIPS_ZERO_ANSWER'		=> 'Als je al je chips in een ronde inzet en verliest, en bijkopen is ingeschakeld terwijl je nog chips buiten hebt, worden je chips binnen pas opnieuw aangekocht bij de start van een nieuwe ronde waarin je een actieve speler bent.',
+	'JV_POKER_HELP_CHIPS_ZERO_QUESTION'		=> 'Ik heb chips, maar de chips die binnen liggen tonen nul, waarom?',
 	'JV_POKER_HELP_CM_ANSWER'				=> '“Stoelen” betekent hoeveel plaatsen er beschikbaar zijn voor spelers in deze kamer. Als het aantal zitplaatsen 8 is, kunnen er 8 gebruikers tegelijk in de zaal zitten. “Spelers” geeft aan hoeveel gebruikers er in de kamer zijn. Als de beheerder de kamer sluit, betekent dit dat de kamer vol is en dat geen enkel ander lid de kamer kan betreden voordat er een stoel is vrijgekomen.',
 	'JV_POKER_HELP_CM_QUESTION'				=> 'Wat betekent Spelers/Stoelen?',
 	'JV_POKER_HELP_CREATE_ANSWER'			=> 'Deze add-on (in zijn oorspronkelijke vorm) is gemaakt, gepubliceerd en auteursrechtelijk beschermd door de <a href="https://jv-arcade.com/">JV-Arcade Group</a>. Het is beschikbaar onder de <a href="https://jv-arcade.com/License.html">JVA Licence</a>, en mag niet worden gedeeld of gedistribueerd. Meer informatie via de link.',
