@@ -38,14 +38,14 @@ if (empty($lang) || !is_array($lang))
 $lang = array_merge($lang, [
 	'JV_POKER_HELP_AUTO_ACC_ANSWER'			=> 'Si l’utilisateur approuve la fonction « Check/Call automatique », lorsque c’est le tour du joueur, il passera automatiquement, ou s’il y a un call, il spécifiera automatiquement le montant appelé.',
 	'JV_POKER_HELP_AUTO_ACC_QUESTION'		=> 'À quoi sert le Check/Call automatique ?',
-	'JV_POKER_HELP_AUTO_ACF_ANSWER'			=> 'Si l’utilisateur approuve la fonction « Check/Plié automatique », le joueur passera automatiquement les cartes ou se couchera lorsqu’il y aura un call.',
-	'JV_POKER_HELP_AUTO_ACF_QUESTION'		=> 'À quoi sert le Check/Plié automatique ?',
+	'JV_POKER_HELP_AUTO_ACF_ANSWER'			=> 'Si l’utilisateur approuve la fonction « Check/Foldé automatique », le joueur passera automatiquement les cartes ou se couchera lorsqu’il y aura un call.',
+	'JV_POKER_HELP_AUTO_ACF_QUESTION'		=> 'À quoi sert le Check/Foldé automatique ?',
 	'JV_POKER_HELP_AVATAR_BC_ANSWER'		=> 'Oui, les couleurs suivantes sont actuellement utilisées autour de l’avatar :
 	<ul>
 		<li>Blanc : En attente de jouer.</li>
 		<li>Noir : Ceux qui sont dans le jeu.</li>
 		<li>Jaune : Joueur réel.</li>
-		<li>Bourgogne : Plié les cartes.</li>
+		<li>Bourgogne : Foldé les cartes.</li>
 	</ul>',
 	'JV_POKER_HELP_AVATAR_BC_ANSWER_2'		=> '<li>Bourgogne barré : Faire une pause.</li>',
 	'JV_POKER_HELP_AVATAR_BC_ANSWER_3'		=> '<li>Bleu : Protection de pari.</li>',
@@ -147,10 +147,10 @@ $lang = array_merge($lang, [
 	'JV_POKER_HELP_LIMIT_QUESTION'			=> 'Que signifie Limite fixe/Aucune limite ?',
 	'JV_POKER_HELP_L_STATS_ANSWER'			=> 'Aucune donnée statistique n’est stockée dans les salles d’apprentissage et les salles pratiques.',
 	'JV_POKER_HELP_L_STATS_QUESTION'		=> 'Les salles d’apprentissage et les salles pratiques stockent-elles également des données statistiques ?',
-	'JV_POKER_HELP_MOVE_TIME_ANSWER'		=> 'Le « temps de mouvement » est le temps pendant lequel un utilisateur peut décider de checker, de miser ou de plié les cartes. Une fois ce temps écoulé, deux options automatiques sont disponibles :
+	'JV_POKER_HELP_MOVE_TIME_ANSWER'		=> 'Le « temps de mouvement » est le temps pendant lequel un utilisateur peut décider de checker, de miser ou de foldé les cartes. Une fois ce temps écoulé, deux options automatiques sont disponibles :
 	<ul>
 		<li>1. Si l’action du joueur précédent n’était pas un call, nous vérifierons automatiquement.</li>
-		<li>2. Si l’action du joueur précédent était un call, nous avons plié automatiquement nos cartes.</li>
+		<li>2. Si l’action du joueur précédent était un call, nous avons foldé automatiquement nos cartes.</li>
 	</ul>',
 	'JV_POKER_HELP_MOVE_TIME_QUESTION'		=> 'Qu’est le temps de mouvement ?',
 	'JV_POKER_HELP_NORMAL_ANSWER'			=> 'Dans une salle normale, seuls les utilisateurs qui possèdent leurs propres jetons et qui peuvent contribuer suffisamment pour le montant minimum d’entrée requis peuvent jouer. Chacune de ces salles a un montant minimum et maximum défini pour commencer. Les utilisateurs peuvent s’asseoir à la table avec le montant minimum. Les jetons gagnés dans cette salle peuvent être retirés de la salle et augmenter vos jetons. Ces jetons peuvent être échangés à nouveau.',
@@ -188,7 +188,7 @@ $lang = array_merge($lang, [
 		Le premier joueur à gauche du bouton du croupier est la « petite blind » et le premier joueur à gauche du petite blind est la « grande blind ». Ce sont les blinds qui doivent placer leurs paris sans connaître leurs propres cartes. La « petite blind » est la petite mise de départ, la « grande blind » est la grosse mise de départ, qu’ils doivent faire « à l’aveuglette ».
 
 		<br><br><strong>Enchèrer :</strong><br>
-		Le poker utilise des « Jetons » , pour enchérir, qui remplacent l’argent pendant la partie. Dans le tour d’enchères, les enchères sont toujours dans le sens de la gauche, et tous les « joueurs actifs » (qui n’ont pas encore plié leurs cartes) misent et continuent tant qu’il n’y a plus de mises actives, maintenues ou fold. Le nombre d’enchères et de relances est conforme aux règles de limite.
+		Le poker utilise des « Jetons » , pour enchérir, qui remplacent l’argent pendant la partie. Dans le tour d’enchères, les enchères sont toujours dans le sens de la gauche, et tous les « joueurs actifs » (qui n’ont pas encore foldé leurs cartes) misent et continuent tant qu’il n’y a plus de mises actives, maintenues ou fold. Le nombre d’enchères et de relances est conforme aux règles de limite.
 
 		<br><br><strong>Partager :</strong><br>
 		Le croupier mélange les cartes. Avant que les cartes ne soient distribuées, les mises de départ du « petite blind » et le « grande blind » sont placées, après quoi le croupier place toutes les cartes à gauche. Ensuite, le pré-flop (le premier tour d’enchères) commence, ce qui est différent des autres tours d’enchères du jeu.
@@ -203,7 +203,7 @@ $lang = array_merge($lang, [
 
 		Le tour d’enchères va à gauche et les joueurs peuvent enchérir. Si vous venez de faire le pari, alors:
 		<ul>
-			<li>La « petite blind » doit au moins relancer sa propre mise avec la petite blind ou plié ses cartes et abandonner.</li>
+			<li>La « petite blind » doit au moins relancer sa propre mise avec la petite blind ou foldé ses cartes et abandonner.</li>
 			<li>Les « grande blinds » peuvent relancer la mise d’au moins leur grande blind, ils peuvent checker - pas faire une autre enchère - ou plier leurs cartes et abandonner.</li>
 		</ul>
 
