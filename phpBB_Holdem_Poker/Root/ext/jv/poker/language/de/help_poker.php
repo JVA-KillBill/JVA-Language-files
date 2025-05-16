@@ -289,7 +289,7 @@ $lang = array_merge($lang, [
 		</ul>
 		<ul>
 			<li><strong>Ein Paar (pair)</strong>
-				<ul><li>Besteht aus zwei Karten mit gleicher Zahl oder Zeichen, und drei neutralen Karten. Wenn mehrere Paare vorkommen, entscheidet das höhere Paar, und dann die neutralen Karte.<br>Beispiel: 3<span class="poker_dh">♥</span>, 5<span class="poker_cs">♠</span>, 7<span class="poker_cs">♣</span>, 10<span class="poker_dh">♦</span>, 10<span class="poker_cs">♠</span>.</li></ul>
+				<ul><li>Besteht aus zwei Karten mit gleicher Zahl oder Zeichen, und drei neutralen Karten. Wenn mehrere Paare vorkommen, entscheidet das höhere Paar, und dann die neutralen Karten.<br>Beispiel: 3<span class="poker_dh">♥</span>, 5<span class="poker_cs">♠</span>, 7<span class="poker_cs">♣</span>, 10<span class="poker_dh">♦</span>, 10<span class="poker_cs">♠</span>.</li></ul>
 			</li>
 		</ul>
 		<ul>
