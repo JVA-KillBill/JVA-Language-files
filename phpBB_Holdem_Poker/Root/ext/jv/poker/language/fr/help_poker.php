@@ -58,6 +58,10 @@ $lang = array_merge($lang, [
 	'JV_POKER_HELP_A_SHOUT_R_QUESTION'		=> 'Existe-t-il un moyen de rafraîchir l’archive ?',
 	'JV_POKER_HELP_BAN_CHIPS_ANSWER'		=> 'Oui, si un administrateur révoque votre autorisation de jouer au poker, vous pouvez automatiquement échanger tous vos jetons à tout moment %s<strong>ICI</strong>%s. Le changement automatique ne fonctionnera pas si le poker est désactivé, dans ce cas vous reviendrez plus tard et réessayerez.',
 	'JV_POKER_HELP_BAN_CHIPS_QUESTION'		=> 'Si je perds ma permission de jouer au poker, y a-t-il un moyen d’échanger mes jetons ?',
+	'JV_POKER_HELP_BET_BACK_ANSWER'			=> 'Cela peut se produire s’il y a des jetons excédentaires dans votre mise que personne n’a appelés ou s’il y a plusieurs gagnants, dans ce cas, les jetons excédentaires vous seront retournés et non au Pot, afin qu’ils ne soient pas inclus dans l’évaluation.',
+	'JV_POKER_HELP_BET_BACK_QUESTION'		=> 'Une partie de ma mise m’est revenue et non au Pot, pourquoi ?',
+	'JV_POKER_HELP_BET_BANK_ANSWER'			=> 'Cela peut se produire s’il y a des jetons excédentaires dans votre mise que personne n’a appelés et que vous vous êtes levé, dans ce cas, les jetons excédentaires iront à la banque.',
+	'JV_POKER_HELP_BET_BANK_QUESTION'		=> 'Une partie de ma mise est allée au croupier et non au Pot, pourquoi ?',
 	'JV_POKER_HELP_BLIND_ANSWER'			=> 'Le Petite Blind/Grande Blind dépend toujours du montant de départ minimum et maximum. Le montant de départ minimum (buy-in) est toujours de 10x la grande blind, tandis que le montant de départ maximum est de 200x le grande blind. Bien sûr, si les valeurs minimale et maximale sont identiques, cela dépend du réglage si la valeur minimale, moyenne ou maximale est utilisée comme base. La grande blind est toujours la moitié de la grosse blind. Cette règle diffère dans la salle de tournoi, où le Petite Blind/Grande Blind est toujours le double de la valeur de base. De plus, le Petite Blind/Grande Blind dans la salle de tournoi augmente régulièrement tout au long du tournoi.',
 	'JV_POKER_HELP_BLIND_QUESTION'			=> 'Petite/grande blind bets entre les salles sont différentes, pourquoi ?',
 	'JV_POKER_HELP_BLOCK_GAME'				=> 'Problèmes avec le jeu de poker',
@@ -105,13 +109,6 @@ $lang = array_merge($lang, [
 		<li>4. L’administrateur n’autorise qu’un jeu avec un focus actif à s’exécuter, donc la situation est la même que celle décrite au point 3. Cependant, dans ce cas, l’inscription pause apparaît.</li>
 	</ul>',
 	'JV_POKER_HELP_DROP_USER_QUESTION'		=> 'Dans quels cas le jeu peut-il vous jeter dehors ?',
-	'JV_POKER_HELP_EXIT_ANSWER'				=> 'Dans ce cas, 3 options s’offrent à vous :
-	<ul>
-		<li>1. Vous ne pouvez pas obtenir de jetons dans une salle de pratique, donc vos jetons seront retirés et vous quitterez la salle.</li>
-		<li>2. Lorsque vous quittez la salle normale, les jetons que vous gagnez seront ajoutés à votre solde de jetons et vous quitterez la salle.</li>
-		<li>3. Si vous quittez la salle de tournoi avant le début du tournoi, vous récupérerez votre buy-in. Si le tournoi a déjà commencé, vous perdrez le buy-in.</li>
-	</ul>',
-	'JV_POKER_HELP_EXIT_QUESTION'			=> 'Que se passe-t-il si j’appuie sur le bouton de sortie ?',
 	'JV_POKER_HELP_E_SHOUT_ANSWER'			=> 'Si activé par l’administrateur, oui.',
 	'JV_POKER_HELP_E_SHOUT_QUESTION'		=> 'Puis-je utiliser des smileys dans mes messages ? ',
 	'JV_POKER_HELP_GAME_SOUND_ANSWER'		=> 'Oui. Le son du jeu peut être activé ou désactivé à tout moment pendant le jeu. Cela désactivera tous les sons de la parole, y compris le forum de discussion. Le réglage est toujours enregistré.',
@@ -226,7 +223,6 @@ $lang = array_merge($lang, [
 		</ul>
 
 		Lorsqu’un joueur augmente la mise, les enchères commencent. À la fin du tour d’enchères, le croupier collecte les paris et les place dans le Pot.
-
 		<br><br><strong>Turn (Troisième tour d’enchères)</strong><br>
 		Le croupier donne une autre carte appelée « Turn » face visible aux cartes communes. Cela donne au joueur quatre cartes communes. Maintenant, le troisième tour d’enchères commence.
 
@@ -302,6 +298,9 @@ $lang = array_merge($lang, [
 	'JV_POKER_HELP_POKER_QUESTION'			=> 'Qu’est-ce que phpBB Holdem Póker?',
 	'JV_POKER_HELP_PRACTICE_ANSWER'			=> 'Tout le monde peut jouer dans cette salle, même s’il n’a pas ses propres jetons. Chaque joueur reçoit un nombre prédéterminé de jetons lorsqu’il s’assoit. Les jetons gagnés dans cette salle ne peuvent pas être retirés de la salle ni échangés.',
 	'JV_POKER_HELP_PRACTICE_QUESTION'		=> 'Qu’est-ce que cela signifie d’être dans une salle de répétition ?',
+	'JV_POKER_HELP_PROFIT_ANSWER'			=> 'L’administrateur a activé le système de profit, ce qui signifie que pour chaque nouvelle main, 40 % de la petite blind est déduit de chaque joueur.',
+	'JV_POKER_HELP_PROFIT_JP_ANSWER'		=> '80 % de ce montant déduit va au fonds JackPot.',
+	'JV_POKER_HELP_PROFIT_QUESTION'			=> 'Mes jetons seront moins nombreux pour chaque nouvelle main, pourquoi ?',
 	'JV_POKER_HELP_PTOC_ANSWER'				=> 'Oui, pour cela, utilisez le bouton « Échange de jetons » sur la page principale du poker à côté de l’affichage des jetons dans votre propre profil.',
 	'JV_POKER_HELP_PTOC_QUESTION'			=> '« %s » peut-il être échangé contre des jetons ?',
 	'JV_POKER_HELP_P_SHOUT_ANSWER'			=> 'Si activé par l’administrateur, oui. S’il n’est pas activé, seul le mot « Pause » apparaîtra sur le tableau d’affichage.',
@@ -314,12 +313,6 @@ $lang = array_merge($lang, [
 	'JV_POKER_HELP_SHOUT_SOUND_QUESTION'	=> 'Puis-je désactiver le tableau d’affichage ?',
 	'JV_POKER_HELP_SHOWDOWN_ANSWER'			=> 'L’heure de présentation des cartes à la fin de la partie est déterminée par l’administrateur.',
 	'JV_POKER_HELP_SHOWDOWN_QUESTION'		=> 'Combien de temps les cartes sont-elles visibles à la fin de la partie ?',
-	'JV_POKER_HELP_STAND_UP_ANSWER'			=> 'Dans ce cas, il y a deux possibilités :
-	<ul>
-		<li>1. Vous vous levez de table. Vous ne quittez pas la salle. Si vous êtes dans une salle d’entraînement, vous ne pourrez pas sortir vos jetons, ils seront donc annulés.</li>
-		<li>2. Vous vous levez de table. Vous ne quittez pas la salle. Si vous êtes dans une salle normale, vos jetons gagnés seront ajoutés à votre solde.</li>
-	</ul>',
-	'JV_POKER_HELP_STAND_UP_QUESTION'		=> 'Que se passe-t-il si j’appuie sur le bouton se lever ?',
 	'JV_POKER_HELP_STATUS_ANSWER'			=> 'Le champ sous « Statut » indique si cette salle est en jeu ou non.',
 	'JV_POKER_HELP_STATUS_QUESTION'			=> 'Que signifie le statut ?',
 	'JV_POKER_HELP_SU_SHOUT_ANSWER'			=> 'Non, le mur ne peut être utilisé que par un utilisateur assis.',

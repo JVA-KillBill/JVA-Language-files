@@ -77,8 +77,6 @@
 						 If we don't have an internet connection.
 						 If we don't have enough chips to sit down.
 - [Modified] If two browsers are open at the same time and we turn on/off the sound of the game or shoutbox, both browsers have to adjust.
-- [Modified] If "Safe Bets" is enabled and a player intentionally presses "ALL-IN" and stand up from the table, only then the user who held this particular call or part of it can win that amount. If everyone folds, then the extra chips will belong to the Bank, which we will call Profit. So everyone can only win as many chips as they were able to call, the rest of the chips will be returned to the raiser if they are still at the table, if not then to the bank.
-- [Modified] If "Safe Bets" is enabled and a call is not entered, it will be returned to the user. Only held calls will be pulled into the Pot.
 - [Modified] In the case of stand up or exit, confirmation is only required during play. Confirmation is no longer active when the user is not playing or when a card is being evaluated.
 - [Modified] cron job/ shout_msg_purge - If the process runs, we log it.
 - [Modified] Winning hand sound.
@@ -98,8 +96,10 @@
 - [Added] ACP/Poker/Rooms settings - Display chip discs.
 - [Added] ACP/Poker/Rooms settings/ Stop gif animation - Provides the option to stop user avatar gif animations in rooms.
 - [Added] ACP/Poker/Rooms settings/ Display JP clock - The display of the date in the JackPot list is extended by the clock display.
-- [Added] ACP/Poker/Rooms settings/Security settings/ Safe Bets - Users can only win up to the amount they bet. If the winning user has not yet been able to bet, the big blind or the user chips will be used as the basis.
 - [Added] ACP/Poker/Rooms settings/Security settings/ Offline bet protection - During active protection, offline users who have already placed a bet do not fold their cards.
+- [Added] ACP/Poker/Rooms settings/Security settings/ Safety bet - Fixed configuration cannot be disabled. The losing player surplus bet chips are returned to the user before they enter in the POT, if the user is still sitting and has already stand up, the surplus goes to the bank, which is called profit.
+- [Added] ACP/Poker/Rooms settings/Security settings/ Safety bet on blinds - Can be turned enable/disable, when enabled, the protection also extends to the blinds amount.
+- [Added] ACP/Poker/Rooms settings/Security settings/ Full safety bet - Can be turned enable/disable, when enabled, the winning player surplus is also returned to the user before his bet is placed in the Pot. This option is always active in case of multiple winners.
 - [Added] ACP/Poker/Rooms settings/Game settings/ Pause game - Provides the option to turn the game pause enable/disable.
 - [Added] ACP/Poker/Rooms settings/Game settings/ JackPot system.
 - [Added] ACP/Poker/Rooms settings/Game settings/ JackPot ticket price.

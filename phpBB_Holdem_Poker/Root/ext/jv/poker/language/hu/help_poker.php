@@ -58,6 +58,10 @@ $lang = array_merge($lang, [
 	'JV_POKER_HELP_A_SHOUT_R_QUESTION'		=> 'Van-e mód az archívum frissítésére?',
 	'JV_POKER_HELP_BAN_CHIPS_ANSWER'		=> 'Igen, abban az esetben, ha egy adminisztrátor elveszi a jogosultságodat a póker használatától, akkor %s<strong>ITT</strong>%s bármikor automatikusan visszaválthatód az összes megszerzett zsetonod. Az automatikus átváltás abban az esetben nem fog működni, ha a póker ki lett kapcsolva, ebben az esetben nézzünk vissza később és próbáljuk újra.',
 	'JV_POKER_HELP_BAN_CHIPS_QUESTION'		=> 'Ha elveszik a jogosultságomat a póker használatától, akkor van-e mód visszaváltanom a zsetonjaimat?',
+	'JV_POKER_HELP_BET_BACK_ANSWER'			=> 'Ez akkor fordulhat elő, ha a tétedbe többlet zseton van, amit nem adott meg senki vagy több nyertes van, ebben az esetben a többlet zseton visszakerül hozzád és nem a Pot-ba, hogy a kiértékelésbe ne számítson bele.',
+	'JV_POKER_HELP_BET_BACK_QUESTION'		=> 'A tétem egy része vissza került hozzám és nem a Pot-ba, miért?',
+	'JV_POKER_HELP_BET_BANK_ANSWER'			=> 'Ez akkor fordulhat elő, ha a tétedbe többlet zseton van, amit nem adott meg senki és te felálltál, ebben az esetben a többlet zseton a banké lesz.',
+	'JV_POKER_HELP_BET_BANK_QUESTION'		=> 'A tétem egy része elment az osztónak és nem a Pot-ba, miért?',
 	'JV_POKER_HELP_BLIND_ANSWER'			=> 'A kis/nagyvak mindig a minimum és maximum beszálló összegtől függnek. A minimum beszálló összeg mindig a nagyvak 10-szerese, míg a maximum beszálló összeg a nagyvak 200-szorosa. Természetesen, ha a minimum és maximum értékek egyenlőek, akkor az már beállítás függő, hogy a minimum, közép vagy maximum értéket veszi-e alapul. A kisvak meg mindig a nagyvak fele. Ez a szabály a verseny szobában annyival tér el, hogy a kis/nagyvak mindig az alap érték kétszerese. Továbbá a verseny szobában a kis/nagyvak a verseny előre haladtával folyamatosan emelkedni fog.',
 	'JV_POKER_HELP_BLIND_QUESTION'			=> 'A szobák közti kis/nagyvak tétek különböznek, miért?',
 	'JV_POKER_HELP_BLOCK_GAME'				=> 'Póker játék kérdések',
@@ -105,13 +109,6 @@ $lang = array_merge($lang, [
 		<li>4. Az adminisztrátor csak aktív fókuszban lévő játék futtatását engedélyezi, így ugyan az a helyzet mint a 3. pontban leírtak. Azonban ebben az esetben megjelenik a szünet felírat.</li>
 	</ul>',
 	'JV_POKER_HELP_DROP_USER_QUESTION'		=> 'Milyen esetekben dobhat ki a játék?',
-	'JV_POKER_HELP_EXIT_ANSWER'				=> 'Ebben az esetben 3 opció lehetséges:
-	<ul>
-		<li>1. Gyakorló szobából nem lehet kivinni zsetont, így a bent lévő zsetonjaid törlésre fognak kerülni és a szobát elhagyod.</li>
-		<li>2. Ha Normál szobából kilépsz, akkor a megszerzett zsetonok hozzáadásra fognak kerülni a zseton egyenlegedhez és a szobát elhagyod.</li>
-		<li>3. Ha verseny szobából kilépsz még a verseny megkezdése előtt, akkor visszakapod a nevezési díjat. Ha a verseny már elkezdődött, akkor a nevezési díjat elveszted.</li>
-	</ul>',
-	'JV_POKER_HELP_EXIT_QUESTION'			=> 'Mi történik, ha megnyomom a kilépés gombot?',
 	'JV_POKER_HELP_E_SHOUT_ANSWER'			=> 'Amennyiben az adminisztrátor engedélyezi, akkor igen.',
 	'JV_POKER_HELP_E_SHOUT_QUESTION'		=> 'Használhatók-e az üzeneteimben szmájlikat?',
 	'JV_POKER_HELP_GAME_SOUND_ANSWER'		=> 'Igen. A játék során bármikor ki/be kapcsolható a játék hangja. Ezzel az összes játék hang beleértve az üzenőfal hangja is kikapcsolásra kerül. A beállítás minden esetben megjegyzésre kerül.',
@@ -176,7 +173,7 @@ $lang = array_merge($lang, [
 		<li>3. Ha verseny játékban vagy úgy az %s. leosztás végén automatikusan felállításra kerülsz.</li>
 	</ul>',
 	'JV_POKER_HELP_OFFLINE_U_QUESTION'		=> 'Mi történik, ha megszakad az internet kapcsolatom?',
-	'JV_POKER_HELP_PAUSE_ANSWER'			=> 'Ha megnyomod a szünet gombot az egyenlő azzal, hogy kiszállsz a játékból, így ha a parti folyik, akkor a lapjaid bedobásra fognak kerülni. Ezt az opciót, akkor érdemes használni, ha a játékos még játszani akar és nem szeretné, hogy valaki más elfoglalná a helyét. Természetesen a szünet ideje limitálva van, amit az adminisztrátor határozz meg.',
+	'JV_POKER_HELP_PAUSE_ANSWER'			=> 'Ha megnyomod a szünet gombot az egyenlő azzal, hogy kiszállsz a játékból, tehát ha játékban vagy, akkor a lapjaid bedobásra kerülnek. Ezt az opciót, akkor érdemes használni, ha még játszani szeretnél és nem szeretnéd, hogy valaki elfoglalná a helyedet. Természetesen a szünet ideje limitálva van, amit az adminisztrátor határozz meg.',
 	'JV_POKER_HELP_PAUSE_QUESTION'			=> 'Mi történik, ha megnyomom a szünet gombot?',
 	'JV_POKER_HELP_PD_ANSWER'				=> 'A „phpBB Holdem Póker” minden aktuális játékos IP-címét menti és tárolja addig, amíg a felhasználó fel nem áll az asztaltól, mivel ha egy felhasználó feláll az asztaltól, akkor minden adat törlésre kerül és csak a statisztikai adatok maradnak meg. Az IP cím azért kerül tárolásra a játszás során, hogy megakadályozhassuk, hogy egy IP címmel több felhasználó ülhessen le egy asztalhoz. Természetesen az IP címek ellenőrzését az adminisztrátor ki/be kapcsolhatja.',
 	'JV_POKER_HELP_PD_QUESTION'				=> 'A „phpBB Holdem Póker” tárol-e személyes adatokat?',
@@ -225,8 +222,7 @@ $lang = array_merge($lang, [
 			<li>Eldobás (Fold): eldobja a lapjait, színükkel lefelé, így kiesik a játékból.</li>
 		</ul>
 
-		Ha egy játékos emeli a tétet, akkor megkezdődik a licitálás. Egy licitkör végén az osztó összeszedi a téteket és a Potba teszi.
-
+		Ha egy játékos emeli a tétet, akkor megkezdődik a licitálás. A licitkör végén az osztó összeszedi a téteket és a „Pot”-ba, a kasszába teszi.
 		<br><br><strong>Turn (harmadik licitkör)</strong><br>
 		Az osztó leoszt egy „Turn” kártyát a közös lapok közé. Így már négy közös lapot látnak a játékosok. Ezt követően a harmadik licitkör kezdődik.
 
@@ -302,6 +298,9 @@ $lang = array_merge($lang, [
 	'JV_POKER_HELP_POKER_QUESTION'			=> 'Mi az a phpBB Holdem Póker?',
 	'JV_POKER_HELP_PRACTICE_ANSWER'			=> 'A szobába bárki bemehet játszani még, akkor is, ha nincs saját zsetonja. Leüléskor az előre meghatározott beszálló zsetonokat minden játékos megkap. A szobából a megnyert zsetonokat nem lehet kivinni.',
 	'JV_POKER_HELP_PRACTICE_QUESTION'		=> 'Mit jelent, hogy gyakorló szoba?',
+	'JV_POKER_HELP_PROFIT_ANSWER'			=> 'Az adminisztrátor aktiválta a profit rendszert, ami annyit tesz, hogy minden új leosztásnál minden játékostól a kisvak 40% levonásra kerül.',
+	'JV_POKER_HELP_PROFIT_JP_ANSWER'		=> 'Ebből a levont összegből 80% a JackPot alapba kerül.',
+	'JV_POKER_HELP_PROFIT_QUESTION'			=> 'Minden új leosztásnál kevesebb lesz a zsetonom, miért?',
 	'JV_POKER_HELP_PTOC_ANSWER'				=> 'Igen, ehhez használd a póker főoldalán a saját profilodban lévő zseton kijelzés mellett a „Zseton váltó” gombot.',
 	'JV_POKER_HELP_PTOC_QUESTION'			=> 'Válthatók-e át „%s”-ot zsetonra?',
 	'JV_POKER_HELP_P_SHOUT_ANSWER'			=> 'Amennyiben az adminisztrátor engedélyezi, akkor igen. Ha nem engedélyezi, akkor az üzenőfalon csak a „Szünet” felírat lesz látható.',
@@ -314,12 +313,6 @@ $lang = array_merge($lang, [
 	'JV_POKER_HELP_SHOUT_SOUND_QUESTION'	=> 'Kitudom kapcsolni az üzenőfal hangját?',
 	'JV_POKER_HELP_SHOWDOWN_ANSWER'			=> 'A játék végén lévő lapok bemutatásának idejét az adminisztrátor határozza meg.',
 	'JV_POKER_HELP_SHOWDOWN_QUESTION'		=> 'A játék végén meddig láthatók a kártyák?',
-	'JV_POKER_HELP_STAND_UP_ANSWER'			=> 'Ebben az esetben 2 opció lehetséges:
-	<ul>
-		<li>1. Gyakorló szobából nem lehet kivinni zsetont, így a bent lévő zsetonjaid törlésre fognak kerülni és a szobát nem hagyod el.</li>
-		<li>2. Ha a Normál szobából felállsz, akkor a megszerzett zsetonok hozzáadásra fognak kerülni a zseton egyenlegedhez és a szobát nem hagyod el.</li>
-	</ul>',
-	'JV_POKER_HELP_STAND_UP_QUESTION'		=> 'Mi történik, ha megnyomom a feláll gombot?',
 	'JV_POKER_HELP_STATUS_ANSWER'			=> 'A „Státusz” alatti mezőből olvasható ki, hogy az adott szobában játszanak-e éppen vagy nem.',
 	'JV_POKER_HELP_STATUS_QUESTION'			=> 'Mit jelent a státusz?',
 	'JV_POKER_HELP_SU_SHOUT_ANSWER'			=> 'Nem, az üzenőfalat csak ülő felhasználó használhatja.',

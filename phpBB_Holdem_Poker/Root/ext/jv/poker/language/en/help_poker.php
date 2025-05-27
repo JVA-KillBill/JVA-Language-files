@@ -58,6 +58,10 @@ $lang = array_merge($lang, [
 	'JV_POKER_HELP_A_SHOUT_R_QUESTION'		=> 'Is there a way to refresh the archive?',
 	'JV_POKER_HELP_BAN_CHIPS_ANSWER'		=> 'Yes, if an administrator delete your permission for poker, you can automatically exchange all your chips at any time %s<strong>HERE</strong>%s. Automatic exchange will not work if poker has been disabled, in which case please check back later and try again.',
 	'JV_POKER_HELP_BAN_CHIPS_QUESTION'		=> 'If I lose my permission for poker, is there a way to exchange my chips?',
+	'JV_POKER_HELP_BET_BACK_ANSWER'			=> 'This can happen if there are surplus chips in your bet that no one called or there are multiple winners, in this case the surplus chips will be returned to you and not to the Pot, so that it is not included in the evaluation.',
+	'JV_POKER_HELP_BET_BACK_QUESTION'		=> 'Part of my bet went back to me and not to the Pot, why?',
+	'JV_POKER_HELP_BET_BANK_ANSWER'			=> 'This can happen if there are surplus chips in your bet that no one called and you stood up, in this case the surplus chips will go to the bank.',
+	'JV_POKER_HELP_BET_BANK_QUESTION'		=> 'Part of my bet went to the dealer and not to the Pot, why?',
 	'JV_POKER_HELP_BLIND_ANSWER'			=> 'The Small Blind/Big Blind always depends on the minimum and maximum starting amount. The minimum starting amount (Buy-in) is always 10x the Big Blind, while the maximum starting amount is 200x the Big Blind. Of course, if the minimum and maximum values are equal, it depends on the setting whether the minimum, medium or maximum value is used as a basis. The Small Blind is always half of the Big Blind. This rule differs in the tournament room, where the Small Blind/Big Blind is always twice the base value. In addition, in the tournament room the Small Blind/Big Blind is growing steadily throughout the tournament.',
 	'JV_POKER_HELP_BLIND_QUESTION'			=> 'Small/big blind bets between rooms are different, why?',
 	'JV_POKER_HELP_BLOCK_GAME'				=> 'Poker game issues',
@@ -105,13 +109,6 @@ $lang = array_merge($lang, [
 		<li>4. The administrator only allows a game with active focus to run, so the situation is the same as described in point 3. However, in this case, the pause inscription appears.</li>
 	</ul>',
 	'JV_POKER_HELP_DROP_USER_QUESTION'		=> 'In what cases can the game throw you out?',
-	'JV_POKER_HELP_EXIT_ANSWER'				=> 'In this case, 3 options are available:
-	<ul>
-		<li>1. You can‘t take out chips from a practice room so your chips inside will be deleted and you leave the room.</li>
-		<li>2. If you exit the normal room, the chips you earn will be added to your chips balance and you will leave the room.</li>
-		<li>3. If you exit the tournament room before the start of the tournament, you will get your Buy-In back. If the tournament has already started, you will lose the Buy-In.</li>
-	</ul>',
-	'JV_POKER_HELP_EXIT_QUESTION'			=> 'What happens when I press the exit button?',
 	'JV_POKER_HELP_E_SHOUT_ANSWER'			=> 'If enabled by the administrator, yes.',
 	'JV_POKER_HELP_E_SHOUT_QUESTION'		=> 'Can I use smileys in my messages?',
 	'JV_POKER_HELP_GAME_SOUND_ANSWER'		=> 'Yes. The game sound can be switched on/off at any time during the game. With this, all voice sounds including the message board are turned off. The setting is always saved.',
@@ -226,7 +223,6 @@ $lang = array_merge($lang, [
 		</ul>
 
 		When a player raises the bet, the bidding starts. At the end of the betting round, the Dealer collects the bets and put them in the Pot.
-
 		<br><br><strong>Turn (third betting round)</strong><br>
 		The dealer hands another card named “Turn” face up to the community cards. This gives the player four community cards. Now begins the third betting round.
 
@@ -302,6 +298,9 @@ $lang = array_merge($lang, [
 	'JV_POKER_HELP_POKER_QUESTION'			=> 'What is phpBB Holdem Póker?',
 	'JV_POKER_HELP_PRACTICE_ANSWER'			=> 'Everyone can play in this room, even if they do not have their own chips. Each player receives a predetermined number of chips when sitting down. The chips won in this room can not be taken out of the room or exchanged.',
 	'JV_POKER_HELP_PRACTICE_QUESTION'		=> 'What does it mean to be in a practice room?',
+	'JV_POKER_HELP_PROFIT_ANSWER'			=> 'The administrator has activated the profit system, which means that for each new hand, 40% of the small blind is deducted from each player.',
+	'JV_POKER_HELP_PROFIT_JP_ANSWER'		=> '80% of this deducted amount goes to the JackPot fund.',
+	'JV_POKER_HELP_PROFIT_QUESTION'			=> 'My chips will be less for each new hand, why?',
 	'JV_POKER_HELP_PTOC_ANSWER'				=> 'Yes, for this, use the “Chips exchange” button on the poker main page next to the chips display in your own profile.',
 	'JV_POKER_HELP_PTOC_QUESTION'			=> 'Can “%s” be exchanged for chips?',
 	'JV_POKER_HELP_P_SHOUT_ANSWER'			=> 'If enabled by the administrator, yes. If it is not enabled, only the word “Pause” will appear on the message board.',
@@ -314,12 +313,6 @@ $lang = array_merge($lang, [
 	'JV_POKER_HELP_SHOUT_SOUND_QUESTION'	=> 'Can I switch off the message board?',
 	'JV_POKER_HELP_SHOWDOWN_ANSWER'			=> 'The time of presentation of the cards at the end of the game is determined by the administrator.',
 	'JV_POKER_HELP_SHOWDOWN_QUESTION'		=> 'How long are the cards visible at the end of the game?',
-	'JV_POKER_HELP_STAND_UP_ANSWER'			=> 'In this case, there are two possibilities:
-	<ul>
-		<li>1. You stand up from the table. You do not leave the room. If you are in a practice room, you can not take out your chips, so they will be canceled.</li>
-		<li>2. You get up from the table. You do not leave the room. If you are in a normal room, your won chips will be added to your balance.</li>
-	</ul>',
-	'JV_POKER_HELP_STAND_UP_QUESTION'		=> 'What happens when I press the stand up button?',
 	'JV_POKER_HELP_STATUS_ANSWER'			=> 'The field under “Status” indicates whether or not this room is in a game.',
 	'JV_POKER_HELP_STATUS_QUESTION'			=> 'What does status mean?',
 	'JV_POKER_HELP_SU_SHOUT_ANSWER'			=> 'No, the message board can only be used by a sitting user.',

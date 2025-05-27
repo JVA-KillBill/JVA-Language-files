@@ -58,6 +58,10 @@ $lang = array_merge($lang, [
 	'JV_POKER_HELP_A_SHOUT_R_QUESTION'		=> 'Gibt es eine Möglichkeit, das Archiv zu aktualisieren?',
 	'JV_POKER_HELP_BAN_CHIPS_ANSWER'		=> 'Ja, wenn ein Administrator deine Berechtigung für Poker löscht, kannst du jederzeit automatisch jederzeit alle deine Chips einwechseln %s<strong>HIER</strong>%s. Der automatische Umtausch funktioniert nicht, wenn Poker deaktiviert wurde. Schaue in diesem Fall später noch einmal vorbei und versuche es erneut.',
 	'JV_POKER_HELP_BAN_CHIPS_QUESTION'		=> 'Wenn ich meine Berechtigung zur Benutzung von Poker verliere, gibt es noch eine Möglichkeit, meine Chips zurückzuwechseln?',
+	'JV_POKER_HELP_BET_BACK_ANSWER'			=> '',
+	'JV_POKER_HELP_BET_BACK_QUESTION'		=> '',
+	'JV_POKER_HELP_BET_BANK_ANSWER'			=> '',
+	'JV_POKER_HELP_BET_BANK_QUESTION'		=> '',
 	'JV_POKER_HELP_BLIND_ANSWER'			=> 'Der Small Blind/Big Blind hängt immer vom minimalen und maximalen Einstiegsbetrag ab. Der Mindesteinstiegsbetrag (Buy-in) ist immer das 10-fache des Big Blinds, während der maximale Einstiegsbetrag das 200-fache des Big Blinds beträgt. Wenn der minimale und maximale Wert gleich sind, hängt es natürlich von der Einstellung ab, ob der minimale, mittlere oder maximale Wert als Basis zugrunde gelegt wird. Der Small Blind beträgt immer die Hälfte des Big Blinds. Diese Regel unterscheidet sich im Turnierraum, wo der Small/Big Blind immer doppelt so hoch ist wie der Grundwert. Außerdem wächst im Turnierraum der Small/Big Blind im Verlauf des Turniers stetig an.',
 	'JV_POKER_HELP_BLIND_QUESTION'			=> 'Small Blind/Big Blind-Starteinsätze sind unterschiedlich in den Räumen, warum?',
 	'JV_POKER_HELP_BLOCK_GAME'				=> 'Poker Spielprobleme',
@@ -105,13 +109,6 @@ $lang = array_merge($lang, [
 		<li>4. Der Administrator lässt nur ein Spiel mit aktivem Fokus laufen, daher ist die Situation dieselbe wie in Punkt 3 beschrieben. In diesem Fall erscheint jedoch die Pausenbeschriftung.</li>
 	</ul>',
 	'JV_POKER_HELP_DROP_USER_QUESTION'		=> 'In welchen Fällen kann das Spiel dich rauswerfen?',
-	'JV_POKER_HELP_EXIT_ANSWER'				=> 'In diesem Fall gibt es drei Möglichkeiten:
-	<ul>
-		<li>1. Du verlässt den Raum. Wenn du dich in einem Übungsraum befindest, kannst du deine Chips nicht mitnehmen, darum werden sie storniert.</li>
-		<li>2. Du verlässt den Raum. Wenn du dich in einem normalen Raum befindest, werden deine gewonnenen Chips deinem Guthaben hinzugefügt.</li>
-		<li>3. Wenn du den Turnierraum vor Turnierbeginn verlässt, bekommst du dein Buy-In zurück. Wenn das Turnier bereits begonnen hat, verlierst du das Buy-In.</li>
-	</ul>',
-	'JV_POKER_HELP_EXIT_QUESTION'			=> 'Was passiert, wenn ich die Beenden-Taste drücke?',
 	'JV_POKER_HELP_E_SHOUT_ANSWER'			=> 'Wenn es vom Administrator aktiviert wurde, dann ja.',
 	'JV_POKER_HELP_E_SHOUT_QUESTION'		=> 'Kann ich Smilies in meinen Nachrichten verwenden?',
 	'JV_POKER_HELP_GAME_SOUND_ANSWER'		=> 'Ja. Der Ton kann jederzeit während des Spiels ein- und ausgeschaltet werden. Hiermit werden alle Töne einschließlich der Shoutbox ausgeschaltet. Die Einstellung wird immer gespeichert.',
@@ -226,7 +223,6 @@ $lang = array_merge($lang, [
 		</ul>
 
 		Wenn ein Spieler den Einsatz erhöht, beginnt die Setzrunde. Am Ende der Setzrunde sammelt der Geber (Dealer) die Einsätze ein, und legt sie in den Pot.
-
 		<br><br><strong>Turn (dritte Setzrunde)</strong><br>
 		Der Geber teilt nun die nächste Gemeinschaftskarte offen aus, den „Turn“. Damit stehen den Spieler nun vier Gemeinschaftskarten zur Verfügung. Jetzt beginnt die dritte Setzrunde.
 
@@ -302,6 +298,9 @@ $lang = array_merge($lang, [
 	'JV_POKER_HELP_POKER_QUESTION'			=> 'Was ist phpBB Holdem Póker?',
 	'JV_POKER_HELP_PRACTICE_ANSWER'			=> 'Jeder kann in diesem Raum spielen, auch wenn er selbst keine eigenen Chips besitzt. Jeder Spieler erhält eine vorher festgelegte Anzahl an Chips, wenn er sich hinsetzt. Die in diesem Raum gewonnenen Chips können nicht aus dem Raum mitgenommen oder eingewechselt werden.',
 	'JV_POKER_HELP_PRACTICE_QUESTION'		=> 'Was bedeutet es, in einem Übungsraum zu sein?',
+	'JV_POKER_HELP_PROFIT_ANSWER'			=> '',
+	'JV_POKER_HELP_PROFIT_JP_ANSWER'		=> '',
+	'JV_POKER_HELP_PROFIT_QUESTION'			=> '',
 	'JV_POKER_HELP_PTOC_ANSWER'				=> 'Ja, hierfür nutze den Button „Chips einwechseln“ auf der Poker-Hauptseite neben der Chips-Anzeige im eigenen Profil.',
 	'JV_POKER_HELP_PTOC_QUESTION'			=> 'Können „%s“ gegen Chips eingetauscht werden?',
 	'JV_POKER_HELP_P_SHOUT_ANSWER'			=> 'Ja, wenn der Administrator es erlaubt hat. Wenn es nicht aktiviert wurde, erscheint nur das Wort „Pause“ in der Shoutbox.',
@@ -314,12 +313,6 @@ $lang = array_merge($lang, [
 	'JV_POKER_HELP_SHOUT_SOUND_QUESTION'	=> 'Kann ich die Shoutbox ausschalten?',
 	'JV_POKER_HELP_SHOWDOWN_ANSWER'			=> 'Die Zeit der Präsentation der Karten am Ende des Spiels wird vom Administrator festgelegt.',
 	'JV_POKER_HELP_SHOWDOWN_QUESTION'		=> 'Wie lange sind die Karten am Ende des Spiels sichtbar?',
-	'JV_POKER_HELP_STAND_UP_ANSWER'			=> 'In diesem Fall gibt es zwei Möglichkeiten:
-	<ul>
-		<li>1. Du stehst vom Tisch auf. Du verlässt nicht den Raum. Wenn du dich in einem Übungsraum befindest, kannst du deine Chips nicht mitnehmen, darum werden sie storniert.</li>
-		<li>2. Du stehst vom Tisch auf. Du verlässt nicht den Raum. Wenn du dich in einem normalen Raum befindest, werden deine gewonnenen Chips deinem Guthaben hinzugefügt.</li>
-	</ul>',
-	'JV_POKER_HELP_STAND_UP_QUESTION'		=> 'Was passiert, wenn ich die Aufwärtstaste drücke?',
 	'JV_POKER_HELP_STATUS_ANSWER'			=> 'Das Feld unter „Status“ zeigt an, ob dieser Raum in einem Spiel ist, oder nicht.',
 	'JV_POKER_HELP_STATUS_QUESTION'			=> 'Was bedeutet Status?',
 	'JV_POKER_HELP_SU_SHOUT_ANSWER'			=> 'Nein, nur sitzende Benutzer können die Shoutbox benutzen.',

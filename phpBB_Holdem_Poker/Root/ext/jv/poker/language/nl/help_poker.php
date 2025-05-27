@@ -58,6 +58,10 @@ $lang = array_merge($lang, [
 	'JV_POKER_HELP_A_SHOUT_R_QUESTION'		=> 'Is er een manier om het archief op te frissen?',
 	'JV_POKER_HELP_BAN_CHIPS_ANSWER'		=> 'Ja, als een beheerder je toestemming voor poker intrekt, kun je automatisch al je chips inwisselen op elk gewenst moment %s<strong>HIER</strong>%s. Automatisch wisselen werkt niet als poker is uitgeschakeld, in dat geval kom je later terug en probeer je het opnieuw.',
 	'JV_POKER_HELP_BAN_CHIPS_QUESTION'		=> 'Als ik mijn toestemming voor poker verlies, is er dan een manier om mijn chips in te wisselen?',
+	'JV_POKER_HELP_BET_BACK_ANSWER'			=> 'Dit kan gebeuren als er overtollige chips in je inzet zijn die niemand heeft aangesproken of als er meerdere winnaars zijn, in dat geval worden de overtollige chips aan jou teruggegeven en niet aan de Pot, zodat ze niet worden meegerekend bij de evaluatie.',
+	'JV_POKER_HELP_BET_BACK_QUESTION'		=> 'Een deel van mijn inzet kwam terug naar mij en niet naar de Pot, waarom?',
+	'JV_POKER_HELP_BET_BANK_ANSWER'			=> 'Dit kan gebeuren als er overtollige chips in je inzet zijn die niemand heeft aangesproken en je bent opgestaan, in dit geval zullen de overtollige chips naar de bank gaan.',
+	'JV_POKER_HELP_BET_BANK_QUESTION'		=> 'Een deel van mijn inzet ging naar de dealer en niet naar de Pot, waarom?',
 	'JV_POKER_HELP_BLIND_ANSWER'			=> 'De Small Blind/Big Blind zijn altijd afhankelijk van het minimale en maximale startbedrag. Het minimale startbedrag (buy-in) is altijd 10x de big blind, terwijl het maximale startbedrag 200x de big blind is. Als de minimum- en maximumwaarden gelijk zijn, hangt het natuurlijk van de instelling af of de minimum-, medium- of maximumwaarde als basis wordt gebruikt. De small blind is altijd de helft van de big blind. Deze regel verschilt in de toernooikamer, waar de Small Blind/Big Blind altijd twee keer de basiswaarde is. Daarnaast groeit in de toernooizaal de Small Blind/Big Blind gestaag gedurende het toernooi.',
 	'JV_POKER_HELP_BLIND_QUESTION'			=> 'Small/big blind bets tussen kamers zijn verschillend, waarom?',
 	'JV_POKER_HELP_BLOCK_GAME'				=> 'Problemen met pokerspel',
@@ -105,13 +109,6 @@ $lang = array_merge($lang, [
 		<li>4. De beheerder staat alleen een spel met actieve focus toe, dus de situatie is hetzelfde als beschreven in punt 3. In dit geval verschijnt echter de pauze-inscriptie.</li>
 	</ul>',
 	'JV_POKER_HELP_DROP_USER_QUESTION'		=> 'In welke gevallen kan het spel je eruit gooien?',
-	'JV_POKER_HELP_EXIT_ANSWER'				=> 'In dit geval zijn er 3 opties beschikbaar:
-	<ul>
-		<li>1. Je kunt geen chips uit een oefenkamer halen, dus je chips worden verwijderd en je verlaat de kamer.</li>
-		<li>2. Als je de normale kamer verlaat, worden de chips die je verdient, toegevoegd aan je chipssaldo en verlaat je de kamer.</li>
-		<li>3. Als je de toernooizaal verlaat voor het begin van het toernooi, krijg je je Buy-In terug. Als het toernooi al begonnen is, verlies je de Buy-In.</li>
-	</ul>',
-	'JV_POKER_HELP_EXIT_QUESTION'			=> 'Wat gebeurt er als ik op de exit-knop druk?',
 	'JV_POKER_HELP_E_SHOUT_ANSWER'			=> 'Indien ingeschakeld door de beheerder, ja.',
 	'JV_POKER_HELP_E_SHOUT_QUESTION'		=> 'Kan ik smileys gebruiken in mijn berichten?',
 	'JV_POKER_HELP_GAME_SOUND_ANSWER'		=> 'Ja. Het spelgeluid kan op elk moment tijdens het spel worden in- of uitgeschakeld. Hiermee worden alle spraakgeluiden inclusief het prikbord uitgeschakeld. De instelling wordt altijd opgeslagen.',
@@ -226,7 +223,6 @@ $lang = array_merge($lang, [
 		</ul>
 
 		Wanneer een speler de inzet verhoogt, begint het bieden. Aan het einde van de inzetronde verzamelt de dealer de inzetten en plaatst ze in de Pot.
-
 		<br><br><strong>Turn (derde biedingsronde)</strong><br>
 		De dealer geeft een andere kaart met de naam “Turn” open naar boven aan de gemeenschappelijke kaarten. Dit geeft de speler vier gemeenschappelijke kaarten. Nu begint de derde inzetronde.
 
@@ -302,6 +298,9 @@ $lang = array_merge($lang, [
 	'JV_POKER_HELP_POKER_QUESTION'			=> 'Wat is phpBB Holdem Póker?',
 	'JV_POKER_HELP_PRACTICE_ANSWER'			=> 'Iedereen kan in deze kamer spelen, ook als ze geen eigen chips hebben. Elke speler krijgt een vooraf bepaald aantal chips als hij gaat zitten. De chips die in deze kamer worden gewonnen, kunnen niet uit de kamer worden gehaald of worden geruild.',
 	'JV_POKER_HELP_PRACTICE_QUESTION'		=> 'Wat betekent het om in een praktijkkamer te zijn?',
+	'JV_POKER_HELP_PROFIT_ANSWER'			=> 'De beheerder heeft het winst systeem geactiveerd, wat betekent dat voor elke nieuwe hand, 40% van de kleine blind van elke speler wordt afgetrokken.',
+	'JV_POKER_HELP_PROFIT_JP_ANSWER'		=> '80% van dit afgetrokken bedrag gaat naar het JackPot fonds.',
+	'JV_POKER_HELP_PROFIT_QUESTION'			=> 'Mijn chips zullen minder zijn voor elke nieuwe hand, waarom?',
 	'JV_POKER_HELP_PTOC_ANSWER'				=> 'Ja, gebruik hiervoor de knop “Chips wisselen” op de hoofdpagina van poker naast de chips die in je eigen profiel worden weergegeven.',
 	'JV_POKER_HELP_PTOC_QUESTION'			=> 'Kunnen “%s” worden ingewisseld voor chips?',
 	'JV_POKER_HELP_P_SHOUT_ANSWER'			=> 'Indien ingeschakeld door de beheerder, ja. Als het niet is ingeschakeld, verschijnt alleen het woord “Pauze” op het prikbord.',
@@ -314,12 +313,6 @@ $lang = array_merge($lang, [
 	'JV_POKER_HELP_SHOUT_SOUND_QUESTION'	=> 'Kan ik het prikbord uitzetten?',
 	'JV_POKER_HELP_SHOWDOWN_ANSWER'			=> 'Het tijdstip van presentatie van de kaarten aan het einde van het spel wordt bepaald door de beheerder.',
 	'JV_POKER_HELP_SHOWDOWN_QUESTION'		=> 'Hoe lang zijn de kaarten zichtbaar aan het einde van het spel?',
-	'JV_POKER_HELP_STAND_UP_ANSWER'			=> 'In dit geval zijn er twee mogelijkheden:
-	<ul>
-		<li>1. Je staat op van de tafel. Je verlaat de kamer niet. Als je in een oefenkamer bent, kun je je chips niet meenemen, dus ze worden geannuleerd.</li>
-		<li>2. Je staat op van de tafel. Je verlaat de kamer niet. Als je in een normale kamer bent, worden je gewonnen chips toegevoegd aan je saldo.</li>
-	</ul>',
-	'JV_POKER_HELP_STAND_UP_QUESTION'		=> 'Wat gebeurt er als ik op de sta-op-knop druk?',
 	'JV_POKER_HELP_STATUS_ANSWER'			=> 'Het veld onder “Status” geeft aan of deze kamer al dan niet in een spel zit.',
 	'JV_POKER_HELP_STATUS_QUESTION'			=> 'Wat betekent status?',
 	'JV_POKER_HELP_SU_SHOUT_ANSWER'			=> 'Nee, het prikbord kan alleen worden gebruikt door een zittende gebruiker.',

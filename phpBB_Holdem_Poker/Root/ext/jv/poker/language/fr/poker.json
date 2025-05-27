@@ -61,9 +61,9 @@
 	"confirm_tour_exit":			"Si vous quittez maintenant, vous perdrez le tournoi !",
 	"confirm_tour_standup":			"Si vous vous levez maintenant, vous perdez le tournoi !",
 	"confirm_tour_start":			"ISi vous commencez le tournoi maintenant, plus aucun utilisateur ne pourra rejoindre le tournoi.<br>Êtes-vous sûr de vouloir commencer le tournoi maintenant ?",
+	"croupier":						"Croupier",
 
 	"date":							"Date",
-	"croupier":						"Croupier",
 	"drill":						"Brelan",
 
 	"end_trial_period":				"La période d’essai est terminée !",
