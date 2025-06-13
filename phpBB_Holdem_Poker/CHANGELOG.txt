@@ -55,7 +55,7 @@
 - [Modified] In the tournament rooms, it is no longer possible to limit the amount of the call.
 - [Modified] The clock display in the room uses the clock of our device.
 - [Modified] We have changed the appearance of the chips from canvas to html5/css, so the images can now appear much more beautifully.
-- [Modified] The movement and pause timer now move round the avatars, and the timer now runs much more smoothly.
+- [Modified] The movement and pause timer now move around the avatars, and the timer now runs much more smoothly.
 - [Modified] Bets placements starts from zero in every round.
 - [Modified] The check timestamp of the rooms already uses microtime.
 - [Modified] Determining the time of the next tournament.
