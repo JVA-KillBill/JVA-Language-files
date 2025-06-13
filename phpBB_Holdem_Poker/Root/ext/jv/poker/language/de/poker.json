@@ -13,7 +13,7 @@
 	"bet":							"Setzen",
 	"blocked_domain":				"Auf dieser Domain kann die „phpBB Holdem Póker“-Software nicht gestartet werden!",
 	"blocked_points_room":			"Auf dieser Domain können nur Übungsräume benutzt werden!",
-	"button_this_primary":			"",
+	"button_this_primary":			"Soll dies der primäre sein",
 	"buy_in":						"Buy-In",
 
 	"call":							"Mitgehen",
@@ -68,8 +68,8 @@
 
 	"end_trial_period":				"Die Testperiode ist abgelaufen!",
 	"end_use_period":				"Die Nutzungszeit ist beendet!",
-	"err_browse_storage":			"",
-	"err_dup_window":				"",
+	"err_browse_storage":			"Das Spiel darf aus Sicherheitsgründen nicht verwendet werden!<br><br>Der Grund hierfür ist, dass der lokale Speicher und der Sitzungsspeicher des Browsers nicht verfügbar sind! Um spielen zu können, musst du deinem Browser die Verwendung des lokalen Speichers und des Sitzungsspeichers erlauben!",
+	"err_dup_window":				"Es ist nicht erlaubt, gleichzeitig mehrere Fenster zu verwenden!",
 	"err_stand_up":					"Aufstehen fehlgeschlagen, versuche es bitte noch einmal.",
 	"ext_disabled":					"Die „phpBB Holdem Póker“-Extension wurde deaktiviert!",
 
