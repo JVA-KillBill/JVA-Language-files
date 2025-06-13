@@ -13,6 +13,7 @@
 	"bet":							"Setzen",
 	"blocked_domain":				"Auf dieser Domain kann die „phpBB Holdem Póker“-Software nicht gestartet werden!",
 	"blocked_points_room":			"Auf dieser Domain können nur Übungsräume benutzt werden!",
+	"button_this_primary":			"",
 	"buy_in":						"Buy-In",
 
 	"call":							"Mitgehen",
@@ -53,7 +54,6 @@
 	"com_player_fold":				"%s passt.",
 	"com_player_raise":				"%s geht mit für %s und erhöht um %s.",
 	"com_tour_last_winner":			"Gewinner des letzten Turniers: %s, gewann %s.",
-	"com_user_most_chips":			"%s hat die meisten Chips.",
 	"com_wait":						"Auf Spieler warten…",
 	"confirm_exit":					"Bist du sicher, dass du beenden willst?",
 	"confirm_pause":				"Bist du sicher, dass du eine Pause einlegen willst?",
@@ -68,7 +68,9 @@
 
 	"end_trial_period":				"Die Testperiode ist abgelaufen!",
 	"end_use_period":				"Die Nutzungszeit ist beendet!",
-	"error_stand_up":				"Aufstehen fehlgeschlagen, versuche es bitte noch einmal.",
+	"err_browse_storage":			"",
+	"err_dup_window":				"",
+	"err_stand_up":					"Aufstehen fehlgeschlagen, versuche es bitte noch einmal.",
 	"ext_disabled":					"Die „phpBB Holdem Póker“-Extension wurde deaktiviert!",
 
 	"flood_limit":					"Bitte vermeide häufige Klicks!",

@@ -43,9 +43,9 @@ $lang = array_merge($lang, [
 	'JV_POKER_HELP_AVATAR_BC_ANSWER'		=> 'Ja, derzeit werden die folgenden Farben um den Avatar herum verwendet:
 	<ul>
 		<li>Weiß: Warten aufs Spielen.</li>
-		<li>Schwarz: Diejenigen, die im Spiel sind.</li>
+		<li>Grau: Diejenigen, die im Spiel sind.</li>
 		<li>Gelb: Aktueller Spieler.</li>
-		<li>Burgunderrot: Gefaltete Karten.</li>
+		<li>Rot: Gefaltete Karten.</li>
 	</ul>',
 	'JV_POKER_HELP_AVATAR_BC_ANSWER_2'		=> '<li>Burgunderrot durchgestrichen: Macht eine Pause.</li>',
 	'JV_POKER_HELP_AVATAR_BC_ANSWER_3'		=> '<li>Blau: Wettschutz.</li>',
@@ -311,8 +311,6 @@ $lang = array_merge($lang, [
 	'JV_POKER_HELP_SHOUT_QUESTION'			=> 'Kann ich die Shoutbox während des Spiels benutzen?',
 	'JV_POKER_HELP_SHOUT_SOUND_ANSWER'		=> 'Ja, du kannst die Shoutbox gesondert ausschalten. Ausschalten der Shoutbox deaktiviert nicht den Ton im Spiel.',
 	'JV_POKER_HELP_SHOUT_SOUND_QUESTION'	=> 'Kann ich die Shoutbox ausschalten?',
-	'JV_POKER_HELP_SHOWDOWN_ANSWER'			=> 'Die Zeit der Präsentation der Karten am Ende des Spiels wird vom Administrator festgelegt.',
-	'JV_POKER_HELP_SHOWDOWN_QUESTION'		=> 'Wie lange sind die Karten am Ende des Spiels sichtbar?',
 	'JV_POKER_HELP_STATUS_ANSWER'			=> 'Das Feld unter „Status“ zeigt an, ob dieser Raum in einem Spiel ist, oder nicht.',
 	'JV_POKER_HELP_STATUS_QUESTION'			=> 'Was bedeutet Status?',
 	'JV_POKER_HELP_SU_SHOUT_ANSWER'			=> 'Nein, nur sitzende Benutzer können die Shoutbox benutzen.',

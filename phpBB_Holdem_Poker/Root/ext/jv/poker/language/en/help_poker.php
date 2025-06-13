@@ -43,9 +43,9 @@ $lang = array_merge($lang, [
 	'JV_POKER_HELP_AVATAR_BC_ANSWER'		=> 'Yes, the following colors are currently used around the avatar:
 	<ul>
 		<li>White: Waiting to play.</li>
-		<li>Black: Those in play.</li>
+		<li>Gray: Those in play.</li>
 		<li>Yellow: Actual player.</li>
-		<li>Burgundy: Folded cards.</li>
+		<li>Red: Folded cards.</li>
 	</ul>',
 	'JV_POKER_HELP_AVATAR_BC_ANSWER_2'		=> '<li>Burgundy crossed out: Taking a pause.</li>',
 	'JV_POKER_HELP_AVATAR_BC_ANSWER_3'		=> '<li>Blue: Bet protection.</li>',
@@ -279,7 +279,7 @@ $lang = array_merge($lang, [
 			</li>
 		</ul>
 		<ul>
-			<li><strong>Two pairs</strong>
+			<li><strong>Two pair</strong>
 				<ul><li>It consists of two times two cards with the same number or sign and one other card. If there are several double pairs, the higher pair decides, then the second highest and, if necessary, the neutral card.<br>Example: 5<span class="poker_cs">♠</span>, 5<span class="poker_dh">♦</span>, 8<span class="poker_cs">♠</span>, 8<span class="poker_cs">♣</span>, 10<span class="poker_dh">♦</span>.</li></ul>
 			</li>
 		</ul>
@@ -311,8 +311,6 @@ $lang = array_merge($lang, [
 	'JV_POKER_HELP_SHOUT_QUESTION'			=> 'Can I use the message board during a game?',
 	'JV_POKER_HELP_SHOUT_SOUND_ANSWER'		=> 'Yes. You can turn off the message board separately. Turning off the message board does not turn off the sound of the game.',
 	'JV_POKER_HELP_SHOUT_SOUND_QUESTION'	=> 'Can I switch off the message board?',
-	'JV_POKER_HELP_SHOWDOWN_ANSWER'			=> 'The time of presentation of the cards at the end of the game is determined by the administrator.',
-	'JV_POKER_HELP_SHOWDOWN_QUESTION'		=> 'How long are the cards visible at the end of the game?',
 	'JV_POKER_HELP_STATUS_ANSWER'			=> 'The field under “Status” indicates whether or not this room is in a game.',
 	'JV_POKER_HELP_STATUS_QUESTION'			=> 'What does status mean?',
 	'JV_POKER_HELP_SU_SHOUT_ANSWER'			=> 'No, the message board can only be used by a sitting user.',

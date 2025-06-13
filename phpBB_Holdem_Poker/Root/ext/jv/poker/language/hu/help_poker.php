@@ -43,9 +43,9 @@ $lang = array_merge($lang, [
 	'JV_POKER_HELP_AVATAR_BC_ANSWER'		=> 'Igen, jelenleg az avatar körül a következő színek vannak használatban:
 	<ul>
 		<li>Fehér: Játékra várakozó.</li>
-		<li>Fekete: Játékban lévők.</li>
+		<li>Szürke: Játékban lévők.</li>
 		<li>Sárga: Aktuális játékos.</li>
-		<li>Bordó: Dobta a lapjait.</li>
+		<li>Piros: Dobta a lapjait.</li>
 	</ul>',
 	'JV_POKER_HELP_AVATAR_BC_ANSWER_2'		=> '<li>Bordó áthúzva: Szünetet tart.</li>',
 	'JV_POKER_HELP_AVATAR_BC_ANSWER_3'		=> '<li>Kék: Tét védelembe.</li>',
@@ -125,7 +125,7 @@ $lang = array_merge($lang, [
 	<ul>
 		<li>1. Póker esetében 10% a JackPot-ból.</li>
 		<li>2. Színsor esetében 30% a JackPot-ból.</li>
-		<li>3. Royal Flöss esetében 80% a JackPot-ból.</li>
+		<li>3. Royal Flush esetében 80% a JackPot-ból.</li>
 	</ul>
 	Amennyiben több nyertes is van, úgy részarányosan a nyeremény szétosztódik.<br><br>
 	<strong>Nem nyerhetsz a JackPot-ból, ha:</strong>
@@ -244,52 +244,52 @@ $lang = array_merge($lang, [
 
 		<strong>Pókerkezek:</strong>
 		<ul>
-			<li><strong>Royal flöss (royal flush)</strong>
+			<li><strong>Royal Flush (Royal Flush)</strong>
 				<ul><li>A legerősebb lapkombináció. Egyszínű 10-es, bubi, dáma, király, ász lapokból áll. Ha két ilyen találkozik, akkor döntetlen (osztozás a nyereményen).<br>Példa: 10<span class="poker_dh">♥</span>, J<span class="poker_dh">♥</span>, Q<span class="poker_dh">♥</span>, K<span class="poker_dh">♥</span>, A<span class="poker_dh">♥</span>.</li></ul>
 			</li>
 		</ul>
 		<ul>
-			<li><strong>Színsor (straight flush)</strong>
+			<li><strong>Színsor (Straight Flush)</strong>
 				<ul><li>Öt egyszínű sorba rendezhető lapból áll. Ha két ilyen találkozik, a legmagasabb lap dönt. Ha egyforma, akkor döntetlen (osztozás a nyereményen).<br>Példa: 5<span class="poker_cs">♣</span>, 6<span class="poker_cs">♣</span>, 7<span class="poker_cs">♣</span>, 8<span class="poker_cs">♣</span>, 9<span class="poker_cs">♣</span></li></ul>
 			</li>
 		</ul>
 		<ul>
-			<li><strong>Póker (four of a kind)</strong>
+			<li><strong>Póker (Four of a Kind)</strong>
 				<ul><li>Négy ugyanolyan számozású vagy jelű lapból és egy akármilyen másik lapból áll. Ha két ilyen találkozik, a magasabb póker nyer.<br>Példa: 7<span class="poker_dh">♥</span>, 7<span class="poker_cs">♠</span>, 7<span class="poker_cs">♣</span>, 7<span class="poker_dh">♦</span>, 10<span class="poker_cs">♠</span>.</li></ul>
 			</li>
 		</ul>
 		<ul>
-			<li><strong>Full (full house)</strong>
+			<li><strong>Full House (Full House)</strong>
 				<ul><li>Három ugyanolyan számozású vagy jelű lapból és két másik ugyanolyan számozású vagy jelű lapból áll. Ha két ilyen találkozik, a magasabb drill nyer. Ha egyforma, a magasabb pár nyer.<br>Példa: 5<span class="poker_dh">♦</span>, 5<span class="poker_cs">♣</span>, 5<span class="poker_cs">♠</span>, 8<span class="poker_dh">♥</span>, 8<span class="poker_cs">♠</span>.</li></ul>
 			</li>
 		</ul>
 		<ul>
-			<li><strong>Flöss (flush)</strong>
+			<li><strong>Flush (Flush)</strong>
 				<ul><li>Öt ugyanolyan színű lapból áll. Ha két ilyen találkozik, a legmagasabb lap dönt. Ha egyforma, a második legmagasabb dönt, és így tovább…<br>Példa: 2<span class="poker_cs">♠</span>, 4<span class="poker_cs">♠</span>, 5<span class="poker_cs">♠</span>, 7<span class="poker_cs">♠</span>, 10<span class="poker_cs">♠</span>.</li></ul>
 			</li>
 		</ul>
 		<ul>
-			<li><strong>Sor (straight)</strong>
+			<li><strong>Sor (Straight)</strong>
 				<ul><li>Öt sorba rendezhető lapból áll. Ha két ilyen találkozik, a legmagasabb lap dönt. Ha egyforma, akkor döntetlen (osztozás a nyereményen).<br>Példa: 4<span class="poker_dh">♥</span>, 5<span class="poker_dh">♦</span>, 6<span class="poker_cs">♠</span>, 7<span class="poker_cs">♠</span>, 8<span class="poker_cs">♣</span>.</li></ul>
 			</li>
 		</ul>
 		<ul>
-			<li><strong>Drill (three of a kind)</strong>
+			<li><strong>Drill (Three of a Kind)</strong>
 				<ul><li>Három ugyanolyan számozású vagy jelű lapból és két akármilyen másik lapból áll. Ha két ilyen találkozik, a magasabb drill nyer. Ha egyforma, a magasabb semleges lap, majd az alacsonyabb dönt.<br>Példa: 3<span class="poker_dh">♥</span>, 3<span class="poker_cs">♣</span>, 3<span class="poker_cs">♠</span>, 7<span class="poker_cs">♠</span>, 10<span class="poker_dh">♦</span>.</li></ul>
 			</li>
 		</ul>
 		<ul>
-			<li><strong>Két pár (two pairs)</strong>
+			<li><strong>Két pár (Two Pair)</strong>
 				<ul><li>Kétszer két ugyanolyan számozású vagy jelű lapból áll. Ha két ilyen találkozik, a magasabb pár, majd az alacsonyabb, majd a semleges lap erőssége dönt.<br>Példa: 5<span class="poker_cs">♠</span>, 5<span class="poker_dh">♦</span>, 8<span class="poker_cs">♠</span>, 8<span class="poker_cs">♣</span>, 10<span class="poker_dh">♦</span>.</li></ul>
 			</li>
 		</ul>
 		<ul>
-			<li><strong>Egy pár (one pair)</strong>
+			<li><strong>Egy pár (One Pair)</strong>
 				<ul><li>Két ugyanolyan számozású vagy jelű lapból és három akármilyen másik lapból áll. Ha két ilyen találkozik, a magasabb pár nyer. Ha egyforma, a semleges lapok döntenek.<br>Példa: 3<span class="poker_dh">♥</span>, 5<span class="poker_cs">♠</span>, 7<span class="poker_cs">♣</span>, 10<span class="poker_dh">♦</span>, 10<span class="poker_cs">♠</span>.</li></ul>
 			</li>
 		</ul>
 		<ul>
-			<li><strong>Magas lap (high card)</strong>
+			<li><strong>Magas lap (High Card)</strong>
 				<ul><li>Bármilyen lap.
 			</li>
 		</ul>',
@@ -311,8 +311,6 @@ $lang = array_merge($lang, [
 	'JV_POKER_HELP_SHOUT_QUESTION'			=> 'Játék során használhatom-e az üzenőfalat?',
 	'JV_POKER_HELP_SHOUT_SOUND_ANSWER'		=> 'Igen. Az üzenőfal hangja külön kikapcsolható. Az üzenőfal hangjának kikapcsolása nem kapcsolja ki a játék hangját.',
 	'JV_POKER_HELP_SHOUT_SOUND_QUESTION'	=> 'Kitudom kapcsolni az üzenőfal hangját?',
-	'JV_POKER_HELP_SHOWDOWN_ANSWER'			=> 'A játék végén lévő lapok bemutatásának idejét az adminisztrátor határozza meg.',
-	'JV_POKER_HELP_SHOWDOWN_QUESTION'		=> 'A játék végén meddig láthatók a kártyák?',
 	'JV_POKER_HELP_STATUS_ANSWER'			=> 'A „Státusz” alatti mezőből olvasható ki, hogy az adott szobában játszanak-e éppen vagy nem.',
 	'JV_POKER_HELP_STATUS_QUESTION'			=> 'Mit jelent a státusz?',
 	'JV_POKER_HELP_SU_SHOUT_ANSWER'			=> 'Nem, az üzenőfalat csak ülő felhasználó használhatja.',

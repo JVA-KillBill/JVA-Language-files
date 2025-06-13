@@ -43,9 +43,9 @@ $lang = array_merge($lang, [
 	'JV_POKER_HELP_AVATAR_BC_ANSWER'		=> 'Ja, de volgende kleuren worden momenteel gebruikt rond de avatar:
 	<ul>
 		<li>Wit: Wachten om te spelen.</li>
-		<li>Zwart: Degenen die in het spel zijn.</li>
+		<li>Grijs: Degenen die in het spel zijn.</li>
 		<li>Geel: Werkelijke speler.</li>
-		<li>Bourgondië: Fold kaarten.</li>
+		<li>Rood: Fold kaarten.</li>
 	</ul>',
 	'JV_POKER_HELP_AVATAR_BC_ANSWER_2'		=> '<li>Bourgondië doorgestreept: Een pauze nemen.</li>',
 	'JV_POKER_HELP_AVATAR_BC_ANSWER_3'		=> '<li>Blauw: Bescherming tegen weddenschappen.</li>',
@@ -311,8 +311,6 @@ $lang = array_merge($lang, [
 	'JV_POKER_HELP_SHOUT_QUESTION'			=> 'Kan ik het prikbord gebruiken tijdens een spel?',
 	'JV_POKER_HELP_SHOUT_SOUND_ANSWER'		=> 'Ja. Je kan het prikbord afzonderlijk uitschakelen. Als je het prikbord uitschakelt, wordt het geluid van het spel niet uitgeschakeld.',
 	'JV_POKER_HELP_SHOUT_SOUND_QUESTION'	=> 'Kan ik het prikbord uitzetten?',
-	'JV_POKER_HELP_SHOWDOWN_ANSWER'			=> 'Het tijdstip van presentatie van de kaarten aan het einde van het spel wordt bepaald door de beheerder.',
-	'JV_POKER_HELP_SHOWDOWN_QUESTION'		=> 'Hoe lang zijn de kaarten zichtbaar aan het einde van het spel?',
 	'JV_POKER_HELP_STATUS_ANSWER'			=> 'Het veld onder “Status” geeft aan of deze kamer al dan niet in een spel zit.',
 	'JV_POKER_HELP_STATUS_QUESTION'			=> 'Wat betekent status?',
 	'JV_POKER_HELP_SU_SHOUT_ANSWER'			=> 'Nee, het prikbord kan alleen worden gebruikt door een zittende gebruiker.',

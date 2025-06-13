@@ -13,6 +13,7 @@
 	"bet":							"Mise",
 	"blocked_domain":				"Le logiciel « phpBB Holdem Póker » ne peut pas être exécuté sur ce domaine !",
 	"blocked_points_room":			"Utilisez uniquement les salles de pratique sur ce domaine !",
+	"button_this_primary":			"Cela devrait-il être le principal",
 	"buy_in":						"Buy-In",
 
 	"call":							"Call",
@@ -53,7 +54,6 @@
 	"com_player_fold":				"%s a foldé ses cartes.",
 	"com_player_raise":				"%s call %s et raise %s.",
 	"com_tour_last_winner":			"Vainqueur du dernier tournoi : %s, gain %s.",
-	"com_user_most_chips":			"%s a le plus de jetons.",
 	"com_wait":						"En attendant les joueurs…",
 	"confirm_exit":					"Etes-vous sûr de vouloir quitter ?",
 	"confirm_pause":				"Êtes-vous sûr de faire une pause ?",
@@ -68,7 +68,9 @@
 
 	"end_trial_period":				"La période d’essai est terminée !",
 	"end_use_period":				"La période d’utilisation est terminée !",
-	"error_stand_up":				"Se levé échoué, veuillez réessayer !",
+	"err_browse_storage":			"Le jeu ne peut pas être utilisé pour des raisons de sécurité !<br><br>En effet, le stockage local et le stockage de session du navigateur ne sont pas disponibles ! Si vous voulez jouer, vous devez autoriser votre navigateur à utiliser le stockage local et le stockage de session !",
+	"err_dup_window":				"Il n’est pas permis d’utiliser multiple fenêtres en même temps !",
+	"err_stand_up":					"Se levé échoué, veuillez réessayer !",
 	"ext_disabled":					"L’extension « phpBB Holdem Póker » extension est désactivée !",
 
 	"flood_limit":					"Évitez les clics fréquents !",

@@ -13,6 +13,7 @@
 	"bet":							"Bet",
 	"blocked_domain":				"In dit domein kan de “phpBB Holdem Póker” software niet worden uitgevoerd!",
 	"blocked_points_room":			"In dit domein worden enkel de praktijk kamers gebruikt!",
+	"button_this_primary":			"Moet dit de primaire zijn",
 	"buy_in":						"Buy-In",
 
 	"call":							"Call",
@@ -53,7 +54,6 @@
 	"com_player_fold":				"%s fold zijn kaarten.",
 	"com_player_raise":				"%s call %s en raise %s.",
 	"com_tour_last_winner":			"Winnaar van het laatste toernooi: %s, winst %s.",
-	"com_user_most_chips":			"%s heeft de meeste chips.",
 	"com_wait":						"Wachten op spelers…",
 	"confirm_exit":					"Weet je zeker dat je wilt afsluiten?",
 	"confirm_pause":				"Weet je zeker dat je een pauze neemt?",
@@ -68,7 +68,9 @@
 
 	"end_trial_period":				"De proefperiode is voorbij!",
 	"end_use_period":				"De gebruiksperiode is voorbij!",
-	"error_stand_up":				"Opstaan mislukt, probeer het opnieuw!",
+	"err_browse_storage":			"Het spel mag om veiligheidsredenen niet worden gebruikt!<br><br>Dit komt omdat de lokale en sessieopslag van de browser niet beschikbaar zijn! Als je wilt spelen, moet je je browser toestaan om lokale en sessieopslag te gebruiken!",
+	"err_dup_window":				"Het is niet toegestaan om meerdere vensters tegelijkertijd te gebruiken!",
+	"err_stand_up":					"Opstaan mislukt, probeer het opnieuw!",
 	"ext_disabled":					"De “phpBB Holdem Póker” extensie is uitgeschakeld!",
 
 	"flood_limit":					"Vermijd frequente klikken!",

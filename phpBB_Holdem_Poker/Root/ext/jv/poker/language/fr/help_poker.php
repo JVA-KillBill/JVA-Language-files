@@ -43,9 +43,9 @@ $lang = array_merge($lang, [
 	'JV_POKER_HELP_AVATAR_BC_ANSWER'		=> 'Oui, les couleurs suivantes sont actuellement utilisées autour de l’avatar :
 	<ul>
 		<li>Blanc : En attente de jouer.</li>
-		<li>Noir : Ceux qui sont dans le jeu.</li>
+		<li>Grijs : Ceux qui sont dans le jeu.</li>
 		<li>Jaune : Joueur réel.</li>
-		<li>Bourgogne : Foldé les cartes.</li>
+		<li>Rood : Foldé les cartes.</li>
 	</ul>',
 	'JV_POKER_HELP_AVATAR_BC_ANSWER_2'		=> '<li>Bourgogne barré : Faire une pause.</li>',
 	'JV_POKER_HELP_AVATAR_BC_ANSWER_3'		=> '<li>Bleu : Protection de pari.</li>',
@@ -311,8 +311,6 @@ $lang = array_merge($lang, [
 	'JV_POKER_HELP_SHOUT_QUESTION'			=> 'Puis-je utiliser le tableau d’affichage pendant une partie ?',
 	'JV_POKER_HELP_SHOUT_SOUND_ANSWER'		=> 'Oui. Vous pouvez désactiver le forum individuellement. La désactivation du tableau d’affichage ne mettra pas le jeu en sourdine.',
 	'JV_POKER_HELP_SHOUT_SOUND_QUESTION'	=> 'Puis-je désactiver le tableau d’affichage ?',
-	'JV_POKER_HELP_SHOWDOWN_ANSWER'			=> 'L’heure de présentation des cartes à la fin de la partie est déterminée par l’administrateur.',
-	'JV_POKER_HELP_SHOWDOWN_QUESTION'		=> 'Combien de temps les cartes sont-elles visibles à la fin de la partie ?',
 	'JV_POKER_HELP_STATUS_ANSWER'			=> 'Le champ sous « Statut » indique si cette salle est en jeu ou non.',
 	'JV_POKER_HELP_STATUS_QUESTION'			=> 'Que signifie le statut ?',
 	'JV_POKER_HELP_SU_SHOUT_ANSWER'			=> 'Non, le mur ne peut être utilisé que par un utilisateur assis.',
