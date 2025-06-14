@@ -313,7 +313,7 @@ $lang = array_merge($lang, [
 	'ACP_JV_POKER_WIN_POT'							=> '<span class="poker-title">Pot gewonnen:</span> %s',
 	'ACP_JV_POKER_WIN_TOUR_USER'					=> 'Turniersieger: %s',
 
-	'JVA_CORE_EXT_NOT_ENABLE'						=> '',
+	'JVA_CORE_EXT_NOT_ENABLE'						=> 'Um die Erweiterung zu deaktivieren, musst du die Erweiterung „JVA – Core“ aktivieren!',
 	'JVA_CORE_EXT_NOT_FOUND'						=> 'Diese Erweiterung kann nicht aktiviert werden, weil die „JVA - Core“ Extension nicht gefunden wurde!',
 	'JV_POKER_BET'									=> 'Einsatz',
 	'JV_POKER_BLINDS'								=> 'Blinds',
