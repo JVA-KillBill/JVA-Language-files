@@ -313,7 +313,7 @@ $lang = array_merge($lang, [
 	'ACP_JV_POKER_WIN_POT'							=> '<span class="poker-title">Pot won:</span> %s',
 	'ACP_JV_POKER_WIN_TOUR_USER'					=> 'Tournament winner: %s',
 
-	'JVA_CORE_EXT_NOT_ENABLE'						=> 'To disable the extension, you need to enable the "JVA - Core" extension!',
+	'JVA_CORE_EXT_NOT_ENABLE'						=> 'To disable the extension, you need to enable the “JVA - Core” extension!',
 	'JVA_CORE_EXT_NOT_FOUND'						=> 'The extension cannot be enabled because the “JVA - Core” extension cannot be found!',
 	'JV_POKER_BET'									=> 'Bet',
 	'JV_POKER_BLINDS'								=> 'Blinds',
