@@ -1,5 +1,17 @@
 # Changelog
 
+## 1.0.19 - 2025-xx-xx
+
+- [Added] New language variable: no_internet.
+- [Added] New PHP function: generateRandomString.
+- [Added] New javascript functions: generateRandomString and removeAllUrlParameters.
+- [Added] New javascript variable: Sess_id - Contains the user session identifier.
+			Calling example:  JvaCore.Sess_id or controlled use JvaCore.rv('Sess_id');
+
+- [Modified] Javascript function error - Expanded the returned error messages with the "file_content_error, js_var_not_found" language identifier.
+				Calling example: JvaCore.error('file_content_error', file_name);
+								 JvaCore.error('js_var_not_found', 'JvaCore.Sess_id');
+
 ## 1.0.18 - 2025-04-18
 
 - [Added] New javascript variables - Version, phpBBVersion, AssetsVesion, BoardUrl and UserLangName.
