@@ -6,6 +6,10 @@
 
 - [Modified] Display caterory/games/Your best - We leave the place of our own best score empty if you have no score and if you did not have the permission to play.
 - [Modified] Display tournament/tour_name/Your best - We leave the place of our own best score empty if you have no score and if you did not have the permission to play.
+- [Modified] If the game_intro.json file fails to load or the file content is incorrect, we use a different error message.
+- [Modified] Requirement JVA - Core 1.0.19 or later.
+
+- [Updated] Ruffle emulator (2025-xx-xx) for release.
 
 ## 7.7.8 - 2025-04-23
 

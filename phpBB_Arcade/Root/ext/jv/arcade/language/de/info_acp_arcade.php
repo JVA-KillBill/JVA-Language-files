@@ -1389,6 +1389,7 @@ $lang = array_merge($lang, [
 	'JVA_SS_ACTIVATION_KEY_EXPLAIN'						=> 'Wenn du einen privaten Schlüssel besitzt, kannst du ihn hier eingeben. Wenn nicht, wähle die kostenlose Nutzung.',
 	'JVA_SS_ACTIVATION_KEY_INVALID'						=> 'Der angegebene Aktivierungsschlüssel ist fehlerhaft!',
 	'JVA_SS_ACTIVATION_KEY_INVALID_VERSION'				=> 'Der angebebene Aktivierungsschlüssel gehört nicht zu dieser „phpBB Arcade“ Version!',
+	'JVA_SS_ACTIVATION_KEY_REQ_VERSION'					=> '',
 	'JVA_SS_ACTIVATION_KEY_UPDATED'						=> 'Der benutzte Aktivierungsschlüssel wurde erfolgreich aktualisiert.',
 	'JVA_SS_ACTIVATION_SHOW'							=> 'Aktivierungsfeld anzeigen',
 	'JVA_SS_ACTIVATION_SUBMIT'							=> 'Sende die Daten, aktiviere',

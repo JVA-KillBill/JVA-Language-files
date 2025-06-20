@@ -1389,6 +1389,7 @@ $lang = array_merge($lang, [
 	'JVA_SS_ACTIVATION_KEY_EXPLAIN'						=> 'Si vous avez une clé privée, vous pouvez la saisir ici, sinon, choisissez l’utilisation gratuite.',
 	'JVA_SS_ACTIVATION_KEY_INVALID'						=> 'La clé d’activation spécifiée n’est pas valide !',
 	'JVA_SS_ACTIVATION_KEY_INVALID_VERSION'				=> 'La clé d’activation spécifiée n’appartient pas à cette version de « phpBB Arcade » !',
+	'JVA_SS_ACTIVATION_KEY_REQ_VERSION'					=> 'Cette version n’est plus prise en charge et ne peut donc pas être activée, veuillez mettre à jour « phpBB Arcade » vers la dernière version !',
 	'JVA_SS_ACTIVATION_KEY_UPDATED'						=> 'La clé d’activation utilisée a été mise à jour avec succès.',
 	'JVA_SS_ACTIVATION_SHOW'							=> 'Afficher le champ d’activation',
 	'JVA_SS_ACTIVATION_SUBMIT'							=> 'Envoyer les données, activer',

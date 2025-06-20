@@ -1389,6 +1389,7 @@ $lang = array_merge($lang, [
 	'JVA_SS_ACTIVATION_KEY_EXPLAIN'						=> 'Als je een privésleutel hebt, kun je deze hier invullen, zo niet, kies dan voor gratis gebruik.',
 	'JVA_SS_ACTIVATION_KEY_INVALID'						=> 'De opgegeven activeringssleutel is ongeldig!',
 	'JVA_SS_ACTIVATION_KEY_INVALID_VERSION'				=> 'De gespecificeerde activeringssleutel behoort niet tot deze “phpBB Arcade” versie!',
+	'JVA_SS_ACTIVATION_KEY_REQ_VERSION'					=> 'Deze versie wordt niet langer ondersteund en kan daarom niet worden geactiveerd, gelieve “phpBB Arcade” bij te werken naar de nieuwste versie!',
 	'JVA_SS_ACTIVATION_KEY_UPDATED'						=> 'Activeringssleutel in gebruik, succesvol bijgewerkt.',
 	'JVA_SS_ACTIVATION_SHOW'							=> 'Toon activering veld',
 	'JVA_SS_ACTIVATION_SUBMIT'							=> 'Gegevens verzenden, activering',

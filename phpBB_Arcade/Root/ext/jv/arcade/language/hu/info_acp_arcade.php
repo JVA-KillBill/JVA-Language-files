@@ -1389,6 +1389,7 @@ $lang = array_merge($lang, [
 	'JVA_SS_ACTIVATION_KEY_EXPLAIN'						=> 'Amennyiben rendelkezel privát kulccsal, úgy azt itt megadhatod, ha nem akkor válaszd az ingyenes használatot.',
 	'JVA_SS_ACTIVATION_KEY_INVALID'						=> 'A megadott aktiváló kulcs érvénytelen!',
 	'JVA_SS_ACTIVATION_KEY_INVALID_VERSION'				=> 'A megadott aktiváló kulcs nem ehhez a „phpBB Arcade” verzióhoz tartozik!',
+	'JVA_SS_ACTIVATION_KEY_REQ_VERSION'					=> 'Ez a verzió már nem támogatott ezért nem is aktíválható, kérlek frissítsd a „phpBB Arcade” a legújabb verzióra!',
 	'JVA_SS_ACTIVATION_KEY_UPDATED'						=> 'A használatban lévő aktiváló kulcs, sikeresen frissítve lett.',
 	'JVA_SS_ACTIVATION_SHOW'							=> 'Aktiváló mező mutatása',
 	'JVA_SS_ACTIVATION_SUBMIT'							=> 'Adatok küldése, Aktiválás',
