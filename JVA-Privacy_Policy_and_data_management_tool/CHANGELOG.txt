@@ -1,5 +1,9 @@
 # Changelog
 
+## 2.0.6 - 2025-06-20
+
+- [Modified] If Cookie usage is enabled for guests, we will ignore this on the login and registration pages.
+
 ## 2.0.5 - 2025-04-04
 
 - [Modified] The license of the language files has been changed to GPL-2.0.
