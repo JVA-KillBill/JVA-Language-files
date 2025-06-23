@@ -1,6 +1,6 @@
 # Changelog
 
-## 1.0.19 - 2025-xx-xx
+## 1.0.19 - 2025-06-23
 
 - [Added] New language variable: no_internet.
 - [Added] New PHP function: generateRandomString.
