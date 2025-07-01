@@ -1,5 +1,17 @@
 # Changelog
 
+## 7.8.0 - 2025-07-01
+
+- [Added] If the connection request receives an incorrect web address, we will attempt to correct it.
+
+- [Modified] Web address security check should take into account whether "Force server URL settings" is enabled or disabled in the forum settings.
+- [Modified] Optimized Ruffle usage, when restarting the game, the ruffle.player already in memory is reused.
+- [Modified] Ruffle data is displayed in the browser develop log when using Ruffle.
+- [Modified] Outdated ruffle configuration parameters have been updated to the latest version.
+- [Modified] Ajax timeout time increased from 3 seconds to 4 seconds.
+
+- [Updated] Ruffle emulator (2025-07-01) for release.
+
 ## 7.7.9 - 2025-06-23
 
 - [Fixed] ACP/Arcade/Manage categories/Games/Move marked - Undefined variable $cat_id.
