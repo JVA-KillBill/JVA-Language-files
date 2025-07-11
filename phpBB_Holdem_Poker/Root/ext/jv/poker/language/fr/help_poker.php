@@ -51,7 +51,7 @@ $lang = array_merge($lang, [
 	'JV_POKER_HELP_AVATAR_BC_QUESTION'		=> 'Les couleurs autour de l’avatar signifient-elles quelque chose ?',
 	'JV_POKER_HELP_A_SHOUT_ANSWER'			=> 'Oui, tout joueur peut consulter les archives pendant le jeu.',
 	'JV_POKER_HELP_A_SHOUT_QUESTION'		=> 'Existe-t-il un moyen d’afficher les anciens messages ?',
-	'JV_POKER_HELP_A_SHOUT_RE_ANSWER'		=> '',
+	'JV_POKER_HELP_A_SHOUT_RE_ANSWER'		=> 'Si les messages ne s’affichent pas, vous avez quitté votre chaise.',
 	'JV_POKER_HELP_A_SHOUT_RE_QUESTION'		=> 'Après avoir rafraîchi l’archive, les messages ont disparu, pourquoi ?',
 	'JV_POKER_HELP_A_SHOUT_R_ANSWER'		=> 'Oui, le bouton d’actualisation est situé sur le côté droit de la barre de titre.',
 	'JV_POKER_HELP_A_SHOUT_R_QUESTION'		=> 'Existe-t-il un moyen de rafraîchir l’archive ?',
@@ -150,7 +150,7 @@ $lang = array_merge($lang, [
 	'JV_POKER_HELP_MOVE_TIME_QUESTION'		=> 'Qu’est le temps de mouvement ?',
 	'JV_POKER_HELP_NORMAL_ANSWER'			=> 'Dans une salle normale, seuls les utilisateurs qui possèdent leurs propres jetons et qui peuvent contribuer suffisamment pour le montant minimum d’entrée requis peuvent jouer. Chacune de ces salles a un montant minimum et maximum défini pour commencer. Les utilisateurs peuvent s’asseoir à la table avec le montant minimum. Les jetons gagnés dans cette salle peuvent être retirés de la salle et augmenter vos jetons. Ces jetons peuvent être échangés à nouveau.',
 	'JV_POKER_HELP_NORMAL_QUESTION'			=> 'Qu’est-ce que cela signifie d’être dans une salle normale ?',
-	'JV_POKER_HELP_OFFLINE_BL_ANSWER'		=> '',
+	'JV_POKER_HELP_OFFLINE_BL_ANSWER'		=> 'Si l’avatar de l’utilisateur clignote en gris, cela indique que l’utilisateur est actuellement hors ligne.',
 	'JV_POKER_HELP_OFFLINE_BL_QUESTION'		=> 'L’avatar de l’utilisateur clignote en gris, qu’est-ce que cela signifie ?',
 	'JV_POKER_HELP_OFFLINE_BP_ANSWER'		=> 'Dans ce cas, les événements suivants peuvent se produire :
 	<ul>
