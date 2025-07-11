@@ -19,7 +19,8 @@
 - [Fixed] If we limit the number of chairs, the speed of the card deal gets bad values, thus the successive playback of the sounds is also slower.
 - [Fixed] If we turn off the sound, the currently playing sound should stop immediately.
 - [Fixed] Incorrect card evaluation occurred when the table "straight flush" and the user higher "straight" were used. The user cards were identified as a "straight" instead of a table "straight flush".
-- [Fixed] During card presentation, if the winning user stands up or takes a pause, the cards disappear.
+- [Fixed] During card presentation, if the winning user stands up, the cards disappear.
+- [Fixed] The online time update was done after checking user data, we have now moved it before checking user data.
 
 - [Modified] ACP/Poker/User data reset has been renamed to ACP/Poker/Reset poker.
 - [Modified] ACP/Poker/Rooms settings - Movement time (Since many people complained that the minimum movement time of 20 seconds was slow, we added the option of 10 and 16 seconds).
@@ -49,13 +50,12 @@
 - [Modified] Moving the dealer was placed before the shuffling sound of the cards.
 - [Modified] Acceleration of evaluation, so the user can get up from the table even during this time.
 - [Modified] At the end of the tournament, even during the card presentation time, the winning user can stand up from the table.
-- [Modified] If the user closes the browser window, he will automatically get up from the table.
 - [Modified] The winning cards are displayed on the chat without abbreviations.
 - [Modified] The chat only plays a sound when there is a new message from another user.
 - [Modified] In the tournament rooms, it is no longer possible to limit the amount of the call.
 - [Modified] The clock display in the room uses the clock of our device.
 - [Modified] We have changed the appearance of the chips from canvas to html5/css, so the images can now appear much more beautifully.
-- [Modified] The movement and pause timer now move around the avatars, and the timer now runs much more smoothly.
+- [Modified] The movement timer now move around the avatars, and the timer now runs much more smoothly.
 - [Modified] Bets placements starts from zero in every round.
 - [Modified] The check timestamp of the rooms already uses microtime.
 - [Modified] Determining the time of the next tournament.
@@ -66,8 +66,6 @@
 - [Modified] The warning and confirmation box that appears in the room should always be adapted to the resizing of the room, plus its style has also been modified.
 - [Modified] The fold cards will no longer be displayed during further play, the red hand will be displayed instead.
 - [Modified] We have sped up the game by removing the small/big blind steps, instead the small/big blind are displayed when the cards are dealt.
-- [Modified] If we modify the time of the pause in the admin, the time strip of the users taking a pause in the rooms should also adapt to the new setting.
-- [Modified] After clicking the pause/continue button, the button is inactive for 5 seconds.
 - [Modified] New JackPot System - (Users can buy JackPot tickets and win a certain percentage of the JackPot.)
 - [Modified] If two users are playing, the small/big blind should always be exchanged between the two users for a new hand, even if the player stands up and sits down.
 - [Modified] FAQ - It takes into account some settings and the description is displayed accordingly.
@@ -104,9 +102,8 @@
 - [Added] ACP/Poker/Rooms settings/Security settings/ Safety bet on blinds - Can be turned enable/disable, when enabled, the protection also extends to the blinds amount.
 - [Added] ACP/Poker/Rooms settings/Security settings/ Full safety bet - Can be turned enable/disable, when enabled, the winning player surplus is also returned to the user before his bet is placed in the Pot. This option is always active in case of multiple winners.
 - [Added] ACP/Poker/Rooms settings/Game settings/ Display chip discs - Provides the ability to enable and disable the appearance of chips discs.
-- [Added] ACP/Poker/Rooms settings/Game settings/ Display warning bar - Allows you to turn on/off the red warning bar on the movement and pause time display.
-- [Added] ACP/Poker/Rooms settings/Game settings/ Start warning sound - Can set when the warning sound for the movement and pause time should start percentage or fixed time.
-- [Added] ACP/Poker/Rooms settings/Game settings/ Pause game - Provides the option to turn the game pause enable/disable.
+- [Added] ACP/Poker/Rooms settings/Game settings/ Display warning bar - Allows you to turn on/off the red warning bar on the movement time display.
+- [Added] ACP/Poker/Rooms settings/Game settings/ Start warning sound - Can set when the warning sound for the movement time should start percentage or fixed time.
 - [Added] ACP/Poker/Rooms settings/Game settings/ JackPot system.
 - [Added] ACP/Poker/Rooms settings/Game settings/ JackPot ticket price.
 - [Added] ACP/Poker/Rooms settings/Game settings/ JackPot minimum.
@@ -140,6 +137,7 @@
 - [Added] Before sitting down - Auto Re-buy (Instatly buy you back when your chips run out on the table).
 - [Added] Before sitting down - Auto Top-off (Instantly top your chips to your initial buy-in at the end of each hand).
 - [Added] Before sitting down - Allowing the purchase of a JackPot ticket.
+- [Added] Players can enable/disable the purchase of a JackPot ticket while the card is being evaluated.
 - [Added] Database modification - We add the room number in the user table where we sit or play. This way we avoid having to go through all the rooms to check if we are playing, thus we save a lot of energy for our server.
 - [Added] The room ID number and the small/big blind are displayed in the rooms.
 - [Added] In the tournament rooms, the next blinds will be displayed one minute before they increase.
@@ -158,12 +156,12 @@
 - [Added] A user can only use 1 active window, this prevents 1 user from loading the server on multiple threads. If the user opens multiple browsers or multiple windows, each window has the option to take over the primary priority.
 - [Added] You can view the list of JackPot winners by clicking on the JackPot amount in the room.
 - [Added] Evaluation of all winners. This can happen when the strongest hand has few chips, allowing other users to raise even more. So now there is no refund of the chips, rather they are evaluated.
-- [Added] If the user wants to take a pause during the game, confirmation is required.
 - [Added] Chips/Points and Points/Chips exchange logging.
 - [Added] New cron job/ jp_purge - Purge JackPot list every 2 days. The last 8 winners are always kept.
 - [Added] New cron job/ rooms_stop - If a room in the game exceeds the offline time, those rooms will be stopped (check time: every 30 minutes).
 - [Added] Dutch and French languages.
 
+- [Deleted] The player can pause the game.
 - [Deleted] Use of decimal values.
 - [Deleted] Income.
 - [Deleted] The room names will be deleted and the room ID number will be displayed instead.
@@ -175,7 +173,7 @@
 				Automatic start configuration.
 				Time of card presentation.
 - [Deleted] The following totals have been removed from the statistics: (calls, raises, checks, allins and folds).
-- [Deleted] Dealer shoutbox messages: Join and left the table, player pause and continues playing.
+- [Deleted] Dealer shoutbox messages: Player join and left the table.
 - [Deleted] ext/jv/poker/core/room_auto.php
 - [Deleted] ext/jv/poker/core/room_user.php
 - [Deleted] ext/jv/poker/images/1st.gif

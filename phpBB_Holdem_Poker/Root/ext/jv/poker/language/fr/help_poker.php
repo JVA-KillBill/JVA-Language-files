@@ -47,12 +47,11 @@ $lang = array_merge($lang, [
 		<li>Jaune : Joueur réel.</li>
 		<li>Rood : Foldé les cartes.</li>
 	</ul>',
-	'JV_POKER_HELP_AVATAR_BC_ANSWER_2'		=> '<li>Bourgogne barré : Faire une pause.</li>',
-	'JV_POKER_HELP_AVATAR_BC_ANSWER_3'		=> '<li>Bleu : Protection de pari.</li>',
+	'JV_POKER_HELP_AVATAR_BC_ANSWER_2'		=> '<li>Bleu : Protection de pari.</li>',
 	'JV_POKER_HELP_AVATAR_BC_QUESTION'		=> 'Les couleurs autour de l’avatar signifient-elles quelque chose ?',
 	'JV_POKER_HELP_A_SHOUT_ANSWER'			=> 'Oui, tout joueur peut consulter les archives pendant le jeu.',
 	'JV_POKER_HELP_A_SHOUT_QUESTION'		=> 'Existe-t-il un moyen d’afficher les anciens messages ?',
-	'JV_POKER_HELP_A_SHOUT_RE_ANSWER'		=> 'Si les messages n’apparaissent pas, vous avez quitté ou mis en pause le jeu et vous n’êtes pas autorisé à utiliser le forum pendant une pause.',
+	'JV_POKER_HELP_A_SHOUT_RE_ANSWER'		=> '',
 	'JV_POKER_HELP_A_SHOUT_RE_QUESTION'		=> 'Après avoir rafraîchi l’archive, les messages ont disparu, pourquoi ?',
 	'JV_POKER_HELP_A_SHOUT_R_ANSWER'		=> 'Oui, le bouton d’actualisation est situé sur le côté droit de la barre de titre.',
 	'JV_POKER_HELP_A_SHOUT_R_QUESTION'		=> 'Existe-t-il un moyen de rafraîchir l’archive ?',
@@ -101,12 +100,11 @@ $lang = array_merge($lang, [
 		<li>3. S’ils m’expulsent du tournoi avant le début du tournoi, vous récupérerez votre buy-in. Si le tournoi a déjà commencé, vous perdrez le buy-in.</li>
 	</ul>',
 	'JV_POKER_HELP_DROP_TOKEN_QUESTION'		=> 'Qu’advient-il de mes jetons si je suis expulsée du jeu ?',
-	'JV_POKER_HELP_DROP_USER_ANSWER'		=> 'Dans ce cas, 4 options sont disponibles :
+	'JV_POKER_HELP_DROP_USER_ANSWER'		=> 'Dans ce cas, 3 options sont disponibles :
 	<ul>
 		<li>1. Si vous perdez votre connexion Internet.</li>
 		<li>2. Si vous êtes inactif et ne réagissez à rien, ce qui peut délibérément ralentir le cours du jeu.</li>
 		<li>3. Si la fenêtre de jeu est déplacée en arrière-plan. Dans ce cas les navigateurs peuvent ralentir ou arrêter complètement la mise à jour des données d’arrière-plan, le jeu vous prendra en tant qu’utilisateur hors ligne, donc le jeu vous jettera dehors.</li>
-		<li>4. L’administrateur n’autorise qu’un jeu avec un focus actif à s’exécuter, donc la situation est la même que celle décrite au point 3. Cependant, dans ce cas, l’inscription pause apparaît.</li>
 	</ul>',
 	'JV_POKER_HELP_DROP_USER_QUESTION'		=> 'Dans quels cas le jeu peut-il vous jeter dehors ?',
 	'JV_POKER_HELP_E_SHOUT_ANSWER'			=> 'Si activé par l’administrateur, oui.',
@@ -152,11 +150,7 @@ $lang = array_merge($lang, [
 	'JV_POKER_HELP_MOVE_TIME_QUESTION'		=> 'Qu’est le temps de mouvement ?',
 	'JV_POKER_HELP_NORMAL_ANSWER'			=> 'Dans une salle normale, seuls les utilisateurs qui possèdent leurs propres jetons et qui peuvent contribuer suffisamment pour le montant minimum d’entrée requis peuvent jouer. Chacune de ces salles a un montant minimum et maximum défini pour commencer. Les utilisateurs peuvent s’asseoir à la table avec le montant minimum. Les jetons gagnés dans cette salle peuvent être retirés de la salle et augmenter vos jetons. Ces jetons peuvent être échangés à nouveau.',
 	'JV_POKER_HELP_NORMAL_QUESTION'			=> 'Qu’est-ce que cela signifie d’être dans une salle normale ?',
-	'JV_POKER_HELP_OFFLINE_BL_ANSWER'		=> 'Si l’avatar de l’utilisateur clignote en gris, cela indique que l’utilisateur est actuellement hors ligne ou non connecté à la salle. Cela est possible pour deux raisons :
-	<ul>	
-		<li>La connexion Internet de l’utilisateur est perdue.</li>
-		<li>L’administrateur n’autorise la salle à fonctionner que dans une fenêtre active. Si l’utilisateur consulte une autre page ou une autre page web, il ne recevra aucune nouvelle information sur l’état actuel du poker. Il y a une sorte de pause de recharge pour lui, et bien qu’il ne regarde pas activement le poker, il reste hors ligne.</li>
-	</ul>',
+	'JV_POKER_HELP_OFFLINE_BL_ANSWER'		=> '',
 	'JV_POKER_HELP_OFFLINE_BL_QUESTION'		=> 'L’avatar de l’utilisateur clignote en gris, qu’est-ce que cela signifie ?',
 	'JV_POKER_HELP_OFFLINE_BP_ANSWER'		=> 'Dans ce cas, les événements suivants peuvent se produire :
 	<ul>
@@ -173,8 +167,6 @@ $lang = array_merge($lang, [
 		<li>3. Si vous êtes dans une partie de tournoi, vous vous relevez automatiquement à la fin de la %s. main.</li>
 	</ul>',
 	'JV_POKER_HELP_OFFLINE_U_QUESTION'		=> 'Que se passe-t-il si ma connexion Internet est interrompue ?',
-	'JV_POKER_HELP_PAUSE_ANSWER'			=> 'Appuyer sur le bouton pause équivaut à sortir du jeu, donc si le tour continue, vos cartes seront pliés. Cette option vaut la peine d’être utilisée si le joueur ne veut pas que quelqu’un d’autre prenne sa place entre-temps. Bien sûr, le temps de pause est limité. La limite est déterminée par l’administrateur.',
-	'JV_POKER_HELP_PAUSE_QUESTION'			=> 'Que se passe-t-il si j’appuie sur le bouton pause ?',
 	'JV_POKER_HELP_PD_ANSWER'				=> '« phpBB Holdem Poker » collecte et stocke l’adresse IP de chaque joueur actuel jusqu’à ce que l’utilisateur quitte la table. Lorsqu’un utilisateur se lève de la table, toutes les données sont effacées et seules les données statistiques sont conservées. L’adresse IP est stockée pendant la partie pour éviter que plusieurs joueurs à la même table n’utilisent la même adresse IP. Bien sûr, vous pouvez activer et désactiver cette vérification IP.',
 	'JV_POKER_HELP_PD_QUESTION'				=> 'Est-ce que « phpBB Holdem Póker » stocke des données personnelles ?',
 	'JV_POKER_HELP_PLAY_ANSWER'				=> 'Le poker est l’un des jeux de cartes les plus populaires au monde. Le but du jeu est de tirer le meilleur parti des cartes que vous avez reçues, en combinaison avec les cartes communes révélées, afin de finalement gagner la mise au milieu de la table (appelée « Pot » en anglais). Le jeu peut être joué par 2 à 8 personnes par salle de poker. Le jeu utilise une main française de 52 cartes sans joker. Chaque joueur reçoit deux cartes privées qui ne peuvent pas être vues et utilisées par les autres joueurs. Pendant le jeu, cinq cartes communes sont placées face visible sur la table, que tous les joueurs peuvent voir et utiliser. Le joueur essaie maintenant de faire la meilleure « combinaison de cinq cartes » possible de ses propres cartes et des cartes communes. Le joueur avec les cartes les plus fortes remporte la valeur de la mise. Un jeu de cartes françaises (sans jokers) a 4 couleurs différentes, et chaque couleur se compose de 13 cartes de valeurs différentes, ce qui donne le jeu de 52 feuilles. L’ordre des 4 couleurs : <span class="poker_cs">♣</span> trèfle <span class="poker_dh">♦</span> diamants  <span class="poker_dh">♥</span> cœur <span class="poker_cs">♠</span> pique. Toutes les couleurs sont égales pour l’évaluation des mains de poker. Les 13 valeurs de cartes dans leur ordre : A (As), 2, 3, 4, 5, 6, 7, 8, 9, 10, J (Valet), Q (Dame), K (Roi). Un as n’est pas seulement une valeur numérique de 1, il peut aussi être la carte la plus haute après le roi.
@@ -303,8 +295,6 @@ $lang = array_merge($lang, [
 	'JV_POKER_HELP_PROFIT_QUESTION'			=> 'Mes jetons seront moins nombreux pour chaque nouvelle main, pourquoi ?',
 	'JV_POKER_HELP_PTOC_ANSWER'				=> 'Oui, pour cela, utilisez le bouton « Échange de jetons » sur la page principale du poker à côté de l’affichage des jetons dans votre propre profil.',
 	'JV_POKER_HELP_PTOC_QUESTION'			=> '« %s » peut-il être échangé contre des jetons ?',
-	'JV_POKER_HELP_P_SHOUT_ANSWER'			=> 'Si activé par l’administrateur, oui. S’il n’est pas activé, seul le mot « Pause » apparaîtra sur le tableau d’affichage.',
-	'JV_POKER_HELP_P_SHOUT_QUESTION'		=> 'Puis-je utiliser la shoutbox pendant une pause ?',
 	'JV_POKER_HELP_REG_ANSWER'				=> 'Seuls les utilisateurs enregistrés peuvent jouer à phpBB Holdem Póker, c’est donc une bonne idée d’être un membre enregistré.',
 	'JV_POKER_HELP_REG_QUESTION'			=> 'Pourquoi dois-je m’inscrire ?',
 	'JV_POKER_HELP_SHOUT_ANSWER'			=> 'Si l’administrateur a donné l’autorisation, alors oui. Si vous n’avez pas les autorisations requises, vous ne pourrez lire que les messages sur la progression du jeu sur le mur.',

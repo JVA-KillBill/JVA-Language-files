@@ -54,9 +54,9 @@
 	"com_player_fold":				"%s folded his cards.",
 	"com_player_raise":				"%s call %s and raised %s.",
 	"com_tour_last_winner":			"Winner of the last tournament: %s, winning %s.",
+	"com_user_most_chips":			"%s has the most chips.",
 	"com_wait":						"Waiting for players…",
 	"confirm_exit":					"Are you sure you want to exit?",
-	"confirm_pause":				"Are you sure you want to take a pause?",
 	"confirm_standup":				"Are you sure you stand up?",
 	"confirm_tour_exit":			"If you quit now you lose the tournament!",
 	"confirm_tour_standup":			"If you stand up now, you lose the tournament!",
@@ -85,9 +85,7 @@
 
 	"info_change_room_limit":		"You’ve been stand up because an administrator has changed the Buy-in Amount.",
 	"info_change_room_type":		"You’ve been stand up because an administrator has changed the room type.",
-	"info_disable_pause":			"You’ve been stand up because the use of game pause has been disabled!",
 	"info_disconnect":				"You’ve been stand up because you haven’t been online for a long time!",
-	"info_end_pause":				"You’ve been stand up because your pause has expired!",
 	"info_forum_disabled":			"You’ve been stand up because the forum has been disabled!",
 	"info_inactive":				"You’ve been stand up because you did not react to anything for a long time.",
 	"info_lose_tour":				"Unfortunately, you have lost this tournament now, but don’t be discouraged, you may win the next one.",
@@ -120,7 +118,6 @@
 
 	"pair1":						"One Pair",
 	"pair2":						"Two Pair",
-	"pause":						"Pause",
 	"players":						"Players",
 	"poker":						"Four of a Kind",
 
@@ -155,7 +152,6 @@
 	"tip_exit":						"Exit the room",
 	"tip_fullscreen":				"Switch to full screen",
 	"tip_normal_fullscreen":		"Switch to normal screen",
-	"tip_pause":					"Pause game",
 	"tip_playing":					"Continuation of the game",
 	"tip_radio_play":				"Play radio",
 	"tip_radio_refresh":			"Refresh radio",

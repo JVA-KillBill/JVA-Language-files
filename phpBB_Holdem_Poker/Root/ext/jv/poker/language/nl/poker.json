@@ -54,9 +54,9 @@
 	"com_player_fold":				"%s fold zijn kaarten.",
 	"com_player_raise":				"%s call %s en raise %s.",
 	"com_tour_last_winner":			"Winnaar van het laatste toernooi: %s, winst %s.",
+	"com_user_most_chips":			"%s heeft de meeste chips.",
 	"com_wait":						"Wachten op spelers…",
 	"confirm_exit":					"Weet je zeker dat je wilt afsluiten?",
-	"confirm_pause":				"Weet je zeker dat je een pauze neemt?",
 	"confirm_standup":				"Ben je zeker dat je wil opstaan?",
 	"confirm_tour_exit":			"Als je nu stopt, verlies je het toernooi!",
 	"confirm_tour_standup":			"Als je nu opstaat, verlies je het toernooi!",
@@ -85,9 +85,7 @@
 
 	"info_change_room_limit":		"Je bent opgestaan omdat een beheerder het Buy-in bedrag heeft gewijzigd.",
 	"info_change_room_type":		"Je bent opgestaan omdat een beheerder het kamertype heeft gewijzigd.",
-	"info_disable_pause":			"Je bent opgestaan omdat het gebruik van spelpauze is uitgeschakeld!",
 	"info_disconnect":				"Je bent opgestaan omdat je al lang niet meer online bent geweest!",
-	"info_end_pause":				"Je bent opgestaan omdat je pauze is verlopen!",
 	"info_forum_disabled":			"Je bent opgestaan omdat het forum is uitgeschakeld!",
 	"info_inactive":				"Je bent opgestaan omdat je lange tijd nergens op reageerde.",
 	"info_lose_tour":				"Helaas heb je dit toernooi nu verloren, maar wees niet ontmoedigd, misschien win je het volgende toernooi.",
@@ -120,7 +118,6 @@
 
 	"pair1":						"One Pair",
 	"pair2":						"Two Pair",
-	"pause":						"Pauze",
 	"players":						"Spelers",
 	"poker":						"Four of a Kind",
 
@@ -155,7 +152,6 @@
 	"tip_exit":						"Verlaat de kamer",
 	"tip_fullscreen":				"Overschakelen naar volledig scherm",
 	"tip_normal_fullscreen":		"Overschakelen naar normaal scherm",
-	"tip_pause":					"Pause spel",
 	"tip_playing":					"Vervolg van het spel",
 	"tip_radio_play":				"Speel de radio",
 	"tip_radio_refresh":			"Ververs de radio",

@@ -47,12 +47,11 @@ $lang = array_merge($lang, [
 		<li>Gelb: Aktueller Spieler.</li>
 		<li>Rot: Gefaltete Karten.</li>
 	</ul>',
-	'JV_POKER_HELP_AVATAR_BC_ANSWER_2'		=> '<li>Burgunderrot durchgestrichen: Macht eine Pause.</li>',
-	'JV_POKER_HELP_AVATAR_BC_ANSWER_3'		=> '<li>Blau: Wettschutz.</li>',
+	'JV_POKER_HELP_AVATAR_BC_ANSWER_2'		=> '<li>Blau: Wettschutz.</li>',
 	'JV_POKER_HELP_AVATAR_BC_QUESTION'		=> 'Bedeuten die Farben um den Avatar etwas?',
 	'JV_POKER_HELP_A_SHOUT_ANSWER'			=> 'Ja, jeder Spieler kann während des Spiels das Archiv ansehen.',
 	'JV_POKER_HELP_A_SHOUT_QUESTION'		=> 'Gibt es eine Möglichkeit, ältere Nachrichten anzuzeigen?',
-	'JV_POKER_HELP_A_SHOUT_RE_ANSWER'		=> 'Wenn die Nachrichten nicht angezeigt werden, hast du vermutlich das Spiel verlassen oder pausiert, und es ist dir nicht erlaubt, die Nachrichtentafel während einer Pause zu benutzen.',
+	'JV_POKER_HELP_A_SHOUT_RE_ANSWER'		=> '',
 	'JV_POKER_HELP_A_SHOUT_RE_QUESTION'		=> 'Nach einer Aktualisierung des Archivs sind die Nachrichten verschwunden, warum?',
 	'JV_POKER_HELP_A_SHOUT_R_ANSWER'		=> 'Ja, der Aktualisierungsknopf befindet sich auf der rechten Seite des Titelbalkens.',
 	'JV_POKER_HELP_A_SHOUT_R_QUESTION'		=> 'Gibt es eine Möglichkeit, das Archiv zu aktualisieren?',
@@ -101,12 +100,11 @@ $lang = array_merge($lang, [
 		<li>3. Wenn du vor Turnierbeginn aus dem Turnierraum geworfen wirst, bekommst du dein Buy-In zurück. Wenn das Turnier bereits begonnen hat, verlierst du das Buy-In.</li>
 	</ul>',
 	'JV_POKER_HELP_DROP_TOKEN_QUESTION'		=> 'Was passiert mit meinen Chips, wenn ich aus dem Spiel geworfen werde?',
-	'JV_POKER_HELP_DROP_USER_ANSWER'		=> 'Für diesen Fall gibt es 4 Möglichkeiten:
+	'JV_POKER_HELP_DROP_USER_ANSWER'		=> 'Für diesen Fall gibt es 3 Möglichkeiten:
 	<ul>
 		<li>1. Wenn du deine Internetverbindung verlierst.</li>
 		<li>2. Wenn du untätig bist und auf nichts reagierst, was den Spielverlauf absichtlich verlangsamen kann.</li>
 		<li>3. Wenn das Spielfenster in den Hintergrund verschoben wird. In diesem Fall können mehrere Browser die Aktualisierung der Hintergrunddaten verlangsamen oder ganz stoppen. Das Spiel betrachtet dich dann als Offline-Benutzer, und wirft dich deshalb raus.</li>
-		<li>4. Der Administrator lässt nur ein Spiel mit aktivem Fokus laufen, daher ist die Situation dieselbe wie in Punkt 3 beschrieben. In diesem Fall erscheint jedoch die Pausenbeschriftung.</li>
 	</ul>',
 	'JV_POKER_HELP_DROP_USER_QUESTION'		=> 'In welchen Fällen kann das Spiel dich rauswerfen?',
 	'JV_POKER_HELP_E_SHOUT_ANSWER'			=> 'Wenn es vom Administrator aktiviert wurde, dann ja.',
@@ -152,11 +150,7 @@ $lang = array_merge($lang, [
 	'JV_POKER_HELP_MOVE_TIME_QUESTION'		=> 'Was ist die Sprungzeit?',
 	'JV_POKER_HELP_NORMAL_ANSWER'			=> 'In einem Normalraum können nur Benutzer spielen, welche ihre eigenen Chips besitzen, und welche genügend Chips für den geforderten Mindesteinstiegsbetrag mit hereinbringen. Jeder dieser Räume verfügt über einen festgelegten Mindest- und Höchstbetrag für den Einstieg. Benutzer können sich mit dem Mindestbetrag an den Tisch setzen. In diesem Raum gewonnene Chips können aus dem Raum mitgenommen, und wieder zurückgewechselt werden.',
 	'JV_POKER_HELP_NORMAL_QUESTION'			=> 'Was bedeutet es, in einem Normalraum zu sein?',
-	'JV_POKER_HELP_OFFLINE_BL_ANSWER'		=> 'Wenn der Avatar des Benutzers grau blinkt, bedeutet dies, dass der Benutzer derzeit offline oder nicht mit dem Raum verbunden ist. Dafür gibt es zwei mögliche Gründe:
-	<ul>
-		<li>Die Internetverbindung des Benutzers wurde unterbrochen.</li>
-		<li>Der Administrator erlaubt die Ausführung des Pokerraums nur in einem aktiven Fenster. Der Benutzer sieht sich aber eine andere Seite oder Webseite an. In diesem Fall erhält dieser Benutzer keine neuen Daten über den aktuellen Status des Pokerspiels. Für ihn gibt es eine Art Ladepause, und solange er die Seite nicht wieder ansieht, bleibt er offline.</li>
-	</ul>',
+	'JV_POKER_HELP_OFFLINE_BL_ANSWER'		=> '',
 	'JV_POKER_HELP_OFFLINE_BL_QUESTION'		=> 'Der Avatar des Benutzers blinkt grau. Was bedeutet das?',
 	'JV_POKER_HELP_OFFLINE_BP_ANSWER'		=> 'In diesem Fall kann Folgendes passieren:
 	<ul>
@@ -173,8 +167,6 @@ $lang = array_merge($lang, [
 		<li>3. Wenn du an einem Turnierspiel teilnimmst, stehst du am Ende der %s. Hand automatisch auf.</li>
 	</ul>',
 	'JV_POKER_HELP_OFFLINE_U_QUESTION'		=> 'Was passiert, wenn ich meine Internetverbindung verliere?',
-	'JV_POKER_HELP_PAUSE_ANSWER'			=> 'Wenn du die Pause-Taste drückst, ist dies gleichbedeutend mit dem Verlassen des Spiels. Wenn also die Partie weitergeht, werden deine Karten abgeworfen. Diese Option lohnt sich, wenn der Spieler nicht möchte, dass jemand anderes zwischenzeitlich seinen Platz einnimmt. Natürlich ist die Pausenzeit begrenzt auf die vom Administrator festgelegte Spanne.',
-	'JV_POKER_HELP_PAUSE_QUESTION'			=> 'Was passiert, wenn ich die Pause-Taste drücke?',
 	'JV_POKER_HELP_PD_ANSWER'				=> '„phpBB Holdem Póker“ erhebt und speichert die IP-Adresse jedes aktuellen Spielers, bis der Benutzer den Tisch verlassen hat. Wenn ein Benutzer vom Tisch aufsteht, werden alle Daten gelöscht, und nur die statistischen Daten bleiben erhalten. Die IP-Adresse wird während des Spiels gespeichert, um zu verhindern, dass am selben Tisch mehrere Spieler mit der selben IP-Adresse sitzen. Selbstverständlich kannst du diese IP-Prüfung aktivieren und deaktivieren.',
 	'JV_POKER_HELP_PD_QUESTION'				=> 'Speichert „phpBB Holdem Póker“ persönliche Daten?',
 	'JV_POKER_HELP_PLAY_ANSWER'				=> 'Poker ist eines der beliebtesten Kartenspiele der Welt. Ziel des Spiels ist es, aus den selbst erhaltenen Karten, in Kombination mit den aufgedeckten Gemeinschaftskarten, das Beste herauszuholen, um schließlich den Einsatz in der Mitte des Tisches zu erlangen (im Englischen „Pot“ genannt). Je Pokerraum kann das Spiel von 2-8 Personen gespielt werden. Im Spiel wird ein französisches Blatt mit 52 Karten ohne Joker verwendet. Jeder Spieler erhält zwei private Karten, die von anderen Spielern nicht gesehen oder verwendet werden können. Während des Spiels werden nach und nach fünf Gemeinschaftskarten offen auf den Tisch gelegt, die alle Spieler sehen und verwenden können. Der Spieler versucht nun, aus seinen eigenen Karten und den Gemeinschaftskarten die bestmögliche „Fünf-Karten-Kombination“ herzustellen. Der Spieler mit den stärksten Karten gewinnt den Wert des Einsatzes. Ein Kartenspiel französischer Karten (ohne Joker) hat 4 verschiedene Farben, und jede Farbe besteht aus 13 Karten mit unterschiedlichen Werten, was das 52-Blatt-Deck ergibt. Die Reihenfolge der 4 Farben: <span class="poker_cs">♣</span> Kreuz (clubs) <span class="poker_dh">♦</span> Karo (diamonds) <span class="poker_dh">♥</span> Herz (hearts) <span class="poker_cs">♠</span> Pik (spades). Alle Farben sind gleich für die Bewertung von Pokerhänden. Die 13 Kartenwerte in der Reihenfolge: A (Ass), 2, 3, 4, 5, 6, 7, 8, 9, 10, J (Bube), Q (Dame), K (König). Ein Ass ist nicht nur als Zahlenwert 1 zu betrachten, es kann auch  nach dem König folgend die höchste Karte sein.
@@ -303,8 +295,6 @@ $lang = array_merge($lang, [
 	'JV_POKER_HELP_PROFIT_QUESTION'			=> 'Meine Chips werden mit jeder neuen Hand weniger, warum?',
 	'JV_POKER_HELP_PTOC_ANSWER'				=> 'Ja, hierfür nutze den Button „Chips einwechseln“ auf der Poker-Hauptseite neben der Chips-Anzeige im eigenen Profil.',
 	'JV_POKER_HELP_PTOC_QUESTION'			=> 'Können „%s“ gegen Chips eingetauscht werden?',
-	'JV_POKER_HELP_P_SHOUT_ANSWER'			=> 'Ja, wenn der Administrator es erlaubt hat. Wenn es nicht aktiviert wurde, erscheint nur das Wort „Pause“ in der Shoutbox.',
-	'JV_POKER_HELP_P_SHOUT_QUESTION'		=> 'Kann ich die Shoutbox während einer Pause nutzen?',
 	'JV_POKER_HELP_REG_ANSWER'				=> 'Nur registrierte Benutzer können phpBB Holdem Póker spielen. Daher ist es eine gute Idee, ein registriertes Mitglied zu sein.',
 	'JV_POKER_HELP_REG_QUESTION'			=> 'Warum muss ich mich überhaupt registrieren?',
 	'JV_POKER_HELP_SHOUT_ANSWER'			=> 'Wenn der Administrator dazu die Berechtigung erteilt hat, dann ja. Wenn nicht, kannst du nur die Nachrichten über den Spielfortschritt in der Nachrichtenbox lesen.',

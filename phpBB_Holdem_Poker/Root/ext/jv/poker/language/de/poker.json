@@ -54,9 +54,9 @@
 	"com_player_fold":				"%s passt.",
 	"com_player_raise":				"%s geht mit für %s und erhöht um %s.",
 	"com_tour_last_winner":			"Gewinner des letzten Turniers: %s, gewann %s.",
+	"com_user_most_chips":			"%s hat die meisten Chips.",
 	"com_wait":						"Auf Spieler warten…",
 	"confirm_exit":					"Bist du sicher, dass du beenden willst?",
-	"confirm_pause":				"Bist du sicher, dass du eine Pause einlegen willst?",
 	"confirm_standup":				"Bist du sicher, dass du aufstehen möchtest?",
 	"confirm_tour_exit":			"Wenn du jetzt gehst, verlierst du das Turnier!",
 	"confirm_tour_standup":			"Wenn du jetzt aufstehst verlierst du das Turnier!",
@@ -85,9 +85,7 @@
 
 	"info_change_room_limit":		"Du musstest aufstehen, weil ein Administrator den Startgeldbetrag verändert hat.",
 	"info_change_room_type":		"Du musstest aufstehen, weil ein Administrator den Raumtyp geändert hat.",
-	"info_disable_pause":			"Du musstest aufstehen, weil die Verwendung der Spielpause deaktiviert wurde!",
 	"info_disconnect":				"Du musstest aufstehen, weil du längere Zeit nicht online warst!",
-	"info_end_pause":				"Du musstest aufstehen, weil deine Pausenzeit abgelaufen ist!",
 	"info_forum_disabled":			"Du musstest aufstehen, weil das Forum deaktiviert wurde!",
 	"info_inactive":				"Du musstest aufstehen, weil du während längerer Zeit auf nichts reagiert hast.",
 	"info_lose_tour":				"Unglücklicherweise hast du dieses Turnier jetzt verloren, aber lass dich nicht entmutigen, vielleicht gewinnst du das nächste.",
@@ -120,7 +118,6 @@
 
 	"pair1":						"Ein Paar",
 	"pair2":						"Zwei Paare",
-	"pause":						"Pause",
 	"players":						"Spieler",
 	"poker":						"Vierling",
 
@@ -155,7 +152,6 @@
 	"tip_exit":						"Den Raum verlassen",
 	"tip_fullscreen":				"Auf Vollbild umschalten",
 	"tip_normal_fullscreen":		"Auf Normalbild umschalten",
-	"tip_pause":					"Spiel pausieren",
 	"tip_playing":					"Spiel fortsetzen",
 	"tip_radio_play":				"Radio abspielen",
 	"tip_radio_refresh":			"Radio aktualisieren",

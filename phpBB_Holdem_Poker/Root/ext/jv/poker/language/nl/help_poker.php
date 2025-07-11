@@ -47,12 +47,11 @@ $lang = array_merge($lang, [
 		<li>Geel: Werkelijke speler.</li>
 		<li>Rood: Fold kaarten.</li>
 	</ul>',
-	'JV_POKER_HELP_AVATAR_BC_ANSWER_2'		=> '<li>Bourgondië doorgestreept: Een pauze nemen.</li>',
-	'JV_POKER_HELP_AVATAR_BC_ANSWER_3'		=> '<li>Blauw: Bescherming tegen weddenschappen.</li>',
+	'JV_POKER_HELP_AVATAR_BC_ANSWER_2'		=> '<li>Blauw: Bescherming tegen weddenschappen.</li>',
 	'JV_POKER_HELP_AVATAR_BC_QUESTION'		=> 'Betekenen de kleuren rondom de avatar iets?',
 	'JV_POKER_HELP_A_SHOUT_ANSWER'			=> 'Ja, elke speler kan het archief tijdens het spel bekijken.',
 	'JV_POKER_HELP_A_SHOUT_QUESTION'		=> 'Is er een manier om oudere berichten te bekijken?',
-	'JV_POKER_HELP_A_SHOUT_RE_ANSWER'		=> 'Als de berichten niet worden weergegeven, heb je het spel verlaten of gepauzeerd en mag je het prikbord niet gebruiken tijdens een pauze.',
+	'JV_POKER_HELP_A_SHOUT_RE_ANSWER'		=> '',
 	'JV_POKER_HELP_A_SHOUT_RE_QUESTION'		=> 'Na het verversen van het archief verdwenen de berichten, waarom?',
 	'JV_POKER_HELP_A_SHOUT_R_ANSWER'		=> 'Ja, de knop vernieuwen bevindt zich aan de rechterkant van de titelbalk.',
 	'JV_POKER_HELP_A_SHOUT_R_QUESTION'		=> 'Is er een manier om het archief op te frissen?',
@@ -101,12 +100,11 @@ $lang = array_merge($lang, [
 		<li>3. Als ze me voor het begin van het toernooi uit de toernooizaal gooien, krijg je je buy-in terug. Als het toernooi al is begonnen, verlies je de Buy-In.</li>
 	</ul>',
 	'JV_POKER_HELP_DROP_TOKEN_QUESTION'		=> 'Wat gebeurt er met mijn chips als ik uit het spel word gegooid?',
-	'JV_POKER_HELP_DROP_USER_ANSWER'		=> 'In dit geval zijn er 4 opties beschikbaar:
+	'JV_POKER_HELP_DROP_USER_ANSWER'		=> 'In dit geval zijn er 3 opties beschikbaar:
 	<ul>
 		<li>1. Als je internetverbinding wegvalt.</li>
 		<li>2. Als je inactief bent en nergens op reageert, wat het verloop van het spel opzettelijk kan vertragen.</li>
 		<li>3. Als het spelvenster naar de achtergrond wordt verplaatst. In dit geval kunnen meerdere browsers het bijwerken van achtergrondgegevens vertragen of helemaal stoppen, het spel neemt je mee als een offline gebruiker, dus het spel gooit je eruit.</li>
-		<li>4. De beheerder staat alleen een spel met actieve focus toe, dus de situatie is hetzelfde als beschreven in punt 3. In dit geval verschijnt echter de pauze-inscriptie.</li>
 	</ul>',
 	'JV_POKER_HELP_DROP_USER_QUESTION'		=> 'In welke gevallen kan het spel je eruit gooien?',
 	'JV_POKER_HELP_E_SHOUT_ANSWER'			=> 'Indien ingeschakeld door de beheerder, ja.',
@@ -152,11 +150,7 @@ $lang = array_merge($lang, [
 	'JV_POKER_HELP_MOVE_TIME_QUESTION'		=> 'Wat is de bewegingstijd?',
 	'JV_POKER_HELP_NORMAL_ANSWER'			=> 'In een normale kamer kunnen alleen gebruikers spelen die hun eigen chips bezitten en die genoeg chips kunnen inbrengen voor het vereiste minimale instapbedrag. Elk van deze kamers heeft een vast minimum- en maximumbedrag om aan de slag te gaan. Gebruikers kunnen met het minimale bedrag aan tafel gaan zitten. Chips die in deze kamer zijn gewonnen, kunnen uit de kamer worden gehaald en je chips verhogen. Deze chips kunnen weer worden ingewisseld.',
 	'JV_POKER_HELP_NORMAL_QUESTION'			=> 'Wat betekent het om in een normale kamer te zijn?',
-	'JV_POKER_HELP_OFFLINE_BL_ANSWER'		=> 'Als de avatar van de gebruiker grijs knippert, geeft dit aan dat de gebruiker momenteel offline is of niet verbonden is met de kamer. Dit is mogelijk om twee redenen:
-	<ul>
-		<li>De internetverbinding van de gebruiker is verbroken.</li>
-		<li>De beheerder staat de kamer alleen toe om in een actief venster te werken. Als de gebruiker een andere pagina of webpagina bekijkt, ontvangt de gebruiker geen nieuwe gegevens over de huidige status van poker. Er is een soort oplaadpauze voor hem en hoewel hij niet actief naar poker kijkt, blijft hij offline.</li>
-	</ul>',
+	'JV_POKER_HELP_OFFLINE_BL_ANSWER'		=> '',
 	'JV_POKER_HELP_OFFLINE_BL_QUESTION'		=> 'De avatar van de gebruiker knippert grijs, wat betekent dat?',
 	'JV_POKER_HELP_OFFLINE_BP_ANSWER'		=> 'In dit geval kan het volgende gebeuren:
 	<ul>
@@ -173,8 +167,6 @@ $lang = array_merge($lang, [
 		<li>3. Als je in een toernooispel zit, sta je automatisch op aan het einde van de %s. hand.</li>
 	</ul>',
 	'JV_POKER_HELP_OFFLINE_U_QUESTION'		=> 'Wat gebeurt er als mijn internetverbinding wegvalt?',
-	'JV_POKER_HELP_PAUSE_ANSWER'			=> 'Als je op de pauzeknop drukt, is dat gelijk aan uit het spel stappen, dus als de ronde doorgaat, worden je kaarten gefold. Deze optie is de moeite waard om te gebruiken als de speler niet wil dat iemand anders in de tussentijd zijn plaats inneemt. Uiteraard is de pauzetijd beperkt. De limiet wordt bepaald door de beheerder.',
-	'JV_POKER_HELP_PAUSE_QUESTION'			=> 'Wat gebeurt er als ik op de pauzeknop druk?',
 	'JV_POKER_HELP_PD_ANSWER'				=> '“phpBB Holdem Póker” verzamelt en bewaart het IP-adres van elke huidige speler totdat de gebruiker de tafel verlaat. Wanneer een gebruiker opstaat van de tafel, worden alle gegevens gewist en blijven alleen de statistische gegevens behouden. Het IP-adres wordt tijdens het spel opgeslagen om te voorkomen dat meerdere spelers aan dezelfde tafel hetzelfde IP-adres gebruiken. Uiteraard kan je deze IP-check in- en uitschakelen.',
 	'JV_POKER_HELP_PD_QUESTION'				=> 'Slaat “phpBB Holdem Póker” persoonsgegevens op?',
 	'JV_POKER_HELP_PLAY_ANSWER'				=> 'Poker is een van de meest populaire kaartspellen ter wereld. Het doel van het spel is om het meeste te halen uit de kaarten die je hebt ontvangen, in combinatie met de onthulde gemeenschappelijke kaarten, om uiteindelijk de inzet in het midden van de tafel te winnen (in het Engels “Pot” genoemd). Per pokerkamer kan het spel door 2-8 personen gespeeld worden. Het spel maakt gebruik van een Franse hand van 52 kaarten zonder joker. Elke speler krijgt twee privékaarten die niet door andere spelers kunnen worden gezien en gebruikt. Tijdens het spel worden vijf gemeenschappelijke kaarten zichtbaar op tafel, die alle spelers kunnen zien en gebruiken. De speler probeert nu een zo goed mogelijke “vijfkaartcombinatie” te maken van zijn eigen kaarten en de gemeenschappelijke kaarten. De speler met de sterkste kaarten wint de waarde van de inzet. Een deck Franse kaarten (zonder jokers) heeft 4 verschillende kleuren en elke kleur bestaat uit 13 kaarten van verschillende waarden, wat het deck van 52 kaarten oplevert. De volgorde van de 4 kleuren: <span class="poker_cs">♣</span> klaveren <span class="poker_dh">♦</span> ruiten <span class="poker_dh">♥</span> harten <span class="poker_cs">♠</span> schoppen. Alle kleuren zijn gelijk voor de evaluatie van pokerhanden. De 13 kaartwaarden in hun volgorde: A (Aas), 2, 3, 4, 5, 6, 7, 8, 9, 10, J (Boer), Q (Vrouw), K (Heer). Een aas is niet alleen een numerieke waarde van 1, het kan ook de hoogste kaart zijn na de koning.
@@ -303,8 +295,6 @@ $lang = array_merge($lang, [
 	'JV_POKER_HELP_PROFIT_QUESTION'			=> 'Mijn chips zullen minder zijn voor elke nieuwe hand, waarom?',
 	'JV_POKER_HELP_PTOC_ANSWER'				=> 'Ja, gebruik hiervoor de knop “Chips wisselen” op de hoofdpagina van poker naast de chips die in je eigen profiel worden weergegeven.',
 	'JV_POKER_HELP_PTOC_QUESTION'			=> 'Kunnen “%s” worden ingewisseld voor chips?',
-	'JV_POKER_HELP_P_SHOUT_ANSWER'			=> 'Indien ingeschakeld door de beheerder, ja. Als het niet is ingeschakeld, verschijnt alleen het woord “Pauze” op het prikbord.',
-	'JV_POKER_HELP_P_SHOUT_QUESTION'		=> 'Kan ik de shoutbox gebruiken tijdens een pauze?',
 	'JV_POKER_HELP_REG_ANSWER'				=> 'Alleen geregistreerde gebruikers kunnen phpBB Holdem Póker spelen, dus het is een goed idee om een geregistreerd lid te zijn.',
 	'JV_POKER_HELP_REG_QUESTION'			=> 'Waarom moet ik me überhaupt registreren?',
 	'JV_POKER_HELP_SHOUT_ANSWER'			=> 'Als de beheerder toestemming heeft gegeven, dan wel. Als je niet over de vereiste machtigingen beschikt, kun je alleen berichten over de voortgang van het spel op het prikbord lezen.',

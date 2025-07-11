@@ -54,9 +54,9 @@
 	"com_player_fold":				"%s a foldé ses cartes.",
 	"com_player_raise":				"%s call %s et raise %s.",
 	"com_tour_last_winner":			"Vainqueur du dernier tournoi : %s, gain %s.",
+	"com_user_most_chips":			"%s a le plus de jetons.",
 	"com_wait":						"En attendant les joueurs…",
 	"confirm_exit":					"Etes-vous sûr de vouloir quitter ?",
-	"confirm_pause":				"Êtes-vous sûr de faire une pause ?",
 	"confirm_standup":				"Êtes-vous sûr de vous lever ?",
 	"confirm_tour_exit":			"Si vous quittez maintenant, vous perdrez le tournoi !",
 	"confirm_tour_standup":			"Si vous vous levez maintenant, vous perdez le tournoi !",
@@ -85,9 +85,7 @@
 
 	"info_change_room_limit":		"Vous vous êtes levé parce qu’un administrateur a modifié le montant du buy-in.",
 	"info_change_room_type":		"Vous vous êtes levé parce qu’un administrateur a changé le type de salle.",
-	"info_disable_pause":			"Vous vous êtes levé parce que l’utilisation de la pause de jeu a été désactivée !",
 	"info_disconnect":				"Vous vous êtes levé parce que vous n’avez pas été en ligne depuis longtemps !",
-	"info_end_pause":				"Vous vous êtes levé parce que votre pause est expirée !",
 	"info_forum_disabled":			"Vous vous êtes levé parce que le forum a été désactivé !",
 	"info_inactive":				"Vous vous êtes levé parce que vous n’avez réagi à rien pendant longtemps.",
 	"info_lose_tour":				"Malheureusement, vous avez perdu ce tournoi maintenant, mais ne vous découragez pas, vous gagnerez peut-être le prochain.",
@@ -120,7 +118,6 @@
 
 	"pair1":						"Une Paire",
 	"pair2":						"Deux Paires",
-	"pause":						"Pause",
 	"players":						"Joueurs",
 	"poker":						"Le Carré",
 
@@ -155,7 +152,6 @@
 	"tip_exit":						"Quitter la salle",
 	"tip_fullscreen":				"Passer en plein écran",
 	"tip_normal_fullscreen":		"Passer à L’écran normal",
-	"tip_pause":					"Pause jeu",
 	"tip_playing":					"Suite du jeu",
 	"tip_radio_play":				"Écouter la radio",
 	"tip_radio_refresh":			"Rafraîchir la radio",

@@ -54,9 +54,9 @@
 	"com_player_fold":				"%s bedobta a lapjait.",
 	"com_player_raise":				"%s megadta a %s és emelt %s.",
 	"com_tour_last_winner":			"Az utolsó verseny győztese: %s, nyereménye: %s.",
+	"com_user_most_chips":			"%s rendelkezik a legtöbb zsetonnal.",
 	"com_wait":						"Várakozás a játékosokra…",
 	"confirm_exit":					"Biztos vagy benne, hogy kilépsz?",
-	"confirm_pause":				"Biztos vagy benne, hogy szünetet tartasz?",
 	"confirm_standup":				"Biztos vagy benne, hogy felállsz?",
 	"confirm_tour_exit":			"Ha most kilépsz elveszted a versenyt!",
 	"confirm_tour_standup":			"Ha most felállsz elveszted a versenyt!",
@@ -85,9 +85,7 @@
 
 	"info_change_room_limit":		"Felállításra kerültél, mivel egy adminisztrátor megváltoztatta a beszálló összegét.",
 	"info_change_room_type":		"Felállításra kerültél, mivel egy adminisztrátor megváltoztatta a szoba típusát.",
-	"info_disable_pause":			"Felállításra kerültél, mivel a játék szünet használatát kikapcsolták!",
 	"info_disconnect":				"Felállításra kerültél, mivel huzamos ideje nem voltál online!",
-	"info_end_pause":				"Felállításra kerültél, mivel a szünet időd letelt!",
 	"info_forum_disabled":			"Felállításra kerültél, mivel a fórum ki lett kapcsolva!",
 	"info_inactive":				"Felállításra kerültél, mivel huzamos ideje nem reagálsz semmire!",
 	"info_lose_tour":				"Sajnos most elvesztetted ezt a versenyt, de ne csüggedj, lehet a következőt épp te fogod nyerni.",
@@ -120,7 +118,6 @@
 
 	"pair1":						"Egy Pár",
 	"pair2":						"Két Pár",
-	"pause":						"Szünet",
 	"players":						"Játékosok",
 	"poker":						"Póker",
 
@@ -155,7 +152,6 @@
 	"tip_exit":						"Kilépés a szobából",
 	"tip_fullscreen":				"Átváltás teljes képernyőre",
 	"tip_normal_fullscreen":		"Átváltás normál képernyőre",
-	"tip_pause":					"Játék szüneteltetése",
 	"tip_playing":					"Játék folytatása",
 	"tip_radio_play":				"Rádió elindítása",
 	"tip_radio_refresh":			"Rádió újratöltése",

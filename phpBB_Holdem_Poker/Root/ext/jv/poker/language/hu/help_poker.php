@@ -47,12 +47,11 @@ $lang = array_merge($lang, [
 		<li>Sárga: Aktuális játékos.</li>
 		<li>Piros: Dobta a lapjait.</li>
 	</ul>',
-	'JV_POKER_HELP_AVATAR_BC_ANSWER_2'		=> '<li>Bordó áthúzva: Szünetet tart.</li>',
-	'JV_POKER_HELP_AVATAR_BC_ANSWER_3'		=> '<li>Kék: Tét védelembe.</li>',
+	'JV_POKER_HELP_AVATAR_BC_ANSWER_2'		=> '<li>Kék: Tét védelembe.</li>',
 	'JV_POKER_HELP_AVATAR_BC_QUESTION'		=> 'Az avatar körüli színek jelentenek valamit?',
 	'JV_POKER_HELP_A_SHOUT_ANSWER'			=> 'Igen, minden játékos megtekintheti az archívumot a játék során.',
 	'JV_POKER_HELP_A_SHOUT_QUESTION'		=> 'Van-e mód a régebbi üzenetek megtekintésére?',
-	'JV_POKER_HELP_A_SHOUT_RE_ANSWER'		=> 'Ha nem jelennek meg az üzenetek, akkor vagy elhagytad a játékot vagy ép szünetet tartasz és szünet időben nincs engedélyezve az üzenőfal használata.',
+	'JV_POKER_HELP_A_SHOUT_RE_ANSWER'		=> 'Ha nem jelennek meg az üzenetek, akkor elhagytad a széked.',
 	'JV_POKER_HELP_A_SHOUT_RE_QUESTION'		=> 'Archívum frissítése után eltűntek az üzenetek, miért?',
 	'JV_POKER_HELP_A_SHOUT_R_ANSWER'		=> 'Igen, a címsor jobb oldalán megtalálható a frissítési gomb.',
 	'JV_POKER_HELP_A_SHOUT_R_QUESTION'		=> 'Van-e mód az archívum frissítésére?',
@@ -101,12 +100,11 @@ $lang = array_merge($lang, [
 		<li>3. Ha verseny szobából kerülsz kidobásra még a verseny megkezdése előtt, akkor visszakapod a nevezési díjat. Ha a verseny már elkezdődött, akkor a nevezési díjat elveszted.</li>
 	</ul>',
 	'JV_POKER_HELP_DROP_TOKEN_QUESTION'		=> 'Mi történik a zsetonommal, ha kidob a játék?',
-	'JV_POKER_HELP_DROP_USER_ANSWER'		=> 'Ebben az esetben 4 opció lehetséges:
+	'JV_POKER_HELP_DROP_USER_ANSWER'		=> 'Ebben az esetben 3 opció lehetséges:
 	<ul>
 		<li>1. Ha megszakad az internet kapcsolatod.</li>
 		<li>2. Ha tétlen vagy és nem reagálsz semmire vagyis szándékosan lassítod a játék menetét.</li>
 		<li>3. Ha a játék ablaka a háttérbe kerül, mivel több böngésző ebben az esetben lelassíthatja vagy teljesen le is állíthatja a háttérben futó adatok frissítését, így a játék úgy fogja venni, hogy offline felhasználó vagy, így a játék kidob.</li>
-		<li>4. Az adminisztrátor csak aktív fókuszban lévő játék futtatását engedélyezi, így ugyan az a helyzet mint a 3. pontban leírtak. Azonban ebben az esetben megjelenik a szünet felírat.</li>
 	</ul>',
 	'JV_POKER_HELP_DROP_USER_QUESTION'		=> 'Milyen esetekben dobhat ki a játék?',
 	'JV_POKER_HELP_E_SHOUT_ANSWER'			=> 'Amennyiben az adminisztrátor engedélyezi, akkor igen.',
@@ -152,11 +150,7 @@ $lang = array_merge($lang, [
 	'JV_POKER_HELP_MOVE_TIME_QUESTION'		=> 'Mi az a mozgási idő?',
 	'JV_POKER_HELP_NORMAL_ANSWER'			=> 'A szobába csak azok a felhasználók játszhatnak, akiknek van saját zsetonjuk és a zsetonjuk mennyisége eléri a minimum beszálló összegét. Minden szobának van egy beállított minimum és egy maximum beszálló összeg meghatározva. A felhasználók minimum maximum ennyi zsetonnal tudnak leülni az asztalhoz. A szobából a megnyert zsetonok kivihető, így növelve a zseton egyenlegünk.',
 	'JV_POKER_HELP_NORMAL_QUESTION'			=> 'Mit jelent, hogy normál szoba?',
-	'JV_POKER_HELP_OFFLINE_BL_ANSWER'		=> 'Ha a felhasználó avatarja szürkén villog az azt jelzi, hogy a felhasználó jelenleg offline vagyis nincs a szobával internet kapcsolata. Ez két okból lehetséges:
-	<ul>
-		<li>A felhasználó internet kapcsolata megszűnt.</li>
-		<li>Az adminisztrátor csak aktív ablakban engedélyezi a szoba működését vagyis a felhasználó éppen egy másik weblapot, oldalt nézeget. Ebben az esetben a felhasználó semmilyen új adatot nem kap a póker jelenlegi állásáról. Egyfajta töltési szünet jelenik meg számára és míg nem nézi újra aktívan a pókert, addig offline is marad.</li>
-	</ul>',
+	'JV_POKER_HELP_OFFLINE_BL_ANSWER'		=> 'Ha a felhasználó avatarja szürkén villog az azt jelzi, hogy a felhasználó jelenleg offline.',
 	'JV_POKER_HELP_OFFLINE_BL_QUESTION'		=> 'A felhasználó avatarja szürkén villog, ez mit jelent?',
 	'JV_POKER_HELP_OFFLINE_BP_ANSWER'		=> 'Ebben az esetben a következők történhetnek:
 	<ul>
@@ -173,8 +167,6 @@ $lang = array_merge($lang, [
 		<li>3. Ha verseny játékban vagy úgy az %s. leosztás végén automatikusan felállításra kerülsz.</li>
 	</ul>',
 	'JV_POKER_HELP_OFFLINE_U_QUESTION'		=> 'Mi történik, ha megszakad az internet kapcsolatom?',
-	'JV_POKER_HELP_PAUSE_ANSWER'			=> 'Ha megnyomod a szünet gombot az egyenlő azzal, hogy kiszállsz a játékból, tehát ha játékban vagy, akkor a lapjaid bedobásra kerülnek. Ezt az opciót, akkor érdemes használni, ha még játszani szeretnél és nem szeretnéd, hogy valaki elfoglalná a helyedet. Természetesen a szünet ideje limitálva van, amit az adminisztrátor határozz meg.',
-	'JV_POKER_HELP_PAUSE_QUESTION'			=> 'Mi történik, ha megnyomom a szünet gombot?',
 	'JV_POKER_HELP_PD_ANSWER'				=> 'A „phpBB Holdem Póker” minden aktuális játékos IP-címét menti és tárolja addig, amíg a felhasználó fel nem áll az asztaltól, mivel ha egy felhasználó feláll az asztaltól, akkor minden adat törlésre kerül és csak a statisztikai adatok maradnak meg. Az IP cím azért kerül tárolásra a játszás során, hogy megakadályozhassuk, hogy egy IP címmel több felhasználó ülhessen le egy asztalhoz. Természetesen az IP címek ellenőrzését az adminisztrátor ki/be kapcsolhatja.',
 	'JV_POKER_HELP_PD_QUESTION'				=> 'A „phpBB Holdem Póker” tárol-e személyes adatokat?',
 	'JV_POKER_HELP_PLAY_ANSWER'				=> 'A póker az egyik legnépszerűbb kártyajáték a világon. A lényege, hogy a játékosok a zárt kártyáikból a legjobbat kihozva elvigyék az asztal közepén lévő kasszát (angolul POT-nak nevezik). Ezt a legjobb lap kombinációval tehetik meg, tehát minden játékosnak arra kell törekednie, hogy a saját kezében legyen a legjobb. A játékot 2-8 főig játszható egy szobában. A játékban 52 lapos francia kártyát használunk, jokerek nélkül. Minden játékos két saját zárt lapot kap, amit a többi játékos nem láthat és nem használhat. A játék során az asztalra öt közös nyílt lapot osztanak színnel fölfelé, amit minden játékos lát és felhasználhat. A játékos a saját lapjaiból és a közös lapokból igyekszik a lehető legjobb „ötlapos kombináció”-t összeállítani. Az a játékos nyeri meg a licitálások során összegyűlt értéket, akinek a legerősebb lapjai vannak. Egy pakli francia kártyának (jokerek nélkül) 4 különböző színe van, és minden szín 13 különböző értékű lapból áll, ez adja ki az 52 lapos paklit. A 4 szín sorrendje: <span class="poker_cs">♣</span> treff (clubs) <span class="poker_dh">♦</span> káró (diamond) <span class="poker_dh">♥</span> kőr (hearts) <span class="poker_cs">♠</span> pikk (spades). Minden szín egyenlő értékűnek számít a pókerkezek értékelésénél. A 13 lap értékének sorrendje: A (ász), 2, 3, 4, 5, 6, 7, 8, 9, 10, J (bubi), Q (dáma), K (király). Az ász nem csak az egyes számot jelöli, hanem a király után egy ász lap, vagyis a legmagasabb lapnak minősül.
@@ -303,8 +295,6 @@ $lang = array_merge($lang, [
 	'JV_POKER_HELP_PROFIT_QUESTION'			=> 'Minden új leosztásnál kevesebb lesz a zsetonom, miért?',
 	'JV_POKER_HELP_PTOC_ANSWER'				=> 'Igen, ehhez használd a póker főoldalán a saját profilodban lévő zseton kijelzés mellett a „Zseton váltó” gombot.',
 	'JV_POKER_HELP_PTOC_QUESTION'			=> 'Válthatók-e át „%s”-ot zsetonra?',
-	'JV_POKER_HELP_P_SHOUT_ANSWER'			=> 'Amennyiben az adminisztrátor engedélyezi, akkor igen. Ha nem engedélyezi, akkor az üzenőfalon csak a „Szünet” felírat lesz látható.',
-	'JV_POKER_HELP_P_SHOUT_QUESTION'		=> 'Szünet idő alatt használhatom-e az üzenőfalat?',
 	'JV_POKER_HELP_REG_ANSWER'				=> 'A phpBB Holdem Póker-t csak is a regisztrált felhasználók tudják játszani, ezért érdemes regisztrált tagnak lenni.',
 	'JV_POKER_HELP_REG_QUESTION'			=> 'Miért kell egyáltalán regisztrálnom?',
 	'JV_POKER_HELP_SHOUT_ANSWER'			=> 'Amennyiben az adminisztrátor adott rá engedélyt, akkor igen. Ha nem rendelkezünk a szükséges engedélyekkel, akkor az üzenőfalon csak a játék menetéről szóló üzeneteket olvashatjuk el.',

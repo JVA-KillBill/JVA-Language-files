@@ -47,12 +47,11 @@ $lang = array_merge($lang, [
 		<li>Yellow: Actual player.</li>
 		<li>Red: Folded cards.</li>
 	</ul>',
-	'JV_POKER_HELP_AVATAR_BC_ANSWER_2'		=> '<li>Burgundy crossed out: Taking a pause.</li>',
-	'JV_POKER_HELP_AVATAR_BC_ANSWER_3'		=> '<li>Blue: Bet protection.</li>',
+	'JV_POKER_HELP_AVATAR_BC_ANSWER_2'		=> '<li>Blue: Bet protection.</li>',
 	'JV_POKER_HELP_AVATAR_BC_QUESTION'		=> 'The colors around the avatar mean anything?',
 	'JV_POKER_HELP_A_SHOUT_ANSWER'			=> 'Yes, each player can view the archive during the game.',
 	'JV_POKER_HELP_A_SHOUT_QUESTION'		=> 'Is there a way to view older messages?',
-	'JV_POKER_HELP_A_SHOUT_RE_ANSWER'		=> 'If the messages are not displayed, you have either left the game or paused and you are not allowed to use the message board during a pause.',
+	'JV_POKER_HELP_A_SHOUT_RE_ANSWER'		=> 'If the messages are not displayed, you’ve left your chair.',
 	'JV_POKER_HELP_A_SHOUT_RE_QUESTION'		=> 'After refreshing the archive, the messages disappeared, why?',
 	'JV_POKER_HELP_A_SHOUT_R_ANSWER'		=> 'Yes, the refresh button can be found on the right side of the title bar.',
 	'JV_POKER_HELP_A_SHOUT_R_QUESTION'		=> 'Is there a way to refresh the archive?',
@@ -101,12 +100,11 @@ $lang = array_merge($lang, [
 		<li>3. If they throw me out of the tournament room before the start of the tournament, you will get your Buy-In back. If the tournament has already started, you will lose the Buy-In.</li>
 	</ul>',
 	'JV_POKER_HELP_DROP_TOKEN_QUESTION'		=> 'What happens to my chips if I am thrown out of the game?',
-	'JV_POKER_HELP_DROP_USER_ANSWER'		=> 'In this case, 4 options are available:
+	'JV_POKER_HELP_DROP_USER_ANSWER'		=> 'In this case, 3 options are available:
 	<ul>
 		<li>1. If you lose your internet connection.</li>
 		<li>2. If you are idle and do not react to anything, which can deliberately slow down the course of the game.</li>
 		<li>3. If the game window is moved to the background. In this case multiple browsers can slow down or stop updating background data entirely, the game will take you as an offline user, so the game will throw you out.</li>
-		<li>4. The administrator only allows a game with active focus to run, so the situation is the same as described in point 3. However, in this case, the pause inscription appears.</li>
 	</ul>',
 	'JV_POKER_HELP_DROP_USER_QUESTION'		=> 'In what cases can the game throw you out?',
 	'JV_POKER_HELP_E_SHOUT_ANSWER'			=> 'If enabled by the administrator, yes.',
@@ -152,11 +150,7 @@ $lang = array_merge($lang, [
 	'JV_POKER_HELP_MOVE_TIME_QUESTION'		=> 'What is the move time?',
 	'JV_POKER_HELP_NORMAL_ANSWER'			=> 'In a normal room can play only users who own their own chips, and who can bring in enough chips for the required minimum entry amount. Each of these rooms has a fixed minimum and maximum amount to get started. Users can sit down with the minimum amount at the table. Chips won in this room can be taken out of the room and increase your chips balance. These chips can be exchanged back.',
 	'JV_POKER_HELP_NORMAL_QUESTION'			=> 'What does it mean to be in a normal room?',
-	'JV_POKER_HELP_OFFLINE_BL_ANSWER'		=> 'If the user‘s avatar is blinking gray, this indicates that the user is currently offline or not connected to the room. This is possible for two reasons:
-	<ul>
-		<li>The user‘s internet connection has been terminated.</li>
-		<li>The administrator only allows the room to operate in an active window. If the user is viewing another page or web page, the user will not receive any new data about the current status of poker. There is a kind of charging break for him and while he is not actively watching poker, he remains offline.</li>
-	</ul>',
+	'JV_POKER_HELP_OFFLINE_BL_ANSWER'		=> 'If the user‘s avatar is blinking gray, this indicates that the user is currently offline.',
 	'JV_POKER_HELP_OFFLINE_BL_QUESTION'		=> 'The user‘s avatar flashes gray, what does that mean?',
 	'JV_POKER_HELP_OFFLINE_BP_ANSWER'		=> 'In this case, the following can happen:
 	<ul>
@@ -173,8 +167,6 @@ $lang = array_merge($lang, [
 		<li>3. If you are in a tournament game, you are automatically stand up at the end of the %s. hand.</li>
 	</ul>',
 	'JV_POKER_HELP_OFFLINE_U_QUESTION'		=> 'What happens if my internet connection is lost?',
-	'JV_POKER_HELP_PAUSE_ANSWER'			=> 'If you press the pause button, it is equal to getting out of the game, so if the round goes on, your cards will be folded. This option is worth using if the player does not want someone else to take his place in the meantime. Of course, the pause time is limited. The limit is defined by the administrator.',
-	'JV_POKER_HELP_PAUSE_QUESTION'			=> 'What happens if I press the pause button?',
 	'JV_POKER_HELP_PD_ANSWER'				=> '“phpBB Holdem Póker” collects and stores the IP address of each current player until the user leaves the table. When a user stands up from the table, all data is erased and only the statistical data is retained. The IP address is stored during the game to prevent multiple players at the same table from using the same IP address. Of course, you can enable and disable this IP check.',
 	'JV_POKER_HELP_PD_QUESTION'				=> 'Does “phpBB Holdem Póker” store personal data?',
 	'JV_POKER_HELP_PLAY_ANSWER'				=> 'Poker is one of the most popular card games in the world. The aim of the game is to get the most out of the cards you have received, in combination with the revealed community cards, in order to finally win the bet in the middle of the table (called “Pot” in English). Per poker room, the game can be played by 2-8 people. The game uses a French 52-card hand with no Joker. Each player receives two private cards that cannot be seen and used by other players. During the game, five community cards are laid open on the table, which all players can see and use. The player now tries to make the best possible “five card combination” from his own cards and the community cards. The player with the strongest cards wins the value of the bet. A deck of French cards (without jokers) has 4 different colors and each color consists of 13 cards of different values, which gives the 52-sheet deck. The order of the 4 colors: <span class="poker_cs">♣</span> clubs <span class="poker_dh">♦</span> diamonds  <span class="poker_dh">♥</span> hearts <span class="poker_cs">♠</span> spades. All colors are equal for the evaluation of poker hands. The 13 card values in their order: A (Ace), 2, 3, 4, 5, 6, 7, 8, 9, 10, J (Jack), Q (Queen), K (King). An ace is not just a numerical value of 1, it can also be the highest card after the king.
@@ -303,8 +295,6 @@ $lang = array_merge($lang, [
 	'JV_POKER_HELP_PROFIT_QUESTION'			=> 'My chips will be less for each new hand, why?',
 	'JV_POKER_HELP_PTOC_ANSWER'				=> 'Yes, for this, use the “Chips exchange” button on the poker main page next to the chips display in your own profile.',
 	'JV_POKER_HELP_PTOC_QUESTION'			=> 'Can “%s” be exchanged for chips?',
-	'JV_POKER_HELP_P_SHOUT_ANSWER'			=> 'If enabled by the administrator, yes. If it is not enabled, only the word “Pause” will appear on the message board.',
-	'JV_POKER_HELP_P_SHOUT_QUESTION'		=> 'Can I use the shoutbox during a pause?',
 	'JV_POKER_HELP_REG_ANSWER'				=> 'Only registered users can play phpBB Holdem Póker, so it´s a good idea to be a registered member.',
 	'JV_POKER_HELP_REG_QUESTION'			=> 'Why do I have to register at all?',
 	'JV_POKER_HELP_SHOUT_ANSWER'			=> 'If the administrator has given permission, then yes. If you do not have the required permissions, you can only read messages about the game’s progress on the message board.',
