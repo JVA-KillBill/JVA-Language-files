@@ -51,7 +51,7 @@ $lang = array_merge($lang, [
 	'JV_POKER_HELP_AVATAR_BC_QUESTION'		=> 'Bedeuten die Farben um den Avatar etwas?',
 	'JV_POKER_HELP_A_SHOUT_ANSWER'			=> 'Ja, jeder Spieler kann während des Spiels das Archiv ansehen.',
 	'JV_POKER_HELP_A_SHOUT_QUESTION'		=> 'Gibt es eine Möglichkeit, ältere Nachrichten anzuzeigen?',
-	'JV_POKER_HELP_A_SHOUT_RE_ANSWER'		=> '',
+	'JV_POKER_HELP_A_SHOUT_RE_ANSWER'		=> 'Wenn die Nachrichten nicht angezeigt werden, hast du deinen Stuhl verlassen.',
 	'JV_POKER_HELP_A_SHOUT_RE_QUESTION'		=> 'Nach einer Aktualisierung des Archivs sind die Nachrichten verschwunden, warum?',
 	'JV_POKER_HELP_A_SHOUT_R_ANSWER'		=> 'Ja, der Aktualisierungsknopf befindet sich auf der rechten Seite des Titelbalkens.',
 	'JV_POKER_HELP_A_SHOUT_R_QUESTION'		=> 'Gibt es eine Möglichkeit, das Archiv zu aktualisieren?',
@@ -150,7 +150,7 @@ $lang = array_merge($lang, [
 	'JV_POKER_HELP_MOVE_TIME_QUESTION'		=> 'Was ist die Sprungzeit?',
 	'JV_POKER_HELP_NORMAL_ANSWER'			=> 'In einem Normalraum können nur Benutzer spielen, welche ihre eigenen Chips besitzen, und welche genügend Chips für den geforderten Mindesteinstiegsbetrag mit hereinbringen. Jeder dieser Räume verfügt über einen festgelegten Mindest- und Höchstbetrag für den Einstieg. Benutzer können sich mit dem Mindestbetrag an den Tisch setzen. In diesem Raum gewonnene Chips können aus dem Raum mitgenommen, und wieder zurückgewechselt werden.',
 	'JV_POKER_HELP_NORMAL_QUESTION'			=> 'Was bedeutet es, in einem Normalraum zu sein?',
-	'JV_POKER_HELP_OFFLINE_BL_ANSWER'		=> '',
+	'JV_POKER_HELP_OFFLINE_BL_ANSWER'		=> 'Wenn der Avatar des Benutzers grau blinkt bedeutet das, dass der Benutzer offline ist.',
 	'JV_POKER_HELP_OFFLINE_BL_QUESTION'		=> 'Der Avatar des Benutzers blinkt grau. Was bedeutet das?',
 	'JV_POKER_HELP_OFFLINE_BP_ANSWER'		=> 'In diesem Fall kann Folgendes passieren:
 	<ul>
