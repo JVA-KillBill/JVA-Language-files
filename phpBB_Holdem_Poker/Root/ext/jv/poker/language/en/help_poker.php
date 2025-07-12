@@ -37,9 +37,9 @@ if (empty($lang) || !is_array($lang))
 
 $lang = array_merge($lang, [
 	'JV_POKER_HELP_AUTO_ACC_ANSWER'			=> 'If the user approves the “Automatic Check/Call” function, when it is the players turn, it will automatically pass, or if there is a call, it will automatically specify the amount called.',
-	'JV_POKER_HELP_AUTO_ACC_QUESTION'		=> 'What Does Automatic Check/Call do?',
+	'JV_POKER_HELP_AUTO_ACC_QUESTION'		=> 'What does Automatic Check/Call do?',
 	'JV_POKER_HELP_AUTO_ACF_ANSWER'			=> 'If the user approves the “Automatic Check/Fold” function, when it is the players turn, it will automatically pass or fold the cards automatically if there is a call.',
-	'JV_POKER_HELP_AUTO_ACF_QUESTION'		=> 'What Does Automatic Check/Fold do?',
+	'JV_POKER_HELP_AUTO_ACF_QUESTION'		=> 'What does Automatic Check/Fold do?',
 	'JV_POKER_HELP_AVATAR_BC_ANSWER'		=> 'Yes, the following colors are currently used around the avatar:
 	<ul>
 		<li>White: Waiting to play.</li>
@@ -48,7 +48,7 @@ $lang = array_merge($lang, [
 		<li>Red: Folded cards.</li>
 	</ul>',
 	'JV_POKER_HELP_AVATAR_BC_ANSWER_2'		=> '<li>Blue: Bet protection.</li>',
-	'JV_POKER_HELP_AVATAR_BC_QUESTION'		=> 'The colors around the avatar mean anything?',
+	'JV_POKER_HELP_AVATAR_BC_QUESTION'		=> 'Does the colors around the avatar mean anything?',
 	'JV_POKER_HELP_A_SHOUT_ANSWER'			=> 'Yes, each player can view the archive during the game.',
 	'JV_POKER_HELP_A_SHOUT_QUESTION'		=> 'Is there a way to view older messages?',
 	'JV_POKER_HELP_A_SHOUT_RE_ANSWER'		=> 'If the messages are not displayed, you’ve left your chair.',
@@ -106,7 +106,7 @@ $lang = array_merge($lang, [
 		<li>2. If you are idle and do not react to anything, which can deliberately slow down the course of the game.</li>
 		<li>3. If the game window is moved to the background. In this case multiple browsers can slow down or stop updating background data entirely, the game will take you as an offline user, so the game will throw you out.</li>
 	</ul>',
-	'JV_POKER_HELP_DROP_USER_QUESTION'		=> 'In what cases can the game throw you out?',
+	'JV_POKER_HELP_DROP_USER_QUESTION'		=> 'In which cases can the game throw you out?',
 	'JV_POKER_HELP_E_SHOUT_ANSWER'			=> 'If enabled by the administrator, yes.',
 	'JV_POKER_HELP_E_SHOUT_QUESTION'		=> 'Can I use smileys in my messages?',
 	'JV_POKER_HELP_GAME_SOUND_ANSWER'		=> 'Yes. The game sound can be switched on/off at any time during the game. With this, all voice sounds including the message board are turned off. The setting is always saved.',
@@ -295,7 +295,7 @@ $lang = array_merge($lang, [
 	'JV_POKER_HELP_PROFIT_QUESTION'			=> 'My chips will be less for each new hand, why?',
 	'JV_POKER_HELP_PTOC_ANSWER'				=> 'Yes, for this, use the “Chips exchange” button on the poker main page next to the chips display in your own profile.',
 	'JV_POKER_HELP_PTOC_QUESTION'			=> 'Can “%s” be exchanged for chips?',
-	'JV_POKER_HELP_REG_ANSWER'				=> 'Only registered users can play phpBB Holdem Póker, so it´s a good idea to be a registered member.',
+	'JV_POKER_HELP_REG_ANSWER'				=> 'Only registered users can play phpBB Holdem Póker, so it’s a good idea to be a registered member.',
 	'JV_POKER_HELP_REG_QUESTION'			=> 'Why do I have to register at all?',
 	'JV_POKER_HELP_SHOUT_ANSWER'			=> 'If the administrator has given permission, then yes. If you do not have the required permissions, you can only read messages about the game’s progress on the message board.',
 	'JV_POKER_HELP_SHOUT_QUESTION'			=> 'Can I use the message board during a game?',
