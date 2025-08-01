@@ -61,7 +61,7 @@
 - [Modified] Determining the time of the next tournament.
 - [Modified] During a tournament or normal game, if the server goes offline after the auto stand up all users, the game will be closed and all of the in-game users chips will be refunded as if the game had never taken place.
 - [Modified] If a user goes offline and blinking gray, it should not affect the border around the avatar.
-- [Modified] A user is considered offline if their connection to the server is lost for 12 seconds, now we have increased this from 12 seconds to 15 seconds.
+- [Modified] A user is considered offline if his connection to the server is lost for 12 seconds, now we have increased this from 12 seconds to 15 seconds.
 - [Modified] If our opponent stand up from the table at the beginning of the game, the animations still run.
 - [Modified] Statistical data is saved only in normal and tournament rooms.
 - [Modified] The warning and confirmation box that appears in the room should always be adapted to the resizing of the room, plus its style has also been modified.
