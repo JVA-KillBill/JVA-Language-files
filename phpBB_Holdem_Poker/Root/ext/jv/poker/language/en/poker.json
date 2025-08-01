@@ -1,6 +1,5 @@
 {
 	"allin":						"All-in",
-	"already_sit":					"You’re already sitting!",
 	"already_used_ip":				"With your Own (%s)-IP address, %s user has sat down to play at this table.<br>The same IP address at a table is not allowed in the game.<br>However, you can go to another room to play.",
 	"auto":							"Automatic",
 	"auto_check_call":				"Check<br>Call",
@@ -35,7 +34,6 @@
 	"card_value_H":					"<span class='heart'></span>",
 	"card_value_S":					"<span class='spade'></span>",
 	"cards_error":					"An error occurred while reading the cards!",
-	"chair_occupied":				"This chair is already occupied!",
 	"check":						"Check",
 	"chips_format":					"KMBT",
 	"com_cards_deal":				"Cards are dealt…",
@@ -70,7 +68,6 @@
 	"end_use_period":				"The usage period is over!",
 	"err_browse_storage":			"The game is not allowed to be used for security reasons!<br><br>This is because the browser’s local and session storage are not available! If you want to play, you must allow your browser to use local and session storage!",
 	"err_dup_window":				"It is not allowed to use multiple windows at the same time!",
-	"err_stand_up":					"Stand up failed, please try again!",
 	"ext_disabled":					"The “phpBB Holdem Póker” extension has been disabled!",
 
 	"flood_limit":					"Please avoid frequent clicks!",
@@ -126,6 +123,11 @@
 	"room_close":					"All chairs are occupied in the room. No other users can enter the room. Please wait until at least one chair becomes empty.",
 	"room_close_tour":				"The tournament has already started. Additional users are not permitted to enter the room.",
 	"room_locked":					"This room was locked!",
+	"room_stop":					"",
+	"room_stop_jpt":				"",
+	"room_stop_normal":				"",
+	"room_stop_tn_jpt":				"",
+	"room_stop_tour":				"",
 	"royalflush":					"Royal Flush",
 
 	"send":							"Send",
@@ -170,8 +172,6 @@
 	"tip_sound_up":					"Sound on",
 	"tip_stand_up":					"Standing up from the table",
 	"tour_start_date":				"The tournament will start automatically<br><br>%s",
-
-	"user_action_error":			"Start an invalid process!",
 
 	"win_type_drill":				"Three of a Kind: %s",
 	"win_type_flush":				"Flush: %s%s",

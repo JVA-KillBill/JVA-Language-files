@@ -140,8 +140,10 @@ $lang = array_merge($lang, [
 	'JV_POKER_HELP_LEARNER_QUESTION'		=> 'Wat betekent het om in een leerkamer te zijn?',
 	'JV_POKER_HELP_LIMIT_ANSWER'			=> 'We hebben het antwoord op deze vraag al beschreven in “Hoe speel je poker?/Limietregels”.',
 	'JV_POKER_HELP_LIMIT_QUESTION'			=> 'Wat betekent Vaste limiet/Geen limiet?',
-	'JV_POKER_HELP_L_STATS_ANSWER'			=> 'Er worden geen statistische gegevens opgeslaan in de leer- en praktijkkamers.',
-	'JV_POKER_HELP_L_STATS_QUESTION'		=> 'Slaan de leer- en praktijkkamers ook statistische gegevens op?',
+	'JV_POKER_HELP_LP_CHIPS_ANSWER'			=> 'Ja, maar alleen als je een JackPot-ticket koopt.',
+	'JV_POKER_HELP_LP_CHIPS_QUESTION'		=> 'Kunnen mijn chips verminderen in de leer- en oefenruimtes?',
+	'JV_POKER_HELP_LP_STATS_ANSWER'			=> 'Er worden geen statistische gegevens opgeslaan in de leer- en praktijkkamers.',
+	'JV_POKER_HELP_LP_STATS_QUESTION'		=> 'Slaan de leer- en praktijkkamers ook statistische gegevens op?',
 	'JV_POKER_HELP_MOVE_TIME_ANSWER'		=> '“Bewegingstijd” is de tijd waarin een gebruiker kan beslissen om te checken, in te zetten of te folden. Als deze tijd is verstreken, zijn er twee automatische opties beschikbaar:
 	<ul>
 		<li>1. Als de actie van de vorige speler geen call was, controleren we automatisch.</li>

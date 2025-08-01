@@ -128,7 +128,7 @@ $lang = array_merge($lang, [
 	Amennyiben több nyertes is van, úgy részarányosan a nyeremény szétosztódik.<br><br>
 	<strong>Nem nyerhetsz a JackPot-ból, ha:</strong>
 	<ul>
-		<li>1. Nem vásároltad meg a JackPot sorsjegyet.</li>
+		<li>1. Nem vásároltad meg a JackPot jegyet.</li>
 		<li>2. Bedobtad a lapjaid.</li>
 		<li>3. Mindenki más bedobja a lapjait.</li>
 		<li>4. Nem a te lapjaid a legerősebb kéz.</li>
@@ -140,8 +140,10 @@ $lang = array_merge($lang, [
 	'JV_POKER_HELP_LEARNER_QUESTION'		=> 'Mit jelent, hogy tanuló szoba?',
 	'JV_POKER_HELP_LIMIT_ANSWER'			=> 'Erre a kérdésre már leírtuk a választ a „Hogyan kell játszani a pókert/Limitszabályok” alatt.',
 	'JV_POKER_HELP_LIMIT_QUESTION'			=> 'Mit jelent, hogy Fix/Nincs limit?',
-	'JV_POKER_HELP_L_STATS_ANSWER'			=> 'A tanuló és a gyakorló szobákban a statisztikai adatok nem kerülnek tárolásra.',
-	'JV_POKER_HELP_L_STATS_QUESTION'		=> 'A tanuló és a gyakorló szobák is mentik a statisztikai adatokat?',
+	'JV_POKER_HELP_LP_CHIPS_ANSWER'			=> 'Igen, de csak akkor, ha JackPot jegyet vásárolsz.',
+	'JV_POKER_HELP_LP_CHIPS_QUESTION'		=> 'A tanuló és gyakorló szobákban csökkenhet a zsetonjaim?',
+	'JV_POKER_HELP_LP_STATS_ANSWER'			=> 'A tanuló és gyakorló szobákban a statisztikai adatok nem kerülnek tárolásra.',
+	'JV_POKER_HELP_LP_STATS_QUESTION'		=> 'A tanuló és gyakorló szobák is mentik a statisztikai adatokat?',
 	'JV_POKER_HELP_MOVE_TIME_ANSWER'		=> 'A „Mozgási idő” az az idő amely alatt egy felhasználó megteheti a döntését, hogy passzol, tétet emel vagy esetleg bedobja a lapjait. Ha ez az idő letelik, akkor automatikusan két opció lehetséges:
 	<ul>
 		<li>1. Ha nincs hívás, akkor automatikusan passzolunk.</li>

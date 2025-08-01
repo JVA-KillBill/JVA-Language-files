@@ -1,6 +1,5 @@
 {
 	"allin":						"All-in",
-	"already_sit":					"Du sitzt bereits!",
 	"already_used_ip":				"Mit deiner eigenen IP-Adresse (%s)hat der Benutzer %s sich hingesetzt, um an diesen Tisch zu spielen.<br>Mehrfache Verwendung der selben IP-Adresse ist in diesem Spiel nicht erlaubt.<br>Allerdings kannst du in einen anderen Raum gehen, um zu spielen.",
 	"auto":							"Automatisch",
 	"auto_check_call":				"Schieben<br>Mitgehen",
@@ -35,7 +34,6 @@
 	"card_value_H":					"<span class='heart'></span>",
 	"card_value_S":					"<span class='spade'></span>",
 	"cards_error":					"Beim Lesen der Karten ist ein Fehler aufgetreten!",
-	"chair_occupied":				"Dieser Stuhl ist bereits besetzt!",
 	"check":						"Schieben",
 	"chips_format":					"KMBT",
 	"com_cards_deal":				"Karten werden ausgeteilt…",
@@ -70,7 +68,6 @@
 	"end_use_period":				"Die Nutzungszeit ist beendet!",
 	"err_browse_storage":			"Das Spiel darf aus Sicherheitsgründen nicht verwendet werden!<br><br>Der Grund hierfür ist, dass der lokale Speicher und der Sitzungsspeicher des Browsers nicht verfügbar sind! Um spielen zu können, musst du deinem Browser die Verwendung des lokalen Speichers und des Sitzungsspeichers erlauben!",
 	"err_dup_window":				"Es ist nicht erlaubt, gleichzeitig mehrere Fenster zu verwenden!",
-	"err_stand_up":					"Aufstehen fehlgeschlagen, versuche es bitte noch einmal.",
 	"ext_disabled":					"Die „phpBB Holdem Póker“-Extension wurde deaktiviert!",
 
 	"flood_limit":					"Bitte vermeide häufige Klicks!",
@@ -126,6 +123,11 @@
 	"room_close":					"Alle Stühle in diesem Raum sind besetzt. Es können keine weiteren Spieler den Raum betreten. Bitte warte, bis mindestens ein Stuhl frei wird.",
 	"room_close_tour":				"Das Turnier hat bereits begonnen. Zusätzlichen Spielern ist es nicht erlaubt, den Raum zu betreten.",
 	"room_locked":					"Dieser Raum wurde geschlossen!",
+	"room_stop":					"",
+	"room_stop_jpt":				"",
+	"room_stop_normal":				"",
+	"room_stop_tn_jpt":				"",
+	"room_stop_tour":				"",
 	"royalflush":					"Royal Flush",
 
 	"send":							"Senden",
@@ -170,8 +172,6 @@
 	"tip_sound_up":					"Ton an",
 	"tip_stand_up":					"Vom Tisch aufstehen",
 	"tour_start_date":				"Das Turnier startet automatisch<br><br>%s",
-
-	"user_action_error":			"Ungültiger Prozess gestartet!",
 
 	"win_type_drill":				"Drilling: %s",
 	"win_type_flush":				"Flush: %s%s",

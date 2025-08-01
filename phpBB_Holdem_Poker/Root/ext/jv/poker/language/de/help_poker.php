@@ -140,8 +140,10 @@ $lang = array_merge($lang, [
 	'JV_POKER_HELP_LEARNER_QUESTION'		=> 'Was bedeutet es, in einem Lernraum zu sein?',
 	'JV_POKER_HELP_LIMIT_ANSWER'			=> 'Die Antwort auf diese Frage wurde bereits in „Wie spielt man Poker?/Limitregeln“ beschrieben.',
 	'JV_POKER_HELP_LIMIT_QUESTION'			=> 'Was bedeutet Festes Limit/kein Limit?',
-	'JV_POKER_HELP_L_STATS_ANSWER'			=> 'In den Lern- und Übungsräumen werden keine statistischen Daten gespeichert.',
-	'JV_POKER_HELP_L_STATS_QUESTION'		=> 'Speichern Lern- und Übungsräume auch statistische Daten?',
+	'JV_POKER_HELP_LP_CHIPS_ANSWER'			=> '',
+	'JV_POKER_HELP_LP_CHIPS_QUESTION'		=> '',
+	'JV_POKER_HELP_LP_STATS_ANSWER'			=> 'In den Lern- und Übungsräumen werden keine statistischen Daten gespeichert.',
+	'JV_POKER_HELP_LP_STATS_QUESTION'		=> 'Speichern Lern- und Übungsräume auch statistische Daten?',
 	'JV_POKER_HELP_MOVE_TIME_ANSWER'		=> '„Sprungzeit“ ist der Zeitraum, während dessen ein Benutzer entscheiden kann, ob er schiebt, bietet oder passt. Wenn diese Zeit abgelaufen ist, stehen zwei automatische Optionen zur Verfügung:
 	<ul>
 		<li>1. War die Aktion des Vorgängers kein Call, schieben wir automatisch.</li>

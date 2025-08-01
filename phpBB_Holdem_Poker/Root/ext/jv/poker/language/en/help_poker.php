@@ -140,8 +140,10 @@ $lang = array_merge($lang, [
 	'JV_POKER_HELP_LEARNER_QUESTION'		=> 'What does it mean to be in a learner room?',
 	'JV_POKER_HELP_LIMIT_ANSWER'			=> 'We have already described the answer to this question in “How to play poker?/Limit rules”.',
 	'JV_POKER_HELP_LIMIT_QUESTION'			=> 'What means Fix limit/No limit?',
-	'JV_POKER_HELP_L_STATS_ANSWER'			=> 'No statistical data is stored in the learner and practice rooms.',
-	'JV_POKER_HELP_L_STATS_QUESTION'		=> 'Do learner and practice rooms also save statistical data?',
+	'JV_POKER_HELP_LP_CHIPS_ANSWER'			=> 'Yes, but only if you buy a JackPot ticket.',
+	'JV_POKER_HELP_LP_CHIPS_QUESTION'		=> 'Can my chips decrease in the learner and practice rooms?',
+	'JV_POKER_HELP_LP_STATS_ANSWER'			=> 'No statistical data is stored in the learner and practice rooms.',
+	'JV_POKER_HELP_LP_STATS_QUESTION'		=> 'Do learner and practice rooms also save statistical data?',
 	'JV_POKER_HELP_MOVE_TIME_ANSWER'		=> '“Move Time” is the time during which a user may decide to check, bet or fold. If this time expires, two automatic options are available:
 	<ul>
 		<li>1. If the action of the previous player was not a call, we automatically check.</li>

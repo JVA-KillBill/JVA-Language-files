@@ -1,6 +1,5 @@
 {
 	"allin":						"All-in",
-	"already_sit":					"Vous êtes déjà assis !",
 	"already_used_ip":				"Avec votre propre adresse (%s)-IP, L’utilisateur %s s’est assis pour jouer sur cette table.<br>La même adresse IP à une table n’est pas autorisée dans le jeu.<br>Vous pouvez cependant passer à une autre salle aller jouer.",
 	"auto":							"Automatique",
 	"auto_check_call":				"Check<br>Call",
@@ -35,7 +34,6 @@
 	"card_value_H":					"<span class='heart'></span>",
 	"card_value_S":					"<span class='spade'></span>",
 	"cards_error":					"Une erreur s’est produite lors de la lecture des cartes !",
-	"chair_occupied":				"Ce siège est déjà occupé !",
 	"check":						"Check",
 	"chips_format":					"KMBT",
 	"com_cards_deal":				"Les cartes sont distribuées…",
@@ -70,7 +68,6 @@
 	"end_use_period":				"La période d’utilisation est terminée !",
 	"err_browse_storage":			"Le jeu ne peut pas être utilisé pour des raisons de sécurité !<br><br>En effet, le stockage local et le stockage de session du navigateur ne sont pas disponibles ! Si vous voulez jouer, vous devez autoriser votre navigateur à utiliser le stockage local et le stockage de session !",
 	"err_dup_window":				"Il n’est pas permis d’utiliser multiple fenêtres en même temps !",
-	"err_stand_up":					"Se levé échoué, veuillez réessayer !",
 	"ext_disabled":					"L’extension « phpBB Holdem Póker » extension est désactivée !",
 
 	"flood_limit":					"Évitez les clics fréquents !",
@@ -126,6 +123,11 @@
 	"room_close":					"Toutes les chaises sont occupées dans la pièce. Aucun autre utilisateur ne peut entrer dans la salle. Veuillez attendre qu’au moins une chaise soit vide.",
 	"room_close_tour":				"Le tournoi a déjà commencé. Les utilisateurs supplémentaires ne sont pas autorisés à entrer dans la salle.",
 	"room_locked":					"Cette salle est cloturer !",
+	"room_stop":					"La salle a été arrêtée par un administrateur, donc vous deviez vous lever.",
+	"room_stop_jpt":				"Le prix du billet JackPot a été remboursé.",
+	"room_stop_normal":				"Tous vos jetons en jeu ont été remboursés.",
+	"room_stop_tn_jpt":				"De plus, le prix du billet JackPot a également été remboursé.",
+	"room_stop_tour":				"Le Buy-in du tournoi a été remboursé.",
 	"royalflush":					"Quinte Couleur",
 
 	"send":							"Envoie",
@@ -170,8 +172,6 @@
 	"tip_sound_up":					"Son activé",
 	"tip_stand_up":					"Levéz vous de la table",
 	"tour_start_date":				"Le tournoi commencera automatiquement<br><br>%s",
-
-	"user_action_error":			"Démarrer un processus invalide !",
 
 	"win_type_drill":				"Le Brelan : %s",
 	"win_type_flush":				"Couleur : %s%s",

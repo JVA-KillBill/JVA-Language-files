@@ -140,8 +140,10 @@ $lang = array_merge($lang, [
 	'JV_POKER_HELP_LEARNER_QUESTION'		=> 'Qu’est-ce que cela signifie d’être dans une salle d’apprentissage ?',
 	'JV_POKER_HELP_LIMIT_ANSWER'			=> 'Nous avons déjà décrit la réponse à cette question dans « Comment jouer au poker ?/Règles du Limit ».',
 	'JV_POKER_HELP_LIMIT_QUESTION'			=> 'Que signifie Limite fixe/Aucune limite ?',
-	'JV_POKER_HELP_L_STATS_ANSWER'			=> 'Aucune donnée statistique n’est stockée dans les salles d’apprentissage et les salles pratiques.',
-	'JV_POKER_HELP_L_STATS_QUESTION'		=> 'Les salles d’apprentissage et les salles pratiques stockent-elles également des données statistiques ?',
+	'JV_POKER_HELP_LP_CHIPS_ANSWER'			=> 'Oui, mais seulement si vous achetez un billet JackPot.',
+	'JV_POKER_HELP_LP_CHIPS_QUESTION'		=> 'Mes jetons peuvent-ils diminuer dans les salles d’apprentissage et d’exercice ?',
+	'JV_POKER_HELP_LP_STATS_ANSWER'			=> 'Aucune donnée statistique n’est stockée dans les salles d’apprentissage et les salles pratiques.',
+	'JV_POKER_HELP_LP_STATS_QUESTION'		=> 'Les salles d’apprentissage et les salles pratiques stockent-elles également des données statistiques ?',
 	'JV_POKER_HELP_MOVE_TIME_ANSWER'		=> 'Le « temps de mouvement » est le temps pendant lequel un utilisateur peut décider de checker, de miser ou de foldé les cartes. Une fois ce temps écoulé, deux options automatiques sont disponibles :
 	<ul>
 		<li>1. Si l’action du joueur précédent n’était pas un call, nous vérifierons automatiquement.</li>

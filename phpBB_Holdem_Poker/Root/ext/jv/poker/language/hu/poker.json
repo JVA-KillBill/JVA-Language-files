@@ -1,6 +1,5 @@
 {
 	"allin":						"All-in",
-	"already_sit":					"Te már ülsz!",
 	"already_used_ip":				"A te általad használt (%s)-IP címmel már %s felhasználó leült játszani ehhez az asztalhoz.<br>Azonos IP címmel egy asztalnál nem engedélyezett a játék.<br>Azonban átmehetsz egy másik szobába játszani.",
 	"auto":							"Automata",
 	"auto_check_call":				"Passz<br>Megad",
@@ -35,7 +34,6 @@
 	"card_value_H":					"<span class='heart'></span>",
 	"card_value_S":					"<span class='spade'></span>",
 	"cards_error":					"A kártyák beolvasása közben hiba keletkezett!",
-	"chair_occupied":				"Ez a szék már foglalt!",
 	"check":						"Passz",
 	"chips_format":					"EMBT",
 	"com_cards_deal":				"Kártyák leosztása…",
@@ -70,7 +68,6 @@
 	"end_use_period":				"A használati időszak véget ért!",
 	"err_browse_storage":			"A játék használata biztonsági okok miatt nem engedélyezett!<br><br>Ennek oka, hogy a böngésző helyi és a munkamenet tárolója nem elérhető! Ha szeretnél játszani, akkor engedélyezned kell a böngésződ számára, hogy használhassa a helyi és a munkamenet tárolót!",
 	"err_dup_window":				"Nem engedélyezett több ablak egyidejű használata!",
-	"err_stand_up":					"A felállítás sikertelen, kérlek próbáld újra!",
 	"ext_disabled":					"A „phpBB Holdem Póker” kiterjesztés kikapcsolásra került!",
 
 	"flood_limit":					"Kérlek kerüld a gyakori kattintásokat!",
@@ -107,7 +104,7 @@
 	"next_blinds":					"Következő vakszint",
 	"next_hand":					"Következő leosztás %s másodperc múlva.",
 	"no":							"Nem",
-	"no_chips_jp_ticket":			"Nem vásároltad meg a JackPot sorsjegyet!",
+	"no_chips_jp_ticket":			"Nem vásároltad meg a JackPot jegyet!",
 	"no_chips_play":				"Nincs elég zsetonod, hogy játssz ennél az asztalnál!",
 	"no_chips_tour":				"Nincs elég zsetonod, hogy elindulj a versenyen!",
 	"no_connection":				"A szerver jelenleg nem elérhető!",
@@ -126,6 +123,11 @@
 	"room_close":					"A szobában az összes szék foglalt. További felhasználó már nem léphet be a szobába. Kérlek várj, míg megüresedik legalább egy szék.",
 	"room_close_tour":				"A verseny már elkezdődött. További felhasználó már nem léphet be a szobába.",
 	"room_locked":					"Ezt a szobát zárolták!",
+	"room_stop":					"A szobát egy adminisztrátor megállította ezért felállításra kerültél.",
+	"room_stop_jpt":				"A JackPot jegy árát visszatérítettük.",
+	"room_stop_normal":				"A játékban lévő összes zsetonodat visszatérítettük.",
+	"room_stop_tn_jpt":				"Továbbá a JackPot jegy árát is visszatérítettük.",
+	"room_stop_tour":				"A verseny nevezési díját visszatérítettük.",
 	"royalflush":					"Royal Flush",
 
 	"send":							"Küld",
@@ -170,8 +172,6 @@
 	"tip_sound_up":					"Hang bekapcsolása",
 	"tip_stand_up":					"Felállás az asztaltól",
 	"tour_start_date":				"A verseny automatikus indításának időpontja<br><br>%s",
-
-	"user_action_error":			"Érvénytelen folyamat indítása!",
 
 	"win_type_drill":				"Drill: %s",
 	"win_type_flush":				"Flush: %s%s",

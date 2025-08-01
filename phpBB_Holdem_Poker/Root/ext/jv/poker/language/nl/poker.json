@@ -1,6 +1,5 @@
 {
 	"allin":						"All-in",
-	"already_sit":					"Je zit al!",
 	"already_used_ip":				"Met je eigen (%s)-IP adres, is %s gebruiker gaan zitten om aan deze tafel te spelen.<br>Hetzelfde IP-adres aan een tafel is niet toegestaan in het spel.<br>Je kunt echter naar een andere kamer gaan om te spelen.",
 	"auto":							"Automatisch",
 	"auto_check_call":				"Check<br>Call",
@@ -35,7 +34,6 @@
 	"card_value_H":					"<span class='heart'></span>",
 	"card_value_S":					"<span class='spade'></span>",
 	"cards_error":					"Er is een fout opgetreden bij het lezen van de kaarten!",
-	"chair_occupied":				"Deze stoel is al bezet!",
 	"check":						"Controle",
 	"chips_format":					"KMBT",
 	"com_cards_deal":				"Kaarten worden gedeeld…",
@@ -70,7 +68,6 @@
 	"end_use_period":				"De gebruiksperiode is voorbij!",
 	"err_browse_storage":			"Het spel mag om veiligheidsredenen niet worden gebruikt!<br><br>Dit komt omdat de lokale en sessieopslag van de browser niet beschikbaar zijn! Als je wilt spelen, moet je je browser toestaan om lokale en sessieopslag te gebruiken!",
 	"err_dup_window":				"Het is niet toegestaan om meerdere vensters tegelijkertijd te gebruiken!",
-	"err_stand_up":					"Opstaan mislukt, probeer het opnieuw!",
 	"ext_disabled":					"De “phpBB Holdem Póker” extensie is uitgeschakeld!",
 
 	"flood_limit":					"Vermijd frequente klikken!",
@@ -126,6 +123,11 @@
 	"room_close":					"Alle stoelen in de kamer zijn bezet. Er kunnen geen andere gebruikers de kamer betreden. Wacht tot ten minste één stoel leeg is.",
 	"room_close_tour":				"Het toernooi is al begonnen. Extra gebruikers mogen de kamer niet betreden.",
 	"room_locked":					"Deze kamer is gesloten!",
+	"room_stop":					"De kamer werd stopgezet door een administrator, dus je moest opstaan.",
+	"room_stop_jpt":				"De prijs van het JackPot-ticket is terugbetaald.",
+	"room_stop_normal":				"Al je chips in spel zijn terugbetaald.",
+	"room_stop_tn_jpt":				"Bovendien is de prijs van het JackPot-ticket ook terugbetaald.",
+	"room_stop_tour":				"Het toernooi Buy-in is terugbetaald.",
 	"royalflush":					"Royal Flush",
 
 	"send":							"Zend",
@@ -170,8 +172,6 @@
 	"tip_sound_up":					"Geluid aan",
 	"tip_stand_up":					"Opstaan van de tafel",
 	"tour_start_date":				"Het toernooi zal automatisch starten<br><br>%s",
-
-	"user_action_error":			"Start een ongeldig proces!",
 
 	"win_type_drill":				"Three of a Kind: %s",
 	"win_type_flush":				"Flush: %s%s",
