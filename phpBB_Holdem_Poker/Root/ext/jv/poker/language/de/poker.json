@@ -123,7 +123,7 @@
 	"room_close":					"Alle Stühle in diesem Raum sind besetzt. Es können keine weiteren Spieler den Raum betreten. Bitte warte, bis mindestens ein Stuhl frei wird.",
 	"room_close_tour":				"Das Turnier hat bereits begonnen. Zusätzlichen Spielern ist es nicht erlaubt, den Raum zu betreten.",
 	"room_locked":					"Dieser Raum wurde geschlossen!",
-	"room_stop":					"phpBB Holdem Póker - Verwalten",
+	"room_stop":					"Der Raum wurde von einem Administrator geschlossen, du musstest also aufstehen.",
 	"room_stop_jpt":				"Der Preis des Jackpot-Tickets wurde zurückerstattet.",
 	"room_stop_normal":				"Alle deine im Spiel befindlichen Chips wurden zurückerstattet.",
 	"room_stop_tn_jpt":				"Wir haben auch den Preis des Jackpot-Tickets erstattet.",
