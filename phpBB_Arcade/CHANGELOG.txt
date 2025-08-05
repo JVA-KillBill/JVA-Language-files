@@ -1,5 +1,14 @@
 # Changelog
 
+## 7.8.1 - 2025-08-05
+
+- [Fixed] Play game - If we have turned off the super champion display, the box is still visible without the data.
+- [Fixed] Play game - If both the Game Intro and game scores display are set to 0, the game champion is not displayed.
+
+- [Modified] Additional PHP 8.3 development.
+
+- [Updated] Ruffle emulator (2025-08-05) for release.
+
 ## 7.8.0 - 2025-07-01
 
 - [Fixed] ACP/Arcade/Remove personal data - In case of an error, the confirmation was not successful, so the error message was not displayed.
