@@ -97,7 +97,7 @@ $lang = array_merge($lang, [
 	<ul>
 		<li>1. Du kannst keine Chips aus einem Übungsraum entnehmen, sodass deine noch eingelagerten Chips storniert werden.</li>
 		<li>2. Wenn du aus einem normalen Raum geworfen wirst, werden deine restlichen Chips natürlich zurückgegeben.</li>
-		<li>3. Wenn du vor Turnierbeginn aus dem Turnierraum geworfen wirst, bekommst du dein Buy-In zurück. Wenn das Turnier bereits begonnen hat, verlierst du das Buy-In.</li>
+		<li>3. Wenn du vor Turnierbeginn aus dem Turnierraum geworfen wirst, bekommst du dein Buy-in zurück. Wenn das Turnier bereits begonnen hat, verlierst du das Buy-in.</li>
 	</ul>',
 	'JV_POKER_HELP_DROP_TOKEN_QUESTION'		=> 'Was passiert mit meinen Chips, wenn ich aus dem Spiel geworfen werde?',
 	'JV_POKER_HELP_DROP_USER_ANSWER'		=> 'Für diesen Fall gibt es 3 Möglichkeiten:
@@ -160,7 +160,7 @@ $lang = array_merge($lang, [
 		<li>2. Wenn du nicht rechtzeitig zurückkehren kannst, wird dein Einsatz in eine Schutzposition gebracht, du kannst jedoch keine weiteren Einsätze tätigen. Auf diese Weise hast du die Chance, mit deinem bereits getätigten Einsatz zu gewinnen, auch wenn du während des gesamten restlichen Spiels offline bleibst.</li>
 	</ul>',
 	'JV_POKER_HELP_OFFLINE_BP_QUESTION'		=> 'Was passiert mit meinem Einsatz, wenn meine Internetverbindung unterbrochen wird?',
-	'JV_POKER_HELP_OFFLINE_S_ANSWER'		=> 'Wenn der Server nach weniger als 10 Minuten wieder verfügbar ist, können wiederkehrende Benutzer das Spiel dort fortsetzen, wo sie aufgehört haben. Für den Fall, dass der Server für mindestens 10 Minuten nicht verfügbar ist, wird das Turnier gelöscht und alle Benutzer, die noch im Turnier waren, erhalten ihr Buy-In zurück.',
+	'JV_POKER_HELP_OFFLINE_S_ANSWER'		=> 'Wenn der Server nach weniger als 10 Minuten wieder verfügbar ist, können wiederkehrende Benutzer das Spiel dort fortsetzen, wo sie aufgehört haben. Für den Fall, dass der Server für mindestens 10 Minuten nicht verfügbar ist, wird das Turnier gelöscht und alle Benutzer, die noch im Turnier waren, erhalten ihr Buy-in zurück.',
 	'JV_POKER_HELP_OFFLINE_S_QUESTION'		=> 'Was passiert, wenn der Server nicht erreichbar ist?',
 	'JV_POKER_HELP_OFFLINE_U_ANSWER'		=> 'In diesem Fall kann Folgendes passieren:
 	<ul>
