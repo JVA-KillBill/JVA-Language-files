@@ -97,7 +97,7 @@ $lang = array_merge($lang, [
 	<ul>
 		<li>1. You can not take out chips from a practice room so your chips that are still in will be canceled.</li>
 		<li>2. Of course, if you are thrown out of a normal room, your remaining chips will be returned.</li>
-		<li>3. If they throw me out of the tournament room before the start of the tournament, you will get your Buy-In back. If the tournament has already started, you will lose the Buy-In.</li>
+		<li>3. If they throw me out of the tournament room before the start of the tournament, you will get your Buy-in back. If the tournament has already started, you will lose the Buy-in.</li>
 	</ul>',
 	'JV_POKER_HELP_DROP_TOKEN_QUESTION'		=> 'What happens to my chips if I am thrown out of the game?',
 	'JV_POKER_HELP_DROP_USER_ANSWER'		=> 'In this case, 3 options are available:
@@ -160,7 +160,7 @@ $lang = array_merge($lang, [
 		<li>2. If you are unable to return in time, your bet will be placed in a defensive position, but you will not be able to place any more bets. This way, you have a chance to win with your already placed bet even if you remain offline throughout the game.</li>
 	</ul>',
 	'JV_POKER_HELP_OFFLINE_BP_QUESTION'		=> 'What happens to my bet if my internet connection is lost?',
-	'JV_POKER_HELP_OFFLINE_S_ANSWER'		=> 'If the server is available again after less than 10 minutes, returning users can continue the game from where they left off. In the event that the server is not available for at least 10 minutes, the tournament will be deleted and all users who were still in the tournament will receive their Buy-In back.',
+	'JV_POKER_HELP_OFFLINE_S_ANSWER'		=> 'If the server is available again after less than 10 minutes, returning users can continue the game from where they left off. In the event that the server is not available for at least 10 minutes, the tournament will be deleted and all users who were still in the tournament will receive their Buy-in back.',
 	'JV_POKER_HELP_OFFLINE_S_QUESTION'		=> 'What happens if the server is unavailable?',
 	'JV_POKER_HELP_OFFLINE_U_ANSWER'		=> 'In this case, the following can happen:
 	<ul>

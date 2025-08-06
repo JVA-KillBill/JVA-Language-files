@@ -61,7 +61,7 @@ $lang = array_merge($lang, [
 	'JV_POKER_HELP_BET_BACK_QUESTION'		=> 'Een deel van mijn inzet kwam terug naar mij en niet naar de Pot, waarom?',
 	'JV_POKER_HELP_BET_BANK_ANSWER'			=> 'Dit kan gebeuren als er overtollige chips in je inzet zijn die niemand heeft aangesproken en je bent opgestaan, in dit geval zullen de overtollige chips naar de bank gaan.',
 	'JV_POKER_HELP_BET_BANK_QUESTION'		=> 'Een deel van mijn inzet ging naar de dealer en niet naar de Pot, waarom?',
-	'JV_POKER_HELP_BLIND_ANSWER'			=> 'De Small Blind/Big Blind zijn altijd afhankelijk van het minimale en maximale startbedrag. Het minimale startbedrag (buy-in) is altijd 10x de big blind, terwijl het maximale startbedrag 200x de big blind is. Als de minimum- en maximumwaarden gelijk zijn, hangt het natuurlijk van de instelling af of de minimum-, medium- of maximumwaarde als basis wordt gebruikt. De small blind is altijd de helft van de big blind. Deze regel verschilt in de toernooikamer, waar de Small Blind/Big Blind altijd twee keer de basiswaarde is. Daarnaast groeit in de toernooizaal de Small Blind/Big Blind gestaag gedurende het toernooi.',
+	'JV_POKER_HELP_BLIND_ANSWER'			=> 'De Small Blind/Big Blind zijn altijd afhankelijk van het minimale en maximale startbedrag. Het minimale startbedrag (Buy-in) is altijd 10x de big blind, terwijl het maximale startbedrag 200x de big blind is. Als de minimum- en maximumwaarden gelijk zijn, hangt het natuurlijk van de instelling af of de minimum-, medium- of maximumwaarde als basis wordt gebruikt. De small blind is altijd de helft van de big blind. Deze regel verschilt in de toernooikamer, waar de Small Blind/Big Blind altijd twee keer de basiswaarde is. Daarnaast groeit in de toernooizaal de Small Blind/Big Blind gestaag gedurende het toernooi.',
 	'JV_POKER_HELP_BLIND_QUESTION'			=> 'Small/Big Blind bets tussen kamers zijn verschillend, waarom?',
 	'JV_POKER_HELP_BLOCK_GAME'				=> 'Problemen met pokerspel',
 	'JV_POKER_HELP_BLOCK_GENERAL'			=> 'Algemene vragen',
@@ -97,7 +97,7 @@ $lang = array_merge($lang, [
 	<ul>
 		<li>1. Je kunt geen chips uit een oefenkamer halen, dus je chips die er nog zijn, worden geannuleerd.</li>
 		<li>2. Natuurlijk, als je uit een normale kamer wordt gegooid, krijg je je resterende chips terug.</li>
-		<li>3. Als ze me voor het begin van het toernooi uit de toernooizaal gooien, krijg je je buy-in terug. Als het toernooi al is begonnen, verlies je de Buy-In.</li>
+		<li>3. Als ze me voor het begin van het toernooi uit de toernooizaal gooien, krijg je je Buy-in terug. Als het toernooi al is begonnen, verlies je de Buy-in.</li>
 	</ul>',
 	'JV_POKER_HELP_DROP_TOKEN_QUESTION'		=> 'Wat gebeurt er met mijn chips als ik uit het spel word gegooid?',
 	'JV_POKER_HELP_DROP_USER_ANSWER'		=> 'In dit geval zijn er 3 opties beschikbaar:
@@ -160,7 +160,7 @@ $lang = array_merge($lang, [
 		<li>2. Als je niet op tijd kunt terugkeren, wordt je weddenschap in een beschermende positie geplaatst maar kun je geen weddenschappen meer plaatsen. Op deze manier heb je een kans om te winnen met je reeds geplaatste weddenschap, zelfs als je tijdens het spel offline blijft.</li>
 	</ul>',
 	'JV_POKER_HELP_OFFLINE_BP_QUESTION'		=> 'Wat gebeurt er met mijn weddenschap als mijn internetverbinding wegvalt?',
-	'JV_POKER_HELP_OFFLINE_S_ANSWER'		=> 'Als de server na minder dan 10 minuten weer beschikbaar is, kunnen terugkerende gebruikers het spel voortzetten waar ze waren gebleven. In het geval dat de server minstens 10 minuten niet beschikbaar is, wordt het toernooi verwijderd en krijgen alle gebruikers die nog in het toernooi zaten hun buy-in terug.',
+	'JV_POKER_HELP_OFFLINE_S_ANSWER'		=> 'Als de server na minder dan 10 minuten weer beschikbaar is, kunnen terugkerende gebruikers het spel voortzetten waar ze waren gebleven. In het geval dat de server minstens 10 minuten niet beschikbaar is, wordt het toernooi verwijderd en krijgen alle gebruikers die nog in het toernooi zaten hun Buy-in terug.',
 	'JV_POKER_HELP_OFFLINE_S_QUESTION'		=> 'Wat gebeurt er als de server niet beschikbaar is?',
 	'JV_POKER_HELP_OFFLINE_U_ANSWER'		=> 'In dit geval kan het volgende gebeuren:
 	<ul>
