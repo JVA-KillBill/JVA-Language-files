@@ -258,13 +258,13 @@ $game_data = [
 																<li>Ga naar het beheerderspaneel en klik op het menu-item “Aanpassen” in de link “Inschakelen” in phpBB Arcade, om phpBB Arcade te installeren.</li>
 															</ul>',
 	'ARCADE_ACP_HELP_FAQ_INSTALL_INSTALL_QUESTION'		=> 'Hoe installeer ik de phpBB Arcade?',
-	'ARCADE_ACP_HELP_FAQ_INSTALL_UNINSTALL_ANSWER'		=> 'Ga naar het beheerder configuratiescherm en klik op het menu “Aanpassen”, vervolgens op de link “Uitschakelen” in phpBB Arcade en vervolgens op de link “Gegevens verwijderen” en verwijder vervolgens alle phpBB Arcade bestanden van de server.',
+	'ARCADE_ACP_HELP_FAQ_INSTALL_UNINSTALL_ANSWER'		=> 'Ga naar het beheerder configuratiescherm en klik op het menu “Aanpassingen”, vervolgens op de link “Uitschakelen” in phpBB Arcade en vervolgens op de link “Gegevens verwijderen” en verwijder vervolgens alle phpBB Arcade bestanden van de server.',
 	'ARCADE_ACP_HELP_FAQ_INSTALL_UNINSTALL_QUESTION'	=> 'Hoe kan ik phpBB Arcade verwijderen?',
 	'ARCADE_ACP_HELP_FAQ_INSTALL_UPDATE_ANSWER'			=> '<ul>
 																<li>Download de laatste versie en pak die uit.</li>
-																<li>Ga naar het beheerderspaneel en klik op het “Aanpassen” menu, klik er binnenin op de “uitschakelen” link om de phpBB Arcade uit te schakelen.</li>
+																<li>Ga naar het beheerderspaneel en klik op het “Aanpassingen” menu, klik er binnenin op de “uitschakelen” link om de phpBB Arcade uit te schakelen.</li>
 																<li>Kopieer de bestanden naar je server naar de map “[ROOT]/” van het forum terwijl je de mappenstructuur behoudt.</li>
-																<li>Ga naar het Beheerderspaneel en klik op het “Aanpassen” menu, klik er binnenin op de phpBB Arcade “Inschakelen” en je phpBB Arcade is bijgewerkt.</li>
+																<li>Ga naar het Beheerderspaneel en klik op het “Aanpassingen” menu, klik er binnenin op de phpBB Arcade “Inschakelen” en je phpBB Arcade is bijgewerkt.</li>
 															</ul>',
 	'ARCADE_ACP_HELP_FAQ_INSTALL_UPDATE_QUESTION'		=> 'Hoe update ik de phpBB Arcade?',
 	'ARCADE_ACP_HELP_FAQ_MODULES_ADD_AUTH_ANSWER'		=> 'Zodra de phpBB Arcade is geïnstalleerd, moet je de permissies in het ACP instellen om deze te gebruiken. De arcade maakt gebruik van op categorieën gebaseerde permissies, die de op het forum gebaseerde permissies nabootsen, die phpBB3 gebruikt, inclusief het gebruik van rollen. Je moet ook globale phpBB Arcade gebruikers-/groeps permissies instellen. Je kunt ook beheerders permissies gebruiken om gebruikers-/groepstoegang tot phpBB Arcade ACP-modules in te stellen.',
