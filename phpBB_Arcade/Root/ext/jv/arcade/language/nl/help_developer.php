@@ -255,7 +255,7 @@ $game_data = [
 	'ARCADE_ACP_HELP_FAQ_INSTALL_INSTALL_ANSWER'		=> '<ul>
 																<li>Download de laatste versie en pak die uit.</li>
 																<li>Kopieer de bestanden naar de server in de map “[ROOT]/” van het forum met behoud van de structuur van mappen.</li>
-																<li>Ga naar het beheerderspaneel en klik op het menu-item “Aanpassen” in de link “Inschakelen” in phpBB Arcade, om phpBB Arcade te installeren.</li>
+																<li>Ga naar het beheerderspaneel en klik op het menu-item “Aanpassingen” in de link “Inschakelen” in phpBB Arcade, om phpBB Arcade te installeren.</li>
 															</ul>',
 	'ARCADE_ACP_HELP_FAQ_INSTALL_INSTALL_QUESTION'		=> 'Hoe installeer ik de phpBB Arcade?',
 	'ARCADE_ACP_HELP_FAQ_INSTALL_UNINSTALL_ANSWER'		=> 'Ga naar het beheerder configuratiescherm en klik op het menu “Aanpassingen”, vervolgens op de link “Uitschakelen” in phpBB Arcade en vervolgens op de link “Gegevens verwijderen” en verwijder vervolgens alle phpBB Arcade bestanden van de server.',
