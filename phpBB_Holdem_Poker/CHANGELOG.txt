@@ -319,7 +319,7 @@ Deleted next files:
 - [Fixed] Keep the last check call.
 - [Fixed] Different smaller amounts than big blind, incorrect game evaluation.
 
-- [Added] If the administrator changes the Buy-in amount before starting the tournament, then all user stand up from the table.
+- [Added] If the administrator changes the Buy-in amount before starting the tournament, then all users stand up from the table.
 - [Added] At the end of a tournament, the winning user stand up from the table automatically.
 - [Added] Congratulatory message to the winner of the tournament.
 - [Added] Surplus refunds message.
