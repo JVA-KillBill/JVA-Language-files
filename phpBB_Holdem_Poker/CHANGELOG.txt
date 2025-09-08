@@ -59,14 +59,14 @@
 - [Modified] Bets placements starts from zero in every round.
 - [Modified] The check timestamp of the rooms already uses microtime.
 - [Modified] Determining the time of the next tournament.
-- [Modified] During a tournament or normal game, if the server goes offline after the auto stand up all users, the game will be closed and all of the in-game users chips will be refunded as if the game had never taken place.
+- [Modified] During a tournament or normal game, if the server goes offline after the auto stand up of all users, the game will be closed and all of the in-game users chips will be refunded as if the game had never took place.
 - [Modified] If a user goes offline and blinking gray, it should not affect the border around the avatar.
 - [Modified] A user is considered offline if his connection to the server is lost for 12 seconds, now we have increased this from 12 seconds to 15 seconds.
 - [Modified] If our opponent stand up from the table at the beginning of the game, the animations still run.
 - [Modified] Statistical data is saved only in normal and tournament rooms.
 - [Modified] The warning and confirmation box that appears in the room should always be adapted to the resizing of the room, plus its style has also been modified.
 - [Modified] The fold cards will no longer be displayed during further play, the red hand will be displayed instead.
-- [Modified] We have sped up the game by removing the small/big blind steps, instead the small/big blind are displayed when the cards are dealt.
+- [Modified] We have speed up the game by removing the small/big blind steps, instead the small/big blind are displayed when the cards are dealt.
 - [Modified] New JackPot System - (Users can buy JackPot tickets and win a certain percentage of the JackPot.)
 - [Modified] If two users are playing, the small/big blind should always be exchanged between the two users for a new hand, even if the player stands up and sits down.
 - [Modified] FAQ - It takes into account some settings and the description is displayed accordingly.
@@ -74,7 +74,7 @@
 - [Modified] Normal and tournament rooms can now be used even without installing the "Point system".
 - [Modified] Installed styles always inherit the basic images, except for the sit down, background and table images.
 - [Modified] Many small images have been deleted and an atlas image is used instead, so the game's preload time has been significantly reduced.
-- [Modified] If we remove the permission to play from a player, he can still watch the game. If the player is playing, it is stand up immediately from the practice room, and if he is playing on a normal room, it is stand up from the table only at the end of the game.
+- [Modified] If we remove the permission to play from a player, he can still watch the game. If the player is playing, he must stand up immediately from the practice room, and if he is playing on a normal room, he must stand up from the table only at the end of the game.
 - [Modified] Appearance: If the server is not available.
 						 If we don't have an internet connection.
 						 If we don't have enough chips to sit down.
@@ -107,15 +107,15 @@
 - [Added] ACP/Poker/Rooms settings/Security settings/ Full safety bet - Can be turned enable/disable, when enabled, the winning player surplus is also returned to the user before his bet is placed in the Pot. This option is always active in case of multiple winners.
 - [Added] ACP/Poker/Rooms settings/Game settings/ Display chip discs - Provides the ability to enable and disable the appearance of chips discs.
 - [Added] ACP/Poker/Rooms settings/Game settings/ Display warning bar - Allows you to turn on/off the red warning bar on the movement time display.
-- [Added] ACP/Poker/Rooms settings/Game settings/ Start warning sound - Can set when the warning sound for the movement time should start percentage or fixed time.
+- [Added] ACP/Poker/Rooms settings/Game settings/ Start warning sound - Can set when the warning sound for the movement time should start on a percentage selection time or fixed time.
 - [Added] ACP/Poker/Rooms settings/Game settings/ JackPot system.
 - [Added] ACP/Poker/Rooms settings/Game settings/ JackPot ticket price.
 - [Added] ACP/Poker/Rooms settings/Game settings/ JackPot minimum.
 - [Added] ACP/Poker/Rooms settings/Game settings/ Profit system
-- [Added] ACP/Poker/Rooms settings/Game settings/ Offline users - Offline users are automatically stand up based on the set hand number. (This new setting replaced the old "Drop time" setting).
+- [Added] ACP/Poker/Rooms settings/Game settings/ Offline users - Offline users are automatically stand up based on the set hand number. (This new setting replaces the old "Drop time" setting).
 - [Added] ACP/Poker/Rooms settings/Game settings/ Inactive users - Inactive users are automatically stand up based on the set hand number. (This new setting replaced the old "Inactivity time" setting).
 - [Added] ACP/Poker/Load settings - Chips exchange limit.
-- [Added] ACP/Poker/Manage rooms/(Learner, Practice and Normal room)/ new setting option: Fixed Buy-in Amount - if no then, the Buy-in amount can be chosen freely within a given limit.
+- [Added] ACP/Poker/Manage rooms/(Learner, Practice and Normal room)/ new setting option: Fixed Buy-in Amount - if no, then the Buy-in amount can be chosen freely within a given limit.
 - [Added] ACP/Poker/Manage rooms/(Learner, Practice and Normal room)/ new setting option: Size of amount	  - If we use a fixed limit, we can specify whether we want to use the minimum, medium or maximum value.
 - [Added] ACP/Poker/Manage rooms - Detailed logging of all hands in each room.
 - [Added] ACP/Poker/Manage rooms - Time of blind growth (Only for tournament rooms).
@@ -177,7 +177,7 @@
 				User name color configuration.
 				Automatic start configuration.
 				Time of card presentation.
-- [Deleted] The following totals have been removed from the statistics: (calls, raises, checks, allins and folds).
+- [Deleted] The following totals have been removed from the statistics: (calls, raises, checks, All-ins and folds).
 - [Deleted] Dealer shoutbox messages: Player join and left the table.
 - [Deleted] ext/jv/poker/core/room_auto.php
 - [Deleted] ext/jv/poker/core/room_user.php
