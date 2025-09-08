@@ -61,7 +61,7 @@ $lang = array_merge($lang, [
 	'JV_POKER_HELP_BET_BACK_QUESTION'		=> 'Une partie de ma mise m’est revenue et non au Pot, pourquoi ?',
 	'JV_POKER_HELP_BET_BANK_ANSWER'			=> 'Cela peut se produire s’il y a des jetons excédentaires dans votre mise que personne n’a appelés et que vous vous êtes levé, dans ce cas, les jetons excédentaires iront à la banque.',
 	'JV_POKER_HELP_BET_BANK_QUESTION'		=> 'Une partie de ma mise est allée au croupier et non au Pot, pourquoi ?',
-	'JV_POKER_HELP_BLIND_ANSWER'			=> 'Le Petite Blind/Grande Blind dépend toujours du montant de départ minimum et maximum. Le montant de départ minimum (buy-in) est toujours de 10x la grande blind, tandis que le montant de départ maximum est de 200x le grande blind. Bien sûr, si les valeurs minimale et maximale sont identiques, cela dépend du réglage si la valeur minimale, moyenne ou maximale est utilisée comme base. La grande blind est toujours la moitié de la grosse blind. Cette règle diffère dans la salle de tournoi, où le Petite Blind/Grande Blind est toujours le double de la valeur de base. De plus, le Petite Blind/Grande Blind dans la salle de tournoi augmente régulièrement tout au long du tournoi.',
+	'JV_POKER_HELP_BLIND_ANSWER'			=> 'Le Petite Blind/Grande Blind dépend toujours du montant de départ minimum et maximum. Le montant de départ minimum (Buy-in) est toujours de 10x la grande blind, tandis que le montant de départ maximum est de 200x le grande blind. Bien sûr, si les valeurs minimale et maximale sont identiques, cela dépend du réglage si la valeur minimale, moyenne ou maximale est utilisée comme base. La grande blind est toujours la moitié de la grosse blind. Cette règle diffère dans la salle de tournoi, où le Petite Blind/Grande Blind est toujours le double de la valeur de base. De plus, le Petite Blind/Grande Blind dans la salle de tournoi augmente régulièrement tout au long du tournoi.',
 	'JV_POKER_HELP_BLIND_QUESTION'			=> 'Petite/grande blind bets entre les salles sont différentes, pourquoi ?',
 	'JV_POKER_HELP_BLOCK_GAME'				=> 'Problèmes avec le jeu de poker',
 	'JV_POKER_HELP_BLOCK_GENERAL'			=> 'Questions générales',
@@ -97,7 +97,7 @@ $lang = array_merge($lang, [
 	<ul>
 		<li>1. Vous ne pouvez pas sortir les jetons d’une salle d’entraînement, donc tous les jetons qu’il vous reste seront annulés.</li>
 		<li>2. Bien sûr, si vous êtes expulsé d’une salle normale, vous récupérerez vos jetons restants.</li>
-		<li>3. S’ils m’expulsent du tournoi avant le début du tournoi, vous récupérerez votre buy-in. Si le tournoi a déjà commencé, vous perdrez le buy-in.</li>
+		<li>3. S’ils m’expulsent du tournoi avant le début du tournoi, vous récupérerez votre Buy-in. Si le tournoi a déjà commencé, vous perdrez le Buy-in.</li>
 	</ul>',
 	'JV_POKER_HELP_DROP_TOKEN_QUESTION'		=> 'Qu’advient-il de mes jetons si je suis expulsée du jeu ?',
 	'JV_POKER_HELP_DROP_USER_ANSWER'		=> 'Dans ce cas, 3 options sont disponibles :
@@ -160,7 +160,7 @@ $lang = array_merge($lang, [
 		<li>2. Si vous n’êtes pas en mesure de revenir à temps, votre pari sera placé en position de protection, mais vous ne pourrez plus placer de paris. De cette façon, vous avez une chance de gagner avec votre pari déjà placé même si vous restez hors ligne tout au long du jeu.</li>
 	</ul>',
 	'JV_POKER_HELP_OFFLINE_BP_QUESTION'		=> 'Qu’advient-il de mon pari si ma connexion Internet est perdue ?',
-	'JV_POKER_HELP_OFFLINE_S_ANSWER'		=> 'Si le serveur est à nouveau disponible après moins de 10 minutes, les utilisateurs de retour peuvent reprendre le jeu là où ils l’ont laissé. Dans le cas où le serveur est en panne pendant au moins 10 minutes, le tournoi sera supprimé et tous les utilisateurs qui étaient encore dans le tournoi recevront un remboursement de leur buy-in.',
+	'JV_POKER_HELP_OFFLINE_S_ANSWER'		=> 'Si le serveur est à nouveau disponible après moins de 10 minutes, les utilisateurs de retour peuvent reprendre le jeu là où ils l’ont laissé. Dans le cas où le serveur est en panne pendant au moins 10 minutes, le tournoi sera supprimé et tous les utilisateurs qui étaient encore dans le tournoi recevront un remboursement de leur Buy-in.',
 	'JV_POKER_HELP_OFFLINE_S_QUESTION'		=> 'Que se passe-t-il si le serveur est en panne ?',
 	'JV_POKER_HELP_OFFLINE_U_ANSWER'		=> 'Dans ce cas, les événements suivants peuvent se produire :
 	<ul>

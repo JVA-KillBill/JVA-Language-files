@@ -87,6 +87,7 @@
 - [Modified] Database optimization.
 - [Modified] Javascript optimization and modernization.
 - [Modified] The license of the language files has been changed to GPL-2.0.
+- [Modified] Additional PHP 8.3 development.
 - [Modified] Requirement phpBB 3.3.15 or later and JVA-Core 1.0.19 or later.
 
 - [Added] ACP/Poker/ Statistic - (Usable - Learner, Practice, Normal and Tournament rooms).
@@ -114,7 +115,7 @@
 - [Added] ACP/Poker/Rooms settings/Game settings/ Offline users - Offline users are automatically stand up based on the set hand number. (This new setting replaced the old "Drop time" setting).
 - [Added] ACP/Poker/Rooms settings/Game settings/ Inactive users - Inactive users are automatically stand up based on the set hand number. (This new setting replaced the old "Inactivity time" setting).
 - [Added] ACP/Poker/Load settings - Chips exchange limit.
-- [Added] ACP/Poker/Manage rooms/(Learner, Practice and Normal room)/ new setting option: Fixed Buy-in Amount - if no then, the buy-in amount can be chosen freely within a given limit.
+- [Added] ACP/Poker/Manage rooms/(Learner, Practice and Normal room)/ new setting option: Fixed Buy-in Amount - if no then, the Buy-in amount can be chosen freely within a given limit.
 - [Added] ACP/Poker/Manage rooms/(Learner, Practice and Normal room)/ new setting option: Size of amount	  - If we use a fixed limit, we can specify whether we want to use the minimum, medium or maximum value.
 - [Added] ACP/Poker/Manage rooms - Detailed logging of all hands in each room.
 - [Added] ACP/Poker/Manage rooms - Time of blind growth (Only for tournament rooms).
@@ -136,9 +137,9 @@
 - [Added] Instant evaluation of a winner on every hand, if only one active player remains in the game.
 - [Added] The avatar of the winning user is animated with a laurel wreath.
 - [Added] Winning users will see a chip toss animation.
-- [Added] Before sitting down - If the minimum and maximum value of the Buy-In is different, you can customize how many chips you sit at the table with.
+- [Added] Before sitting down - If the minimum and maximum value of the Buy-in is different, you can customize how many chips you sit at the table with.
 - [Added] Before sitting down - Auto Re-buy (Instatly buy you back when your chips run out on the table).
-- [Added] Before sitting down - Auto Top-off (Instantly top your chips to your initial buy-in at the end of each hand).
+- [Added] Before sitting down - Auto Top-off (Instantly top your chips to your initial Buy-in at the end of each hand).
 - [Added] Before sitting down - Allowing the purchase of a JackPot ticket.
 - [Added] Players can enable/disable the purchase of a JackPot ticket while the card is being evaluated.
 - [Added] Database modification - We add the room number in the user table where we sit or play. This way we avoid having to go through all the rooms to check if we are playing, thus we save a lot of energy for our server.
@@ -160,7 +161,7 @@
 - [Added] You can view the list of JackPot winners by clicking on the JackPot amount in the room.
 - [Added] Evaluation of all winners. This can happen when the strongest hand has few chips, allowing other users to raise even more. So now there is no refund of the chips, rather they are evaluated.
 - [Added] Chips/Points and Points/Chips exchange logging.
-- [Added] New cron job/ jp_purge - Purge JackPot list every 2 days. The last 8 winners are always kept.
+- [Added] New cron job/ jp_purge - Purge JackPot list every 2 days. The last 8 winners are always kept. The task execution is disabled if the JackPot system is disabled.
 - [Added] New cron job/ rooms_stop - If a room in the game exceeds the offline time, those rooms will be stopped (check time: every 60 minutes).
 - [Added] Dutch and French languages.
 
@@ -318,7 +319,7 @@ Deleted next files:
 - [Fixed] Keep the last check call.
 - [Fixed] Different smaller amounts than big blind, incorrect game evaluation.
 
-- [Added] If the administrator changes the buy-in amount before starting the tournament, then all user stand up from the table.
+- [Added] If the administrator changes the Buy-in amount before starting the tournament, then all user stand up from the table.
 - [Added] At the end of a tournament, the winning user stand up from the table automatically.
 - [Added] Congratulatory message to the winner of the tournament.
 - [Added] Surplus refunds message.
