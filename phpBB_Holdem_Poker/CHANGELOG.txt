@@ -8,9 +8,9 @@
 - [Fixed] If the bet slider is held and the time expires, the button is held.
 - [Fixed] The slider's bet close button has slipped in Google Chrome.
 - [Fixed] Validation of the highest call value.
-- [Fixed] Automatic "check fold" and "check call" - If the time runs out and the "lasttimer" (movement time) value update is missed, it will cause an error in the next player movement time, plus the action sound is also not correct.
+- [Fixed] Automatic "check fold" and "check call" - If the time runs out and the "lasttimer" (movement time) value update is missing, it will cause an error in the next player movement time, plus the action sound is also not correct.
 - [Fixed] Information intended for administrators is visible for users in the header.
-- [Fixed] If we disabled poker, the navigation menu is visible.
+- [Fixed] If we disable poker, the navigation menu is visible.
 - [Fixed] Display of shoutbox archive if there are no messages, not found ID or no permission poker.
 - [Fixed] The small/big blind can never be more than the user with the second most chips.
 - [Fixed] If a browser in the tray is reopened, the POT chips may be displayed incorrectly.
@@ -36,7 +36,7 @@
 - [Modified] Increased the maximum chips amount from 186,111.1 to 11,111,111,110.
 - [Modified] Round avatars.
 - [Modified] If the user fold his cards, his avatar will be darker.
-- [Modified] Poker javascript uses the Points.NumberFormat function of the new "JVA - Core" extension.
+- [Modified] Poker javascript uses the Points. NumberFormat function of the new "JVA - Core" extension.
 - [Modified] Disable ACP modules when JVA - Core extension is disabled.
 - [Modified] Bet buttons function.
 - [Modified] Displaying the chips placed on the table and in the Pot.
