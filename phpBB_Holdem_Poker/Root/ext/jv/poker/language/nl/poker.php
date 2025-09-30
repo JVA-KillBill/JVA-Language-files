@@ -46,7 +46,7 @@ $lang = array_merge($lang, [
 	'JV_POKER_BUY_IN'					=> 'Buy-in',
 	'JV_POKER_CHAIR'					=> 'Stoel',
 	'JV_POKER_CHIPS'					=> 'Chips',
-	'JV_POKER_CHIPS_BALANCE'			=> 'Chips balans: <strong>%s</strong>',
+	'JV_POKER_CHIPS_BALANCE'			=> 'Chips balans: <strong class="jv_poker_balance">%s</strong>',
 	'JV_POKER_CHIPS_EXCHANGE'			=> 'Chips omwisselen',
 	'JV_POKER_CHIPS_EXCHANGE_EXPLAIN'	=> 'Voer het bedrag in dat je omwisselt voor chips.',
 	'JV_POKER_CHIPS_EXCHENGE_COST'		=> 'Ook werden de kosten van %s in mindering gebracht op je %s balans.',

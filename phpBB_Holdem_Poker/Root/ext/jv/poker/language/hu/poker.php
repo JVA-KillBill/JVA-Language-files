@@ -46,7 +46,7 @@ $lang = array_merge($lang, [
 	'JV_POKER_BUY_IN'					=> 'Beülő',
 	'JV_POKER_CHAIR'					=> 'Szék',
 	'JV_POKER_CHIPS'					=> 'Zseton',
-	'JV_POKER_CHIPS_BALANCE'			=> 'Zseton egyenleged: <strong>%s</strong>',
+	'JV_POKER_CHIPS_BALANCE'			=> 'Zseton egyenleged: <strong class="jv_poker_balance">%s</strong>',
 	'JV_POKER_CHIPS_EXCHANGE'			=> 'Zseton váltó',
 	'JV_POKER_CHIPS_EXCHANGE_EXPLAIN'	=> 'Add meg azt az összeget amelyet zsetonra szeretnél váltani.',
 	'JV_POKER_CHIPS_EXCHENGE_COST'		=> 'Továbbá a költség %s is levonásra került a %s egyenlegedből.',

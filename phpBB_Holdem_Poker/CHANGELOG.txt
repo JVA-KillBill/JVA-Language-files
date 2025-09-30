@@ -36,7 +36,7 @@
 - [Modified] Increased the maximum chips amount from 186,111.1 to 11,111,111,110.
 - [Modified] Round avatars.
 - [Modified] If the user fold his cards, his avatar will be darker.
-- [Modified] Poker javascript uses the Points. NumberFormat function of the new "JVA - Core" extension.
+- [Modified] Poker javascript uses the "Points.NumberFormat" function of the new "JVA - Core" extension.
 - [Modified] Disable ACP modules when JVA - Core extension is disabled.
 - [Modified] Bet buttons function.
 - [Modified] Displaying the chips placed on the table and in the Pot.
