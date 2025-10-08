@@ -1,5 +1,22 @@
 # Changelog
 
+## 7.8.2 - 2025-10-09
+
+- [Fixed] During registration, if Email confirmation is not required, we received a PHP error.
+- [Fixed] The user data "is_registered" and "is_bot" is not always defined in the header, so it may cause a PHP error.
+- [Fixed] Play game - The number of plays cannot be displayed in the game options table if we do not have permission to view statistics.
+- [Fixed] Display forum and category styles folder image if we do not have permission to view statistics.
+
+- [Modified] In the case of phpBB installation and update, attempting to automatically enable the extension should not return an error message.
+- [Modified] If we disable the challenge system, we also disable the running of the cron "expired_challenge" task.
+- [Modified] Play game - Do not display the balance and reward fields in the game options table for guests and bots.
+- [Modified] Play game - In the game options table for guests and bots, the cost field will only be visible if there is a cost.
+
+- [Added] Checking the existence of default arcade user data and filling it in if missing.
+
+- [Updated] ACP/Arcade download module minimum connection version from 7.6.2 to 7.8.1.
+- [Updated] Ruffle emulator (2025-10-08) for release.
+
 ## 7.8.1 - 2025-08-05
 
 - [Fixed] Play game - If we have turned off the super champion display, the box is still visible without the data.
