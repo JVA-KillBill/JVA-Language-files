@@ -8,7 +8,7 @@
 - [Fixed] Display forum and category styles folder image if we do not have permission to view statistics.
 
 - [Modified] In the case of phpBB installation and update, attempting to automatically enable the extension should not return an error message.
-- [Modified] If we disable the challenge system, we also disable the running of the cron "expired_challenge" task.
+- [Modified] If we disable the challenge system, we also disable the execution of the cron "expired_challenge" task.
 - [Modified] Play game - Do not display the balance and reward fields in the game options table for guests and bots.
 - [Modified] Play game - In the game options table for guests and bots, the cost field will only be visible if there is a cost.
 
