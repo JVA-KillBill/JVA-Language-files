@@ -155,6 +155,22 @@ $lang = array_merge($lang, [
 	'JV_POKER_SMALL_BIG_BLIND'			=> 'Petite/grande blind',
 	'JV_POKER_STAT'						=> 'Statistiques',
 	'JV_POKER_STATS'					=> 'Statistiques de Poker',
+	'JV_POKER_STATS_ALLINS'				=> [
+		1								=> 'Nombre total tout compris : <strong>%s</strong>',
+		2								=> 'Nombres totals tout compris : <strong>%s</strong>'
+	],
+	'JV_POKER_STATS_CALLS'				=> [
+		1								=> 'Nombre total call saisis : <strong>%s</strong>',
+		2								=> 'Nombres totals calls saisis : <strong>%s</strong>'
+	],
+	'JV_POKER_STATS_CHECKS'				=> [
+		1								=> 'Nombre total check saisis : <strong>%s</strong>',
+		2								=> 'Nombres totals checks saisis : <strong>%s</strong>'
+	],
+	'JV_POKER_STATS_FOLDS'				=> [
+		1								=> 'Nombre total cards fold saisis : <strong>%s</strong>',
+		2								=> 'Nombres totals cards folds saisis : <strong>%s</strong>'
+	],
 	'JV_POKER_STATS_NO_PERMISSION'		=> 'Vous n’êtes pas autorisé à consulter les statistiques de poker.',
 	'JV_POKER_STATS_PLAYS'				=> [
 		1								=> 'joue %s partie.',
@@ -163,6 +179,10 @@ $lang = array_merge($lang, [
 	'JV_POKER_STATS_PLAYS_TOURS'		=> [
 		1								=> 'joue %s tournoi.',
 		2								=> 'joues %s tournois.'
+	],
+	'JV_POKER_STATS_RAISES'				=> [
+		1								=> 'Nombre total raise saisis : <strong>%s</strong>',
+		2								=> 'Nombres totals raises saisis : <strong>%s</strong>'
 	],
 	'JV_POKER_STATS_VIEWING'			=> 'Affichage des statistiques de poker',
 	'JV_POKER_STATS_WON_TOURS'			=> [

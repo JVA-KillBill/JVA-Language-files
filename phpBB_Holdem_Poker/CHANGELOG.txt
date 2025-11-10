@@ -177,7 +177,6 @@
 				User name color configuration.
 				Automatic start configuration.
 				Time of card presentation.
-- [Deleted] The following totals have been removed from the statistics: (calls, raises, checks, All-ins and folds).
 - [Deleted] Dealer shoutbox messages: Player join and left the table.
 - [Deleted] ext/jv/poker/core/room_auto.php
 - [Deleted] ext/jv/poker/core/room_user.php

@@ -155,6 +155,22 @@ $lang = array_merge($lang, [
 	'JV_POKER_SMALL_BIG_BLIND'			=> 'Kis/nagyvak',
 	'JV_POKER_STAT'						=> 'Statisztikák',
 	'JV_POKER_STATS'					=> 'Póker statisztikák',
+	'JV_POKER_STATS_ALLINS'				=> [
+		1								=> 'All-in összesen: <strong>%s</strong>',
+		2								=> 'All-in összesen: <strong>%s</strong>'
+	],
+	'JV_POKER_STATS_CALLS'				=> [
+		1								=> 'Megadott hívás összesen: <strong>%s</strong>',
+		2								=> 'Megadott hívások összesen: <strong>%s</strong>'
+	],
+	'JV_POKER_STATS_CHECKS'				=> [
+		1								=> 'Passzolás összesen: <strong>%s</strong>',
+		2								=> 'Passzolások összesen: <strong>%s</strong>'
+	],
+	'JV_POKER_STATS_FOLDS'				=> [
+		1								=> 'Bedobás összesen: <strong>%s</strong>',
+		2								=> 'Bedobások összesen: <strong>%s</strong>'
+	],
 	'JV_POKER_STATS_NO_PERMISSION'		=> 'Nincs jogosultságod a póker statisztikák megtekintéséhez.',
 	'JV_POKER_STATS_PLAYS'				=> [
 		1								=> '%s partit játszott',
@@ -163,6 +179,10 @@ $lang = array_merge($lang, [
 	'JV_POKER_STATS_PLAYS_TOURS'		=> [
 		1								=> '%s versenyt játszott',
 		2								=> '%s versenyt játszott'
+	],
+	'JV_POKER_STATS_RAISES'				=> [
+		1								=> 'Emelés száma összesen: <strong>%s</strong>',
+		2								=> 'Emelések száma összesen: <strong>%s</strong>'
 	],
 	'JV_POKER_STATS_VIEWING'			=> 'Póker statisztikák megtekintése',
 	'JV_POKER_STATS_WON_TOURS'			=> [

@@ -155,6 +155,22 @@ $lang = array_merge($lang, [
 	'JV_POKER_SMALL_BIG_BLIND'			=> 'Small/big blind',
 	'JV_POKER_STAT'						=> 'Statistics',
 	'JV_POKER_STATS'					=> 'Poker statistics',
+	'JV_POKER_STATS_ALLINS'				=> [
+		1								=> 'Total all-in number: <strong>%s</strong>',
+		2								=> 'Total all-in number: <strong>%s</strong>'
+	],
+	'JV_POKER_STATS_CALLS'				=> [
+		1								=> 'Total call number: <strong>%s</strong>',
+		2								=> 'Total calls number: <strong>%s</strong>'
+	],
+	'JV_POKER_STATS_CHECKS'				=> [
+		1								=> 'Total check number: <strong>%s</strong>',
+		2								=> 'Total checks number: <strong>%s</strong>'
+	],
+	'JV_POKER_STATS_FOLDS'				=> [
+		1								=> 'Total cards fold number: <strong>%s</strong>',
+		2								=> 'Total cards folds number: <strong>%s</strong>'
+	],
 	'JV_POKER_STATS_NO_PERMISSION'		=> 'You do not have permission to view poker statistics.',
 	'JV_POKER_STATS_PLAYS'				=> [
 		1								=> 'play %s party.',
@@ -163,6 +179,10 @@ $lang = array_merge($lang, [
 	'JV_POKER_STATS_PLAYS_TOURS'		=> [
 		1								=> 'played %s tournament.',
 		2								=> 'played %s tournaments.'
+	],
+	'JV_POKER_STATS_RAISES'				=> [
+		1								=> 'Total raise number: <strong>%s</strong>',
+		2								=> 'Total raises number: <strong>%s</strong>'
 	],
 	'JV_POKER_STATS_VIEWING'			=> 'Viewing poker statistics',
 	'JV_POKER_STATS_WON_TOURS'			=> [
