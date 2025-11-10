@@ -160,7 +160,7 @@ $lang = array_merge($lang, [
 		2								=> 'Les totaux tout compris : <strong>%s</strong>'
 	],
 	'JV_POKER_STATS_CALLS'				=> [
-		1								=> 'Nombre total de calls saisis : <strong>%s</strong>',
+		1								=> 'Nombre total de call saisis : <strong>%s</strong>',
 		2								=> 'Les totaux de calls saisis : <strong>%s</strong>'
 	],
 	'JV_POKER_STATS_CHECKS'				=> [
