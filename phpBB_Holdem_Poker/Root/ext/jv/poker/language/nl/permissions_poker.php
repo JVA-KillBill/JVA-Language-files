@@ -43,6 +43,7 @@ $lang = array_merge($lang, [
 	'ACL_A_JV_POKER_ROOMS_MANAGE'	=> 'Kan pokerkamers beheren',
 	'ACL_A_JV_POKER_SETTINGS'		=> 'Kan pokerinstellingen beheren',
 	'ACL_A_JV_POKER_STYLES'			=> 'Kan pokerstijlen beheren',
+	'ACL_A_JV_POKER_USERS_MANAGE'	=> 'Kan gebruikers beheren',
 	'ACL_CAT_JV_POKER'				=> 'Poker',
 	'ACL_M_JV_POKER_MSG_DELETE'		=> 'Kan berichten verwijderen uit het shoutbox-archief',
 	'ACL_U_JV_POKER'				=> 'Kan poker gebruiken',
