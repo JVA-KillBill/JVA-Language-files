@@ -309,7 +309,7 @@ $lang = array_merge($lang, [
 	'ACP_JV_POKER_VERSION_CHECK_TITLE'				=> 'phpBB Holdem Póker - contrôle de version',
 	'ACP_JV_POKER_VERSION_CHECK_TITLE_EXPLAIN'		=> 'Vérifie si votre installation de phpBB Holdem Póker est à jour.',
 	'ACP_JV_POKER_VIEW_ROOM_DETAILS'				=> '%sVoir les détails de la salle%s',
-	'ACP_JV_POKER_VIEW_USER_LOG'					=> '<strong>Asseyez-vous dans la salle #%s %s</strong><br>» Solde : %s, Mise initiale : %s, nouveau solde : %s',
+	'ACP_JV_POKER_VIEW_USER_LOG'					=> 'Voir l’historique des chips',
 	'ACP_JV_POKER_WARN_TYPE'						=> 'Démarrer le son d’avertissement',
 	'ACP_JV_POKER_WARN_TYPE_EXPLAIN'				=> 'Ici, vous pouvez définir quand le signal sonore d’avertissement pour le temps de mouvement doit commencer. En cas de sélection par pourcentage, le signal sonore commence à 25 % du temps défini. Si vous le reliez à un temps fixe, alors le signal sonore commence dans les 5 dernières secondes du temps de mouvement, indépendamment de la durée.',
 	'ACP_JV_POKER_WARN_TYPE_PERCENTAGE'				=> 'Pourcentage',
@@ -382,6 +382,6 @@ $lang = array_merge($lang, [
 	'UCLOG_POKER_EXC_CHIPS_TO_POINTS'				=> '<strong>Échanger des chips contre %s</strong><br>» Solde : %s, montant : %s, nouveau solde : %s',
 	'UCLOG_POKER_EXC_CHIPS_TO_POINTS_COST'			=> '<strong>Échanger des chips contre %s</strong><br>» Solde : %s, montant : %s, coût : %s, nouveau solde : %s',
 	'UCLOG_POKER_EXC_POINTS_TO_CHIPS'				=> '<strong>Conversion de %s en chips</strong><br>» Solde : %s, montant : %s, nouveau solde : %s',
-	'UCLOG_POKER_ROOM_SITDOWN'						=> '<strong>Levez-vous de la salle #%s %s</strong><br>» Solde : %s, Paiement : %s, nouveau solde : %s',
-	'UCLOG_POKER_ROOM_STANDUP'						=> 'Voir l’historique des chips'
+	'UCLOG_POKER_ROOM_SITDOWN'						=> '<strong>Levez-vous de la salle #%s</strong><br>» Solde : %s, Paiement : %s, nouveau solde : %s',
+	'UCLOG_POKER_ROOM_STANDUP'						=> '<strong>Asseyez-vous dans la salle #%s</strong><br>» Solde : %s, Mise initiale : %s, nouveau solde : %s'
 ]);

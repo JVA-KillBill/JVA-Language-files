@@ -382,6 +382,6 @@ $lang = array_merge($lang, [
 	'UCLOG_POKER_EXC_CHIPS_TO_POINTS'				=> '<strong>Exchange chips for %s</strong><br>» Balance: %s, amount: %s, new balance: %s',
 	'UCLOG_POKER_EXC_CHIPS_TO_POINTS_COST'			=> '<strong>Exchange chips for %s</strong><br>» Balance: %s, amount: %s, cost: %s, new balance: %s',
 	'UCLOG_POKER_EXC_POINTS_TO_CHIPS'				=> '<strong>Exchange %s for chips</strong><br>» Balance: %s, amount: %s, new balance: %s',
-	'UCLOG_POKER_ROOM_SITDOWN'						=> '<strong>Sit down in the #%s %s room</strong><br>» Balance: %s, Buy-in: %s, new balance: %s',
-	'UCLOG_POKER_ROOM_STANDUP'						=> '<strong>Stand up from the #%s %s room</strong><br>» Balance: %s, Cash-out: %s, new balance: %s'
+	'UCLOG_POKER_ROOM_SITDOWN'						=> '<strong>Sit down in the #%s room</strong><br>» Balance: %s, Buy-in: %s, new balance: %s',
+	'UCLOG_POKER_ROOM_STANDUP'						=> '<strong>Stand up from the #%s room</strong><br>» Balance: %s, Cash-out: %s, new balance: %s'
 ]);

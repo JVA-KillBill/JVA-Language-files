@@ -382,6 +382,6 @@ $lang = array_merge($lang, [
 	'UCLOG_POKER_EXC_CHIPS_TO_POINTS'				=> '<strong>Ruil chips voor %s</strong><br>» Saldo: %s, bedrag: %s, nieuw saldo: %s',
 	'UCLOG_POKER_EXC_CHIPS_TO_POINTS_COST'			=> '<strong>Ruil chips in voor %s</strong><br>» Saldo: %s, bedrag: %s, kosten: %s, nieuw saldo: %s',
 	'UCLOG_POKER_EXC_POINTS_TO_CHIPS'				=> '<strong>Uitwisseling %s naar chips</strong><br>» Saldo: %s, bedrag: %s, nieuw saldo: %s',
-	'UCLOG_POKER_ROOM_SITDOWN'						=> '<strong>Ga zitten in de kamer #%s %s</strong><br>» Balans: %s,Uitbetaling: %s, nieuwe balans: %s',
-	'UCLOG_POKER_ROOM_STANDUP'						=> '<strong>Sta op van de kamer #%s %s</strong><br>» Balans: %s, Uitbetaling: %s, nieuwe balans: %s'
+	'UCLOG_POKER_ROOM_SITDOWN'						=> '<strong>Ga zitten in de kamer #%s</strong><br>» Balans: %s,Uitbetaling: %s, nieuwe balans: %s',
+	'UCLOG_POKER_ROOM_STANDUP'						=> '<strong>Sta op van de kamer #%s</strong><br>» Balans: %s, Uitbetaling: %s, nieuwe balans: %s'
 ]);

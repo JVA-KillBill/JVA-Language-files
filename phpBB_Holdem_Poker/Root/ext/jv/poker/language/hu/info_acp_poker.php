@@ -382,6 +382,6 @@ $lang = array_merge($lang, [
 	'UCLOG_POKER_EXC_CHIPS_TO_POINTS'				=> '<strong>Átváltás zseton » %s-ra</strong><br>» Egyenleg: %s, összeg: %s, új egyenleg: %s',
 	'UCLOG_POKER_EXC_CHIPS_TO_POINTS_COST'			=> '<strong>Átváltás zseton » %s-ra</strong><br>» Egyenleg: %s, összeg: %s, költség: %s, új egyenleg: %s',
 	'UCLOG_POKER_EXC_POINTS_TO_CHIPS'				=> '<strong>Átváltás %s » zsetonra</strong><br>» Egyenleg: %s, összeg: %s, új egyenleg: %s',
-	'UCLOG_POKER_ROOM_SITDOWN'						=> '<strong>Beülés a #%s %s szobába</strong><br>» Egyenleg: %s, beülő: %s, új egyenleg: %s',
-	'UCLOG_POKER_ROOM_STANDUP'						=> '<strong>Felállás a #%s %s szobából</strong><br>» Egyenleg: %s, kiszáló: %s, új egyenleg: %s'
+	'UCLOG_POKER_ROOM_SITDOWN'						=> '<strong>Beülés a #%s szobába</strong><br>» Egyenleg: %s, beülő: %s, új egyenleg: %s',
+	'UCLOG_POKER_ROOM_STANDUP'						=> '<strong>Felállás a #%s szobából</strong><br>» Egyenleg: %s, kiszáló: %s, új egyenleg: %s'
 ]);
