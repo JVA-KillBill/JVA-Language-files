@@ -383,5 +383,12 @@ $lang = array_merge($lang, [
 	'UCLOG_POKER_EXC_CHIPS_TO_POINTS_COST'			=> '<strong>Chips exchanged to %s</strong><br>» Balance: %s, amount: %s, cost: %s, new balance: %s',
 	'UCLOG_POKER_EXC_POINTS_TO_CHIPS'				=> '<strong>%s exchanged to chips</strong><br>» Balance: %s, amount: %s, new balance: %s',
 	'UCLOG_POKER_ROOM_SITDOWN'						=> '<strong>Sitting down in room #%s</strong><br>» Balance: %s, Buy-in amount: %s, new balance: %s',
-	'UCLOG_POKER_ROOM_STANDUP'						=> '<strong>Standing up from room #%s</strong><br>» Balance: %s, Cash-out amount: %s, new balance: %s'
+	'UCLOG_POKER_ROOM_STANDUP'						=> '<strong>Standing up from room #%s</strong><br>» Balance: %s, Cash-out amount: %s, new balance: %s',
+	'UCLOG_POKER_ADMIN_STOP_ROOM'					=> '<strong>%2$s stopped room #%1$s, so the user was automatically stood up</strong><br>» Balance: %3$s, refund: %4$s, new balance: %5$s',
+	'UCLOG_POKER_ROOM_WIN_JP'						=> '<strong>JackPot win in room #%s</strong><br>» Balance: %s, winnings: %s, new balance: %s',
+	'UCLOG_POKER_ROOM_RE_BUY'						=> '<strong>Top off in room #%s</strong><br>» Balance: %s, top off amount: %s, new balance: %s',
+	'UCLOG_POKER_ROOM_STANDUP_LOST'					=> '<strong>Standing up from room #%s with 0 chips</strong><br>» Balance: %s',
+	'UCLOG_POKER_ROOM_STANDUP_OFFLINE'				=> '<strong>Offline game stopped in room #%s, so the user was automatically stood up</strong><br>» Balance: %s, refund: %s, new balance: %s',
+	'UCLOG_POKER_ROOM_JP_TICKET'					=> '<strong>JackPot ticket purchase in room #%s</strong><br>» Balance: %s, JP ticket price: %s, new balance: %s',
+	'UCLOG_POKER_ROOM_RE_BUY_JP_TICKET'				=> '<strong>Top off and JackPot ticket purchase in room #%s</strong><br>» Balance: %s, top off amount: %s, JP ticket: %s, new balance: %s'
 ]);
