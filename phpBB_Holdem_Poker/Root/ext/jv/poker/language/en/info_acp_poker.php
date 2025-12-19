@@ -378,10 +378,10 @@ $lang = array_merge($lang, [
 	'LOG_JV_POKER_VERSION_CHECK_DISABLED'			=> '<strong>phpBB Holdem Póker - Automatic version check disabled</strong>',
 	'LOG_JV_POKER_VERSION_CHECK_ENABLED'			=> '<strong>phpBB Holdem Póker - Automatic version check enabled</strong>',
 
-	'UCLOG_POKER_DAILY_GIFT_CHIPS'					=> '<strong>Daily gift chips</strong><br>» Balance: %s, gift: %s, new balance: %s',
-	'UCLOG_POKER_EXC_CHIPS_TO_POINTS'				=> '<strong>Exchange chips for %s</strong><br>» Balance: %s, amount: %s, new balance: %s',
-	'UCLOG_POKER_EXC_CHIPS_TO_POINTS_COST'			=> '<strong>Exchange chips for %s</strong><br>» Balance: %s, amount: %s, cost: %s, new balance: %s',
-	'UCLOG_POKER_EXC_POINTS_TO_CHIPS'				=> '<strong>Exchange %s for chips</strong><br>» Balance: %s, amount: %s, new balance: %s',
-	'UCLOG_POKER_ROOM_SITDOWN'						=> '<strong>Sit down in the #%s room</strong><br>» Balance: %s, Buy-in: %s, new balance: %s',
-	'UCLOG_POKER_ROOM_STANDUP'						=> '<strong>Stand up from the #%s room</strong><br>» Balance: %s, Cash-out: %s, new balance: %s'
+	'UCLOG_POKER_DAILY_GIFT_CHIPS'					=> '<strong>Daily gift chips credited</strong><br>» Balance: %s, gift: %s, new balance: %s',
+	'UCLOG_POKER_EXC_CHIPS_TO_POINTS'				=> '<strong>Chips exchanged to %s</strong><br>» Balance: %s, amount: %s, new balance: %s',
+	'UCLOG_POKER_EXC_CHIPS_TO_POINTS_COST'			=> '<strong>Chips exchanged to %s</strong><br>» Balance: %s, amount: %s, cost: %s, new balance: %s',
+	'UCLOG_POKER_EXC_POINTS_TO_CHIPS'				=> '<strong>%s exchanged to chips</strong><br>» Balance: %s, amount: %s, new balance: %s',
+	'UCLOG_POKER_ROOM_SITDOWN'						=> '<strong>Sitting down in room #%s</strong><br>» Balance: %s, Buy-in amount: %s, new balance: %s',
+	'UCLOG_POKER_ROOM_STANDUP'						=> '<strong>Standing up from room #%s</strong><br>» Balance: %s, Cash-out amount: %s, new balance: %s'
 ]);
