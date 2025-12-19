@@ -381,7 +381,14 @@ $lang = array_merge($lang, [
 	'UCLOG_POKER_DAILY_GIFT_CHIPS'					=> '<strong>Dagelijkse cadeauchips bijgeschreven</strong><br>» Saldo: %s, cadeau: %s, nieuw saldo: %s',
 	'UCLOG_POKER_EXC_CHIPS_TO_POINTS'				=> '<strong>Chips ingewisseld voor %s</strong><br>» Saldo: %s, bedrag: %s, nieuw saldo: %s',
 	'UCLOG_POKER_EXC_CHIPS_TO_POINTS_COST'			=> '<strong>Chips ingewisseld voor %s</strong><br>» Saldo: %s, bedrag: %s, kosten: %s, nieuw saldo: %s',
-	'UCLOG_POKER_EXC_POINTS_TO_CHIPS'				=> '<strong>%s ingewisseld voor chips %s</strong><br>» Saldo: %s, bedrag: %s, nieuw saldo: %s',
+	'UCLOG_POKER_EXC_POINTS_TO_CHIPS'				=> '<strong>%s ingewisseld voor chips</strong><br>» Saldo: %s, bedrag: %s, nieuw saldo: %s',
 	'UCLOG_POKER_ROOM_SITDOWN'						=> '<strong>Zit in kamer #%s</strong><br>» Balans: %s, Buy-in bedrag: %s, nieuwe balans: %s',
-	'UCLOG_POKER_ROOM_STANDUP'						=> '<strong>Sta op uit kamer #%s</strong><br>» Saldo: %s, Cash-out bedrag: %s, nieuw saldo: %s'
+	'UCLOG_POKER_ROOM_STANDUP'						=> '<strong>Sta op uit kamer #%s</strong><br>» Saldo: %s, Cash-out bedrag: %s, nieuw saldo: %s',
+	'UCLOG_POKER_ADMIN_STOP_ROOM'					=> '<strong>%2$s heeft kamer #%1$s stopgezet, dus de gebruiker stond automatisch op</strong><br>» Saldo: %3$s, terugbetaling: %4$s, nieuw saldo: %5$s',
+	'UCLOG_POKER_ROOM_WIN_JP'						=> '<strong>JackPot gewonnen in kamer #%s</strong><br>» Saldo: %s, winst: %s, nieuw saldo: %s',
+	'UCLOG_POKER_ROOM_RE_BUY'						=> '<strong>Top off in kamer #%s</strong><br>» Saldo: %s, toe te voegen bedrag: %s, nieuw saldo: %s',
+	'UCLOG_POKER_ROOM_STANDUP_LOST'					=> '<strong>Opstaan uit kamer #%s met 0 chips</strong><br>» Saldo: %s',
+	'UCLOG_POKER_ROOM_STANDUP_OFFLINE'				=> '<strong>Offline spel gestopt in kamer #%s, dus de speler stond automatisch op</strong><br>» Saldo: %s, terugbetaling: %s, nieuw saldo: %s',
+	'UCLOG_POKER_ROOM_JP_TICKET'					=> '<strong>JackPot ticket aankoop in kamer #%s</strong><br>» Saldo: %s, JP ticketprijs: %s, nieuw saldo: %s',
+	'UCLOG_POKER_ROOM_RE_BUY_JP_TICKET'				=> '<strong>Top off en JackPot-ticket kopen in kamer #%s</strong><br>» Saldo: %s, top off bedrag: %s, JP-ticket: %s, nieuw saldo: %s'
 ]);
