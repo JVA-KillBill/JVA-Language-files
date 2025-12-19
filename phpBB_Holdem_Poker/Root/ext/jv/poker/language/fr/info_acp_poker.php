@@ -378,14 +378,6 @@ $lang = array_merge($lang, [
 	'LOG_JV_POKER_VERSION_CHECK_DISABLED'			=> '<strong>phpBB Holdem Póker - Contrôle de version automatique désactivé</strong>',
 	'LOG_JV_POKER_VERSION_CHECK_ENABLED'			=> '<strong>phpBB Holdem Póker - Contrôle de version automatique activé</strong>',
 
-<<<<<<< HEAD
-	'UCLOG_POKER_DAILY_GIFT_CHIPS'					=>'<strong>Chips cadeaux quotidiens crédités</strong><br>» Solde : %s, cadeau : %s, nouveau solde : %s',
-	'UCLOG_POKER_EXC_CHIPS_TO_POINTS'				=>'<strong>Chips échangés contre %s</strong><br>» Solde : %s, montant : %s, nouveau solde : %s',
-	'UCLOG_POKER_EXC_CHIPS_TO_POINTS_COST'			=>'<strong>Chips échangés contre %s</strong><br>» Solde : %s, montant : %s, coût : %s, nouveau solde : %s',
-	'UCLOG_POKER_EXC_POINTS_TO_CHIPS'				=>'<strong>%s échangé contre des chips</strong><br>» Solde : %s, montant : %s, nouveau solde : %s',
-	'UCLOG_POKER_ROOM_SITDOWN'						=>'<strong>S’asseoir dans la salle #%s</strong><br>» Solde : %s, Buy-in montant : %s, nouveau solde : %s',
-	'UCLOG_POKER_ROOM_STANDUP'						=>'<strong>Se lever de la salle #%s</strong><br>» Solde : %s, Buy-in montant : %s, nouveau solde : %s'
-=======
 	'UCLOG_POKER_DAILY_GIFT_CHIPS'					=> '<strong>Chips cadeaux quotidiens crédités</strong><br>» Solde : %s, cadeau : %s, nouveau solde : %s',
 	'UCLOG_POKER_EXC_CHIPS_TO_POINTS'				=> '<strong>Chips échangés contre %s</strong><br>» Solde : %s, montant : %s, nouveau solde : %s',
 	'UCLOG_POKER_EXC_CHIPS_TO_POINTS_COST'			=> '<strong>chips échangés contre %s</strong><br>» Solde : %s, montant : %s, coût : %s, nouveau solde : %s',
@@ -399,5 +391,4 @@ $lang = array_merge($lang, [
 	'UCLOG_POKER_ROOM_STANDUP_OFFLINE'				=> '<strong>Le jeu hors ligne s’est arrêté dans la salle #%s, donc l’utilisateur s’est levé automatiquement</strong><br>» Solde : %s, remboursement : %s, nouveau solde : %s',
 	'UCLOG_POKER_ROOM_JP_TICKET'					=> '<strong>Achat de billet JackPot dans la salle #%s</strong><br>» Solde : %s, Prix du billet JP : %s, Nouveau solde : %s',
 	'UCLOG_POKER_ROOM_RE_BUY_JP_TICKET'				=> '<strong>Top off et achat de ticket JackPot dans la salle #%s</strong><br>» Solde : %s, montant top off : %s, ticket JP : %s, nouveau solde : %s'
-
 ]);
