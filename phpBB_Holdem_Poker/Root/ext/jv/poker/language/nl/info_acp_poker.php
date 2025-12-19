@@ -378,10 +378,10 @@ $lang = array_merge($lang, [
 	'LOG_JV_POKER_VERSION_CHECK_DISABLED'			=> '<strong>phpBB Holdem Póker - Automatische versiecontrole uitgeschakeld</strong>',
 	'LOG_JV_POKER_VERSION_CHECK_ENABLED'			=> '<strong>phpBB Holdem Póker - Automatische versiecontrole ingeschakeld</strong>',
 
-	'UCLOG_POKER_DAILY_GIFT_CHIPS'					=> '<strong>Dagelijkse cadeauchips</strong><br>» Saldo: %s, cadeau: %s, nieuw saldo: %s',
-	'UCLOG_POKER_EXC_CHIPS_TO_POINTS'				=> '<strong>Ruil chips voor %s</strong><br>» Saldo: %s, bedrag: %s, nieuw saldo: %s',
-	'UCLOG_POKER_EXC_CHIPS_TO_POINTS_COST'			=> '<strong>Ruil chips in voor %s</strong><br>» Saldo: %s, bedrag: %s, kosten: %s, nieuw saldo: %s',
-	'UCLOG_POKER_EXC_POINTS_TO_CHIPS'				=> '<strong>Uitwisseling %s naar chips</strong><br>» Saldo: %s, bedrag: %s, nieuw saldo: %s',
-	'UCLOG_POKER_ROOM_SITDOWN'						=> '<strong>Ga zitten in de kamer #%s</strong><br>» Balans: %s,Uitbetaling: %s, nieuwe balans: %s',
-	'UCLOG_POKER_ROOM_STANDUP'						=> '<strong>Sta op van de kamer #%s</strong><br>» Balans: %s, Uitbetaling: %s, nieuwe balans: %s'
+	'UCLOG_POKER_DAILY_GIFT_CHIPS'					=> '<strong>Dagelijkse cadeauchips bijgeschreven</strong><br>» Saldo: %s, cadeau: %s, nieuw saldo: %s',
+	'UCLOG_POKER_EXC_CHIPS_TO_POINTS'				=> '<strong>Chips ingewisseld voor %s</strong><br>» Saldo: %s, bedrag: %s, nieuw saldo: %s',
+	'UCLOG_POKER_EXC_CHIPS_TO_POINTS_COST'			=> '<strong>Chips ingewisseld voor %s</strong><br>» Saldo: %s, bedrag: %s, kosten: %s, nieuw saldo: %s',
+	'UCLOG_POKER_EXC_POINTS_TO_CHIPS'				=> '<strong>%s ingewisseld voor chips %s</strong><br>» Saldo: %s, bedrag: %s, nieuw saldo: %s',
+	'UCLOG_POKER_ROOM_SITDOWN'						=> '<strong>Zit in kamer #%s</strong><br>» Balans: %s, Buy-in bedrag: %s, nieuwe balans: %s',
+	'UCLOG_POKER_ROOM_STANDUP'						=> '<strong>Sta op uit kamer #%s</strong><br>» Saldo: %s, Cash-out bedrag: %s, nieuw saldo: %s'
 ]);

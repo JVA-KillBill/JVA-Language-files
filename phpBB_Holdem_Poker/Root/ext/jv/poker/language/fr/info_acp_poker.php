@@ -378,10 +378,10 @@ $lang = array_merge($lang, [
 	'LOG_JV_POKER_VERSION_CHECK_DISABLED'			=> '<strong>phpBB Holdem Póker - Contrôle de version automatique désactivé</strong>',
 	'LOG_JV_POKER_VERSION_CHECK_ENABLED'			=> '<strong>phpBB Holdem Póker - Contrôle de version automatique activé</strong>',
 
-	'UCLOG_POKER_DAILY_GIFT_CHIPS'					=> '<strong>Chips cadeaux quotidiens</strong><br>» Solde : %s, cadeau : %s, nouveau solde : %s',
-	'UCLOG_POKER_EXC_CHIPS_TO_POINTS'				=> '<strong>Échanger des chips contre %s</strong><br>» Solde : %s, montant : %s, nouveau solde : %s',
-	'UCLOG_POKER_EXC_CHIPS_TO_POINTS_COST'			=> '<strong>Échanger des chips contre %s</strong><br>» Solde : %s, montant : %s, coût : %s, nouveau solde : %s',
-	'UCLOG_POKER_EXC_POINTS_TO_CHIPS'				=> '<strong>Conversion de %s en chips</strong><br>» Solde : %s, montant : %s, nouveau solde : %s',
-	'UCLOG_POKER_ROOM_SITDOWN'						=> '<strong>Levez-vous de la salle #%s</strong><br>» Solde : %s, Paiement : %s, nouveau solde : %s',
-	'UCLOG_POKER_ROOM_STANDUP'						=> '<strong>Asseyez-vous dans la salle #%s</strong><br>» Solde : %s, Mise initiale : %s, nouveau solde : %s'
+	'UCLOG_POKER_DAILY_GIFT_CHIPS'					='<strong>Chips cadeaux quotidiens crédités</strong><br>» Solde : %s, cadeau : %s, nouveau solde : %s',
+	'UCLOG_POKER_EXC_CHIPS_TO_POINTS'				='<strong>Chips échangés contre %s</strong><br>» Solde : %s, montant : %s, nouveau solde : %s',
+	'UCLOG_POKER_EXC_CHIPS_TO_POINTS_COST'			=>'<strong>chips échangés contre %s</strong><br>» Solde : %s, montant : %s, coût : %s, nouveau solde : %s',
+	'UCLOG_POKER_EXC_POINTS_TO_CHIPS'				=>'<strong>%s échangé contre des chips</strong><br>» Solde : %s, montant : %s, nouveau solde : %s',
+	'UCLOG_POKER_ROOM_SITDOWN'						=>'<strong>S'asseoir dans la salle #%s</strong><br>» Solde : %s, Buy-in montant : %s, nouveau solde : %s',
+	'UCLOG_POKER_ROOM_STANDUP'						=>'<strong>Se lever de la salle #%s</strong><br>» Solde : %s, Buy-in montant : %s, nouveau solde : %s'
 ]);
