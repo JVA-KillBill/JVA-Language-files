@@ -378,17 +378,17 @@ $lang = array_merge($lang, [
 	'LOG_JV_POKER_VERSION_CHECK_DISABLED'			=> '<strong>phpBB Holdem Póker - Automatikus verzió ellenőrzés kikapcsolása</strong>',
 	'LOG_JV_POKER_VERSION_CHECK_ENABLED'			=> '<strong>phpBB Holdem Póker - Automatikus verzió ellenőrzés bekapcsolása</strong>',
 
+	'UCLOG_POKER_ADMIN_STOP_ROOM'					=> '<strong>%2$s leállította a(z) #%1$s szobát, így a felhasználó automatikusan felállt</strong><br>» Egyenleg: %3$s, visszatérítés: %4$s, új egyenleg: %5$s',
 	'UCLOG_POKER_DAILY_GIFT_CHIPS'					=> '<strong>Napi ajándék zseton jóváírása</strong><br>» Egyenleg: %s, ajándék: %s, új egyenleg: %s',
 	'UCLOG_POKER_EXC_CHIPS_TO_POINTS'				=> '<strong>Zseton átváltása %s-ra</strong><br>» Egyenleg: %s, összeg: %s, új egyenleg: %s',
 	'UCLOG_POKER_EXC_CHIPS_TO_POINTS_COST'			=> '<strong>Zseton átváltása %s-ra</strong><br>» Egyenleg: %s, összeg: %s, költség: %s, új egyenleg: %s',
 	'UCLOG_POKER_EXC_POINTS_TO_CHIPS'				=> '<strong>%s átváltása zsetonra</strong><br>» Egyenleg: %s, összeg: %s, új egyenleg: %s',
-	'UCLOG_POKER_ROOM_SITDOWN'						=> '<strong>Beülés a(z) #%s szobába</strong><br>» Egyenleg: %s, beülő összeg: %s, új egyenleg: %s',
-	'UCLOG_POKER_ROOM_STANDUP'						=> '<strong>Felállás a(z) #%s szobából</strong><br>» Egyenleg: %s, kivett összeg: %s, új egyenleg: %s',
-	'UCLOG_POKER_ADMIN_STOP_ROOM'					=> '<strong>%2$s leállította a(z) #%1$s szobát, így a felhasználó automatikusan felállt</strong><br>» Egyenleg: %3$s, visszatérítés: %4$s, új egyenleg: %5$s',
-	'UCLOG_POKER_ROOM_WIN_JP'						=> '<strong>JackPot nyeremény a(z) #%s szobában</strong><br>» Egyenleg: %s, nyeremény: %s, új egyenleg: %s',
+	'UCLOG_POKER_ROOM_JP_TICKET'					=> '<strong>JackPot jegy vásárlása a(z) #%s szobában</strong><br>» Egyenleg: %s, JP-jegy ára: %s, új egyenleg: %s',
 	'UCLOG_POKER_ROOM_RE_BUY'						=> '<strong>Zsetonfeltöltés a(z) #%s szobában</strong><br>» Egyenleg: %s, feltöltött összeg: %s, új egyenleg: %s',
+	'UCLOG_POKER_ROOM_RE_BUY_JP_TICKET'				=> '<strong>Zsetonfeltöltés és JackPot jegy vásárlása a(z) #%s szobában</strong><br>» Egyenleg: %s, feltöltött összeg: %s, JP-jegy: %s, új egyenleg: %s',
+	'UCLOG_POKER_ROOM_SITDOWN'						=> '<strong>Beülés a(z) #%s szobába</strong><br>» Egyenleg: %s, beülő összeg: %s, új egyenleg: %s',
+	'UCLOG_POKER_ROOM_STANDUP'						=> '<strong>Felállás a(z) #%s szobából</strong><br>» Egyenleg: %s, kivitt összeg: %s, új egyenleg: %s',
 	'UCLOG_POKER_ROOM_STANDUP_LOST'					=> '<strong>Felállás a(z) #%s szobából, 0 zsetonnal.</strong><br>» Egyenleg: %s',
 	'UCLOG_POKER_ROOM_STANDUP_OFFLINE'				=> '<strong>Leállt offline játék a(z) #%s szobában, így a felhasználó automatikusan felállt</strong><br>» Egyenleg: %s, visszatérítés: %s, új egyenleg: %s',
-	'UCLOG_POKER_ROOM_JP_TICKET'					=> '<strong>JackPot jegy vásárlása a(z) #%s szobában</strong><br>» Egyenleg: %s, JP-jegy ára: %s, új egyenleg: %s',
-	'UCLOG_POKER_ROOM_RE_BUY_JP_TICKET'				=> '<strong>Zsetonfeltöltés és JackPot jegy vásárlása a(z) #%s szobában</strong><br>» Egyenleg: %s, feltöltött összeg: %s, JP-jegy: %s, új egyenleg: %s'
+	'UCLOG_POKER_ROOM_WIN_JP'						=> '<strong>JackPot nyeremény a(z) #%s szobában</strong><br>» Egyenleg: %s, nyeremény: %s, új egyenleg: %s'
 ]);

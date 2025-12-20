@@ -378,17 +378,17 @@ $lang = array_merge($lang, [
 	'LOG_JV_POKER_VERSION_CHECK_DISABLED'			=> '<strong>phpBB Holdem Póker - Automatische Versionsprüfung deaktiviert</strong>',
 	'LOG_JV_POKER_VERSION_CHECK_ENABLED'			=> '<strong>phpBB Holdem Póker - Automatische Versionsprüfung aktiviert</strong>',
 
+	'UCLOG_POKER_ADMIN_STOP_ROOM'					=> '<strong>%2$s stoppte den Raum #%1$s, daher ist der Benutzer automatisch aufgestanden</strong><br>» Guthaben: %3$s, erstattet: %4$s, neues Guthaben: %5$s',
 	'UCLOG_POKER_DAILY_GIFT_CHIPS'					=> '<strong>Tägliche Chips-Geschenkgutschrift</strong><br>» Guthaben: %s, Geschenk: %s, neues Guthaben: %s',
 	'UCLOG_POKER_EXC_CHIPS_TO_POINTS'				=> '<strong>Chips eingetauscht in %s</strong><br>» Guthaben: %s, Anzahl: %s, neues Guthaben: %s',
 	'UCLOG_POKER_EXC_CHIPS_TO_POINTS_COST'			=> '<strong>Chips eingetauscht in %s</strong><br>» Guthaben: %s, Anzahl: %s, Kosten: %s, neues Guthaben: %s',
 	'UCLOG_POKER_EXC_POINTS_TO_CHIPS'				=> '<strong>%s eingetauscht in Chips</strong><br>» Guthaben: %s, Anzahl: %s, neues Guthaben: %s',
+	'UCLOG_POKER_ROOM_JP_TICKET'					=> '<strong>Kauf eines JackPot-Tickets im Raum #%s</strong><br>» Guthaben: %s, JP-Ticketpreis: %s, neues Guthaben: %s',
+	'UCLOG_POKER_ROOM_RE_BUY'						=> '<strong>Top off im Raum #%s</strong><br>» Guthaben: %s, Top off-Betrag: %s, neues Guthaben: %s',
+	'UCLOG_POKER_ROOM_RE_BUY_JP_TICKET'				=> '<strong>Top off und JackPot-Ticketkauf im Raum #%s</strong><br>» Guthaben: %s, Top off Betrag: %s, JP-Ticket: %s, neues Guthaben: %s',
 	'UCLOG_POKER_ROOM_SITDOWN'						=> '<strong>Im Raum Platz nehmen #%s</strong><br>» Guthaben: %s, Buy-in Betrag: %s, neues Guthaben: %s',
 	'UCLOG_POKER_ROOM_STANDUP'						=> '<strong>Aus dem Raum aufstehen #%s</strong><br>» Guthaben: %s, Cash-out Betrag: %s, neues Guthaben: %s',
-	'UCLOG_POKER_ADMIN_STOP_ROOM'					=> '<strong>%2$s stoppte den Raum #%1$s, daher ist der Benutzer automatisch aufgestanden</strong><br>» Guthaben: %3$s, erstattet: %4$s, neues Guthaben: %5$s',
-	'UCLOG_POKER_ROOM_WIN_JP'						=> '<strong>JackPot-Gewinn im Raum #%s</strong><br>» Guthaben: %s, Gewinn: %s, neues Guthaben: %s',
-	'UCLOG_POKER_ROOM_RE_BUY'						=> '<strong>Top off im Raum #%s</strong><br>» Guthaben: %s, Top off-Betrag: %s, neues Guthaben: %s',
 	'UCLOG_POKER_ROOM_STANDUP_LOST'					=> '<strong>Aufgestanden aus dem Raum #%s mit 0 chips</strong><br>» Guthaben: %s',
 	'UCLOG_POKER_ROOM_STANDUP_OFFLINE'				=> '<strong>Offline-Spiel gestoppt im Raum #%s, so dass der Benutzer automatisch aufgestanden ist</strong><br>» Guthaben: %s, erstattet: %s, neues Guthaben: %s',
-	'UCLOG_POKER_ROOM_JP_TICKET'					=> '<strong>Kauf eines JackPot-Tickets im Raum #%s</strong><br>» Guthaben: %s, JP-Ticketpreis: %s, neues Guthaben: %s',
-	'UCLOG_POKER_ROOM_RE_BUY_JP_TICKET'				=> '<strong>Top off und JackPot-Ticketkauf im Raum #%s</strong><br>» Guthaben: %s, Top off Betrag: %s, JP-Ticket: %s, neues Guthaben: %s'
+	'UCLOG_POKER_ROOM_WIN_JP'						=> '<strong>JackPot-Gewinn im Raum #%s</strong><br>» Guthaben: %s, Gewinn: %s, neues Guthaben: %s'
 ]);
