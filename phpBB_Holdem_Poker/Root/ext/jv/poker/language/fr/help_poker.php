@@ -65,7 +65,7 @@ $lang = array_merge($lang, [
 	'JV_POKER_HELP_BLIND_QUESTION'			=> 'Petite/grande blind bets entre les salles sont différentes, pourquoi ?',
 	'JV_POKER_HELP_BLOCK_GAME'				=> 'Problèmes avec le jeu de poker',
 	'JV_POKER_HELP_BLOCK_GENERAL'			=> 'Questions générales',
-	'JV_POKER_HELP_BLOCK_POKER'				=> 'Questions sur phpBB Holdem Póker ',
+	'JV_POKER_HELP_BLOCK_POKER'				=> 'Questions sur phpBB Holdem Póker',
 	'JV_POKER_HELP_BLOCK_ROOMS'				=> 'Questions relatives aux salles de poker (Lobby)',
 	'JV_POKER_HELP_BLOCK_SHOUT'				=> 'Questions sur la shoutbox de poker',
 	'JV_POKER_HELP_BLOCK_STATS'				=> 'Questions sur les statistiques du poker',
@@ -108,9 +108,9 @@ $lang = array_merge($lang, [
 	</ul>',
 	'JV_POKER_HELP_DROP_USER_QUESTION'		=> 'Dans quels cas le jeu peut-il vous jeter dehors ?',
 	'JV_POKER_HELP_E_SHOUT_ANSWER'			=> 'Si activé par l’administrateur, oui.',
-	'JV_POKER_HELP_E_SHOUT_QUESTION'		=> 'Puis-je utiliser des smileys dans mes messages ? ',
+	'JV_POKER_HELP_E_SHOUT_QUESTION'		=> 'Puis-je utiliser des smileys dans mes messages ?',
 	'JV_POKER_HELP_GAME_SOUND_ANSWER'		=> 'Oui. Le son du jeu peut être activé ou désactivé à tout moment pendant le jeu. Cela désactivera tous les sons de la parole, y compris le forum de discussion. Le réglage est toujours enregistré.',
-	'JV_POKER_HELP_GAME_SOUND_QUESTION'		=> 'Puis-je couper le son du jeu ? ',
+	'JV_POKER_HELP_GAME_SOUND_QUESTION'		=> 'Puis-je couper le son du jeu ?',
 	'JV_POKER_HELP_INACTIVE_ANSWER'			=> 'Dans ce cas, les événements suivants peuvent se produire :
 	<ul>
 		<li>1. Si vous êtes dans une partie normale, vous vous relevez automatiquement à la fin de la %s. main.</li>
@@ -135,7 +135,7 @@ $lang = array_merge($lang, [
 	</ul>',
 	'JV_POKER_HELP_JACKPOT_QUESTION'		=> 'Comment puis-je gagner le JackPot ?',
 	'JV_POKER_HELP_LEADERS_ANSWER'			=> 'Les champions sont classés en fonction du nombre de chips gagnés.',
-	'JV_POKER_HELP_LEADERS_QUESTION'		=> 'Par quoi sont classés les champions ? ',
+	'JV_POKER_HELP_LEADERS_QUESTION'		=> 'Par quoi sont classés les champions ?',
 	'JV_POKER_HELP_LEARNER_ANSWER'			=> 'Tout le monde peut jouer dans cette salle, même s’il n’a pas ses propres chips. Chaque joueur reçoit un nombre prédéterminé de chips lorsqu’il s’assoit. Dans la salle, tous les joueurs jouent avec des cartes face visible, afin qu’ils aient une chance de s’enseigner les uns les autres. Les chips gagnés dans cette salle ne peuvent pas être retirés de la salle ni échangés.',
 	'JV_POKER_HELP_LEARNER_QUESTION'		=> 'Qu’est-ce que cela signifie d’être dans une salle d’apprentissage ?',
 	'JV_POKER_HELP_LIMIT_ANSWER'			=> 'Nous avons déjà décrit la réponse à cette question dans « Comment jouer au poker ?/Règles du Limit ».',
