@@ -45,7 +45,7 @@
 	"com_hand_turn":				"Turn : %s",
 	"com_new_hand":					"Nouveau main…<br>Croupier : %s.",
 	"com_player_allin":				"%s all-in, chips : %s.",
-	"com_player_allin_call":		"%s call %s et all-in, chips: %s.",
+	"com_player_allin_call":		"%s call %s et all-in, chips : %s.",
 	"com_player_bet":				"%s mise %s.",
 	"com_player_call":				"%s call a %s.",
 	"com_player_check":				"%s checké.",
