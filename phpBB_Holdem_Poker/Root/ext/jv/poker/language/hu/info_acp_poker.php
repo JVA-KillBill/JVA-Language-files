@@ -54,7 +54,7 @@ $lang = array_merge($lang, [
 	'ACP_JV_POKER_BG_IMG'							=> 'Háttérkép kijelzése',
 	'ACP_JV_POKER_BLIND_GROWTH'						=> 'Vak növekedés ideje',
 	'ACP_JV_POKER_BLIND_GROWTH_EXPLAIN'				=> 'Beállított időnként emelkedik a vak a verseny folyamán.',
-	'ACP_JV_POKER_BUY_IN'							=> '<span class="poker-title">Beszáló:</span> %s',
+	'ACP_JV_POKER_BUY_IN'							=> '<span class="poker-title">Beülő:</span> %s',
 	'ACP_JV_POKER_CANCEL_DELETE'					=> 'Törlés megszakítása',
 	'ACP_JV_POKER_CE_COST'							=> 'Zseton átváltás költsége',
 	'ACP_JV_POKER_CHANGE_ROOM_TYPE_CONFIRM'			=> 'Ha módosítod a szoba típusát, akkor a régi napló bejegyzések törlésre kerülnek.<br>Kérlek erősítsd meg a szoba típusának módosítását.',
