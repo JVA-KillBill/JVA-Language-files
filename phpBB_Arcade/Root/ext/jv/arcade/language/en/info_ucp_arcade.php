@@ -3,8 +3,8 @@
 *
 * @package phpBB Arcade
 * @version $Id: info_ucp_arcade.php 2480 2022-02-02 15:07:28Z Scanialady $
-* @author 2011-2025 KillBill
-* @copyright (c) 2014-2025 https://jv-arcade.com/ - https://jv-arcade.com/contact
+* @author 2011-2026 KillBill
+* @copyright (c) 2014-2026 https://jv-arcade.com/ - https://jv-arcade.com/contact
 * @license https://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
 *
 */

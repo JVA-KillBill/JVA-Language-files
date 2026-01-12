@@ -3,8 +3,8 @@
 *
 * @package phpBB Arcade
 * @version $Id: info_acp_arcade.php 176 2024-01-14 14:23:01Z Alexia1964 $
-* @author 2011-2025 KillBill
-* @copyright (c) 2014-2025 https://jv-arcade.com/ - https://jv-arcade.com/contact
+* @author 2011-2026 KillBill
+* @copyright (c) 2014-2026 https://jv-arcade.com/ - https://jv-arcade.com/contact
 * @license https://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
 *
 */
@@ -820,7 +820,6 @@ $lang = array_merge($lang, [
 	'ARCADE_MIN_GAMES_SELECTED_EXPLAIN'					=> '<em>Let op: je moet een minimaal aantal spellen selecteren %s.</em>',
 	'ARCADE_MIN_MAX_ERROR'								=> 'De “%s” mag niet groter zijn dan “%s”.',
 	'ARCADE_MIN_REWARD_EXPLAIN'							=> '<em>Let op: Minimale waarde van de beloning kan %s %s zijn.</em>',
-	'ARCADE_MIXED_LANG'									=> 'Gebruik gemengde taal',
 	'ARCADE_MOST_DOWNLOADED_EXPLAIN'					=> 'Dit is het aantal meest gedownloade spellen om weergegeven te worden.<br><em>0 = uitgeschakeld.</em>',
 	'ARCADE_MOST_DOWNLOADED_HEADER'						=> 'Meest gedownloade spellen',
 	'ARCADE_MOST_DOWNLOADED_HEADER_EXPLAIN'				=> 'Dit is het aantal meest gedownloade spellen om weergegeven te worden.',

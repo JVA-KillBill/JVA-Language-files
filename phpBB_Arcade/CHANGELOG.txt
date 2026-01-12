@@ -1,5 +1,12 @@
 # Changelog
 
+## 7.8.3 - 2026-01-12
+
+- [Modified] Modernization and optimization of Javascript codes.
+
+- [Updated] Default game installation file updated from 7.7.3 to 7.8.3
+- [Updated] Ruffle emulator (2026-01-12) for release.
+
 ## 7.8.2 - 2025-10-09
 
 - [Fixed] During registration, if Email confirmation is not required, we received a PHP error.
@@ -37,7 +44,6 @@
 - [Modified] Optimized Ruffle usage, when restarting the game, the ruffle.player already in memory is reused.
 - [Modified] Ruffle data is displayed in the browser develop log when using Ruffle.
 - [Modified] Outdated ruffle configuration parameters have been updated to the latest version.
-- [Modified] Ajax timeout time increased from 3 seconds to 4 seconds.
 
 - [Updated] Ruffle emulator (2025-07-01) for release.
 

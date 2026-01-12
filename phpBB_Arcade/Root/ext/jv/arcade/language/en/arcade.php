@@ -3,8 +3,8 @@
 *
 * @package phpBB Arcade
 * @version $Id: arcade.php 87 2023-04-19 10:01:48Z KillBill $
-* @author 2011-2025 KillBill
-* @copyright (c) 2014-2025 https://jv-arcade.com/ - https://jv-arcade.com/contact
+* @author 2011-2026 KillBill
+* @copyright (c) 2014-2026 https://jv-arcade.com/ - https://jv-arcade.com/contact
 * @license https://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
 *
 */

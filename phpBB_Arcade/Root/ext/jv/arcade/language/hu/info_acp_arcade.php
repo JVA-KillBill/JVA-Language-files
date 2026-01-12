@@ -3,8 +3,8 @@
 *
 * @package phpBB Arcade
 * @version $Id: info_acp_arcade.php 88 2023-04-19 10:17:23Z KillBill $
-* @author 2011-2025 KillBill
-* @copyright (c) 2014-2025 https://jv-arcade.com/ - https://jv-arcade.com/contact
+* @author 2011-2026 KillBill
+* @copyright (c) 2014-2026 https://jv-arcade.com/ - https://jv-arcade.com/contact
 * @license https://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
 *
 */
@@ -820,7 +820,6 @@ $lang = array_merge($lang, [
 	'ARCADE_MIN_GAMES_SELECTED_EXPLAIN'					=> '<em>Megjegyzés: Minimum %s játékot kötelező kiválasztani.</em>',
 	'ARCADE_MIN_MAX_ERROR'								=> 'A(z) „%s” nem lehet nagyobb mint a(z) „%s”.',
 	'ARCADE_MIN_REWARD_EXPLAIN'							=> '<em>Megjegyzés: A jutalom minimum értéke %s %s lehet.</em>',
-	'ARCADE_MIXED_LANG'									=> 'Vegyes nyelvhasználat',
 	'ARCADE_MOST_DOWNLOADED_EXPLAIN'					=> 'Legtöbbet letöltött játékok megjelenítésének mennyisége.<br><em>0 = kikapcsolva</em>',
 	'ARCADE_MOST_DOWNLOADED_HEADER'						=> 'Legtöbbet letöltött játékok',
 	'ARCADE_MOST_DOWNLOADED_HEADER_EXPLAIN'				=> 'Legtöbbet letöltött játékok megjelenítésének mennyisége.',

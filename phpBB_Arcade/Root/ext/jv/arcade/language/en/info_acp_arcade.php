@@ -3,8 +3,8 @@
 *
 * @package phpBB Arcade
 * @version $Id: info_acp_arcade.php 2468 2022-01-24 12:01:47Z KillBill $
-* @author 2011-2025 KillBill
-* @copyright (c) 2014-2025 https://jv-arcade.com/ - https://jv-arcade.com/contact
+* @author 2011-2026 KillBill
+* @copyright (c) 2014-2026 https://jv-arcade.com/ - https://jv-arcade.com/contact
 * @license https://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
 *
 */
@@ -820,7 +820,6 @@ $lang = array_merge($lang, [
 	'ARCADE_MIN_GAMES_SELECTED_EXPLAIN'					=> '<em>Note: Required to select a minimum of %s games.</em>',
 	'ARCADE_MIN_MAX_ERROR'								=> 'The “%s” must not be greater than the “%s”.',
 	'ARCADE_MIN_REWARD_EXPLAIN'							=> '<em>Note: Minimum value of the reward can be %s %s.</em>',
-	'ARCADE_MIXED_LANG'									=> 'Use mixed language',
 	'ARCADE_MOST_DOWNLOADED_EXPLAIN'					=> 'This is the number of most downloaded games to be displayed.<br><em>0 = disabled.</em>',
 	'ARCADE_MOST_DOWNLOADED_HEADER'						=> 'Most downloaded games',
 	'ARCADE_MOST_DOWNLOADED_HEADER_EXPLAIN'				=> 'This is the number of most downloaded games to be displayed.',
