@@ -3,8 +3,8 @@
 *
 * @package phpBB Holdem Póker
 * @version $Id$
-* @author 2011-2025 KillBill
-* @copyright (c) 2014-2025 https://jv-arcade.com/ - https://jv-arcade.com/contact
+* @author 2011-2026 KillBill
+* @copyright (c) 2014-2026 https://jv-arcade.com/ - https://jv-arcade.com/contact
 * @license https://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
 *
 */
@@ -49,7 +49,7 @@ $lang = array_merge($lang, [
 	'ACP_JV_POKER_APPROVAL_PERSONAL_DATA_CONFIRM'	=> 'Ich akzeptiere das Senden und Speichern persönlicher Daten.',
 	'ACP_JV_POKER_AVATAR_DISPLAY'					=> 'Benutzeravatare anzeigen',
 	'ACP_JV_POKER_AVATAR_SIZE'						=> 'Größe Benutzeravatare',
-	'ACP_JV_POKER_BALANCE'							=> '<span class="poker-title">Guthaben:</span> %s',
+	'ACP_JV_POKER_BALANCE'							=> 'Guthaben',
 	'ACP_JV_POKER_BET'								=> '<span class="poker-title">Einsatz:</span> %s',
 	'ACP_JV_POKER_BG_IMG'							=> 'Anzeige eines Hintergrundbildes',
 	'ACP_JV_POKER_BLIND_GROWTH'						=> 'Zeit des Blind-Wachstums',
@@ -142,7 +142,7 @@ $lang = array_merge($lang, [
 	'ACP_JV_POKER_PLAYED_TOURNAMENTS_DAY'			=> 'Gespielte Turniere je Tag',
 	'ACP_JV_POKER_POST_PROFILE'						=> 'Im Benutzer-Beitragsprofil anzeigen',
 	'ACP_JV_POKER_POST_PROFILE_EXPLAIN'				=> 'Legt fest, ob die Pokerstatistiken im Benutzer-Beitragsprofil der Themenansicht angezeigt werden sollen oder nicht.',
-	'ACP_JV_POKER_POT'								=> '<strong>Gemeinsamer Pot:</strong> %s',
+	'ACP_JV_POKER_POT'								=> '<strong>Pot:</strong> %s',
 	'ACP_JV_POKER_PRACTICE_IPCHECK'					=> 'IP-Kontrolle im Übungsraum',
 	'ACP_JV_POKER_PRACTICE_IPCHECK_EXPLAIN'			=> 'Du hast die Möglichkeit, im Übungsraum die IP-Adresse zu prüfen.<br>Beachte, dass das nur funktioniert, wenn die IP-Prüfung aktiviert ist.',
 	'ACP_JV_POKER_PRIVACY_POLICY_CONFIRM'			=> 'Die %s„Datenschutzerklärung“%s wurde aufmerksam gelesen und wird akzeptiert.',
@@ -388,12 +388,19 @@ $lang = array_merge($lang, [
 	'UCLOG_POKER_EXC_CHIPS_TO_POINTS'				=> '<strong>Chips eingetauscht in %s</strong><br>» Guthaben: %s, Anzahl: %s, neues Guthaben: %s',
 	'UCLOG_POKER_EXC_CHIPS_TO_POINTS_COST'			=> '<strong>Chips eingetauscht in %s</strong><br>» Guthaben: %s, Anzahl: %s, Kosten: %s, neues Guthaben: %s',
 	'UCLOG_POKER_EXC_POINTS_TO_CHIPS'				=> '<strong>%s eingetauscht in Chips</strong><br>» Guthaben: %s, Anzahl: %s, neues Guthaben: %s',
+	'UCLOG_POKER_RESET_RETAIN_CHIPS'				=> '<strong>Reset poker</strong><br>» Retained balance %s',
 	'UCLOG_POKER_ROOM_JP_TICKET'					=> '<strong>Kauf eines JackPot-Tickets im Raum #%s</strong><br>» Guthaben: %s, JP-Ticketpreis: %s, neues Guthaben: %s',
 	'UCLOG_POKER_ROOM_RE_BUY'						=> '<strong>Top off im Raum #%s</strong><br>» Guthaben: %s, Top off-Betrag: %s, neues Guthaben: %s',
 	'UCLOG_POKER_ROOM_RE_BUY_JP_TICKET'				=> '<strong>Top off und JackPot-Ticketkauf im Raum #%s</strong><br>» Guthaben: %s, Top off Betrag: %s, JP-Ticket: %s, neues Guthaben: %s',
 	'UCLOG_POKER_ROOM_SITDOWN'						=> '<strong>Im Raum Platz nehmen #%s</strong><br>» Guthaben: %s, Buy-in Betrag: %s, neues Guthaben: %s',
 	'UCLOG_POKER_ROOM_STANDUP'						=> '<strong>Aus dem Raum aufstehen #%s</strong><br>» Guthaben: %s, Cash-out Betrag: %s, neues Guthaben: %s',
-	'UCLOG_POKER_ROOM_STANDUP_LOST'					=> '<strong>Aufgestanden aus dem Raum #%s mit 0 chips</strong><br>» Guthaben: %s',
+	'UCLOG_POKER_ROOM_STANDUP_DISCONNECT'			=> '<strong>Offline player stood up from room #%s</strong><br>» Balance: %s, Cash-out amount: %s, new balance: %s',
+	'UCLOG_POKER_ROOM_STANDUP_INACTIVE'				=> '<strong>Inactive player stood up from room #%s</strong><br>» Balance: %s, Cash-out amount: %s, new balance: %s',
+	'UCLOG_POKER_ROOM_STANDUP_LOST'					=> '<strong>Aus dem Raum aufstehen #%s</strong><br>» Guthaben: %s',
 	'UCLOG_POKER_ROOM_STANDUP_OFFLINE'				=> '<strong>Offline-Spiel gestoppt im Raum #%s, so dass der Benutzer automatisch aufgestanden ist</strong><br>» Guthaben: %s, erstattet: %s, neues Guthaben: %s',
+	'UCLOG_POKER_ROOM_STANDUP_TOUR_LOST'			=> '<strong>Standing up from room #%s, has lost the tournament</strong><br>» Balance: %s',
+	'UCLOG_POKER_ROOM_STANDUP_TOUR_LOST_DISCONNECT'	=> '<strong>Offline player stood up from room #%s, so lost the tournament</strong><br>» Balance: %s',
+	'UCLOG_POKER_ROOM_STANDUP_TOUR_LOST_INACTIVE'	=> '<strong>Inactive player stood up from room #%s, so lost the tournament</strong><br>» Balance: %s',
+	'UCLOG_POKER_ROOM_STANDUP_TOUR_WINNER'			=> '<strong>Standing up from room #%s</strong><br>» Balance: %s, Tournament prize: %s, new balance: %s',
 	'UCLOG_POKER_ROOM_WIN_JP'						=> '<strong>JackPot-Gewinn im Raum #%s</strong><br>» Guthaben: %s, Gewinn: %s, neues Guthaben: %s'
 ]);

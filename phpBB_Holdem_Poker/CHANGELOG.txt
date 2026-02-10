@@ -121,7 +121,7 @@
 - [Added] ACP/Poker/Manage rooms - Time of blind growth (Only for tournament rooms).
 - [Added] ACP/Poker/Manage rooms - Stop room (Allows you to stop the rooms one by one).
 - [Added] ACP/Poker/Manage rooms - Reset room (Allows you to reset the rooms one by one).
-- [Added] ACP/Poker/Manage users - Full chip history of users.
+- [Added] ACP/Poker/Manage users - Full chip history of players.
 - [Added] Save the radio mute and volume value in the browser's local storage.
 - [Added] Validate the authenticity of the bet at a fixed limit table.
 - [Added] If we disable the extension, all the rooms will be reset and the chips will be returned to the users.

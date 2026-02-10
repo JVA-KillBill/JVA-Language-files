@@ -3,8 +3,8 @@
 *
 * @package phpBB Holdem Póker
 * @version $Id$
-* @author 2011-2025 KillBill
-* @copyright (c) 2014-2025 https://jv-arcade.com/ - https://jv-arcade.com/contact
+* @author 2011-2026 KillBill
+* @copyright (c) 2014-2026 https://jv-arcade.com/ - https://jv-arcade.com/contact
 * @license https://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
 *
 */
@@ -49,7 +49,7 @@ $lang = array_merge($lang, [
 	'ACP_JV_POKER_APPROVAL_PERSONAL_DATA_CONFIRM'	=> 'Jóváhagyom a személyes adatok elküldését és tárolását.',
 	'ACP_JV_POKER_AVATAR_DISPLAY'					=> 'Felhasználó avatar kijelzése',
 	'ACP_JV_POKER_AVATAR_SIZE'						=> 'Felhasználó avatar mérete',
-	'ACP_JV_POKER_BALANCE'							=> '<span class="poker-title">Egyenleg:</span> %s',
+	'ACP_JV_POKER_BALANCE'							=> 'Egyenleg',
 	'ACP_JV_POKER_BET'								=> '<span class="poker-title">Tét:</span> %s',
 	'ACP_JV_POKER_BG_IMG'							=> 'Háttérkép kijelzése',
 	'ACP_JV_POKER_BLIND_GROWTH'						=> 'Vak növekedés ideje',
@@ -142,7 +142,7 @@ $lang = array_merge($lang, [
 	'ACP_JV_POKER_PLAYED_TOURNAMENTS_DAY'			=> 'Lejátszott verseny naponta',
 	'ACP_JV_POKER_POST_PROFILE'						=> 'Megjelenítés a felhasználói poszt profilban',
 	'ACP_JV_POKER_POST_PROFILE_EXPLAIN'				=> 'Meghatározza, hogy a póker statisztikák megjelenjen-e a felhasználó poszt profiljában.',
-	'ACP_JV_POKER_POT'								=> '<strong>Közös Pot:</strong> %s',
+	'ACP_JV_POKER_POT'								=> '<strong>Pot:</strong> %s',
 	'ACP_JV_POKER_PRACTICE_IPCHECK'					=> 'IP ellenőrzés a gyakorló szobában',
 	'ACP_JV_POKER_PRACTICE_IPCHECK_EXPLAIN'			=> 'Lehetőséged van a gyakorló szobát is IP ellenőrzés alá vonnod.<br>Vedd figyelembe, hogy ez csak akkor működik, ha az IP ellenőrzés is be van kapcsolva.',
 	'ACP_JV_POKER_PRIVACY_POLICY_CONFIRM'			=> 'Az %s„Adatvédelmi irányelvet”%s figyelmesen elolvastam és elfogadom.',
@@ -388,12 +388,19 @@ $lang = array_merge($lang, [
 	'UCLOG_POKER_EXC_CHIPS_TO_POINTS'				=> '<strong>Zseton átváltása %s-ra</strong><br>» Egyenleg: %s, összeg: %s, új egyenleg: %s',
 	'UCLOG_POKER_EXC_CHIPS_TO_POINTS_COST'			=> '<strong>Zseton átváltása %s-ra</strong><br>» Egyenleg: %s, összeg: %s, költség: %s, új egyenleg: %s',
 	'UCLOG_POKER_EXC_POINTS_TO_CHIPS'				=> '<strong>%s átváltása zsetonra</strong><br>» Egyenleg: %s, összeg: %s, új egyenleg: %s',
+	'UCLOG_POKER_RESET_RETAIN_CHIPS'				=> '<strong>Póker újraindítása</strong><br>» Megőrzött egyenleg: %s',
 	'UCLOG_POKER_ROOM_JP_TICKET'					=> '<strong>JackPot jegy vásárlása a(z) #%s szobában</strong><br>» Egyenleg: %s, JP-jegy ára: %s, új egyenleg: %s',
 	'UCLOG_POKER_ROOM_RE_BUY'						=> '<strong>Zsetonfeltöltés a(z) #%s szobában</strong><br>» Egyenleg: %s, feltöltött összeg: %s, új egyenleg: %s',
 	'UCLOG_POKER_ROOM_RE_BUY_JP_TICKET'				=> '<strong>Zsetonfeltöltés és JackPot jegy vásárlása a(z) #%s szobában</strong><br>» Egyenleg: %s, feltöltött összeg: %s, JP-jegy: %s, új egyenleg: %s',
 	'UCLOG_POKER_ROOM_SITDOWN'						=> '<strong>Beülés a(z) #%s szobába</strong><br>» Egyenleg: %s, beülő összeg: %s, új egyenleg: %s',
 	'UCLOG_POKER_ROOM_STANDUP'						=> '<strong>Felállás a(z) #%s szobából</strong><br>» Egyenleg: %s, kivitt összeg: %s, új egyenleg: %s',
-	'UCLOG_POKER_ROOM_STANDUP_LOST'					=> '<strong>Felállás a(z) #%s szobából, 0 zsetonnal.</strong><br>» Egyenleg: %s',
+	'UCLOG_POKER_ROOM_STANDUP_DISCONNECT'			=> '<strong>Felállított offline játékos a(z) #%s szobából</strong><br>» Egyenleg: %s, kivitt összeg: %s, új egyenleg: %s',
+	'UCLOG_POKER_ROOM_STANDUP_INACTIVE'				=> '<strong>Felállított inaktív játékos a(z) #%s szobából</strong><br>» Egyenleg: %s, kivitt összeg: %s, új egyenleg: %s',
+	'UCLOG_POKER_ROOM_STANDUP_LOST'					=> '<strong>Felállás a(z) #%s szobából</strong><br>» Egyenleg: %s',
 	'UCLOG_POKER_ROOM_STANDUP_OFFLINE'				=> '<strong>Leállt offline játék a(z) #%s szobában, így a felhasználó automatikusan felállt</strong><br>» Egyenleg: %s, visszatérítés: %s, új egyenleg: %s',
+	'UCLOG_POKER_ROOM_STANDUP_TOUR_LOST'			=> '<strong>Felállás a(z) #%s szobából, a versenyt elvesztette</strong><br>» Egyenleg: %s',
+	'UCLOG_POKER_ROOM_STANDUP_TOUR_LOST_DISCONNECT'	=> '<strong>Felállított offline játékos a(z) #%s szobából, így a versenyt elvesztette</strong><br>» Egyenleg: %s',
+	'UCLOG_POKER_ROOM_STANDUP_TOUR_LOST_INACTIVE'	=> '<strong>Felállított inaktív játékos a(z) #%s szobából, így a versenyt elvesztette</strong><br>» Egyenleg: %s',
+	'UCLOG_POKER_ROOM_STANDUP_TOUR_WINNER'			=> '<strong>Felállás a(z) #%s szobából</strong><br>» Egyenleg: %s, Verseny nyereménye: %s, új egyenleg: %s',
 	'UCLOG_POKER_ROOM_WIN_JP'						=> '<strong>JackPot nyeremény a(z) #%s szobában</strong><br>» Egyenleg: %s, nyeremény: %s, új egyenleg: %s'
 ]);

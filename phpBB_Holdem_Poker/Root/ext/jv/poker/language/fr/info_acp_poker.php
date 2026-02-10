@@ -3,8 +3,8 @@
 *
 * @package phpBB Holdem Póker
 * @version $Id$
-* @author 2011-2025 KillBill
-* @copyright (c) 2014-2025 https://jv-arcade.com/ - https://jv-arcade.com/contact
+* @author 2011-2026 KillBill
+* @copyright (c) 2014-2026 https://jv-arcade.com/ - https://jv-arcade.com/contact
 * @license https://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
 *
 */
@@ -49,7 +49,7 @@ $lang = array_merge($lang, [
 	'ACP_JV_POKER_APPROVAL_PERSONAL_DATA_CONFIRM'	=> 'J’accepte l’envoi et le stockage de données personnelles.',
 	'ACP_JV_POKER_AVATAR_DISPLAY'					=> 'Afficher les avatars des utilisateurs',
 	'ACP_JV_POKER_AVATAR_SIZE'						=> 'Taille de l’avatar de l’utilisateur',
-	'ACP_JV_POKER_BALANCE'							=> '<span class="poker-title">Liquide :</span> %s',
+	'ACP_JV_POKER_BALANCE'							=> 'Liquide',
 	'ACP_JV_POKER_BET'								=> '<span class="poker-title">Mise :</span> %s',
 	'ACP_JV_POKER_BG_IMG'							=> 'Afficher une image d’arrière-plan',
 	'ACP_JV_POKER_BLIND_GROWTH'						=> 'Temps de croissance du blind',
@@ -142,7 +142,7 @@ $lang = array_merge($lang, [
 	'ACP_JV_POKER_PLAYED_TOURNAMENTS_DAY'			=> 'Tournois joués par jour',
 	'ACP_JV_POKER_POST_PROFILE'						=> 'Afficher dans le profil de la publication',
 	'ACP_JV_POKER_POST_PROFILE_EXPLAIN'				=> 'Détermine si les statistiques de poker sont affichées ou non dans le profil de l’utilisateur.',
-	'ACP_JV_POKER_POT'								=> '<strong>Pot communes :</strong> %s',
+	'ACP_JV_POKER_POT'								=> '<strong>Pot :</strong> %s',
 	'ACP_JV_POKER_PRACTICE_IPCHECK'					=> 'Vérification IP dans la salle de pratique',
 	'ACP_JV_POKER_PRACTICE_IPCHECK_EXPLAIN'			=> 'Vous avez également la possibilité de faire une vérification IP dans la salle de pratique. <br>Veuillez noter que cela ne fonctionnera que si le contrôle IP est activé.',
 	'ACP_JV_POKER_PRIVACY_POLICY_CONFIRM'			=> 'La %s« Politique de confidentialité »%s a été lue attentivement et acceptée.',
@@ -388,12 +388,19 @@ $lang = array_merge($lang, [
 	'UCLOG_POKER_EXC_CHIPS_TO_POINTS'				=> '<strong>Chips échangés contre %s</strong><br>» Solde : %s, montant : %s, nouveau solde : %s',
 	'UCLOG_POKER_EXC_CHIPS_TO_POINTS_COST'			=> '<strong>Chips échangés contre %s</strong><br>» Solde : %s, montant : %s, coût : %s, nouveau solde : %s',
 	'UCLOG_POKER_EXC_POINTS_TO_CHIPS'				=> '<strong>%s échangé contre des chips</strong><br>» Solde : %s, montant : %s, nouveau solde : %s',
+	'UCLOG_POKER_RESET_RETAIN_CHIPS'				=> '<strong>Réinitialiser Poker</strong><br>» Solde retenu %s',
 	'UCLOG_POKER_ROOM_JP_TICKET'					=> '<strong>Achat de billet JackPot dans la salle #%s</strong><br>» Solde : %s, Prix du billet JP : %s, Nouveau solde : %s',
 	'UCLOG_POKER_ROOM_RE_BUY'						=> '<strong>Top off dans la salle #%s</strong><br>» Solde : %s, montant top off : %s, nouveau solde : %s',
 	'UCLOG_POKER_ROOM_RE_BUY_JP_TICKET'				=> '<strong>Top off et achat de ticket JackPot dans la salle #%s</strong><br>» Solde : %s, montant top off : %s, ticket JP : %s, nouveau solde : %s',
 	'UCLOG_POKER_ROOM_SITDOWN'						=> '<strong>S’asseoir dans la salle #%s</strong><br>» Solde : %s, Buy-in montant : %s, nouveau solde : %s',
-	'UCLOG_POKER_ROOM_STANDUP'						=> '<strong>Se lever de la salle #%s</strong><br>» Solde : %s, Buy-in montant : %s, nouveau solde : %s',
-	'UCLOG_POKER_ROOM_STANDUP_LOST'					=> '<strong>Se lever de la salle #%s avec 0 chip</strong><br>» Solde : %s',
+	'UCLOG_POKER_ROOM_STANDUP'						=> '<strong>Se lever de la salle #%s</strong><br>» Solde : %s, Cash-out montant : %s, nouveau solde : %s',
+	'UCLOG_POKER_ROOM_STANDUP_DISCONNECT'			=> '<strong>Joueur hors ligne s’est levé de la salle #%s</strong><br>» Solde : %s, Cash-out montant : %s, nouveau solde : %s',
+	'UCLOG_POKER_ROOM_STANDUP_INACTIVE'				=> '<strong>Joueur inactif s’est levé de la salle #%s</strong><br>» Solde : %s, Cash-out montant : %s, nouveau solde : %s',
+	'UCLOG_POKER_ROOM_STANDUP_LOST'					=> '<strong>Se lever de la salle #%s</strong><br>» Solde : %s',
 	'UCLOG_POKER_ROOM_STANDUP_OFFLINE'				=> '<strong>Le jeu hors ligne s’est arrêté dans la salle #%s, donc l’utilisateur s’est levé automatiquement</strong><br>» Solde : %s, remboursement : %s, nouveau solde : %s',
+	'UCLOG_POKER_ROOM_STANDUP_TOUR_LOST'			=> '<strong>Se lever de la salle #%s, le tournoi est perdu</strong><br>» Solde : %s',
+	'UCLOG_POKER_ROOM_STANDUP_TOUR_LOST_DISCONNECT'	=> '<strong>Joueur hors ligne s’est levé de la salle #%s, donc il a perdu le tournoi</strong><br>» Solde : %s',
+	'UCLOG_POKER_ROOM_STANDUP_TOUR_LOST_INACTIVE'	=> '<strong>Joueur inactif s’est levé de la salle #%s, donc il a perdu le tournoi</strong><br>» Solde : %s',
+	'UCLOG_POKER_ROOM_STANDUP_TOUR_WINNER'			=> '<strong>Se lever de la salle #%s</strong><br>» Solde : %s, Prix du tournoi : %s, nouveau solde : %s',
 	'UCLOG_POKER_ROOM_WIN_JP'						=> '<strong>Gagnant du Jackpot dans la salle #%s</strong><br>» Solde : %s, gains : %s, nouveau solde : %s'
 ]);

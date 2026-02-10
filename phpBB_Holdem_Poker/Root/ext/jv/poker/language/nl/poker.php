@@ -3,8 +3,8 @@
 *
 * @package phpBB Holdem Póker
 * @version $Id$
-* @author 2011-2025 KillBill
-* @copyright (c) 2014-2025 https://jv-arcade.com/ - https://jv-arcade.com/contact
+* @author 2011-2026 KillBill
+* @copyright (c) 2014-2026 https://jv-arcade.com/ - https://jv-arcade.com/contact
 * @license https://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
 *
 */
@@ -39,17 +39,17 @@ $lang = array_merge($lang, [
 	'JV_POKER'							=> 'Poker',
 	'JV_POKER_ALL'						=> 'Alles',
 	'JV_POKER_AMOUNT'					=> 'Bedrag',
-	'JV_POKER_AMOUNT_BALANCE_ERROR'		=> 'Het bedrag dat je opgeeft, is hoger dan je balans.',
+	'JV_POKER_AMOUNT_BALANCE_ERROR'		=> 'Het bedrag dat je opgeeft, is hoger dan je saldo.',
 	'JV_POKER_AMOUNT_TOO_SMALL_ERROR'	=> 'Het opgegeven bedrag is te laag.',
 	'JV_POKER_ARCHIVE_REFRESH'			=> 'Archief vernieuwen',
 	'JV_POKER_BALANCE'					=> 'Chips: <strong class="jv_poker_balance">%s</strong>',
 	'JV_POKER_BUY_IN'					=> 'Buy-in',
 	'JV_POKER_CHAIR'					=> 'Stoel',
 	'JV_POKER_CHIPS'					=> 'Chips',
-	'JV_POKER_CHIPS_BALANCE'			=> 'Chips balans: <strong class="jv_poker_balance">%s</strong>',
+	'JV_POKER_CHIPS_BALANCE'			=> 'Chips saldo: <strong class="jv_poker_balance">%s</strong>',
 	'JV_POKER_CHIPS_EXCHANGE'			=> 'Chips omwisselen',
 	'JV_POKER_CHIPS_EXCHANGE_EXPLAIN'	=> 'Voer het bedrag in dat je omwisselt voor chips.',
-	'JV_POKER_CHIPS_EXCHENGE_COST'		=> 'Ook werden de kosten van %s in mindering gebracht op je %s balans.',
+	'JV_POKER_CHIPS_EXCHENGE_COST'		=> 'Ook werden de kosten van %s in mindering gebracht op je %s saldo.',
 	'JV_POKER_CHIPS_EXCHENGE_SUCCESS'	=> '%s chips zijn met succes uitgewisseld.',
 	'JV_POKER_CHIPS_FORMAT'				=> 'KMBT',
 	'JV_POKER_CHIPS_PF'					=> 'chips: %s',
@@ -124,7 +124,7 @@ $lang = array_merge($lang, [
 	'JV_POKER_PLAYING_ROOM_USER'		=> 'Er is momenteel %s kamer in gebruik, met een totaal van %s gebruiker.',
 	'JV_POKER_PLAYING_ROOM_USERS'		=> 'Er is momenteel %s kamer in gebruik, met een totaal van %s gebruikers.',
 	'JV_POKER_PLAYING_TIMES'			=> 'Totale speel tijd: <strong>%s</strong>',
-	'JV_POKER_POINTS_BALANCE'			=> '%s balans: <strong>%s</strong>',
+	'JV_POKER_POINTS_BALANCE'			=> '%s saldo: <strong>%s</strong>',
 	'JV_POKER_POINTS_EXCHANGE_EXPLAIN'	=> 'Voer het bedrag in dat je wil ruilen %s.',
 	'JV_POKER_POINTS_EXCHENGE_SUCCESS'	=> '%1$s %2$s zijn met succes uitgewisseld.',
 	'JV_POKER_POINTS_SYSTEM_DISABLED'	=> 'De functie Puntensysteem is uitgeschakeld!',

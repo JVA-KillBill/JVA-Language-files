@@ -3,8 +3,8 @@
 *
 * @package phpBB Holdem Póker
 * @version $Id$
-* @author 2011-2025 KillBill
-* @copyright (c) 2014-2025 https://jv-arcade.com/ - https://jv-arcade.com/contact
+* @author 2011-2026 KillBill
+* @copyright (c) 2014-2026 https://jv-arcade.com/ - https://jv-arcade.com/contact
 * @license https://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
 *
 */
@@ -49,7 +49,7 @@ $lang = array_merge($lang, [
 	'ACP_JV_POKER_APPROVAL_PERSONAL_DATA_CONFIRM'	=> 'Ik ga akkoord met het verzenden en opslaan van persoonlijke gegevens.',
 	'ACP_JV_POKER_AVATAR_DISPLAY'					=> 'Toon gebruiker avatars',
 	'ACP_JV_POKER_AVATAR_SIZE'						=> 'Grootte avatar gebruiker',
-	'ACP_JV_POKER_BALANCE'							=> '<span class="poker-title">Saldo:</span> %s',
+	'ACP_JV_POKER_BALANCE'							=> 'Saldo',
 	'ACP_JV_POKER_BET'								=> '<span class="poker-title">Inzet:</span> %s',
 	'ACP_JV_POKER_BG_IMG'							=> 'Toon een achtergrond afbeelding',
 	'ACP_JV_POKER_BLIND_GROWTH'						=> 'Tijd van groeiende blind',
@@ -142,7 +142,7 @@ $lang = array_merge($lang, [
 	'ACP_JV_POKER_PLAYED_TOURNAMENTS_DAY'			=> 'Gespeelde tournooien per dag',
 	'ACP_JV_POKER_POST_PROFILE'						=> 'Weergeven in berichtprofiel',
 	'ACP_JV_POKER_POST_PROFILE_EXPLAIN'				=> 'Bepaalt of de pokerstatistieken al dan niet worden weergegeven in het profiel van de gebruiker.',
-	'ACP_JV_POKER_POT'								=> '<strong>Gemeenschappelijke Pot:</strong> %s',
+	'ACP_JV_POKER_POT'								=> '<strong>Pot:</strong> %s',
 	'ACP_JV_POKER_PRACTICE_IPCHECK'					=> 'IP-controle in de praktijkkamer',
 	'ACP_JV_POKER_PRACTICE_IPCHECK_EXPLAIN'			=> 'Je hebt ook de mogelijkheid om een IP-check te doen in de praktijkkamer.<br>Houd er rekening mee dat dit alleen werkt als de IP-controle is ingeschakeld.',
 	'ACP_JV_POKER_PRIVACY_POLICY_CONFIRM'			=> 'De %s“Privacy Policy”%s is zorgvuldig gelezen en aanvaard.',
@@ -388,12 +388,19 @@ $lang = array_merge($lang, [
 	'UCLOG_POKER_EXC_CHIPS_TO_POINTS'				=> '<strong>Chips ingewisseld voor %s</strong><br>» Saldo: %s, bedrag: %s, nieuw saldo: %s',
 	'UCLOG_POKER_EXC_CHIPS_TO_POINTS_COST'			=> '<strong>Chips ingewisseld voor %s</strong><br>» Saldo: %s, bedrag: %s, kosten: %s, nieuw saldo: %s',
 	'UCLOG_POKER_EXC_POINTS_TO_CHIPS'				=> '<strong>%s ingewisseld voor chips</strong><br>» Saldo: %s, bedrag: %s, nieuw saldo: %s',
+	'UCLOG_POKER_RESET_RETAIN_CHIPS'				=> '<strong>Reset Poker</strong><br>» Behouden saldo %s',
 	'UCLOG_POKER_ROOM_JP_TICKET'					=> '<strong>JackPot ticket aankoop in kamer #%s</strong><br>» Saldo: %s, JP ticketprijs: %s, nieuw saldo: %s',
 	'UCLOG_POKER_ROOM_RE_BUY'						=> '<strong>Top off in kamer #%s</strong><br>» Saldo: %s, toe te voegen bedrag: %s, nieuw saldo: %s',
 	'UCLOG_POKER_ROOM_RE_BUY_JP_TICKET'				=> '<strong>Top off en JackPot-ticket kopen in kamer #%s</strong><br>» Saldo: %s, top off bedrag: %s, JP-ticket: %s, nieuw saldo: %s'
-	'UCLOG_POKER_ROOM_SITDOWN'						=> '<strong>Zit in kamer #%s</strong><br>» Balans: %s, Buy-in bedrag: %s, nieuwe balans: %s',
-	'UCLOG_POKER_ROOM_STANDUP'						=> '<strong>Sta op uit kamer #%s</strong><br>» Saldo: %s, Cash-out bedrag: %s, nieuw saldo: %s',
-	'UCLOG_POKER_ROOM_STANDUP_LOST'					=> '<strong>Opstaan uit kamer #%s met 0 chips</strong><br>» Saldo: %s',
+	'UCLOG_POKER_ROOM_SITDOWN'						=> '<strong>Zit in kamer #%s</strong><br>» Saldo: %s, Buy-in bedrag: %s, nieuw saldo: %s',
+	'UCLOG_POKER_ROOM_STANDUP'						=> '<strong>Opstaan uit kamer #%s</strong><br>» Saldo: %s, Cash-out bedrag: %s, nieuw saldo: %s',
+	'UCLOG_POKER_ROOM_STANDUP_DISCONNECT'			=> '<strong>Offline speler stond op uit kamer #%s</strong><br>» Saldo: %s, Cash-out bedrag: %s, nieuw saldo: %s',
+	'UCLOG_POKER_ROOM_STANDUP_INACTIVE'				=> '<strong>Inactieve speler stond op uit kamer #%s</strong><br>» Saldo: %s, Cash-out bedrag: %s, nieuw saldo: %s',
+	'UCLOG_POKER_ROOM_STANDUP_LOST'					=> '<strong>Opstaan uit kamer #%s</strong><br>» Saldo: %s',
 	'UCLOG_POKER_ROOM_STANDUP_OFFLINE'				=> '<strong>Offline spel gestopt in kamer #%s, dus de speler stond automatisch op</strong><br>» Saldo: %s, terugbetaling: %s, nieuw saldo: %s',
+	'UCLOG_POKER_ROOM_STANDUP_TOUR_LOST'			=> '<strong>Opstaan van kamer #%s, is het toernooi verloren</strong><br>» Saldo: %s',
+	'UCLOG_POKER_ROOM_STANDUP_TOUR_LOST_DISCONNECT'	=> '<strong>Offline speler stond op uit kamer #%s, en verloor het toernooi</strong><br>» Saldo: %s',
+	'UCLOG_POKER_ROOM_STANDUP_TOUR_LOST_INACTIVE'	=> '<strong>Inactieve speler stond op uit kamer #%s, en verloor het toernooi</strong><br>» Saldo: %s',
+	'UCLOG_POKER_ROOM_STANDUP_TOUR_WINNER'			=> '<strong>Opstaan van kamer #%s</strong><br>» Saldo: %s, Toernooiprijs: %s, nieuw saldo: %s',
 	'UCLOG_POKER_ROOM_WIN_JP'						=> '<strong>JackPot gewonnen in kamer #%s</strong><br>» Saldo: %s, winst: %s, nieuw saldo: %s',
 ]);
