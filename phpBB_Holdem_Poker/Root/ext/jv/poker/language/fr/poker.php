@@ -191,7 +191,7 @@ $lang = array_merge($lang, [
 	],
 	'JV_POKER_TOTAL_DATA'				=> 'Un total de <strong>%s</strong> utilisateurs ont joué un total de <strong>%s</strong> mains.<br>Temps total passé à jouer <strong>%s</strong>',
 	'JV_POKER_TOTAL_MSG'				=> 'Total des messages %s',
-	'JV_POKER_TOTAL_TOURS'				=> 'Total du tournois (%s)',
+	'JV_POKER_TOTAL_TOURS'				=> 'Total des tournois (%s)',
 	'JV_POKER_TOURNAMENT'				=> 'Tournoi',
 	'JV_POKER_TOURNAMENT_ROOM'			=> 'Salle de tournoi',
 	'JV_POKER_TOURNAMENT_ROOMS'			=> 'Salles de tournoi',
