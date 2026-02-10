@@ -190,7 +190,6 @@ $lang = array_merge($lang, [
 		2								=> '%s versenyt nyert'
 	],
 	'JV_POKER_TOTAL_DATA'				=> 'Összesen <strong>%s</strong> felhasználó játszott eddig, összesen <strong>%s</strong> partit játszottak le.<br>Játékra fordított idő összesen: <strong>%s</strong>',
-	'JV_POKER_TOTAL_DATA_CHIPS'			=> 'Összes zseton: <strong>%s</strong>',
 	'JV_POKER_TOTAL_MSG'				=> 'Összes üzenet %s',
 	'JV_POKER_TOTAL_TOURS'				=> 'Összes verseny (%s)',
 	'JV_POKER_TOURNAMENT'				=> 'Verseny',
