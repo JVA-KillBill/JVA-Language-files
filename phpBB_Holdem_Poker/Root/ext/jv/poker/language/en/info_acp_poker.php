@@ -353,6 +353,7 @@ $lang = array_merge($lang, [
 	'JV_POKER_ROOM_STOP_BY'							=> 'Stopped by: %s',
 	'JV_POKER_ROYALFLUSH'							=> 'Royal Flush',
 	'JV_POKER_STOOD_UP'								=> 'Stood up',
+	'JV_POKER_LEFT_TOURNAMENT'						=> 'Left the tournament',
 	'JV_POKER_STRAIGHT'								=> 'Straight',
 	'JV_POKER_STRAIGHTFLUSH'						=> 'Straight Flush',
 	'JV_POKER_TURN'									=> 'Turn',
