@@ -721,7 +721,7 @@ $lang = array_merge($lang, [
 	'ARCADE_LEAST_POPULAR_HEADER'						=> 'Legkevesebbet játszott játékok',
 	'ARCADE_LEAST_POPULAR_HEADER_EXPLAIN'				=> 'Legkevesebbet játszott játékok megjelenítésének mennyisége.',
 	'ARCADE_LEFT_TO_RIGHT'								=> 'Balról » jobbra',
-	'ARCADE_LICENSE'									=> 'Licensz',
+	'ARCADE_LICENSE'									=> 'Licenc',
 	'ARCADE_LIMIT_PLAY'									=> 'Játszás limitálása',
 	'ARCADE_LIMIT_PLAY_BOTH'							=> 'Mindkét',
 	'ARCADE_LIMIT_PLAY_DAYS'							=> 'Napok száma',
@@ -1430,7 +1430,7 @@ Ez a kiterjesztés is adatokat küld a %1$s weboldalra minden játék elindítá
 Továbbá mentésre kerülnek a játszások száma és az első és utolsó játszás dátuma.<br><br>
 <span class="arcade_attent">A „%4$s” kijelenti, hogy a fórumba regisztrált felhasználók tevékenységei nem lesznek nyomon követve továbbá nem gyűjt és nem is tárol semmilyen személyes adatot.</span>',
 	'JVA_SS_LAST_PLAY_DATE'								=> 'Utolsó játszás dátuma',
-	'JVA_SS_LICENSE_CONFIRM'							=> 'A %s„Licenszet”%s figyelmesen elolvastam és betartom',
+	'JVA_SS_LICENSE_CONFIRM'							=> 'A %s„Licencet”%s figyelmesen elolvastam és betartom',
 	'JVA_SS_NEW_KEY'									=> 'Új kulcs megadása',
 	'JVA_SS_NOT_ACTIVATED'								=> 'A „phpBB Arcade” nincs aktiválva!',
 	'JVA_SS_NOT_ACTIVATED_INFO'							=> 'A „phpBB Arcade” még nem aktiválta az alapító. Amint aktiválva lesz számodra is elérhető lesz a „phpBB Arcade”.',

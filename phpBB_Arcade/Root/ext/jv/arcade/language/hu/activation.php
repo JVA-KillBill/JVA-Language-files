@@ -161,7 +161,7 @@ Továbbá a megadott aktiváló kulcsból megtudhatjuk, hogy az érintett webold
 					<li>Ha egy játék típus nem támogatott.</li>
 					<li>Ha egy weboldal eléri a napi limitet.</li>
 					<li>Aktivációs kulcs lejárt. Ebben az esetben újra kell aktiválni a szoftvert, az adminisztrátori vezérlőpultban a „Teszt” vagy az „Ingyenes” kulccsal, amennyiben rendelkezünk új privát kulccsal, akkor azt használjuk fel.</li>
-					<li>A szoftvert használója megszegi a <strong>„<a onclick="window.open(this.href); return false;" href="%4$s" title="JVA Licensz">Licenc</a>”</strong> szerződést, vagy egy <strong>nem regisztrált</strong> weboldalon használják. Mindkét esetben letiltásra kerülhet a szoftver használata.</li>
+					<li>A szoftvert használója megszegi a <strong>„<a onclick="window.open(this.href); return false;" href="%4$s" title="JVA Licenc">Licenc</a>”</strong> szerződést, vagy egy <strong>nem regisztrált</strong> weboldalon használják. Mindkét esetben letiltásra kerülhet a szoftver használata.</li>
 				</ol>
 			</li>
 		</ol>
@@ -179,5 +179,5 @@ Továbbá a megadott aktiváló kulcsból megtudhatjuk, hogy az érintett webold
 	<li>A „JVA Game Intro” localhost-on való használata nem támogatott, azonban a szoftver futtatható. A localhost-on a várakozási idő alapból 5 másodpercre van beállítva.</li>
 </ul>',
 	'ACP_PHPBB_ARCADE_SYSTEM_INSTRUCTION'			=> 'phpBB Arcade Instrukció',
-	'ACP_PHPBB_ARCADE_SYSTEM_INSTRUCTION_EXPLAIN'	=> 'A „phpBB Arcade” szoftvert a „%1$s” weboldal <a onclick="window.open(this.href); return false;" href="%3$s" title="JVA Licensz">licenszeli</a> és tartja karban.'
+	'ACP_PHPBB_ARCADE_SYSTEM_INSTRUCTION_EXPLAIN'	=> 'A „phpBB Arcade” szoftvert a „%1$s” weboldal <a onclick="window.open(this.href); return false;" href="%3$s" title="JVA Licenc">licenceli</a> és tartja karban.'
 ]);
