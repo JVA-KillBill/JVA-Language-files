@@ -1,5 +1,21 @@
 # Changelog
 
+## 7.8.4 - 2026-03-26
+
+- [Added] Digital offline license signing only for software activated with a private key.
+
+- [Modified] If the license verification server at "https://connect.jv-arcade.com/" goes offline, software activated with a "free" key will not be able to play games until the server is available again.
+
+- [Fixed] In the game installation file of embedded games, if the "game_inherit" value contains an accented character, the game not load.
+- [Fixed] During installation verification, if we enable database repair, we get an incorrect caching instruction for missing configurations.
+
+- [Modified] Modernization and optimization of Javascript codes.
+
+- [Updated] Ruffle emulator (2026-03-26) for release.
+
+Deleted folder:
+[ROOT]/arcade/assets/javascript
+
 ## 7.8.3 - 2026-01-12
 
 - [Modified] Modernization and optimization of Javascript codes.
