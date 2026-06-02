@@ -1,10 +1,23 @@
 # Changelog
 
+## 7.8.5 - 2026-xx-xx
+
+- [Fixed] Display activity rank image at the bottom of the web page.
+
+- [Modified] The maximum timeout for the license check when starting the game has been maximized to 5 seconds when using a free key, and 3 seconds when using a private key.
+- [Modified] If the license check is unavailable when starting the game, we will give you the option to try again.
+
+- [Added] Display activity rank image in a new window.
+- [Added] We have restored the conversion of "xml" type installation files of old flash games.
+- [Added] When unpacking old flash games, the contents of the "gamedata" folder are automatically created and moved to the "gd" folder.
+- [Added] When unpacking old flash games and creating the updated phpBB Arcade game installation file, we prioritize the gif format for images.
+- [Added] For games that do not have a phpBB Arcade game installation file, we will attempt to determine whether the game.tar contains flash or html5 game files.
+
 ## 7.8.4 - 2026-03-26
 
 - [Added] Digital offline license signing only for software activated with a private key.
 
-- [Modified] If the license verification server at "https://connect.jv-arcade.com/" goes offline, software activated with a "free" key will not be able to play games until the server is available again.
+- [Modified] If the license verification server at "https://connect.jv-arcade.com/" goes unavailable, software activated with a "free" key will not be able to play games until the server is available again.
 
 - [Fixed] In the game installation file of embedded games, if the "game_inherit" value contains an accented character, the game not load.
 - [Fixed] During installation verification, if we enable database repair, we get an incorrect caching instruction for missing configurations.
