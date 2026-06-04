@@ -1,5 +1,15 @@
 # Changelog
 
+## 1.0.20 - 2026-06-04
+
+- [Fixed] Retrieving multiple extension versions at the same time yielded identical values.
+
+- [Added] New javascript functions: addParamToUrl.
+
+- [Modified] The Points.NumberFormat function can be supplemented in the second argument to specify how many decimal places the value should be displayed, the default setting is 2.
+- [Modified] In the case of phpBB installation and update, attempting to automatically enable the extension should not return an error message.
+- [Modified] Requirement phpBB 3.3.16 or later.
+
 ## 1.0.19 - 2025-06-23
 
 - [Added] New language variable: no_internet.
