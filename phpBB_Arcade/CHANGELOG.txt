@@ -1,17 +1,24 @@
 # Changelog
 
-## 7.8.5 - 2026-xx-xx
+## 7.8.5 - 2026-06-04
 
+- [Fixed] Play in a new window - In case of error messages, the window was not resized.
 - [Fixed] Display activity rank image at the bottom of the web page.
+- [Fixed] Jumping to category/game position gave an error in MySql 8 version.
 
+- [Modified] Verifying phpBB Arcade installation - Added a "Test again" button if there is an error when verifying files.
 - [Modified] The maximum timeout for the license check when starting the game has been maximized to 5 seconds when using a free key, and 3 seconds when using a private key.
 - [Modified] If the license check is unavailable when starting the game, we will give you the option to try again.
+- [Modified] Requirement JVA - Core 1.0.20 or later.
+- [Modified] Requirement phpBB 3.3.16 or later.
 
 - [Added] Display activity rank image in a new window.
 - [Added] We have restored the conversion of "xml" type installation files of old flash games.
 - [Added] When unpacking old flash games, the contents of the "gamedata" folder are automatically created and moved to the "gd" folder.
 - [Added] When unpacking old flash games and creating the updated phpBB Arcade game installation file, we prioritize the gif format for images.
 - [Added] For games that do not have a phpBB Arcade game installation file, we will attempt to determine whether the game.tar contains flash or html5 game files.
+
+- [Updated] Ruffle emulator (2026-06-04) for release.
 
 ## 7.8.4 - 2026-03-26
 
