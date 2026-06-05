@@ -8,7 +8,7 @@
 * For full copyright and license information, please see
 * the docs/CREDITS.txt file.
 *
-* Magyar fordítás (c) 2007-2022 „Magyar phpBB Közösség fordítók”,
+* Magyar fordítás (c) 2007-2026 „Magyar phpBB Közösség fordítók”,
 * http://phpbb.hu
 *
 * $Id$
@@ -121,7 +121,7 @@ $lang = array_merge($lang, array(
 	'MAX_ATTACHMENTS_PM'			=> 'Maximum csatolható állományok száma privát üzenetenként',
 	'MAX_EXTGROUP_FILESIZE'			=> 'Maximum állományméret',
 	'MAX_IMAGE_SIZE'				=> 'Maximum képméret',
-	'MAX_IMAGE_SIZE_EXPLAIN'		=> 'Legfeljebb ekkorák lehetnek a kép csatolmányok. Az ellenőrzés kikapcsolásához állítsd mindkét értéket 0-ra.',
+	'MAX_IMAGE_SIZE_EXPLAIN'		=> 'Legfeljebb ekkorák lehetnek a kép csatolmányok. A phpBB megpróbálja automatikusan átméretezni a képet feltöltés előtt a megadott méretre. Az ellenőrzés és az automatikus átméretezés kikapcsolásához állítsd mindkét értéket 0-ra.',
 	'MAX_THUMB_WIDTH'				=> 'Maximum kiskép szélesség/magasság pixelben',
 	'MAX_THUMB_WIDTH_EXPLAIN'		=> 'A generált kiskép nem fogja túllépni az itt megadott szélességet.',
 	'MIN_THUMB_FILESIZE'			=> 'Minimum kiskép állományméret',

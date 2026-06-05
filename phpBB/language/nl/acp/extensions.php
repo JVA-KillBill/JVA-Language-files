@@ -47,7 +47,7 @@ $lang = array_merge($lang, array(
 
 	'DETAILS'				=> 'Details',
 
-	'EXTENSIONS_NOT_INSTALLED'	=> 'Niet geïnstalleerde extensies',
+	'EXTENSIONS_NOT_INSTALLED'	=> 'Niet geinstalleerde extensies',
 	'EXTENSIONS_DISABLED'	=> 'Uitgeschakelde Extensies',
 	'EXTENSIONS_ENABLED'	=> 'Ingeschakelde Extensies',
 

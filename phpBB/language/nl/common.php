@@ -357,7 +357,7 @@ $lang = array_merge($lang, array(
 	'HIDE_ME'						=> 'Mij deze sessie niet weergeven in de lijst met online gebruikers',
 	'HOURS'							=> 'Uren',
 	'HOME'							=> 'Home',
-	'HTTP_HANDLER_NOT_FOUND'		=> 'De bewerking kon niet worden voltooid omdat de cURL PHP-extensie en allow_url_fopen PHP ini-instelling zijn uitgeschakeld en er geen andere HTTP-handler kon worden gevonden.',
+	'HTTP_HANDLER_NOT_FOUND'		=> 'De bewerking kon niet worden voltooid omdat de cURL PHP-extensie en de allow_url_fopen PHP ini-instelling zijn uitgeschakeld en er geen andere HTTP-handler kon worden gevonden.',
 
 	'ICQ'						=> 'ICQ',
 	'IF'						=> 'Als',

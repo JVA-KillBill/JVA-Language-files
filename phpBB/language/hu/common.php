@@ -8,7 +8,7 @@
 * For full copyright and license information, please see
 * the docs/CREDITS.txt file.
 *
-* Magyar fordítás (c) 2007-2024 „Magyar phpBB Közösség fordítók”,
+* Magyar fordítás (c) 2007-2025 „Magyar phpBB Közösség fordítók”,
 * http://phpbb.hu
 *
 * $Id$
@@ -356,7 +356,7 @@ $lang = array_merge($lang, array(
 	'HIDE_ME'						=> 'Bejelentkezés rejtettként',
 	'HOURS'							=> 'óra',
 	'HOME'							=> 'Főoldal',
-	'HTTP_HANDLER_NOT_FOUND'		=> 'A műveletet nem lehetett végrehajtani, mert a PHP-cURL kiterjesztés és a PHP allow_url_fopen PHP ini beállítás le van tiltva, és nem található más HTTP-kezelő.',
+	'HTTP_HANDLER_NOT_FOUND'		=> 'A műveletet nem sikerült befejezni, mert a cURL PHP kiterjesztés és az allow_url_fopen PHP ini beállítás le lett tiltva, és nem található másik HTTP-kezelő.',
 
 	'ICQ'						=> 'ICQ',
 	'IF'						=> 'Feltétel',

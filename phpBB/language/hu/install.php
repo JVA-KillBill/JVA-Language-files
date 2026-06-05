@@ -8,7 +8,7 @@
 * For full copyright and license information, please see
 * the docs/CREDITS.txt file.
 *
-* Magyar fordítás (c) 2007-2023 „Magyar phpBB Közösség fordítók”,
+* Magyar fordítás (c) 2007-2026 „Magyar phpBB Közösség fordítók”,
 * http://phpbb.hu
 *
 * $Id$
@@ -86,6 +86,7 @@ $lang = array_merge($lang, array(
 
 	'INSTALL_PHPBB_INSTALLED'		=> 'phpBB már telepítve van.',
 	'INSTALL_PHPBB_NOT_INSTALLED'	=> 'phpBB még nincs telepítve.',
+	'INSTALL_RESTART'				=> 'Telepítés újrakezdése',
 ));
 
 // Requirements translation

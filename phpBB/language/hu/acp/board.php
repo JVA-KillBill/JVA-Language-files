@@ -8,7 +8,7 @@
 * For full copyright and license information, please see
 * the docs/CREDITS.txt file.
 *
-* Magyar fordítás (c) 2007-2024 „Magyar phpBB Közösség fordítók”,
+* Magyar fordítás (c) 2007-2026 „Magyar phpBB Közösség fordítók”,
 * http://phpbb.hu
 *
 * $Id$
@@ -309,7 +309,7 @@ $lang = array_merge($lang, array(
 	'ACP_FEED_OVERALL_FORUMS_EXPLAIN'	=> 'Bekapcsolja az „Összes fórum” csatornát, amely a fórumok listáját jeleníti meg..',
 
 	'ACP_FEED_HTTP_AUTH'				=> 'HTTP azonosítás engedélyezése',
-	'ACP_FEED_HTTP_AUTH_EXPLAIN'		=> 'Engedélyezi a HTTP azonosítást, aminek segítségével a felhasználók a vendég felhasználók elől elzárt tartalmakhoz is hozzáférnek, ha a csatorna URL-jét kiegészítik a <samp>auth=http</samp> paraméterrel. Kérjük, vedd figyelembe, hogy egyes PHP környezetekben további változtatásokat kell elvégezni a .htaccess állományban. A teendők megtalálhatóak ebben az állományban.',
+	'ACP_FEED_HTTP_AUTH_EXPLAIN'		=> 'Engedélyezi a HTTP azonosítást, aminek segítségével a felhasználók a vendég felhasználók elől elzárt tartalmakhoz is hozzáférnek, ha a csatorna URL-jét kiegészítik a <samp>auth=http</samp> paraméterrel. Kérjük, vedd figyelembe, hogy egyes PHP beállításoknál esetleg további változtatásokat kell elvégezni a .htaccess állományban. A teendők megtalálhatóak ebben az állományban. A HTTP azonosítás csak titkosított (HTTPS) kapcsolatokkal használható.',
 	'ACP_FEED_ITEM_STATISTICS'			=> 'Bejegyzés statisztikák',
 	'ACP_FEED_ITEM_STATISTICS_EXPLAIN'	=> 'Különböző statisztikai adatokat jelenít meg a csatorna bejegyzései alatt.<br>(Például szerző, dátum, válaszok száma, megtekintések száma)',
 	'ACP_FEED_EXCLUDE_ID'				=> 'Kizárandó fórumok',
@@ -505,8 +505,8 @@ $lang = array_merge($lang, array(
 	'SMILIES_PATH_EXPLAIN'		=> 'A phpBB-d gyökérkönyvtárától viszonyított elérési út, pl. <samp>images/smilies</samp>.',
 	'UPLOAD_ICONS_PATH'			=> 'Kiterjesztéscsoport ikonok elérési útja',
 	'UPLOAD_ICONS_PATH_EXPLAIN'	=> 'A phpBB-d gyökérkönyvtárától viszonyított elérési út, pl. <samp>images/upload_icons</samp>.',
-	'USE_SYSTEM_CRON'			=> 'Ismétlődő feladatok futtatása a rendszer cron-ból',
-	'USE_SYSTEM_CRON_EXPLAIN'	=> 'Ha ki van kapcsolva, a phpBB gondoskodik az ismétlődő feladatok rendszeres futtatásáról. Ha be van kapcsolva, a phpBB nem fog egy feladatot sem ütemezetten futtatni. Ekkor egy rendszer adminisztrátornak kell a <code>bin/phpbbcli.php cron:run</code> utasítást a rendszer feladatütemező eszközében rendszeres futtatásra beállítania (pl. minden 5 percben).',
+	'USE_SYSTEM_CRON'			=> 'Ismétlődő feladatok futtatása az operációs rendszer cron-ból',
+	'USE_SYSTEM_CRON_EXPLAIN'	=> 'Ha le van tiltva, a phpBB gondoskodik az ismétlődő feladatok rendszeres futtatásáról. Ha engedélyezett, a phpBB nem fog egy feladatot sem ütemezetten futtatni. Ekkor egy rendszer adminisztrátornak kell a <code>bin/phpbbcli.php cron:run</code> utasítást az operációs rendszer feladatütemező eszközében rendszeres futtatásra beállítania (pl. minden 5 percben).',
 ));
 
 // Security Settings

@@ -298,7 +298,8 @@ $lang = array_merge($lang, array(
 	'ACP_FEED_OVERALL_FORUMS_EXPLAIN'	=> 'Schakelt de “Alle forums”-feed in, welke een lijst van forums weergeeft.',
 
 	'ACP_FEED_HTTP_AUTH'				=> 'HTTP-Authenticatie toestaan',
-	'ACP_FEED_HTTP_AUTH_EXPLAIN'		=> 'Schakelt HTTP-authenticatie in, welke toestaat gebruikers inhoud te ontvangen die verborgen is voor gasten door het toevoegen van de <samp>auth=http</samp> parameter aan de feed URL. Let op dat sommige PHP installaties extra wijzigingen vereisen aan het .htaccess bestand. Instructies kunnen gevonden worden in dat bestand.',
+	'ACP_FEED_HTTP_AUTH_EXPLAIN'		=> 'Schakelt HTTP-authenticatie in, welke toestaat gebruikers inhoud te ontvangen die verborgen is voor gasten door het toevoegen van de <samp>auth=http</samp> parameter aan de feed URL. Let op dat sommige PHP installaties extra wijzigingen vereisen aan het .htaccess bestand. Instructies kunnen gevonden worden in dat bestand. Let op dat HTTP authentication alleen onderteund wordt over een beveiligde verrbinding.',
+
 	'ACP_FEED_ITEM_STATISTICS'			=> 'Item statistieken',
 	'ACP_FEED_ITEM_STATISTICS_EXPLAIN'	=> 'Geeft individuele statistieken weer onder de feed-items<br>(bijv. geplaatst door, datum en tijd, reacties, weergaves)',
 	'ACP_FEED_EXCLUDE_ID'				=> 'Deze forums uitsluiten',
@@ -493,8 +494,8 @@ $lang = array_merge($lang, array(
 	'SMILIES_PATH_EXPLAIN'		=> 'Pad in je phpBB hoofdmap, bijv. <samp>images/smilies</samp>.',
 	'UPLOAD_ICONS_PATH'			=> 'Extensiegroep-iconen opslagpad',
 	'UPLOAD_ICONS_PATH_EXPLAIN'	=> 'Pad in je phpBB hoofdmap, bijv. <samp>images/upload_icons</samp>.',
-	'USE_SYSTEM_CRON'			=> 'Draai periodieke taken van systeem cron',
-	'USE_SYSTEM_CRON_EXPLAIN'	=> 'Als dit uitgeschakeld is, zal phpBB ervoor zorgen dat periodieke taken automatisch worden uitgevoerd. Als phpBB is ingeschakeld, zal het zelf geen periodieke taken plannen; Een systeembeheerder moet ervoor zorgen dat <code>bin/phpbbcli.php cron:run</code> met regelmatige tussenpozen (bijvoorbeeld elke 5 minuten) wordt uitgevoerd door de CRON-faciliteit van het besturingssysteem.',
+	'USE_SYSTEM_CRON'			=> 'Draai periodieke taken van het van het besturingssysteem cron',
+	'USE_SYSTEM_CRON_EXPLAIN'	=> 'Wanneer uitgeschakeld zal phpBB periodieke taken instellen om deze automatisch te laten draaien. Wanneer ingeschakeld zal phpBB geen periodieke taken instellen; een systeembeheerder zal moeten regelen dat <code>bin/phpbbcli.php cron:run</code> opgeroepen wordt door de systeemcron-voorziening op reguliere interval (bijv. iedere 5 minuten).',
 ));
 
 // Security Settings
@@ -540,8 +541,8 @@ $lang = array_merge($lang, array(
 	'PASSWORD_TYPE_EXPLAIN'			=> 'Bepaalt hoe complex een wachtwoord moet zijn om goedgekeurd te worden, volgende opties bevatten de vorige.',
 	'PASS_TYPE_ALPHA'				=> 'Moet letters en cijfers bevatten',
 	'PASS_TYPE_ANY'					=> 'Geen vereisten',
-	'PASS_TYPE_CASE'				=> 'Moet gemengde letters, cijfers en symbolen bevatten',
-	'PASS_TYPE_SYMBOL'				=> 'Moet symbolen bevatten',
+	'PASS_TYPE_CASE'				=> 'Moeten gewone letters en hoofdletters bevatten',
+	'PASS_TYPE_SYMBOL'				=> 'Moet gewone letters, hoofdletters, nummers en symbolen bevatten',
 	'REF_HOST'						=> 'Alleen host valideren',
 	'REF_PATH'						=> 'Ook pad valideren',
 	'REFERRER_VALID'				=> 'Valideer referentie',

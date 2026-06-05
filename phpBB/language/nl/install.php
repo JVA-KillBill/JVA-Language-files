@@ -84,6 +84,7 @@ $lang = array_merge($lang, array(
 
 	'INSTALL_PHPBB_INSTALLED'		=> 'phpBB is al geïnstalleerd.',
 	'INSTALL_PHPBB_NOT_INSTALLED'	=> 'phpBB is nog niet geïnstalleerd.',
+	'INSTALL_RESTART'				=> 'Herstart installatie',
 ));
 
 // Requirements translation
